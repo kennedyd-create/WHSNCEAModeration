@@ -51,6 +51,11 @@ h1{font-size:1.45rem;font-weight:800;margin:.1rem 0 0;letter-spacing:-.01em;text
 .icon-btn{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:.5rem;
   width:2.5rem;height:2.5rem;font-size:1.05rem;cursor:pointer;flex:none}
 .icon-btn:hover{background:rgba(255,255,255,.2)}
+.hdr-acts{display:flex;gap:.5rem;align-items:center;flex:none}
+.reset-btn{font:inherit;font-size:.8125rem;font-weight:800;padding:.55rem 1.1rem;border-radius:.5rem;cursor:pointer;
+  background:transparent;color:#fff;border:2px solid #ff8a8e}
+.reset-btn:hover{background:#DB2026;border-color:#DB2026}
+.reset-btn.arm{background:#DB2026;border-color:#DB2026}
 
 main{padding-block:1.25rem 7rem;display:grid;gap:1rem}
 
@@ -185,7 +190,10 @@ footer p{max-width:60ch;margin:.4rem auto}
       <h1>NCEA Moderation Assistant</h1>
       <p class="sub">A second reader for internally assessed work. It advises; you decide.</p>
     </div>
+    <div class="hdr-acts">
+    <button id="reset" class="reset-btn" type="button" title="Clear everything and start again">Reset</button>
     <button id="theme" class="icon-btn" aria-label="Switch light or dark mode" title="Switch light or dark mode">🌙</button>
+    </div>
   </div>
 </header>
 
@@ -685,6 +693,31 @@ function build(){
 }
 window.composePrompt = composePrompt;
 
+/* ---- reset: two clicks, so a stray tap can't wipe a half-built setup ---- */
+let resetTimer = null;
+$('reset').onclick = () => {
+  const b = $('reset');
+  if(!b.classList.contains('arm')){
+    b.classList.add('arm'); b.textContent = 'Click again to reset';
+    resetTimer = setTimeout(() => { b.classList.remove('arm'); b.textContent = 'Reset'; }, 3500);
+    return;
+  }
+  clearTimeout(resetTimer);
+  try{ Object.keys(localStorage).filter(k => k.startsWith('whs_mod_') && k !== 'whs_mod_theme').forEach(k => localStorage.removeItem(k)); }catch(e){}
+  ['a-name','a-focus','notes'].forEach(f => $(f).value = '');
+  $('ids').value='names'; $('detail').value='standard'; $('batch').value='5'; $('grades').value='band';
+  document.querySelectorAll('#attach input').forEach(i => i.checked = ['schedule','task','work'].includes(i.dataset.a));
+  comps = []; $('comps').innerHTML = ''; $('comp-warn').hidden = true;
+  $('brief').hidden = true; $('brief').innerHTML = '';
+  $('brief-toggle').textContent = '▸ Show the standard, clarifications, moderator report and exemplar notes';
+  $('pmeta').textContent = '';
+  document.documentElement.style.removeProperty('--fac'); document.documentElement.style.removeProperty('--fac-light');
+  b.classList.remove('arm'); b.textContent = 'Reset ✓';
+  setTimeout(() => { b.textContent = 'Reset'; }, 1500);
+  pickLevel('3');
+  window.scrollTo({ top:0, behavior:'smooth' });
+};
+
 /* ---- copy ---- */
 async function copyPrompt(){
   const t = $('prompt'); if(!t.value) return false;
@@ -699,7 +732,7 @@ $('copy').onclick = async () => {
 };
 document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
 
-$('build').textContent = 'Build 1 · Level 3 History pilot · NZQA sources checked 25 October 2026';
+$('build').textContent = 'Build 2 · Level 3 History pilot · NZQA sources checked 25 October 2026';
 renderLevels();
 pickLevel('3');
 </script>
