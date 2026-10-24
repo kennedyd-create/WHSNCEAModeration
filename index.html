@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>WHS Moderation Assistant</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap">
+<!--DATA-->
+<script src="mod-l3.js?v=1"></script>
+<!--/DATA-->
+<style>
+/* Layout: a single working column of numbered steps, the prompt docked at the end.
+   Tokens follow the WHS teacher site: school navy, gold, faculty colour as the wash. */
+:root{
+  --page:#eef2f7; --surface:#ffffff; --surface-2:#f6f9fc; --surface-3:#e9eff7;
+  --ink:#16213a; --ink-soft:#56627a; --ink-faint:#7b879c;
+  --line:#dbe3ee; --line-strong:#c3cfdf;
+  --navy:#002066; --brand-ink:#002066; --gold:#a8843f; --gold-wash:#f6efe1;
+  --warn-bg:#fff4e0; --warn-ink:#7a4a00; --ok:#15803d; --bad:#b91c1c;
+  --fac:#7900CC; --fac-light:#F5EFFF;
+  --font:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --page:#070d1a; --surface:#101a2e; --surface-2:#16233c; --surface-3:#1c2b48;
+  --ink:#e4e9f2; --ink-soft:#a0adc2; --ink-faint:#7a879d;
+  --line:#22334f; --line-strong:#33476b;
+  --brand-ink:#a9c1ec; --gold:#dbbb7d; --gold-wash:#2a2416;
+  --warn-bg:#2c2110; --warn-ink:#fcd58a; --ok:#4ade80; --bad:#fca5a5;
+  --fac:#b07ae6; --fac-light:#1c1830; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --page:#070d1a; --surface:#101a2e; --surface-2:#16233c; --surface-3:#1c2b48;
+  --ink:#e4e9f2; --ink-soft:#a0adc2; --ink-faint:#7a879d;
+  --line:#22334f; --line-strong:#33476b;
+  --brand-ink:#a9c1ec; --gold:#dbbb7d; --gold-wash:#2a2416;
+  --warn-bg:#2c2110; --warn-ink:#fcd58a; --ok:#4ade80; --bad:#fca5a5;
+  --fac:#b07ae6; --fac-light:#1c1830; color-scheme:dark; }
+
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--font);background:var(--page);color:var(--ink);line-height:1.55;font-size:15px}
+a{color:var(--brand-ink)}
+.wrap{max-width:68rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* header */
+header{background:linear-gradient(135deg,#002066 0%,#00133d 100%);color:#fff}
+header .wrap{padding-block:1.1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.eyebrow{font-size:.625rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#d9bd84;margin:0}
+h1{font-size:1.45rem;font-weight:800;margin:.1rem 0 0;letter-spacing:-.01em;text-wrap:balance}
+.sub{font-size:.8125rem;color:#c8d4ea;margin:.2rem 0 0}
+.icon-btn{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:.5rem;
+  width:2.5rem;height:2.5rem;font-size:1.05rem;cursor:pointer;flex:none}
+.icon-btn:hover{background:rgba(255,255,255,.2)}
+
+main{padding-block:1.25rem 7rem;display:grid;gap:1rem}
+
+/* panels */
+.panel{background:linear-gradient(178deg,color-mix(in srgb,var(--fac) 5%,var(--surface)),color-mix(in srgb,var(--fac) 10%,var(--surface-2)));
+  border:1px solid color-mix(in srgb,var(--fac) 22%,var(--line));border-left:5px solid var(--fac);
+  border-radius:.9rem;padding:1.1rem 1.2rem;min-width:0}
+.panel.dead{opacity:.45;pointer-events:none}
+.step-h{display:flex;align-items:center;gap:.6rem;font-size:1rem;font-weight:800;color:var(--brand-ink);margin:0 0 .8rem}
+.step-n{display:inline-grid;place-items:center;width:1.6rem;height:1.6rem;border-radius:999px;background:var(--fac);
+  color:#fff;font-size:.75rem;font-weight:900;flex:none}
+.hint{font-size:.8125rem;color:var(--ink-soft);margin:.2rem 0 .7rem;max-width:62ch}
+.lbl{display:block;font-size:.625rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 .3rem}
+.req{color:var(--bad);font-weight:900}
+.opt{color:var(--ink-faint);font-weight:700}
+
+/* notice */
+.notice{background:var(--warn-bg);color:var(--warn-ink);border:1px solid color-mix(in srgb,var(--warn-ink) 30%,transparent);
+  border-radius:.8rem;padding:.9rem 1.1rem;font-size:.8125rem}
+.notice strong{font-weight:800}
+.notice ul{margin:.4rem 0 0;padding-left:1.1rem}
+.notice li{margin-bottom:.25rem}
+
+/* pills */
+.pills{display:flex;flex-wrap:wrap;gap:.45rem}
+.pill{font:inherit;font-weight:700;font-size:.8125rem;padding:.5rem .95rem;border-radius:999px;cursor:pointer;
+  background:color-mix(in srgb,var(--pc,var(--fac)) 12%,var(--surface));color:var(--ink);
+  border:2px solid color-mix(in srgb,var(--pc,var(--fac)) 30%,transparent)}
+.pill:hover{border-color:var(--pc,var(--fac))}
+.pill[aria-pressed="true"]{background:var(--pc,var(--fac));border-color:var(--pc,var(--fac));color:#fff;font-weight:800}
+.pill[disabled]{opacity:.5;cursor:default;border-style:dashed}
+.soon{font-size:.55rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;opacity:.75;margin-left:.2rem}
+.lvl{--pc:#002066}
+:root[data-theme="dark"] .lvl{--pc:#3b6fc4}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .lvl{--pc:#3b6fc4}}
+.row{display:grid;gap:.9rem}
+
+/* standards */
+.stds{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr))}
+.std{font:inherit;text-align:left;cursor:pointer;background:var(--surface);color:var(--ink);border:2px solid var(--line);
+  border-radius:.75rem;padding:.75rem .85rem;display:grid;gap:.3rem}
+.std:hover{border-color:var(--fac)}
+.std[aria-pressed="true"]{border-color:var(--fac);box-shadow:0 0 0 3px color-mix(in srgb,var(--fac) 22%,transparent)}
+.std-top{display:flex;align-items:center;gap:.45rem;font-size:.6875rem}
+.code{font-family:var(--mono);font-weight:700;color:var(--brand-ink)}
+.ref{font-family:var(--mono);color:var(--ink-faint)}
+.badge{font-size:.55rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.12rem .45rem;border-radius:999px;
+  background:var(--warn-bg);color:var(--warn-ink)}
+.cr{margin-left:auto;font-weight:800;color:var(--ink-soft)}
+.std-title{font-size:.875rem;font-weight:700;line-height:1.35}
+.std-ver{font-size:.6875rem;color:var(--ink-faint)}
+
+/* fields */
+.grid2{display:grid;gap:1rem;grid-template-columns:1fr 1fr}
+@media (max-width:760px){.grid2{grid-template-columns:1fr}}
+.field{font:inherit;font-size:.875rem;width:100%;background:var(--surface);color:var(--ink);
+  border:2px solid var(--line-strong);border-radius:.5rem;padding:.5rem .65rem}
+.field:focus{outline:none;border-color:var(--fac);box-shadow:0 0 0 3px color-mix(in srgb,var(--fac) 20%,transparent)}
+textarea.field{resize:vertical;line-height:1.5}
+.sm{font-size:.6875rem;color:var(--ink-soft);margin:.3rem 0 0}
+
+.comps{display:grid;gap:.4rem}
+.comp{display:flex;gap:.4rem;align-items:center}
+.comp .num{font-family:var(--mono);font-size:.75rem;font-weight:700;color:var(--ink-faint);width:1.4rem;flex:none}
+.x{font:inherit;background:none;border:1px solid var(--line-strong);color:var(--ink-soft);border-radius:.4rem;
+  width:2rem;height:2.1rem;cursor:pointer;flex:none}
+.x:hover{border-color:var(--bad);color:var(--bad)}
+.link-btn{font:inherit;font-size:.75rem;font-weight:800;background:none;border:0;color:var(--brand-ink);
+  cursor:pointer;padding:.3rem 0;text-decoration:underline}
+
+.checks{display:grid;gap:.35rem}
+.check{display:flex;gap:.55rem;align-items:flex-start;font-size:.8125rem;cursor:pointer}
+.check input{margin-top:.25rem;width:1rem;height:1rem;flex:none;accent-color:var(--fac)}
+.check small{display:block;color:var(--ink-soft);font-size:.6875rem}
+
+/* briefing */
+.brief-toggle{font:inherit;width:100%;text-align:left;cursor:pointer;font-weight:800;font-size:.875rem;
+  background:var(--surface);color:var(--brand-ink);border:2px dashed var(--line-strong);border-radius:.6rem;padding:.7rem 1rem}
+.brief-toggle:hover{border-color:var(--fac)}
+.brief{margin-top:.8rem;background:var(--surface);border:1px solid var(--line-strong);border-radius:.8rem;overflow:hidden}
+.brief section{padding:.9rem 1.1rem;border-bottom:1px solid var(--line)}
+.brief section:nth-child(even){background:var(--surface-2)}
+.brief section:last-child{border-bottom:0}
+.brief h3{font-size:.6875rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-ink);margin:0 0 .5rem}
+.brief p,.brief li{font-size:.8125rem;margin:0}
+.brief ul{margin:0;padding-left:1.1rem;display:grid;gap:.35rem}
+.bands{display:grid;gap:.6rem;grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:760px){.bands{grid-template-columns:1fr}}
+.band{border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:.5rem;padding:.6rem .7rem;background:var(--surface)}
+:root[data-theme="dark"] .band{border-top-color:#4d7fd6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .band{border-top-color:#4d7fd6}}
+.band b{display:block;font-size:.625rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-ink);margin-bottom:.25rem}
+.ex{border-left:3px solid var(--gold);padding-left:.7rem}
+.ex b{font-size:.75rem}
+.ex .miss{color:var(--ink-soft);margin-top:.25rem}
+.src a{font-size:.8125rem}
+
+/* output */
+.out-panel{border-left-color:var(--gold);background:var(--surface)}
+#prompt{width:100%;font-family:var(--mono);font-size:.6875rem;line-height:1.55;background:var(--surface-2);color:var(--ink);
+  border:1px solid var(--line-strong);border-radius:.6rem;padding:.8rem;min-height:16rem;resize:vertical}
+.acts{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-top:.7rem}
+.btn{font:inherit;font-size:.8125rem;font-weight:800;border-radius:.55rem;padding:.6rem 1.1rem;cursor:pointer;
+  text-decoration:none;display:inline-block;border:2px solid transparent}
+.btn-copy{background:#4338ca;color:#fff;border-color:#4338ca}
+.btn-copy:hover{background:#3730a3}
+.btn-copy.ok{background:var(--ok);border-color:var(--ok)}
+.btn-ai{background:var(--surface);color:var(--ink);border-color:var(--line-strong);font-size:.75rem}
+.btn-ai:hover{border-color:var(--fac)}
+.meta{font-size:.6875rem;color:var(--ink-faint);margin-left:auto;font-variant-numeric:tabular-nums}
+
+.howto{display:grid;gap:.6rem;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:1rem}
+@media (max-width:860px){.howto{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.howto{grid-template-columns:1fr}}
+.how{background:var(--surface-2);border:1px solid var(--line);border-radius:.6rem;padding:.7rem .8rem;font-size:.75rem}
+.how b{display:block;font-size:.8125rem;margin-bottom:.2rem}
+
+.warnline{font-size:.75rem;font-weight:800;color:var(--bad);margin:.3rem 0 0}
+footer{font-size:.6875rem;color:var(--ink-faint);text-align:center;padding-bottom:2rem}
+footer p{max-width:60ch;margin:.4rem auto}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Waiheke High School · Kaiako</p>
+      <h1>NCEA Moderation Assistant</h1>
+      <p class="sub">A second reader for internally assessed work. It advises; you decide.</p>
+    </div>
+    <button id="theme" class="icon-btn" aria-label="Switch light or dark mode" title="Switch light or dark mode">🌙</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="notice" role="note">
+    <strong>Before you paste student work into any AI.</strong>
+    <ul>
+      <li>The Ministry and NZQA position is that AI may support marking but must not replace your professional judgement, and the Ministry discourages relying on it for summative internal marking. Treat every grade this produces as a second opinion to test against your own and your department's.</li>
+      <li>Use your school's approved AI account (for example Gemini signed in with your school Google account), not a personal free account that may train on what you upload.</li>
+      <li>Never include NSNs, and consider initials or codes instead of full names. Step 3 lets you choose.</li>
+    </ul>
+  </div>
+
+  <!-- 1 -->
+  <section class="panel" id="s1">
+    <h2 class="step-h"><span class="step-n">1</span>Level, faculty and subject</h2>
+    <div class="row">
+      <div class="pills" id="levels"></div>
+      <div class="pills" id="faculties" hidden></div>
+      <div class="pills" id="subjects" hidden></div>
+      <p class="hint" id="s1-note" hidden></p>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section class="panel dead" id="s2">
+    <h2 class="step-h"><span class="step-n">2</span>Internal standard</h2>
+    <p class="hint" id="s2-hint">Only internally assessed standards are listed. Pick a subject first.</p>
+    <div class="stds" id="stds"></div>
+  </section>
+
+  <!-- 3 -->
+  <section class="panel dead" id="s3">
+    <h2 class="step-h"><span class="step-n">3</span>Describe this assessment</h2>
+    <p class="hint">These short details go into the prompt so the table has the right columns and the AI judges against your task. Long documents (the schedule, the task sheet, student work) you attach in the AI itself.</p>
+    <div class="grid2">
+      <div class="row">
+        <div>
+          <label class="lbl" for="a-name">Assessment name <span class="opt">optional</span></label>
+          <input id="a-name" class="field" type="text" placeholder="e.g. 13HIS Research Portfolio 2026">
+        </div>
+        <div>
+          <label class="lbl" for="a-focus">Focus question, moot or context <span class="opt">optional</span></label>
+          <textarea id="a-focus" class="field" rows="2" placeholder="e.g. 'The Native Land Court: a tool of dispossession – or not?'"></textarea>
+          <p class="sm" id="focus-tip"></p>
+        </div>
+        <div>
+          <span class="lbl">Tasks or components to grade <span class="req">at least one</span></span>
+          <div class="comps" id="comps"></div>
+          <button class="link-btn" id="add-comp" type="button">+ Add a task</button>
+          <p class="sm">Pre-filled from the standard. Rename them to match your task sheet (Task A, Task B…). Each becomes a column in the table.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label class="lbl" for="ids">How students are named</label>
+          <select id="ids" class="field">
+            <option value="names">Names as they appear in the work</option>
+            <option value="initials">Convert to initials (e.g. J.T.)</option>
+            <option value="codes">I've replaced names with codes (S01, S02…)</option>
+          </select>
+        </div>
+        <div class="grid2" style="gap:.7rem">
+          <div>
+            <label class="lbl" for="detail">Report depth</label>
+            <select id="detail" class="field">
+              <option value="standard">Table + short evidence notes</option>
+              <option value="full">Table + full evidence per student</option>
+              <option value="table">Table only</option>
+            </select>
+          </div>
+          <div>
+            <label class="lbl" for="batch">Students per reply</label>
+            <select id="batch" class="field">
+              <option>3</option><option selected>5</option><option>8</option><option>10</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="lbl" for="grades">Grade detail</label>
+          <select id="grades" class="field">
+            <option value="band">N / A / M / E with Low, Mid or High</option>
+            <option value="plain">N / A / M / E only</option>
+          </select>
+        </div>
+        <div>
+          <label class="lbl" for="notes">Department notes <span class="opt">optional</span></label>
+          <textarea id="notes" class="field" rows="4" placeholder="Agreed interpretations, word limits in your task, resubmission policy, subject association guidance, what you are unsure about…"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:1.1rem">
+      <span class="lbl">What you will attach in the AI</span>
+      <div class="checks" id="attach">
+        <label class="check"><input type="checkbox" data-a="schedule" checked disabled>
+          <span><strong>Your assessment schedule</strong> <span class="req">required</span><small>The AI will stop and ask for it rather than invent one.</small></span></label>
+        <label class="check"><input type="checkbox" data-a="task" checked>
+          <span><strong>The task sheet students were given</strong><small>Lets it check students answered the task actually set.</small></span></label>
+        <label class="check"><input type="checkbox" data-a="work" checked>
+          <span><strong>Student work</strong><small>One file per student is safest; a combined file works if each piece starts with the student's identifier.</small></span></label>
+        <label class="check"><input type="checkbox" data-a="provisional">
+          <span><strong>Your own provisional grades</strong><small>It will compare and list every disagreement, without anchoring on yours.</small></span></label>
+        <label class="check"><input type="checkbox" data-a="exemplars">
+          <span><strong>NZQA exemplars or your own benchmark scripts</strong><small>Download them from the NZQA exemplar page for this standard.</small></span></label>
+        <label class="check"><input type="checkbox" data-a="sources">
+          <span><strong>The source pack or resources students used</strong><small>Lets it check quotes and figures against the actual sources.</small></span></label>
+      </div>
+    </div>
+    <p class="warnline" id="comp-warn" hidden>Add at least one task or component.</p>
+  </section>
+
+  <!-- 4 -->
+  <section class="panel dead" id="s4">
+    <h2 class="step-h"><span class="step-n">4</span>What the AI will be told</h2>
+    <p class="hint">Everything below travels inside the prompt, so you can check the AI is working from the same reading of the standard you are.</p>
+    <button class="brief-toggle" id="brief-toggle" type="button">▸ Show the standard, clarifications, moderator report and exemplar notes</button>
+    <div class="brief" id="brief" hidden></div>
+  </section>
+
+  <!-- 5 -->
+  <section class="panel out-panel dead" id="s5">
+    <h2 class="step-h"><span class="step-n">5</span>Your moderation prompt</h2>
+    <textarea id="prompt" readonly aria-label="Generated prompt"></textarea>
+    <div class="acts">
+      <button class="btn btn-copy" id="copy" type="button">Copy prompt</button>
+      <a class="btn btn-ai" href="https://gemini.google.com/app" target="_blank" rel="noopener" data-launch>Gemini ↗</a>
+      <a class="btn btn-ai" href="https://claude.ai/new" target="_blank" rel="noopener" data-launch>Claude ↗</a>
+      <a class="btn btn-ai" href="https://chatgpt.com/" target="_blank" rel="noopener" data-launch>ChatGPT ↗</a>
+      <span class="meta" id="pmeta"></span>
+    </div>
+    <div class="howto">
+      <div class="how"><b>1 · Paste</b>Open your school AI account, start a new chat, paste the prompt. The links above copy it for you.</div>
+      <div class="how"><b>2 · Attach</b>Add the schedule, task sheet and student work in the same message, then send.</div>
+      <div class="how"><b>3 · Check</b>It confirms what it received and quotes your schedule. If anything is missing it stops and asks.</div>
+      <div class="how"><b>4 · Verify</b>Work through the Points to note and the suggested check-mark list before recording any grade.</div>
+    </div>
+    <p class="sm" style="margin-top:.8rem">Marking a whole class over several weeks? Save the prompt as a Gemini Gem or a Claude Project and put the schedule in its knowledge files, then only the student work needs attaching each time.</p>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p id="build"></p>
+  <p>Standard text, clarifications, exemplar commentary and National Moderator's Report insights are summarised from NZQA. Not affiliated with NZQA. Where this disagrees with NZQA or your moderator, they are right.</p>
+  <p>&copy; 2026 David Kennedy, Waiheke High School.</p>
+</footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const LEVELS = [
+  { id:'1', label:'Level 1', live:false },
+  { id:'2', label:'Level 2', live:false },
+  { id:'3', label:'Level 3', live:true }
+];
+let sel = { level:null, faculty:null, subject:null, std:null };
+let comps = [];
+
+/* ---- theme ---- */
+function setTheme(t){
+  document.documentElement.setAttribute('data-theme', t);
+  $('theme').textContent = t === 'dark' ? '☀️' : '🌙';
+  try{ localStorage.setItem('whs_mod_theme', t); }catch(e){}
+}
+(function(){
+  let t = null; try{ t = localStorage.getItem('whs_mod_theme'); }catch(e){}
+  if(!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  setTheme(t);
+})();
+$('theme').onclick = () => setTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+
+/* ---- per-standard memory of the teacher's setup ---- */
+const FIELDS = ['a-name','a-focus','ids','detail','batch','grades','notes'];
+function saveSetup(){
+  if(!sel.std) return;
+  const d = { comps, attach:attachState() };
+  FIELDS.forEach(f => d[f] = $(f).value);
+  try{ localStorage.setItem('whs_mod_'+sel.std.code, JSON.stringify(d)); }catch(e){}
+}
+function loadSetup(code){
+  try{ return JSON.parse(localStorage.getItem('whs_mod_'+code) || 'null'); }catch(e){ return null; }
+}
+function attachState(){
+  const o = {}; document.querySelectorAll('#attach input').forEach(i => o[i.dataset.a] = i.checked); return o;
+}
+
+/* ---- step 1 ---- */
+function pills(el, items, onPick, pressed){
+  el.innerHTML = items.map((it,i) =>
+    `<button class="pill ${it.cls||''}" data-i="${i}" ${it.disabled?'disabled':''} aria-pressed="${pressed===i}"
+      ${it.color?`style="--pc:${it.color}"`:''}>${esc(it.label)}${it.soon?'<span class="soon">soon</span>':''}</button>`).join('');
+  el.querySelectorAll('.pill').forEach(b => b.onclick = () => onPick(+b.dataset.i));
+}
+function renderLevels(){
+  pills($('levels'), LEVELS.map(l => ({ label:l.label, cls:'lvl', soon:!l.live, disabled:!l.live })),
+    i => pickLevel(LEVELS[i].id), LEVELS.findIndex(l => l.id === sel.level));
+}
+function D(){ return window.MOD_DATA && window.MOD_DATA[sel.level]; }
+function pickLevel(id){
+  sel = { level:id, faculty:null, subject:null, std:null };
+  renderLevels();
+  if(!D()){ $('s1-note').hidden = false; $('s1-note').textContent = 'The data file for this level did not load. Keep mod-l3.js in the same folder as this page.'; return; }
+  $('faculties').hidden = false; $('subjects').hidden = true; $('s1-note').hidden = true;
+  renderFaculties(); resetFrom(2);
+}
+function renderFaculties(){
+  const fs = D().faculties;
+  pills($('faculties'), fs.map(f => {
+    const live = f.subjects.filter(s => D().subjects[s]).length;
+    return { label: f.name + (live ? ` · ${live}` : ''), color:f.dark };
+  }), i => pickFaculty(i), fs.indexOf(sel.faculty));
+}
+function pickFaculty(i){
+  sel.faculty = D().faculties[i]; sel.subject = null; sel.std = null;
+  document.documentElement.style.setProperty('--fac', sel.faculty.dark);
+  document.documentElement.style.setProperty('--fac-light', sel.faculty.light);
+  renderFaculties();
+  $('subjects').hidden = false;
+  renderSubjects(); resetFrom(2);
+  const pending = sel.faculty.subjects.filter(s => !D().subjects[s]);
+  $('s1-note').hidden = !pending.length;
+  $('s1-note').textContent = pending.length ? `${pending.join(', ')} will be added once their standards have been researched and checked. History is the pilot.` : '';
+}
+function renderSubjects(){
+  const ss = sel.faculty.subjects;
+  pills($('subjects'), ss.map(s => ({ label:s, color:sel.faculty.dark, soon:!D().subjects[s], disabled:!D().subjects[s] })),
+    i => pickSubject(ss[i]), ss.indexOf(sel.subject));
+}
+function pickSubject(name){
+  sel.subject = name; sel.std = null; renderSubjects();
+  const list = D().subjects[name].standards;
+  $('s2').classList.remove('dead');
+  $('s2-hint').textContent = `${list.length} internally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}.`;
+  $('stds').innerHTML = list.map(s => `
+    <button class="std" data-code="${s.code}" aria-pressed="false">
+      <span class="std-top"><span class="code">AS${s.code}</span><span class="ref">${s.ref}</span>
+        <span class="badge">internal</span><span class="cr">${s.credits} cr</span></span>
+      <span class="std-title">${esc(s.title)}</span>
+      <span class="std-ver">${esc(s.version)} · sources checked ${esc(s.verified)}</span>
+    </button>`).join('');
+  $('stds').querySelectorAll('.std').forEach(b => b.onclick = () => pickStd(b.dataset.code));
+  resetFrom(3);
+}
+function resetFrom(n){
+  ['s2','s3','s4','s5'].forEach((id,k) => { if(k+2 >= n) $(id).classList.add('dead'); });
+  if(n <= 2) $('stds').innerHTML = '';
+  $('prompt').value = '';
+}
+
+/* ---- step 2/3 ---- */
+function pickStd(code){
+  sel.std = D().subjects[sel.subject].standards.find(s => s.code === code);
+  $('stds').querySelectorAll('.std').forEach(b => b.setAttribute('aria-pressed', b.dataset.code === code));
+  const saved = loadSetup(code);
+  comps = saved && saved.comps && saved.comps.length ? saved.comps.slice() : sel.std.components.slice();
+  const DEF = { 'a-name':'', 'a-focus':'', notes:'', ids:'names', detail:'standard', batch:'5', grades:'band' };
+  FIELDS.forEach(f => { $(f).value = saved && saved[f] != null ? saved[f] : DEF[f]; });
+  if(saved && saved.attach) document.querySelectorAll('#attach input').forEach(i => { if(!i.disabled && i.dataset.a in saved.attach) i.checked = saved.attach[i.dataset.a]; });
+  $('focus-tip').textContent = {
+    '91434':'Your single focus question, or the topic students chose from.',
+    '91435':'NZQA recommends a moot or question so students must argue a position. A bare topic makes the argument requirement harder to meet.',
+    '91437':'Name the contested element, not just the event. The 2025 moderator report warns against comparing two "experiences".'
+  }[code] || '';
+  ['s3','s4','s5'].forEach(id => $(id).classList.remove('dead'));
+  renderComps(); renderBrief(); build();
+  $('s3').scrollIntoView && $('s3').scrollIntoView({ behavior:'smooth', block:'start' });
+}
+function renderComps(){
+  $('comps').innerHTML = comps.map((c,i) => `
+    <div class="comp"><span class="num">${String.fromCharCode(65+i)}</span>
+      <input class="field" data-i="${i}" value="${esc(c)}" aria-label="Task ${i+1}">
+      <button class="x" data-x="${i}" type="button" aria-label="Remove task ${i+1}">×</button></div>`).join('');
+  $('comps').querySelectorAll('input').forEach(inp => inp.oninput = () => { comps[+inp.dataset.i] = inp.value; build(); });
+  $('comps').querySelectorAll('.x').forEach(b => b.onclick = () => { comps.splice(+b.dataset.x,1); renderComps(); build(); });
+}
+$('add-comp').onclick = () => { comps.push(''); renderComps(); const ins = $('comps').querySelectorAll('input'); ins[ins.length-1].focus(); };
+FIELDS.forEach(f => $(f).addEventListener('input', build));
+FIELDS.forEach(f => $(f).addEventListener('change', build));
+document.querySelectorAll('#attach input').forEach(i => i.addEventListener('change', build));
+
+/* ---- step 4 ---- */
+function renderBrief(){
+  const s = sel.std, sub = D().subjects[sel.subject];
+  const li = a => '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>';
+  $('brief').innerHTML = `
+    <section><h3>Achievement criteria · ${esc(s.version)}</h3>
+      <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
+    <section><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
+    <section><h3>NZQA clarification · ${esc(s.clarifications.date)}</h3>${li(s.clarifications.points)}</section>
+    ${s.nmr.length ? `<section><h3>National Moderator's Report · 2025 round</h3>${li(s.nmr)}</section>` : ''}
+    <section><h3>NZQA annotated exemplars · what sits at each grade</h3><div style="display:grid;gap:.7rem">
+      ${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}</div>`).join('')}</div></section>
+    <section><h3>Gates the AI checks, bottom up</h3>
+      <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${li(s.gates.achieved)}
+      <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${li(s.gates.merit)}
+      <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${li(s.gates.excellence)}</section>
+    <section><h3>Watch for in this standard</h3>${li(s.watch)}</section>
+    <section class="src"><h3>Sources</h3><ul>
+      <li><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=${s.code}" target="_blank" rel="noopener">AS${s.code} on NZQA</a></li>
+      <li><a href="https://www2.nzqa.govt.nz/ncea/subjects/select-subject/history/clarifications/as-${s.code}/" target="_blank" rel="noopener">AS${s.code} clarification</a></li>
+      <li><a href="https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/history/as-${s.code}/" target="_blank" rel="noopener">AS${s.code} annotated exemplars</a></li>
+      ${sub.sources.map(x => `<li><a href="${x.url}" target="_blank" rel="noopener">${esc(x.label)}</a></li>`).join('')}
+    </ul></section>`;
+}
+$('brief-toggle').onclick = () => {
+  const open = $('brief').hidden; $('brief').hidden = !open;
+  $('brief-toggle').textContent = (open ? '▾ Hide' : '▸ Show') + ' the standard, clarifications, moderator report and exemplar notes';
+};
+
+/* ============================================================
+   PROMPT COMPOSER
+   ============================================================ */
+function composePrompt(o){
+  const { s, sub, stage, subject, name, focus, tasks, ids, detail, batch, grades, notes, attach } = o;
+  const L = 'ABCDEFGHIJ';
+  const taskList = tasks.map((t,i) => `  ${L[i]}. ${t}`).join('\n');
+  const gradeWords = grades === 'band'
+    ? 'N, A, M or E, followed by Low, Mid or High for where the evidence sits within that grade (e.g. "M-High"). Low/High are only for flagging boundaries; they are not NZQA grades.'
+    : 'N, A, M or E.';
+  const idRule = {
+    names:'Refer to each student by their name exactly as it appears on their work. Never invent or guess a name; if none is visible use "Unnamed 1", "Unnamed 2" and say so.',
+    initials:'Refer to each student ONLY by their initials (e.g. "J.T."), even where the full name appears in the work. If two students share initials, add a number ("J.T.-1", "J.T.-2").',
+    codes:'Students are identified by codes (S01, S02…). Use those codes exactly. Do not try to identify anyone from the content of their work.'
+  }[ids];
+  const has = k => attach[k];
+  const bullets = a => a.map(x => '  - ' + x).join('\n');
+
+  const docList = [
+    '  1. The ASSESSMENT SCHEDULE for this task (required).',
+    has('task') ? '  2. The TASK SHEET given to students.' : null,
+    has('work') ? '  3. STUDENT WORK.' : null,
+    has('provisional') ? '  4. The teacher’s own PROVISIONAL GRADES.' : null,
+    has('exemplars') ? '  5. EXEMPLARS or benchmark scripts.' : null,
+    has('sources') ? '  6. The SOURCE PACK or resources students used.' : null
+  ].filter(Boolean).join('\n');
+
+  return `ROLE
+You are a second reader supporting a NZQA-registered ${subject} teacher in Aotearoa New Zealand who is checking grades for internally assessed work against ${stage} ${subject} Achievement Standard ${s.code} (${s.ref}), ${s.version}, ${s.credits} credits: "${s.title}".
+
+You are NOT the assessor. Ministry of Education and NZQA guidance is that AI may support marking but must not replace the teacher's professional judgement. Everything you produce is advice for the teacher to test. Where evidence is thin, ambiguous or missing, say so plainly rather than resolving it in either direction. A confident wrong grade is worse than an honest "borderline".
+
+Write in New Zealand English.
+
+=====================================================================
+AUTHORITY — what you judge against, in this order
+=====================================================================
+1. The achievement standard (criteria and explanatory notes below, verbatim). It is the only source of criteria.
+2. NZQA's clarification for this standard (below). It explains the standard; it never adds criteria.
+3. The school's assessment schedule (attached). Use its task-specific wording to apply the standard to this task, and quote it. If any line of the schedule appears to ask for more or less than the standard, FLAG the conflict for the teacher — do not resolve it yourself.
+4. NZQA annotated exemplar commentary and the National Moderator's Report (below). These show where NZQA draws the grade lines in practice.
+5. The teacher's department notes (below, if any).
+
+Do NOT bring in criteria from memory, from earlier versions of this standard, from the equivalent Level 1 or 2 standard, or from external exam marking schedules. If you think the standard requires something not written here, say so as a question for the teacher, not as a judgement.
+
+=====================================================================
+THE STANDARD
+=====================================================================
+Achievement criteria
+  Achieved:   ${s.criteria.achieved}
+  Merit:      ${s.criteria.merit}
+  Excellence: ${s.criteria.excellence}
+
+Explanatory notes that define the grades
+${bullets(s.notes)}
+
+NZQA clarification (${s.clarifications.date})
+${bullets(s.clarifications.points)}
+${s.nmr.length ? `
+National Moderator's Report (insights from the 2025 moderation round)
+${bullets(s.nmr)}
+` : ''}
+NZQA annotated exemplars — where the grade lines fall
+${s.exemplars.map(e => `  - ${e.grade.toUpperCase()}: ${e.text}${e.miss ? '\n    ' + e.miss : ''}`).join('\n')}
+
+How this subject reasons
+  ${sub.discipline}
+
+=====================================================================
+THIS ASSESSMENT
+=====================================================================
+${name ? `Assessment: ${name}\n` : ''}${focus ? `Focus question / moot / context set by the teacher: ${focus}\nJudge relevance and the strength of the argument against THIS wording. Note where a student has assumed relevance rather than shown it.\n` : ''}Tasks or components to grade (one column each in the table):
+${taskList}
+
+These standards are graded holistically. A component grade says what that part of the evidence shows on its own. The OVERALL grade is NOT an average of the components: it is the highest grade whose gates are ALL met across the whole submission (see the gates below). One weak component can cap the overall grade; one strong component cannot lift it. If the schedule maps grades to tasks differently, follow the schedule and say that you have.
+${notes ? `
+Department notes from the teacher (treat as context, not as new criteria):
+${notes}
+` : ''}
+=====================================================================
+STEP 0 — CHECK WHAT YOU HAVE BEEN GIVEN (before grading anything)
+=====================================================================
+The teacher should have attached:
+${docList}
+
+In your FIRST response:
+  a) List each document you received, by file name.
+  b) Quote one line from the assessment schedule to show you can read it.
+  c) List every student you can find, by identifier, with the number of pages or words for each so the teacher can see nothing was cut off.
+  d) Note anything unreadable (handwriting, scans, images of text you cannot read) and anything that looks incomplete.
+If the ASSESSMENT SCHEDULE is missing or unreadable: say so and STOP. Ask for it. Do not grade against the standard alone and never reconstruct or invent what a schedule says.
+If the schedule is present, continue straight into grading after the check — do not wait to be asked.
+
+=====================================================================
+HOW TO JUDGE EACH STUDENT
+=====================================================================
+1. Read the WHOLE submission before judging any part of it.
+2. Judge only what is on the page. Do not infer understanding the student has not written down. Do not credit content from the task sheet, source pack or teacher notes unless the student has used it themselves.
+3. Work from the bottom up. Confirm the Achieved gates, then Merit, then Excellence. The grade is the highest level where that level's gates AND every lower level's gates are all met. Stop at the first level that fails; that is the cap.
+4. Gates are strict; best fit is only for degree. A missing gate is never made up for by strength elsewhere. Once the gates are met, use best-fit judgement for questions of degree — how many instances, how consistent, how deep — and do not demand perfection on every source or paragraph. Length is never a criterion in itself.
+5. Anchor every judgement in a SHORT direct quotation from the student's work (under 20 words). If you cannot quote evidence for a claim, do not make the claim.
+6. Where a student sits on a boundary, name both grades and the specific evidence that would settle it.
+
+Gates for AS${s.code}
+  ACHIEVED requires all of:
+${bullets(s.gates.achieved).replace(/^  - /gm,'    - ')}
+  MERIT requires the Achieved gates plus:
+${bullets(s.gates.merit).replace(/^  - /gm,'    - ')}
+  EXCELLENCE requires the Achieved and Merit gates plus:
+${bullets(s.gates.excellence).replace(/^  - /gm,'    - ')}
+
+Student identifiers
+  ${idRule}
+  Do not repeat any other personal information from the work (NSNs, addresses, family details, health information).
+
+=====================================================================
+POINTS TO NOTE — what the teacher should check before recording a grade
+=====================================================================
+For each student, list anything the teacher should verify. Use these tags:
+
+  [ACCURACY]     Dates, names, figures, quotations or events that look wrong or need checking.
+  [SOURCE]       Citations you cannot confirm, sources that may not exist, quotations attributed to someone who may not have said them, URLs that look implausible, primary/secondary misclassified.
+  [WRITING]      Observable changes in the writing: a sudden shift in register or vocabulary between sections, polish markedly different from the rest of the piece, American spelling in otherwise New Zealand English writing, generic analysis that is not tied to this student's sources, formatting artefacts. DESCRIBE what you see and where — quote it.
+  [TASK]         The student answered a different question from the one set, ignored part of the task, or the task design itself may limit grades (raise cohort-wide task issues once, in the cohort section).
+  [SUFFICIENCY]  Too little evidence to judge a gate, or a section that appears missing or cut off.
+  [SCHEDULE]     The schedule and the standard seem to disagree, or the schedule is silent on something that decided the grade.
+  [YOUR GRADE]   ${has('provisional') ? 'Your provisional grade differs from the teacher’s. State both and the deciding evidence. Form your own judgement BEFORE you look at the teacher’s grade so you are not anchored by it.' : 'Not used — no provisional grades supplied.'}
+
+Watch especially for these in AS${s.code}:
+${bullets(s.watch)}
+
+Honesty rules for Points to note — these matter:
+  - Never state or imply that work was written by AI, plagiarised, or copied. You cannot know that, and AI-detection is unreliable. Describe the observable feature and leave the judgement about authenticity to the teacher, who knows the student and has their drafts.
+  - Never say a source is "fabricated" or "fake". Say "I cannot confirm this exists — check". Only say you verified something if you actually looked it up in this conversation, and say how.
+  - Mark a fact as an error only if you are confident. Otherwise use "check".
+  - If there is nothing to note for a student, write "Nothing flagged." Do not manufacture concerns.
+
+=====================================================================
+OUTPUT
+=====================================================================
+Grade notation: ${gradeWords}
+
+Work through the students in batches of ${batch}. After each batch, print the rows so far and stop with: "Reply 'continue' for the next ${batch}." Keep the table running — each batch repeats every row so far, so the final reply holds the whole class.
+
+PART 1 — MODERATION TABLE (markdown table, exactly these columns)
+| Student | ${tasks.map((t,i) => L[i]).join(' | ')} | Overall | Confidence | Why |
+Under the table give the key: ${tasks.map((t,i) => `${L[i]} = ${t}`).join('; ')}.
+- Overall: the gate-capped overall grade.
+- Confidence: High, or Borderline X/Y (name the two grades).
+- Why: ONE or TWO sentences naming the gate that decided the grade, e.g. "All Merit gates met; caps at Merit because [name the Excellence gate that was not met, with a short quote]."
+
+PART 2 — POINTS TO NOTE (markdown table)
+| Student | Tag | What to check | Where in the work |
+One row per point. Put the most consequential points first.
+${detail === 'table' ? '' : `
+PART 3 — EVIDENCE FOR EACH STUDENT
+${detail === 'full'
+ ? 'For each student: a gate check reported bottom up (Achieved met / Merit met / Excellence not met: reason), then for EACH component two or three short quotations with what they show, the schedule line the judgement rests on, and what would move the work to the next grade. Keep each student under 300 words.'
+ : 'For each student, three to five lines: the gate check reported bottom up, the one quotation that most decided the grade, the schedule line it rests on, and what would move it to the next grade.'}
+`}
+PART ${detail === 'table' ? '3' : '4'} — FOR THE TEACHER (only in the final reply, after the last batch)
+- Grade distribution (count of N/A/M/E).
+- Suggested for check-marking or a second marker: every Borderline, every student with an [ACCURACY], [SOURCE] or [WRITING] point, and one secure script at each grade as a reference. Say why for each.
+- Cohort patterns: where many students were capped by the same gate, name it once, with what that suggests about teaching or task design${s.code === '91437' ? ' (in particular, whether the contested element supports a validity judgement)' : ''}.
+- Any [SCHEDULE] issues.
+${has('provisional') ? '- Agreement with the teacher’s provisional grades: how many agree, and a list of the disagreements.\n' : ''}
+End with this line exactly:
+"These are provisional judgements to support, not replace, the teacher's professional judgement. Verify them against the assessment schedule and the student work before any grade is recorded or reported."`;
+}
+
+function build(){
+  if(!sel.std) return;
+  const tasks = comps.map(c => c.trim()).filter(Boolean);
+  $('comp-warn').hidden = tasks.length > 0;
+  if(!tasks.length){ $('prompt').value=''; $('pmeta').textContent=''; return; }
+  const txt = composePrompt({
+    s: sel.std, sub: D().subjects[sel.subject], stage: D().meta.stage, subject: sel.subject,
+    name: $('a-name').value.trim(), focus: $('a-focus').value.trim(), tasks,
+    ids: $('ids').value, detail: $('detail').value, batch: $('batch').value,
+    grades: $('grades').value, notes: $('notes').value.trim(), attach: attachState()
+  });
+  $('prompt').value = txt;
+  const words = txt.split(/\s+/).length;
+  $('pmeta').textContent = `AS${sel.std.code} · ${tasks.length} task${tasks.length===1?'':'s'} · ${words.toLocaleString('en-NZ')} words`;
+  saveSetup();
+}
+window.composePrompt = composePrompt;
+
+/* ---- copy ---- */
+async function copyPrompt(){
+  const t = $('prompt'); if(!t.value) return false;
+  try{ await navigator.clipboard.writeText(t.value); }
+  catch(e){ t.focus(); t.select(); try{ document.execCommand('copy'); }catch(_){} }
+  return true;
+}
+$('copy').onclick = async () => {
+  if(!await copyPrompt()) return;
+  const b = $('copy'); b.textContent = 'Copied ✓'; b.classList.add('ok');
+  setTimeout(() => { b.textContent = 'Copy prompt'; b.classList.remove('ok'); }, 1800);
+};
+document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
+
+$('build').textContent = 'Build 1 · Level 3 History pilot · NZQA sources checked 25 October 2026';
+renderLevels();
+pickLevel('3');
+</script>
+</body>
+</html>
