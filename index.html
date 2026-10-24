@@ -7,7 +7,8 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap">
 <!--DATA-->
-<script src="mod-l3.js?v=1"></script>
+<script src="mod-l2.js?v=2"></script>
+<script src="mod-l3.js?v=2"></script>
 <!--/DATA-->
 <style>
 /* Layout: a single working column of numbered steps, the prompt docked at the end.
@@ -348,7 +349,7 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const LEVELS = [
   { id:'1', label:'Level 1', live:false },
-  { id:'2', label:'Level 2', live:false },
+  { id:'2', label:'Level 2', live:true },
   { id:'3', label:'Level 3', live:true }
 ];
 let sel = { level:null, faculty:null, subject:null, std:null };
@@ -417,7 +418,7 @@ function pickFaculty(i){
   renderSubjects(); resetFrom(2);
   const pending = sel.faculty.subjects.filter(s => !D().subjects[s]);
   $('s1-note').hidden = !pending.length;
-  $('s1-note').textContent = pending.length ? `${pending.join(', ')} will be added once their standards have been researched and checked. History is the pilot.` : '';
+  $('s1-note').textContent = pending.length ? `${pending.join(', ')} will be added once their standards have been researched and checked. History is live first.` : '';
 }
 function renderSubjects(){
   const ss = sel.faculty.subjects;
@@ -457,6 +458,9 @@ function pickStd(code){
   $('focus-tip').textContent = {
     '91434':'Your single focus question, or the topic students chose from.',
     '91435':'NZQA recommends a moot or question so students must argue a position. A bare topic makes the argument requirement harder to meet.',
+    '91229':'Your focusing question, or the topic students chose from. Guidance in forming it is allowed.',
+    '91230':'The event or place, ideally as a question so students explain how and why rather than narrate.',
+    '91232':'The event and the people whose perspectives students interpret. Role play is allowed at this level.',
     '91437':'Name the contested element, not just the event. The 2025 moderator report warns against comparing two "experiences".'
   }[code] || '';
   ['s3','s4','s5'].forEach(id => $(id).classList.remove('dead'));
@@ -511,6 +515,7 @@ $('brief-toggle').onclick = () => {
 function composePrompt(o){
   const { s, sub, stage, subject, name, focus, tasks, ids, detail, batch, grades, notes, attach } = o;
   const L = 'ABCDEFGHIJ';
+  const others = { 'Level 2':'the Level 1 or Level 3 standards in this subject', 'Level 3':'the Level 1 or Level 2 standards in this subject' }[stage] || 'standards at other levels';
   const taskList = tasks.map((t,i) => `  ${L[i]}. ${t}`).join('\n');
   const gradeWords = grades === 'band'
     ? 'N, A, M or E, followed by Low, Mid or High for where the evidence sits within that grade (e.g. "M-High"). Low/High are only for flagging boundaries; they are not NZQA grades.'
@@ -548,7 +553,7 @@ AUTHORITY — what you judge against, in this order
 4. NZQA annotated exemplar commentary and the National Moderator's Report (below). These show where NZQA draws the grade lines in practice.
 5. The teacher's department notes (below, if any).
 
-Do NOT bring in criteria from memory, from earlier versions of this standard, from the equivalent Level 1 or 2 standard, or from external exam marking schedules. If you think the standard requires something not written here, say so as a question for the teacher, not as a judgement.
+Do NOT bring in criteria from memory, from earlier versions of this standard, from ${others}, or from external exam marking schedules. If you think the standard requires something not written here, say so as a question for the teacher, not as a judgement.
 
 =====================================================================
 THE STANDARD
@@ -714,7 +719,8 @@ $('reset').onclick = () => {
   document.documentElement.style.removeProperty('--fac'); document.documentElement.style.removeProperty('--fac-light');
   b.classList.remove('arm'); b.textContent = 'Reset ✓';
   setTimeout(() => { b.textContent = 'Reset'; }, 1500);
-  pickLevel('3');
+  sel = { level:null, faculty:null, subject:null, std:null };
+  renderLevels(); $('faculties').hidden = true; $('subjects').hidden = true; $('s1-note').hidden = true; resetFrom(2);
   window.scrollTo({ top:0, behavior:'smooth' });
 };
 
@@ -732,9 +738,8 @@ $('copy').onclick = async () => {
 };
 document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
 
-$('build').textContent = 'Build 2 · Level 3 History pilot · NZQA sources checked 25 October 2026';
+$('build').textContent = 'Build 3 · Level 2 and Level 3 History · NZQA sources checked 25 October 2026';
 renderLevels();
-pickLevel('3');
 </script>
 </body>
 </html>
