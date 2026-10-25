@@ -193,7 +193,22 @@ textarea.field{resize:vertical;line-height:1.5}
 .purpose[aria-pressed="true"]{border-color:var(--fac);box-shadow:0 0 0 3px color-mix(in srgb,var(--fac) 22%,transparent)}
 .purpose b{font-size:.9375rem;color:var(--brand-ink)}
 .purpose span{font-size:.75rem;color:var(--ink-soft)}
-.purpose em{font-style:normal;font-size:.5625rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint)}
+.purpose em{font-style:normal;font-size:.625rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;justify-self:start;
+  padding:.2rem .55rem;border-radius:999px;background:color-mix(in srgb,var(--fac) 16%,var(--surface));color:var(--fac)}
+.purpose[aria-pressed="true"] em{background:var(--fac);color:#fff}
+#sp{--fac:#0e7c86;--fac-light:#e3f5f6}
+:root[data-theme="dark"] #sp{--fac:#3fb8c2;--fac-light:#10292c}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) #sp{--fac:#3fb8c2;--fac-light:#10292c} }
+:root[data-theme="dark"] .purpose[aria-pressed="true"] em{color:#04282b}
+.docpick{display:grid;gap:.5rem;margin-bottom:1.1rem}
+.docpick .doc{border:1px solid var(--line);border-radius:.6rem;padding:.6rem .75rem;background:var(--surface)}
+.docpick .doc .lbl{margin-bottom:.35rem}
+.radios{display:flex;flex-wrap:wrap;gap:.3rem .9rem;font-size:.8125rem}
+.radios label{display:flex;gap:.35rem;align-items:center;cursor:pointer}
+.docpick textarea{margin-top:.5rem}
+.savebox{margin-top:1rem;padding:.9rem 1rem;border:1px dashed var(--line-strong);border-radius:.7rem;background:var(--surface)}
+.savebox h3{font-size:.6875rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;color:var(--brand-ink);margin:0 0 .4rem}
+.savebox textarea{min-height:7rem;font-family:var(--mono);font-size:.75rem}
 .optbox{margin-top:1rem;padding:.9rem 1rem;border:1px dashed var(--line-strong);border-radius:.7rem;background:var(--surface)}
 .optbox h3{font-size:.6875rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;color:var(--brand-ink);margin:0 0 .6rem}
 .gate{background:var(--warn-bg);color:var(--warn-ink);border-radius:.5rem;padding:.6rem .75rem;margin-bottom:.7rem}
@@ -267,7 +282,26 @@ footer p{max-width:60ch;margin:.4rem auto}
   <!-- 4 -->
   <section class="panel dead" id="s3">
     <h2 class="step-h"><span class="step-n">4</span>Describe this assessment</h2>
-    <p class="hint">These short details go into the prompt so the table has the right columns and the AI judges against your task. Long documents (the schedule, the task sheet, student work) you attach in the AI itself.</p>
+    <p class="hint">These details go into the prompt so the AI judges against your task. The assessment schedule and task sheet are required: paste them here, or attach them in the AI. Student work is always attached in the AI.</p>
+    <div class="docpick">
+      <div class="doc">
+        <span class="lbl">Assessment schedule <span class="req">required</span></span>
+        <div class="radios">
+          <label><input type="radio" name="sched-mode" value="upload" checked> I'll attach it in the AI</label>
+          <label><input type="radio" name="sched-mode" value="paste"> Paste it here</label>
+        </div>
+        <textarea id="sched-text" class="field" rows="6" hidden placeholder="Paste the whole assessment schedule, including the evidence statements for each grade."></textarea>
+      </div>
+      <div class="doc">
+        <span class="lbl">Task sheet given to students <span class="req">required</span></span>
+        <div class="radios">
+          <label><input type="radio" name="task-mode" value="upload" checked> I'll attach it in the AI</label>
+          <label><input type="radio" name="task-mode" value="paste"> Paste it here</label>
+        </div>
+        <textarea id="task-text" class="field" rows="6" hidden placeholder="Paste the task instructions students were given."></textarea>
+      </div>
+      <p class="sm">If you choose to attach and then forget to, the AI stops and asks for it. It won't grade or comment on any student until it has both.</p>
+    </div>
     <div class="grid2">
       <div class="row">
         <div>
@@ -304,12 +338,7 @@ footer p{max-width:60ch;margin:.4rem auto}
               <option value="table">Table only</option>
             </select>
           </div>
-          <div>
-            <label class="lbl" for="batch">Students per reply</label>
-            <select id="batch" class="field">
-              <option>3</option><option selected>5</option><option>8</option><option>10</option>
-            </select>
-          </div>
+
         </div>
         <div data-for="grade">
           <label class="lbl" for="grades">Grade detail</label>
@@ -369,6 +398,8 @@ footer p{max-width:60ch;margin:.4rem auto}
           <span><strong>Name students in "Outstanding exemplars"</strong><small>After marking only, and only with their agreement. Otherwise good practice is described without names.</small></span></label>
         <label class="check"><input type="checkbox" id="cl-audio" checked>
           <span><strong>Include an audio script</strong><small>A short read-aloud version for the sheet's "Audio for those with headphones" line.</small></span></label>
+        <label class="check"><input type="checkbox" id="cl-html">
+          <span><strong>Also make a downloadable HTML sheet in the department template</strong><small>The AI also gives you the finished sheet as a web page, laid out like the template. It has a Listen button for the audio, a D.I.R.T. plan students can type into, and a teacher section that doesn't print. Paste it into the box under the prompt to download it.</small></span></label>
       </div>
       <p class="sm" id="cl-tip"></p>
     </div>
@@ -376,23 +407,24 @@ footer p{max-width:60ch;margin:.4rem auto}
     <div style="margin-top:1.1rem">
       <span class="lbl">What you will attach in the AI</span>
       <div class="checks" id="attach">
-        <label class="check"><input type="checkbox" data-a="schedule" checked disabled>
+        <label class="check" id="att-sched"><input type="checkbox" data-a="schedule" checked disabled>
           <span><strong>Your assessment schedule</strong> <span class="req">required</span><small>The AI will stop and ask for it rather than invent one.</small></span></label>
-        <label class="check"><input type="checkbox" data-a="task" checked>
-          <span><strong>The task sheet students were given</strong><small>Lets it check students answered the task actually set.</small></span></label>
-        <label class="check"><input type="checkbox" data-a="work" checked>
-          <span><strong>Student work</strong><small>A student can have several files. Start every file name with the student's name or code (e.g. "Aroha K – Proposal.pdf", "Aroha K – Annotations.docx") so the AI groups them correctly.</small></span></label>
+        <label class="check" id="att-task"><input type="checkbox" data-a="task" checked disabled>
+          <span><strong>The task sheet students were given</strong> <span class="req">required</span><small>Lets it check students answered the task actually set.</small></span></label>
+        <label class="check"><input type="checkbox" data-a="work" checked disabled>
+          <span><strong>Student work</strong> <span class="req">required</span><small>A student can have several files. Start every file name with the student's name or code (e.g. "Aroha K – Proposal.pdf", "Aroha K – Annotations.docx") so the AI groups them correctly.</small></span></label>
         <label class="check" data-for="grade"><input type="checkbox" data-a="provisional">
-          <span><strong>Your own provisional grades</strong><small>It will compare and list every disagreement, without anchoring on yours.</small></span></label>
+          <span><strong>Your own provisional grades</strong> <span class="opt">optional</span><small>It will compare and list every disagreement, without anchoring on yours.</small></span></label>
         <label class="check" data-for="class"><input type="checkbox" data-a="results">
-          <span><strong>Your grades or the moderation table</strong><small>After marking, lets the sheet speak to where the class actually landed.</small></span></label>
+          <span><strong>Your grades or the moderation table</strong> <span class="opt">optional</span><small>After marking, lets the sheet speak to where the class actually landed.</small></span></label>
         <label class="check"><input type="checkbox" data-a="exemplars">
-          <span><strong>NZQA exemplars or your own benchmark scripts</strong><small>Download them from the NZQA exemplar page for this standard.</small></span></label>
+          <span><strong>NZQA exemplars or your own benchmark scripts</strong> <span class="opt">optional</span><small>Download them from the NZQA exemplar page for this standard.</small></span></label>
         <label class="check"><input type="checkbox" data-a="sources">
-          <span><strong>The source pack or resources students used</strong><small>Lets it check quotes and figures against the actual sources.</small></span></label>
+          <span><strong>The source pack or resources students used</strong> <span class="opt">optional</span><small>Lets it check quotes and figures against the actual sources.</small></span></label>
       </div>
     </div>
     <p class="warnline" id="comp-warn" hidden>Add at least one task or component.</p>
+    <p class="warnline" id="doc-warn" hidden>You chose to paste the schedule or task sheet here, but the box is empty. Paste it, or switch to "I'll attach it in the AI".</p>
     <p class="warnline" id="fb-warn" hidden>Tick the conditions-of-assessment box above to build the feedback prompt.</p>
   </section>
 
@@ -415,9 +447,19 @@ footer p{max-width:60ch;margin:.4rem auto}
     </div>
     <div class="howto">
       <div class="how"><b>1 · Paste</b>Open Gemini with your school Google account, start a new chat and paste the prompt.</div>
-      <div class="how"><b>2 · Attach</b>Add the schedule, task sheet and student work in the same message, then send.</div>
+      <div class="how"><b>2 · Attach</b><span id="how2">Add the schedule, task sheet and student work in the same message, then send.</span></div>
       <div class="how"><b>3 · Check</b>It confirms what it received and quotes your schedule. If anything is missing it stops and asks.</div>
       <div class="how"><b>4 · Verify</b><span id="how4">Work through the Points to note and the suggested check-mark list before recording any grade.</span></div>
+    </div>
+    <div class="savebox" id="savebox" hidden>
+      <h3>Save the HTML sheet from Gemini</h3>
+      <p class="sm" style="margin:0 0 .5rem">In Gemini, copy the code block that starts with &lt;!doctype html&gt; (use its copy button) and paste it here.</p>
+      <textarea id="html-in" class="field" placeholder="Paste Gemini's HTML here"></textarea>
+      <div class="acts" style="margin-top:.6rem">
+        <button class="btn btn-copy" id="html-dl" type="button">Download .html</button>
+        <button class="btn" id="html-view" type="button">Preview</button>
+        <span class="meta" id="html-msg"></span>
+      </div>
     </div>
     <p class="sm" style="margin-top:.8rem">Marking a whole class over several weeks? Save the prompt as a Gemini Gem and put the schedule in its knowledge files, then only the student work needs attaching each time.</p>
   </section>
@@ -456,14 +498,22 @@ function setTheme(t){
 $('theme').onclick = () => setTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
 
 /* ---- per-standard memory of the teacher's setup ---- */
-const FIELDS = ['a-name','a-focus','ids','detail','batch','grades','notes','fb-stage','fb-spec','cl-class','cl-timing'];
-const CHECKS = ['fb-ok','cl-names','cl-audio'];
-const DEF = { 'a-name':'', 'a-focus':'', notes:'', ids:'names', detail:'standard', batch:'5', grades:'band',
+const FIELDS = ['a-name','a-focus','ids','detail','grades','notes','sched-text','task-text','fb-stage','fb-spec','cl-class','cl-timing'];
+const CHECKS = ['fb-ok','cl-names','cl-audio','cl-html'];
+const DEF = { 'a-name':'', 'a-focus':'', notes:'', ids:'names', detail:'standard', grades:'band', 'sched-text':'', 'task-text':'',
   'fb-stage':'draft', 'fb-spec':'general', 'cl-class':'', 'cl-timing':'during' };
-const DEFC = { 'fb-ok':false, 'cl-names':false, 'cl-audio':true };
+const DEFC = { 'fb-ok':false, 'cl-names':false, 'cl-audio':true, 'cl-html':false };
+const mode = n => (document.querySelector(`input[name="${n}"]:checked`) || {}).value || 'upload';
+function setMode(n, v){ document.querySelectorAll(`input[name="${n}"]`).forEach(r => r.checked = r.value === v); syncModes(); }
+function syncModes(){
+  const sp = mode('sched-mode') === 'paste', tp = mode('task-mode') === 'paste';
+  $('sched-text').hidden = !sp; $('task-text').hidden = !tp;
+  $('att-sched').hidden = sp; $('att-task').hidden = tp;
+}
+document.querySelectorAll('input[name="sched-mode"],input[name="task-mode"]').forEach(r => r.addEventListener('change', () => { syncModes(); build(); }));
 function saveSetup(){
   if(!sel.std) return;
-  const d = { comps, attach:attachState(), purpose, checks:{} };
+  const d = { comps, attach:attachState(), purpose, checks:{}, schedMode:mode('sched-mode'), taskMode:mode('task-mode') };
   FIELDS.forEach(f => d[f] = $(f).value);
   CHECKS.filter(c => c !== 'fb-ok').forEach(c => d.checks[c] = $(c).checked);
   try{ localStorage.setItem('whs_mod_'+sel.std.code, JSON.stringify(d)); }catch(e){}
@@ -553,6 +603,7 @@ function pickStd(code){
   comps = saved && saved.comps && saved.comps.length ? saved.comps.slice() : sel.std.components.slice();
   FIELDS.forEach(f => { $(f).value = saved && saved[f] != null ? saved[f] : DEF[f]; });
   CHECKS.forEach(c => { $(c).checked = saved && saved.checks && c in saved.checks ? saved.checks[c] : DEFC[c]; });
+  setMode('sched-mode', saved && saved.schedMode || 'upload'); setMode('task-mode', saved && saved.taskMode || 'upload');
   setPurpose(saved && saved.purpose || 'grade', true);
   if(saved && saved.attach) document.querySelectorAll('#attach input').forEach(i => { if(!i.disabled && i.dataset.a in saved.attach) i.checked = saved.attach[i.dataset.a]; });
   $('focus-tip').textContent = sel.std.focusTip || {
@@ -632,13 +683,123 @@ $('brief-toggle').onclick = () => {
   $('brief-toggle').textContent = (open ? '▾ Hide' : '▸ Show') + ' the standard, clarifications, moderator report and exemplar notes';
 };
 
+/* ---- class sheet HTML template (filled in by the AI) ---- */
+function classTemplate(o){
+  const e = t => String(t).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  return `<!doctype html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class Feedback ${e(o.cls)}</title>
+<style>
+:root{--ink:#1d2433;--soft:#4a5468;--line:#9fb3d9;--h1:#a4c2f4;--h2:#c9daf8;--pink:#ffcfc9}
+*{box-sizing:border-box}
+body{margin:0;background:#eef1f6;color:var(--ink);font:15px/1.5 Arial,Helvetica,sans-serif}
+.bar{position:sticky;top:0;z-index:5;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;padding:.6rem 16px;background:#0b1f4b;color:#fff}
+.bar b{margin-right:auto;font-size:.9rem}
+.bar button{font:inherit;font-size:.85rem;font-weight:700;border:0;border-radius:6px;padding:.45rem .8rem;cursor:pointer;background:#fff;color:#0b1f4b}
+.bar button.ghost{background:transparent;color:#fff;border:1px solid #ffffff80}
+.page{max-width:820px;margin:16px auto;background:#fff;padding:36px 40px;box-shadow:0 1px 4px #0002}
+h1{font-size:1.5rem;margin:0 0 .6rem} h2{font-size:1.15rem;margin:1.6rem 0 .6rem}
+.meta{display:flex;flex-wrap:wrap;gap:.3rem 1.4rem;margin-bottom:.8rem}
+.audio{display:flex;gap:.8rem;align-items:flex-start;background:var(--h2);border-left:5px solid #3c78d8;padding:.8rem 1rem;border-radius:4px}
+.audio button{flex:none;font:inherit;font-weight:700;border:0;border-radius:999px;padding:.45rem .9rem;background:#3c78d8;color:#fff;cursor:pointer}
+.audio p{margin:0;font-size:.92rem}
+table{width:100%;border-collapse:collapse;margin:.4rem 0}
+th,td{border:1px solid var(--line);padding:.55rem .7rem;vertical-align:top;text-align:left}
+th{background:var(--h1)} td.sub{background:var(--h2);font-style:italic;font-size:.88rem}
+ul{margin:.2rem 0;padding-left:1.1rem} li{margin:.25rem 0}
+.lede{font-style:italic;color:var(--soft);margin:.2rem 0 .6rem}
+.mis tr.m td{background:var(--h2);font-weight:700}
+.dirt td.write{height:70px} .dirt td[contenteditable]:focus{background:#f6f9ff;outline:none}
+.dirt td.done{width:28%;text-align:center;vertical-align:middle;background:var(--pink);font-weight:700;cursor:pointer;user-select:none}
+.dirt td.done.yes{background:#c8ecd0}
+.teacher{max-width:820px;margin:16px auto 40px;background:#fff;border:2px dashed #c0392b;padding:20px 24px}
+.teacher h2{margin-top:0;color:#c0392b}
+@media (max-width:600px){.page{padding:22px 16px}.teacher{padding:16px}}
+@media print{body{background:#fff}.bar,.teacher,.audio button{display:none}.page{box-shadow:none;margin:0;max-width:none;padding:0}.pb{break-before:page}.audio{background:#fff;border:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<div class="bar"><b>Whole-Class Feedback &amp; Feedforward</b>
+  <button class="ghost" onclick="var t=document.querySelector('.teacher');t.hidden=!t.hidden">Teacher section</button>
+  <button onclick="print()">Print / save as PDF</button>
+</div>
+<div class="page">
+  <h1>Whole-Class Feedback &amp; Feedforward Sheet</h1>
+  <div class="meta"><span><b>Class:</b> ${e(o.cls || '________')}</span><span><b>Date:</b> ${e(o.date || '________')}</span><span><b>Task/Assessment:</b> ${e(o.task)}</span></div>
+${o.audio ? `  <div class="audio"><button id="speak" type="button">▶ Listen</button>
+    <p id="script"><b>Audio for those with headphones.</b> [[AUDIO SCRIPT]]</p></div>` : `  <p><i>Audio for those with headphones</i></p>`}
+
+  <h2>1. Where Am I Going? &amp; How Am I Going?</h2>
+  <p><b>Where am I going?</b> [[WHERE AM I GOING]]</p>
+  <p><b>How am I going?</b> [[HOW AM I GOING]]</p>
+  <table>
+    <tr><th>Outstanding Exemplars</th><th>Key Vocabulary Errors</th></tr>
+    <tr><td class="sub">Highlighting excellent work (Task/Process focus).</td><td class="sub">Noting specific terminology mistakes.</td></tr>
+    <tr><td><ul>
+      [[EXEMPLAR ITEMS: for each exemplar, two lines: <li><b>Student(s):</b> …</li><li><b>What they did well:</b> …</li>]]
+    </ul></td><td><ul>
+      [[VOCABULARY ITEMS: for each error, two lines: <li><b>Incorrect word/spelling:</b> …</li><li><b>Correction/Definition:</b> …</li>]]
+    </ul></td></tr>
+  </table>
+
+  <h2 class="pb">2. Common Misconceptions</h2>
+  <p class="lede">Identifying areas where skills were repeated incorrectly to prevent permanently cementing them into long-term memory.</p>
+  <table class="mis">
+    [[MISCONCEPTION ROWS: for each misconception, two rows: <tr class="m"><td>Misconception n: …</td></tr><tr><td><i>Correction/Strategy:</i> …</td></tr>]]
+  </table>
+
+  <h2 class="pb">3. Where To Next? (Future-Focused Feedforward)</h2>
+  <table>
+    <tr><th>Moving from Unistructural/Multistructural to Relational (Achieved)</th><th>Moving from Relational to Extended Abstract (Merit/Excellence)</th></tr>
+    <tr><td class="sub">Advice for students needing to connect multiple ideas together.</td><td class="sub">Advice for students needing to generalise, evaluate, or apply ideas to a new context.</td></tr>
+    <tr><td><ul><li><b>Action:</b> [[LEFT ACTION]]</li><li><b>Strategy:</b> [[LEFT STRATEGY]]</li></ul></td>
+        <td><ul><li><b>Action:</b> [[RIGHT ACTION]]</li><li><b>Strategy:</b> [[RIGHT STRATEGY]]</li></ul></td></tr>
+  </table>
+
+  <h2 class="pb">Student D.I.R.T. Action Plan</h2>
+  <p class="lede">(Dedicated Improvement &amp; Reflection Time)</p>
+  <p><b>Student Instructions:</b> You must actively use this whole-class advice to close the gap between your current understanding and the success criteria. Use the space below to identify how you will fix errors in your own work, and then physically alter your assignment.</p>
+  <p><b>My specific goals for this D.I.R.T session:</b></p>
+  <ul>[[GOAL STARTERS: four to six <li>…</li> items]]</ul>
+  <table class="dirt">
+    <tr><td colspan="2"><b>1. Vocabulary to correct:</b></td></tr><tr><td class="write" colspan="2" contenteditable="true"></td></tr>
+    <tr><td colspan="2"><b>2. Misconception I need to fix in my work:</b></td></tr><tr><td class="write" colspan="2" contenteditable="true"></td></tr>
+    <tr><td colspan="2"><b>3. My "Feedforward" next step (Task/Process/Self-Regulation):</b></td></tr><tr><td class="write" colspan="2" contenteditable="true"></td></tr>
+    <tr><td><b>4. Action taken:</b> <i>(Check this box when you have physically altered your work to reflect this feedback)</i></td><td class="done" id="done" role="button" tabindex="0">Not Completed</td></tr>
+  </table>
+</div>
+
+<section class="teacher" hidden>
+  <h2>TEACHER ONLY (not printed)</h2>
+  <ul>[[TEACHER ITEMS: the same points as the TEACHER ONLY section of your reply, as <li>…</li> items]]</ul>
+</section>
+
+<script>
+var b=document.getElementById('speak');
+if(b){b.onclick=function(){if(!('speechSynthesis' in window))return;
+  if(speechSynthesis.speaking){speechSynthesis.cancel();b.textContent='▶ Listen';return;}
+  var u=new SpeechSynthesisUtterance(document.getElementById('script').innerText);u.lang='en-NZ';u.rate=.95;
+  u.onend=function(){b.textContent='▶ Listen';};speechSynthesis.speak(u);b.textContent='■ Stop';};}
+var d=document.getElementById('done');
+function flip(){var y=d.classList.toggle('yes');d.textContent=y?'✓ Completed':'Not Completed';}
+d.onclick=flip;d.onkeydown=function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();flip();}};
+<\/script>
+</body>
+</html>`;
+}
+
 /* ============================================================
    PROMPT COMPOSER
    ============================================================ */
 function composePrompt(o){
   const { s, sub, stage, subject, name, focus, tasks, ids, detail, batch, grades, notes, attach,
           purpose = 'grade', fbStage = 'draft', fbSpec = 'general',
-          clClass = '', clTiming = 'during', clNames = false, clAudio = true, today = '' } = o;
+          clClass = '', clTiming = 'during', clNames = false, clAudio = true, clHtml = false, today = '',
+          schedMode = 'upload', taskMode = 'upload', schedText = '', taskText = '' } = o;
+  const schedWhere = schedMode === 'paste' ? 'pasted in full in this prompt, below' : 'attached';
   const L = 'ABCDEFGHIJ';
   const toYou = t => String(t||'').replace(/\bthe AI\b/g,'you').replace(/\bThe AI\b/g,'You');
   const others = { 'Level 1':'the Level 2 or Level 3 standards in this subject, or the pre-2024 Level 1 standards', 'Level 2':'the Level 1 or Level 3 standards in this subject', 'Level 3':'the Level 1 or Level 2 standards in this subject' }[stage] || 'standards at other levels';
@@ -678,7 +839,7 @@ You will read the class's work, find the patterns, and fill in the teacher's Who
 ${head('AUTHORITY — what you judge against, in this order')}
 1. The achievement standard (criteria and explanatory notes below). It is the only source of criteria.
 2. NZQA's clarification for this standard (below). It explains the standard; it never adds criteria.
-3. The school's assessment schedule (attached). Use its task-specific wording to apply the standard to this task, and quote it. If any line of the schedule appears to ask for more or less than the standard, FLAG the conflict for the teacher — do not resolve it yourself.
+3. The school's assessment schedule (${schedWhere}). Use its task-specific wording to apply the standard to this task, and quote it. If any line of the schedule appears to ask for more or less than the standard, FLAG the conflict for the teacher — do not resolve it yourself.
 4. NZQA annotated exemplar commentary and the National Moderator's Report (below). These show where NZQA draws the grade lines in practice.
 5. The teacher's department notes (below, if any).
 
@@ -735,13 +896,23 @@ ${taskList}
 ${notes ? `
 Department notes from the teacher (treat as context, not as new criteria):
 ${notes}
+` : ''}${schedMode === 'paste' ? `
+ASSESSMENT SCHEDULE — pasted by the teacher (this is the schedule; do not ask for another copy)
+"""
+${schedText}
+"""
+` : ''}${taskMode === 'paste' ? `
+TASK SHEET — pasted by the teacher (this is what students were asked to do)
+"""
+${taskText}
+"""
 ` : ''}`;
 
   /* ---------------- step 0 ---------------- */
   const docList = [
-    '  - The ASSESSMENT SCHEDULE for this task (required).',
-    has('task') ? '  - The TASK SHEET given to students.' : null,
-    has('work') ? '  - STUDENT WORK — one or more files per student.' : null,
+    schedMode === 'upload' ? '  - The ASSESSMENT SCHEDULE for this task (required).' : null,
+    taskMode === 'upload' ? '  - The TASK SHEET given to students (required).' : null,
+    '  - STUDENT WORK — one or more files per student (required).',
     purpose === 'grade' && has('provisional') ? '  - The teacher’s own PROVISIONAL GRADES.' : null,
     purpose === 'class' && has('results') ? '  - The teacher’s GRADES or a moderation table for this class.' : null,
     has('exemplars') ? '  - EXEMPLARS or benchmark scripts.' : null,
@@ -761,9 +932,9 @@ In your FIRST response:
   a) Give a short table: | Student | Files | Pages | Readable words (approx.) | Reading problems | so the teacher can see every file was read and nothing was cut off. Page counts mislead for scans and images, so give the readable word count where you can and say plainly when text could not be extracted.
   b) Quote one line from the assessment schedule to show you can read it.
   c) Note anything unreadable (handwriting, scans, images of text) and anything that looks incomplete.
-If the ASSESSMENT SCHEDULE is missing or unreadable: say so and STOP. Ask for it. Never reconstruct or invent what a schedule says.
-If any OTHER document is missing (the task sheet, a student's file), name the limitation and continue only where a defensible judgement is still possible; say which judgements it affects.
-If the schedule is present and the files are matched, continue straight on — do not wait to be asked.
+${schedMode === 'paste' && taskMode === 'paste' ? 'The assessment schedule and task sheet are pasted in this prompt.' : `If ${[schedMode === 'upload' ? 'the ASSESSMENT SCHEDULE' : null, taskMode === 'upload' ? 'the TASK SHEET' : null].filter(Boolean).join(' or ')} is missing or unreadable: say so and STOP. Ask for it, and do not ${purpose === 'grade' ? 'grade' : purpose === 'feedback' ? 'write feedback for' : 'build the sheet from'} ANY student until you have it. Never reconstruct or invent what a schedule or task says.`}
+If a student's file is missing or unreadable, name the limitation and continue only where a defensible judgement is still possible; say which judgements it affects.
+If the schedule and task sheet are present and the files are matched, continue straight on — do not wait to be asked.
 
 Student identifiers
   ${idRule}
@@ -975,7 +1146,18 @@ After the sheet, under a clear divider headed "TEACHER ONLY — do not print":
 - Anything you left off the sheet because it would have given away content${during ? ' during the assessment' : ''}.
 - Any individual students who need a separate conversation (for the teacher only), with the reason in one line — including observable writing changes between files, described not accused.
 
-End with this line exactly:
+${clHtml ? `${head('PART 2 — THE SAME SHEET AS A DOWNLOADABLE HTML FILE')}
+After the teacher section, output the sheet AGAIN as one complete HTML file, in a single code block marked html, so the teacher can paste it into the school site and download it.
+  - Start from the TEMPLATE below and copy it EXACTLY: every tag, style, script and heading, in the same order.
+  - Replace each [[...]] marker with the same content you wrote in the sheet above. A marker that describes a repeating pattern (e.g. EXEMPLAR ITEMS) shows the HTML to repeat for each entry. Remove every [[...]] marker; none may remain.
+  - Write content as plain text inside the tags shown. Use &amp; for "&" and &lt; for "<". Do not add images, links, external files or new scripts.
+  - The TEACHER ITEMS go only in the teacher section, which is hidden on screen until opened and is never printed.
+  - Output the complete file, from <!doctype html> to </html>, with nothing cut or summarised. Do not put the file in Canvas; a plain code block is what the teacher copies.
+
+TEMPLATE
+${classTemplate({ cls: clClass, date: today, task: name || `AS${s.code} ${s.title}`, audio: clAudio })}
+
+` : ''}End with this line exactly:
 "Draft sheet for the teacher to edit. Check it gives no content students should produce themselves before sharing it."`;
   }
 
@@ -997,15 +1179,22 @@ function build(){
   $('cl-tip').textContent = after
     ? 'After marking, the sheet can describe where the class landed and, with consent, name students whose work is used as an exemplar.'
     : 'During the assessment, nothing on the sheet names students, quotes their work, or supplies content they could copy. Strategies are shown on a different context.';
-  if(!tasks.length || fbBlocked){ $('prompt').value=''; $('pmeta').textContent=''; saveSetup(); return; }
+  const sMode = mode('sched-mode'), tMode = mode('task-mode');
+  const docBlocked = (sMode === 'paste' && !$('sched-text').value.trim()) || (tMode === 'paste' && !$('task-text').value.trim());
+  $('doc-warn').hidden = !docBlocked;
+  const toAttach = [sMode === 'upload' ? 'the schedule' : null, tMode === 'upload' ? 'the task sheet' : null, 'the student work'].filter(Boolean);
+  $('how2').textContent = `Attach ${toAttach.length > 1 ? toAttach.slice(0,-1).join(', ') + ' and ' + toAttach.slice(-1) : toAttach[0]} in the same message, then send.`;
+  $('savebox').hidden = !(purpose === 'class' && $('cl-html').checked);
+  if(!tasks.length || fbBlocked || docBlocked){ $('prompt').value=''; $('pmeta').textContent=''; saveSetup(); return; }
   const txt = composePrompt({
     s: sel.std, sub: D().subjects[sel.subject], stage: D().meta.stage, subject: sel.subject,
     name: $('a-name').value.trim(), focus: $('a-focus').value.trim(), tasks,
-    ids: $('ids').value, detail: $('detail').value, batch: $('batch').value,
+    ids: $('ids').value, detail: $('detail').value, batch: '5',
     grades: $('grades').value, notes: $('notes').value.trim(), attach: attachState(),
     purpose, fbStage: $('fb-stage').value, fbSpec: $('fb-spec').value,
     clClass: $('cl-class').value.trim(), clTiming: $('cl-timing').value,
-    clNames: $('cl-names').checked, clAudio: $('cl-audio').checked,
+    clNames: $('cl-names').checked, clAudio: $('cl-audio').checked, clHtml: $('cl-html').checked,
+    schedMode: sMode, taskMode: tMode, schedText: $('sched-text').value.trim(), taskText: $('task-text').value.trim(),
     today: new Date().toLocaleDateString('en-NZ', { day:'numeric', month:'long', year:'numeric' })
   });
   $('prompt').value = txt;
@@ -1014,6 +1203,29 @@ function build(){
   saveSetup();
 }
 window.composePrompt = composePrompt;
+
+/* ---- save Gemini's HTML sheet ---- */
+function cleanHtml(){
+  let h = $('html-in').value.trim().replace(/^```(?:html)?\s*/i,'').replace(/\s*```\s*$/,'');
+  const k = h.search(/<!doctype html|<html/i); if(k > 0) h = h.slice(k);
+  return h;
+}
+function htmlOk(h){
+  if(!/<!doctype html|<html/i.test(h) || !/<\/html>/i.test(h)){ $('html-msg').textContent = 'That doesn’t look like a complete HTML file. Copy the whole code block, from <!doctype html> to </html>.'; return false; }
+  $('html-msg').textContent = ''; return true;
+}
+$('html-dl').onclick = () => {
+  const h = cleanHtml(); if(!htmlOk(h)) return;
+  const nm = (($('cl-class').value.trim() || 'class') + ' feedback AS' + (sel.std ? sel.std.code : '')).replace(/[^\w\- ]+/g,'').replace(/\s+/g,'-');
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([h], { type:'text/html' })); a.download = nm + '.html';
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  $('html-msg').textContent = 'Downloaded. Open it in a browser to print, save as PDF or share.';
+};
+$('html-view').onclick = () => {
+  const h = cleanHtml(); if(!htmlOk(h)) return;
+  const w = window.open(URL.createObjectURL(new Blob([h], { type:'text/html' })), '_blank');
+  if(!w) $('html-msg').textContent = 'Your browser blocked the preview. Use Download instead.';
+};
 
 /* ---- reset: two clicks, so a stray tap can't wipe a half-built setup ---- */
 let resetTimer = null;
@@ -1030,6 +1242,7 @@ $('reset').onclick = () => {
   FIELDS.forEach(f => $(f).value = DEF[f]); CHECKS.forEach(c => $(c).checked = DEFC[c]);
   setPurpose('grade', true);
   document.querySelectorAll('#attach input').forEach(i => i.checked = ['schedule','task','work'].includes(i.dataset.a));
+  setMode('sched-mode','upload'); setMode('task-mode','upload'); $('html-in').value = ''; $('html-msg').textContent = '';
   comps = []; $('comps').innerHTML = ''; $('comp-warn').hidden = true;
   $('brief').hidden = true; $('brief').innerHTML = '';
   $('brief-toggle').textContent = '▸ Show the standard, clarifications, moderator report and exemplar notes';
@@ -1056,7 +1269,7 @@ $('copy').onclick = async () => {
 };
 document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
 
-$('build').textContent = 'Build 7 · Levels 1–3, all suitable internal standards · NZQA sources checked October 2026';
+$('build').textContent = 'Build 8 · Levels 1–3, all suitable internal standards · NZQA sources checked October 2026';
 renderLevels();
 </script>
 </body>
