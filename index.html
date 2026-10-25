@@ -12,7 +12,7 @@
 <script src="mod-l3.js?v=4"></script>
 <script src="mod-ex-l1.js?v=2"></script>
 <script src="mod-ex-l2.js?v=1"></script>
-<script src="mod-ex-l3.js?v=1"></script>
+<script src="mod-ex-l3.js?v=2"></script>
 <!--/DATA-->
 <style>
 /* Layout: a single working column of numbered steps, the prompt docked at the end.
@@ -205,7 +205,27 @@ textarea.field{resize:vertical;line-height:1.5}
 :root[data-theme="dark"] #sp{--fac:#3fb8c2;--fac-light:#10292c}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) #sp{--fac:#3fb8c2;--fac-light:#10292c} }
 :root[data-theme="dark"] .purpose[aria-pressed="true"] em{color:#04282b}
-body[data-kind="exam"] .k-int, body:not([data-kind="exam"]) .k-ex{display:none !important}
+body[data-kind="exam"] .k-int, body[data-kind="info"] .k-int, body:not([data-kind="exam"]) .k-ex,
+body:not([data-kind="info"]) .k-info, body[data-kind="info"] .ai-only{display:none !important}
+.kinds{display:flex;flex-wrap:wrap;gap:.6rem 2.2rem;align-items:flex-end;margin-bottom:.9rem}
+.kgroup{display:grid;gap:.3rem}
+.kgroup-t{font-size:.625rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--brand-ink)}
+.kgroup.info .kgroup-t{color:var(--gold)}
+.kgroup .kind{margin-bottom:0}
+.kind.kind-info{border-color:var(--gold)}
+.kind.kind-info button{color:var(--gold)}
+.kind.kind-info button[aria-pressed="true"]{background:var(--gold);color:#fff}
+.info-head{padding:1rem 1.1rem;border-bottom:1px solid var(--line);background:var(--gold-wash)}
+.info-head h3{font-size:1.05rem;letter-spacing:0;text-transform:none;color:var(--brand-ink);margin:.15rem 0 .3rem}
+.info-head .k{font-size:.625rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.info-head p{font-size:.8125rem;margin:0;color:var(--ink-soft)}
+#sinfo .acts{margin:0 0 .8rem}
+@media print{
+  body[data-kind="info"] header, body[data-kind="info"] footer, body[data-kind="info"] main > section:not(#sinfo), body[data-kind="info"] .notice, body[data-kind="info"] #sinfo .acts, body[data-kind="info"] #sinfo .step-h{display:none !important}
+  body[data-kind="info"] #sinfo{border:0;background:none;padding:0}
+  body[data-kind="info"] .brief{border:0}
+  body[data-kind="info"] .brief section{break-inside:avoid}
+}
 .kind{display:inline-flex;border:2px solid var(--line-strong);border-radius:.7rem;overflow:hidden;margin-bottom:.8rem}
 .kind button{font:inherit;font-size:.8125rem;font-weight:800;padding:.55rem 1rem;border:0;background:var(--surface);color:var(--ink-soft);cursor:pointer}
 .kind button[aria-pressed="true"]{background:var(--brand-ink);color:var(--surface)}
@@ -250,7 +270,7 @@ footer p{max-width:60ch;margin:.4rem auto}
 <main class="wrap">
 
   <div class="notice stale" id="stale" role="alert" hidden></div>
-  <div class="notice" role="note">
+  <div class="notice ai-only" role="note">
     <strong>Before you paste student work into any AI.</strong>
     <ul>
       <li>The Ministry and NZQA position is that AI may support marking but must not replace your professional judgement, and the Ministry discourages relying on it for summative internal marking. Treat every grade this produces as a second opinion to test against your own and your department's.</li>
@@ -261,10 +281,17 @@ footer p{max-width:60ch;margin:.4rem auto}
 
   <!-- 1 -->
   <section class="panel" id="s1">
-    <h2 class="step-h"><span class="step-n">1</span>Assessment type, level, faculty and subject</h2>
-    <div class="kind" id="kind" role="group" aria-label="Assessment type">
-      <button type="button" data-k="int" aria-pressed="true">Internal assessment<small>Moderation of internals</small></button>
-      <button type="button" data-k="exam" aria-pressed="false">Practice exam<small>Derived grade evidence</small></button>
+    <h2 class="step-h"><span class="step-n">1</span>What you need, level, faculty and subject</h2>
+    <div class="kinds" id="kind">
+      <div class="kgroup"><span class="kgroup-t">Internal Moderation/Validation</span>
+        <div class="kind" role="group" aria-label="Internal Moderation/Validation">
+          <button type="button" data-k="int" aria-pressed="true">Internal assessment<small>Moderation of internals</small></button>
+          <button type="button" data-k="exam" aria-pressed="false">Practice exam<small>Derived grade evidence</small></button>
+        </div></div>
+      <div class="kgroup info"><span class="kgroup-t">For teachers</span>
+        <div class="kind kind-info" role="group" aria-label="For teachers">
+          <button type="button" data-k="info" aria-pressed="false">Standards information<small>Every standard, explained</small></button>
+        </div></div>
     </div>
     <div class="row">
       <div class="pills" id="levels"></div>
@@ -276,13 +303,20 @@ footer p{max-width:60ch;margin:.4rem auto}
 
   <!-- 2 -->
   <section class="panel dead" id="s2">
-    <h2 class="step-h"><span class="step-n">2</span>Internal standard</h2>
+    <h2 class="step-h"><span class="step-n">2</span><span class="k-int">Internal standard</span><span class="k-ex">External standard</span><span class="k-info">Standard</span></h2>
     <p class="hint" id="s2-hint">Only internally assessed standards are listed. Pick a subject first.</p>
     <div class="stds" id="stds"></div>
   </section>
 
+  <!-- standards information (teachers) -->
+  <section class="panel dead k-info" id="sinfo">
+    <h2 class="step-h"><span class="step-n">3</span>Standard information</h2>
+    <div class="acts"><button class="btn btn-ai" id="info-print" type="button">Print or save as PDF</button></div>
+    <div class="brief" id="info"></div>
+  </section>
+
   <!-- 3: purpose -->
-  <section class="panel dead" id="sp">
+  <section class="panel dead ai-only" id="sp">
     <h2 class="step-h"><span class="step-n">3</span>What do you need?</h2>
     <div class="purposes" id="purposes">
       <button class="purpose" data-p="grade" aria-pressed="true" type="button"><em><span class="k-int">Final work</span><span class="k-ex">Marked practice exam</span></em><b>Grading advice</b>
@@ -295,7 +329,7 @@ footer p{max-width:60ch;margin:.4rem auto}
   </section>
 
   <!-- 4 -->
-  <section class="panel dead" id="s3">
+  <section class="panel dead ai-only" id="s3">
     <h2 class="step-h"><span class="step-n">4</span>Describe this assessment</h2>
     <p class="hint">These details go into the prompt so the AI judges against your task. The assessment schedule and task sheet are required: paste them here, or attach them in the AI. Student work is always attached in the AI.</p>
     <div class="docpick">
@@ -449,7 +483,7 @@ footer p{max-width:60ch;margin:.4rem auto}
   </section>
 
   <!-- 4 -->
-  <section class="panel dead" id="s4">
+  <section class="panel dead ai-only" id="s4">
     <h2 class="step-h"><span class="step-n">5</span>What the AI will be told</h2>
     <p class="hint">Everything below travels inside the prompt, so you can check the AI is working from the same reading of the standard you are.</p>
     <button class="brief-toggle" id="brief-toggle" type="button">▸ Show the standard, clarifications, moderator report and exemplar notes</button>
@@ -457,7 +491,7 @@ footer p{max-width:60ch;margin:.4rem auto}
   </section>
 
   <!-- 5 -->
-  <section class="panel out-panel dead" id="s5">
+  <section class="panel out-panel dead ai-only" id="s5">
     <h2 class="step-h"><span class="step-n">6</span><span id="out-title">Your moderation prompt</span></h2>
     <textarea id="prompt" readonly aria-label="Generated prompt"></textarea>
     <div class="acts">
@@ -558,19 +592,40 @@ function renderLevels(){
   pills($('levels'), LEVELS.map(l => ({ label:l.label, cls:'lvl', soon:!live(l), disabled:!live(l) })),
     i => pickLevel(LEVELS[i].id), LEVELS.findIndex(l => l.id === sel.level));
 }
-function SRC(){ return kind === 'exam' ? window.MOD_EX : window.MOD_DATA; }
+let INFO = null;
+function buildInfo(){
+  INFO = {};
+  ['1','2','3'].forEach(l => {
+    const a = window.MOD_DATA && window.MOD_DATA[l], b = window.MOD_EX && window.MOD_EX[l];
+    if(!a && !b) return;
+    const subjects = {};
+    const names = new Set([...Object.keys(a ? a.subjects : {}), ...Object.keys(b ? b.subjects : {})]);
+    names.forEach(n => {
+      const si = a && a.subjects[n], se = b && b.subjects[n];
+      subjects[n] = {
+        _int: si, _ex: se, slug: (si || se).slug,
+        standards: [...(si ? si.standards.map(x => Object.assign({}, x, { _k:'int' })) : []), ...(se ? se.standards.map(x => Object.assign({}, x, { _k:'ex' })) : [])],
+        excluded: [...(si ? si.excluded || [] : []), ...(se ? se.excluded || [] : [])]
+      };
+    });
+    INFO[l] = { meta: (a || b).meta, faculties: (a || b).faculties, subjects };
+  });
+}
+function SRC(){ if(kind === 'info'){ if(!INFO) buildInfo(); return INFO; } return kind === 'exam' ? window.MOD_EX : window.MOD_DATA; }
 function D(){ return SRC() && SRC()[sel.level]; }
 function setKind(k){
   kind = k; document.body.dataset.kind = k;
-  document.querySelectorAll('#kind button').forEach(b => b.setAttribute('aria-pressed', b.dataset.k === k));
+  document.querySelectorAll('#kind button[data-k]').forEach(b => b.setAttribute('aria-pressed', b.dataset.k === k));
   sel = { level:null, faculty:null, subject:null, std:null };
   document.documentElement.style.removeProperty('--fac'); document.documentElement.style.removeProperty('--fac-light');
   renderLevels(); $('faculties').hidden = true; $('subjects').hidden = true;
-  $('s1-note').hidden = k !== 'exam';
-  $('s1-note').textContent = k === 'exam' ? 'Mark a school practice exam for an external standard, as evidence for derived grades. Your school’s own quality assurance still applies.' : '';
+  $('s1-note').hidden = k === 'int';
+  $('s1-note').textContent = k === 'exam' ? 'Mark a school practice exam for an external standard, as evidence for derived grades. Your school’s own quality assurance still applies.'
+    : k === 'info' ? 'Plain reference notes on every internal and external standard: the criteria, the notes that define the grades, NZQA clarifications, exemplars, moderator and assessment reports, and exam details.' : '';
+  $('sinfo').classList.add('dead'); $('info').innerHTML = '';
   resetFrom(2);
 }
-document.querySelectorAll('#kind button').forEach(b => b.onclick = () => setKind(b.dataset.k));
+document.querySelectorAll('#kind button[data-k]').forEach(b => b.onclick = () => setKind(b.dataset.k));
 function pickLevel(id){
   sel = { level:id, faculty:null, subject:null, std:null };
   renderLevels();
@@ -608,25 +663,27 @@ function pickSubject(name){
   const list = D().subjects[name].standards, ex = D().subjects[name].excluded || [];
   $('s2').classList.remove('dead');
   $('s2-hint').textContent = list.length
-    ? kind === 'exam' ? `${list.length} externally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}, for marking a school practice exam.` : `${list.length} internally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}.${ex.length ? ` ${ex.length} more ${ex.length===1?'is':'are'} listed at the end but left out, because AI judgement would not be fair or reliable for that evidence.` : ''}`
+    ? kind === 'info' ? `${list.length} standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}: ${list.filter(x => x._k === 'int').length} internal, ${list.filter(x => x._k === 'ex').length} external. Pick one to read its notes.`
+    : kind === 'exam' ? `${list.length} externally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}, for marking a school practice exam.` : `${list.length} internally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}.${ex.length ? ` ${ex.length} more ${ex.length===1?'is':'are'} listed at the end but left out, because AI judgement would not be fair or reliable for that evidence.` : ''}`
     : `No ${D().meta.stage} ${name} internal standards are included. The reasons are below.`;
   $('stds').innerHTML = list.map(s => `
     <button class="std" data-code="${s.code}" aria-pressed="false">
       <span class="std-top"><span class="code">AS${s.code}</span><span class="ref">${s.ref}</span>
-        <span class="badge">${kind === 'exam' ? 'external' : 'internal'}</span><span class="cr">${s.credits} cr</span></span>
+        <span class="badge">${(s._k ? s._k === 'ex' : kind === 'exam') ? 'external' : 'internal'}</span><span class="cr">${s.credits} cr</span></span>
       <span class="std-title">${esc(s.title)}</span>
       <span class="std-ver">${esc(s.version)} · sources checked ${esc(s.verified)}</span>
     </button>`).join('') + ex.map(s => `
     <div class="std off" aria-disabled="true">
       <span class="std-top"><span class="code">AS${esc(s.code)}</span><span class="badge off">not included</span></span>
       <span class="std-title">${esc(s.title)}</span>
-      <span class="std-ver">${esc(s.reason)}</span>
+      <span class="std-ver">${kind === 'info' ? 'No detailed notes in this tool for this standard.' : esc(s.reason)}</span>
     </div>`).join('');
   $('stds').querySelectorAll('button.std').forEach(b => b.onclick = () => pickStd(b.dataset.code));
   resetFrom(3);
 }
 function resetFrom(n){
   ['s2','sp','s3','s4','s5'].forEach((id,k) => { if(k+2 >= n) $(id).classList.add('dead'); });
+  if(n <= 3){ $('sinfo').classList.add('dead'); $('info').innerHTML = ''; }
   if(n <= 2) $('stds').innerHTML = '';
   $('prompt').value = '';
 }
@@ -635,6 +692,11 @@ function resetFrom(n){
 function pickStd(code){
   sel.std = D().subjects[sel.subject].standards.find(s => s.code === code);
   $('stds').querySelectorAll('.std').forEach(b => b.setAttribute('aria-pressed', b.dataset.code === code));
+  if(kind === 'info'){
+    $('sinfo').classList.remove('dead'); renderInfo();
+    $('sinfo').scrollIntoView && $('sinfo').scrollIntoView({ behavior:'smooth', block:'start' });
+    return;
+  }
   const saved = loadSetup(code);
   comps = saved && saved.comps && saved.comps.length ? saved.comps.slice() : sel.std.components.slice();
   FIELDS.forEach(f => { $(f).value = saved && saved[f] != null ? saved[f] : DEF[f]; });
@@ -686,12 +748,21 @@ function setPurpose(p, quiet){
 document.querySelectorAll('#purposes .purpose').forEach(b => b.onclick = () => setPurpose(b.dataset.p));
 
 /* ---- step 5 ---- */
-function renderBriefExam(){
-  const s = sel.std, sub = D().subjects[sel.subject];
+const forTeachers = t => String(t||'').replace(/\bThe AI\b/g,'A moderator working only from the written work').replace(/\bthe AI\b/g,'a moderator working only from the written work');
+function infoHead(s, sub, label){
+  return `<div class="info-head"><span class="k">${esc(D().meta.stage)} ${esc(sel.subject)} · ${esc(label)} · ${s.credits} credits</span>
+    <h3>AS${esc(s.code)}${s.ref ? ' (' + esc(s.ref) + ')' : ''} · ${esc(s.title)}</h3>
+    ${sub.discipline ? `<p><strong>How this subject is judged:</strong> ${esc(sub.discipline)}</p>` : ''}</div>`;
+}
+function renderInfo(){
+  const s = sel.std, m = D().subjects[sel.subject];
+  if(s._k === 'ex') renderBriefExam($('info'), s, m._ex, true); else renderBrief($('info'), s, m._int, true);
+}
+function renderBriefExam(el = $('brief'), s = sel.std, sub = D().subjects[sel.subject], teacher = false){
   const li = a => (a && a.length) ? '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>' : '<p>None found when sources were checked.</p>';
   const gl = a => '<ul>' + a.map(g => `<li><span class="gtag ${g.type}">${g.type === 'req' ? 'Required' : 'Indicator'}</span> <span class="gsrc">${esc(g.src)}</span> ${esc(g.t)}</li>`).join('') + '</ul>';
   const lk = x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`;
-  $('brief').innerHTML = `
+  el.innerHTML = (teacher ? infoHead(s, sub, 'External · examination') : '') + `
     <section><h3>Achievement criteria · ${esc(s.version)}</h3>
       <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
     <section><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
@@ -701,36 +772,35 @@ function renderBriefExam(){
     <section><h3>NZQA Assessment Reports</h3>${li(s.assessmentReport)}</section>
     ${(s.exemplars||[]).length ? `<section><h3>NZQA annotated exemplars</h3><div style="display:grid;gap:.7rem">${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}</div>`).join('')}</div></section>` : ''}
     <section><h3>Derived grade rules that apply</h3>${li(sub.derivedGradeNotes)}</section>
-    <section><h3>Gates the AI checks, bottom up</h3>
-      <p style="margin-bottom:.6rem">The marking schedule's score codes decide each question. These gates, from the standard, are what the AI uses to sense-check the overall grade and explain boundaries.</p>
+    <section><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
+      <p style="margin-bottom:.6rem">${teacher ? "In the exam the marking schedule's score codes decide the marks. These points come from the standard and show what separates the grades: <strong>Required</strong> items come from the standard's wording; <strong>Indicators</strong> are examples of quality from exemplars and Assessment Reports, never a checklist." : "The marking schedule's score codes decide each question. These gates, from the standard, are what the AI uses to sense-check the overall grade and explain boundaries."}</p>
       <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
       <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
       <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
     <section><h3>Watch for in this exam</h3>${li(s.watch)}</section>
-    ${s.aiLimits ? `<section><h3>What the AI cannot judge from scans</h3><p>${esc(s.aiLimits)}</p></section>` : ''}
+    ${s.aiLimits ? `<section><h3>${teacher ? 'What to check beyond the written script' : 'What the AI cannot judge from scans'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
     <section class="src"><h3>Sources</h3><ul>
       <li><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=${s.code}" target="_blank" rel="noopener">AS${s.code} on NZQA</a></li>
       ${sub.sources.map(x => `<li>${lk(x)}</li>`).join('')}
     </ul></section>`;
 }
-function renderBrief(){
-  if(kind === 'exam') return renderBriefExam();
-  const s = sel.std, sub = D().subjects[sel.subject];
+function renderBrief(el = $('brief'), s = sel.std, sub = D().subjects[sel.subject], teacher = false){
+  if(!teacher && kind === 'exam') return renderBriefExam();
   const li = a => '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>';
   const gl = a => '<ul>' + a.map(g => typeof g === 'string' ? `<li>${esc(g)}</li>`
     : `<li><span class="gtag ${g.type}">${g.type === 'req' ? 'Required' : 'Indicator'}</span> <span class="gsrc">${esc(g.src)}</span> ${esc(g.t)}</li>`).join('') + '</ul>';
-  $('brief').innerHTML = `
+  el.innerHTML = (teacher ? infoHead(s, sub, 'Internal assessment') : '') + `
     <section><h3>Achievement criteria · ${esc(s.version)}</h3>
       <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
     <section><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
     ${s.clarifications.points.length ? `<section><h3>NZQA clarification · ${esc(s.clarifications.date)}</h3>${li(s.clarifications.points)}</section>` : `<section><h3>NZQA clarification</h3><p>None published for this standard when sources were checked.</p></section>`}
     ${(s.conditions||[]).length ? `<section><h3>Conditions of assessment that affect marking or feedback</h3>${li(s.conditions)}</section>` : ''}
-    ${s.aiLimits ? `<section><h3>What the AI cannot judge from documents</h3><p>${esc(s.aiLimits)}</p></section>` : ''}
+    ${s.aiLimits ? `<section><h3>${teacher ? 'What to check beyond the written work' : 'What the AI cannot judge from documents'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
     ${s.nmr.length ? `<section><h3>National Moderator's Report · 2025 round</h3>${li(s.nmr)}</section>` : ''}
     ${s.exemplars.length ? `<section><h3>NZQA annotated exemplars · what sits at each grade</h3><div style="display:grid;gap:.7rem">
       ${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}</div>`).join('')}</div></section>` : ''}
-    <section><h3>Gates the AI checks, bottom up</h3>
-      <p style="margin-bottom:.6rem">Only <strong>Required</strong> items can cap a grade. <strong>Indicators</strong> are examples of quality that help place work, never a checklist.</p>
+    <section><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
+      <p style="margin-bottom:.6rem">${teacher ? "<strong>Required</strong> items come from the standard's wording or an NZQA clarification: work cannot reach the grade without them. <strong>Indicators</strong> are examples of quality from explanatory notes, exemplars and moderator reports; they help place work but are never a checklist." : "Only <strong>Required</strong> items can cap a grade. <strong>Indicators</strong> are examples of quality that help place work, never a checklist."}</p>
       <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
       <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
       <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
@@ -1473,6 +1543,7 @@ function build(){
 }
 window.composePrompt = composePrompt;
 
+$('info-print').onclick = () => window.print();
 /* ---- save Gemini's HTML sheet ---- */
 function cleanHtml(){
   let h = $('html-in').value.trim().replace(/^```(?:html)?\s*/i,'').replace(/\s*```\s*$/,'');
@@ -1538,7 +1609,7 @@ $('copy').onclick = async () => {
 };
 document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
 
-$('build').textContent = 'Build 10 · Levels 1–3 · internal moderation and practice exams · NZQA sources checked October 2026';
+$('build').textContent = 'Build 11 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
 document.body.dataset.kind = 'int';
 /* ---- data freshness: the standards, specifications and cut scores here were checked for the 2026 year ---- */
 (function(){

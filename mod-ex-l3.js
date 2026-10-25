@@ -3404,7 +3404,7 @@ window.MOD_EX['3'] = {
       ]
      },
      "watch": [
-      "Structural formulae with wrong bonding, missing hydrogens or wrong groups (COH for CHO; amide for amine). The AI must not credit a structure it cannot read clearly.",
+      "Structural formulae with wrong bonding, missing hydrogens or wrong groups (COH for CHO; amide for amine). Do not credit a structure that cannot be read clearly.",
       "Reaction schemes without conditions: heat or reflux, concentrated or dilute, aqueous or alcoholic NH₃ or KOH, acidified oxidant.",
       "Generic reflux and distillation answers that do not use the given compounds and boiling points or the position of the condenser.",
       "Enantiomers not drawn in 3D tetrahedral form, or optical activity described without opposite rotation of plane-polarised light.",
