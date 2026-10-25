@@ -1,0 +1,11340 @@
+/* NCEA PRACTICE EXAM (derived grade evidence) DATA, Level 3. Generated 2026-10-25 from NZQA sources. */
+(function () {
+window.MOD_EX = window.MOD_EX || {};
+window.MOD_EX['3'] = {
+ "meta": {
+  "qualification": "NCEA",
+  "stage": "Level 3",
+  "year": 2026
+ },
+ "faculties": [
+  {
+   "name": "Social Sciences",
+   "dark": "#7900CC",
+   "light": "#F5EFFF",
+   "subjects": [
+    "History",
+    "Geography",
+    "Classical Studies",
+    "Business Studies",
+    "Economics",
+    "Psychology"
+   ]
+  },
+  {
+   "name": "Science",
+   "dark": "#007040",
+   "light": "#E4F4E5",
+   "subjects": [
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Earth & Space Science"
+   ]
+  },
+  {
+   "name": "Maths",
+   "dark": "#9F1559",
+   "light": "#F8E7EE",
+   "subjects": [
+    "Calculus",
+    "Statistics"
+   ]
+  },
+  {
+   "name": "English",
+   "dark": "#22229D",
+   "light": "#EBF5FA",
+   "subjects": [
+    "English",
+    "Media Studies"
+   ]
+  },
+  {
+   "name": "Māori",
+   "dark": "#1A6ABE",
+   "light": "#ECFBFF",
+   "subjects": [
+    "Te Reo Māori",
+    "Te Ao Haka"
+   ]
+  },
+  {
+   "name": "Technology",
+   "dark": "#DB2026",
+   "light": "#FDECE7",
+   "subjects": [
+    "Digital Technologies"
+   ]
+  },
+  {
+   "name": "Arts",
+   "dark": "#9A6300",
+   "light": "#FFF7EE",
+   "subjects": [
+    "Art History",
+    "Drama",
+    "Music"
+   ]
+  },
+  {
+   "name": "PE & Health",
+   "dark": "#BF0000",
+   "light": "#FFEDED",
+   "subjects": [
+    "Physical Education",
+    "Health"
+   ]
+  }
+ ],
+ "subjects": {
+  "Art History": {
+   "slug": "art-history",
+   "discipline": "Each Level 3 Art History external is one written response about TWO named art works. It is marked holistically with one score from 0 to 8. Markers want accurate art historical knowledge applied to exactly what the question asks: style and the reasons for it (91482), meanings and how they are built (91483), or the relationship between art and a specified context (91484). Specific visual evidence, correct terminology and context must be tied to the works. Rote-learned material bent to fit the question, generic context, incorrect information and length are never what earns the grade. The 2025 report notes that Not Achieved scripts usually contained incorrect information rather than too little.",
+   "parallelHint": "a different pair of art works, a different area of study, and a different stylistic characteristic, meaning or context from the 2026 specification lists (e.g. Early Modernism and 'responses to war' instead of Late Renaissance and Christian stories)",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Art History 91482, 91483, 91484 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91482-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 Art History (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91483-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91482 standard page (papers, resource booklets, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91482"
+    },
+    {
+     "label": "NZQA 91483 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91483"
+    },
+    {
+     "label": "NZQA 91484 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91484"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Art History (covers 91482, 91483, 91484)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91482-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Art History (covers 91482, 91483, 91484)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91482-report-2024.pdf"
+    },
+    {
+     "label": "NZQA digital external assessment (schools may flag entries as paper)",
+     "url": "https://www2.nzqa.govt.nz/ncea/external-assessment/digital/"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes end-of-year external examinations. 91482, 91483 and 91484 are all end-of-year examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of the three Art History externals falls into these categories, so all three are eligible. (This reading of the Rules is carried over from the project's Level 1 History research; I did not re-read the Rules PDF for this file.)",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3), and EmaiLink August 2026: the evidence must be a quality-assured, authentic, standard-specific practice assessment that matches the format and conditions of the external exam, and it must be submitted before the November examinations.",
+    "For Art History this means: a resource booklet of plates (NZQA's has 30 plates, 5 per area of study) that students have not seen before; for 91482 one question with a list of characteristics to choose from and two works from the booklet ONLY; for 91483 and 91484 a choice of seven questions (six area-specific plus an open question), each needing two named works from the booklet and/or the student's own choice. Students write under supervision, without notes.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria, be certainly the student's own, and be checked by a suitably qualified second reader. Practice exams may adapt previous papers, but the question focus (characteristics, meaning or context) should be new to the students.",
+    "Derived grades are approved only after the exam cycle, and the student receives the better of the derived grade and the exam result."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91482",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016; planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of style in art works",
+     "criteria": {
+      "achieved": "Demonstrate understanding of style in art works.",
+      "merit": "Demonstrate in-depth understanding of style in art works.",
+      "excellence": "Demonstrate perceptive understanding of style in art works."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves analysing art works to explain stylistic characteristics and identify similarities and/or differences, using evidence from the art works.",
+      "EN2: Demonstrate in-depth understanding involves analysing art works to justify the reasons for similarities and/or differences in style.",
+      "EN2: Demonstrate perceptive understanding involves an insightful explanation of the reasons for similarities and/or differences in style, using evidence from the art works and/or their contexts.",
+      "EN3: Art works may include paintings, drawings, sculptures, installations, prints, collages, architecture, film, animation, photographs, digital images, whakairo, kōwhaiwhai, tukutuku and tapa cloth.",
+      "EN4: Style refers to the characteristics of an art work that, when combined, distinguish the style of an artist, art movement, period or place. Characteristics include line, colour, tone, light, form, composition, space, scale, shape, mass, texture, ornament and media.",
+      "Schedule note: appropriate characteristics are the characteristics specified in the question."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination (it still refers to paper candidates receiving extra booklets). The 2025 specification (October 2024) said 'online digital examination or printed paper'. Schools can flag entries as paper. The task, booklet and length guidance are unchanged.",
+      "ONE question, both parts (a) and (b), drawing on any one or more of the six areas of study: Early Renaissance (c.1300–1470s), Late Renaissance (c.1470–1540s), Early Modernism (1900–1940), Modernist Design and Architecture (1900–1960), Modernism to Postmodernism (1940s–c.2000), Contemporary Diversity (after 2000).",
+      "Candidates select and name TWO art works from Plates 1–30 of the resource booklet (L3–ARTR), from the same or different areas. Works from outside the booklet are not allowed (a Not Achieved factor in both reports).",
+      "Candidates choose and circle TWO stylistic characteristics from a list in the question. 2025: space, composition, form, media, line, modernist design. 2024: space, composition, form, media, colour, modernist design.",
+      "(a) Explain the treatment of each circled characteristic in each work, using evidence from the works and their contexts. (b) Explain the reasons for the similarities and differences between the styles, with reference to the time and place in which each artist worked.",
+      "The specification lists styles per area (e.g. Sienese, Florentine, Mannerism, Cubism, Bauhaus, Brutalism, Pop Art, Postmodernism, Site-specific) that candidates should know.",
+      "Length guidance: about 800–900 words (5–6 pages). Quality, not length, is assessed. The resource booklet is unseen."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The response gets ONE score code from N0 to E8 for the whole answer, parts (a) and (b) together.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "N0: no response or no relevant evidence. N1: has selected TWO art works and described one. N2: has selected and described TWO art works with some reference to stylistic characteristics.",
+      "A3: has described and begun to explain at least TWO appropriate stylistic characteristics (the ones circled). A4: has used some appropriate terminology to explain at least TWO appropriate stylistic characteristics.",
+      "M5: has analysed, using appropriate terminology, the TWO works and justified the reasons for similarities and/or differences. M6: has justified and explained those reasons in depth.",
+      "E7: a convincing analysis of the reasons for similarities and/or differences in style. E8: an insightful analysis of those reasons, supported by the specified context(s) and a comprehensive understanding of the styles.",
+      "Code descriptors are partly quoted and partly paraphrased from the 2025 schedule."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Select two works from Plates 1–30. Circle two of: space, composition, form, media, line, modernist design. (a) Explain how each characteristic is treated in each work, using evidence from the works and their contexts. (b) Explain the reasons for the similarities and differences between the styles, with reference to the time and place of each artist."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91482-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91482-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91482-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91482-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91482-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91482-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91482-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Select two works from Plates 1–30. Circle two of: space, composition, form, media, colour, modernist design. (a) Explain the treatment of the circled characteristics in each work, using evidence from the works and their contexts. (b) Explain the reasons for the similarities and differences between the styles, with reference to the time and place of each artist."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8 (2024 schedule not opened for 91482; 2024 schedule for 91483 confirms the same bands)",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91482-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91482-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91482-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91482-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: described and began to explain the characteristics in both works, mostly in descriptive rather than art historical language; identified some similarities or differences; a brief conclusion without reasons; context about the artist not linked to style.",
+      "2025, Merit: gave reasons or justifications for similarities and differences, with detailed comparison of how the characteristics are treated and a range of specific visual evidence linked to terminology, but context was generalised (movement-level events and influences) rather than specific to the comparison.",
+      "2025, Excellence: compared the characteristics consistently throughout using comparative language; integrated, justified reasons and context; balanced visual analysis of BOTH works; context shown to have directly shaped the stylistic elements.",
+      "2025, Not Achieved: confused style with media, subject matter or narrative; discussed only one work or one work much more than the other; no comparison, or comparison of subject matter or meaning rather than style; no specific visual evidence; works from outside the resource booklet.",
+      "2025, commentary: success came from understanding two distinct styles and placing each work accurately in its movement. Some misunderstood modernist design principles. Media was often confused with subject matter or technique. Composition, space, form and line supported effective analysis. Works from contrasting periods sometimes led to uneven, less coherent answers.",
+      "2024, Achievement: described and explained two characteristics with some terminology, but similarities and differences often only in the conclusion and without reasons; artist and period knowledge not connected to style.",
+      "2024, Merit: reasons or justifications for similarities and differences, detailed comparison and strong terminology, but contextual evidence generalised and not linked to the stylistic differences.",
+      "2024, Excellence: consistent comparison throughout; specific features of both works explained in depth with accurate terminology; specific artistic, geographic, historical and/or political context used convincingly to explain the similarities and differences.",
+      "2024, Not Achieved: used form or composition to describe subject matter; generalised visual observations not linked to style; one work only, or non-booklet images; characteristics described without comparing the works; both characteristics discussed in only one work.",
+      "2024, commentary: pairs of works that shared something (subject matter or context) made comparison easier. Some confused space with composition. Many wrote over 1500 words and drifted off the question. Digital responses were generally stronger than handwritten ones."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, 2025)",
+       "text": "Two buildings (an apartment building and the Rockefeller Center), line and space, one paragraph per work, influences such as Le Corbusier and Art Deco, and a closing comparison. Clear structure, some appropriate terminology and specific features, with similarities and differences identified clearly.",
+       "miss": "Needed a specific focus on HOW and WHY the characteristics are similar or different, explaining effects and reasons rather than identifying features."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Raphael, The School of Athens, and Bronzino, An Allegory with Venus and Cupid: stylistic differences treated as contrasting features of the High Renaissance and Mannerism, with reasons attempted ('This is reflective of…', 'This is because…') and appropriate terminology.",
+       "miss": "Context needed to be linked more specifically to each reason, with a wider range of detailed visual evidence from both works."
+      },
+      {
+       "grade": "Excellence (E8, 2025)",
+       "text": "Hopper, New York Movie, and McCahon, Six Days in Nelson and Canterbury (about 900 words). Hopper's realism linked to precisionism, the Ashcan School and film noir; McCahon's sequential composition linked to modernist abstraction, religious symbolism and the South Island landscape. Context used purposefully, with specific evidence from both works and precise terminology.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). The resource booklet is supplied as a printed booklet of plates.",
+      "Both works MUST come from the resource booklet. The booklet is unseen, so a practice exam should use plates (or a plate set) the students have not been given beforehand.",
+      "No notes are allowed. Students must bring their knowledge of movements, artists and contexts from memory."
+     ],
+     "components": [
+      "Selection: two named booklet plates and two circled characteristics",
+      "(a) Treatment of each characteristic in each work, with visual evidence and terminology",
+      "(b) Reasons for similarities and differences in style, tied to time and place"
+     ],
+     "focusTip": "List the two plates (artist, title, date) and the two circled characteristics, and supply the plate images if you can, so the marker can check the visual evidence and that both works came from the booklet.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "ind",
+        "src": "Paper; schedule N1/N2",
+        "t": "TWO art works from the resource booklet, both discussed. One work only = N1."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule A3/A4",
+        "t": "Explains at least the TWO circled stylistic characteristics in the works, with some appropriate terminology. Appropriate characteristics are those specified in the question."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Identifies similarities and/or differences in style, using evidence from the works."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Keeps to STYLE: does not confuse media, form or composition with subject matter, narrative or meaning."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule M5",
+        "t": "JUSTIFIES the reasons for the similarities and/or differences in style (why, not just what)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Analyses both works using appropriate terminology. At M6 the reasons are explained in depth."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Detailed comparison with a range of specific visual evidence from both works."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule E7/E8",
+        "t": "An INSIGHTFUL (E8) or convincing (E7) explanation of the reasons for similarities and/or differences, using evidence from the works and their contexts."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E8; 2025 report",
+        "t": "Context is specific and integrated: it shows how time and place directly shaped the stylistic elements, not generic movement background."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Comparison sustained throughout with comparative language, and balanced treatment of both works."
+       }
+      ]
+     },
+     "watch": [
+      "Works chosen from outside the resource booklet. This is a Not Achieved factor for 91482 only.",
+      "Media confused with subject matter or technique, and space confused with composition.",
+      "Comparison left to the conclusion, or comparing subject matter or meaning instead of style.",
+      "Generic movement context that is not linked to the specific stylistic difference. This held scripts at Merit in both years.",
+      "One work treated in depth and the other thinly, or both characteristics discussed in only one work.",
+      "Incorrect artist, title, date or movement details. The 2025 report says Not Achieved was usually caused by incorrect information.",
+      "Over-long, rote-learned answers. Do not reward length."
+     ],
+     "aiLimits": "The AI cannot see the plates unless the teacher supplies them, so the teacher must confirm the visual evidence, that both works are in the booklet, and the accuracy of attributions, dates and movements. Scans of handwriting may be misread.",
+     "researchNotes": "Standard text from the NZQA as91482 PDF (2019 folder, Version 2, published 17 November 2016). The ENs were obtained partly paraphrased. 2026 and 2025 specifications read (the 2025 91482 PDF failed; the 91483 2025 specification covers all three). The 2025 schedule codes are partly quoted. The 2024 91482 schedule was not opened. The resource booklets were not opened, so the plates are not listed. The subject reference 3.1 is inferred from the numbering sequence (91485 is 3.4 in this project's internal-standards file). No 2024 exemplars are published. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91483",
+     "ref": "3.2",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016; planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Examine how meanings are communicated through art works",
+     "criteria": {
+      "achieved": "Examine how meanings are communicated through art works.",
+      "merit": "Examine, in depth, how meanings are communicated through art works.",
+      "excellence": "Examine, perceptively, how meanings are communicated through art works."
+     },
+     "notes": [
+      "EN2: Examine involves providing an explanation of the meanings and how the meanings are conveyed through the features of art works. The key focus is the connection between the meanings and how they are conveyed.",
+      "EN2: Examine, in depth, involves providing a coherent and considered explanation of the meanings and how the meanings are conveyed through the features of art works.",
+      "EN2: Examine, perceptively, involves explaining how and why meanings are constructed and conveyed through the features of art works, with reference to relevant contextual factors.",
+      "EN3: Art works may include paintings, drawings, sculptures, installations, prints, collages, architecture, handcrafted objects, film, animation, photographs, digital images, whakairo, kōwhaiwhai, tukutuku, tapa cloth.",
+      "EN4: Meanings refer to the ideas, messages, and/or themes conveyed through the features of art works. Features may include technical devices, formal elements, subject matter, iconographic motifs, symbols, emblems, and action or performance elements.",
+      "Schedule note: the meanings must be those specified in the selected question, and context counts only when it is relevant to the question and supports the explanation."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination. The 2025 specification said 'online digital examination or printed paper'. Schools can flag entries as paper. The format is otherwise unchanged.",
+      "SEVEN questions: one for each of the six areas of study plus an open question (Question Seven, any one or two areas). Candidates answer ONE question, both parts (a) and (b).",
+      "Each question names a meaning from the specification list for its area (e.g. Early Renaissance: Christian stories, people and portraiture, classical influences and humanism, nature and landscape; Contemporary Diversity: reality, identity, narrative, popular culture and commodification, ideas about art, media and culture).",
+      "Candidates select and name TWO art works: from that area's five booklet plates, their own choice, or a mix. (a) Explain the meanings in each work. (b) Explain how the meanings were constructed or relate to ideas of the period.",
+      "Length guidance: about 800–900 words (5–6 pages). Quality, not length, is assessed. A separate question booklet and answer booklet are used, with the shared resource booklet L3–ARTR."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The response to the selected question gets ONE score code from N0 to E8.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "N1: describes the subjects of two art works. N2: describes the subjects of two named art works and indicates some meanings.",
+      "A3–A4: describes what is visible and suggests meanings, then begins to explain appropriate meanings (those in the question) conveyed by some features in two named works.",
+      "M5–M6: explains appropriate meanings conveyed through features in two named works, with connections between the meanings and how they are conveyed, becoming clearer and made for EACH work at M6.",
+      "E7–E8: a coherent, considered explanation of meanings and their connections to features in both works, using relevant context to explain how and why meanings are constructed, with perceptive insight into the artists' aims.",
+      "The 2025 schedule grid did not extract code by code, so these are paired-band summaries, not verbatim descriptors."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 Early Renaissance: the development of humanism (Plates 1–5 or own choice).",
+        "Q2 Late Renaissance: Christian stories and themes (Plates 6–10 or own choice).",
+        "Q3 Early Modernism: philosophy and/or spirituality (Plates 11–15 or own choice).",
+        "Q4 Modernist Design and Architecture: modern life (Plates 16–20 or own choice).",
+        "Q5 Modernism to Postmodernism: popular culture; (b) how constructing these meanings affected art of the period (Plates 21–25 or own choice).",
+        "Q6 Contemporary Diversity: art and the mass media and/or culture (Plates 26–30 or own choice).",
+        "Q7 Open: art and everyday life; (b) how constructing these meanings conveys ideas about art (Plates 1–30 or own choice). This was the most popular question."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Question booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91483-qbk-2025.pdf"
+        },
+        {
+         "label": "Answer booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91483-abk-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91483-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet (shared, filed under 91482)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91482-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91483-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91483-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91483-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91483-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 Early Renaissance: Christian stories and/or themes. Q2 Late Renaissance: portraiture and the individual. Q3 Early Modernism: modernity and change. Q4 Modernist Design and Architecture: domestic life. Q5 Modernism to Postmodernism: identity. Q6 Contemporary Diversity: narratives. Q7 Open: challenging traditions (works from different places and/or times). Each asks (a) the meanings in each work and (b) how they relate to ideas of the period (Q7: how their construction conveys ideas about art)."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Question booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91483-qbk-2024.pdf"
+        },
+        {
+         "label": "Answer booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91483-abk-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91483-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91483-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: named both artists and works correctly; linked meaning to the question's theme; identified two suitable motifs or features in EACH work and explained their meanings; addressed the question within the discussion.",
+      "2025, Merit: explained in depth the meaning of two motifs in each of two works by appropriate artists, with relevance to the question; linked general period context; good knowledge of the artists' aims and style; discussed other relevant works by the same artists.",
+      "2025, Excellence: a perceptive, critical response on the meaning and significance of motifs for the works and the artists' practice; significant context for both works, showing how historical events shaped the work; in-depth knowledge of intentions, influences and cultural backgrounds; motifs, meanings and themes integrated with context.",
+      "2025, Not Achieved: only one work or one motif per work; artists or works named incorrectly; personal rather than informed interpretation; too little specific detail; works wrong for the question or from the wrong area of study.",
+      "2025, commentary: the open question (everyday life) was the most popular, but many chose works unsuited to it. Rote-learned answers were more common, especially for Q1 (humanism) and Q5 (popular culture). Many discussed the same works and motifs with generic context, which limited Excellence.",
+      "2024, Achievement: two appropriate works, at least two motifs explained in each, linked to the overall meaning and the question, with some understanding of the artists' aims.",
+      "2024, Merit: meanings explained in depth, different features connected to show how each work conveys meaning as a whole, works related to their movements with some general context, and imagery linked to the artist's style and intentions.",
+      "2024, Excellence: thorough understanding of movements and contexts; works suited to the question rather than forced; how meanings are constructed (not just what they are), linked to the period; repeated return to the works to show the relevance of motifs.",
+      "2024, Not Achieved: one work only; brief description without two motifs in both works; personal interpretation; wrong area of study; describing what is visible rather than the relevance of imagery; everything known about an area regardless of the question; style instead of meaning.",
+      "2024, commentary: most candidates used one plate and one work of their own choice. The open Q7 ('challenging traditions') gave good scope. Early Modernism answers on modernity and change (German Expressionism, Dada and WWI) were strongest. The Late Renaissance question was harder because its plate was a less familiar Venetian work."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, 2025)",
+       "text": "Q7 (everyday life). Identified two suitable artists and works, explained a range of motifs in the first work in relation to everyday life, connected the second work to the artist's aims, and linked its motifs back to the question.",
+       "miss": "Needed to explain the motifs that show 'the everyday' directly and in more depth, show how the features are typical of each artist, and connect them to the style each artist identifies with."
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Q2 (Christian stories, Late Renaissance). Linked the theme to general Renaissance context, explained the motifs of both works in depth, and concluded by linking both works to the question and to social and cultural influences on the artists.",
+       "miss": "Context needed to be linked specifically to the works, showing how particular motifs convey the relevance of the stories in that timeframe and how the artists reflected their period through those images."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Q5 (popular culture). Detailed information on how the works reflect their timeframe, perceptive discussion of motifs linking subject matter, style and meaning to the question, insight from the relevant art movement, and a conclusion tying both works to the theme.",
+       "miss": "The commentary does not state the step to E8. By the schedule, it needs a fully coherent explanation of how and why meanings are constructed, with perceptive insight into the artists' aims throughout."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). A printed resource booklet of plates is supplied.",
+      "Works may be from the booklet or the student's own choice, so students bring prepared knowledge of works. The questions are unseen. A practice exam must use a question focus the students have not rehearsed.",
+      "No notes are allowed."
+     ],
+     "components": [
+      "Selection: question number and two named works (artist, title, date)",
+      "(a) Meanings in each work, explained through at least two motifs or features per work",
+      "(b) How the meanings were constructed or relate to ideas of the period, with context"
+     ],
+     "focusTip": "Give the question number and its specified meaning (e.g. Q2: Christian stories and themes, Late Renaissance) and the two works named (artist, title, date), so the marker can check the works fit the area and the question.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3",
+        "t": "Explains the MEANINGS specified in the selected question and how they are conveyed through features of TWO named works."
+       },
+       {
+        "type": "req",
+        "src": "EN4; 2024 and 2025 reports",
+        "t": "At least two motifs or features identified and explained in EACH work. One work or one motif per work is a Not Achieved pattern."
+       },
+       {
+        "type": "req",
+        "src": "Question booklet",
+        "t": "Both works fit the question's area of study (Q1–Q6) and are correctly named."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Informed interpretation based on study, not personal reading, and meaning rather than style."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "A COHERENT and CONSIDERED explanation of the meanings and how they are conveyed."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Clear connections between meanings and features are made for EACH work."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Knowledge of the artists' aims and style, links to the movement and period, and features connected to show the meaning of the whole work."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains HOW and WHY meanings are constructed and conveyed, with reference to RELEVANT contextual factors."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Perceptive insight into the artists' aims, and context that directly supports the explanation (not generic period background)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Works well suited to the question; motifs, meanings and context integrated; the response keeps returning to the works."
+       }
+      ]
+     },
+     "watch": [
+      "Works that do not suit the question's meaning (a common issue with the open question in 2025) or come from the wrong area of study.",
+      "Rote-learned motif lists adapted to the question, with generic context.",
+      "Describing what is visible rather than explaining what the motifs mean and why.",
+      "Drifting into style when the standard asks for meaning.",
+      "Fewer than two motifs per work, or one work much thinner than the other.",
+      "Incorrect artist names, titles or dates.",
+      "Mark one holistic code for the selected question. Do not reward length."
+     ],
+     "aiLimits": "The AI cannot see the works (booklet plates or the student's own choices) unless images are supplied, so the teacher must check that motifs described actually appear and that attributions, dates and contexts are accurate. Scans of handwriting may be misread.",
+     "researchNotes": "Standard text from the NZQA as91483 PDF (2019 folder, Version 2, published 17 November 2016). 2026 and 2025 specifications read. The 2025 schedule grid extracted only as paired bands, not code by code. The question numbers for the 2025 exemplars are inferred from their content (everyday life = Q7; Christian stories = Q2; popular culture = Q5). The subject reference 3.2 is inferred from the numbering sequence. No 2024 exemplars are published. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91484",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016; planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Examine the relationship(s) between art and context",
+     "criteria": {
+      "achieved": "Examine the relationship(s) between art and context.",
+      "merit": "Examine, in depth, the relationship(s) between art and context.",
+      "excellence": "Examine, perceptively, the relationship(s) between art and context."
+     },
+     "notes": [
+      "EN2: Examine involves explaining the relationship(s) between art and context. Examine, in depth, involves explaining the relationship(s) between art and context with supporting evidence from art works and/or other sources. Examine, perceptively, involves evaluating the relationship(s) between art and context.",
+      "EN3: Art may refer to broad art movements, periods, styles, artists, or art works.",
+      "EN4: Context refers to the circumstances within which art is created, e.g. personal, social, historical, cultural, geographical, environmental, economic, political, religious, artistic, gender and philosophical contexts.",
+      "EN5: Relationship(s) between art and context may include the ways that art reflects, reacts against, is stimulated by, is shaped by, and/or affects the context in which it is created.",
+      "Schedule note: appropriate aspects are those specified in the selected question."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination. The 2025 specification said 'online digital examination or printed paper'. Schools can flag entries as paper. The format is otherwise unchanged.",
+      "SEVEN questions: one for each of the six areas of study plus an open question. Candidates answer ONE, both parts (a) and (b).",
+      "Each question names a context from the specification list for its area (e.g. Early Renaissance: religious, philosophical, economic, political; Early Modernism: modernity, social, political, philosophical and theoretical; Contemporary Diversity: globalisation and commodification, the digital environment, challenging power and hierarchies, environmental and cultural interactions).",
+      "Candidates select and name TWO works from that area's booklet plates, their own choice, or a mix. (a) EXPLAIN the relationship(s) between the art and the context. (b) EVALUATE the significance, impact, influence or importance of those relationships for the art of the period.",
+      "Length guidance: about 800–900 words (5–6 pages). Quality, not length, is assessed. A separate question booklet and answer booklet are used, with the shared resource booklet L3–ARTR."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The response to the selected question gets ONE score code from N0 to E8.",
+      "Cut scores (2025 schedule): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8. The 2024 91484 schedule was not opened; 91483's 2024 schedule has the same bands.",
+      "N1: begins to describe aspects of art and/or context. N2: describes aspects of art and/or some aspects of the context of art.",
+      "A3: the examination is communicated in an explanation of the context specified in the selected question. A4: clearly explains the specified context. Achievement responses may be inconsistent but manage to explain link(s) between the art work(s) and the context.",
+      "M5: directly addresses the selected question and focuses on some aspects of the context. M6: focuses on a RANGE of aspects of the specified context, with detailed explanation and supporting evidence from the works and/or other sources.",
+      "E7: a coherent argument, integrating appropriate supporting evidence into an explanatory and evaluative discussion. E8: integrates pertinent supporting evidence into a convincing and decisive evaluation.",
+      "Descriptors are partly quoted from the 2025 schedule."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 Early Renaissance: art and religious contexts; (b) evaluate their significance for early Renaissance art.",
+        "Q2 Late Renaissance to Mannerism: art and patronage, wealth and status; (b) evaluate their impact on art of the period.",
+        "Q3 Early Modernism: art and modernity; (b) evaluate their impact on the development of modern art.",
+        "Q4 Modernist Design and Architecture: design and political contexts; (b) evaluate their influence on design of the period.",
+        "Q5 Modernism to Postmodernism: art and economic contexts; (b) evaluate their importance for art of the period.",
+        "Q6 Contemporary Diversity: art and challenging power; (b) evaluate the impact on the development of contemporary art.",
+        "Q7 Open (Plates 1–30 or own choice): art and artistic influences; (b) evaluate their significance for art at the time."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Question booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91484-qbk-2025.pdf"
+        },
+        {
+         "label": "Answer booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91484-abk-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91484-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet (shared, filed under 91482)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91482-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91484-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91484-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91484-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91484-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 Early Renaissance: political contexts. Q2 Late Renaissance to Mannerism: philosophical contexts. Q3 Early Modernism: social contexts. Q4 Modernist Design and Architecture: design and modernity. Q5 Modernism to Postmodernism: social contexts. Q6 Contemporary Diversity: environmental and/or cultural interaction. Q7 Open: art and location. Each asks (a) explain the relationship(s) and (b) evaluate their significance, impact, influence or importance for the art of the period."
+       ],
+       "cutScores": "Not opened for 91484 in 2024 (91483's 2024 schedule: N 0–2, A 3–4, M 5–6, E 7–8)",
+       "links": [
+        {
+         "label": "Question booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91484-qbk-2024.pdf"
+        },
+        {
+         "label": "Answer booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91484-abk-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91484-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91484-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: responded to the chosen question with two relevant works, made appropriate links between the works and context (e.g. through specific features), and clarified the relationship enough to show understanding of the context.",
+      "2025, Merit: answered directly and in depth, linking several details between the works and context, explaining in detail how the works exemplify the specific context, with integrated supporting evidence.",
+      "2025, Excellence: a perceptive, fluent response with a wide range of relevant evidence; a RANGE of relationships between art and context; analytical and evaluative language; evidence from the works and other sources.",
+      "2025, Not Achieved: did not respond to the chosen question or context; description of works or context only; limited or irrelevant information; works unsuited to the question or relationship.",
+      "2025, commentary: most addressed their question directly. Avoid vague, generalised introductions; lead with key contextual points tied to the question and develop them through specific features. Knowing a range of works well and choosing those best suited to the question was the most successful approach.",
+      "2024, Achievement: responded directly with relevant works; explained the relationship well enough to show understanding; linked features to the context in the question; plausible interpretation.",
+      "2024, Merit: addressed the question directly, linking several details from works and/or context, explaining relationships in detail with evidence, and identifying specific relationships in the introduction.",
+      "2024, Excellence: perceptive understanding in a well-structured, fluent response; explained AND evaluated a range of relationships; comprehensive knowledge in analytical and evaluative language with evidence from works and other sources.",
+      "2024, Not Achieved: little or no relevance to the question or context; limited or irrelevant information; inappropriate works.",
+      "2024, commentary (all three standards): many wrote over 1500 words, beyond the 800–900 guidance, and some went off-track. Digital responses were generally stronger than handwritten ones."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, 2025)",
+       "text": "Q5 (economic contexts), works by Rosenquist and Kruger. Directly outlined features of the works and linked them to their context with clear explanations. Brief but solid.",
+       "miss": "Needed fuller explanation of the economic context of the periods in which Rosenquist's and Kruger's works were made."
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Addressed the question directly from the opening, set up an argument that acknowledged other approaches, outlined context to support explanation, and integrated a range of aspects of both works and their context.",
+       "miss": "The commentary does not state the gap. By the schedule, Excellence needs a coherent argument that EVALUATES the relationships, integrating evidence into an evaluative discussion."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Thoughtfully structured, a searching examination of the works in relation to context, perceptive depth of knowledge across a wide range of material, and features linked through evaluative analysis. The works were chosen to draw out what the candidate could address.",
+       "miss": "The commentary does not state the step to E8. By the schedule, E8 needs pertinent evidence integrated into a convincing and decisive evaluation."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). A printed resource booklet of plates is supplied.",
+      "Works may be from the booklet or the student's own choice. The questions are unseen. A practice exam must use a context focus the students have not rehearsed.",
+      "No notes are allowed."
+     ],
+     "components": [
+      "Selection: question number and two named works (artist, title, date)",
+      "(a) Explanation of the relationship(s) between each work and the specified context",
+      "(b) Evaluation of the significance or impact of those relationships for the art of the period"
+     ],
+     "focusTip": "Give the question number and its specified context (e.g. Q5: economic contexts, Modernism to Postmodernism) and the two works named, so the marker can check the works suit that context and that part (b) actually evaluates.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3/A4",
+        "t": "EXPLAINS the relationship(s) between the art and the CONTEXT SPECIFIED in the selected question, not some other context."
+       },
+       {
+        "type": "ind",
+        "src": "Question booklet; 2024 and 2025 reports",
+        "t": "Two named works suited to the question and its area of study, with specific features linked to the context."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Goes beyond describing the works or describing the context separately: shows HOW they are connected (reflects, reacts against, is shaped by, affects; EN5)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the relationship(s) IN DEPTH, with supporting evidence from the works and/or other sources."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Directly addresses the selected question and, at M6, a RANGE of aspects of the specified context."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Specific relationships set out in the introduction, and several details linking the works and the context."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EVALUATES the relationship(s) between art and context (judges significance or impact, as part (b) asks)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "A coherent argument that integrates appropriate (E7) or pertinent (E8) evidence into an evaluative discussion; E8 is convincing and decisive."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "A range of relationships, analytical and evaluative language, evidence from works and other sources, and fluent structure."
+       }
+      ]
+     },
+     "watch": [
+      "Part (b) answered as more explanation rather than evaluation of significance or impact.",
+      "Vague, prepared introductions about the period that never reach the specified context.",
+      "A different context from the one in the question (e.g. social instead of economic).",
+      "Works unsuited to the context, or from the wrong area of study for Q1–Q6.",
+      "Describing the works and describing the context side by side without connecting them.",
+      "Incorrect facts about artists, dates or historical events.",
+      "Mark one holistic code. Do not reward length (many 2024 scripts exceeded 1500 words)."
+     ],
+     "aiLimits": "The AI cannot see the works unless images are supplied, so the teacher must check that the features described are present and that attributions, dates and historical context are accurate. Scans of handwriting may be misread.",
+     "researchNotes": "Standard text from the NZQA as91484 PDF (2019 folder, Version 2, published 17 November 2016). The ENs were partly paraphrased. 2026 and 2025 specifications read. The 2025 schedule was read. The 2024 91484 schedule was not opened. The question numbers for the 2025 Merit and Excellence exemplars and their works are not stated in the commentary; the Achievement exemplar is placed at Q5 from its works (Rosenquist and Kruger, economic context). The subject reference 3.3 is inferred from the numbering sequence. No 2024 exemplars are published. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Biology": {
+   "slug": "biology",
+   "discipline": "Each Level 3 Biology paper has three compulsory resource-based questions. Each question is marked on its own against an evidence list in the assessment schedule and gets a score code from N0 to E8. The three codes are added to a total out of 24, and NZQA's cut scores turn that total into the grade. Credit comes from accurate Level 8 terminology applied to the organism or context in the question: describe (A), explain how and why (M), and link ideas to survival and reproductive success or to evidence (E). Copying the resource, memorised answers that do not fit the question, and length earn nothing.",
+   "parallelHint": "a different organism, behaviour, speciation case or hominin trend set in a new resource (e.g. a different short-day plant and its growers, a different social animal showing kin selection, a different pair of species showing convergence, a different hominin skeletal or cultural change), not the 2024 or 2025 exam contexts the students may have practised",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Biology 91603, 91605, 91606 (published March 2026)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91603-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 Biology (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91603-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91603 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91603"
+    },
+    {
+     "label": "NZQA 91605 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91605"
+    },
+    {
+     "label": "NZQA 91606 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91606"
+    },
+    {
+     "label": "2025 NCEA Level 3 Biology Assessment Report (covers 91603, 91605, 91606)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91603-report-2025.pdf"
+    },
+    {
+     "label": "2024 NCEA Level 3 Biology Assessment Report (covers 91603, 91605, 91606)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91603-report-2024.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91603, 91605 and 91606 are end-of-year printed-paper examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of the three Level 3 Biology externals falls into these groups, so all three are eligible. NZQA does not name Biology specifically: this is my reading of the rule.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): the grade must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That means a practice assessment matching the format and conditions of the external, with grades submitted before the November examinations. EmaiLink August 2026 repeats that practice exams for derived grades must match the external format and conditions and be quality assured.",
+    "For Level 3 Biology that means, for EACH standard, three compulsory resource-based questions with bulleted requirements, contexts the students have not seen, supervised conditions with no notes, and marking with the N0–E8 per-question codes totalled out of 24. Each standard is a separate grade: a strong 91603 script cannot carry a weak 91605 script.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it (panel marking or a colleague checking boundary scripts). Practice exams may be based on modified papers from previous years. A recycled 2024 or 2025 NZQA paper the students have already practised is a weak authenticity case.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91603",
+     "ref": "3.3",
+     "credits": 5,
+     "version": "Version 3 (published 28 November 2019). The 2026 assessment specification labels it 'Version 2'; the standard PDF on the NZQA page says Version 3.",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of the responses of plants and animals to their external environment",
+     "criteria": {
+      "achieved": "Demonstrate understanding of the responses of plants and animals to their external environment.",
+      "merit": "Demonstrate in-depth understanding of the responses of plants and animals to their external environment.",
+      "excellence": "Demonstrate comprehensive understanding of the responses of plants and animals to their external environment."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves describing plant and animal responses to their external environment. The schedule puts this as describing the process(es) involved and/or the selective advantage to the organism in its ecological niche.",
+      "EN2: Demonstrate in-depth understanding involves using biological ideas to explain how the responses occur and why they provide a selective advantage.",
+      "EN2: Demonstrate comprehensive understanding involves linking biological ideas to explain the selective advantage. The linking of ideas may involve justifying, relating, evaluating, comparing and contrasting, and analysing.",
+      "EN3: Responses are selected from: orientation in space (tropisms, nastic responses, taxes, kineses, homing, migration); orientation in time (annual, daily, lunar and tidal rhythms); interspecific relationships (competition for resources, mutualism, exploitation: herbivory, predation, parasitism); intraspecific relationships (competition for resources, territoriality, hierarchical behaviour, cooperative interactions, reproductive behaviours).",
+      "EN4: The external environment includes both biotic and abiotic factors.",
+      "2026 specification terms: phytochrome; navigation; phytohormones (e.g. auxin, abscisic acid); photoperiodic behaviour in plants and animals; use of actograms; environmental cues/zeitgeber; biological clock and rhythms; activity periods; entrainment; free-running period; home range; cooperative breeding; courtship; altruism, including kin selection; agonistic behaviour. Candidates should be familiar with graphical and tabulated data."
+     ],
+     "examFormat": [
+      "2026 change: minor. The 2026 specification (March 2026) adds abscisic acid as an example phytohormone alongside auxin; the rest of the term list matches 2025. Format is unchanged: an end-of-year examination on PRINTED PAPER (not digital).",
+      "Three compulsory questions, each a resource-based context (organism text plus photos, graphs, actograms or diagrams). Each question has a main task ('Discuss…', 'Evaluate…', 'Examine…') followed by bullet points the answer must address. There are no lettered sub-parts and no choice of question.",
+      "Contexts are unfamiliar organisms: 2025 used poinsettia growers, honey bees during a solar eclipse and grey wolf packs; 2024 used kauri snails, possums and hedgehogs, kōwhai and bumblebees, and chestnut-crowned babblers.",
+      "Candidates may use annotated diagrams as evidence where appropriate (specification; schedules accept annotated diagrams for definitions).",
+      "The booklet is 16 pages with about three pages of lined space per question and extra space at the back. No word guidance is given. The paper does not state a time; the Level 3 Biology session time was not confirmed."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each of the three questions is marked separately against the schedule's evidence list and gets one score code from N0 to E8. The three codes are added to give a total out of 24.",
+      "Score codes (2025, same for each question): N0 no response or no relevant evidence; N1 one evidence point at Achievement; N2 two at Achievement; A3 three at Achievement; A4 four at Achievement; M5 two evidence points at Merit; M6 three at Merit; E7 one evidence point at Excellence; E8 two at Excellence.",
+      "2024 used the same ladder except E7 was 'TWO evidence points at Excellence' and E8 'at least THREE evidence points at Excellence'. Read the schedule of the paper you are using.",
+      "Achievement points are 'describes' (defines terms, names the response, states an advantage). Merit points 'explain' how the response occurs or why it gives an advantage. Excellence points 'discuss', linking the whole response to survival and reproductive success in that niche.",
+      "Cut scores 2025: Not Achieved 0–7, Achievement 8–13, Merit 14–18, Excellence 19–24. Cut scores 2024: the same (0–7, 8–13, 14–18, 19–24).",
+      "Because grades come from the total, a candidate can reach Excellence without E codes on every question (e.g. E7 + E7 + E7 = 21 in the 2024 Excellence exemplar), and a missing question (0) makes Achievement hard to reach."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Phytochrome system. Poinsettia (short-day plant) grown to flower in the New Zealand summer. Define photoperiodism; explain short-day versus long-day plants using Figure 2; explain how the phytochrome system (Pr/Pfr) influences flowering in short-day plants; justify why growers change light and dark hours.",
+        "Q2: Honey bees on a normal day and a total solar eclipse day (Figure 4 foraging graph). Describe a diurnal circadian rhythm linked to the sun compass; identify homing cues on sunny and overcast days; compare eclipse-day and normal-day foraging; explain why some bees keep foraging in eclipse darkness.",
+        "Q3: Grey wolf pack hierarchy (alpha, beta, delta, omega; Figure 6). Define hierarchy and territory; explain how the hierarchy is maintained (agonistic and ritualised behaviour); explain how and why pack members show kin selection; describe one advantage and one disadvantage for individuals below the alpha pair compared with living alone."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91603-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91603-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91603-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Relationships in the forest. Kauri snails, possums and hedgehogs in Northland. Discuss the snail–possum (predation) and possum–hedgehog (competition) relationships; one advantage and one disadvantage of nocturnal activity for the snail; how egg-laying frequency, hibernation and nocturnal behaviour support survival.",
+        "Q2: Kōwhai and bumblebees, with double-plotted actograms of bees under constant Arctic light. Decide long-day or short-day with evidence; explain the geotropic shoot response (auxin); identify the bee's movement response to nectar (positive chemotaxis); decide whether both have clocks entrained to environmental factors.",
+        "Q3: Cooperative breeding in chestnut-crowned babblers. Define territory and kin selection; one advantage of group foraging and one of mutual preening; why more helper-males supports the population and why non-related females do not help raise young."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91603-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91603-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91603-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: defined the explicit (and some inferred) concepts and stated relevant facts but often did not link them to survival or explain further; presented SDP/LDP differences; described the phytochrome system, diurnal activity, homing cues and foraging; outlined some advantages or disadvantages of being below the alpha.",
+      "2025, Merit: explained concepts in the context in terms of survival, in well-organised paragraphs, but did not connect individual advantages to greater reproductive success or to the big picture (e.g. explained why poinsettia is an SDP but not how growers force out-of-season flowering; covered hierarchy but not kin selection).",
+      "2025, Excellence: clear, sequential, logical links across ALL three questions, related comprehensively to survival and reproductive success; detailed photoperiodism and phytochrome understanding tied to summer growing; biological clocks before, during and after the eclipse; wolf kin selection with advantages and disadvantages compared.",
+      "2025, Not Achieved: only partial definitions of key terms (photoperiodism, hierarchy, territory, diurnal, circadian); copied the resource without applying the context; summarised the topic rather than answering the question; did not attempt all questions.",
+      "2025, common errors: confusing red light with Pr and far-red with Pfr, and not knowing Pfr is the active form; weak grasp of biological clocks (diurnal versus circadian); emerging understanding of kin selection and genetic relatedness. Higher achievers used the bullet points to structure direct answers; many others paraphrased the resource.",
+      "2024, Achievement: described terms and stated advantages without explaining why they were advantages or linking to survival and reproductive success; described positive chemotaxis, negative geotropism, entrainment and zeitgeber without mechanisms; could name territory but not define kin selection.",
+      "2024, Merit: explained individual adaptive advantages (e.g. why kōwhai is an SDP, negative gravitropism, territorial and cooperative behaviour) but did not link them together or to reproductive success, and did not fully understand kin selection.",
+      "2024, Excellence: understood the unique environment and strategies of the named species, linked ideas across the question (the synchronised clocks of kōwhai and bumblebee; cooperative behaviour and kin selection in babblers) and used terminology correctly.",
+      "2024, Not Achieved and commentary: partial definitions (competition, chemotaxis, geotropism), omitted key definitions (nocturnal, hibernation, named rhythms, kin selection, territory), copied from the resource. Some candidates wrote about things not asked (phytochrome in 2024) or lacked precision ('chemotaxis' instead of 'positive chemotaxis')."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, A3, A3 = 10, 2024)",
+       "text": "Q1: understanding of a range of descriptive terms and the advantages and disadvantages. Q2: identified kōwhai as a short-day plant and described the basic action of auxin. Q3: understood territory and the advantage of holding one.",
+       "miss": "The commentary does not state the gap. By the schedule, Merit points need explanations of how the response occurs and why it gives an advantage, not definitions."
+      },
+      {
+       "grade": "Merit (M5, M5, M6 = 16, 2024)",
+       "text": "Q1: explained the vulnerability of the kauri snail and the benefits of hibernation. Q2: showed kōwhai is a short-day plant with evidence and explained how synchronised clocks of kōwhai and bumblebee ensure pollination. Q3: good understanding of territory, group feeding and grooming.",
+       "miss": "Q3: 'Further development in the understanding of kin selection could have elevated this response.' Q1 and Q2 gaps are not stated."
+      },
+      {
+       "grade": "Excellence (E7, E7, E7 = 21, 2024)",
+       "text": "Q1: key points in a logical, progressive order, linking multiple egg-laying and hedgehog hibernation to reproductive success. Q2: comprehensive understanding of flowers blooming when pollinators are active, with evidence of an endogenous bee clock. Q3: did not include all expected elements but fully developed the logical argument.",
+       "miss": "Not stated. By the schedule, E8 needed further Excellence points (2024: at least three) discussed."
+      }
+     ],
+     "conditions": [
+      "End-of-year external examination on printed paper (2026). Handwritten answers in a 16-page booklet.",
+      "No notes or resources other than the paper. The resource material in each question is unseen.",
+      "Annotated diagrams are accepted as evidence where appropriate.",
+      "Special assessment conditions, including Aromatawai conditions, are available as published on the NZQA website (specification).",
+      "Separate booklet and separate grade per standard, although 91603, 91605 and 91606 are sat in the same Level 3 Biology session."
+     ],
+     "components": [
+      "Question One: phytochrome system and photoperiodic flowering (poinsettia)",
+      "Question Two: biological clocks, circadian rhythm and homing cues (honey bees, solar eclipse)",
+      "Question Three: hierarchy, agonistic behaviour and kin selection (grey wolf pack)"
+     ],
+     "focusTip": "Name the organism and response for each of the three questions (e.g. 'Q1 short-day plant and phytochrome, Q2 bee circadian rhythm, Q3 wolf kin selection') and attach or describe the resource and bullet points so the AI can check each against a schedule-style evidence list.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "DESCRIBES the plant or animal response(s), including the process(es) involved and/or the selective advantage to the organism in its niche."
+       },
+       {
+        "type": "req",
+        "src": "EN3; assessment schedule",
+        "t": "The response is identified correctly in EN3 terms (e.g. positive chemotaxis, negative geotropism, circadian versus circannual rhythm, predation versus interspecific competition, kin selection) and key terms are defined at Level 8 precision."
+       },
+       {
+        "type": "ind",
+        "src": "Assessment schedules 2024, 2025",
+        "t": "Enough describing points across the paper: each question needs three or four Achievement points (A3/A4), and the total must reach 8 (2024 and 2025 cut scores)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 and 2024 Assessment Reports",
+        "t": "All three questions attempted and the bullet points used to structure the answer; the resource is applied, not copied."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses biological ideas to EXPLAIN HOW the responses occur (e.g. Pfr accumulating or breaking down during darkness, auxin redistribution, entrainment by a zeitgeber) AND WHY they provide a selective advantage."
+       },
+       {
+        "type": "ind",
+        "src": "Assessment schedules 2024, 2025",
+        "t": "Two or three Merit-level explanations per question (M5/M6), with the advantage tied to survival in the stated environment."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Precise terms and mechanisms rather than restated resource text; kin selection explained through shared alleles with relatives."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "LINKS biological ideas to explain the selective advantage comprehensively, connecting the parts of the question into one argument about survival and reproductive success in that niche."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('may involve')",
+        "t": "Linking shown by justifying, relating, evaluating, comparing and contrasting, or analysing (e.g. weighing costs and benefits of pack living against living alone; comparing eclipse and normal-day foraging from the graph)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; 2024 Excellence exemplar",
+        "t": "Clear, sequential, logical links across all three questions; a fully developed argument can earn E7 even when not every expected element appears."
+       }
+      ]
+     },
+     "watch": [
+      "Pr/Pfr errors: red light converts Pr to Pfr; Pfr is the active form; short-day plants flower when the uninterrupted night exceeds the critical length. Confusing these was the main 2025 Q1 error.",
+      "Diurnal versus circadian, and endogenous clock versus entrainment by a zeitgeber, are often blurred. Check the student names and explains the rhythm the evidence (e.g. actogram) shows.",
+      "Advantages stated but not linked to survival and reproductive success: this holds answers at Achievement or Merit.",
+      "Kin selection without genetic relatedness or shared alleles is not a full Achievement definition (2025 schedule requires relatedness to be stated).",
+      "Copying or paraphrasing the resource text earns nothing; mark only what the student adds.",
+      "Imprecise terms ('chemotaxis' for 'positive chemotaxis', 'geotropism' without direction) and writing about content not asked for (2024 report).",
+      "Grade from the TOTAL out of 24 using the cut scores, not from the best question or the mode of the codes."
+     ],
+     "aiLimits": "Handwritten scripts and annotated diagrams in scans may be misread, and the AI cannot see the teacher's resource figures (graphs, actograms) unless they are supplied. The teacher must check diagram labels, any graph-reading claims and the final score codes against the schedule used.",
+     "researchNotes": "Standard text from the NZQA as91603 PDF (2019 and 2020 folders, Version 3, published 28 November 2019); EN2 and EN3 obtained in quoted fragments, and the exact EN2 Merit and Excellence sub-bullets are reconstructed from the fragments and the schedule criteria. The 2026 specification calls the standard 'Version 2', which conflicts with the standard PDF; I did not resolve this. The 2025 and 2024 papers and schedules were read through fetch summaries (not verbatim). The 2025 report is a single Level 3 Biology report covering all three standards. 2024 exemplars only (Achievement, Merit, Excellence); no 2025 exemplars for 91603 are listed. There is no 2026 paper or schedule yet. The exam date and session length were not confirmed. 2023 and earlier materials exist but were not used.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91605",
+     "ref": "3.5",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of evolutionary processes leading to speciation",
+     "criteria": {
+      "achieved": "Demonstrate understanding of evolutionary processes leading to speciation.",
+      "merit": "Demonstrate in-depth understanding of evolutionary processes leading to speciation.",
+      "excellence": "Demonstrate comprehensive understanding of evolutionary processes leading to speciation."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves using biological ideas and/or scientific evidence to describe evolutionary processes leading to speciation.",
+      "EN2: Demonstrate in-depth understanding involves using biological ideas and/or scientific evidence to explain how or why evolutionary processes lead to speciation.",
+      "EN2: Demonstrate comprehensive understanding involves linking biological ideas and/or scientific evidence about evolutionary processes leading to speciation. The linking of ideas may involve justifying, relating, evaluating, comparing and contrasting, or analysing.",
+      "EN3: Biological ideas cover the role of mutation; gene flow; the role of natural selection and genetic drift; modes of speciation (sympatric and allopatric); reproductive isolating mechanisms (geographical, temporal, ecological, behavioural, structural barriers, polyploidy); patterns of evolution (divergence, convergence, adaptive radiation, co-evolution, punctuated equilibrium, gradualism).",
+      "EN4: Scientific evidence may include New Zealand flora and fauna and is drawn from fossil evidence, comparative anatomy (homologous and analogous structures), molecular biology (protein and DNA analysis) and biogeography.",
+      "2026 specification terms: types of selection (directional, stabilising, disruptive); genetic diversity; allele frequency change; mtDNA and nDNA evidence for evolution; phylogeny; clade; ring species. Geological events influencing speciation include tectonic movement, glaciation, orogeny and sea level change. Candidates should be familiar with graphical and tabulated data."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (March 2026) adds RING SPECIES to the term list; everything else matches 2025. Format is unchanged: an end-of-year examination on PRINTED PAPER.",
+      "Three compulsory resource-based questions, each with a context (text, photos, phylogenetic trees, tables or diagrams), a main 'Discuss…' task and bullet points to include. No lettered sub-parts and no choice.",
+      "Contexts are often New Zealand or unfamiliar organisms: 2025 used apple maggot and hawthorn flies, lamprey and eel, and tetraploid gray treefrogs; 2024 used kōura, tammar and parma wallabies on Kawau Island, and bird and bee wings.",
+      "Annotated diagrams are accepted where appropriate (2025 Q3 invited diagrams of polyploidy).",
+      "16-page booklet, about three pages per question plus extra space. No time or word guidance on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question gets its own score code N0–E8 from the schedule's evidence list; the three codes are totalled out of 24.",
+      "2025 codes (all questions): N0 no response or no relevant evidence; N1 one evidence point at Achievement; N2 two; A3 three; A4 four; M5 two evidence points at Merit; M6 three at Merit; E7 one evidence point at Excellence; E8 two at Excellence.",
+      "2024 codes: the same Achievement and Merit ladder; E7 'Discusses ONE evidence point at Excellence', E8 'Discusses BOTH evidence points at Excellence'.",
+      "Excellence points are broad integrated discussions (e.g. 2025 Q1: a detailed discussion of the RIMs that formed the two fly groups, and of the speciation process and why they are not yet separate species).",
+      "Cut scores 2025: Not Achieved 0–7, Achievement 8–13, Merit 14–18, Excellence 19–24. Cut scores 2024: the same."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Apple maggot fly and hawthorn fly (Rhagoletis pomonella), no geographic separation. Define speciation and reproductive isolating mechanisms; how two named RIMs (e.g. temporal, habitat, behavioural) may have formed the two groups; suggest why they are not yet separate species.",
+        "Q2: Lamprey and eel (phylogenetic tree, Table 1 of differences). Describe convergent evolution and an analogous structure; how two named selection pressures produced the similarities; two examples of scientific evidence showing convergence rather than divergence.",
+        "Q3: Gray treefrog (tetraploid) and Cope's gray treefrog (diploid), Figure 6 polyploid speciation diagram. Define hybridisation and polyploidy; how polyploidy can produce hybrid frogs; why this is sympatric not allopatric speciation; why it is punctuated equilibrium not gradualism."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91605-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91605-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91605-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Kōura (freshwater crayfish), three mtDNA groups, Māori translocation. Explain founder population and gene flow; how the formation of the Southern Alps may have led to divergent evolution by allopatric speciation; why moving kōura between areas prevents speciation.",
+        "Q2: Tammar and parma wallabies, allopatric in Australia, sympatric on Kawau Island (Figure 1 phylogeny). Define sympatric and species; identify the rate of evolution (punctuated equilibrium); explain why adaptive radiation occurred in Australia but not New Zealand; describe two RIMs preventing hybridisation on Kawau.",
+        "Q3: Convergent evolution in flight (honeybee and bird wings). Describe selection pressures with examples; how genetic data shows convergent evolution; how natural selection produced analogous structures."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91605-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91605-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91605-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: described speciation, RIMs and species; identified the fly RIMs as prezygotic and as reducing gene flow; described convergent and divergent evolution, analogous structures and selection pressure; gave relevant examples of evidence; described hybridisation, polyploidy, sympatric and allopatric speciation, punctuated equilibrium and gradualism.",
+      "2025, Merit: explained how RIMs likely formed the two fly groups using the resource, and that genetic differences have begun but too little time has passed for complete speciation; explained the link between convergence and analogous structures and how named selection pressures produced similar features; explained how polyploidy produces hybrid frogs isolated by gametic and behavioural isolation.",
+      "2025, Excellence: discussed how relevant RIMs formed the fly groups making full use of the resource; discussed lamprey–eel convergence by explaining their distant relatedness and linking named pressures to analogous structures; discussed polyploid hybrid formation and why treefrog speciation is sympatric not allopatric.",
+      "2025, Not Achieved: inaccurate or below-Level-8 definitions, sometimes unrelated to the question; repeated the context without adding anything; examples unrelated to the context; not all questions attempted. Poor handwriting and literacy made some responses hard to interpret.",
+      "2024, Achievement: full, accurate definitions; identified the pattern or rate of evolution from the graph; named relevant RIMs; gave a selection pressure; stated that distantly related species have more DNA differences; identified bird and bee wings as analogous.",
+      "2024, Merit: explained why evolutionary processes matter, in detail and linked to the resources; explained the biological benefit of Māori translocation practices; explained what prevents wallaby hybridisation on Kawau; explained how DNA differences show convergence (similar structures from different genes).",
+      "2024, Excellence: integrated the kōura material (random mutations to different phenotypes; gene flow and founder effect); compared adaptive radiation in Australia (many niches) with its absence in New Zealand (few niches); linked different mutations in bird and insect wings to selection on the phenotype.",
+      "2024, Not Achieved and commentary: inaccurate definitions missing key words; repeated context without explanation; misidentified concepts. Brief planning often helped candidates include all key points."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, A3, A4 = 10, 2025)",
+       "text": "Q1 defined speciation and temporal and habitat isolation (both identified as prezygotic). Q2 defined selection pressure and described two relevant pressures from the context (low oxygen, narrow spaces). Q3 defined polyploidy, sympatric and allopatric speciation, punctuated equilibrium and gradualism.",
+       "miss": "Not stated. By the schedule, Merit needs explanations linked to the resource (e.g. how the RIMs reduce gene flow and formed the groups), not definitions."
+      },
+      {
+       "grade": "Merit (M5, M5, M5 = 15, 2025)",
+       "text": "Q1 identified and explained two prezygotic RIMs (temporal, behavioural) linked to reduced gene flow. Q2 explained that convergence causes analogous structures in lamprey and eel and how DNA evidence separates convergence from divergence. Q3 explained why the case is sympatric (polyploidy plus calling behaviour) and punctuated equilibrium, not gradualism.",
+       "miss": "Not stated. By the schedule, Excellence needs detailed discussion integrating the whole question (e.g. why the flies are not yet separate species)."
+      },
+      {
+       "grade": "Excellence (E7, E8, E7 = 22, 2025)",
+       "text": "Q1: comprehensive understanding of speciation; competition for apples led to RIMs restricting gene flow, but insufficient time for full isolation. Q2 (E8): both Excellence points, with comparative anatomy and molecular biology showing convergence not divergence. Q3: detailed discussion of how polyploidy produces hybrid frogs and why it is sympatric speciation.",
+       "miss": "Not stated for Q1 and Q3 (E7)."
+      }
+     ],
+     "conditions": [
+      "End-of-year external examination on printed paper (2026). Handwritten answers.",
+      "No notes. The contexts and resource data are unseen.",
+      "Annotated diagrams accepted where appropriate.",
+      "Special assessment conditions, including Aromatawai, are available as published by NZQA."
+     ],
+     "components": [
+      "Question One: speciation and reproductive isolating mechanisms (apple maggot and hawthorn flies)",
+      "Question Two: convergent evolution, analogous structures, selection pressures and evidence (lamprey and eel)",
+      "Question Three: hybridisation, polyploidy, sympatric speciation and punctuated equilibrium (gray treefrogs)"
+     ],
+     "focusTip": "Name the organisms and the process each question targets (e.g. 'Q1 RIMs in sympatric flies, Q2 convergence, Q3 polyploidy') and include any phylogeny, table or graph so the AI can check whether students used the evidence supplied.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses biological ideas and/or scientific evidence to DESCRIBE the evolutionary processes leading to speciation in the context (e.g. defines and names RIMs, modes of speciation, patterns of evolution)."
+       },
+       {
+        "type": "req",
+        "src": "EN3; assessment schedule",
+        "t": "Processes and patterns are named correctly from EN3 (e.g. sympatric versus allopatric, convergent versus divergent, punctuated equilibrium versus gradualism) with accurate Level 8 definitions."
+       },
+       {
+        "type": "ind",
+        "src": "Assessment schedules 2024, 2025",
+        "t": "Three or four Achievement points per question and a total of at least 8 out of 24."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "All three questions attempted; examples come from the given context, not from a memorised one."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS HOW OR WHY the evolutionary processes lead to speciation (e.g. how a RIM reduces gene flow so allele frequencies diverge; how a shared selection pressure produces analogous structures), using the resource."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Links explanations to the resource data (timescales, phylogeny, DNA differences) rather than generic textbook statements."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "LINKS biological ideas and/or scientific evidence about the processes into a comprehensive discussion of the whole question (e.g. why the case is sympatric AND punctuated; why the fly groups are not yet species)."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('may involve')",
+        "t": "Linking shown by justifying, relating, evaluating, comparing and contrasting, or analysing, often by contrasting the alternative (allopatric, gradualism, divergence)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Excellence exemplar",
+        "t": "Uses two kinds of scientific evidence (e.g. comparative anatomy and molecular biology) and explains what each shows."
+       }
+      ]
+     },
+     "watch": [
+      "Prezygotic versus postzygotic RIMs mislabelled, or RIMs named without how they cut gene flow.",
+      "Sympatric versus allopatric and punctuated equilibrium versus gradualism chosen without justification from the resource (timescale, geography).",
+      "Analogous versus homologous structures confused; convergence explained as 'common ancestor'.",
+      "Definitions missing key words (e.g. species without 'fertile offspring'; gene flow without 'alleles').",
+      "Repeating the context or examples unrelated to it earns nothing (2025 report).",
+      "Ring species is new in the 2026 specification; a practice paper may reasonably include it, but older revision materials will not.",
+      "Grade from the total out of 24, not per question."
+     ],
+     "aiLimits": "Scans of handwriting and hand-drawn polyploidy or phylogeny diagrams may be misread, and the AI cannot see the teacher's resource figures unless supplied. The teacher must confirm diagram content and the final score codes.",
+     "researchNotes": "Standard text from the NZQA as91605 PDF (2019 folder; Version 2, published 17 November 2016); EN2 quoted in fragments. 2025 and 2024 papers and schedules read via fetch summaries. The 2025 schedule Merit evidence for Q1 was only partly captured. Exemplars are 2025 (A, M, E); 2024 exemplars exist on the NZQA page but were not read. No 2026 paper or schedule yet; exam date and session length not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91606",
+     "ref": "3.6",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of trends in human evolution",
+     "criteria": {
+      "achieved": "Demonstrate understanding of trends in human evolution.",
+      "merit": "Demonstrate in-depth understanding of trends in human evolution.",
+      "excellence": "Demonstrate comprehensive understanding of trends in human evolution."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves using biological ideas to describe trends in human evolution.",
+      "EN2: Demonstrate in-depth understanding involves using biological ideas to explain how or why trends in human evolution occur.",
+      "EN2: Demonstrate comprehensive understanding involves linking biological ideas about trends in human evolution. The linking of ideas may involve justifying, relating, evaluating, comparing and contrasting, and analysing using scientific evidence.",
+      "EN3: Trends refer to change over time in relation to human biological evolution, human cultural evolution, and patterns of dispersal of hominins. Hominins are living and fossil species belonging to the human lineage.",
+      "EN4: Biological evolution trends begin with early bipedal hominins and may require comparison with living hominids: skeletal changes linked to bipedalism; changes in skull and endocranial features; changes in the manipulative ability of the hand.",
+      "EN5: Cultural evolution trends: use of tools (stone, wood, bone); use of fire; clothing; abstract thought (communication, language, art); food-gathering (hunter-gatherer, domestication of plants and animals); shelter (caves, temporary settlement, permanent settlement).",
+      "EN6: Interpretations are based on current scientific evidence that is widely accepted and presented in peer-reviewed scientific publications.",
+      "2026 specification notes: resource material may use currently recognised species names and any species named by candidates must be consistent with them; discussion of causes should consider selection pressures; cultural eras (Earlier, Middle, Later Stone Age; Middle and Upper Palaeolithic; Neolithic; Oldowan, Acheulean, Mousterian tools) through to agriculture and early settlement; dispersal up to 6000 years ago; evidence may include skeletal remains, nuclear and mitochondrial DNA, tools, and scientific and comparative dating; answers must be based on scientific evidence."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification notes for 91606 match the 2025 ones (the 2026 wording says key species associated with each cultural era). Format is unchanged: an end-of-year examination on PRINTED PAPER.",
+      "Three compulsory resource-based questions, each with context text and figures (skeletons, hand bones and skulls with brain sizes, maps), a 'Discuss…' task and bullet points to include. No choice.",
+      "2025 covered australopithecine bipedalism, the hand–brain–culture positive feedback loop, and Out of Africa dispersal versus restricted Neanderthals and Denisovans. 2024 covered chimpanzee versus human locomotion (spine, pelvis, valgus angle), Neanderthal twisted fibre and Levallois tools, and Homo floresiensis on Flores.",
+      "Annotated diagrams accepted (2025 schedule accepts an annotated diagram of the feedback loop).",
+      "16-page booklet; no time or word guidance on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question gets its own N0–E8 code from the schedule's evidence list; the three codes are totalled out of 24.",
+      "2025 codes: N0 no response or no relevant evidence; N1 one evidence point at Achievement; N2 two; A3 three; A4 four; M5 two evidence points at Merit; M6 three; E7 one evidence point at Excellence; E8 two at Excellence. Q2 used a different E8: 'TWO evidence points at Excellence, but discussion for one is weaker'.",
+      "2024 codes: N1–A4 one to four Achievement points (Q1 worded 'Discusses', Q2 and Q3 'Describes'); M5 two and M6 three Merit points; E7 'Discusses BOTH evidence points at Excellence, but discussion for one may be weaker'; E8 'Discusses BOTH evidence points at Excellence'.",
+      "Cut scores 2025: Not Achieved 0–7, Achievement 8–13, Merit 14–18, Excellence 19–24. Cut scores 2024: the same.",
+      "The total decides the grade: the 2024 Excellence exemplar scored M6 + M6 + E7 = 19, the bottom of the Excellence band."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Australopithecine bipedalism (Figure 1: pelvis and leg bones of chimpanzee, australopithecine, modern human). How changes in pelvis, femur and knees enabled efficient bipedal walking; two advantages and one disadvantage for australopithecines in Africa; two possible selection pressures.",
+        "Q2: Hominin hands and the positive feedback loop (Figure 2: hands and skulls with brain sizes 384 g to 1350 g). Relationship between biological and cultural evolution; how two hand changes may have influenced brain expansion; how a hand change influenced tool development; one advantage and one disadvantage of biological evolution on cultural evolution.",
+        "Q3: Dispersal of H. sapiens (Figure 3: map of hominins about 60,000 years ago). Describe the Out of Africa (replacement) hypothesis; how clothing and shelter helped dispersal; how specialised adaptations and inbreeding affected Neanderthals and Denisovans; how abstract thought and communication helped H. sapiens disperse."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91606-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91606-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91606-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Movement of hominids and hominins. Describe habitually bipedal and arboreal; explain human–chimpanzee differences in spine, pelvis and valgus angle; explain why humans are bipedal despite a disadvantage.",
+        "Q2: Neanderthal twisted fibre (3-ply cord on a stone tool). Discuss the Levallois technique; identify the brain region allowing mathematical rope-making; two ways tool use improved health; how and why twisted fibre helped food gathering and survival in cold Europe.",
+        "Q3: Homo floresiensis on Flores. How small body size helped the island population; how the species succeeded without controlled fire; two reasons substantial brain development was a selective advantage for early hominins."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91606-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91606-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91606-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: described australopithecine or H. sapiens adaptations for bipedalism (descriptions, not bare statements); identified the chimpanzee waddle but did not link it to hominins; described how clothing, shelter, abstract thought and communication aided survival; attempted the unfamiliar biological-on-cultural evolution bullet.",
+      "2025, Merit: explained hand changes and their influence; linked features to energy expenditure, survival and reproduction; explained climate change (forest to savannah) as a selection pressure; explained the tools–food–brain loop but without hand changes; did not explain Neanderthal and Denisovan specialised adaptations.",
+      "2025, Excellence: discussed pelvis, knee and femur features with advantages and disadvantages; cooler, drier climate spreading resources as the pressure; the full loop of hand changes, tools, nutrition, brain growth and tool culture; two waves of Out of Africa dispersal; Neanderthal and Denisovan adaptations and inbreeding effects on dispersal; integrated, detailed examples explaining how and why.",
+      "2025, Not Achieved: missed the benefit of each adaptation; rewrote the question; did not describe hand features; pre-memorised answers that did not fit; outlined Neanderthal cold adaptations without linking to dispersal.",
+      "2025, common errors: not explaining mechanistically how bipedal features save energy (knee adaptations weakest); ignoring 'positive feedback' though it was in the stem; overlooking the 'and' in bullets (clothing AND shelter; specialised adaptation AND inbreeding); confusing inbreeding with interbreeding. Non-Excellence candidates often had accurate knowledge but did not integrate it or recited memorised trends (tools, fire, chronological lists).",
+      "2024, Achievement: could not fully explain spine, pelvis and valgus differences or describe habitual bipedalism; included body parts not asked for; vague brain regions; weak fibre explanations; confused the Levallois technique with rope-making.",
+      "2024, Merit: explained spine, valgus angle and pelvis but missed energy efficiency, shock absorption and survival trade-offs; stated that advantages outweighed disadvantages; linked Neanderthal success to the cold.",
+      "2024, Excellence: detailed, well-structured answers linking spine curvature, valgus angle and pelvis to efficient long-distance walking; weighed trade-offs (back injury, difficult births); linked fibre technology to Levallois, cognition and a named brain region; linked small body size of H. floresiensis to reduced resource demand on an isolated island.",
+      "2024, Not Achieved and commentary: confused arboreal with quadrupedal and 'habitual' with 'habitat'; described structures without linking to locomotive efficiency; left a question blank; memorised answers; overused one term (e.g. 'positive feedback loop'); many did not use paragraphs."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, M6, N1 = 11, 2024)",
+       "text": "Q1 described arboreal and habitual bipedalism, disadvantages of bipedalism and the benefits of the S-shaped spine. Q2 explained tools and health, brain development and tool use, and carrying food in the cold. Q3 described only how small stature was an advantage on Flores.",
+       "miss": "Q3 'does not address each part of the question and tends to repeat itself'. A near-blank question pulled a Merit-capable script down to Achievement."
+      },
+      {
+       "grade": "Merit (M5, M5, M5 = 15, 2024)",
+       "text": "Q1 explained the S-shaped spine and an advantage of bipedalism. Q2 explained tool use and health, and food gathering in the cold with 3-ply knowledge. Q3 explained the success of small stature and the absence of fire.",
+       "miss": "Q1: 'With more adequate explanations of other aspects, this response may have been awarded a higher score.' Q2 and Q3 gaps not stated."
+      },
+      {
+       "grade": "Excellence (M6, M6, E7 = 19, 2024)",
+       "text": "Q1 explained valgus angle and S-shaped spine linked to balance, centre of mass and energy savings. Q3 (E7) showed detailed knowledge of Flores and its food resources and survival without fire.",
+       "miss": "Q2 did not fully address all aspects, 'particularly the link between tool use and access to more nutritious food'. The total of 19 just reached Excellence."
+      }
+     ],
+     "conditions": [
+      "End-of-year external examination on printed paper (2026). Handwritten answers.",
+      "No notes. Resource figures are unseen.",
+      "Species names in answers must be consistent with currently recognised names used in the resource (specification).",
+      "Answers must be based on widely accepted scientific evidence (EN6; specification).",
+      "Annotated diagrams accepted where appropriate."
+     ],
+     "components": [
+      "Question One: skeletal changes for bipedalism, advantages, disadvantage and selection pressures (australopithecines)",
+      "Question Two: hand evolution, brain expansion and cultural evolution as a positive feedback loop",
+      "Question Three: Out of Africa dispersal of H. sapiens versus restricted Neanderthals and Denisovans"
+     ],
+     "focusTip": "Name the trend each question targets (biological, cultural or dispersal), the hominins involved and any figure supplied, and note which bullets contain an 'and', so the AI can check both halves were answered.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses biological ideas to DESCRIBE trends in human evolution in the question's context (biological, cultural or dispersal trends per EN3–EN5)."
+       },
+       {
+        "type": "req",
+        "src": "EN6; 2026 specification",
+        "t": "Descriptions are consistent with current, widely accepted scientific evidence and with the species names in the resource."
+       },
+       {
+        "type": "ind",
+        "src": "Assessment schedules 2024, 2025",
+        "t": "Three or four Achievement points per question and a total of at least 8 out of 24."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Every part of each bullet is answered (both halves of an 'and')."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS HOW OR WHY the trends occur, e.g. how a skeletal feature makes walking energy-efficient, or how a selection pressure (climate change, forest to savannah) drove the change."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Each feature is linked to its adaptive advantage for energy expenditure, survival and reproduction."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "LINKS biological ideas about the trends into a comprehensive discussion across the question (e.g. the full feedback loop of hand, tools, diet and brain; why Neanderthals stayed restricted while H. sapiens dispersed)."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('may involve')",
+        "t": "Linking shown by justifying, relating, evaluating, comparing and contrasting, and analysing using scientific evidence, e.g. weighing advantages against disadvantages and concluding."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Integrated, detailed and relevant examples rather than a memorised chronological list of trends."
+       }
+      ]
+     },
+     "watch": [
+      "Memorised answers (tool evolution, fire, chronological lists) that do not fit the question; credit only what answers the bullets.",
+      "Bipedal features listed without the mechanism or the benefit (energy efficiency, balance, centre of mass, shock absorption).",
+      "Inbreeding versus interbreeding, habitual versus habitat, and arboreal versus quadrupedal are frequent confusions.",
+      "'Positive feedback' in the stem ignored, or used as a buzzword without the loop being explained.",
+      "One half of an 'and' bullet missing (clothing and shelter; adaptations and inbreeding; abstract thought and communication).",
+      "Out of Africa dates and waves wrong (2025 report: successful candidates recalled the two migrations).",
+      "Grade from the total out of 24: a single weak or blank question can drop the grade a level, as in the 2024 Achievement exemplar."
+     ],
+     "aiLimits": "Handwriting and annotated diagrams in scans may be misread, and the AI cannot see the teacher's figures (skeletons, maps) unless supplied. The teacher must check hominin names, dates and the final score codes against the schedule used.",
+     "researchNotes": "Standard text from the NZQA as91606 PDF (2019 folder; Version 2, published 17 November 2016); EN2–EN6 quoted in fragments. 2026 specification read via fetch (March 2026). The 2025 and 2024 papers and schedules were read via fetch summaries. 2024 exemplars only (A, M, E); no 2025 exemplars are listed for 91606. No 2026 paper or schedule yet; exam date and session length not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Business Studies": {
+   "slug": "business-studies",
+   "discipline": "Each Level 3 Business Studies paper is one task in four parts (a)–(d). The marker reads the whole script and gives ONE score from 0 to 8. The steps are explain (state the answer, then give the reason why: A), fully explain with awareness of the impact on business or stakeholder goals (M), and evaluate, with a justified conclusion that brings in new information or alternatives (E). Answers are judged on accurate business knowledge and terminology (revenue, costs, profit, market share, size, scope, timeframe) applied to the given context or the student's studied New Zealand-registered global business. Restating the case study, generic points and length are never the criterion.",
+   "parallelHint": "a different hypothetical business in a different industry and market (for example a Southland meat exporter instead of a Bay of Plenty dairy company), different internal or external factors, or for the studied-business part a different New Zealand-registered business operating globally (e.g. Zespri or Icebreaker instead of Fonterra)",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Business Studies 91379, 91380, 91381 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91379-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 Business Studies (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91380-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91379 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91379"
+    },
+    {
+     "label": "NZQA 91380 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91380"
+    },
+    {
+     "label": "NZQA 91381 standard page (papers, schedules, resource booklets, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91381"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Business Studies (covers 91379, 91380, 91381)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91379-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Business Studies (covers 91379, 91380, 91381)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91379-report-2024.pdf"
+    },
+    {
+     "label": "Business Studies Level 3 Conditions of Assessment 2026 (internal standards; listed for context)",
+     "url": "https://ncea.tki.org.nz/content/download/8336/32295/file/Business studies Level 3 Conditions of Assessment 2026.docx"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades overview",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes end-of-year external examinations. 91379, 91380 and 91381 are end-of-year online digital examinations in 2026 (2026 Assessment Specifications), so they are within scope.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of the Level 3 Business Studies externals falls into these groups, and no NZQA notice excluding them was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For these papers, matching the format means: ONE task with four parts, all to be attempted, under supervised exam conditions without notes. For 91379 and 91380 it also means a business context supplied in the paper plus ONE part that requires the student's own studied New Zealand-registered global business. For 91381 it means an unseen resource booklet with the data the recommendations depend on, and a calculator allowed.",
+    "Each standard is a separate exam with its own derived grade. A combined practice paper must still let the teacher award a separate 0–8 score and grade for each standard, using only the evidence for that standard.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it. Practice exams may be based on modified papers from previous years. A 2024 or 2025 NZQA paper used unchanged risks students having already seen it and its published schedule.",
+    "Derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result (NZQA derived grades overview)."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91379",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of how internal factors interact within a business that operates in a global context",
+     "criteria": {
+      "achieved": "Demonstrate understanding of how internal factors interact within a business that operates in a global context.",
+      "merit": "Demonstrate in-depth understanding of how internal factors interact within a business that operates in a global context.",
+      "excellence": "Demonstrate comprehensive understanding of how internal factors interact within a business that operates in a global context."
+     },
+     "notes": [
+      "EN2 (Achieved): Demonstrate understanding typically involves explaining the interaction of internal factors through stating examples, stating business knowledge relevant to the interaction of internal factors, and stating a Māori business concept(s) where relevant to the interaction of internal factors.",
+      "EN2 (Merit): Demonstrate in-depth understanding typically involves fully explaining the interaction of internal factors through including examples to support explanations, including relevant business knowledge to support explanations, and including a Māori business concept(s) where relevant to support explanations.",
+      "EN2 (Excellence): Demonstrate comprehensive understanding typically involves evaluating the interaction of internal factors through integrating examples to fully support explanations, integrating relevant business knowledge to fully support explanations, and integrating a Māori business concept(s) where relevant to fully support explanations.",
+      "EN3: Internal factors refer to the business themes – functions, people, management.",
+      "EN4: Global context means a business operating in an international environment.",
+      "EN5: Examples refer to providing relevant information from a business operating in a global context studied in depth.",
+      "2026 specification: Māori business concepts may be assessed. The paper gives a definition and the candidate applies or explains it in a specific business context. Candidates may use any relevant Māori business concept (listed Māori concepts: pūtake, tūranga, tikanga, kaitiakitanga, rangatiratanga; Key Concepts: enterprise, globalisation, citizenship, sustainability)."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the exam as an online digital examination. The 2025 specification allowed online digital OR printed paper, and the 2024 and 2025 papers were also published as printed booklets. No change to the task structure is stated.",
+      "One question (task) with multiple parts. The 2024 and 2025 papers had four parts (a)–(d), each split into (i), (ii) and sometimes (iii), and candidates are told to attempt all parts.",
+      "A business context is provided in the paper (2025: The Honest Grain, an Invercargill breakfast-cereal business launching the OatRise bar; 2024: Oarsome Aotearoa, a Queenstown adventure-tourism operator). Background information and supplementary boxes introduce each part.",
+      "ONE part requires the candidate's actual studied New Zealand-registered business operating globally, and the paper says not to use the provided business there (2025: part (b), innovation; 2024: part (a), pūtake). For the other parts the candidate may use either the provided context or the studied business.",
+      "Parts typically ask 'Explain one benefit / cost / positive / negative impact…' and end with an evaluation part: 'How likely is it that…?', requiring a justified conclusion that includes NEW information.",
+      "Approved calculators are permitted (2026 specification). The papers give no time allowance and no word guidance. The 2025 booklet had answer space on pages 2–12 including extra pages."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The paper is marked as ONE task: the schedule gives one score code for the whole script (exemplars show 'Task One: E7', total 07). The parts are not scored separately and added. Markers are told to read each answer as a whole before awarding a grade.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "Score codes (2024 and 2025): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all points covered.",
+      "Achievement evidence: explain the interaction of internal factors (state the answer, then give reasons why it occurs), stating relevant business knowledge and examples, and a Māori business concept where relevant.",
+      "Merit evidence: fully explain the interaction with awareness of its impact on business or stakeholder goals (effects, advantages, disadvantages, consequences), supported by evidence.",
+      "Excellence evidence: evaluate the interaction, integrating business knowledge and examples. Justify the significance or likelihood of success, referring to alternatives or new information not already covered.",
+      "Context rule: only ONE context may be used within each part, but the context may change between parts.",
+      "The schedule's sample evidence is not exhaustive: any accurate, relevant business reasoning is credited."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Context: The Honest Grain (Invercargill, founded 2022), using Southland oats and some imported ingredients. Goals: grow market share 5% a year, build supplier relationships, be an employer of choice. It is developing the OatRise cereal bar.",
+        "(a) Intellectual property: (i) one benefit of protecting IP; (ii) one cost of protecting IP; (iii) how likely IP protection is to support a successful new-product launch (justified conclusion with new information). Sample: trade marking 'OatRise'.",
+        "(b) Innovation (studied NZ-registered global business, not The Honest Grain): (i) one benefit of an innovative culture; (ii) one possible impact of an innovative culture on staff. Sample used Fonterra.",
+        "(c) Kaitiakitanga (defined in the paper; context: oats and nitrogen leaching): (i) one positive impact; (ii) one negative impact; (iii) how likely kaitiakitanga is to increase profitability (justified conclusion with new information).",
+        "(d) Quality management: (i) one benefit of quality control rather than an alternative system; (ii) one possible negative impact on CUSTOMERS of using quality control rather than an alternative."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91379-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91379-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91379-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Context: Oarsome Aotearoa (Queenstown, 1994), kayaking, rafting and jet boating; reports against the quadruple bottom line. Pūtake defined in the paper as 'the origin or reason for being'.",
+        "(a) Pūtake (studied NZ-registered global business, not Oarsome Aotearoa): (i) how the pūtake may affect the brand; (ii) one possible consequence of the pūtake for market share.",
+        "(b) Product or service innovation: (i) one positive impact; (ii) one negative impact; (iii) how likely innovation is to increase profitability (justified conclusion with new information).",
+        "(c) Total quality management: (i) one positive effect; (ii) one negative effect; (iii) how likely TQM is to result in consistent high-quality products or services (justified conclusion with new information).",
+        "(d) Inclusive change management: (i) one benefit; (ii) one possible impact on the business's costs."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91379-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91379-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91379-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, general: correct understanding of the concepts (intellectual property, innovation, kaitiakitanga, quality management systems) led to higher grades. Achievement-level candidates went beyond restating the case study and added their own business knowledge. Excellence responses contained new information. Correct use of terms (size, scope, timeframe, sales, revenue, profit) marked high-achieving candidates.",
+      "2025, Achievement: applied specific examples from a NZ global business or the provided context, used the resource examples, explained the type of IP indicated (product naming, trade marks) and a specific legal cost of a trade mark (e.g. registration), explained with examples how an innovative culture leads to innovation, and explained the benefits of quality control compared with an alternative system.",
+      "2025, Merit: applied explanations to business goals (brand loyalty, profitability, sustainability), fully explained internal factors (e.g. premium pricing resulting from higher costs), and explained the impact of quality control on CUSTOMERS rather than only on the business.",
+      "2025, Excellence: comprehensive understanding of short- and long-term impacts, weighting long-term impacts more heavily, and new information integrated into justified conclusions (repeat purchases, the longevity of IP rights, future expansion into foreign markets through kaitiakitanga-based branding).",
+      "2025, Not Achieved: did not complete all parts, did not use a NZ-registered business operating in a global context, gave no specific examples, explained quality control without comparing it to an alternative quality management system.",
+      "2024, general: candidates had to study a NZ-registered global business and use it in at least one response; those who used other businesses could not provide the required evidence. Literacy mattered: interpreting the question correctly and writing in complete sentences.",
+      "2024, Achievement: understood pūtake and applied it to the chosen business and its brand, used a NZ-registered global business, explained innovation in terms of USP, competitive advantage or efficiency, gave negative innovation effects (R&D or training costs), and explained TQM through quality chains or a cultural change to shared responsibility for quality.",
+      "2024, Merit: explained innovation in detail linked to competitive advantage and profitability, focused on the internal impact on employees with detailed positives and negatives of TQM, and linked concepts to profitability or business goals such as environmental sustainability.",
+      "2024, Excellence: evaluated the likelihood of innovation succeeding using new information (timeframes, type of industry) and of TQM succeeding using new information (e.g. comparing quality control with quality assurance).",
+      "2024, Not Achieved: used Oarsome Aotearoa (the case business) for the pūtake part instead of a studied business, misunderstood market share, treated innovation as buying machinery, misunderstood TQM, and wrote about change management generally instead of INCLUSIVE change management."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, 2024)",
+       "text": "Explained, simply, a positive impact of service innovation for Oarsome Aotearoa, a positive impact of total quality management, and a benefit of inclusive change management.",
+       "miss": "Did not explain specifically how electric jet-boat rides would affect costs; needed a more detailed explanation of a negative aspect of TQM and further detail on the cost of the change-management initiative."
+      },
+      {
+       "grade": "Merit (M5, 2024)",
+       "text": "Stated Fonterra's pūtake and explained its impact on the brand; explained in some detail a positive impact of service innovation; carefully explained how inclusive change management can reduce staff turnover.",
+       "miss": "Needed further explanation of the consequence of the pūtake for the brand, new or related information in the justification, and an explanation of a benefit of TQM in context."
+      },
+      {
+       "grade": "Excellence (E7, 2024)",
+       "text": "Fully explained one positive and one negative effect of service innovation and gave a justified conclusion with new information, comparing the short term with the long term and the impact on the Oarsome Aotearoa brand. Explained in context one positive and one negative effect of TQM.",
+       "miss": "More thorough justification in the TQM part (the 'one weaker part' that holds E7 below E8)."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam in online digital format (2026). Approved calculators permitted.",
+      "Supervised, no notes. The student brings knowledge of their studied NZ-registered global business from memory, so a practice exam must not allow prepared notes on that business.",
+      "The provided business context should be unseen before the practice exam, as in the real paper.",
+      "Māori business concepts assessed in a part are defined in the paper; a practice paper should give the definition too.",
+      "Literacy status for 2026 (UE literacy list) not confirmed. It is not a co-requisite standard, so it is not excluded from derived grades on that ground."
+     ],
+     "components": [
+      "(a) Intellectual property: benefit, cost and likelihood of supporting a successful launch (provided context)",
+      "(b) Innovative culture: benefit and impact on staff (studied NZ-registered global business)",
+      "(c) Kaitiakitanga: positive and negative impact and likelihood of increasing profitability",
+      "(d) Quality control versus an alternative system: benefit to the business and negative impact on customers"
+     ],
+     "focusTip": "Name the provided business context, which part required the student's own studied NZ-registered global business (and which business they used), and the internal factors each part asked about.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Achievement evidence",
+        "t": "EXPLAINS the interaction of internal factors: states an answer and gives the reason why it occurs, for most parts (A3 = most Achievement evidence, A4 = nearly all)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "States relevant business knowledge and examples: the explanation uses correct concepts (e.g. trade mark, quality control versus quality assurance, TQM) applied to the business, not general statements."
+       },
+       {
+        "type": "req",
+        "src": "2026 specification; EN5",
+        "t": "The part that requires the studied business uses an actual New Zealand-registered business operating globally, not the provided business or a domestic-only business. Using the case business there was a common Not Achieved cause (2024 report)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts attempted. Not completing all parts was the most common Not Achieved pattern."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('where relevant'); 2026 specification",
+        "t": "States a Māori business concept where relevant, and applies any concept the paper defines (e.g. kaitiakitanga, pūtake) to the business rather than just repeating the definition."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Answers the specific comparison asked (e.g. quality control RATHER THAN an alternative system; impact on CUSTOMERS, not the business)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Merit evidence",
+        "t": "FULLY explains, with awareness of impact: the effect, advantage, disadvantage or consequence is followed through to a business or stakeholder goal (sales, revenue, costs, profit, market share, brand loyalty, sustainability)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Examples and business knowledge SUPPORT the explanations (specific details from the context or studied business, not generic claims)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; M5 exemplar",
+        "t": "Uses correct financial terminology and causal chains (e.g. higher costs → premium price → lower sales; reduced turnover → lower recruitment costs → higher profit)."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Excellence evidence",
+        "t": "EVALUATES: the 'how likely' parts reach a justified conclusion on significance or likelihood of success, weighing positives against negatives."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule Excellence evidence; papers",
+        "t": "The justification includes NEW information or alternatives not already covered in the earlier parts (e.g. the 10-year life of a trade mark, repeat purchases, expansion into foreign markets)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Examples, business knowledge and (where relevant) Māori business concepts are INTEGRATED to fully support explanations. E7 allows one weaker part; E8 needs all points covered."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; E7 exemplar",
+        "t": "Compares short-term with long-term impacts and gives more weight to the long term, linked to the business's stated goals."
+       }
+      ]
+     },
+     "watch": [
+      "The studied-business part answered with the provided business or a business that is not NZ-registered and global. This lost Achievement evidence in both 2024 and 2025.",
+      "'How likely' conclusions that summarise earlier points without NEW information. This held Merit scripts at M5 in the 2024 exemplars.",
+      "Not answering the comparison asked: quality control explained without an alternative system, impact on the business when the question asked about customers, change management instead of INCLUSIVE change management.",
+      "Concept errors: treating innovation as buying machinery, confusing quality control with quality assurance or TQM, misusing market share.",
+      "Positive/negative points that stop at the first step ('this costs money') without following it to profit, sales or a business goal. That is Achievement, not Merit.",
+      "Marking each part separately and adding the scores up. NZQA gives one holistic 0–8 score for the whole task; E7 allows one weaker part.",
+      "Practice papers that reuse the 2024 or 2025 NZQA context unchanged; students may have seen the published schedule."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI cannot see the teacher's practice paper or context unless it is supplied, and it cannot verify facts about the student's studied business (registration, global operations, initiatives such as an innovation lab). The teacher must confirm those facts and that the paper was sat under supervision.",
+     "researchNotes": "Standard text from as91379 (2019 folder, Version 2, published 17 November 2016); EN2, EN3 and EN5 are verbatim in fragments, EN4 is paraphrased. 2026 and 2025 specifications read via fetch; the 2026 one gives no time allowance, and its statement of 'online digital examination' is the only format difference found from 2025. Schedules and reports were summarised through WebFetch (direct PDF download was blocked), so descriptor wording is close but not guaranteed verbatim. The schedules do not say 'holistic' in words, but they give one 0–8 code set for the single task and the exemplars show one task score. No 2026 paper exists yet. The 2024 report and 2025 report each cover all three Level 3 Business Studies standards in one document. 2025 exemplars were not listed on the NZQA page for 91379. 2026 UE literacy status was not checked against a current list.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91380",
+     "ref": "3.2",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of strategic response to external factors by a business that operates in a global context",
+     "criteria": {
+      "achieved": "Demonstrate understanding of strategic response to external factors by a business that operates in a global context.",
+      "merit": "Demonstrate in-depth understanding of strategic response to external factors by a business that operates in a global context.",
+      "excellence": "Demonstrate comprehensive understanding of strategic response to external factors by a business that operates in a global context."
+     },
+     "notes": [
+      "EN2 (Achieved): Demonstrate understanding typically involves explaining the strategic response to external factors through stating examples, stating business knowledge relevant to the strategic response to external factors, and stating a Māori business concept(s) where relevant.",
+      "EN2 (Merit): Demonstrate in-depth understanding typically involves fully explaining the strategic response to external factors through including examples to support explanations, including relevant business knowledge to support explanations, and including a Māori business concept(s) where relevant to support explanations.",
+      "EN2 (Excellence): Demonstrate comprehensive understanding typically involves evaluating the strategic response to external factors through integrating examples to fully support explanations, integrating relevant business knowledge to fully support explanations, and integrating a Māori business concept(s) where relevant to fully support explanations.",
+      "EN3: External factors refer to those outside of the business's control that can affect its business functions, people, management and environment.",
+      "EN4: Global context means a business operating in an international environment.",
+      "EN5: Examples refer to relevant information from a business operating in a global context studied in depth.",
+      "EN6: Strategic response means a relevant 'business wide' reaction at multiple levels (size, scope, timeframe).",
+      "2026 specification: a strategic response may vary in size and scope (whole business, a regional or global market, all departments, or a single department) and in timeframe (short, medium or long term). Māori business concepts may be assessed, with a definition given in the paper."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the exam as an online digital examination. The 2025 specification allowed online digital OR printed paper. No change to the task structure is stated.",
+      "One question (task) with four parts (a)–(d), all to be attempted (2024 and 2025 papers).",
+      "A business context is provided (2025: GlobalDairy Solutions, a Bay of Plenty dairy company using geothermal energy and expanding into China; 2024: Neat Sip Botanicals, a NZ native-botanical beverage business planning to export to the US).",
+      "ONE part requires the candidate's actual studied NZ-registered global business, with 'Do not use [provided business]' printed in the box (2025: part (b), overseas opportunities; 2024: part (c), increase in consumer demand). Other parts may use either context.",
+      "Strategic-response parts follow a fixed pattern: (i) state the response and explain why it is business-wide, using at least TWO of size, scope and timeframe; (ii) one positive impact; (iii) one negative impact; (iv) justified conclusion, with new information, on its likely success.",
+      "Approved calculators are permitted. The papers give no time allowance or word guidance. The 2025 booklet ran to 16 pages including extra space."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "Marked as ONE task with one score code for the whole script (exemplars show 'Task One: M5', total 05). Markers read each answer as a whole before awarding a grade.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "Score codes (2024 and 2025): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all Excellence points covered.",
+      "Achievement evidence: explain the strategic response and one positive or negative impact (state the answer and give reasons), with relevant business knowledge and examples, and a Māori business concept where relevant.",
+      "Merit evidence: fully explain the impacts with awareness of how they affect business or stakeholder goals (effects, advantages, disadvantages, consequences), supported by evidence.",
+      "Excellence evidence: evaluate the likely success of the response, justified using evidence, alternative courses of action or new information not already covered, with knowledge, examples and Māori concepts integrated.",
+      "Context rule: one context per part; the context may change between parts."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Context: GlobalDairy Solutions (Bay of Plenty, 2013): geothermal energy, cultural intelligence training, farm-to-shelf AI tracking, a zero-waste programme, expansion into China. Supplementary note on COVID-19 lifting dairy demand.",
+        "(a) Human resource strategy and cultural intelligence: (i) state the response and why it is business-wide (two of size, scope, timeframe); (ii) one positive impact; (iii) one negative impact; (iv) justified conclusion with new information on likely success.",
+        "(b) Overseas opportunities (studied NZ-registered global business, NOT GlobalDairy Solutions): (i) one opportunity from operating overseas; (ii) how this opportunity could negatively affect economic sustainability. Sample used Fonterra.",
+        "(c) Technology and the supply chain: (i) how technology changes can improve the supply chain; (ii) how new technology could affect market share.",
+        "(d) Societal expectations of environmental sustainability: same pattern as (a), (i)–(iv). Sample: a zero-waste programme."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91380-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91380-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91380-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Context: Neat Sip Botanicals, a NZ beverage business using native botanicals (kawakawa, horopito) and planning to export to the United States.",
+        "(a) Societal expectations of cultural or social sustainability: (i) the strategic response with its scope and timeframe; (ii) one positive impact; (iii) one negative impact; (iv) likely long-term success with new information.",
+        "(b) Business support: (i) one advantage of using an agency such as NZTE; (ii) how this advantage helps the business enter the US market.",
+        "(c) Increase in consumer demand (studied NZ-registered global business): (i) a strategic response with its size and scope; (ii) one positive effect; (iii) one negative effect; (iv) justified likely success with new information. Sample: Fonterra's Clandeboye mozzarella plant.",
+        "(d) Threats of multinationals: (i) one threat in the US market; (ii) how this threat affects success."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91380-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91380-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91380-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, general: candidates who understood and correctly applied size, scope and timeframe to their chosen strategy achieved more. Correct terminology (revenue, costs, profit) indicated higher-level knowledge. Attempting all questions raised the chance of higher grades.",
+      "2025, Achievement: explained two of size, scope or timeframe with specific examples, explained a response that addressed the external factor and its effect on operations and profitability, used specific examples from a NZ global business, applied Māori concepts, addressed HR strategy for multiple cultures, and explained how AI technology can improve a supply chain.",
+      "2025, Merit: explained the effect of the response with specific examples of size, scope or timeframe, used correct terminology, used a NZ-registered global business, applied explanations to sales, profitability and market share, and completed all questions.",
+      "2025, Excellence: a clear, detailed strategic response, fully explained with size, scope and/or timeframe and the stakeholders affected; positive and negative aspects explained and summarised against business goals; new information integrated into justified conclusions; Māori business concepts applied.",
+      "2025, Not Achieved: no viable strategic response, too little of the paper attempted, partial understanding of cultural intelligence, economic sustainability, supply chain or market share, no examples beyond the resource material, an ECONOMIC response where an ENVIRONMENTAL one was required, no NZ-registered global business.",
+      "2024, Achievement: used a NZ-registered global business, explained a positive and a negative impact, identified an appropriate support agency for entering a new market and its benefit (consumer preferences, target markets, regulations), explained a threat to entering a new market.",
+      "2024, Merit: explained a business-wide response by size, scope and timeframe, explained impacts such as productivity → sales → revenue → profit, applied social, cultural and environmental sustainability, and explained the links between sales, revenue, expenses and profit.",
+      "2024, Excellence: fully explained a business-wide response by size, scope and timeframe, explained positive and negative aspects, justified a conclusion on likely success, and added new information.",
+      "2024, Not Achieved: no NZ-registered global business, no business-wide response by size, scope or timeframe, misunderstood cultural or social responses to societal expectations, named the wrong support agency, did not answer the specific question. Succinct answers targeted at the question achieved higher."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, 2024)",
+       "text": "Explained the impacts of paying a living wage with a clear conclusion on social-sustainability reputation; strongest in (b), linking NZTE market insights to customised products; identified a key US-market threat (taste and quality over long-distance export) linked to the brand.",
+       "miss": "Did not specify size, scope or timeframe in (a), and the timeframe did not match the strategy. In (c), proposed new ferries for NZ day trips, which did not meet the NZ-registered, global-context requirement."
+      },
+      {
+       "grade": "Merit (M5, 2024)",
+       "text": "Clearly explained the scope and timeframe of a living wage and its positive and negative impacts; linked NZTE market intelligence to expansion; identified an alliance as a valid response with size, scope and timeframe; explained how political disruption raises costs.",
+       "miss": "Conclusion in (a) jumped to productivity gains without the causal link (motivation → effort → productivity); conclusion in (c) had no additional explanation or new information; (d) needed more detail."
+      },
+      {
+       "grade": "Excellence (E7, 2024)",
+       "text": "Hiring a cultural advisor with clear positive and negative impacts; fully explained NZTE advantage (reduced risk, base for future expansion); opening a factory in China as a business-wide response with size, scope and timeframe and a conclusion linked to Icebreaker's ethical reputation and long-term profitability; fully explained the threat of established competitors.",
+       "miss": "Part (a) lacked discussion of size and scope (only 'long term' timeframe) — the one weaker part."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam in online digital format (2026). Approved calculators permitted.",
+      "Supervised, no notes. Knowledge of the studied NZ-registered global business must come from memory.",
+      "The provided business context should be unseen before the practice exam.",
+      "Literacy status for 2026 not confirmed. It is not a co-requisite standard, so it is not excluded from derived grades on that ground."
+     ],
+     "components": [
+      "(a) HR strategy for cultural intelligence: response and size/scope/timeframe, positive and negative impact, justified conclusion",
+      "(b) Overseas opportunity and its negative effect on economic sustainability (studied NZ-registered global business)",
+      "(c) Technology in the supply chain and its effect on market share",
+      "(d) Environmental-sustainability response to societal expectations: response and size/scope/timeframe, positive and negative impact, justified conclusion"
+     ],
+     "focusTip": "Name the provided business, the external factor in each part, which part required the student's own studied NZ-registered global business (and which business they used), so strategic responses can be checked for size, scope and timeframe.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Achievement evidence",
+        "t": "EXPLAINS a strategic response to the external factor and its impacts: states the answer and gives reasons, for most parts."
+       },
+       {
+        "type": "req",
+        "src": "EN6; papers",
+        "t": "The response is a STRATEGIC (business-wide) response and the answer explains why, using size, scope and/or timeframe (the papers ask for at least two). A one-off or departmental fix with no size, scope or timeframe is not a strategic response."
+       },
+       {
+        "type": "req",
+        "src": "EN3",
+        "t": "The response addresses the EXTERNAL factor named (outside the business's control), and the right kind of factor (e.g. an environmental response where environmental sustainability is asked)."
+       },
+       {
+        "type": "req",
+        "src": "2026 specification; EN5",
+        "t": "The part that requires the studied business uses an actual NZ-registered business operating globally (not the provided business, not a domestic-only operation)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts attempted; correct support agency (e.g. NZTE) or Māori business concept applied where relevant."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Merit evidence",
+        "t": "FULLY explains the positive and negative impacts, following them through to business or stakeholder goals (sales, revenue, costs, profit, market share, reputation)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Examples and business knowledge SUPPORT the explanations; size, scope and timeframe are specific to the response."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report; M5 exemplar",
+        "t": "Causal chains are complete (no jumps such as living wage → productivity without the motivation link); correct terms for revenue, expenses and profit."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Excellence evidence",
+        "t": "EVALUATES the likely success of each strategic response in a justified conclusion that weighs the positive against the negative."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule Excellence evidence; papers",
+        "t": "The conclusion brings in NEW information or alternatives not already covered."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Examples, knowledge and Māori concepts (where relevant) are INTEGRATED to fully support explanations; E7 allows one weaker part."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Identifies the stakeholders affected and summarises the positive and negative aspects against the business's goals before concluding."
+       }
+      ]
+     },
+     "watch": [
+      "Strategic response without size, scope and timeframe, or with a timeframe that does not fit the strategy. This was the main cap in the 2024 Achievement and Excellence exemplars.",
+      "Studied-business part answered with a domestic operation or the provided business (the 2024 A3 exemplar's ferries).",
+      "Wrong type of response for the external factor: economic instead of environmental (2025), cultural confused with social (2024), the wrong support agency.",
+      "Conclusions that restate the earlier positive and negative points with no new information. That holds at Merit.",
+      "Leaps in reasoning (response → profit) without the intermediate steps. Merit needs the full chain to a goal.",
+      "Adding part scores. NZQA gives one holistic 0–8 score for the task.",
+      "Practice papers reusing the 2024 or 2025 contexts unchanged."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI cannot verify facts about the student's studied business (that it is NZ-registered, operates globally, and actually made the strategic response described). The teacher must confirm these and the provided practice context.",
+     "researchNotes": "Standard text from as91380 (2019 folder, Version 2, published 17 November 2016); criteria, EN2, EN3 and EN6 verbatim in fragments; EN4 and EN5 paraphrased. Schedules, papers and reports summarised via WebFetch (direct PDF download blocked). The 2024 exam paper was not read directly; the 2024 question summaries come from the schedule and report, and the report confirms part (c) required the studied business. No 2025 exemplars were listed for 91380. No 2026 paper yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91381",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Apply business knowledge to address a complex problem(s) in a given global business context",
+     "criteria": {
+      "achieved": "Apply business knowledge to address a complex problem(s) in a given global business context.",
+      "merit": "Apply in-depth business knowledge to address a complex problem(s) in a given global business context.",
+      "excellence": "Apply comprehensive business knowledge to address a complex problem(s) in a given global business context."
+     },
+     "notes": [
+      "EN2 (Achieved): Apply business knowledge typically involves explaining the cause(s) and effect(s) of the complex problem(s) and a range of possible solutions that would address the complex problem(s) through stating relevant evidence from the given context, stating business knowledge relevant to the complex problem(s), and stating a Māori business concept(s) where relevant.",
+      "EN2 (Merit): Apply in-depth business knowledge typically involves fully explaining the cause(s) and effect(s) and fully explaining how possible solutions would address the complex problem(s) through including relevant evidence from the given context to support explanations, including relevant business knowledge to support explanations, and including a Māori business concept(s) where relevant to support explanations.",
+      "EN2 (Excellence): Apply comprehensive business knowledge typically involves evaluating how possible solutions would address the complex problem(s) and making a fully justified recommendation on how the complex problem(s) should be solved through integrating relevant evidence from the given context, integrating relevant business knowledge, and integrating a Māori business concept(s) where relevant, to fully support explanations.",
+      "EN3: A complex problem(s) is one that affects the business in multiple ways.",
+      "EN4: Address a problem refers to providing a potential solution or a range of possible solutions, or minimising the impact of the problem.",
+      "EN5: The given context is the setting provided to the candidate.",
+      "EN6: Evidence is information drawn from the given context and may include examples from it.",
+      "EN7: A global business context is a hypothetical business operating internationally."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the exam as an online digital examination. The 2025 specification allowed online digital OR printed paper. No change to the task structure is stated.",
+      "One question (task) with four parts (a)–(d), all to be attempted. Candidates must refer to the context given in the resource material (2026 specification). There is NO studied-business requirement for this standard.",
+      "A resource booklet (91381R, pulled from the centre of the paper; 2025 had Resources A–G) gives the data: costs, prices, distances, ratings, machine specifications. The context is unseen.",
+      "Typical pattern (2024 and 2025): parts on the CAUSE of a problem and its EFFECT on a goal (profit, market share), then decision parts — one advantage or benefit of each option, then 'Which would you recommend?' with a justification that includes new information. Either option is acceptable if justified.",
+      "2025 context: Hardibox, a NZ plastic-storage maker exporting to 86 countries (Belgium sales, European stock-outs, Berlin vs Rotterdam warehouse, Machine A vs Machine B). 2024 context: Manaia Tala, a NZ clothing business (choice of manufacturer, quality, shipping from India and an FTA, choice of design software).",
+      "Approved calculators are permitted (2026 specification). The papers give no time allowance or word guidance."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "Marked as ONE task with one score code for the whole script (exemplars show 'Question One: E7', total 07). Markers read each answer as a whole before awarding a grade.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "Score codes (2024 and 2025): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all points covered.",
+      "Achievement evidence (applying business knowledge): explain the causes and effects of the problem, explain a range of possible solutions using business knowledge, state relevant evidence from the context, and state a Māori business concept where relevant.",
+      "Merit evidence (in-depth): fully explain causes and effects and how solutions address the problem, including their impact on business or stakeholder goals, with relevant evidence included to support explanations.",
+      "Excellence evidence (comprehensive): evaluate the potential solutions and justify a recommended solution, referring to alternatives or new supporting information, integrating business knowledge, detailed evidence and Māori concepts where relevant.",
+      "Either option in a recommendation part is credited if it is justified; the schedule's sample choice is not the only right answer."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Context: Hardibox (NZ-registered plastic storage products, exports to 86 countries; strongest growth in Europe). Resource Booklet 91381R, Resources A–G.",
+        "(a) (i) one possible reason sales in Belgium are lower than expected; (ii) the effect of lower sales on profit. Sample: food prices up 27% (October 2021–2024) squeezing household budgets; costs budgeted on expected sales.",
+        "(b) (i) one reason products are not replaced quickly enough; (ii) the effect of unavailability on market share. Sample: congestion at Auckland and Hamburg ports.",
+        "(c) Moving the distribution warehouse from Berlin to Rotterdam: (i) one advantage; (ii) one disadvantage; (iii) should Hardibox move? Justify with new information. Sample: about 600 km closer to London and Paris versus $2,400 more per month lease ($28,800 a year).",
+        "(d) New injection moulding machine: (i) one benefit of Machine A (electric, 0.75 kW per hour); (ii) one benefit of Machine B (hydraulic, $39,000 vs $52,000 and $9,000 lower training cost); (iii) which would you recommend? Justify with new information."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91381-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91381-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91381-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91381-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Context: Manaia Tala, a NZ clothing business focused on environmental sustainability and social responsibility, sourcing garments overseas.",
+        "(a) Choice of manufacturer: (i) a benefit of Ramand Mill (environmental rating); (ii) a benefit of Bahl Textiles (social compliance, worker skill); (iii) recommendation. Either is acceptable if justified (e.g. Ramand's lower minimum order quantity suits the 500-item exclusivity limit).",
+        "(b) Quality: (i) a possible cause of quality expectations not being met (e.g. miscommunication with the Indian manufacturer); (ii) how a quality assurance system would help.",
+        "(c) Shipping: (i) a possible cause of delayed orders (sea or air freight from India with no direct flights); (ii) how a NZ–India free trade agreement could help.",
+        "(d) Design software: (i) a benefit of Garment Creator Suite (11% vs 9% average rate of return); (ii) a benefit of Stitch Sculpt ($105 a month less, $1,260 a year, $2,500 lower initial cost); (iii) recommendation."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91381-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91381-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91381-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91381-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, general: core business concepts were needed. Higher grades drew on knowledge beyond the case study and explained how business actions affected stakeholders and goals.",
+      "2025, Achievement: understood supply chain management, economic uncertainty, capital investment decisions and business location; used specific figures from the resource and exam booklets; stated a clear answer then the reasoning; explained the impact on the business and stakeholders. Language was sometimes informal, with basic terminology and uneven detail.",
+      "2025, Merit: fully explained a specific action, its reasoning and its direct impact on operations and stakeholders; referred to specific business goals; integrated specific information and numerical data from the resources; used correct terminology (revenue, costs, profit).",
+      "2025, Excellence: compared the options before reaching a well-supported final conclusion; integrated new information into justified conclusions; explained short- and long-term economic impacts on goals and stakeholders; used specific data and figures to strengthen recommendations; consistent correct terminology.",
+      "2025, Not Achieved: stated facts from the resource without applying business knowledge, did not understand the concepts, did not use specific figures, did not explain the impact on the business, did not answer the question asked, misused terminology.",
+      "2024, general: using the resource and exam booklet information helped. Understanding quality assurance and its link to economic sustainability, and the benefits of free trade agreements, led to higher levels. Links to business goals and outcomes were necessary for Merit and Excellence.",
+      "2024, Achievement: explained both the 'what' and the 'why', with relevant resource material. Merit: the 'what', the 'why' AND how it impacts the business, with sound reasoning. Excellence: fully explained the benefit of each option, justified the recommendation with new supporting information, and discussed short- versus long-term impacts and effects on business objectives.",
+      "2024, Not Achieved: did not use the resource material; described the 'what' without explaining the 'how'."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, 2024)",
+       "text": "Identified Ramand Mill's very good sustainability linked to Manaia Tala's objectives and Bahl Textiles' high worker skill; explained likely ocean shipping (13–63 days); identified the collaboration feature of Garment Creator Suite and Stitch Sculpt's cost savings.",
+       "miss": "Did not explain HOW the strengths would benefit Manaia Tala (needed for Merit); recommendations did not build on the earlier benefits; inaccurate cause for the quality problem and weak understanding of quality assurance and FTAs."
+      },
+      {
+       "grade": "Merit (M5, 2024)",
+       "text": "Explained a benefit of each manufacturer linked to customers, quality expectations or reputation; identified cultural differences in communication as the quality cause; identified slow ocean shipping; linked the collaboration feature to increased production and growth.",
+       "miss": "Recommendation did not build on earlier points; confused quality assurance with quality control; treated direct flights as the FTA itself rather than a by-product; did not use the cost figures from the resource material."
+      },
+      {
+       "grade": "Excellence (E7, 2024)",
+       "text": "Fully explained a benefit of each manufacturer and justified recommending Bahl Textiles by comparing the two, introducing new information about longer-term sustainability; explained how the collaboration feature would produce better designs.",
+       "miss": "Needed an accurate explanation of what leftover capital could fund (not 'something else'); the software justification relied heavily on Garment Creator Suite and said little about Stitch Sculpt; needed to build on prior points."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam in online digital format (2026). Approved calculators permitted.",
+      "The resource booklet must be unseen before the practice exam, and the student must answer from the given context (EN5). Supervised, no notes.",
+      "Literacy status for 2026 not confirmed. It is not a co-requisite standard, so it is not excluded from derived grades on that ground."
+     ],
+     "components": [
+      "(a) Cause of a problem and its effect on profit (from the resource data)",
+      "(b) Cause of a second problem and its effect on market share",
+      "(c) Decision 1: advantage and disadvantage of an option, then a justified recommendation with new information",
+      "(d) Decision 2: benefit of each of two options, then a justified recommendation with new information"
+     ],
+     "focusTip": "Name the hypothetical business and attach or summarise the resource booklet (figures, options compared), so causes, effects and recommendations can be checked against the actual data.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Achievement evidence",
+        "t": "EXPLAINS the cause(s) and effect(s) of the problem and possible solutions: states the 'what' and the 'why' for most parts."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN6; schedule",
+        "t": "States relevant EVIDENCE from the given context (specific facts or figures from the resource booklet), not general knowledge alone."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Uses relevant business knowledge (e.g. supply chain, capital investment, quality assurance, FTAs) correctly; restating the resource without applying knowledge is Not Achieved (2025 report)."
+       },
+       {
+        "type": "req",
+        "src": "EN5; 2026 specification",
+        "t": "Answers refer to the given context in the resource material, not a studied or invented business."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts attempted; each answer addresses the specific cause, effect or goal asked (profit vs market share)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Merit evidence",
+        "t": "FULLY explains causes, effects and how solutions would address the problem, including the impact on business or stakeholder goals."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Relevant evidence from the context is INCLUDED to support explanations: in practice, figures from the resource booklet used in the reasoning (the 2024 M5 exemplar missed this)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Correct terminology for revenue, costs and profit; complete causal chains from the action to the stated goal."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule Excellence evidence",
+        "t": "EVALUATES the possible solutions, comparing the options against each other, not just stating a benefit of each."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule; papers",
+        "t": "Makes a FULLY JUSTIFIED recommendation, referring to alternatives or NEW supporting information not already given."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule",
+        "t": "Evidence, business knowledge and Māori concepts (where relevant) are INTEGRATED; E7 allows one weaker part."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E7 exemplar",
+        "t": "Builds the recommendation on earlier points, uses data and figures for both options, and weighs short-term against long-term impacts on objectives."
+       }
+      ]
+     },
+     "watch": [
+      "Restating resource facts without applying business knowledge or explaining the impact. This was the main Not Achieved pattern in 2025.",
+      "Not using the figures. Merit and Excellence scripts were held back for leaving out the cost data (2024 M5).",
+      "Recommendations that ignore one option or do not build on the earlier parts (2024 E7 and A3).",
+      "Concept errors: quality control vs quality assurance, FTA vs its by-products, vague uses of saved capital ('something else').",
+      "Check the arithmetic the student does with the resource data (annual lease differences, savings, outputs per hour).",
+      "Do not mark down a justified recommendation just because it differs from the schedule's sample; either option is accepted if justified.",
+      "Adding part scores. NZQA gives one holistic 0–8 score for the task."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread, and calculations may be mis-transcribed. The AI cannot see the practice resource booklet unless it is supplied; without it, it cannot check that the evidence and figures quoted are accurate.",
+     "researchNotes": "Standard text from as91381 (2019 folder, Version 2, published 17 November 2016); EN2–EN4 verbatim in fragments, EN5–EN7 paraphrased. The 2025 resource booklet was not read directly; its figures come from the schedule's sample evidence. Schedules, papers and reports summarised via WebFetch (direct PDF download blocked). No 2025 exemplars were listed. No 2026 paper yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Calculus": {
+   "slug": "mathematics-and-statistics",
+   "discipline": "Each Level 3 Calculus paper has three questions. Each question is marked on its own from N0 to E8 by counting the grade symbols it earns (u for Achievement, r for Merit, t for Excellence), and the three question scores are added to give a total out of 24. Credit depends on the correct method and working being shown: a correct answer from a graphics calculator without the derivative, antiderivative or equation earns little or nothing. Accurate algebra, correct notation (brackets, constants of integration) and clear, logical communication separate Merit and Excellence from Achievement.",
+   "parallelHint": "a different function, equation or real-life setting that uses the same method (for example a different related-rates shape, a different cubic with one given complex root, or a different separable differential equation), with different numbers and constants so the worked answer cannot be copied",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Calculus 91577, 91578, 91579 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91577-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 Calculus (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91577-spc-2025.pdf"
+    },
+    {
+     "label": "AS91577 Version 2",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91577.pdf"
+    },
+    {
+     "label": "AS91578 Version 2",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91578.pdf"
+    },
+    {
+     "label": "AS91579 Version 2",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91579.pdf"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Calculus (one report covers 91577, 91578 and 91579)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91577-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Calculus (covers all three standards)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91577-report-2024.pdf"
+    },
+    {
+     "label": "NZQA past exams and exemplars: Mathematics and Statistics",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/mathematics-and-statistics/"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91577, 91578 and 91579 are end-of-year examinations on printed paper in 2026 (2026 Assessment Specifications), so they are within scope.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship (including Scholarship Calculus), standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of 91577, 91578 or 91579 falls into these groups. Scholarship Calculus is a separate exam and cannot be given a derived grade.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats that practice exams for derived grades must match the external format and conditions and be quality assured.",
+    "For Calculus that means: a printed paper of three questions per standard, each question marked N0–E8 against a u/r/t schedule and totalled out of 24; the Level 3 Formulae and Tables Booklet available; an approved (preferably graphing) calculator; supervised, closed-book conditions. Each standard needs its own score, so a combined 'calculus test' that mixes differentiation and integration questions does not give standard-specific evidence unless it is scored separately per standard.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it (panel marking or a colleague checking boundary scripts). Practice exams may be based on modified papers from previous years. Unchanged recent NZQA papers carry an authenticity risk because their schedules are public.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade, and NZQA records a school-reported N as V."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91577",
+     "ref": "3.5",
+     "credits": 5,
+     "version": "Version 2 (published 17 November 2016); listed as Version 2 in the 2026 Assessment Specifications",
+     "verified": "2026-10-25",
+     "title": "Apply the algebra of complex numbers in solving problems",
+     "criteria": {
+      "achieved": "Apply the algebra of complex numbers in solving problems.",
+      "merit": "Apply the algebra of complex numbers, using relational thinking, in solving problems.",
+      "excellence": "Apply the algebra of complex numbers, using extended abstract thinking, in solving problems."
+     },
+     "notes": [
+      "EN2: Apply the algebra of complex numbers in solving problems involves selecting and using methods, demonstrating knowledge of concepts and terminology, and communicating using appropriate representations.",
+      "EN2: Relational thinking (Merit) involves one or more of: selecting and carrying out a logical sequence of steps; connecting different concepts or representations; demonstrating understanding of concepts; forming and using a model. It also involves relating findings to a context, or communicating thinking using appropriate mathematical statements.",
+      "EN2: Extended abstract thinking (Excellence) involves one or more of: devising a strategy to investigate or solve a problem; identifying relevant concepts in context; developing a chain of logical reasoning, or proof; forming a generalisation. It also involves using correct mathematical statements, or communicating mathematical insight.",
+      "EN3: Problems are situations that provide opportunities to apply knowledge or understanding of mathematical concepts and methods. Situations will be set in real-life or mathematical contexts.",
+      "EN4: Methods include a selection from: quadratic and cubic equations with complex roots; Argand diagrams; polar and rectangular forms; manipulation of surds and complex numbers; loci; De Moivre's theorem; equations of the form z^n = r cis θ or z^n = a + bi (a, b real, n a positive integer).",
+      "2026 specification: candidates will be required to demonstrate high-level algebra skills in a logical manner; candidates may need to form their own equations for Merit and Excellence problems; problems may involve unknown constants; unless otherwise stated, rounding to three significant figures is sufficient."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 Assessment Specifications (published October 2025) list the same standards (Version 2), the same printed-paper end-of-year examination, the same Formulae and Tables Booklet and the same calculator rules as 2025. The 2025 Assessment Report says the 2025 papers were in a similar format to previous years.",
+      "Printed paper, end-of-year examination (2026 specification). Not online.",
+      "Three questions (ONE, TWO, THREE), each with parts (a)–(e) in the 2024 and 2025 papers. Parts (a) and (b) are usually Achievement-level, (c) and (d) Merit-level, and (e) Excellence-level, but harder parts also carry lower-level evidence (e.g. a correct setup earns u).",
+      "A Formulae and Tables Booklet is provided. Candidates must bring an approved calculator, preferably a graphing calculator; those without one 'will be disadvantaged'.",
+      "Candidates must show any working that is asked for in the assessment (e.g. equations). Many problems include unknown constants, so a calculator cannot do the algebra.",
+      "Problems are set in real-life or mathematical contexts; equations of tangents may be included; candidates may need to form their own equations for Merit and Excellence problems.",
+      "Time allowance is not stated in the specification (not confirmed)."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is scored separately on the N0–E8 scale, and the three question scores are TOTALLED (maximum 24).",
+      "Grade symbols in the schedule's evidence columns: u = Achievement evidence ('Achievement (u)'), r = Merit evidence ('Achievement with Merit (r)'), t = Excellence evidence ('Achievement with Excellence (t)'). NZQA's maths schedules do not use an 'e' or 'n' symbol: N0, N1 and N2 are score codes, not evidence symbols.",
+      "Per-question judgement grid (2024 and 2025 schedules): N0 = no response; no relevant evidence. N1 = ONE partial solution. N2 = 1u. A3 = 2u. A4 = 3u. M5 = 1r. M6 = 2r. E7 = 1t with minor error(s). E8 = 1t.",
+      "The Excellence part is split into two levels. The 2024 schedule labels them 't1 / E7: Correct conclusion, with incomplete justification. OR Complete solution with a minor error.' and 't2 / E8: Correct conclusion, with valid and clear justification.'",
+      "Partial progress on a harder part earns a lower symbol: a correct setup or one correct root of a Merit part earns u; reaching an intermediate stage of an Excellence part ('reaching stage (1)') earns r.",
+      "Cut scores (totals out of 24). 2025: N 0–6, A 7–12, M 13–19, E 20–24. 2024: N 0–6, A 7–13, M 14–18, E 19–24. Cut scores change every year, so a practice paper should use the cut scores of the paper it is modelled on.",
+      "The schedules accept equivalent methods and other fully simplified forms ('Accept other fully simplified solutions'), but the requested form (rectangular or polar) must be given."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: (a) value of p from a polynomial condition (u); (b) solutions for x in fully simplified surd form (u); (c) prove the roots are always real using the discriminant (stage reached = r; clearly justified proof = t level); (d) the three cube roots of a complex number, in polar form (one root = u; all three with justification = r); (e) the locus of z where |z − 5i| − |z + 5i| = 4, squaring to remove the roots and reaching 21y^2 − 4x^2 = 84 (E7 with one minor error; E8 with clear justification).",
+        "Q2: (a) evaluate and plot a complex number on an Argand diagram (u); (b) a fifth-power equation, u^5 = −m^5 i (u); (c) both values of m (stage reached = r); (d) form a pair of equations by equating real and imaginary parts and find two pairs of g and h (u/r); (e) the value(s) of d (E7 one value with justification; E8 both values).",
+        "Q3: (a) form a quadratic from given roots (u); (b) simplify an expression fully (u/r); (c) solve for x, rejecting x = 1 (stage reached = r); (d) find the remaining roots of a cubic and the constants p and q (r; fully justified method for both = t); (e) solve simultaneously for u and v (one-variable equation = r; one value = E7; both = E8)."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91577-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91577-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91577-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: (a) constant p so that f(−3) = 0 (u); (b) a complex number in polar form raised to a power (u); (c) solve for x in terms of k (setup u, correct x r); (d) gradient of the locus of points equidistant from two complex numbers (setup u, gradient r); (e) use the discriminant to show whether any k puts w on the line y = x (t1/E7 correct conclusion with incomplete justification or minor error; t2/E8 valid, clear justification).",
+        "Q2: (a) find w in a given form (u); (b) both values of r from a repeated-root condition (r); (c) w and |w| for a given expression (setup u, modulus r); (d) value of d from a complex equation (r; algebraic method shown t); (e) the locus of u and the two complex numbers on it (r reasoning; t locus and both values).",
+        "Q3: (a) square z = −2 + 3i (u); (b) plot −5 − 12i on an Argand diagram (u); (c) both values of d with justification (setup r; t both justified); (d) the four roots of z^4 = −81k^8 (one root u; all four r); (e) express x^3 + 1/x^3 in terms of p (r stage; t correct expression clearly communicated)."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91577-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91577-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91577-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: used the factor and remainder theorems to find unknown constants, converted between polar and rectangular forms, solved quadratics by formula or completing the square, and used De Moivre's theorem to simplify or raise complex numbers to powers.",
+      "2025, Merit: solved equations involving surds or imaginary numbers and checked the validity of solutions, used De Moivre's theorem to find ALL solutions, formed equations from 'purely real' or 'purely imaginary' conditions, and found the remaining roots of a cubic given one imaginary root.",
+      "2025, Excellence: manipulated complex quotients accurately and concisely, used the modulus correctly (including surd results), completed proofs by connecting real and imaginary parts, communicated thinking clearly through multi-step problems, and recognised when a strategy would not work and changed approach.",
+      "2025, Not Achieved: basic algebra errors (surds, rationalising denominators), could not convert between polar and rectangular forms without a calculator, did not know the definitions of modulus and argument, and relied heavily on a graphics calculator.",
+      "2025, specific weaknesses: misread the proof question (Q1(c)) and tried to find values of k instead; gave a positive argument when it should be negative (Q1(d)); squared surd terms individually (Q1(e)); ignored the requested answer form; solved quadratics with unknown coefficients on the calculator instead of algebraically.",
+      "2024, Achievement: evaluated quotients of complex numbers in polar form and simplified by multiplying by the complex conjugate. Merit: showed the modulus must be positive and found modulus and argument of a complex number outside the first quadrant. Excellence: 'communicated their thinking clearly and accurately', and 'explored problems where not all solutions would be valid and solved accordingly'.",
+      "2024, Not Achieved: 'did not manipulate complex numbers in either Polar or Rectangular form' and 'relied too heavily on the use of a graphics calculator'. Advice: sketch an Argand diagram to identify the quadrant; learn the terms modulus, argument, conjugate.",
+      "Both years, all Calculus standards: set out working clearly and logically; read the whole question (some solved for the wrong variable); attempt every part, because attempting only the Excellence parts often left candidates short; consider both signs of a square root; cross out wrong working (markers will not choose the better of two solutions); round only at the final step."
+     ],
+     "exemplars": [
+      {
+       "grade": "Excellence (total 21, 2024)",
+       "text": "Q1 E8: recognised that if w lies on y = x the real and imaginary parts are equal, and used the discriminant to show there were no real solutions. Q2 E8: found the correct locus equation and identified the two complex numbers u on it. Q3 M5: used the conjugate to make the denominator real, then equated real parts to form and solve a quadratic for the two values of d.",
+       "miss": "The commentary does not say why Q3 was M5 rather than higher. By the schedule, Q3(e) (x^3 + 1/x^3 in terms of p) needed a correct expression clearly communicated for t."
+      }
+     ],
+     "conditions": [
+      "End-of-year examination on printed paper (2026 specification).",
+      "Formulae and Tables Booklet provided; approved calculator required (graphing preferred).",
+      "Working must be shown. A correct answer with no supporting algebra gives no evidence of relational or extended abstract thinking.",
+      "Closed book, supervised. For derived grades the practice paper must mirror this format: three questions, N0–E8 per question, total out of 24."
+     ],
+     "components": [
+      "Question One: polynomial constant, surd solutions, discriminant proof, cube roots by De Moivre, locus (2025)",
+      "Question Two: Argand diagram, powers, real/imaginary part equations, unknown constants (2025)",
+      "Question Three: forming quadratics, simplifying, cubic roots and constants, simultaneous complex equations (2025)"
+     ],
+     "focusTip": "Name the paper the practice exam is modelled on (e.g. '2024 NZQA 91577, modified') and say which cut scores you are using, so the totals out of 24 are read against the right boundaries.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Selects and uses complex-number methods correctly (e.g. remainder/factor theorem, conjugate division, polar–rectangular conversion, De Moivre), showing knowledge of concepts and terms."
+       },
+       {
+        "type": "req",
+        "src": "EN2; 2026 specification",
+        "t": "Communicates using appropriate representations, with the working asked for shown. A calculator-only answer does not show the method."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "At least 2u in a question for A3 and 3u for A4. One u is N2."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Gives the answer in the form the question asks for (rectangular a + bi or polar r cis θ) and fully simplified surds."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Attempts all parts of each question; partial setups on harder parts can still earn u."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses RELATIONAL THINKING: one or more of a logical sequence of steps, connecting concepts or representations, demonstrating understanding of concepts, forming and using a model."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Relates findings to the context, or communicates thinking using appropriate mathematical statements."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1r in a question for M5, 2r for M6."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Finds ALL solutions (e.g. every De Moivre root), checks validity of surd or imaginary solutions, forms equations from 'purely real/imaginary' conditions, finds the remaining roots of a cubic."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses EXTENDED ABSTRACT THINKING: devising a strategy, identifying relevant concepts in context, developing a chain of logical reasoning or proof, or forming a generalisation."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses correct mathematical statements, or communicates mathematical insight."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1t in a question: E7 if there is a minor error or incomplete justification (t1), E8 for a correct conclusion with valid, clear justification (t2)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Completes proofs by connecting real and imaginary parts, rejects invalid solutions, and changes strategy when one is not working."
+       }
+      ]
+     },
+     "watch": [
+      "Counting symbols, not marks: M5 needs an r and E7/E8 need a t in that question; a pile of u's never gets past A4.",
+      "Proof questions answered by finding values instead of proving (2025 Q1(c)). A 'show that' or 'prove' part needs a complete, justified chain to earn t.",
+      "Wrong quadrant for the argument (positive instead of negative angle) and modulus errors; check against an Argand sketch.",
+      "Squaring surd terms individually when eliminating roots in a locus question.",
+      "Answers not in the requested form, or not fully simplified.",
+      "Calculator answers to equations with unknown constants: no credit without the algebra.",
+      "Two competing solutions left uncrossed: NZQA markers do not pick the better one."
+     ],
+     "aiLimits": "Handwritten working from scans is easy to misread: exponents and subscripts, i versus 1, minus signs, θ and π, cis notation, square-root bars, fractions and bracket placement. Argand diagrams and sketches may not be legible. The teacher must check the symbols the AI read against the original script, confirm any crossed-out work, and confirm which practice paper and schedule were used.",
+     "researchNotes": "Standard text from the NZQA as91577 PDF (2019 folder, Version 2, published 17 November 2016; planned review date 31 December 2020 has passed, but the 2026 Assessment Specifications still list Version 2). Explanatory notes were obtained as paraphrase plus short quotes, so EN wording is close but not verbatim. Schedules were read through text extraction, so the column placement of individual u/r/t symbols in the question summaries is partly inferred. The judgement grid and cut scores were quoted directly. The 2025 and 2024 Assessment Reports are single documents covering all three Calculus standards. Exam paper URLs follow NZQA's naming pattern and were not opened individually; the question summaries come from the schedules. Time allowance not confirmed. Only one 91577 exemplar (2024 Excellence) was read.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91578",
+     "ref": "3.6",
+     "credits": 6,
+     "version": "Version 2 (published 17 November 2016); listed as Version 2 in the 2026 Assessment Specifications",
+     "verified": "2026-10-25",
+     "title": "Apply differentiation methods in solving problems",
+     "criteria": {
+      "achieved": "Apply differentiation methods in solving problems.",
+      "merit": "Apply differentiation methods, using relational thinking, in solving problems.",
+      "excellence": "Apply differentiation methods, using extended abstract thinking, in solving problems."
+     },
+     "notes": [
+      "EN2: Apply differentiation methods in solving problems involves selecting and using methods, demonstrating knowledge of concepts and terminology, and communicating using appropriate representations.",
+      "EN2: Relational thinking (Merit) involves one or more of: selecting and carrying out a logical sequence of steps; connecting different concepts or representations; demonstrating understanding of concepts; forming and using a model. It also involves relating findings to a context, or communicating thinking using appropriate mathematical statements.",
+      "EN2: Extended abstract thinking (Excellence) involves one or more of: devising a strategy to investigate or solve a problem; identifying relevant concepts in context; developing a chain of logical reasoning, or proof; forming a generalisation. It also involves using correct mathematical statements, or communicating mathematical insight.",
+      "EN3: Problems are situations that provide opportunities to apply knowledge or understanding of mathematical concepts and methods, set in real-life or mathematical contexts.",
+      "EN4: Methods include a selection from: derivatives of power, exponential and natural logarithm functions; derivatives of trigonometric and reciprocal trigonometric functions; optimisation; equations of normals; maxima, minima and points of inflection; related rates of change; derivatives of parametric functions; chain, product and quotient rules; properties of graphs (limits, differentiability, continuity, concavity).",
+      "2026 specification: candidates using graphing calculators will not receive credit for correct solutions unless they have shown the correct derived function; candidates must show any derivatives needed to solve the problems; optimisation problems at Achievement and Merit level will include a statement such as 'You may assume that your solution is a minimum'; equations of tangents may be included; candidates may need to form their own equations for Merit and Excellence problems."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 Assessment Specifications (published October 2025) repeat the 2025 format: printed paper, end-of-year exam, Formulae and Tables Booklet, approved (preferably graphing) calculator.",
+      "Printed paper, end-of-year examination. Not online.",
+      "Three questions, each with parts (a)–(e) in 2024 and 2025: (a)/(b) mostly Achievement, (c)/(d) Merit, (e) Excellence, with lower-level evidence available inside harder parts.",
+      "Derivatives must be shown: no credit for a correct calculator answer without the correct derived function.",
+      "Optimisation at Achievement and Merit level tells candidates they may assume the solution is a maximum or minimum; at Excellence the nature may need to be justified.",
+      "When a question says 'you do not need to simplify your answer', simplifying is not required (and the 2025 report notes many lost marks by simplifying wrongly).",
+      "Time allowance not stated in the specification (not confirmed)."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is scored N0–E8 on its own; the three scores are totalled (maximum 24).",
+      "Grade symbols: u = Achievement evidence, r = Merit evidence, t = Excellence evidence (schedule headings 'Achievement (u)', 'Achievement with Merit (r)', 'Achievement with Excellence (t)'). There is no 'e' or 'n' evidence symbol.",
+      "Judgement grid: N0 = no response; no relevant evidence. N1 = ONE partial solution. N2 = 1u. A3 = 2u. A4 = 3u. M5 = 1r. M6 = 2r. E7 = t1. E8 = t2.",
+      "2024 schedule wording for the Excellence part: 'E7 / T1: Consistent equation of tangent, from incorrect P. OR Correct solution but with one minor error.' 'E8 / T2: Correct equation of tangent found.' The 2025 schedules use the same structure (E7 'Correct solution but with one minor error'; E8 fully correct with justification). The 2025 grid extracted as '1t 2t', which I read as the t1/t2 levels of the one Excellence part.",
+      "Inside harder parts, a correct derivative earns u and the completed Merit-level result (e.g. gradient of the normal, tangent equation, both coordinates) earns r.",
+      "Cut scores (totals out of 24). 2025: N 0–7, A 8–13, M 14–19, E 20–24. 2024: N 0–7, A 8–12, M 13–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: (a) differentiate a power of a cubic (u); (b) rate of change dC/dt at t = 4 (u); (c) differentiate a trigonometric expression and find the gradient of the normal (derivative u, normal r); (d) derivative of an exponential–polynomial function at x = 1 and the x-intercept of the tangent (u, r); (e) parametric curve: find the non-stationary point of inflection (1, 0) (E7 one minor error; E8 with full justification).",
+        "Q2: (a) differentiate with negative and fractional powers (u); (b) decide whether a depth is decreasing at t = 2 from dP/dt (u); (c) points where the gradient equals a tangent's gradient (u, both coordinates r); (d) tangent to a parametric trigonometric curve (dy/dx u, tangent equation r); (e) second derivative of a trigonometric function to find p (E7 minor error; E8 p = 2).",
+        "Q3: (a) read x-values and intervals from a graph (u); (b) stationary x-value of a logarithmic function (u); (c) related rates for the volume of a sphere (u, dV/dt r); (d) coordinates of a point with a given gradient on a parametric exponential curve (r); (e) optimise the area of a rectangle under a curve (E7 x-values; E8 correct length of AD)."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91578-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91578-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91578-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: (a) find a derivative (u); (b) gradient of a tangent at a point (u); (c) where a function is decreasing (critical values u; correct inequality with derivative evidence r); (d) find and justify a maximum (derivative u; x = 1 justified with calculus r); (e) point of inflection and the tangent there (t1/E7 consistent tangent from incorrect P or one minor error; t2/E8 correct tangent).",
+        "Q2: (a) implicit or parametric dy/dx in terms of x and y (u, r); (b) a derivative and velocity at a given time (u, r); (c) find dy/dx and show it satisfies a given equation (u, r); (d) second derivative and coordinates of the inflection point (u, r); (e) find k so the curve has a single turning point (u, r, t).",
+        "Q3: (a) find a derivative (u); (b) read three interval/value features from a graph (u for two of three); (c) stationary points of a rational function (expression u; both x-values r); (d) rate of change of height by related rates (u, r); (e) prove an exact maximum area (u, r, t)."
+       ],
+       "cutScores": "N 0–7, A 8–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91578-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91578-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91577-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: applied the chain, product and quotient rules to a range of functions, wrote surds in fractional index form before differentiating, solved the resulting quadratic, exponential, logarithmic and power equations, used a given optimisation model correctly, and calculated coordinates of stationary and inflection points.",
+      "2025, Merit: solved stationary-point problems needing confident algebra, used the product, quotient and chain rules reliably, set up optimisation models in one variable before differentiating, found second derivatives of parametric and trigonometric functions, and connected coordinate geometry with gradients, tangents and normals.",
+      "2025, Excellence: simplified derivative expressions with high-quality algebra, found and used second derivatives (including for radius of curvature), linked first and second derivatives of parametric functions to stationary and inflection points, and formed and optimised an area function for a rectangle.",
+      "2025, Not Achieved: did not recognise when the product or quotient rule was needed, did not solve the resulting equation algebraically, made careless expanding/factorising/cancelling errors, did not state that the gradient is zero at stationary points, and did not answer the full question.",
+      "2025, common errors: missing brackets with the product, chain and quotient rules ('continues to be a problem'); omitting a factor in the derivative; forgetting to multiply by dt/dx for a parametric second derivative; removing the denominator before stating that the gradient equals zero; simplifying when told not to. Tangent equations should be given in general or gradient-intercept form with fully evaluated values.",
+      "2024: success needed 'the applications of the differentiation rules ... displayed accurately, error-free, and mathematically correct'. Excellence candidates 'completed a proof providing logical, clear working and communicating each step'. Not Achieved candidates did not recognise when to use the product and quotient rules, relied on the graphics calculator, and gave only one solution for a square root.",
+      "Both years: set out working logically, read the whole question, attempt every part, cross out wrong working, round only at the end."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (total 9, 2024)",
+       "text": "Q1 A3, Q2 A4, Q3 N2.",
+       "miss": "Q1 did not reach A4 'because they did not differentiate a polynomial or radical function with the chain rule'. Q2 did not reach M5 'because they did not find the y-coordinate of the point of inflection'. Q3 did not reach A3 'as they did not apply the product rule to differentiate a trigonometric function'."
+      },
+      {
+       "grade": "Merit (total 15, 2024)",
+       "text": "Q1 M5: found the x-coordinate of the stationary point on an exponential graph and used the second derivative to find its nature. Q3 M6: applied the quotient rule to find stationary points and solved the related-rates problem.",
+       "miss": "Q1 needed algebra to solve a quadratic inequation for the decreasing interval and the quotient rule for the inflection point. Q2 (A4) set the first derivative, not the second, equal to zero. Q3 Excellence part: 'did not differentiate it, solve and therefore prove the maximum area of the triangle'."
+      },
+      {
+       "grade": "Excellence (total 21, 2024)",
+       "text": "Two questions at E8; Q2 at M5, where first and second derivatives of a trigonometric function were found and shown to satisfy a differential equation.",
+       "miss": "Q2: 'did not fully complete the problem in part d by finding the y-coordinate of point of inflection', and in the Excellence part used the product and quotient rules but 'did not make any further progress towards finding the value of the pronumeral k'."
+      }
+     ],
+     "conditions": [
+      "End-of-year examination on printed paper (2026 specification).",
+      "Formulae and Tables Booklet provided; approved calculator required (graphing preferred).",
+      "Derivatives must be shown; correct calculator answers without the derived function earn no credit (2026 specification).",
+      "Closed book, supervised. Practice evidence should be three questions, N0–E8 each, totalled out of 24."
+     ],
+     "components": [
+      "Question One: chain rule, rate of change, normal to a trig curve, tangent x-intercept, parametric inflection point (2025)",
+      "Question Two: powers, decreasing rate, matching gradients, parametric tangent, second derivative constant (2025)",
+      "Question Three: graph features, log stationary point, related rates (sphere), parametric point, rectangle optimisation (2025)"
+     ],
+     "focusTip": "Name the source paper (e.g. '2025 NZQA 91578, numbers changed') and the cut scores used; note any part where the paper says 'you may assume your solution is a maximum' or 'you do not need to simplify'.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2 + EN4",
+        "t": "Selects and uses differentiation methods from EN4 correctly (chain, product, quotient rules; power, exponential, log, trig functions) and shows the derivative."
+       },
+       {
+        "type": "ind",
+        "src": "2026 specification",
+        "t": "The derived function is shown. A correct value or point from a graphics calculator without the derivative earns no credit."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "2u in a question for A3, 3u for A4."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Surds rewritten in index form before differentiating; brackets used throughout; the derivative set equal to zero (and stated) at stationary points."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses RELATIONAL THINKING: a logical sequence of steps, connecting concepts or representations (e.g. coordinate geometry with gradients), forming and using a model."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Relates the finding to the context or communicates with appropriate mathematical statements (e.g. states the nature of a turning point, gives the tangent equation)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1r in a question for M5, 2r for M6."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Sets up an optimisation model in one variable before differentiating; finds parametric second derivatives including the dt/dx factor."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses EXTENDED ABSTRACT THINKING: devises a strategy, develops a chain of reasoning or proof, or forms a generalisation, usually with unknown constants."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses correct mathematical statements or communicates mathematical insight through the whole solution."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "t in a question: E7 (t1) for a correct solution with one minor error or a consistent result from an earlier error; E8 (t2) for a fully correct, justified solution."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "High-quality algebra in simplifying derivatives, and a proof that communicates each step logically."
+       }
+      ]
+     },
+     "watch": [
+      "Missing brackets in product, chain and quotient rule work, which the 2025 report says 'continues to be a problem'.",
+      "Stationary-point answers that clear the denominator before stating dy/dx = 0.",
+      "Parametric second derivatives missing the dt/dx factor.",
+      "Calculator-only answers: no credit without the derivative shown.",
+      "Students who attempt only the (e) parts: the report says they often fall well short, because the u and r evidence lies in (a)–(d).",
+      "Only one root taken from a square root, or the wrong variable solved for.",
+      "Rounding mid-solution, which can push an answer outside the accepted value."
+     ],
+     "aiLimits": "Handwritten working from scans is easy to misread: powers and negative or fractional indices, brackets, minus signs, d/dx and dy/dt notation, e versus exponents, trig function names, fraction bars and crossed-out lines. Sketches of graphs may be illegible. The teacher must check the derivatives and key steps the AI read against the original script and confirm which paper and schedule were used.",
+     "researchNotes": "Standard text from the NZQA as91578 PDF (2019 folder, Version 2, published 17 November 2016), read as paraphrase with short quotes. 2025 schedule grid extracted as '1u 2u 3u 1r 2r 1t 2t'; the 2024 schedule shows 'T1 T2' with E7/T1 and E8/T2 labels on the Excellence part, so the 2025 '1t 2t' is read as t1/t2, not two separate Excellence parts (inferred). Column placement of individual symbols in the question summaries is partly inferred from text extraction. Exam paper URLs follow NZQA's naming pattern and were not opened. The 2024 Calculus Assessment Report is one document; its link uses the 91577 file name. Time allowance not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91579",
+     "ref": "3.7",
+     "credits": 6,
+     "version": "Version 2 (published 17 November 2016); listed as Version 2 in the 2026 Assessment Specifications",
+     "verified": "2026-10-25",
+     "title": "Apply integration methods in solving problems",
+     "criteria": {
+      "achieved": "Apply integration methods in solving problems.",
+      "merit": "Apply integration methods, using relational thinking, in solving problems.",
+      "excellence": "Apply integration methods, using extended abstract thinking, in solving problems."
+     },
+     "notes": [
+      "EN2: Apply integration methods in solving problems involves selecting and using methods, demonstrating knowledge of concepts and terminology, and communicating using appropriate representations.",
+      "EN2: Relational thinking (Merit) involves one or more of: selecting and carrying out a logical sequence of steps; connecting different concepts or representations; demonstrating understanding of concepts; forming and using a model. It also involves relating findings to a context, or communicating thinking using appropriate mathematical statements.",
+      "EN2: Extended abstract thinking (Excellence) involves one or more of: devising a strategy to investigate or solve a problem; identifying relevant concepts in context; developing a chain of logical reasoning, or proof; forming a generalisation. It also involves using correct mathematical statements, or communicating mathematical insight.",
+      "EN3: Problems are situations that provide opportunities to apply knowledge or understanding of mathematical concepts and methods, set in real-life or mathematical contexts.",
+      "EN4: Methods include a selection from: integrating power, polynomial, exponential (base e only), trigonometric and rational functions; reverse chain rule and trigonometric formulae; rates of change problems; areas under or between graphs by integration; numerical methods (e.g. rectangle or trapezium rule); differential equations of the form y' = f(x) or y'' = f(x), or separable equations such as y' = ky, in applications such as growth and decay, inflation, Newton's Law of Cooling.",
+      "2026 specification: candidates must show the results of any integration needed to solve a problem; solving differential equations may require manipulation of exponents and logarithms; candidates may need to form their own equations for Merit and Excellence problems; no credit for correct calculator answers without the correct integrated function."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 Assessment Specifications repeat the 2025 format: printed paper, end-of-year exam, Formulae and Tables Booklet, approved (preferably graphing) calculator.",
+      "Printed paper, end-of-year examination. Not online.",
+      "Three questions, each with parts (a)–(e) in 2024 and 2025. Lower parts are basic antiderivatives and constants of integration; middle parts are areas, kinematics and separable differential equations; (e) parts are multi-step problems with unknown constants.",
+      "The results of integration must be shown. The 2024 and 2025 reports both say 'Answers from a graphical calculator are unlikely to attain higher than an Achieved grade, at best.'",
+      "The trapezium rule (and other numerical methods) may be examined.",
+      "Time allowance not stated in the specification (not confirmed)."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is scored N0–E8 on its own; the three scores are totalled (maximum 24).",
+      "Grade symbols: u = Achievement evidence, r = Merit evidence, t = Excellence evidence (schedule headings 'Achievement (u)', 'Achievement with Merit (r)', 'Achievement with Excellence (t)'). No 'e' or 'n' evidence symbol is used.",
+      "Judgement grid (2024 schedule): N0 = no response; no relevant evidence. N1 = ONE partial solution. N2 = 1u. A3 = 2u. A4 = 3u. M5 = 1r. M6 = 2r. E7 = 1t with minor error. E8 = 1t. The 2025 grid extracted as '1u 2u 3u 1r 2r 1t 2t', with E7 described as 'Correct solution but with one minor error'.",
+      "2024 Q1(e) Excellence wording: 'E7 Solution with minor error.' 'E8 Correct solution, with evidence of correct integrations.'",
+      "Partial progress earns lower symbols: one correct integration in an Excellence part can earn u; both integrations with the constant evaluated ('reaching stage (1)') earns r.",
+      "Cut scores (totals out of 24). 2025: N 0–6, A 7–12, M 13–18, E 19–24. 2024: N 0–6, A 7–12, M 13–19, E 20–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: (a) an integral giving 2 sec 3x + c (u); (b) particular solution with c = −14 (u); (c) constants a and k from integral conditions (both integrations u; both values of k r); (d) area under 4 sin 5x cos 3x from 0 to π/6 = 0.875 (product-to-sum; integral u, area r); (e) separable differential equation with ln y, find y at x = 2 (E7 both integrations and c; E8 correct y ≈ 3.654).",
+        "Q2: (a) integral of a power of a linear function (u); (b) solution with evidence of integration (u); (c) find k = 2 from an integral (r); (d) kinematics from velocity: p = 1.25 sin 4t + 7.375 and distance 21.675 m (c evaluated r; distance t); (e) area 1/12 from ∫ sin^3 x cos^3 x over 0 to π/2 (E7 integration; E8 area with full justification).",
+        "Q3: (a) area of about 47.55 m^2 by a numerical approximation (u); (b) integral giving 5 ln(2k − 1) (u); (c) solve a differential equation for y at x = 5 (both integrations r; correct value t); (d) prove 9p^3 − 2p^2 − 7 = 0 from an area condition (integration r; proof t); (e) ratio of two integrals, 35/16 (one integration u; both r; E7 minor error; E8 correct with full justification)."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91579-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91579-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91579-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: (a) integral of 3 sec^2 x (u); (b) distance at t = 1000 s given d = 360 m at t = 0 (u); (c) time when v = 264 (stage r; full t); (d) distance by integration with the constant found (r, t); (e) area between curves on [0, 1] (u for integrations; E7 minor error; E8 correct with evidence of correct integrations).",
+        "Q2: (a) integral of a polynomial expression (u); (b) find k so a definite integral equals 112 (u); (c) separable differential equation with y = 0.5 at x = 0 (stage r; full t); (d) evaluate y at x = 1/3 (r/t); (e) find M from an integral involving ln(1 + br^3) up to p (stage r; full t).",
+        "Q3: (a) integral of an exponential expression (u); (b) solve for y given y = 10 at x = 1 (u); (c) find m from an area condition, m = (e^4 − 3)/2 (stage r; full t); (d) find k so two areas are equal, k = π/3 (integration u; solution t); (e) simultaneous equations for k and c, then N at t = 0 (growth/decay; stage r; full t)."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91579-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91579-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91577-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: manipulated expressions into integrable forms, integrated exponential, trigonometric and (ax + b)^n functions, found the constant of integration from given information, substituted limits to find areas, and applied the trapezium rule and reverse chain rule.",
+      "2025, Merit: used limits of integration correctly, converted trigonometric products into sums before integrating, separated variables successfully, and interpreted the links between acceleration, velocity and displacement.",
+      "2025, Excellence: used correct notation in area and differential-equation problems, used long division and trigonometric identities to reach integrable forms, and solved equations by separating variables.",
+      "2025, Not Achieved: omitted the constant of integration or set it to zero, integrated any f(x) in a denominator as ln(f(x)) without checking the form, misread initial-value information in kinematics, did not recognise h in the trapezium rule, did not attempt all questions or attempted only the Excellence parts.",
+      "2025, constant of integration: it 'should not be omitted and its value need not necessarily be zero'. In the kinematics question (Q2(d)) many wrongly assumed c = 0. Use the constant consistently throughout a solution.",
+      "2024, Merit: integrated a rational function needing long division or recognition, recognised when to use the natural logarithm, solved separable differential equations and found the constant. Excellence: 'managed negatives when manipulating and integrating expressions', applied trigonometric formulae to areas, formed and solved a Newton's Law of Cooling differential equation. Not Achieved: 'believed that all rational expressions led to an integration involving ln(f(x))' and 'did not separate the variables'.",
+      "Both years: 'Answers from a graphical calculator are unlikely to attain higher than an Achieved grade, at best.' Use formal notation and brackets."
+     ],
+     "exemplars": [
+      {
+       "grade": "Merit (total 16, 2024)",
+       "text": "Q1 M5: 'correctly used the product to sum trigonometric identity, and then correctly integrated this expression'. Q2 M6: 'correctly split the variables and used trigonometric identities ... found the area under a curve'. Q3 M5: rearranged a rational expression with linear numerator and denominator into an integrable form and used it.",
+       "miss": "The commentary does not state the gap. By the schedule, Excellence needs a t in a question: a correct, fully justified solution of the (e) part, which in 2024 involved unknown constants (M from ln(1 + br^3), simultaneous k and c)."
+      }
+     ],
+     "conditions": [
+      "End-of-year examination on printed paper (2026 specification).",
+      "Formulae and Tables Booklet provided; approved calculator required (graphing preferred).",
+      "The results of integration must be shown; no credit for correct calculator answers without the integrated function.",
+      "Closed book, supervised. Practice evidence should be three questions, N0–E8 each, totalled out of 24."
+     ],
+     "components": [
+      "Question One: trig antiderivative, particular solution, constants from integrals, product-to-sum area, separable differential equation (2025)",
+      "Question Two: reverse chain rule, definite integral constant, kinematics from velocity, sin^3 x cos^3 x area (2025)",
+      "Question Three: numerical area, log integral, differential equation, area proof, ratio of integrals (2025)"
+     ],
+     "focusTip": "Name the source paper and cut scores used, and note whether calculators with integration functions were allowed in the practice exam, since calculator-only answers cannot earn credit.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2 + EN4",
+        "t": "Selects and uses integration methods from EN4 correctly and shows the integrated function."
+       },
+       {
+        "type": "ind",
+        "src": "2026 specification",
+        "t": "The results of integration are shown; a calculator value without the antiderivative earns no credit."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "2u in a question for A3, 3u for A4."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Includes '+ c' and finds it from the given information rather than assuming it is zero."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses RELATIONAL THINKING: a logical sequence of steps, connecting representations (e.g. velocity and displacement, area and integral), forming and using a model such as a differential equation."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Relates findings to the context or communicates with appropriate mathematical statements."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1r in a question for M5, 2r for M6."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Separates variables correctly, uses product-to-sum identities, and handles limits of integration correctly."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses EXTENDED ABSTRACT THINKING: devises a strategy, develops a chain of reasoning or proof, or generalises (typically with unknown constants)."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses correct mathematical statements or communicates mathematical insight."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1t in a question: E7 if there is one minor error, E8 for a correct solution with evidence of correct integrations."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Uses long division and trigonometric identities to reach integrable forms, manages negatives, and keeps correct notation throughout."
+       }
+      ]
+     },
+     "watch": [
+      "Missing or zeroed constant of integration, especially in kinematics where s = 0 at t = 0 does not always mean c = 0.",
+      "Every rational function integrated as ln(f(x)) without checking that the numerator is the derivative of the denominator.",
+      "Variables not separated before integrating a differential equation.",
+      "Wrong h in the trapezium rule.",
+      "Calculator definite integrals with no antiderivative shown: at best Achievement-level evidence.",
+      "Students who attempt only the (e) parts and lose the u and r evidence in (a)–(d).",
+      "Missing brackets and dropped negatives in trigonometric integrals."
+     ],
+     "aiLimits": "Handwritten working from scans is easy to misread: integral signs and limits, dx, '+ c', powers, ln versus In, trig function names, minus signs and fraction bars. Shaded-area sketches may be illegible. The teacher must check the integrations and constants the AI read against the original script and confirm which paper and schedule were used.",
+     "researchNotes": "Standard text from the NZQA as91579 PDF (2019 folder, Version 2, published 17 November 2016), read as paraphrase with short quotes; it gives 6 credits. One fetch of the 2026 specification summarised 91579 as 5 credits; I have used the standard's figure (6) and flag the discrepancy. Schedules read through text extraction; symbol placement in question summaries is partly inferred. Exam paper URLs follow NZQA's naming pattern and were not opened. Only one 91579 exemplar (2024 Merit) was read. Time allowance not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Chemistry": {
+   "slug": "chemistry",
+   "discipline": "Each Level 3 Chemistry paper has three compulsory questions. Each question is marked against the assessment schedule's evidence statements and given its own code from N0 to E8, and the three codes are added to give a total out of 24, which the year's cut scores convert to a grade. Credit depends on correct chemistry, using correct vocabulary, symbols, structures, equations, units and significant figures. Merit needs explained links, for example from structure and bonding to properties, or from an equilibrium shift to solubility. Excellence needs justified, complete answers that bring all the relevant factors together, often alongside a fully correct multi-step calculation. Memorised model answers that do not fit the context given are not credited, and neither is length.",
+   "parallelHint": "a different molecule, ion, substance or reaction from the one in the exam question: for example a different molecule for VSEPR shape and polarity, a different pair of elements for a periodic trend, a different organic compound or reaction sequence, or a different sparingly soluble salt, weak acid/base or buffer",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "Level 3 Chemistry 2026 Assessment Specifications (91390, 91391, 91392; published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91390-spc-2026.pdf"
+    },
+    {
+     "label": "Level 3 Chemistry 2025 Assessment Specifications (published October 2024)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91390-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91390 standard page (papers, schedules, reports, exemplars, 2021–2025)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91390"
+    },
+    {
+     "label": "NZQA 91391 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91391"
+    },
+    {
+     "label": "NZQA 91392 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91392"
+    },
+    {
+     "label": "2025 Level 3 Chemistry Assessment Report (covers 91390, 91391, 91392)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91390-report-2025.pdf"
+    },
+    {
+     "label": "2024 Level 3 Chemistry Assessment Report (covers 91390, 91391, 91392)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91390-report-2024.pdf"
+    },
+    {
+     "label": "2025 Resource Booklet L3-CHEMR (formulae, complex ions, periodic table)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91390-res-2025.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "Summary of 2026 Assessment Rules changes (EmaiLink March 2026)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Publications/EmaiLink/March-2026/Summary-of-2026-Assessment-Rules-changes.pdf"
+    },
+    {
+     "label": "Assessment Matters A2024/5: Derived grades for the new achievement standards (point-in-time eligibility test)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/assessment-matters/a20245/"
+    },
+    {
+     "label": "NZQA derived grades overview",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/"
+    },
+    {
+     "label": "NZQA 2026 Exam Timetable",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/2026-Exam-Timetable.pdf"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): a derived grade is available for external examinations where NZQA marks the work. 91390, 91391 and 91392 are all end-of-year NZQA examinations in 2026 (2026 Assessment Specifications), so all three are eligible.",
+    "2026 Rules, Schedule 2 cl. 3(3): derived grades are not available for NZ Scholarship, for standards NZQA has specifically excluded, or for the dedicated literacy and numeracy standards (32403, 32405, 32406, 32412, 32413, 32415). No Level 3 Chemistry standard is named as excluded in any source I found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): the grade must come from quality-assured, standard-specific evidence 'from a practice assessment of the Standard that matches the format and conditions of the external assessment'. It must be submitted before the November examinations begin or by the published submission date.",
+    "For these standards, matching format and conditions means a supervised, printed answer booklet with three compulsory questions for each standard. Students work without notes, using only the Resource Booklet L3-CHEMR (formulae, list of complex ions, periodic table) and an approved calculator. Questions should be set in unfamiliar as well as familiar contexts, and the practice paper should be marked with the schedule's per-question N0–E8 codes and a total out of 24.",
+    "2026 Rules change summary (EmaiLink March 2026): derived grades are approved only after the exam cycle is complete. NZQA's derived-grade page says a student approved for a derived grade who still sits the exam receives the better of the two grades, and that derived grades cannot be used to make up for missed learning or preparation time.",
+    "The NZQA derived-grade pages say evidence should be authentic and standard-specific, such as a formal practice assessment at school. A practice paper that tests only part of the standard's explanatory notes (for example only Lewis structures and shapes for 91390) is weak evidence for the whole standard."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91390",
+     "ref": "3.4",
+     "credits": 5,
+     "version": "Version 2 (published 17 November 2016; registered 4 December 2012)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of thermochemical principles and the properties of particles and substances",
+     "criteria": {
+      "achieved": "Demonstrate understanding of thermochemical principles and the properties of particles and substances.",
+      "merit": "Demonstrate in-depth understanding of thermochemical principles and the properties of particles and substances.",
+      "excellence": "Demonstrate comprehensive understanding of thermochemical principles and the properties of particles and substances."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves describing, identifying, naming, drawing or giving an account of thermochemical principles and the properties of particles and substances. It requires correct chemistry vocabulary, symbols and conventions, and may include calculations.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves making and explaining links between thermochemical principles and the properties of particles and substances, using chemistry vocabulary, symbols and conventions. It may include calculations.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves elaborating, justifying, relating, evaluating, comparing and contrasting, or analysing those links, using chemistry vocabulary, symbols and conventions. It may include calculations.",
+      "EN3: Properties of particles are limited to: electron configurations of atoms and ions of the first 36 elements (s, p, d notation); periodic trends in atomic radius, ionisation energy and electronegativity, and comparison of atomic and ionic radii; Lewis structures, shapes and polarity of molecules; and attractive forces between particles (ionic, covalent, intermolecular including hydrogen bonding).",
+      "EN4: Properties of substances are limited to melting point, boiling point and solubility, and the enthalpy and entropy changes associated with spontaneity of reactions. Entropy calculations are not required.",
+      "EN5: Thermochemical principles are limited to specific heat capacity; phase changes; ΔcH, ΔfH, ΔrH, ΔvapH, ΔsubH, ΔfusH; and Hess's Law, including calculating ΔrH from ΔfH of products and reactants.",
+      "2026 specification: resonance, Hund's rule and the stability of half-filled sublevels are NOT assessed. The specific heat capacity of water is given when needed."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification (October 2025) keeps a printed-paper, end-of-year examination with the same content limits as 2025. The exam is NOT online digital in 2026.",
+      "Three compulsory questions, each with several parts (in 2025: Q1 had parts (a)–(c), Q2 (a)–(c) with sub-parts, Q3 (a)–(c)). The cover says 'Attempt ALL questions'. The 2025 question booklet ran to 12 pages including extra space.",
+      "Resource Booklet L3-CHEMR is supplied. It contains the 91390 formulae (n = m/M, q = mcΔT, ΔrH° from ΔfH° values and related relationships) and a periodic table with atomic numbers and molar masses.",
+      "Questions may use familiar or unfamiliar contexts, and any context-specific formulae are supplied (2026 specification). Working must be shown, answers are usually given to three significant figures, units are required, and an approved calculator is needed.",
+      "Typical mix: Lewis structures and shape names in a table; explaining or justifying polarity and bond angles; electron configurations (atoms and ions); explaining periodic trends; identifying and comparing intermolecular forces to explain boiling points or ΔvapH; Hess's Law and ΔfH calculations; calorimetry; and entropy of system and surroundings to justify spontaneity.",
+      "No time allowance is printed on the paper. The 2026 timetable lists Chemistry sessions on 12, 16 and 20 November, but the extracted text did not show which session is Level 3 or its length."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each of the three questions is marked separately against that question's evidence statements. Each piece of evidence is credited as a (Achievement), m (Merit) or e (Excellence), and the question is then given one code: N0, N1, N2, A3, A4, M5, M6, E7 or E8.",
+      "Code meanings (2024 and 2025 schedules). N0: no response or no relevant evidence. N1/N2: 1 or 2 Achievement points. A3/A4: 3 or 4 Achievement points. M5/M6: a set number of Merit points (for example 2m or 3m in 2024; 3m or 4m in 2025 Q2). E7: the Excellence points with a minor error or omission. E8: the Excellence points fully correct. The exact a/m/e counts are set question by question in each schedule's grid, so use the grid for the paper being marked.",
+      "Excellence calculations must be fully correct, with the correct sign, unit and significant figures. In 2025, for example, an ΔfH° of −45.7 kJ mol⁻¹ and a mass of 1.09 g were required. A correct process with one error or omission is typically Merit evidence.",
+      "Explanations of periodic trends are tiered by how many factors are linked. Recognising one factor is Achievement, explaining with at least two factors is Merit, and justifying with energy levels, shielding (inner-shell repulsion), nuclear charge AND electrostatic attraction is Excellence (2025 schedule Q3).",
+      "Spontaneity: recognising an entropy change is Achievement, explaining the entropy change of the system OR the surroundings is Merit, and justifying spontaneity using BOTH is Excellence (2024 and 2025 schedules).",
+      "The three question codes are added to give a total out of 24. Cut scores: 2025 N 0–7, A 8–13, M 14–18, E 19–24; 2024 N 0–6, A 7–13, M 14–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Sulfur fluorides. Lewis structures and shapes (table including SBrF₅); identify and explain the polarity of seesaw-shaped SF₄; justify why the F–S–F bond angles in SF₄ differ from those in SBrF₅ (5 versus 6 electron-density regions); use the entropy of system and surroundings to explain why the exothermic S(s) + 3F₂(g) → SF₆(g) is spontaneous.",
+        "Q2: Electron configurations of Cl, Cu and Fe³⁺; explain why Fe²⁺ (92 pm) is larger than Fe³⁺ (79 pm); identify the attractive forces in HBr, HF and Br₂ and explain or justify their ΔvapH° values (17.3, 25.2, 29.6 kJ mol⁻¹); Hess's Law calculation of ΔrH° for methylhydrazine + N₂O₄ (−4640 kJ mol⁻¹); effect if the water formed were liquid.",
+        "Q3: Write the formation equation for NH₃(g) and calculate ΔfH° from ΔrH° = −1172 kJ mol⁻¹ (−45.7 kJ mol⁻¹); justify why Mg has a higher first ionisation energy than Sr; explain the atomic radius trend across Period 3 (Na to P); calorimetry: calculate the mass of CaCl₂ that must dissolve to raise 68.0 g of solution from 20.4 °C to 23.2 °C (1.09 g)."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91390-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91390-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91390-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91390-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91390-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91390-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91390-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Molecular shapes (trigonal bipyramidal, square planar); Hess's Law: ΔrH for a reaction involving N₂H₄, O₂, ClF₃ and NH₃ by reversing and scaling equations (−2750 kJ mol⁻¹); use the entropy of system and surroundings to explain why the exothermic reaction is spontaneous.",
+        "Q2: Electron configuration details (third energy level, p subshell, six electrons); order and explain the first ionisation energies of Ne, Ar and P (trends across a period and down a group); compare the polarity of trigonal planar and T-shaped BrCl₃.",
+        "Q3: Intermolecular forces in NH₃, SO₂ and C₅H₁₂; explain why SO₂ boils higher than NH₃ and pentane higher than SO₂; calorimetry: heat released by burning 0.0109 mol ethanol (8.37 kJ); explain why the measured temperature change was lower than expected (heat loss)."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91390-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91390-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91390-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91390-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91390-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91390-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91390-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: drew Lewis structures, named shapes and counted electron-density regions; identified electron geometry or bond angles; recognised entropy increases with disorder; wrote s, p, d configurations; recognised that intermolecular forces act between molecules and that hydrogen bonding is the strongest; partly applied Hess's Law or identified one factor in a periodic trend.",
+      "2025, Merit: justified molecular polarity; explained the entropy change in the system and the surroundings; compared intermolecular-force strength, linking temporary-dipole strength to electron-cloud size; related hydrogen-bond strength to electronegativity difference; explained ionic radius differences, and the decreasing atomic radius across a period, in terms of increasing protons; calculated ΔfH, sometimes with a minor calorimetry error.",
+      "2025, Excellence: justified spontaneity using BOTH system and surroundings; compared intermolecular forces comprehensively to explain ΔvapH differences; justified periodic trends using energy levels, nuclear charge, shielding and electrostatic attraction; calculated the dissolved mass in calorimetry; used correct units and significant figures throughout.",
+      "2025, Not Achieved: little understanding of entropy or intermolecular forces; stated periodic trends without the factors behind them; no correct enthalpy-calculation steps.",
+      "2025, common errors: describing intermolecular forces as being WITHIN molecules; judging entropy from the loss of a solid reactant instead of the loss of two moles of gas; not linking temporary-dipole strength to electron-cloud size; leaving shielding out of periodic-trend explanations. General advice: answer the question actually asked, not a rote-learned one.",
+      "2024, Achievement: drew Lewis structures and named shapes; recognised an entropy change; partly applied Hess's Law; identified one factor affecting ionisation energy; identified bond or molecular polarity.",
+      "2024, Merit: explained entropy change in the system or surroundings; fully applied Hess's Law; explained first ionisation energy trends; linked electron-cloud size to temporary-dipole strength; completed calorimetry with one error; explained procedural limitations of a calorimetry experiment.",
+      "2024, Excellence: justified spontaneity using both system and surroundings; justified ionisation-energy trends with energy levels, nuclear charge, inner-shell repulsion and attraction; explained how bond-dipole arrangement determines polarity; compared intermolecular-force strength including surface area; correct units and significant figures throughout.",
+      "2024, Not Achieved: did not name shapes or describe entropy; did not identify factors affecting ionisation energy or specific intermolecular forces; did not recognise how electronegativity affects bond dipoles.",
+      "2024, common errors: assuming a trigonal planar shape can only come from trigonal planar electron geometry (missing T-shaped from trigonal bipyramidal geometry); rounding at every step of multi-step calculations, which reduced accuracy."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 11: A4, A4, A3; 2025)",
+       "text": "Drew the Lewis structure and named the shape correctly, recognised the different numbers of electron-density regions, described entropy as an increase in disorder and recognised the reaction released heat to the surroundings. Wrote correct electron configurations, identified the attractive forces in two substances and correctly manipulated two enthalpy values. In Q3, recognised the change in energy levels down a group and that radius decreases across a period because of more protons, and calculated the heat released correctly in joules.",
+       "miss": "The commentary does not state the gap. By the schedule, Merit needed explanations linking two or more factors (for example shielding plus nuclear charge), and calculations completed to a final answer with at most one error."
+      },
+      {
+       "grade": "Merit (total 16: M6, M5, M5; 2025)",
+       "text": "Drew both Lewis diagrams and named the shapes; explained polarity from the arrangement of bond dipoles; explained spontaneity using the entropy change of the surroundings; explained the Fe²⁺/Fe³⁺ radius difference; applied Hess's Law correctly; linked temporary-dipole strength to electron-cloud size; explained ionisation energy and radii using energy levels and nuclear charge; calculated the dissolved mass correctly.",
+       "miss": "The commentary does not state the gap. By the schedule, Excellence needed spontaneity justified with BOTH system and surroundings, and periodic trends justified with all four factors (energy levels, shielding, nuclear charge, electrostatic attraction)."
+      },
+      {
+       "grade": "Excellence (total 22: M6, E8, E8; 2025)",
+       "text": "Q2 justified the ΔvapH° differences by comparing intermolecular-force strength and applied Hess's Law correctly. Q3 justified the first ionisation energy and atomic radius trends in context using the number of energy levels, nuclear charge, repulsion from inner energy levels and nucleus–valence electron attraction, and calculated the dissolved mass correctly.",
+       "miss": "Q1 stayed at M6. It explained polarity and bond angles and used only the SURROUNDINGS' entropy for spontaneity. The commentary does not state the gap, but by the schedule Excellence needed both system and surroundings."
+      }
+     ],
+     "conditions": [
+      "End-of-year NZQA examination on printed paper (2026 specification). Answers are written in the question and answer booklet, and planning in margins is not marked (margins are cut off).",
+      "Resource Booklet L3-CHEMR is the only resource: formulae, a list of complex ions and a periodic table. The IUPAC nomenclature reference sheet is not provided (2026 specification).",
+      "An approved scientific or graphics calculator is required. Working must be shown, and answers should usually have three significant figures and correct units.",
+      "Unfamiliar contexts are expected, so a practice exam built only from questions students have already rehearsed does not match the external conditions.",
+      "Literacy/numeracy co-requisite status was not checked. It does not affect derived-grade eligibility, because only the dedicated co-requisite standards (32403, 32405, 32406, 32412, 32413, 32415) are excluded (2026 Rules, Schedule 2 cl. 3(3))."
+     ],
+     "components": [
+      "Question One: molecular shape, polarity and bond angles (VSEPR) with entropy and spontaneity",
+      "Question Two: electron configurations, ionic radii, intermolecular forces and ΔvapH, and a Hess's Law calculation",
+      "Question Three: ΔfH equation and calculation, periodic trends (ionisation energy, atomic radius) and calorimetry"
+     ],
+     "focusTip": "Name the molecules, elements and reactions used in each of the three questions, and say whether the paper is a modified NZQA paper, so the AI can check shapes, configurations and calculated values against the right data.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Describes, identifies, names, draws or gives an account of particle properties and thermochemical principles (for example correct Lewis structures and shape names, correct s, p, d configurations, correct identification of the intermolecular forces present), using correct chemistry vocabulary, symbols and conventions."
+       },
+       {
+        "type": "req",
+        "src": "EN3–EN5",
+        "t": "The evidence is within the standard's scope (EN3 particle properties, EN4 substance properties, EN5 thermochemistry). Credit is awarded per question using the schedule grid: N1/N2 = 1–2 Achievement points, A3/A4 = 3–4."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Recognises entropy as disorder, counts electron-density regions, gives bond angles, recognises hydrogen bonding as the strongest intermolecular force, carries out at least part of a Hess's Law or calorimetry calculation."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Intermolecular forces are described as acting BETWEEN molecules, not within them."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes and EXPLAINS links between principles and properties, for example why a molecule is polar from its bond dipoles and shape, why a boiling point or ΔvapH is higher from intermolecular-force strength, or why an ion is larger from electron–electron repulsion."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule",
+        "t": "Periodic trends explained using at least TWO factors (for example nuclear charge and energy levels)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules and reports",
+        "t": "Explains the entropy change of the system or the surroundings; completes a Hess's Law, ΔfH or calorimetry calculation with at most one error or omission; links temporary-dipole strength to electron-cloud size."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Elaborates, justifies, compares or analyses the links, giving a complete answer to the question in context, not a partial explanation."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules",
+        "t": "Spontaneity justified using BOTH the entropy of the system and the entropy of the surroundings, with the enthalpy change."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule; 2024 and 2025 reports",
+        "t": "Periodic trends justified with ALL four factors: energy levels, shielding (inner-shell repulsion), nuclear charge and electrostatic attraction to valence electrons."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule",
+        "t": "Multi-step calculations fully correct with the correct sign, unit and significant figures, with rounding only at the final step."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule; 2024 report",
+        "t": "Comparisons cover ALL the substances given (for example HBr, HF and Br₂), including electron-cloud size or surface area where it matters."
+       }
+      ]
+     },
+     "watch": [
+      "Intermolecular forces described as forces within molecules, or bonds 'breaking' on boiling. Both are common errors (2025 report).",
+      "Shapes and electron geometry confused, for example T-shaped or seesaw molecules from trigonal bipyramidal geometry being called trigonal planar or tetrahedral (2024 report).",
+      "Entropy judged from the solid reactant instead of the change in moles of gas, or only one of system or surroundings considered when the question asks why a reaction is spontaneous.",
+      "Periodic-trend answers that state the trend without the factors, or that leave out shielding.",
+      "Early rounding, a missing negative sign on ΔH, wrong units (kJ vs J, kJ mol⁻¹) or wrong significant figures stopping an otherwise correct calculation from reaching E8.",
+      "Practice papers that include content the 2026 specification excludes (resonance, Hund's rule, stability of half-filled sublevels) or entropy calculations (EN4) should not be used for derived grade evidence.",
+      "Totals that are converted with the wrong year's cut scores. Use the cut scores for the paper's year, or state which year's were applied for a modified paper."
+     ],
+     "aiLimits": "Calculations, Lewis and structural diagrams, shape sketches, electron configurations and handwritten working are read from scans and may be misread (superscripts, charges, signs, subscripts, lone pairs). The teacher must check every diagram and calculated value the AI credits or rejects, and confirm the paper was sat under exam conditions with only the resource booklet.",
+     "researchNotes": "Standard details from as91390 (2019 PDF, Version 2, published 17 November 2016). The EN wording was obtained as summaries, so EN2–EN5 are close paraphrases rather than verbatim. The 2026 and 2025 specifications were read via fetch. They state printed paper, but not the number of questions or a time allowance. The papers print no time, and the 2026 timetable text did not clearly show which Chemistry session is Level 3. The schedule grids were partly garbled in extraction, so the exact a/m/e counts for each code in each question are not recorded here, and teachers should use the original grid. The 2025 Q1(a) table molecule is uncertain in the extracted text (it may be SF₃⁻ or similar). 2024 exemplars exist (linked) but their commentary was not read. No 2026 paper or schedule exists yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91391",
+     "ref": "3.5",
+     "credits": 5,
+     "version": "Version 2 (published 17 November 2016; registered 4 December 2012)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of the properties of organic compounds",
+     "criteria": {
+      "achieved": "Demonstrate understanding of the properties of organic compounds.",
+      "merit": "Demonstrate in-depth understanding of the properties of organic compounds.",
+      "excellence": "Demonstrate comprehensive understanding of the properties of organic compounds."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves naming (IUPAC systematic names, up to eight carbon atoms in the longest chain), drawing structures, and describing physical properties and/or reactivity of organic compounds, using chemistry vocabulary, symbols and conventions.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves making and explaining links between the structure (including functional groups) of organic compounds and their properties and/or reactivity.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves elaborating, justifying, relating, evaluating, comparing and contrasting, or analysing the links between structure, properties and reactivity.",
+      "EN3: Organic compounds are limited to alkenes, haloalkanes, amines, alcohols, aldehydes, ketones, carboxylic acids, esters (including triglycerides), acyl chlorides and amides.",
+      "EN4: Structure includes functional groups and isomerism (constitutional isomers and stereoisomers).",
+      "EN5: Reactivity is limited to the specified substitution, oxidation, elimination, polymerisation and addition reactions, with the reagents listed in the standard.",
+      "EN6: Physical properties used to distinguish compounds are limited to solubility, melting and boiling points, and rotation of plane-polarised light.",
+      "2026 specification: constitutional isomers are assessed; systematic naming of amines is limited to primary amines; common names of amino acids are not required; principles from Level 2 AS 91165 are assumed knowledge."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification (October 2025) keeps a printed-paper, end-of-year examination with the same content notes as 2025. Not online digital in 2026.",
+      "Three compulsory questions, each with several parts. Questions may use familiar or unfamiliar contexts.",
+      "Resource Booklet L3-CHEMR is supplied (shared across the Level 3 Chemistry papers), but it does not contain organic reaction schemes. The IUPAC nomenclature reference sheet is NOT provided (2026 specification).",
+      "Typical mix: chirality and enantiomers (identify asymmetric carbons, draw 3D enantiomers, explain rotation of plane-polarised light); multi-step reaction schemes with reagents and conditions; functional-group tests (Tollens', Fehling's, acidified dichromate, permanganate, bromine water, litmus) and the order of testing; condensation polymers and peptides; acidic and basic hydrolysis of esters and amides; reflux and distillation in practical organic preparations; identifying an unknown from its molecular formula, properties and test results.",
+      "No time allowance is printed on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is marked against its own evidence statements and given one code from N0 to E8. The three codes are added to give a total out of 24.",
+      "Codes (2024 and 2025 schedules). N0: no response or no relevant evidence. N1/N2: 1a/2a. A3/A4: 3a/4a. M5/M6: 3m/4m (2025). E7: Excellence evidence (2e in 2025, 1e in 2024) with a minor error or omission in one part. E8: Excellence evidence (2e) fully correct. Use the paper's own grid.",
+      "Structural formulae must be chemically correct to be credited: correct bonding (for example the carbon bonded to an alcohol's O), correct functional group (CHO for an aldehyde, not COH), and tetrahedral 3D drawings for enantiomers.",
+      "Reaction schemes need the reagent AND its conditions (heat or reflux, concentrated or dilute, aqueous or alcoholic). Completing most steps of a multi-step scheme is Merit, and completing the full scheme with reagents and conditions is Excellence evidence.",
+      "Identification questions: Merit shows that at least two properties fit; Excellence chooses the compound with support from ALL the given properties AND explains why the other compounds are eliminated (2025 schedule Q3).",
+      "Cut scores: 2025 N 0–7, A 8–13, M 14–18, E 19–24; 2024 N 0–7, A 8–13, M 14–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Glucose enantiomers: identify the asymmetric carbons and explain how the enantiomers are distinguished (opposite rotation of plane-polarised light); Tollens' test on the aldehyde group of D-glucose as a redox reaction; reaction scheme from propanal to N-propylpropanamide; oxidation of butan-1-ol, with reflux giving butanoic acid and distillation (condenser position) collecting butanal before it oxidises further.",
+        "Q2: Chirality and drawing enantiomers; identify ethanoyl chloride, ethanal and ethanol with chemical tests in a table, and justify the order of tests (water first, the stronger oxidant acidified dichromate last); functional groups and structural formulae for compounds A, D and E in a reaction scheme.",
+        "Q3: Draw a dipeptide and explain the condensation reaction; basic hydrolysis of Dacron (ester linkages giving an alcohol and a carboxylate salt); choose compound Y over W and X from three properties; draw structures S (secondary alcohol plus carboxylic acid) and T (branched, C=C, asymmetric carbon)."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91391-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91391-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91390-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91390-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91391-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91391-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91391-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Chirality of 2-chlorobutane (3D enantiomers, the asymmetric carbon, why enantiomers exist); a reaction scheme in which the functional group changes position; polylactic acid as a polyester (three repeating units, condensation); circle an amide linkage, explain acidic hydrolysis and draw a product of basic hydrolysis.",
+        "Q2: Reaction scheme with reagents and conditions (acidified dichromate or permanganate, HCl, concentrated or alcoholic NH₃, H₂O/H⁺ under reflux); identify compounds by linking observations with Tollens', Fehling's, dichromate, permanganate and bromine water to functional groups and reaction types.",
+        "Q3: Making ethyl propanoate: the role of concentrated H₂SO₄, why the mixture is heated under reflux, why sodium carbonate is added, and distillation using boiling points (99.1, 78.3, 141 °C); choose compound C from chirality, basicity (damp red litmus turns blue) and Tollens' result, and draw related structures."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91391-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91391-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91390-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: identified functional groups and basic reaction types; identified asymmetric carbons or recognised that enantiomers rotate plane-polarised light; completed some steps of reaction schemes; recognised observations from common tests; drew some structures with correct bonding and group placement.",
+      "2025, Merit: completed most steps of multi-step schemes; explained distillation and reflux using boiling points and condenser position; partly justified the order of tests; deduced a structure from a molecular formula, properties and observations.",
+      "2025, Excellence: logically sequenced answers that fully addressed each question; completed complex pathways with reagents and products clearly identified; integrated structure, functional groups and conditions to justify outcomes; distinguished distillation from reflux, including the condenser's role; justified identification AND elimination with multiple pieces of evidence.",
+      "2025, Not Achieved: answers too brief or unclear; could not recognise functional groups; structures with incorrect bonding or misplaced groups; could not complete one reaction step. The report notes the main difficulties were justifying outcomes, linking conditions to products and completing multi-step pathways.",
+      "2024, Achievement: named and drew structures; drew an enantiomer and identified the chiral carbon; one correct conversion in a scheme; drew a polyester and identified condensation; identified an amide linkage and hydrolysis; matched groups to tests; gave a reason for reflux.",
+      "2024, Merit: drew enantiomer pairs linked to the asymmetric carbon; drew a section of a condensation polymer and explained the reaction; completed several scheme steps; explained acidic hydrolysis including protonation of the amine group; linked test observations to groups and reaction types; explained reflux and distillation.",
+      "2024, Excellence: full pathways with compounds, reagents and conditions; understood both acidic and basic hydrolysis of a dipeptide; explained identification using observations, functional groups and reaction types; deduced and justified identities from properties.",
+      "2024, common errors: inaccurate bonding (for example carbon bonded to the wrong atom in an alcohol); reaction conditions omitted (heat, concentrated, dilute, in alcohol); not describing what happens in a reaction (for example Cl replaced by OH); units missing (°C). Practical organic work was recommended."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 12: A3, M5, A4; 2025)",
+       "text": "Explained how to identify the two glucose enantiomers and gave the Tollens' colour change and reaction type. In Q2, drew apparently correct structural formulae, drew tetrahedral enantiomers, identified three reaction types and compounds, and explained why the order of tests matters. In Q3, drew two correct dipeptides, identified the ester link and reaction type, and chose compound Y with reasons for eliminating W and X.",
+       "miss": "Commentary: did not identify all the chiral carbons; used an amide and acyl chloride instead of an amine to form propylpropanamide; did not relate distillation and the horizontal condenser to collecting butanal; drew COH instead of CHO; did not recognise dichromate as a stronger oxidant than Fehling's; Q3 needed terms related to the question 'rather than a generic answer' and an explanation of water adding across the broken ester link."
+      },
+      {
+       "grade": "Merit (total 17: M5, E7, M5; 2025)",
+       "text": "Identified chiral carbons, completed the propanal to N-propylpropanamide scheme, justified the order of testing, determined the structures of all five compounds, formed a dipeptide and explained condensation, and drew both hydrolysis products.",
+       "miss": "Commentary: needed 'the direction of plane polarised light is in opposite directions' or a complete redox explanation; the distillation answer was 'generic' and needed to use the context; Q2 needed to say why step 3 confirms ethanol; Q3's hydrolysis explanation (alcohol, acid, salt) was incomplete, and it needed to identify COOH substitution with thionyl chloride and that Y forms cis-trans isomers."
+      },
+      {
+       "grade": "Excellence (total 20: M5, E8, E7; 2025)",
+       "text": "Q2 at E8: named and drew compounds, tetrahedral enantiomers, justified the test order and determined all five structures. Q3 at E7: dipeptide, condensation, basic hydrolysis products, and compound Y identified with W and X eliminated.",
+       "miss": "Commentary: Q1 needed to compare the position of the condenser in reflux and in distillation; Q3 needed to state that a salt forms in basic hydrolysis; in Q2 an aldehyde needed to be drawn as CHO, not COH."
+      }
+     ],
+     "conditions": [
+      "End-of-year NZQA examination on printed paper (2026 specification). Answers are written in the booklet, and margins are not marked.",
+      "Resource Booklet L3-CHEMR is supplied, but there is no IUPAC naming sheet and no reaction summary. Students must recall reagents, conditions and test observations.",
+      "Unfamiliar compounds and contexts are expected (for example glucose, Dacron, unfamiliar unknowns). A practice paper should not reuse compounds students have rehearsed answers for.",
+      "Literacy/numeracy co-requisite status was not checked. It does not affect derived-grade eligibility, because only the dedicated co-requisite standards (32403, 32405, 32406, 32412, 32413, 32415) are excluded (2026 Rules, Schedule 2 cl. 3(3))."
+     ],
+     "components": [
+      "Question One: stereoisomerism and enantiomers, a functional-group test as redox, a reaction scheme, and reflux versus distillation",
+      "Question Two: chirality, identifying unknowns with chemical tests and the order of tests, and structures from a reaction scheme",
+      "Question Three: condensation (peptides), hydrolysis of polymers, and identifying compounds from properties"
+     ],
+     "focusTip": "Name the compounds, reagents and tests used in each question, so the AI can check structural formulae, reaction products and conditions against the right chemistry.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Names (IUPAC, up to 8 carbons in the main chain), draws structures, and describes physical properties and/or reactivity, using correct chemistry vocabulary, symbols and conventions."
+       },
+       {
+        "type": "req",
+        "src": "EN3–EN6",
+        "t": "Works within the specified compound classes, isomerism, reaction types and physical properties."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Identifies functional groups, asymmetric carbons and basic reaction types (condensation, hydrolysis, oxidation, substitution); completes at least one step of a reaction scheme; matches functional groups to tests."
+       },
+       {
+        "type": "ind",
+        "src": "2024 report; 2025 exemplars",
+        "t": "Structures are drawn with correct bonding and correct placement of functional groups (CHO not COH; C bonded to the O in an alcohol)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes and EXPLAINS links between structure (functional groups, isomerism) and properties and/or reactivity, for example why enantiomers exist, why reflux gives the acid and distillation the aldehyde, or what happens to a linkage on hydrolysis."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and report",
+        "t": "Completes most steps of a multi-step scheme with reagents; explains reflux and distillation using boiling points and condenser position; deduces a structure using at least two properties."
+       },
+       {
+        "type": "ind",
+        "src": "2025 exemplar commentary",
+        "t": "Uses the given context instead of a generic, rote-learned answer (for example distillation of THIS mixture)."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Justifies, relates, evaluates or compares: complete answers that integrate structure, functional groups and reaction conditions to justify an outcome."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules",
+        "t": "Full reaction pathways with every compound, reagent AND condition correct."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule Q2 and Q3",
+        "t": "Justifies the order of tests, including how reagents would react with other species if added earlier; identifies a compound with ALL properties AND explains why the others are eliminated."
+       },
+       {
+        "type": "ind",
+        "src": "2025 exemplar commentary",
+        "t": "Hydrolysis explained fully, including the salt formed in basic hydrolysis (the acid–base step)."
+       }
+      ]
+     },
+     "watch": [
+      "Structural formulae with wrong bonding, missing hydrogens or wrong groups (COH for CHO; amide for amine). The AI must not credit a structure it cannot read clearly.",
+      "Reaction schemes without conditions: heat or reflux, concentrated or dilute, aqueous or alcoholic NH₃ or KOH, acidified oxidant.",
+      "Generic reflux and distillation answers that do not use the given compounds and boiling points or the position of the condenser.",
+      "Enantiomers not drawn in 3D tetrahedral form, or optical activity described without opposite rotation of plane-polarised light.",
+      "Basic hydrolysis written as giving the free carboxylic acid instead of the carboxylate salt.",
+      "Identification answers that pick the right compound but do not eliminate the others, which caps them below Excellence.",
+      "Practice papers that use amine naming beyond primary amines or require common names of amino acids go beyond the 2026 specification."
+     ],
+     "aiLimits": "Structural formulae, 3D enantiomer drawings, polymer repeating units, reaction schemes and handwritten working are read from scans and are easily misread (bond positions, H counts, wedges and dashes, CHO versus COH). The teacher must check every structure and scheme the AI credits or rejects, and confirm the paper was sat under exam conditions.",
+     "researchNotes": "Standard details from as91391 (2019 PDF, Version 2, published 17 November 2016). The ENs were obtained as summaries, so EN2–EN6 are close paraphrases, and the full EN5 reagent list is not reproduced. The 2026 specification notes were read via fetch. The schedule grids were partly garbled in extraction (E7 was 1e in 2024 and 2e in 2025 as extracted), so teachers should check the original grid. The 2024 91391 resource booklet and exemplars were not checked separately. The time allowance was not confirmed. No 2026 paper exists yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91392",
+     "ref": "3.6",
+     "credits": 5,
+     "version": "Version 2 (published 17 November 2016; registered 4 December 2012)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of equilibrium principles in aqueous systems",
+     "criteria": {
+      "achieved": "Demonstrate understanding of equilibrium principles in aqueous systems.",
+      "merit": "Demonstrate in-depth understanding of equilibrium principles in aqueous systems.",
+      "excellence": "Demonstrate comprehensive understanding of equilibrium principles in aqueous systems."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves describing, identifying or giving an account of aqueous systems, using chemistry vocabulary, symbols and conventions. It may include calculations.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves using equilibrium principles to explain the properties of aqueous systems. It may include calculations.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves elaborating, justifying, relating, evaluating, comparing and contrasting, or analysing, using equilibrium principles. It may include calculations.",
+      "EN3: Aqueous systems are limited to sparingly soluble ionic solids and acidic and basic solutions in which proton transfer occurs.",
+      "EN4: Content includes relative concentrations of dissolved species; solubility and Ks (Ksp); effects on solubility of a common ion, complex-ion formation, or a basic anion reacting with added acid; predicting precipitation or dissolution; acid/base strength, Ka and pKa; species concentrations and conductivity in weak acid or base solutions, including buffers; pH relationships; and titration curves with choice of indicator. Weak acid–weak base titrations are excluded.",
+      "EN5: Sparingly soluble solids are limited to AB, A₂B and AB₂ types, where neither ion reacts further with water.",
+      "EN6: Acids and bases are monoprotic. Salts and buffers are included where the equilibrium concentration of the weak acid or base can be approximated by its initial concentration.",
+      "2026 specification: common strong and weak acids and bases are listed; Kb and pKb are not given but may be derived; nine complex ions are assumed knowledge (listed in the resource booklet), and less familiar complex ions may appear with their formula given in context."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification (October 2025) keeps a printed-paper, end-of-year examination. Not online digital in 2026.",
+      "Three compulsory questions, each with several parts, typically one on solubility equilibria (Ks, common ion, complex ions, precipitation), one on buffers and the pH or relative concentrations of species, and one on titration curves, indicators and conductivity. The order of topics varies by year.",
+      "Resource Booklet L3-CHEMR is supplied: pH, Kw, Ka/pKa and Ks relationships, the list of complex ions, and a periodic table. Kb and pKb are not given.",
+      "Calculations need working, usually three significant figures (the schedules accept 2–4 for Excellence answers), and units.",
+      "No time allowance is printed on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is marked against its own evidence statements and given one code from N0 to E8. The three codes are added to give a total out of 24.",
+      "Codes (2024 and 2025 schedules). N0: no response or no relevant evidence. N1/N2: 1a/2a. A3/A4: 3a/4a. M5/M6: 3m/4m. E7: 2e with a minor error or omission. E8: 2e. The exact a/m/e requirements are set question by question in the schedule.",
+      "Calculations: a correct process is Achievement evidence, a correct answer with a minor error is often Merit, and Excellence needs a fully correct answer with 2–4 significant figures and units (for example the CH₃NH₃Cl mass and the equivalence-point pH in 2025).",
+      "Explanations: Merit uses equilibrium principles (the direction of the shift and why), and Excellence justifies completely, often requiring BALANCED EQUATIONS (for example three relevant equations to justify a pH order in 2025 Q2, an equation for complex-ion formation in 2025 Q1).",
+      "Precipitation questions need ion concentrations diluted for the mixed volume before the ionic product is compared with Ks. Using undiluted concentrations is a standard Not Achieved error.",
+      "Cut scores: 2025 N 0–8, A 9–13, M 14–19, E 20–24; 2024 N 0–7 (printed as '0–17', which is evidently a typo), A 8–13, M 14–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Fe(OH)₂ and Ni(OH)₂: dissolution equation, Ks expression and Ks calculation (4.12 × 10⁻¹⁵); effect of adding HCl on Fe(OH)₂ solubility; dissolving Ni(OH)₂ through complex-ion formation with excess cyanide; mixing solutions and comparing the ionic product with Ks to predict a precipitate (requires dilution).",
+        "Q2: Methylammonium buffer: species present; how CH₃NH₃⁺ neutralises added OH⁻; mass of CH₃NH₃Cl needed; why a pH 12.1 solution is not a buffer (pKa ± 1) and how to modify it in the lab (add strong acid or more solid CH₃NH₃Cl); rank the pH of HBr, NH₄Cl and CH₃NH₂ with equations.",
+        "Q3: Weak base (NH₃) versus strong acid (HCl) titration curve: methyl red versus thymol blue as indicators; pH at the equivalence point (acidic, from NH₄⁺); conductivity of NH₃ versus NH₄Cl solutions; pH after excess HCl; why the pH in the flask differs from the burette HCl (dilution)."
+       ],
+       "cutScores": "N 0–8, A 9–13, M 14–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91392-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91392-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91390-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91390-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91392-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91392-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91392-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Ag₂SO₄: dissolution equation and Ks expression; solubility, [Ag⁺] and [SO₄²⁻] from Ks = 1.20 × 10⁻⁵; how adding NH₃ increases solubility (complex ion); how Na₂SO₄ decreases it (common ion); ionic product versus Ks for a precipitate.",
+        "Q2: Ethanoic acid/ethanoate buffer: rank the species concentrations; response to added HBr; mass of CH₃COONa needed; identify three unknowns (CH₃COOH, CH₃NH₂, NH₄Cl) from conductivity and bromothymol blue colour.",
+        "Q3: HF titrated with NaOH: pH of HF; sketch the titration curve; HF/NaF buffer pH and effectiveness; explain the rapid pH rise from 18 to 22 mL; pH at the equivalence point (F⁻); how the equivalence pH changes if CH₃COOH replaces HF (Ka/pKa)."
+       ],
+       "cutScores": "N 0–7 (printed as 0–17), A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91392-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91392-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91390-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: wrote equilibrium equations and Ks expressions; calculated Ks of Fe(OH)₂; compared ionic product with Ks; described buffer function and its working pH range; calculated the salt mass for a buffer; recognised that pH falls as [H₃O⁺] rises; described why methyl red suited the titration.",
+      "2025, Merit: used equilibrium principles to explain how strong acid and complex-ion formation affect solubility; calculated whether a precipitate forms on mixing; explained buffer response to added base; outlined how to make a solution into a buffer; justified pH using degree of dissociation and [H₃O⁺]; explained the conductivity of a weak base; calculated pH after the equivalence point.",
+      "2025, Excellence: explained how to modify a solution in the laboratory to form a buffer; used the curve and indicator pKa values to explain why methyl red beat thymol blue; calculated the equivalence-point pH; explained why the flask and burette pH differ after excess strong acid.",
+      "2025, Not Achieved: incorrect ion charges; no dilution of ion concentrations on mixing; could not distinguish solutions by degree of dissociation; wrote 'charged particles' instead of ions for conductivity; incorrect substitution.",
+      "2025, key misconception: many treated the weak base versus strong acid curve as a weak acid versus strong base curve and calculated a BASIC equivalence-point pH from a memorised procedure, contradicting their own reading of the curve.",
+      "2024, Achievement: wrote the Ks equation and expression; calculated the solubility of Ag₂SO₄; recognised complexing with NH₃ and the common-ion effect; stated that the buffer's basic component reacts with added acid; recognised that ions are needed for conductivity; calculated the pH of a weak acid.",
+      "2024, Merit: used equilibrium principles to explain complex-ion formation and the common-ion effect; explained buffer action with an equation; calculated the salt mass for a buffer at a given pH; linked degree of dissociation to ion concentration for conductivity; calculated the equivalence-point pH.",
+      "2024, Excellence (needed both explanation and calculation): showed by calculation that no precipitate forms; justified three solution identities using dissociation, [H₃O⁺]/[OH⁻] and indicator colour; calculated buffer pH from the acid:base ratio and evaluated its effectiveness; used Ka/pKa to explain how a weaker acid changes the equivalence pH.",
+      "2024, common errors: no dilution after mixing; saying OH⁻ (rather than the buffer's basic component) neutralises added acid; indicator colour rarely linked to relative [H₃O⁺] and [OH⁻]; titration curves drawn as straight lines; few explained the rapid rise near equivalence (buffer capacity exhausted) or linked Ka to the strength of the conjugate base at equivalence."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 12: A4, A4, A4; 2025)",
+       "text": "Wrote the equilibrium equation and Ks expression and calculated Ks; recognised that cyanide forms a complex ion with Ni²⁺; compared ionic product with Ks to show a precipitate would form; listed the species in methylammonium chloride solution; explained how the buffer resists pH change and why the solution could not act as a buffer; recognised CH₃NH₂ has the lowest [H₃O⁺].",
+       "miss": "The commentary does not state the gap (its Q3 text repeats Q1, apparently a transcription error). By the schedule, Merit needed equilibrium-shift explanations and calculations completed with at most a minor error."
+      },
+      {
+       "grade": "Merit (total 16: M5, M6, M5; 2025)",
+       "text": "Calculated Ks; explained how lowering [OH⁻] increases dissolving and how complex formation lowers [Ni²⁺]; explained buffer action against NaOH and calculated the correct CH₃NH₃Cl mass; calculated the equivalence-point pH and the pH after equivalence; linked conductivity to degree of dissociation and ion concentration.",
+       "miss": "Commentary: an incorrect ionic product in Q1; did not clearly specify how to modify the solution in the laboratory in Q2; in Q3 needed to explain that thymol blue (0.7–2.7) would change colour after the equivalence point while methyl red (4.1–6.1) changes at it."
+      },
+      {
+       "grade": "Excellence (total 22: E8, E7, E7; 2025)",
+       "text": "Justified with equilibrium principles why strong acid increases Fe(OH)₂ solubility; explained complex-ion dissolution; calculated and compared the ionic product correctly; calculated the buffer salt mass; justified the pH order with three equations; calculated the equivalence-point pH; compared conductivities with equations; calculated the pH after excess HCl.",
+       "miss": "Commentary: Q2 needed to be specific about adding strong acid or more solid CH₃NH₃Cl to make a buffer; Q3 needed to explain that the higher pH was due to lower [H₃O⁺] from dilution."
+      }
+     ],
+     "conditions": [
+      "End-of-year NZQA examination on printed paper (2026 specification).",
+      "Resource Booklet L3-CHEMR only (formulae, complex-ion list, periodic table), plus an approved calculator. Kb and pKb are not given.",
+      "Unfamiliar species and titration curves are expected. A practice paper that reuses a curve students have already practised (for example always weak acid versus strong base) does not test the standard as the exam does.",
+      "Literacy/numeracy co-requisite status was not checked. It does not affect derived-grade eligibility, because only the dedicated co-requisite standards (32403, 32405, 32406, 32412, 32413, 32415) are excluded (2026 Rules, Schedule 2 cl. 3(3))."
+     ],
+     "components": [
+      "Question One: solubility equilibria (Ks, effect of acid and complex ions, precipitation)",
+      "Question Two: buffers (species, buffer action, salt mass, buffer range) and ranking pH",
+      "Question Three: titration curve and indicator choice, equivalence-point pH, conductivity and dilution"
+     ],
+     "focusTip": "Name the salts, acids, bases and the titration (which species is in the flask and which in the burette) for each question, so the AI can check equations, pH values and the direction of shifts against the right system.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Describes, identifies or gives an account of the aqueous system (for example dissolution equations, Ks expressions, the species present, buffer function), using correct symbols, charges and conventions."
+       },
+       {
+        "type": "req",
+        "src": "EN3–EN6",
+        "t": "Works within the standard's scope: AB, A₂B or AB₂ sparingly soluble salts, monoprotic acids and bases, no weak acid–weak base titrations."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules and reports",
+        "t": "Correct process for Ks, solubility or pH; compares ionic product with Ks; recognises that pH falls as [H₃O⁺] rises; recognises that ions are needed for conductivity."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 reports",
+        "t": "Correct ion charges and 'ions', not 'charged particles'."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses EQUILIBRIUM PRINCIPLES to explain properties: which way the equilibrium shifts and why (removal of OH⁻ by H₃O⁺, complex formation lowering a free-ion concentration, common ion), or how a buffer component neutralises added acid or base."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule",
+        "t": "Calculations completed with at most a minor error, including diluting concentrations when solutions are mixed."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 reports",
+        "t": "Links degree of dissociation to ion concentration (for conductivity) and to [H₃O⁺] (for pH)."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Justifies, relates, evaluates or analyses fully, so the explanation and any calculation are complete for the context given."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule",
+        "t": "Justifications supported by balanced equations (for example all the equations needed to justify a pH order, or complex-ion formation)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and exemplars",
+        "t": "Calculations fully correct with 2–4 significant figures and units; indicator choice justified by comparing each indicator's range or pKa with the equivalence-point pH; laboratory modifications stated specifically."
+       },
+       {
+        "type": "ind",
+        "src": "2024 report",
+        "t": "Uses Ka/pKa to explain changes in equivalence-point pH (strength of the conjugate base) and evaluates buffer effectiveness from the acid:base ratio."
+       }
+      ]
+     },
+     "watch": [
+      "Ion concentrations not diluted when two solutions are mixed before comparing the ionic product with Ks. This was the most common calculation error in 2024 and 2025.",
+      "Reading the titration curve type wrongly: a weak base versus strong acid curve has an ACIDIC equivalence point. Check the student's calculation agrees with the curve.",
+      "'OH⁻ neutralises the added acid' in buffer answers. It is the buffer's basic component (for example CH₃COO⁻ or CH₃NH₂) that does.",
+      "Wrong ion charges, unbalanced equations, or conductivity explained with 'charged particles' or 'electrons'.",
+      "Early rounding in pH and Ks chains, and the wrong number of significant figures in pH answers.",
+      "Indicator choice stated without comparing the colour-change range with the equivalence-point pH.",
+      "The 2024 schedule prints the N band as 0–17. Apply 0–7 and note it."
+     ],
+     "aiLimits": "Calculations, equilibrium equations, charges, superscripts and subscripts, sketched titration curves and handwritten working are read from scans and may be misread. The teacher must check every value, equation and curve sketch the AI credits or rejects, and confirm the paper was sat under exam conditions with only the resource booklet.",
+     "researchNotes": "Standard details from as91392 (2019 PDF, Version 2, published 17 November 2016). The ENs were obtained as summaries, so they are close paraphrases. The 2024 schedule's Not Achieved band reads '0–17' in extraction, and I have taken it as 0–7 because the Achieved band starts at 8. The schedule grids were partly garbled, so teachers should confirm the exact a/m/e counts for each code from the original. The 2024 exemplars for 91392 were not checked. The time allowance was not confirmed. No 2026 paper exists yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Classical Studies": {
+   "slug": "classical-studies",
+   "discipline": "Each Level 3 Classical Studies exam is a single essay in extended paragraphs, answering ONE question chosen from four. It is marked holistically with one code out of 8, using a grid with several rows (discussion, primary-source evidence, context, conclusions). Markers reward the step from methodical analysis (A) to an informed, coherent, in-depth discussion (M) to insight into complexity and wider implications (E). That step must be supported throughout by relevant primary-source evidence: quotation, accurate paraphrase or specific detail. Plot summary, description of an art work or biography never meets the standard, and the 2026 specification states that 'Assessment will be based on the quality of the response rather than its length.'",
+   "parallelHint": "a different classical text (e.g. Homer's Odyssey instead of Virgil's Aeneid), a different art work or building (e.g. the Ara Pacis instead of the Colosseum), or a different historical figure (e.g. Augustus instead of Alexander), answering a question on a different idea, value or theme from the 2026 list",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Level 3 Classical Studies Assessment Specifications 91394/91395/91396 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91394-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Level 3 Classical Studies Assessment Specifications (for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91394-spc-2025.pdf"
+    },
+    {
+     "label": "2024 Level 3 Classical Studies Assessment Specifications (for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2024/91394-spc-2024.pdf"
+    },
+    {
+     "label": "AS91394 standard (Version 2)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91394.pdf"
+    },
+    {
+     "label": "AS91395 standard (Version 2)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91395.pdf"
+    },
+    {
+     "label": "AS91396 standard (Version 2)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91396.pdf"
+    },
+    {
+     "label": "NZQA 91394 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91394"
+    },
+    {
+     "label": "NZQA 91395 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91395"
+    },
+    {
+     "label": "NZQA 91396 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91396"
+    },
+    {
+     "label": "2025 Level 3 Classical Studies Assessment Report (covers all three standards)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91394-report-2025.pdf"
+    },
+    {
+     "label": "2024 Level 3 Classical Studies Assessment Report (covers all three standards)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91394-report-2024.pdf"
+    },
+    {
+     "label": "NZQA 2025 cut scores (PDF)",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2-Universal-documents/Cut-Scores.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91394, 91395 and 91396 are all end-of-year examinations in 2026, delivered as online digital examinations (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of 91394–91396 falls into these groups, so all three are eligible. No NZQA notice making any of them ineligible was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence, from a practice assessment that matches the format and conditions of the external assessment. Grades must be submitted before the November examinations. EmaiLink August 2026 repeats that practice exams for derived grades must match the external format and conditions and be quality assured.",
+    "What 'matching' means here: for each standard, ONE question chosen from a range (the real papers offer four), built on the 2026 ideas, values or themes. The student answers in extended paragraphs under supervision, without notes, aiming for about 800–900 words (5–6 pages). A practice paper that uses only the 2025 values (e.g. power for 91394, status for 91396) does not reflect the 2026 specification.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it. Practice exams may be based on modified papers from previous years. The 2024 and 2025 reports both flag pre-prepared and internal-assessment material forced onto exam questions, so teachers must confirm the response was written fresh to the question.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade, and NZQA records a school-reported N as V."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91394",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 2 (2026 specification lists Version 2)",
+     "verified": "2026-10-25",
+     "title": "Analyse ideas and values of the classical world",
+     "criteria": {
+      "achieved": "Analyse ideas and values of the classical world.",
+      "merit": "Analyse, in-depth, ideas and values of the classical world.",
+      "excellence": "Analyse, with perception, ideas and values of the classical world."
+     },
+     "notes": [
+      "EN2: Analyse involves undertaking a methodical examination and interpretation of the ideas and values; discussing the ideas and values in light of that examination and interpretation; using primary source evidence; drawing conclusions.",
+      "EN2: Analyse, in-depth, involves undertaking an informed and coherent discussion. Features may include using primary source evidence of specific relevance to the context, exploring more than one viewpoint, making comparisons, and drawing conclusions that are supported by primary source evidence.",
+      "EN2: Analyse, with perception, involves discussing with insight the complexity of the ideas (and values). Features include establishing textual connections, providing critical evaluation, showing understanding of wider implications of the analysis, and drawing developed conclusions.",
+      "EN3 (summary): ideas and values that may be analysed include social relationships and the individual's role, leadership and heroism, power and freedom, social and cultural traditions, religious and ideological beliefs, ideals of behaviour and national identity, literary conventions, and influence on other cultures.",
+      "EN4 (summary): literary texts include, for example, Attic Old Comedy, Roman epic and Roman satire. Contextual elaborations are in the Teaching and Learning Guide and the Assessment Specifications. The reports show Homer, Sophocles, Horace, Plato, Plutarch and Juvenal are also used."
+     ],
+     "examFormat": [
+      "2026 change: the exam is an ONLINE DIGITAL examination only (2025 allowed online digital OR printed paper). The ideas and values candidates must understand for 2026 are leadership, identity, RELATIONSHIPS and ideology. In 2025 they were leadership, identity, power and ideology; in 2024, leadership, identity, power and responsibilities. Questions may combine ideas or values.",
+      "Candidates choose ONE question from a range (four in 2024 and 2025) and answer with reference to a classical literary text, naming the text. Characters may be mythical, fictional or historical.",
+      "The answer is in extended paragraphs. 'A concise response of no more than 800–900 words (5–6 pages)' is suggested. Planning is not marked.",
+      "There is no resource booklet. All textual evidence (quotation, paraphrase, specific episodes) comes from the student's memory of the studied text."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay is marked HOLISTICALLY with ONE score code from 0 to 8, using a best-fit grid. N0 is 'No response; no relevant evidence.'",
+      "Cut scores (2025 schedule; 2025 NZQA cut-score PDF): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "Grid row, passages: identifies a passage or episode (N1/N2), discusses one (A3/A4), discusses passages in depth (M5/M6), discusses passages with insight (E7/E8).",
+      "Grid row, interpretation: limited understanding of meaning (N1); discernible structure but arguments not developed (N2); methodical but lacks depth (A3); well-informed and coherent but some too narrowly focused (A4); well-informed, coherent and broadly focused (M5); perceptive, with the complexity of the idea or value analysed with some insight (M6); analysed with insight and originality (E7/E8).",
+      "Grid row, textual evidence: minimal (N1); not all relevant (N2); some relevant (A3) or relevant (A4); some evidence of specific relevance to context (M5); a range (M6); consistently a range (E7/E8).",
+      "Grid row, context (social, political, religious and/or artistic): limited (N1); oversimplified (N2); some oversimplification (A3); informed understanding (A4/M5); evaluates how the text reflects its context (M6); critically evaluates this (E7). The E8 cell did not extract.",
+      "Grid row, conclusions: inaccurate (N1); underdeveloped (N2); general (A3/A4); with appropriate comparisons and/or alternative viewpoints (M5/M6); developed conclusions (E7/E8)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: 'Discuss the extent to which one or more characters used their power to restore peace and/or order in a time of crisis.' (power)",
+        "Q2: 'Discuss the extent to which one or more characters was a leader or a follower.' (leadership)",
+        "Q3: 'Discuss the ways in which the identity of one or more characters was shaped by a sense of duty and/or obligation to others.' (identity)",
+        "Q4: 'Discuss the extent to which one or more character's adherence to traditional beliefs and/or values was challenged by others.' (ideology)"
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91394-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91394-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91394-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91394-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91394-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91394-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: 'Discuss the extent to which leadership demonstrated by one or more characters reflected qualities valued by classical society.'",
+        "Q2: 'Discuss the extent to which the power* of one or more characters was enhanced or diminished by their friends and/or family.' (*authority, status, or influence over others)",
+        "Q3: 'Discuss the extent to which one or more characters failed in their responsibilities.'",
+        "Q4: 'Discuss the extent to which the identity of one or more characters was strengthened by the challenges they faced.'"
+       ],
+       "cutScores": "Not confirmed (the 2024 schedule could not be re-read; the 2025 PDF gives N 0–2, A 3–4, M 5–6, E 7–8)",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91394-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91394-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91394-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91394-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91394-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91394-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: stronger responses unpacked the question, made explicit decisions about their approach, and stated a clear argument that they returned to in topic sentences and conclusions. Aeneid answers mostly used Books 1, 2 and 4, and stronger ones used later books. Horace Ode 1.37 gave good context but limited close analysis. Aristophanes answers covering two plays lacked depth. Very long responses (often over 2,000 words) lost focus, and secondary scholarship was often quoted descriptively.",
+      "2025, Achievement: addressed only part of the question, used two or three well-known examples, showed general understanding with some inaccuracies and inconsistent quotation, relied on narrative, and lacked a sustained argument.",
+      "2025, Merit: addressed all aspects with a focused (sometimes narrow) argument. Used three or more examples with quotation and correct Greek or Latin terms, linked evidence to ideas, began to integrate context and authorial purpose, and was well structured.",
+      "2025, Excellence: a clear, sustained thesis, a broad range of examples (including less familiar sections), fluent integrated quotation, sophisticated understanding of text and context, insight into authorial purpose and technique, and evaluative conclusions.",
+      "2025, Not Achieved: missed or misread the question, plot summary, little or no textual evidence, one or no examples, very brief, misunderstood events or values, no analysis.",
+      "2024, commentary: candidates who defined or explained the question's focus (e.g. identity) in relation to their text did better. Most used the Aeneid and were encouraged to use its second half. Horace was often a weak choice. Juvenal, Horace, Plato and Plutarch answers needed to separate persona or narrator from author, and non-fiction answers often became historical recounts.",
+      "2024, Achievement: simple, sometimes missing aspects of the question, with narrow examples, generalised plot, values only partly referenced, and fictional characters treated as real people.",
+      "2024, Merit: all aspects answered (sometimes unevenly), developed understanding of values, in-depth text knowledge, and a range of examples. Quotations did not always advance the argument, and context sometimes sat in a standalone paragraph.",
+      "2024, Excellence: linked the socio-historical context to the text's creation, showed awareness of a wide range of values, integrated context after analysing examples, sustained the argument, and used terminology confidently.",
+      "2024, Not Achieved: plot summaries, no reference to classical values, inaccurate details, few specific examples, and pre-prepared responses that did not engage the question."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A4, 2025)",
+       "text": "Sound knowledge of the text and generally focused on the question. Identified relevant values (duty and obligation) with accurate examples from the text.",
+       "miss": "Relied 'primarily on explanation rather than analysis' and drew mainly on earlier sections of the text. It needed to state the character's identity clearly, track how it develops across the whole text, and explain how duty reshapes who the character becomes."
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Aeneas's identity in the Aeneid, drawing on both early and later books with effective, relevant textual evidence. Roman context supported the interpretation rather than replacing it.",
+       "miss": "Did not state what that identity is, and treated identity in general terms. It did not fully explore difficulties, conflicts or personal cost, or moments where competing identities clash, so it did not reach evaluative depth."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Established a clear evaluative position and defined the character's role and identity from the outset. The analysis was sustained throughout, evidence was carefully selected and integrated with minimal narrative, and context was used to explain why the text presents characters and ideas as it does.",
+       "miss": "Did not fully explore alternative interpretations or interrogate ideological tensions at the most abstract level."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam, online digital only in 2026. One question chosen from a range, answered in extended paragraphs. The planning space is not marked.",
+      "No texts or notes. Quotations and episodes are recalled from the studied text.",
+      "A practice paper should offer a choice of questions built on the 2026 values (leadership, identity, relationships, ideology), unseen in advance, written under supervision.",
+      "The time allowance was not confirmed."
+     ],
+     "components": [
+      "Introduction: the question's key terms defined in relation to the text, with a clear position",
+      "Body: analysis of several passages or episodes across the text, with quotation or specific detail",
+      "Context: the social, political, religious or artistic context and the author's purpose, integrated into the argument",
+      "Conclusion: a developed judgement on the 'extent' or 'ways' the question asks about"
+     ],
+     "focusTip": "Paste the question the student chose and name the text (and books or episodes studied), so the AI can check the quotations and episodes against the work and see whether the value named in the question is actually being analysed.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes a METHODICAL examination and interpretation of the idea or value the question names, and discusses it in light of that interpretation, rather than retelling the plot."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses PRIMARY SOURCE evidence from a classical literary text: quotation, accurate paraphrase or specific episodes."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Draws conclusions about the idea or value."
+       },
+       {
+        "type": "req",
+        "src": "2025 exam cover",
+        "t": "Answers ONE question with reference to a classical literary text."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts of the question are addressed. An 'and/or' question states which part it answers."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Characters are treated as constructions of the text, and the persona or narrator is separated from the author."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Undertakes an INFORMED AND COHERENT discussion of the ideas and values."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('may include')",
+        "t": "Primary source evidence of specific relevance to the context, more than one viewpoint, comparisons, and conclusions supported by primary evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Three or more examples with quotation, correct Greek or Latin terms, and context and authorial purpose beginning to be integrated."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Merit exemplar",
+        "t": "Evidence is drawn from across the whole work, not only the best-known books."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Discusses WITH INSIGHT the COMPLEXITY of the ideas and values."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('features include')",
+        "t": "Textual connections, critical evaluation, understanding of wider implications, and developed conclusions."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; E7 exemplar",
+        "t": "A clear thesis sustained throughout, a broad range of examples including less familiar sections, and fluent integrated quotation. Context explains WHY the text presents ideas as it does."
+       },
+       {
+        "type": "ind",
+        "src": "E7 exemplar",
+        "t": "Alternative interpretations and ideological tensions are explored. Doing this fully is the step towards E8."
+       }
+      ]
+     },
+     "watch": [
+      "Practice questions built only on the 2025 values. 2026 adds relationships and drops power.",
+      "Plot summary presented as analysis, which is the most common Not Achieved pattern.",
+      "Aeneid answers drawn only from Books 1, 2 and 4. Both reports push candidates towards the later books.",
+      "Pre-prepared essays forced onto the chosen question.",
+      "Context in a standalone paragraph rather than integrated into the argument (held candidates at Merit in 2024).",
+      "Very long answers. The 2025 report notes that 2,000+ word responses lost focus, and the guidance is about 800–900 words.",
+      "Secondary scholarship quoted for its own sake. The standard requires primary-source evidence."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI may not reliably verify quotations, line or book references, or episode details from memory, especially for less common texts. The teacher must confirm the accuracy of textual evidence, and that the response was written under supervision to an unseen question.",
+     "researchNotes": "The standard text comes from the NZQA as91394 PDF (2019 folder, Version 2). EN2 was quoted in fragments (the Excellence clause extracted as 'complexity of the ideas'; it may continue 'and values'). EN3 and EN4 are summarised. The 2026, 2025 and 2024 specifications were read. The 2025 schedule was read as a grid, but the E8 context cell did not extract. The 2024 schedule, its cut scores and the 2024 exemplars were NOT read because the hourly web-fetch limit was reached. The 2024 and 2025 reports each cover all three Level 3 Classical Studies standards. The 2025 exemplar commentaries do not name the question, and the Merit one is identified as the Aeneid from its content. The time allowance was not confirmed. Derived-grade rule details are from the same 2026 Rules, QA page and EmaiLink documents used for the Level 1 History file, not re-fetched here. UE literacy status was not checked.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91395",
+     "ref": "3.2",
+     "credits": 4,
+     "version": "Version 2 (2026 specification lists Version 2)",
+     "verified": "2026-10-25",
+     "title": "Analyse the significance of a work(s) of art in the classical world",
+     "criteria": {
+      "achieved": "Analyse the significance of a work(s) of art in the classical world.",
+      "merit": "Analyse, in-depth, the significance of a work(s) of art in the classical world.",
+      "excellence": "Analyse, with perception, the significance of a work(s) of art in the classical world."
+     },
+     "notes": [
+      "EN2: Analyse the significance involves undertaking a methodical examination and interpretation of the features and effect(s) of the work(s) of art in their artistic and/or historical context; discussing the work(s) of art in light of that examination and interpretation; using primary source evidence; drawing conclusions.",
+      "EN2: Analyse, in-depth, the significance involves providing an informed and coherent discussion of the features and effect(s) of the work(s) of art. Features of an informed and coherent discussion include integrating ideas, making comparisons, and drawing conclusions that are supported by primary source evidence.",
+      "EN2: Analyse, with perception, the significance involves discussing with insight the features and effect(s) of the work(s) of art. Features of a perceptive discussion include giving evidence of artistic influence, providing critical evaluation, showing understanding of wider implications of the analysis, and drawing developed conclusions, eg about the extent to which ancient Roman public architecture was used as a vehicle for imperial propaganda.",
+      "EN3 (summary): significance means understanding how a work's features relate to the society that produced it, and may include its influence on other cultures and its artistic and historical context.",
+      "EN4 (summary): features of a work of art can include form and function, style, and techniques.",
+      "EN5 (summary): works include, for example, Athenian vase painting and Roman art and architecture (e.g. Euphronios' vases and the development of red-figure; the Arch of Titus and Flavian imperial propaganda)."
+     ],
+     "examFormat": [
+      "2026 change: the exam is an ONLINE DIGITAL examination only (2025 allowed online digital OR printed paper). The content focus is unchanged: candidates must understand the features of the contexts and of art works in EN3 and EN4 of the standard, and questions may combine more than one aspect.",
+      "Candidates choose ONE question from a range (four in 2024 and 2025) and answer with reference to one or more classical art works or buildings. In 2025 they had to name the question number and the art work(s) in the planning section.",
+      "The answer is in extended paragraphs. 'A concise response of no more than 800–900 words (5–6 pages)' is suggested. Planning is not marked.",
+      "There are no images or resource booklet. All visual evidence (specific details of the work) is recalled, as are any ancient-author quotations."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay is marked HOLISTICALLY with ONE score code from 0 to 8 on a best-fit grid. N0 is 'No response; no relevant evidence.'",
+      "Cut scores (2025 schedule; 2025 NZQA cut-score PDF): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "Grid row, significance. N1: describes rather than interprets. N2: basic interpretation. A3: examines and interprets the significance of features, but not all important points are developed. A4: methodical but lacks depth. M5: analyses the significance of features and their effect, with a range of specific detail. M6: does this in depth. E7: evaluates the significance of features and their effect with insight. E8: with insight and originality.",
+      "Grid row, references to the work. Minimal (N1); not all pertinent (N2); some relevant (A3); support general comment but not consistently (A4); support general comment (M5); woven into the discussion (M6); show critical discernment and are woven in (E7); wide-ranging, discerning and woven in (E8).",
+      "Grid row, understanding in context. Little, with implied links to context (N1/N2); basic, with some oversimplification (A3); sound, but little in-depth knowledge (A4); informed (M5); thorough and logically developed (M6); highly developed, balanced and focused, convincingly supported by specific examples (E7); sophisticated, synthesising information, where 'modern art historical criticism may be cited, as appropriate' (E8).",
+      "Grid row, conclusions. Underdeveloped (N1) → general (N2) → general, some supported by specific examples (A3) → most supported, with comparisons (A4) → consistently supported, with comparisons (M5) → developed, supported by well-chosen examples (M6) → developed and skilfully supported (E7/E8)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: 'Discuss the extent to which idealism could be used to describe the style of one or more classical art works.'",
+        "Q2: 'Discuss the extent to which conflict was a focus of one or more classical art works.'",
+        "Q3: 'Discuss the significance of narrative as a feature of one or more classical art works.'",
+        "Q4: 'Discuss the extent to which political and/or religious beliefs influenced the form and function of one or more classical art works.'"
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91395-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91395-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91395-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91395-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91395-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91395-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: 'Discuss how and why mythical and/or historical imagery features in one or more classical art works.'",
+        "Q2: 'Discuss the extent to which naturalism was effectively conveyed in one or more classical art works.'",
+        "Q3: 'In what ways was the form of one or more classical art works impacted by its location and/or the social activities that were associated with it?'",
+        "Q4: 'Discuss the extent to which the decoration techniques and/or design used to create one or more classical art works were typical of their time.'"
+       ],
+       "cutScores": "Not confirmed (the 2024 schedule could not be re-read)",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91395-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91395-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91395-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91395-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91395-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91395-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: responses using multiple art works rarely reached the depth needed for higher grades. Many candidates did not write the question number. Art terminology (e.g. 'idealism' in Q1) was underused. Q3 was misread as asking about the story itself rather than the significance of narrative as a feature. Quotations count only when relevant and contextualised. Popular works were the Colosseum, Ara Pacis Augustae, Augustus of Prima Porta, the Kleophrades Hydria, and the Exekias amphora and kylix.",
+      "2025, Achievement: addressed one aspect of the question, used more than one art work, described features, gave some context without balancing it with features, and often did not answer both parts.",
+      "2025, Merit: described a range of relevant features with specific evidence and knowledge of context. Context was not always linked to the question, and the approach was sometimes unbalanced.",
+      "2025, Excellence: strong links between context and features, specific evidence, the 'extent' part addressed, ancient authors and scholars used judiciously, appropriate comparisons, and a well-chosen art work.",
+      "2025, Not Achieved: features described without linking to style, context without describing the work, the wrong question, rote-learned or internal-assessment responses, several works treated superficially, only one aspect covered (e.g. only the Colosseum's seating), or a non-classical work (e.g. Michelangelo's David).",
+      "2024, commentary: strong responses balanced features with the context of creation. Period context alone was not enough, and Trajan's Column was a key example of imbalance. Responses using several works rarely reached higher grades. Art terminology (e.g. naturalism) needed to be understood. Many misunderstood 'social activity' in Q3: war and sacrifice did not count.",
+      "2024, Achievement: appreciated key features and some context, but answered only part of the question, used more than one work, or showed detailed knowledge of a work without a direct answer.",
+      "2024, Merit: in-depth but unbalanced, with specific details, context linked to artistic, historical or religious factors, relevant quotation and structured analysis.",
+      "2024, Excellence: all parts answered, features evaluated, one work primarily in focus with others linked for comparison, context woven throughout, and the 'extent' addressed with evidence.",
+      "2024, Not Achieved: wrong question or work, only one aspect of the work, too much context and too little answer, pre-learnt responses forced onto the question, or works out of context."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A4, 2025)",
+       "text": "Attempted the question, showed understanding of the art work and awareness of the context in which it was created, with some relevant, detailed discussion.",
+       "miss": "Some examples lacked sufficient detail, and context was 'not consistently supported with specific evidence'. The lack of detailed supporting evidence kept it at Achieved."
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Confident knowledge of the art work, with specific primary-source evidence described in detail. Addressed the question throughout, using a range of relevant evidence.",
+       "miss": "Compared it with another classical work, but that analysis did not address the question. 'Comparison could have been made within the art work with relevant examples to show perception.'"
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Consistently addressed and fully answered BOTH parts of the question, with a broad range of detailed, relevant evidence from the work. Thorough, perceptive writing that integrated conclusions into the discussion, and a clear understanding of historical context that added depth.",
+       "miss": "The commentary names no gap. By the schedule, E8 needs originality, wide-ranging discerning references and a sophisticated synthesis (modern art-historical criticism may be cited)."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam, online digital only in 2026. One question chosen from a range, answered in extended paragraphs. The question number and work(s) are named. The planning space is not marked.",
+      "No images, notes or resource booklet. Visual details are recalled.",
+      "A practice paper should offer a choice of unseen questions on the EN3 and EN4 aspects (form and function, style, techniques, context, influence), written under supervision.",
+      "The time allowance was not confirmed."
+     ],
+     "components": [
+      "Introduction: the work(s) named precisely (artist or patron, date, place), with the question's key term defined",
+      "Features: specific visual and structural evidence (form, function, style, technique)",
+      "Context: the artistic, historical, political or religious setting, linked to those features",
+      "Evaluation: the 'extent' or significance judged, with comparisons within the work or to related works",
+      "Conclusion: a developed judgement on significance"
+     ],
+     "focusTip": "Paste the question the student chose and name the art work(s) or building(s), so the AI can check that specific visual details are accurate and that features and context are balanced.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes a METHODICAL examination and interpretation of the FEATURES and EFFECT(S) of the work(s) in their artistic and/or historical context, interpreting rather than only describing (schedule N1: 'describes, rather than interprets')."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses PRIMARY SOURCE evidence: specific details of the work itself, and ancient sources where relevant."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Draws conclusions about the significance of the work(s)."
+       },
+       {
+        "type": "req",
+        "src": "2025 exam cover; EN5",
+        "t": "Answers ONE question on a classical art work or building. A non-classical work (e.g. Michelangelo's David) does not meet the standard (2024 and 2025 reports)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Both parts of the question are answered, and context is balanced with specific features of the work."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Provides an INFORMED AND COHERENT discussion of the features and effect(s) of the work(s)."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('features include')",
+        "t": "Integrates ideas, makes comparisons, and draws conclusions supported by primary-source evidence."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "A range of specific detail, with references to the work woven into the discussion."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Context is linked to the question, not just presented."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Discusses WITH INSIGHT the features and effect(s) of the work(s)."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('features include')",
+        "t": "Evidence of artistic influence, critical evaluation, wider implications, and developed conclusions (e.g. how far Roman public architecture served imperial propaganda)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E7 exemplar",
+        "t": "Focuses mainly on one work, with comparisons used to answer the question. Features and context are fused, the 'extent' is judged, and conclusions are integrated throughout."
+       }
+      ]
+     },
+     "watch": [
+      "Several works covered superficially. Both reports say this rarely reaches higher grades.",
+      "Context-heavy answers (e.g. Trajan's Column history) with little specific detail of the work itself.",
+      "Answering the story rather than the feature (2025 Q3, narrative). Check the question's key term is what is analysed.",
+      "Art terms (idealism, naturalism) used loosely or not at all.",
+      "Pre-learnt or internal-assessment essays forced onto the question.",
+      "Comparisons with another work that do not serve the question (the 2025 M6 exemplar).",
+      "Non-classical or out-of-period works. These do not meet the standard."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI cannot see the art work and may not reliably verify fine visual details (figures, inscriptions, panel positions, dates, potters or painters). The teacher must confirm the accuracy of the described features and that the response was written under supervision to an unseen question.",
+     "researchNotes": "The standard text comes from the NZQA as91395 PDF (2019 folder, Version 2). EN2 was quoted in fragments, and EN3–EN5 are summarised. The 2026 specification was read. The 2025 schedule grid was read, but the conclusions row has seven descriptors for eight codes, so the E7/E8 split there is approximate. The 2024 schedule, its cut scores and the 2024 exemplars were NOT read because the hourly web-fetch limit was reached. The 2025 exemplar commentaries do not name the work or question. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91396",
+     "ref": "3.3",
+     "credits": 6,
+     "version": "Version 2 (2026 specification lists Version 2)",
+     "verified": "2026-10-25",
+     "title": "Analyse the impact of a significant historical figure on the classical world",
+     "criteria": {
+      "achieved": "Analyse the impact of a significant historical figure on the classical world.",
+      "merit": "Analyse, in-depth, the impact of a significant historical figure on the classical world.",
+      "excellence": "Analyse, with perception, the impact of a significant historical figure on the classical world."
+     },
+     "notes": [
+      "EN2: Analyse involves methodically examining the impact of the historical figure as communicated through primary source evidence; discussing significant socio-political factors that may have influenced the historical figure; drawing conclusions about the impact of the historical figure on the classical world.",
+      "EN2: Analyse, in-depth, involves undertaking an informed and coherent discussion of the significant socio-political factors that may have influenced the historical figure. Features of an informed and coherent discussion include using primary source evidence of specific relevance to the context, exploring more than one viewpoint, making connections between individuals and their historical context, and drawing conclusions that are supported by primary source evidence.",
+      "EN2: Analyse, with perception, involves discussing with insight the impact of the historical figure as communicated through primary source evidence. Features of a perceptive discussion include providing critical evaluation, showing understanding of wider implications of the analysis, and drawing developed conclusions, eg about the wider implications of Alexander the Great's relationship with the Persians.",
+      "EN3 (summary): figures who may be studied include Socrates, Alexander the Great and Augustus. Possible contexts are in the Teaching and Learning Guide and the Assessment Specifications.",
+      "EN4 (summary): impact means the effect or influence the figure had on the social, political, artistic, philosophical, religious, scientific and/or technological life of the classical world."
+     ],
+     "examFormat": [
+      "2026 change: the exam is an ONLINE DIGITAL examination only (2025 allowed online digital OR printed paper). The themes candidates must understand for 2026 are IDEOLOGY, conflict, leadership and change. In 2025 they were status, conflict, leadership and change; in 2024, status, conflict, leadership and ideology. Questions may combine themes.",
+      "Candidates choose ONE question from a range (four in 2024 and 2025) and answer on ONE historical figure of the classical world, recording the question number and figure. Mythological figures do not count.",
+      "The answer is in extended paragraphs, supported with primary-source evidence. 'A concise response of no more than 800–900 words (5–6 pages)' is suggested. Planning is not marked.",
+      "There is no resource booklet. Primary sources (e.g. Arrian, Plutarch, the Res Gestae, Suetonius, Plato) are quoted or paraphrased from memory."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay is marked HOLISTICALLY with ONE score code from 0 to 8 on a best-fit grid with four rows: discussion of the figure and their impact, primary-source evidence, socio-political factors, and conclusions. N0 is 'No response; no relevant evidence.'",
+      "Cut scores (2025 schedule; 2025 NZQA cut-score PDF): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "Discussion row. N1: accurate facts, not in the context of the question. N2: the figure in context, but impact not examined methodically. A3: some methodical examination, not sustained, with arguments not fully developed. A4: methodical, sustained but incomplete. M5: in-depth, well-informed and coherent, but some too narrowly focused. M6: in-depth, well-informed, coherent and broadly focused. E7: insightful, perceptive and wide-ranging, acknowledging the complexity of evidence. E8: as E7, with the complexity of primary AND secondary evidence objectively evaluated.",
+      "Primary-source row. Little (N1); some, not all pertinent (N2); some pertinent but incomplete or imprecise (A3); pertinent but incomplete or imprecise (A4); pertinent, of specific relevance, not complete (M5); consistently pertinent and of specific relevance (M6); consistently a range of pertinent evidence (E7/E8).",
+      "Socio-political row. Retells the story (N1); basic, oversimplified (N2); sound, some oversimplification (A3); informed, linking individuals to context and/or alternative viewpoints (A4); thorough, logically developed connections or viewpoints (M5); critical evaluation, explicit connections, balanced viewpoints (M6); insightful connections, wider implications analysed and viewpoints evaluated (E7); as E7 with sophisticated synthesis (E8).",
+      "Conclusions row. Underdeveloped (N1) → general (N2) → general, some supported (A3) → most supported (A4) → consistently supported (M5) → developed, with well-chosen examples (M6) → developed, skilfully supported (E7/E8)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: 'Discuss the extent to which a significant classical figure's leadership could be described as strategic.'",
+        "Q2: 'Discuss the extent to which a significant classical figure's status was challenged by others.'",
+        "Q3: 'Discuss whether a change(s) introduced by a significant classical figure was for the better or for the worse.'",
+        "Q4: 'Discuss how a significant classical figure's reputation was impacted by their involvement in a conflict(s).'"
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91396-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91396-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91396-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91396-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91396-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91396-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: 'In what ways did a conflict(s) involving a significant classical figure help or harm their relationship with an individual or group?'",
+        "Q2: 'Discuss the extent to which a significant classical figure's status was damaged by their own behaviour?'",
+        "Q3: 'Discuss the impact that popular support had on a significant classical leader's decisions and actions.'",
+        "Q4: 'Discuss the extent to which an ideology held by a significant classical figure was unconventional or innovative.'"
+       ],
+       "cutScores": "Not confirmed (the 2024 schedule could not be re-read)",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91396-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91396-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91396-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91396-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91396-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91396-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: many candidates had sound knowledge but did not address all parts of the question. In Q3 (better or worse), changes were described without their impact being evaluated. Stronger responses developed three or four main areas rather than retelling the figure's life. Source reliability was discussed only briefly. Art and architecture should support broader arguments, with details described, not just named. Modern concepts (human rights, inclusivity) and modern comparisons should not be applied. Alexander was the most popular figure, then Octavian/Augustus, with fewer choosing Socrates, Julius Caesar or Cleopatra.",
+      "2025, Achievement: addressed some aspects, simplistic or unbalanced, described events rather than analysing significance, minimal context, and basic use of sources without integration.",
+      "2025, Merit: a clear introduction to the question, all parts covered (with some imbalance), a range of connected ideas with well-chosen quotations, socio-political context linked to the argument, and logical conclusions.",
+      "2025, Excellence: key terms set up in the introduction and followed through, all aspects addressed comprehensively, a unifying thread, engagement with primary and secondary sources, brief acknowledgement of source limitations, complex perspectives recognised (e.g. how contemporaries viewed the Policy of Fusion), and context integrated seamlessly.",
+      "2025, Not Achieved: a 'highlights reel' of achievements instead of a few developed areas, modern concepts or comparisons, the question not fully addressed, vague or too brief, narrative, primary evidence misused or omitted, pre-prepared or internal-assessment material, and little understanding of context.",
+      "2024, commentary: fewer pre-learnt responses were forced onto questions, and evidence was used more authentically. There was a good range of primary sources, but reliability discussion was often generic. Popular figures were Alexander (often the Policy of Fusion), Octavian/Augustus (often conflict and relationships), Julius Caesar, Pericles, Marcus Aurelius and Marc Antony. Few chose Socrates for ideology.",
+      "2024, Achievement: simplistic, basic socio-political context, no real treatment of 'extent', 2–3 supporting points, more narrative than analysis, some primary evidence (quotation, paraphrase, or implied through dates, names and places), and minor inaccuracies.",
+      "2024, Merit: specific details linked to the question, wider socio-political and cultural context, strong conclusions with examples, different viewpoints considered, well-integrated primary evidence with accurate attribution, and clear structure.",
+      "2024, Excellence: primary evidence used thoughtfully throughout (sometimes with secondary sources), both sides of 'extent' discussed, critical evaluation of sources (including limitations), of events and of people, nuances acknowledged, and examples grouped by theme.",
+      "2024, Not Achieved: did not answer the question or use primary evidence, too short or vague, MYTHOLOGICAL figures (e.g. Aeneas, Demeter) used instead of historical ones, irrelevant narrative, and no basic grasp of socio-political context."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A3, 2025)",
+       "text": "Socrates: addressed the question by describing how Socrates was challenged, with background in the introduction, some relevant examples (Plato's dialogues, the trial), and a clear essay structure.",
+       "miss": "The argument was basic and not sustained, and the response was largely descriptive, with minimal evaluation of why the challenges mattered to his status. Examples were used narratively rather than integrated into analysis."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Augustus: how he used conflicts to improve his reputation and secure power. Linked causes and consequences (Actium and his portrayal as defender of Roman values), showed some awareness of source bias (Augustus himself, Plutarch's moral lens), and used the Res Gestae, Plutarch, Suetonius and Tacitus.",
+       "miss": "Some sections were descriptive, the conclusion restated rather than synthesised, discussion stopped at explanation rather than complexity, source evaluation was brief, evidence was quoted without comparing perspectives, and there was no modern scholarship."
+      },
+      {
+       "grade": "Excellence (E8, 2025)",
+       "text": "Alexander's Policy of Fusion 'for the worst' (Q3), with a clear thesis sustained throughout. Gave insightful analysis of causes and consequences (Cleitus, Callisthenes, the mutinies at the Hyphasis/Beas and Opis), weighed idealistic against pragmatic motives, integrated primary sources and modern historians, engaged critically with Tarn and Bosworth, and was logically organised.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam, online digital only in 2026. One question chosen from a range on ONE historical figure, answered in extended paragraphs with primary-source evidence. The planning space is not marked.",
+      "No notes or sources are provided. Primary and secondary sources are quoted or paraphrased from memory.",
+      "A practice paper should offer a choice of unseen questions on the 2026 themes (ideology, conflict, leadership, change), written under supervision.",
+      "The time allowance was not confirmed."
+     ],
+     "components": [
+      "Introduction: the figure and the question's key terms defined, with a clear position",
+      "Main areas (three or four): impact analysed through primary-source evidence",
+      "Socio-political factors: the context that shaped the figure, with connections and alternative viewpoints",
+      "Source evaluation: the reliability and limitations of the ancient sources (and, at the top end, modern scholarship)",
+      "Conclusion: a developed judgement on the impact or 'extent'"
+     ],
+     "focusTip": "Paste the question the student chose and name the figure, so the AI can check the primary sources cited (e.g. Arrian, Plutarch, Res Gestae) and whether the impact is analysed rather than the life retold.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "METHODICALLY examines the figure's IMPACT as communicated through PRIMARY SOURCE evidence, rather than retelling their life or story (schedule N1)."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Discusses significant SOCIO-POLITICAL FACTORS that may have influenced the figure."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Draws conclusions about the figure's impact on the classical world."
+       },
+       {
+        "type": "req",
+        "src": "EN3; exam cover",
+        "t": "The subject is a HISTORICAL figure of the classical world. Mythological figures (Aeneas, Demeter) do not meet the standard (2024 report)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts of the question are addressed (e.g. 'better OR worse', 'extent'), and there are a few developed areas rather than a highlights reel."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Undertakes an INFORMED AND COHERENT discussion of the significant socio-political factors that may have influenced the figure."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('features include')",
+        "t": "Primary evidence of specific relevance, more than one viewpoint, connections between individuals and their context, and conclusions supported by primary evidence."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "In-depth, well-informed and coherent examination, broadly focused at M6, with consistently pertinent primary evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Primary evidence is well integrated and accurately attributed."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Discusses WITH INSIGHT the figure's impact as communicated through primary source evidence."
+       },
+       {
+        "type": "ind",
+        "src": "EN2 ('features include')",
+        "t": "Critical evaluation, understanding of wider implications, and developed conclusions."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Acknowledges the complexity of the evidence. E8 objectively evaluates primary AND secondary sources and synthesises them."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; E8 exemplar",
+        "t": "Key terms set up and followed through, a sustained thesis, source limitations acknowledged, contemporary perspectives recognised, and modern historians engaged critically (not quoted for their own sake)."
+       }
+      ]
+     },
+     "watch": [
+      "Practice questions built on the 2025 themes. 2026 brings back ideology and drops status.",
+      "A 'highlights reel' or biography of the figure instead of three or four developed areas.",
+      "Modern concepts or comparisons (human rights, inclusivity) applied to ancient figures.",
+      "Generic source-reliability statements ('Arrian wrote centuries later') that are not used in the argument.",
+      "Art or architecture named but not described, or not tied to the argument.",
+      "Mythological figures, or pre-prepared and internal-assessment material forced onto the question.",
+      "Unbalanced 'extent' or 'better or worse' answers that describe change without judging it."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI may not reliably verify ancient-source quotations, attributions (which author, which passage), or modern historians' positions. The teacher must check the accuracy of evidence and that the response was written under supervision to an unseen question.",
+     "researchNotes": "The standard text comes from the NZQA as91396 PDF (2019 folder, Version 2). EN2 was quoted in fragments, and EN3 and EN4 are summarised. The 2026, 2025 and 2024 specifications were read. The 2025 schedule grid was read row by row. The 2024 schedule, its cut scores and the 2024 exemplars were NOT read because the hourly web-fetch limit was reached. The E8 exemplar's question is inferred as Q3 (better or worse) from its thesis. The exemplar summary says 'Beas', which I have given as Hyphasis/Beas. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Digital Technologies": {
+   "slug": "digital-technologies",
+   "discipline": "The 91908 exam is marked holistically: markers read the whole response to ONE chosen area of computer science and give one score from 0 to 8. The score depends on accurate, specific technical explanation of how the area's algorithms or mechanisms work and are applied (A), detailed explanation of capabilities and limitations as they relate to humans, comparing perspectives (M), and insightful conclusions such as justified predictions, less obvious implications or suggested improvements (E). Writing volume is never the criterion: the 2024 and 2025 reports say long answers repeated or contradicted themselves and that concise, accurate, specific answers scored higher, and responses beyond 1500 words may not be assessed.",
+   "parallelHint": "a different scenario, dataset, algorithm or worked example within the same area of computer science (for example a different route-planning problem for complexity, a different streaming or health dataset for big data, or a different validation pattern or grammar for formal languages)",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "Level 3 Digital Technologies 2026 Assessment Specifications, 91908 and 91909 (published October 2025)",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2026-Assessment-specifications/DIGI-L3-spc-2026.pdf"
+    },
+    {
+     "label": "91908 assessment specification 2026",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91908-spc-2026.pdf"
+    },
+    {
+     "label": "91908 assessment specification 2025 (for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91908-spc-2025.pdf"
+    },
+    {
+     "label": "AS91908 Version 1 (published 29 November 2018)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91908.pdf"
+    },
+    {
+     "label": "NZQA 91908 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91908"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which covers external examinations. 91908 is an end-of-year online digital examination in 2026 (2026 Assessment Specifications), so it is eligible.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. 91908 is not in these groups. No published ineligibility for 91908 was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For 91908 in 2026 that means: a supervised, typed (digital) practice exam on ONE of the 2026 areas (complexity and tractability, big data, or formal languages), with a resource booklet, short and/or extended answers totalling 800-1500 words, and no notes. A practice paper on computer graphics or computer vision (the 2025 options) does NOT match the 2026 specification.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it. Practice exams may be based on modified papers from previous years.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91908",
+     "ref": "3.9",
+     "credits": 3,
+     "version": "Version 1 (published 29 November 2018)",
+     "verified": "2026-10-25",
+     "title": "Analyse an area of computer science",
+     "criteria": {
+      "achieved": "Analyse an area of computer science.",
+      "merit": "Analyse, in depth, an area of computer science.",
+      "excellence": "Critically analyse an area of computer science."
+     },
+     "notes": [
+      "EN2: Analyse (Achieved) involves explaining the key aspects of the area of computer science, the relevant algorithms or mechanisms that underpin it, how it is used, implemented or occurs (with examples), and the key problems or issues and how they have been or may be addressed.",
+      "EN2: Analyse in depth (Merit) involves explaining in detail how the technical capabilities and limitations of the area relate to humans (with examples), and comparing and contrasting different perspectives on the area.",
+      "EN2: Critically analyse (Excellence) involves drawing insightful conclusions about the area of computer science.",
+      "EN3: Areas of computer science are: complexity and tractability, computer vision, big data, computer graphics, formal languages, network communication protocols. (NZQA specifies three of these each year in the assessment specifications.)",
+      "EN4: Insightful conclusions may include making innovative connections, exploring less obvious implications, justified predictions, suggesting improvements, justified generalisations beyond the area, and higher-level thinking such as synthesis."
+     ],
+     "examFormat": [
+      "2026 change: the three areas offered are COMPLEXITY AND TRACTABILITY, BIG DATA and FORMAL LANGUAGES (2025 offered complexity and tractability, computer vision and computer graphics). Formal languages was not offered in 2024 or 2025, so there is no recent NZQA paper for it. The 2026 specification lists detailed content: complexity (polynomial vs non-polynomial, O(1) to O(n!), best/worst/average case, P, NP, NP-complete, approximation and heuristics, optimisation, travelling salesman and knapsack); big data (volume, variety, velocity, processing and analysing different formats, interpretation, representation and bias, tools, privacy, ethics and governance); formal languages (regular expressions, simple finite-state automata, context-free grammars in programming languages, links between formal languages, compilers and complexity).",
+      "ONLINE DIGITAL examination on a laptop or desktop in 2026 (also digital in 2025). Candidates receive a printed resource booklet. The specification does not say whether the booklet is released beforehand.",
+      "Candidates choose ONE area and answer short and/or extended questions totalling 800-1500 words. The 2025 specification warned that responses beyond 1500 words may not be assessed past that limit.",
+      "2025 structure: Part One gave area-specific short-answer and applied questions (calculations, tables, worked examples, interpreting resource images); Part Two had four compulsory questions on the chosen area: (a) significance within computer science, (b) two central algorithms or mechanisms and how each works, (c) a real-world application with what it can do and its limits, (d) societal issues and opportunities, including groups it benefits and disadvantages.",
+      "2024 structure (from the schedule): three alternative questions, each with parts (a) to (f): Big data (including a case study), Complexity and tractability (including given algorithms), Network communication protocols. No 2024 paper is published on the NZQA page.",
+      "The 2026 specification advises preparing students for UNFAMILIAR contexts and for overlaps with other areas such as artificial intelligence. No time allowance is stated (91908 shares the session with 91909)."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "Marked HOLISTICALLY: the schedule gives one score code (N0-E8) for the whole response to the chosen area, across Part One and Part Two. The per-part evidence tables guide the judgement but the parts are not scored and added.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0-2, Achievement 3-4, Merit 5-6, Excellence 7-8.",
+      "N0: no response; no relevant evidence. N1/N2: makes relevant comments in some parts, but not enough to holistically show understanding; responses mostly (N1) or partly (N2) incorrect.",
+      "A3/A4: explains the key aspects of the area, the relevant algorithms or mechanisms, and how the area is used, implemented or occurs, with examples; some aspects may be partial, weak or incorrect.",
+      "M5/M6: meets A and explains in detail how the technical capabilities and limitations relate to humans, with examples, and compares and contrasts different perspectives.",
+      "E7/E8: meets M and draws insightful conclusions (connections, implications, justified predictions, suggested improvements, justified generalisations, key problems and how they may be addressed).",
+      "2024 report: minor errors were not penalised if overall understanding was clear, but errors in detailed sections often prevented higher grades. 2025 report: marking prioritised reasoning over numerical precision in calculations."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Part One, choose ONE area. Computer graphics: transformation vectors on a grid; Bresenham line points from (2,1) to (9,4) in a table and plotted; why Bresenham beats y = mx + b. Computer vision: mark edges in a pixel matrix and explain pixel-value change; three components needed for a stereo depth map; identify the Canny image versus Sobel/Prewitt and justify. Complexity and tractability: why time complexity matters; an O(log N) and an O(2^N) example and how each scales; a logistics company comparing n², n log₂n and 2ⁿ for 10 to 100 orders, which is most efficient and at what n 2ⁿ becomes infeasible at 10⁹ operations per second.",
+        "Part Two (all, on the chosen area): (a) significance of the area within computer science; (b)(i) and (ii) two central algorithms or mechanisms, how each works and why it matters; (c) a real-world application with detailed capabilities and limits; (d) how its issues and opportunities affect society, including benefiting some groups and disadvantaging others.",
+        "Resource Booklet 91908R: Bresenham's algorithm (A), ray tracing (B), CNNs, Canny, Viola-Jones/Haar and thresholding (C-F), a Big-O chart and complexity classes (G-H)."
+       ],
+       "cutScores": "N 0-2, A 3-4, M 5-6, E 7-8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91908-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91908-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91908-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91908-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Question One, Big data: the 3 Vs, data collection and data types, company uses (including supermarkets), analysis methods, problems big data introduces, applied to a case study.",
+        "Question Two, Complexity and tractability: polynomial vs non-polynomial problems, O(1), O(N), O(N²), O(2^N), O(log N), best/worst/average case on given algorithms, intractable problems.",
+        "Question Three, Network communication protocols: protocol layers, HTTP vs HTTPS, encapsulation and de-encapsulation, UDP and TCP, SSL/TLS handshake, confidentiality, integrity and availability."
+       ],
+       "cutScores": "N 0-2, A 3-4, M 5-6, E 7-8",
+       "links": [
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91908-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91908-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: described key concepts of the chosen topic with simple explanations, named relevant algorithms or techniques and their general purpose, gave a basic real-world example with a simple benefit or limitation.",
+      "2025, Merit: explained how processes work with correct terminology, described the key stages or components of algorithms or systems, applied concepts to real-world contexts discussing effectiveness and limitations; sound understanding but limited justification or evaluation.",
+      "2025, Excellence: explained in depth how AND why processes operate, justified conclusions with technical reasoning, calculations or comparisons, linked low-level mechanisms to system-level applications and implications, showed synthesis, evaluation and insight beyond isolated explanations.",
+      "2025, Not Achieved: incomplete or incorrect explanations of core concepts, failed to identify or explain the required algorithms or mechanisms, irrelevant or insufficient evidence, vague general terms without computer science depth.",
+      "2025, commentary: generalised, surface-level explanations and valuing volume over accuracy and specificity were the common errors. Students familiar with the assessment specifications were noticeably advantaged. Calculator access did not materially affect outcomes.",
+      "2024, Achievement: met the basic criteria with limited depth; examples underused and analysis surface-level.",
+      "2024, Merit: accurate understanding applied to real-world scenarios, with relevant examples and some technical detail.",
+      "2024, Excellence: deep, critical analysis with innovative connections and higher-level thinking (synthesis, evaluation, prediction); well organised and concise.",
+      "2024, Not Achieved: very brief, vague or incomplete answers or unattempted questions; superficial understanding with fundamental errors and no critical evaluation.",
+      "2024, commentary: responses should be close to the specified word count; long answers often repeated information, contradicted themselves or introduced errors. Minor errors were not penalised where understanding was clear, but errors in detailed sections often blocked higher grades."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A4, 2025)",
+       "text": "Computer vision: some correct edges and the idea that edges are changes in pixel values; recognised stereo vision needs two viewpoints; correctly picked the Canny image; named relevant algorithms with brief uses; gave a real-world example, one limitation, one benefit and one disadvantage.",
+       "miss": "Everyday language rather than gradients, convolution or direction; focal length, baseline and disparity not explained; Canny choice not justified by algorithm stages; minimal explanation of how algorithms work; limitations and societal impacts identified but not explored."
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Computer vision: mostly correct edges, named Sobel, understood triangulation and disparity, identified Canny by reduced noise, explained a relevant algorithm's steps and face detection with a use case, applied vision to manufacturing inspection with a limitation (missed defects), balanced benefits and job displacement.",
+       "miss": "Needed internal workings and the mathematics (convolution, gradient calculation, kernel behaviour), how focal length and baseline interact, sequenced Canny stages including hysteresis and gradient direction, efficiency of face detection, limitations analysed or quantified, and societal impacts evaluated rather than listed."
+      },
+      {
+       "grade": "Excellence (E8, 2025)",
+       "text": "Computer vision: edge detection tied to brightness gradients with the Sobel operator, convolution matrices and gradient direction explained mechanistically; depth treated as interdependent baseline, focal length and disparity; Canny identified and compared with Sobel/Prewitt outcomes; vision framed as an enabling pre-processing layer; cause-and-effect reasoning for both algorithms, including Haar cascade efficiency; balanced capabilities and limits without overclaiming; weighed effects on companies, workers and consumers.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year ONLINE DIGITAL exam in 2026 on a laptop or desktop, with a printed resource booklet.",
+      "The student chooses ONE of the three 2026 areas and answers only those questions. No notes. A practice exam for derived grades should be typed, supervised, use unseen questions and booklet material, and sit within 800-1500 words.",
+      "The 2025 report notes calculator access did not materially affect outcomes; whether calculators are permitted in 2026 is not stated in the specification.",
+      "Special assessment conditions are available for eligible candidates."
+     ],
+     "components": [
+      "Part One: area-specific short-answer and applied questions (calculations, worked examples, resource interpretation)",
+      "Part Two (a): significance of the area within computer science",
+      "Part Two (b): two central algorithms or mechanisms and how they work",
+      "Part Two (c): real-world application, capabilities and limitations",
+      "Part Two (d): societal issues and opportunities, who benefits and who is disadvantaged"
+     ],
+     "focusTip": "Name the area of computer science the student chose (complexity and tractability, big data or formal languages for 2026) and any booklet scenario, so technical accuracy can be checked against the right content.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the key aspects of the chosen area accurately."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the relevant algorithms or mechanisms that underpin the area (not just names them)."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains how the area is used, implemented or occurs, WITH examples."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains key problems or issues in the area and how they have been or may be addressed."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules",
+        "t": "Responses are mostly correct; mostly incorrect comments in only some parts = N1/N2."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Uses computer science terminology rather than everyday language (the A4 exemplar was held back by everyday wording)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains IN DETAIL how the technical capabilities and limitations of the area relate to humans, with examples."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Compares and contrasts DIFFERENT PERSPECTIVES on the area (e.g. groups who benefit versus those disadvantaged, competing approaches)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; M6 exemplar",
+        "t": "Describes the stages or internal components of algorithms with correct terminology, and discusses effectiveness and limitations in a real-world context."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Draws INSIGHTFUL CONCLUSIONS about the area."
+       },
+       {
+        "type": "ind",
+        "src": "EN4",
+        "t": "Insightful conclusions may be innovative connections, less obvious implications, justified predictions, suggested improvements, justified generalisations or synthesis. These are examples, not a checklist."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; E8 exemplar",
+        "t": "Explains how AND why mechanisms work (including the mathematics or worked calculations), justifies conclusions technically, links low-level mechanisms to system-level applications and societal implications, and analyses limitations rather than listing them."
+       }
+      ]
+     },
+     "watch": [
+      "A practice paper on computer graphics, computer vision or networks does not match the 2026 areas (complexity and tractability, big data, formal languages).",
+      "Formal languages has no recent NZQA paper or exemplar; teacher-written questions need checking against the 2026 specification content list.",
+      "Volume over accuracy: long answers repeated or contradicted themselves; text beyond 1500 words may not be assessed.",
+      "Naming algorithms (Dijkstra, Canny, MapReduce, a regex) without explaining how they work internally.",
+      "Societal impact listed (benefit, disadvantage) rather than evaluated with perspectives compared. This is the Merit step.",
+      "Errors in technical detail (wrong Big O, incorrect regex or automaton, misdefined NP-complete). Minor slips are tolerated; errors in the detailed sections block higher grades.",
+      "Scoring Part One and Part Two separately and adding. The schedule gives ONE holistic code."
+     ],
+     "aiLimits": "The AI cannot see diagrams, tables, grids or automata the student drew unless they are clearly captured, and cannot see the teacher's resource booklet unless supplied. The teacher must check calculations, any drawn diagrams or state machines, the word count, and that the practice exam was typed under supervision without notes.",
+     "researchNotes": "Explanatory notes are close paraphrase from the NZQA as91908 PDF (2019 folder, Version 1, the only version). The 2025 schedule wording was summarised by the fetch tool, which inferred a single holistic score from the 0-8 scale; the 2024 schedule has the same code structure. No 2024 exam paper is published on the NZQA page (the 2024 content is taken from its schedule). 2023 used Common Assessment Tasks and was not used here. The 2026 specification gives no time allowance and does not say whether the booklet is released in advance. No 2026 sample paper or formal languages exemplar was found. 2024 exemplars exist on the NZQA page but were not read.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Drama": {
+   "slug": "drama",
+   "discipline": "Both Level 3 Drama exams have three compulsory questions, each in two parts, and each question gets its own score from 0 to 8; the three scores are added to a total out of 24. Within each question, the ladder runs from describe (N) to explain simply, explain, explain in detail (A to M) to discuss, and discuss perceptively with reference to the wider context (E), and the evidence must move from limited to well-chosen. Markers reward accurate drama terminology and specific evidence from the text or performance (quotes, moments, actor and design detail), not plot retelling, length or artistic skill in sketches.",
+   "parallelHint": "a different text by a different prescribed playwright in a different theatre form or period (for example Brecht's The Caucasian Chalk Circle and Epic Theatre instead of Beckett and Absurdism), or for 91518 a different live production with different drama components (for example a different convention, character or technology)",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "Level 3 Drama 2026 Assessment Specifications, 91514 and 91518 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91514-spc-2026.pdf"
+    },
+    {
+     "label": "AS91514 Version 4 (published 23 November 2017)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91514.pdf"
+    },
+    {
+     "label": "AS91518 Version 3 (published 28 November 2019)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2020/as91518.pdf"
+    },
+    {
+     "label": "NZQA 91514 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91514"
+    },
+    {
+     "label": "NZQA 91518 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91518"
+    },
+    {
+     "label": "2025 Level 3 Drama Assessment Report (91514 and 91518)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91514-report-2025.pdf"
+    },
+    {
+     "label": "2024 Level 3 Drama Assessment Report (91514 and 91518)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91514-report-2024.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which covers external examinations. 91514 and 91518 are both end-of-year printed-paper examinations in 2026 (2026 Assessment Specifications), so both are eligible.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. Neither Drama standard falls into these groups. No published ineligibility for 91514 or 91518 was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For 91514 that means: three compulsory two-part questions the students have NOT seen beforehand, answered from memory about ONE text by a prescribed playwright (2026 list), under supervision, without the script or notes. For 91518 it means the same structure about ONE performance the student watched as an audience member in the 2026 calendar year (live, or a recording made of or for a live audience).",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it. Practice exams may be based on modified papers from previous years.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91514",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 4 (published 23 November 2017)",
+     "verified": "2026-10-25",
+     "title": "Interpret a text from a prescribed playwright to demonstrate knowledge of a theatre form or period",
+     "criteria": {
+      "achieved": "Interpret a text from a prescribed playwright to demonstrate knowledge of a theatre form or period.",
+      "merit": "Interpret a text from a prescribed playwright to demonstrate informed knowledge of a theatre form or period.",
+      "excellence": "Interpret a text from a prescribed playwright to demonstrate perceptive knowledge of a theatre form or period."
+     },
+     "notes": [
+      "EN2: Demonstrate knowledge (Achieved) involves explaining the theatre form or period by making links between the text and the form or period.",
+      "EN2: Demonstrate informed knowledge (Merit) involves making detailed connections between the text and the theatre form or period that show thorough understanding.",
+      "EN2: Demonstrate perceptive knowledge (Excellence) involves making insightful connections between the features of the form, the purpose(s) of the text and the wider context.",
+      "EN3: Knowledge refers to the history and features of the theatre form or period.",
+      "EN4: Features may include performance space, acting styles, themes or ideas, conventions, use of technology, and historical or sociological context.",
+      "EN5: Playwrights are selected from the list of prescribed playwrights published annually by NZQA in the assessment specifications."
+     ],
+     "examFormat": [
+      "2026: no format change found. The 2026 specification says the exam is PRINTED PAPER and that question formats will be 'similar to those in previous years'. The prescribed playwright list is published in the 2026 specification (about 40 playwrights, with suggested texts; other texts by those playwrights are allowed if they allow in-depth exploration of the form or period).",
+      "The candidate records ONE studied text, its playwright, and the theatre form or period, and uses that text for all three questions. All three questions are compulsory, with no choice. There is no resource booklet or extract.",
+      "Each question has two parts: (a) usually explains a feature in the text with specific, detailed examples; (b) discusses how it reflects the form or period, its style, purpose or social and historical context. Optional prompts ('you may consider…') are given in (b).",
+      "Answers may combine writing and annotated sketches or diagrams (2026 specification). Sketches are marked on the information conveyed, not artistic merit; stick figures are acceptable. Papers include a sketch space for the technology question.",
+      "No time allowance or word guidance is printed. The 2025 booklet had about two pages per question (pages 4-10) plus extra space."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each of the three questions is scored separately with a code from N0 to E8, covering parts (a) and (b) together. The three scores are totalled out of 24.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0-7, Achievement 8-13, Merit 14-18, Excellence 19-24.",
+      "Per-question ladder (2025 Q1(a) as example): N1 describes, simply, a typical character; N2 describes a typical character; A3 explains, simply, how a character is typical of the time and/or place; A4 explains how; M5 explains in some detail; M6 explains in detail; E7 discusses; E8 discusses in detail.",
+      "In part (b), E7 and E8 require discussion 'showing some perception' (E7) or 'perceptively' (E8) WITH reference to the wider context.",
+      "Evidence descriptors rise with the codes: from limited reference to evidence (N/A) to evidence, detailed evidence (M) and well-chosen evidence (E).",
+      "Wider context at Excellence includes the playwright's purpose, the social and historical context, other plays or playwrights of the form, and the nature or purpose of theatre (2026 specification and Assessment Reports)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 (key character and social and historical context): (a) identify a key character and explain how they are typical of the play's time and/or place; (b) discuss how the playwright's social and historical context shaped the character (social structures, historical events, beliefs and values).",
+        "Q2 (performance convention): (a) identify a convention typical of the form or period and explain how actor(s) would use it in a key moment; (b) discuss how the convention reflects the style of the form or period (realistic or non-realistic, actor-audience relationship, purpose).",
+        "Q3 (tension and technology): choose a moment of tension; (a) explain how technology would typically have been used to create the tension (optional annotated sketch); (b) discuss how the moment communicates a key idea or theme (issues of the form or period, conflicting viewpoints, the play's world versus its society)."
+       ],
+       "cutScores": "N 0-7, A 8-13, M 14-18, E 19-24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91514-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91514-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91514-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 (playwright's purpose and social context): (a) explain the playwright's key purpose in the text (intended effect on the audience); (b) explain how the social and historical context influenced that purpose.",
+        "Q2 (acting style): choose a key moment; (a) explain how actor(s) would use the typical acting style of the form or period; (b) explain how this use of acting style is typical of the form or period (techniques, conventions, effect on audience, function of the actor).",
+        "Q3 (setting): choose a typical setting (time and/or place); (a) explain how technology would typically have been used to show the setting (optional annotated sketch); (b) explain what the setting communicates to the audience."
+       ],
+       "cutScores": "N 0-7, A 8-13, M 14-18, E 19-24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91514-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91514-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91514-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: relied on plot retelling rather than targeted evidence, gave little social or historical context, weaker terminology.",
+      "2025, Merit: accurate terminology and specific quotes or plot and character details; discussed the text as PERFORMANCE; understood social and historical influences, though sometimes included less relevant material.",
+      "2025, Excellence: a wide range of supporting detail and detailed links between text and context; thinking beyond facts; considered the audience's role; referred to other plays, playwrights or events of the time.",
+      "2025, Not Achieved: omitted sections, misread questions, identified the wrong form, gave weak or incorrect evidence, or treated one section of a text as representative of the whole form. Errors were most common with Realism, American Realism and NZ Theatre.",
+      "2025, commentary: Absurdism, Epic Theatre and Greek Theatre gave more detailed, knowledgeable answers; Feminist and Elizabethan texts worked when unpacked thoroughly. NZ theatre was popular but often misidentified (e.g. An Unseasonable Fall of Snow; Niu Sila treated as Realism rather than NZ/Pacific theatre). Māori and Pacific forms were underused. Realism was used as a default with inaccurate definitions, and wrongly named as a convention. Discussing acting process (e.g. emotional memory) or the candidate's own performance was not relevant. Centres with a wide spread of unrelated texts produced less perceptive answers.",
+      "2024, Achievement: mostly accurate detail on form and text, but plot-based evidence rather than specific examples or quotes; limited social or historical context; some irrelevant material.",
+      "2024, Merit: accurate evidence on text and form with varied details, specific examples and quotes; understood social and historical influences on the playwright and how they shaped the form; complete answers, though evidence could be better selected.",
+      "2024, Excellence: insightful commentary beyond facts (e.g. how purpose shapes production choices and audience impact); perceptive links between text and original context; broader knowledge of other plays, playwrights and events; used the bullet prompts selectively; carefully chosen, detailed evidence.",
+      "2024, Not Achieved: used texts not on the prescribed list, inaccurate terminology, misread questions, incorrect information, very little textual evidence, appeared to have studied the text independently, or discussed their own performance work.",
+      "2024, common errors: defaulting to Realism for texts without a clear form or acting style; textual (literary) analysis instead of performance."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (12 = A4, A3, M5; 2024)",
+       "text": "Q1: purpose identified and explained concisely with some textual evidence, linked to Cold War context. Q3 reached M5: set and costume explained with specific detail, an appropriate sketch, and connections beyond the play.",
+       "miss": "Q1 needed more detail and more direct evidence from the form and text (the Cold War point was general). Q2 had limited textual evidence and a brief explanation in both parts."
+      },
+      {
+       "grade": "Merit (16 = M5, M5, M6; 2024)",
+       "text": "Greek theatre (apparently Antigone): purpose of challenging social beliefs explained with a specific line; historical context with quotes; acting style (extended movement, strong stance) and the chorus with evidence; amphitheatre and masks explained in detail with a sketch.",
+       "miss": "The commentary does not state the gap. By EN2 and the schedule, Excellence needs perceptive discussion linking features of the form, the text's purpose and the wider context, with well-chosen evidence."
+      },
+      {
+       "grade": "Excellence (23 = E8, E7, E8; 2024)",
+       "text": "Q1: perceptive discussion of the playwright's purpose with well-chosen evidence, connecting text, historical context and form. Q2: discussed with some perception how the acting style makes the audience think rather than feel, and how it supports the text's ideas. Q3: insightful discussion of venue contrast and set technology, connected to events when the text was written.",
+       "miss": "Q2 was E7 ('some perception') rather than E8."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on PRINTED PAPER in 2026.",
+      "No script, notes or resource booklet: the student must recall quotes and examples. A practice exam for derived grades must replicate this and use questions students have not seen beforehand.",
+      "The text must be by a playwright on the 2026 prescribed list. A non-prescribed text was a Not Achieved pattern in 2024.",
+      "Answers may include annotated sketches; diagrams are judged on information conveyed, not artistic merit.",
+      "Special assessment conditions are available for eligible candidates."
+     ],
+     "components": [
+      "Question One (2025): key character and social and historical context",
+      "Question Two (2025): performance convention of the form or period",
+      "Question Three (2025): moment of tension, technology and key idea"
+     ],
+     "focusTip": "Name the student's text, playwright and the theatre form or period they recorded on the cover, so the form identification and textual evidence can be checked first.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS the theatre form or period by making links between the text and the form or period (description of the play alone is N)."
+       },
+       {
+        "type": "req",
+        "src": "EN5; 2026 specification",
+        "t": "The text is by a playwright on the prescribed list, and the named form or period is one the text actually belongs to."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule",
+        "t": "Each answer is supported by evidence from the text (at least limited reference at A3)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Answers stay on the text as PERFORMANCE in its original form, not literary analysis, a modern production, or the student's own performance or acting process."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Accurate drama terminology (e.g. Realism used correctly, not as a convention)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes DETAILED connections between the text and the form or period that show thorough understanding."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Explanations are in some detail (M5) or in detail (M6), with detailed, specific evidence: quotes, moments, character and staging details."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Shows how social and historical influences shaped the playwright, the text and the form."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes INSIGHTFUL connections between the features of the form, the purpose(s) of the text AND the wider context."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "DISCUSSES (with some perception at E7, perceptively at E8), with reference to the wider context and well-chosen evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Thinks beyond facts: the audience's role, how purpose shapes production choices, other plays, playwrights or events of the period; uses the prompts selectively."
+       }
+      ]
+     },
+     "watch": [
+      "Plot retelling instead of explaining features of the form: the most common cap at Achievement.",
+      "Wrong or default form, especially Realism, American Realism and NZ theatre. Check the form is right for the text before marking.",
+      "Answers about the student's own performance or rehearsal process, or a modern production seen, rather than the form or period.",
+      "Generic context (e.g. 'the Cold War') that is not tied to the text and purpose; held the 2024 A exemplar back.",
+      "Sketches marked on drawing quality. They are judged on the information and annotations only.",
+      "Scoring the paper holistically. Each question gets its own N0-E8 code, then the three are added (out of 24).",
+      "Repeated content across questions: credit the same point once."
+     ],
+     "aiLimits": "Handwritten scripts and annotated sketches may be misread or not seen clearly in a scan, and the AI cannot verify quotations or staging details against the student's text unless it is supplied. The teacher must check sketch content, the accuracy of quotes and form features, and that the text is on the 2026 prescribed list.",
+     "researchNotes": "Explanatory notes are close paraphrase from the NZQA as91514 PDF (2019 folder, Version 4), with EN2 Merit and Excellence wording partly quoted; EN1 and EN6 (curriculum origin, specification location) omitted. The 2026 specification states printed paper and similar question formats; no 2026 change was found, but the 2025 specification was not read to compare. Score-code wording beyond 2025 Q1(a) was summarised, not quoted. The 2024 and 2025 cut scores were read from the schedules. The exam time allowance was not found. 2025 exemplars were not listed on the NZQA page (2024 only). The Merit exemplar text name is an inference (Greek tragedy, apparently Antigone). Exemplar 'miss' fields marked 'not stated' are my reading of the schedule, not NZQA commentary.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91518",
+     "ref": "3.7",
+     "credits": 4,
+     "version": "Version 3 (published 28 November 2019)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of live drama performance",
+     "criteria": {
+      "achieved": "Demonstrate understanding of live drama performance.",
+      "merit": "Demonstrate informed understanding of live drama performance.",
+      "excellence": "Demonstrate perceptive understanding of live drama performance."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves making links between the drama components used in the performance and the director's and/or designer's concept.",
+      "EN2: Demonstrate informed understanding (Merit) involves making detailed links between the drama components used in the performance and the director's and/or designer's concept.",
+      "EN2: Demonstrate perceptive understanding (Excellence) involves making insightful links between the drama components used, the director's and/or designer's concept, and the wider context.",
+      "EN3: Drama components include elements, conventions, techniques and technologies.",
+      "EN4: Live drama performance refers to theatre performed in front of an audience in real time. Students are expected to have attended a live drama performance.",
+      "2026 specification: the performance must have been viewed as an audience member in the 2026 calendar year; it can be live or a recording made for or of a live audience. For Excellence, 'wider context' can mean the performance as a whole, the playwright's purpose, the nature or purpose of theatre as an art form, or the social or historical context."
+     ],
+     "examFormat": [
+      "2026: no format change found. PRINTED PAPER; question formats 'similar to those in previous years' (2026 specification). The performance must have been seen in 2026; a recorded live performance is acceptable.",
+      "The candidate records the title, playwright and theatre company or ensemble of ONE performance and uses it for all three questions. All questions are compulsory; candidates must not repeat information across answers.",
+      "Each question focuses on one drama component (e.g. convention, techniques/character, technology) in two parts: (a) explain how it was used in a specific moment, with specific details; (b) discuss what it communicated or why it was effective, with optional prompts including the director's or designer's concept.",
+      "Answers may combine writing and annotated sketches; sketch spaces are provided (2025: Q3; 2024: Q1 and Q3). Diagrams are judged on information conveyed, not artistic merit.",
+      "No time allowance or word guidance is printed."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each of the three questions is scored separately with a code from N0 to E8, covering parts (a) and (b) together. The three scores are totalled out of 24.",
+      "Cut scores (2025 schedule): Not Achieved 0-7, Achievement 8-13, Merit 14-18, Excellence 19-24.",
+      "Per-question ladder (2025 Q1(a) as example): N1 describes, simply, a change in the performance; N2 describes a change; A3 explains, simply, how an event or situation caused a significant change; A4 explains how; M5 explains in some detail; M6 explains in detail; E7 discusses; E8 discusses in detail.",
+      "Part (b) follows the same pattern for what the component communicated; E7 and E8 discuss with perception (E8 most perceptive).",
+      "Evidence from the performance rises with the codes: limited, then evidence, then detailed, then well-chosen."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 (a significant event): (a) explain how an event or situation caused significant change; (b) discuss what this change communicated to the audience (time period, social structures or power, director's intention).",
+        "Q2 (character motivation): (a) explain how an actor used techniques to show a character's motivation in a key moment; (b) discuss what the techniques revealed about the motivation (purpose, influences on decisions, insights into human nature).",
+        "Q3 (technologies and transitions): (a) explain how technology was used in a scene transition (sketch space); (b) discuss why this was effective (entrances and exits, time, place and tension, links to the overall design concept)."
+       ],
+       "cutScores": "N 0-7, A 8-13, M 14-18, E 19-24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91518-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91518-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91518-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 (a drama convention): (a) describe how a convention was used at a key moment (sketch space); (b) discuss what it communicated (time, tension or focus, a key idea, the director's concept).",
+        "Q2 (techniques and status): (a) describe how an actor used techniques to show a key character's status at a specific moment; (b) discuss how status affected the character's relationships (gender, age, culture, economics, social order).",
+        "Q3 (technologies and mood): (a) explain how technology created two different moods (sketch space); (b) discuss how effective the technology was (emotional impact, purpose of the contrast, overall design concept)."
+       ],
+       "cutScores": "Not confirmed from the 2024 schedule (the 2024 91514 schedule used N 0-7, A 8-13, M 14-18, E 19-24)",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91518-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91518-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91518-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: strong answers described the performance thoroughly, used precise evidence and explained how components work together. Candidates often needed to link the director's or designer's concept to what they saw. Identifying the key words in each question helped. Use of the sketch boxes is encouraged.",
+      "2025, Achievement: described what was seen without unpacking the question, brief explanations with limited evidence, wider context added without linking it to the question.",
+      "2025, Merit: detailed explanations with evidence linked to the question, annotated sketches, purposeful understanding of components, confident terminology.",
+      "2025, Excellence: a clear, detailed outline of the performance, well-chosen evidence, sketches with informative annotations; discussed the performance's purpose and audience impact, with perceptive understanding of the director's or designer's intentions.",
+      "2025, Not Achieved: misunderstood the question's intent, summarised the plot, described components without evidence, omitted questions, weak drama vocabulary.",
+      "2024, Achievement: understood terminology, some grasp of how components connected to intentions and audience impact, evidence with limited detail, recognised the need to explain not just describe.",
+      "2024, Merit: detailed explanations of how components communicate with audiences; thorough links to the director's or designer's intentions; more than one detailed, relevant example; sketches and annotations.",
+      "2024, Excellence: confident, accurate vocabulary; insightful discussion of audience communication; connected components, intentions and wider context; carefully selected evidence.",
+      "2024, Not Achieved: limited vocabulary, components identified with minimal detail, or described without explanation or performance evidence.",
+      "2024, practice: choose productions that clearly show drama components (established playwrights, reputable NZ companies, productions with education resources). Higher-grade candidates usually analysed productions they had VIEWED, not ones they performed in or devised."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (10 = A4, A3, A3; 2024)",
+       "text": "Simple explanation of song as a convention and how music communicated fear; simply explained a father's low status through mumbling, hunched torso and stumbling; simply explained lighting colours creating an uplifting mood and dark sound effects.",
+       "miss": "The commentary repeatedly calls the explanations 'simple'. By the schedule, Merit needs explanation in (some) detail with detailed evidence and links to the director's or designer's concept."
+      },
+      {
+       "grade": "Merit (16 = M5, M5, M6; 2024)",
+       "text": "Described freeze-frame in Reverend Pita's church address and explained in some detail how it sharpened focus; explained Maka's status as a leader with specific examples; explained in detail how lighting shaped mood and the character's insecurities, supported by a sketch.",
+       "miss": "The commentary does not state the gap. By EN2, Excellence needs insightful links between components, concept and the wider context."
+      },
+      {
+       "grade": "Excellence (24 = E8, E8, E8; 2024)",
+       "text": "Scenes from a Climate Era: perceptive discussion of a split stage in the penultimate scene with a detailed annotated sketch, linked to climate change and the responsibility of governments; perceptive account of techniques portraying a genetically engineered mouse and its status; perceptive discussion of sound and costume creating contrasting moods of fear and hope, with an annotated sketch.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on PRINTED PAPER in 2026.",
+      "The performance must have been seen by the student as an audience member in 2026 (live or a recording of or for a live audience). A performance the student was in or devised was weaker evidence (2024 report).",
+      "No notes, programme or recording in the exam. A practice exam for derived grades must use unseen questions, answered from memory under supervision.",
+      "Annotated sketches are allowed and encouraged; judged on information, not artistic merit.",
+      "Special assessment conditions are available for eligible candidates."
+     ],
+     "components": [
+      "Question One (2025): a significant event and what the change communicated",
+      "Question Two (2025): actor techniques showing character motivation",
+      "Question Three (2025): technology in a scene transition and its effectiveness"
+     ],
+     "focusTip": "Name the production, playwright, company and date the student saw it, and what the director's or designer's concept was, so performance details can be checked.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes LINKS between the drama components used and the director's and/or designer's concept: explains, not just describes what was seen."
+       },
+       {
+        "type": "req",
+        "src": "EN4; 2026 specification",
+        "t": "Refers to ONE performance the student watched as an audience member in 2026 (live or a recording of a live performance)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule",
+        "t": "Each answer is supported by evidence from the performance (at least limited at A3)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "The answer unpacks the question's key words (e.g. motivation, transition, status), rather than a plot summary or a general description of the production."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Accurate drama vocabulary for elements, conventions, techniques and technologies."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes DETAILED links between the components and the director's or designer's concept."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Explanation in some detail (M5) or in detail (M6), with detailed, specific performance evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; M exemplar",
+        "t": "More than one detailed example; annotated sketches that add information; explains how components communicate with the audience."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes INSIGHTFUL links between the components, the concept AND the wider context (the whole performance, playwright's purpose, purpose of theatre, or social or historical context)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "DISCUSSES with perception, supported by well-chosen evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report; E8 exemplar",
+        "t": "Discusses the performance's purpose and audience impact; wider context woven in (e.g. climate change and government responsibility), not tacked on."
+       }
+      ]
+     },
+     "watch": [
+      "Plot summary instead of how a component was used and why: the most common Not Achieved pattern.",
+      "Wider context added but not linked to the question (2025 Achievement pattern).",
+      "Describing a component without naming the director's or designer's intention behind it.",
+      "A performance the student acted in or devised, or one seen before 2026, does not meet the specification conditions.",
+      "Repeating the same moment or point across questions; candidates are told not to repeat information.",
+      "Sketches marked on drawing quality; they are judged only on the information and annotations.",
+      "Scoring holistically. Each question gets its own N0-E8 code, then the three are added (out of 24)."
+     ],
+     "aiLimits": "The AI cannot see the performance, so it cannot verify that described moments, staging, lighting or sound actually happened as stated. Handwritten answers and annotated sketches may be misread in scans. The teacher must confirm the production details, the accuracy of performance evidence, and that the student saw it as an audience member in 2026.",
+     "researchNotes": "Explanatory notes are close paraphrase from the NZQA as91518 PDF (2020 folder, Version 3); EN1 and EN5 (curriculum origin, specification location) omitted. The 2025 and 2024 assessment reports are combined Drama reports. The 2024 91518 schedule was not read, so its cut scores are not confirmed. Score-code wording beyond 2025 Q1(a) was summarised, not quoted. The exam time allowance was not found. 2025 exemplars were not listed (2024 only). The production names for the A and M exemplars are not given in the commentary. Exemplar 'miss' fields marked 'not stated' are my reading of EN2 and the schedule, not NZQA commentary.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Earth & Space Science": {
+   "slug": "earth-and-space-science",
+   "discipline": "Each Level 3 Earth and Space Science paper has three compulsory questions that mix resource-based and knowledge-based material. Each question is marked on its own against an evidence list and gets a score code from N0 to E8. The three codes are added to a total out of 24, and the year's cut scores turn that total into the grade. Credit depends on explaining processes with physical principles (density, Coriolis effect, latent heat, absorption and re-emission of radiation, carbonate chemistry) and linking them into a cause-and-effect chain in the given location. Annotated diagrams count when they are referred to in the answer. Naming processes, describing layers without processes, and length are never the criterion.",
+   "parallelHint": "a different location or event showing the same process (e.g. Peruvian or Californian upwelling instead of Somalia; a different volcanic eruption; the North Atlantic instead of the Southern Ocean carbon sink; a different season or latitude for thermocline questions), not the 2024 or 2025 exam contexts",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Earth and Space Science 91413 and 91414 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91413-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91413-spc-2025.pdf"
+    },
+    {
+     "label": "AS91413 Version 3 (published 9 December 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2025/as91413.pdf"
+    },
+    {
+     "label": "AS91414 Version 3 (published 9 December 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2025/as91414.pdf"
+    },
+    {
+     "label": "AS91413 Version 2 (2016, expired; for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91413.pdf"
+    },
+    {
+     "label": "AS91414 Version 2 (2016, expired; for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91414.pdf"
+    },
+    {
+     "label": "NZQA 91413 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91413"
+    },
+    {
+     "label": "NZQA 91414 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91414"
+    },
+    {
+     "label": "2025 NCEA Level 3 Earth and Space Science Assessment Report (91413 and 91414)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91413-report-2025.pdf"
+    },
+    {
+     "label": "2024 NCEA Level 3 Earth and Space Science Assessment Report (91413 and 91414)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91413-report-2024.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91413 and 91414 are end-of-year printed-paper examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. Neither standard falls into these groups, so both are eligible. NZQA does not name Earth and Space Science specifically: this is my reading of the rule.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That means a practice assessment matching the format and conditions of the external, with grades submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "Standard-specific matters here: both standards were re-registered as Version 3 (published 9 December 2025), and NZQA marks the 2024 and 2025 papers, schedules and reports as 'based on an expired version of the achievement standard' that 'may not reflect' assessments from 2026. A practice exam must sit inside the Version 3 explanatory notes and the 2026 specification, for example no tides or waves questions in 91413.",
+    "For each standard the evidence should be three compulsory questions (resource-based and knowledge-based), unseen contexts, supervised conditions with no notes, and marking with N0–E8 codes per question totalled out of 24. Each standard is a separate grade.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria, must be the student's own, and should be verified by a suitably qualified second reader. Practice exams may be based on modified papers from previous years, which here means modifying them to the Version 3 scope.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91413",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 3 (published 9 December 2025; status date 27 November 2025). Replaces Version 2 (17 November 2016).",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of processes in the ocean system",
+     "criteria": {
+      "achieved": "Demonstrate understanding of processes in the ocean system.",
+      "merit": "Demonstrate in-depth understanding of processes in the ocean system.",
+      "excellence": "Demonstrate comprehensive understanding of processes in the ocean system."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves explaining processes and links within the processes in the ocean system.",
+      "EN2: Demonstrate in-depth understanding involves explaining links between the processes in the ocean system.",
+      "EN2: Demonstrate comprehensive understanding involves discussing the complexity of the ocean system.",
+      "EN3 (Version 3): Processes in the ocean system are selected from: ocean composition – gradients, temperature, density, salinity, pressure; ocean circulation – surface and thermohaline circulations, Coriolis effect; carbon cycle – carbonate chemistry, physical pumps, biological pumps; transport of matter and energy – heat and nutrients.",
+      "EN3 change from Version 2: Version 2 listed transport of matter and energy as 'heat, tides, waves' and had a separate 'Southern Oscillation – El Niño and La Niña' process. Version 3 lists 'heat and nutrients' and drops the separate Southern Oscillation process.",
+      "2026 specification: climate change effects on ocean processes may be examined; ocean composition includes the mixed layer, deep layer, pycnocline, thermocline and halocline; transport of matter and energy covers surface and deep currents and the links between them, which may include Ekman transport linked to upwelling; changes to ocean circulation and structure may be assessed in relation to ENSO."
+     ],
+     "examFormat": [
+      "2026 change: the standard is now Version 3 (December 2025). Tides and waves have been removed from the processes (Version 3 EN3 and the 2026 specification, which drops the 2025 note on 'the formation and effects of tides and waves'). ENSO is no longer a separate process but may be assessed through changes to ocean circulation and structure. Ekman transport linked to upwelling is newly named. NZQA labels the 2024 and 2025 papers as based on the expired version. Format is unchanged: an end-of-year examination on PRINTED PAPER.",
+      "Three compulsory questions, each with a context, one or more resources (graphs, maps, diagrams), a 'Discuss/Explain/Compare…' task and bullet points to consider. Each exam includes resource-based and knowledge-based questions. No choice.",
+      "Candidates are encouraged to draw their own labelled, annotated diagrams; the papers say an annotated diagram may help.",
+      "2025 contexts: New Zealand's seasonal thermocline and pycnocline; the Southern Ocean carbon sink; Somali seasonal upwelling and fishing. 2024 contexts: ocean layers at different latitudes; La Niña to El Niño and effects on New Zealand; Marshall Islands flooding from sea level rise, spring tides and storms (the tides content is now outside Version 3).",
+      "16-page booklet, about four pages per question plus extra space. No time or word guidance on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question gets one N0–E8 code from the schedule's Achievement, Merit and Excellence evidence lists; the three codes are added to a total out of 24.",
+      "2025 codes (all questions): N0 no response or response does not relate to the question; N1 describes ONE idea at Achievement level; N2 TWO; A3 THREE; A4 FOUR; M5 TWO Merit answers; M6 THREE Merit answers; E7 ONE Excellence answer; E8 TWO Excellence answers.",
+      "2025 schedule headings: Achievement 'Describes with understanding', Merit 'Explains in detail', Excellence 'Explains comprehensively'. Excellence points are integrated chains (e.g. how wind direction, Coriolis and upwelling via the Ekman spiral are linked off Somalia in summer).",
+      "2024 codes: N1–A4 one to four points from Achievement; M5 two and M6 three points from Merit; E7 one and E8 two points from Excellence (Q3 E8 'TWO linked points from Excellence').",
+      "Cut scores 2025: Not Achieved 0–7, Achievement 8–13, Merit 14–18, Excellence 19–24. Cut scores 2024: Not Achieved 0–6, Achievement 7–12, Merit 13–18, Excellence 19–24. The cut scores change by year, so use the year matching the practice paper or state which you used."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: New Zealand's thermocline (temperature–depth graph of seasonal thermoclines with mixed, transition and deep layers). Discuss seasonal changes in thermocline and pycnocline: how the thermocline and the three layers form; reasons for seasonal variation at mid-latitudes; how thermocline changes affect pycnocline formation.",
+        "Q2: Southern Ocean carbon sink (graph of cumulative ocean CO2 uptake since 1850). Explain how it absorbs large amounts of CO2: biological and physical pumps; effects of storing more CO2 on ocean chemistry (carbonate equations); reasons the Southern Ocean absorbs so much (temperature, waves, downwelling).",
+        "Q3: Somalia seasonal upwelling (map of western Indian Ocean currents; upwelling diagram). Compare summer and winter monsoon fishing: role of the south-west wind and Coriolis effect in upwelling; source of nutrients; effect on productivity; conditions causing downwelling in the winter monsoon."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91413-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91413-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91413-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Layers of the ocean (Figure 1, layers at different latitudes). Describe density, temperature and salinity of each layer; explain how each forms; explain why layer depths differ at low, mid and high latitudes.",
+        "Q2: ENSO effects on New Zealand (central Pacific surface temperatures, 2023 La Niña to El Niño shift). Compare the western equatorial Pacific in El Niño and La Niña (winds, currents, surface temperature, thermocline depth, sea level) and explain the likely effect on New Zealand.",
+        "Q3: Marshall Islands tidal flooding, December 2021 (map; global mean sea level since 1870). Effects of climate change on sea level; causes and effects of spring and other extreme high tides; how climate change, tropical storms and spring tides combine to raise flood risk. Tides are outside Version 3."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91413-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91413-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91413-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: explained temperature differences between layers with some reference to seasons; partial understanding of the biological and/or physical pumps; described a chemical reaction in the ocean carbon cycle; linked upwelling to nutrient-rich water reaching the surface.",
+      "2025, Merit: linked temperature and density to explain how the mixed layer, thermocline and pycnocline form, comparing seasons to explain thermocline strength; showed how one pump process drives another (photosynthesis to marine snow; dissolution to acidification); gave two carbon-cycle reactions with equations; explained how wind and Coriolis move surface water offshore, causing upwelling that supports fisheries.",
+      "2025, Excellence: explained how seasonal wind changes mix heat deeper and so set the depth of the surface layer, thermocline and pycnocline; comprehensively explained causes and effects of the pumps in storing large amounts of CO2; comprehensively explained surface winds, Coriolis and Ekman spirals combining to move water and nutrients. These candidates planned methodically, had revised past papers and used diagrams as planning and evidence.",
+      "2025, Not Achieved: explained layers by latitude instead of by season as asked; defined the thermocline only as temperature change with depth; named photosynthesis or acidification without Level 3 detail; little understanding of what causes upwelling or of the Coriolis effect; used El Niño/La Niña to explain Somali upwelling instead of ocean circulation.",
+      "2025, commentary: candidates who answered all three questions were much more likely to achieve; skipping one usually meant too few points. Diagrams referred to in the written answer gave more structured responses.",
+      "2024, Achievement: answered two of three well; described basic facts about layers, ENSO and sea level rise without applying them to the context; described normal tides but not spring tides; brief answers to all parts.",
+      "2024, Merit: complete answers to all aspects and all three questions; explained why layers have different properties, how winds drive water movement in ENSO, and how melting land ice raises sea level.",
+      "2024, Excellence: complete, comprehensive answers that applied understanding to the contexts and linked the parts of each question; explained how winds at different latitudes change mixed-layer and transition-layer depth; full ENSO consequences in the western Pacific and around Aotearoa; annotated diagrams supporting the writing.",
+      "2024, Not Achieved: partial answers; only one property per layer (temperature, not salinity or density); ENSO effects in the eastern Pacific; wind without water movement or the reverse; sea level rise from melting SEA ice; spring tides 'only in spring'. Unfamiliar contexts separated the top performers; diagrams must link to the question through annotation or reference."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (4, 4, 5 = 13, 2025)",
+       "text": "Q1: basic Level 3 understanding, defining key structures of the ocean layers. Q2: a wide range of carbon-cycling ideas. Q3 (M5): linked upwelling of cold, deep, nutrient-rich water to the food web and Somali fishing.",
+       "miss": "Q2: 'limited depth to the explanations… ideas were not linked into a cohesive argument'. Q3: did not link the Coriolis effect/Ekman spiral to moving water away from the coast to increase upwelling."
+      },
+      {
+       "grade": "Merit (5, 5, 6 = 16, 2025)",
+       "text": "Q1 explained formation of the layers and seasonal effects. Q2 showed in-depth carbonate chemistry through acidification equations. Q3 explained the processes causing upwelling.",
+       "miss": "Q1 did not explain the thermocline as a barrier to mixing of surface and deep layers. Q2's explanation of the physical and biological pumps was weak. Q3's processes 'were not sufficiently linked together to demonstrate a comprehensive understanding for excellence'."
+      },
+      {
+       "grade": "Excellence (8, 8, 8 = 24, 2025)",
+       "text": "Q1 linked seasonal sunlight and wind strength to mixed-layer thickness and the starting depth of the thermocline and pycnocline. Q2 connected all ideas of the biological and physical pumps and how they work together. Q3 gave a logical, sequential explanation of summer upwelling applied to Somalia, then reversed it for winter.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external examination on printed paper (2026). Handwritten answers with optional annotated diagrams.",
+      "No notes. Contexts and resource figures are unseen; some questions are knowledge-based.",
+      "Practice evidence must fit the Version 3 standard and the 2026 specification, not the expired Version 2 scope of the 2024 and 2025 papers.",
+      "Special assessment conditions, including Aromatawai, are available as published by NZQA."
+     ],
+     "components": [
+      "Question One: ocean layers, seasonal thermocline and pycnocline (New Zealand)",
+      "Question Two: biological and physical carbon pumps and ocean acidification (Southern Ocean)",
+      "Question Three: monsoon winds, Coriolis effect, Ekman transport, upwelling and downwelling (Somalia)"
+     ],
+     "focusTip": "Name the location and process for each question (e.g. 'Q1 NZ seasonal thermocline, Q2 Southern Ocean pumps, Q3 Somali upwelling') and attach the resource figures, so the AI can check the answer uses that place and season rather than a generic or latitude-based answer.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS processes and links within the processes in the ocean system (e.g. warmer water is less dense so it forms the surface layer; CO2 dissolves to form carbonic acid, lowering pH)."
+       },
+       {
+        "type": "req",
+        "src": "EN3 (Version 3)",
+        "t": "The processes are from the Version 3 list: composition and gradients, surface and thermohaline circulation with the Coriolis effect, carbon cycle (carbonate chemistry, physical and biological pumps), transport of heat and nutrients."
+       },
+       {
+        "type": "ind",
+        "src": "Assessment schedules 2024, 2025",
+        "t": "Three or four Achievement ideas per question and a total reaching the Achievement cut score (8 in 2025; 7 in 2024)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All three questions attempted, and the answer addresses what was asked (season not latitude; western not eastern Pacific)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS LINKS BETWEEN the processes in the ocean system (e.g. wind mixing sets the thermocline depth, which sets the pycnocline; photosynthesis leads to marine snow; Coriolis-deflected wind-driven flow causes upwelling and productivity)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule (Q2)",
+        "t": "Carbonate chemistry shown with two relevant equations with charges and supporting explanation (balancing not required)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Uses physical principles (density, Coriolis, temperature-dependent solubility) rather than naming processes."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "DISCUSSES THE COMPLEXITY of the ocean system: several processes linked into one cause-and-effect chain applied to the given place and time (e.g. wind direction, Coriolis and the Ekman spiral producing upwelling in summer AND downwelling in winter)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Excellence and Merit exemplars",
+        "t": "Covers the whole of the question (all seasons; both pumps working together; the thermocline's barrier function) in a logical, sequential argument."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Annotated diagrams used as planning and evidence, referred to in the writing."
+       }
+      ]
+     },
+     "watch": [
+      "Practice papers recycled from 2024 (Marshall Islands tides) or older tides and waves questions are outside Version 3 and will not match the 2026 exam.",
+      "Answering by latitude when the question asks about seasons (or the reverse), the most common 2025 Not Achieved pattern.",
+      "Thermocline defined only as 'temperature change with depth' without its barrier role or link to density and the pycnocline.",
+      "Carbon pumps named (photosynthesis, acidification) without the mechanism or the chemistry; equations without charges at Merit.",
+      "Coriolis direction wrong for the hemisphere, or upwelling explained by El Niño instead of wind-driven circulation and Ekman transport.",
+      "Sea ice melt given as a cause of sea level rise (should be land ice and thermal expansion).",
+      "Use the cut scores for the right year: 2024 and 2025 differ at the Achievement and Merit thresholds."
+     ],
+     "aiLimits": "Annotated diagrams carry much of the evidence in this subject and may be misread or lost in scans, and the AI cannot see the teacher's resource figures unless supplied. The teacher must check diagram labels and arrows, equation charges, and the final score codes.",
+     "researchNotes": "Standard text from the NZQA as91413 PDF (2025 folder; Version 3, published 9 December 2025) and the 2019-folder Version 2 PDF for comparison; EN2 and EN3 quoted. Oddly, the Version 3 PDF still carries the preamble 'This standard was re-published in November 2013 following a minor editorial change', and it does not describe its own changes; the comparison above is mine. The 2026 specification (October 2025) was read via fetch. The 2025 and 2024 papers and schedules were read via fetch summaries. 2025 exemplars (A, M, E) read; 2023 exemplars not used. No 2026 paper or schedule yet; exam date and session length not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91414",
+     "ref": "3.4",
+     "credits": 4,
+     "version": "Version 3 (published 9 December 2025). Replaces Version 2 (17 November 2016).",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of processes in the atmosphere system",
+     "criteria": {
+      "achieved": "Demonstrate understanding of processes in the atmosphere system.",
+      "merit": "Demonstrate in-depth understanding of processes in the atmosphere system.",
+      "excellence": "Demonstrate comprehensive understanding of processes in the atmosphere system."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves explaining processes and links within the processes in the atmosphere system.",
+      "EN2: Demonstrate in-depth understanding involves explaining links between the processes in the atmosphere system.",
+      "EN2: Demonstrate comprehensive understanding involves discussing the complexity of the atmosphere system.",
+      "EN3 (Version 3): Processes will be selected from: atmosphere composition – gases, aerosols including cloud formation, gradients (temperature, pressure, density); atmospheric circulation – convection cells (Hadley, Ferrel, Polar), wind belts (Trade, Westerlies, Polar Easterlies, Doldrums), Coriolis effect; transport of matter and energy – heat, gases, aerosols; cycles – water, carbon; climate – global and regional trends (temperature, precipitation, El Niño-Southern Oscillation [ENSO] and the Southern Annular Mode [SAM]).",
+      "EN3 change from Version 2: Version 2 had 'transport of matter and heat energy – water, gases, aerosols from volcanic eruptions', 'cycles – water, carbon; biological pump and physical pump' and 'climate – global and regional trends – temperature, precipitation, weather'. Version 3 drops the carbon pumps and 'weather', widens aerosols beyond volcanic eruptions, and adds ENSO and SAM.",
+      "2026 specification: climate change effects on atmospheric processes may be examined; atmospheric layers include the troposphere, stratosphere, mesosphere, thermosphere, exosphere and ionosphere; matter includes gaseous composition, aerosols (such as pollutants and particulates) and water; energy transport may include conduction, convection, radiation, latent and sensible heat, and albedo."
+     ],
+     "examFormat": [
+      "2026 change: the standard is now Version 3 (December 2025). ENSO and the Southern Annular Mode are added to climate trends; 'weather' is no longer listed, and the carbon pumps are no longer named under cycles; the 2026 specification adds the exosphere to the layers and drops the 2025 note that jet streams are part of tropospheric circulation. NZQA labels the 2024 and 2025 papers as based on the expired version. Format is unchanged: an end-of-year examination on PRINTED PAPER.",
+      "Three compulsory questions, each with a context, resources (diagrams, satellite images, charts, tables, photos), a task and bullet points to address. Each exam includes resource-based and knowledge-based questions. No choice.",
+      "Candidates are encouraged to draw labelled, annotated diagrams; 2025 Q2 required labelling processes on a supplied phase-change diagram.",
+      "2025 contexts: how each atmospheric layer protects Earth; heat transfer from land and ocean to the troposphere (latent and sensible heat); the 2022 Hunga Tonga–Hunga Ha'apai eruption's water vapour and SO2 in the troposphere and stratosphere. 2024 contexts: the ITCZ and Hadley cells; New Zealand greenhouse gas emissions (CO2 and methane); New Zealand highs, lows and fronts (weather is no longer named in Version 3).",
+      "16-page booklet with extra space. No time or word guidance on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question gets one N0–E8 code from the schedule's evidence lists; the three codes are added to a total out of 24.",
+      "2025 codes (same wording all questions): N0 no response or response does not relate to the question; N1 describes ONE idea at Achievement level; N2 TWO; A3 THREE; A4 FOUR; M5 TWO Merit answers; M6 THREE Merit answers; E7 ONE Excellence answer; E8 TWO Excellence answers.",
+      "2024 codes: N1–A4 one to four points from Achievement; M5 'ONE point from Merit' and M6 'TWO points from Merit' (fewer Merit points than in 2025); E7 one and E8 two points from Excellence.",
+      "Excellence points are integrated discussions, e.g. 2025 Q3: stratospheric clouds let most sunlight in but trap outgoing longwave radiation (warming), while SO2 forms sulfuric acid aerosol that raises albedo (cooling), and the stratosphere's heating from above limits vertical mixing while strong winds spread products globally.",
+      "Cut scores 2025: Not Achieved 0–7, Achievement 8–13, Merit 14–18, Excellence 19–24. Cut scores 2024: the same (0–7, 8–13, 14–18, 19–24)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: How does the atmosphere protect the Earth? (layers diagram). Role of each layer in shielding the surface: types of radiation reaching the atmosphere (UV absorbed by ozone; X-rays and charged particles in the thermosphere/ionosphere); space objects (meteors burning up in the mesosphere, aurora); why temperature changes across each layer (heat sources).",
+        "Q2: Heat transfer from oceans and land to the atmosphere (NASA energy-balance diagram; phase-change diagram to label). Label processes; explain three processes moving heat from land (radiation, conduction, convection); heat via the water cycle; how latent and sensible heat link to these processes.",
+        "Q3: The Hunga eruption, 15 January 2022 (plume photo). Local tropospheric effects; effects of the large increase in stratospheric clouds; effects of SO2 in the stratosphere; compare circulation of water vapour and aerosols in the troposphere and stratosphere."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91414-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91414-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91414-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: The ITCZ (satellite image; Hadley cell cross-section). How temperature and pressure differences form Hadley cells; conditions at the ITCZ (solar energy, pressure, wind strength); processes producing persistent cloud; why the ITCZ shifts with the seasons.",
+        "Q2: Carbon cycle and greenhouse effect (NZ 2016 emissions breakdown; table of lifetimes and relative heating effect of CO2 and methane). The greenhouse effect; how energy use and agriculture raise GHG concentrations; effects of rising CO2 and methane on temperature; compare the warming impact of CO2 and agricultural methane.",
+        "Q3: New Zealand weather (surface pressure chart with highs, lows and fronts). Air flow (horizontal and vertical); how clouds affect insolation and temperature; how fronts change local weather. Circulation cells were not required."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91414-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91414-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91414-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: identified two or three types of EM radiation and/or energy sources for a layer; meteorites burn up in the mesosphere; clouds and aerosols reflect radiation; described changes in evaporation and condensation; solar radiation heats Earth and Earth emits infrared; convection and water vapour carry heat up; heat is absorbed during evaporation.",
+      "2025, Merit: explained processes with physical principles (density, friction, absorption, reflection, sensible and latent heat): how the ozone layer or ionosphere protects Earth; friction breaking up meteorites in the mesosphere; temperature gradients in troposphere, stratosphere and thermosphere; short-wave absorbed and long-wave released at the surface; latent heat, dew point and bond-breaking in evaporation; cloud heating or cooling; SO2 cooling; vertical tropospheric versus horizontal stratospheric circulation of aerosols.",
+      "2025, Excellence: discussed causes and effects using physical principles; heat sources and temperature gradients in all four layers; each layer as a barrier to radiation or space objects; how different wavelengths interact with gases; latent heat linked to convection; how water vapour and volcanic aerosols interact with radiation to change surface temperature; why aerosols stay much longer in the stratosphere than the troposphere.",
+      "2025, Not Achieved: did not answer all three questions; incorrect or no diagrams; unrelated explanations; contradicted themselves on post-eruption heating and cooling; confused short-wave and long-wave radiation; referred only to 'solar radiation'; described layer characteristics instead of processes; described the water cycle without the heat transfer.",
+      "2025, commentary: some candidates still struggle to apply knowledge to an unfamiliar context, and unfamiliar contexts identify Excellence candidates. Annotated diagrams helped when they linked directly to the context and the writing.",
+      "2024, Achievement: drew diagrams; described energy differences causing convection cells; evaporation and condensation as temperature effects; warm rising air making low pressure and cold sinking air high pressure; described ITCZ conditions, highs, lows and fronts; described CO2 and methane sources; read patterns from the GHG table or weather map.",
+      "2024, Merit: linked pressure gradients to surface wind and circulation; detailed labelled diagrams; differential heating; physical principles (temperature, pressure, density, rotation, Earth's tilt, latent heat); the role of GHGs in warming; how clouds affect insolation and temperature.",
+      "2024, Excellence: linked multiple processes; related the factors influencing climate and weather; analysed diagrams, maps and tables in well-reasoned arguments (sources, lifetime and warming potential of GHGs); the complexity of Hadley circulation and the water cycle in ITCZ cloud; radiation, temperature, pressure, albedo and air movement discussed together.",
+      "2024, Not Achieved: explained the layers of the atmosphere instead of circulation cells; wrong pressure relationships ('sinking air causes low pressure', 'air moves from low to high'); repeated the question; said wind causes temperature differences rather than differential heating; discussed ozone damage when asked about greenhouse gases; said Earth is further from the Sun in winter; explained circulation cells when asked about weather systems."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (4, 4, 4 = 12, 2025)",
+       "text": "Q1: 'Describes with understanding the formation of aurora and stratospheric ozone absorbing UV radiation', and the temperature gradient in the troposphere. Q2: how solar radiation is absorbed and re-emitted by the surface, and how water absorbs heat during evaporation. Q3: increased tropospheric precipitation, cooling from aerosols intercepting radiation, warming from water vapour retaining heat, and aerosols persisting in the stratosphere.",
+       "miss": "The commentary does not state what was needed for Merit; each answer describes rather than explains in depth."
+      },
+      {
+       "grade": "Merit (6, 6, 5 = 17, 2025)",
+       "text": "Q1: detailed account of how the stratosphere and troposphere protect the surface and how friction destroys objects in the mesosphere. Q2: detailed explanation of conduction, intermolecular bonds breaking in evaporation, and latent heat exchange in evaporation and condensation. Q3: how clouds affect surface temperature, how stratospheric products are circulated, and that tropospheric water vapour remains for a shorter time.",
+       "miss": "Q1 'did not discuss protection from all layers'. Q2 did not relate the processes to 'atmospheric temperature'. Q3 wrongly treated sulfur dioxide as a greenhouse gas that causes warming."
+      },
+      {
+       "grade": "Excellence (8, 7, 8 = 23, 2025)",
+       "text": "Q1 (8): 'Comprehensive discussion of the protective factor of each layer' and the temperature gradient in each layer, with thorough understanding of the physical processes. Q2 (7): 'comprehensive explanation and discussion of latent heat exchange' in water-cycle processes. Q3 (8): comprehensive discussion of sulfur dioxide forming sulfuric acid in the stratosphere and of water vapour's effect in the troposphere, linked to why aerosols persist longer in the stratosphere and their varying effects on temperature.",
+       "miss": "Q2 held at 7: heat transfer by radiation, conduction and convection showed only 'a good understanding', not comprehensive."
+      }
+     ],
+     "conditions": [
+      "End-of-year external examination on printed paper (2026). Handwritten answers with optional annotated diagrams; some questions provide a diagram to label.",
+      "No notes. Contexts and resource figures are unseen; some questions are knowledge-based.",
+      "Practice evidence must fit the Version 3 standard and 2026 specification (e.g. ENSO and SAM now in scope; 'weather' and carbon pumps no longer named).",
+      "Special assessment conditions, including Aromatawai, are available as published by NZQA."
+     ],
+     "components": [
+      "Question One: atmospheric layers, radiation and space objects, temperature gradients",
+      "Question Two: heat transfer from surface to troposphere (radiation, conduction, convection, latent and sensible heat)",
+      "Question Three: volcanic water vapour and SO2 in the troposphere and stratosphere, and climate effects (Hunga eruption)"
+     ],
+     "focusTip": "Name each question's phenomenon and place (e.g. 'Q1 protective layers, Q2 latent and sensible heat, Q3 a volcanic eruption's aerosols') and attach the diagrams, so the AI can check radiation types, layer names and heat-transfer processes against the question.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS processes and links within the processes in the atmosphere system (e.g. ozone absorbs UV, heating the stratosphere; evaporation absorbs latent heat)."
+       },
+       {
+        "type": "req",
+        "src": "EN3 (Version 3)",
+        "t": "The processes are from the Version 3 list: composition and gradients, circulation (cells, wind belts, Coriolis), transport of heat, gases and aerosols, water and carbon cycles, climate trends including ENSO and SAM."
+       },
+       {
+        "type": "ind",
+        "src": "Assessment schedules 2024, 2025",
+        "t": "Three or four Achievement ideas per question and a total of at least 8 out of 24."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Processes are explained, not just layer characteristics described; all three questions attempted."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLAINS LINKS BETWEEN processes in the atmosphere system (e.g. short-wave absorbed at the surface, long-wave re-emitted, absorbed by GHGs; rising air cools to dew point, condenses and releases latent heat)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Uses physical principles (density, friction, absorption, reflection, sensible and latent heat) and specific radiation types."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "DISCUSSES THE COMPLEXITY of the atmosphere system: several processes and feedbacks linked into one argument for the given context (e.g. opposing warming and cooling effects of an eruption and why their lifetimes differ between troposphere and stratosphere)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Analyses supplied data (tables, maps, charts) inside the argument, and covers all layers or all parts the question names."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Annotated diagrams tied to the context and to the writing."
+       }
+      ]
+     },
+     "watch": [
+      "Short-wave versus long-wave radiation confused, or 'solar radiation' used for every type (2025 report).",
+      "Pressure–air movement errors: 'sinking air causes low pressure', 'air moves from low to high', 'wind causes temperature differences' (2024 report).",
+      "Describing layer characteristics or the water cycle without explaining the processes and heat transfer.",
+      "Contradictory warming and cooling claims for volcanic products; water vapour and SO2 need separate mechanisms.",
+      "Ozone depletion offered as the greenhouse effect; 'Earth is further from the Sun in winter'.",
+      "Practice papers on New Zealand weather systems or carbon pumps (2024 style) may sit outside the Version 3 list; ENSO and SAM questions are now possible.",
+      "Grade from the total out of 24 with the right year's cut scores."
+     ],
+     "aiLimits": "Much of the evidence sits in hand-drawn diagrams (layers, cells, energy flows, labelled phase changes), which scans may lose or the AI may misread, and the AI cannot see the teacher's resource figures unless supplied. The teacher must check diagram labels and arrows and the final score codes.",
+     "researchNotes": "Standard text from the NZQA as91414 PDF (2025 folder; Version 3, published 9 December 2025) and the 2019-folder Version 2 PDF; EN2 and EN3 quoted. The comparison of the two versions is mine, as the PDF does not list changes. The 2026 specification (October 2025) was read via fetch. The 2025 and 2024 papers and schedules were read via fetch summaries. GAP: the 2025 exemplars (Achievement, Merit, Excellence) are listed on the NZQA page but could not be read because the web-fetch hourly limit was reached, so 'exemplars' is empty; 2023 exemplars were not used. No 2026 paper or schedule yet; exam date and session length not confirmed. Update: 2025 exemplars were added in a later pass.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Economics": {
+   "slug": "economics",
+   "discipline": "Level 3 Economics exams are marked QUESTION BY QUESTION. Each of the three questions gets its own score code (N0–E8) from the schedule's Achievement, Merit and Excellence evidence points, and the three codes are totalled out of 24. Credit depends on correct graph work (shifts, labels, shading), accurate calculations, and explanations that use the model: reasons for each change, explicit references to graph labels, tables and resource material, and precise terms (quantity demanded versus demand, MR = MC, demand-pull versus cost-push). Excellence needs comparison or contrast and models integrated into the explanation, not more words.",
+   "parallelHint": "a different market or policy context using the same model, e.g. an excise tax on sugary drinks instead of alcohol, a tariff on steel instead of textiles, a monopoly airport instead of an electricity grid, or a fiscal stimulus scenario with different figures and MPC",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Economics (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91399-spc-2026.pdf"
+    },
+    {
+     "label": "NZQA 91399 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91399"
+    },
+    {
+     "label": "NZQA 91400 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91400"
+    },
+    {
+     "label": "NZQA 91403 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91403"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Economics (covers 91399, 91400, 91403)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91399-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Economics (covers 91399, 91400, 91403)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91399-report-2024.pdf"
+    },
+    {
+     "label": "NCEA cut scores 2025",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2-Universal-documents/Cut-Scores.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "Summary of 2026 Assessment Rules changes (EmaiLink March 2026)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Publications/EmaiLink/March-2026/Summary-of-2026-Assessment-Rules-changes.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91399, 91400 and 91403 are end-of-year printed-paper examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of these three Economics standards falls into those groups. No Economics-specific exclusion was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): the evidence must be quality-assured, pre-existing, valid, authentic and standard-specific. It must come from a practice assessment that matches the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For these standards that means: supervised, no notes, THREE questions (each with graph, table or calculation sub-parts and scaffolded explanation parts), unfamiliar contexts and resource extracts printed in the paper, a ruler and an approved calculator, and the paper marked per question using an N0–E8 schedule and totalled out of 24.",
+    "Evidence must cover ALL criteria. A practice paper with only two questions, or one that omits a key model (e.g. no natural monopoly in 91400, or no multiplier in 91403), may not give sufficient evidence for the whole standard. NZQA's QA page also requires authenticity and a suitably qualified second reader. Practice exams may be modified papers from previous years.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete, and the student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91399",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of the efficiency of market equilibrium",
+     "criteria": {
+      "achieved": "Demonstrate understanding of the efficiency of market equilibrium.",
+      "merit": "Demonstrate in-depth understanding of the efficiency of market equilibrium.",
+      "excellence": "Demonstrate comprehensive understanding of the efficiency of market equilibrium."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves explaining market equilibrium and/or changes in market equilibrium, explaining efficiency in the market, and using economic model(s) to illustrate economic concepts.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves explaining in detail market equilibrium and/or changes in it and the impact of changes on market efficiency, and using economic model(s) to illustrate complex economic concepts and/or support detailed explanations.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves analysing the impact of a market change on efficiency by comparing and/or contrasting the impacts on consumers, producers and, where relevant, the government, and integrating economic model(s) into explanations that compare and/or contrast those impacts.",
+      "EN3: Efficiency refers to allocative efficiency, achieved when the sum of consumer and producer surplus is maximised (total surplus). Deadweight loss indicates that a market is allocatively inefficient.",
+      "EN4: Market equilibrium includes equilibrium resulting from market forces, and the effects of changes on consumer surplus, producer surplus and total surplus. These changes typically involve international trade and/or government intervention.",
+      "2026 specification: models are the supply and demand model for goods and/or services markets, including internationally traded goods markets where NZ is a price taker. Candidates may be required to show understanding of elasticity concepts."
+     ],
+     "examFormat": [
+      "2026 change: none. The 2026 specification (October 2025) gives the same models and the elasticity note as before, and says questions may draw on contemporary NZ contexts and may be scaffolded into parts or bullet points.",
+      "Format in 2026: end-of-year examination, PRINTED PAPER. A ruler (for graphs) and an approved calculator are required.",
+      "Three questions, all compulsory. Each has graph or table work (draw dotted lines, shade and label CS, PS, DWL, revenue or cost, identify areas by letters, or calculate $ values) followed by scaffolded explanations of the impacts on consumers, producers, government and allocative efficiency.",
+      "Contexts and short resource extracts are printed in the paper, with no separate resource booklet. Recent contexts: an excise tax on inelastic vs elastic goods, tariffs on textiles and clothing, a medicines subsidy (2025); a rise in the world price of an export, a $2-per-drink alcohol tax, and maximum prices on groceries with elastic vs inelastic demand (2024).",
+      "No time allowance is printed on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "PER QUESTION: each question receives one code, and the three codes are TOTALLED out of 24.",
+      "Score codes (2024 and 2025 schedules): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all points covered.",
+      "The schedule lists Achievement, Merit and Excellence evidence for EACH sub-part (e.g. 2025 Q2(a) graph: Achievement = FOUR of six items, Merit = SIX of six; Q3(a)(ii) market forces: Achievement = THREE of five points, Merit = FOUR, Excellence = ALL in the medicines context). The code reflects how much of each column is present across the question.",
+      "Per-question rule: the answer MUST refer to the question's graphs or tables (e.g. 2024 Q2 'must refer to Graph Two or calculated figures'). For the top code it must INTEGRATE relevant information from the graph(s), table(s) and calculations.",
+      "Cut scores 2025 (schedule and NZQA cut-scores PDF): Not Achieved 0–6, Achievement 7–13, Merit 14–19, Excellence 20–24. 2024: the same (N 0–6, A 7–13, M 14–19, E 20–24)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: indirect tax (excise) on an inelastic good (Graph One) vs an elastic good (Graph Two). (a) Table: identify by letters the fall in CS, fall in PS, tax revenue and DWL for each. (b)(i) Explain why CS falls more when demand is inelastic (define inelastic demand, give a reason, refer to the graphs and table). (b)(ii) Which good would the government tax to raise revenue and to discourage consumption?",
+        "Q2: tariff on textiles and clothing (NZ price taker; D, S, Pw, Sw). (a) Graph Three: dotted lines for the new Qd and Qs, shade and label new CS, new PS, tariff revenue and DWL. (b) Explain the impacts on consumers, producers (NZ producers vs importers), government and allocative efficiency.",
+        "Q3: subsidy on medicines. (a)(i) Show and label the shortage at P1. (a)(ii) Explain how market forces would restore equilibrium. (a)(iii) Add the subsidy curve, shade the total cost of the subsidy, show Pp, and mark the DWL as A, B, C. (b) Explain the impacts on consumers, producers, government (including justification despite funding pressures) and allocative efficiency, using the resource."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91399-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91399-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91399-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91399-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91399-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91399-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: rise in the world price of a NZ export (Pw to Pw1). (a) Tables of prices and quantities, and of CS, PS and DWL, before and after. Explain why the world price is horizontal. (b) Impacts on NZ consumers and NZ producers (exporters). (c) Impact on allocative efficiency.",
+        "Q2: $2-per-drink tax on alcoholic drinks. (a) Add the tax curve, P1 and Q1, and the shortage or surplus at Pe, then explain how equilibrium is restored. (b) Calculate the change in CS, the change in PS, tax revenue and DWL ($m). (c) Explain the impacts on CS, PS and allocative efficiency using the calculations.",
+        "Q3: maximum price on groceries with inelastic (Graph Three) vs elastic (Graph Four) demand. (a) Table of CS and PS before and after, and DWL. Define price elasticity of demand and give a reason an item is elastic. (b) Compare and contrast the impact on consumers, producers and allocative efficiency."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91399-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91399-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91399-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91399-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91399-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91399-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: identified that CS or PS rose or fell, with one reason; noted changes without referring to the graphs or tables; gave definitions without applying them to the context.",
+      "2025, Merit: identified the CS and PS changes and linked them to TWO changes (price AND quantity); drew and interpreted graphs accurately with anchor points; distinguished demand from quantity demanded and supply from quantity supplied; used affordability and profitability.",
+      "2025, Excellence: applied the OFFSET between price and quantity to the changes in CS, PS and allocative efficiency; drew accurate graphs and fully integrated graph and table references; used precise terminology.",
+      "2025, Not Achieved: inaccurate or missing calculations, graphs drawn or read incorrectly, no increase or decrease in CS, PS or AE identified, no reasons given, market forces restoring equilibrium not explained.",
+      "2025, commentary: Q2 (tariffs) was the most familiar. Many still did not reference or integrate graphs. Demand and quantity demanded were often used interchangeably. Common graph errors were lines not added, areas not shaded, changes not labelled, and no anchor points used.",
+      "2024, Achievement: changes in CS or PS identified with a reason, but no reference to the graph or table, and terms used with limited explanation.",
+      "2024, Merit: terms applied, with reasons for changes in CS or PS, multiple graph points referred to, accurate graphs, affordability and profitability used, demand vs quantity demanded distinguished.",
+      "2024, Excellence: fully explained the changes in CS, PS and AE, including the offset between price, quantity and surpluses, integrated graph and table changes, and gave accurate definitions applied correctly.",
+      "2024, Not Achieved: did not identify changes in CS, PS or AE, could not draw, read or calculate from the graphs, showed no understanding of market forces, or left whole questions incomplete."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (12: A4, A4, A4, 2025)",
+       "text": "Tables and graphs correct. Identified the CS and PS changes, impacts on NZ producers and importers, extra government revenue, and lost allocative efficiency or DWL.",
+       "miss": "Inaccurate definition of inelastic demand, loose use of price vs quantity demanded, limited graph reference, no explanation of why (Q1 b(ii)), no use of government revenue or opportunity cost, and weak market-force mechanisms."
+      },
+      {
+       "grade": "Merit (18: M6, M6, M6, 2025)",
+       "text": "Defined inelastic demand with reasons, explained the CS fall using both graphs, explained the CS and PS changes with graph references, and covered producers vs importers, government revenue and its use, and allocative efficiency and DWL.",
+       "miss": "Misread Q1(b)(ii), missed key market-forces terminology in Q3, and gave limited graph reference in the government analysis."
+      },
+      {
+       "grade": "Excellence (22: E7, E7, E8, 2025)",
+       "text": "Three graph references each for the CS and PS changes, a correct offset in the allocative efficiency analysis, market forces applied to the medicines context, the subsidy cost with a graph reference, opportunity cost and long-term effects.",
+       "miss": "Q1: misread the final part. Q2: limited analysis of the effect on importers (both held at E7)."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on printed paper (2026). A ruler and an approved calculator are required.",
+      "Contexts and resource extracts are printed in the paper and are unfamiliar. A practice paper should use contexts not rehearsed in class.",
+      "Students draw directly on the printed graphs (dotted lines, shading, labels). Scans must show this clearly for the teacher to check.",
+      "Literacy co-requisite: not checked. It does not affect derived-grade eligibility."
+     ],
+     "components": [
+      "Question One: indirect tax with elastic vs inelastic demand",
+      "Question Two: tariff on an imported good (NZ price taker)",
+      "Question Three: subsidy, shortage and market forces"
+     ],
+     "focusTip": "Name the three question contexts and attach or describe the printed graphs (curves, letters, figures), because each answer must refer to and integrate those exact labels.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains market equilibrium and/or the change in it (including how market forces restore equilibrium where asked)."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN3",
+        "t": "Explains efficiency: changes in CS, PS and total surplus, and whether DWL arises (allocative efficiency)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule graph rows",
+        "t": "Uses the model: graph changes drawn and labelled, areas identified or shaded, values calculated, to the counts the schedule asks for (e.g. FOUR of six items)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule per-question rule",
+        "t": "Refers to the question's graph(s), table(s) or calculated figures."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Gives a reason for each change in CS or PS (higher price OR lower quantity), not just the direction."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains IN DETAIL the change in equilibrium and its impact on efficiency, using the model to support detailed explanations."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Links CS and PS changes to BOTH price and quantity, uses affordability and profitability for market forces, distinguishes demand from quantity demanded, and gives multiple graph references (anchor points)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 exemplars",
+        "t": "Covers each named group (consumers, NZ producers vs importers, government including use of revenue or opportunity cost)."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "COMPARES and/or CONTRASTS the impacts of the change on consumers, producers and (where relevant) government."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule top-code rule",
+        "t": "INTEGRATES the model (graph labels, table values, calculations) into the comparing explanations."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E7/E8 exemplars",
+        "t": "Explains the OFFSET (e.g. a fall in CS partly offset by a gain in PS or revenue, the remainder being DWL), with precise terminology and accurate definitions applied to the context."
+       }
+      ]
+     },
+     "watch": [
+      "Graph not completed to the schedule's count (missing dotted lines, unshaded areas, unlabelled Qd/Qs or Pp). The graph rows are often the Achievement floor.",
+      "'Demand falls' when quantity demanded falls (a movement along the curve, not a shift).",
+      "Direction only ('CS decreases') with no reason or graph reference.",
+      "Allocative efficiency asserted without CS + PS, total surplus or DWL.",
+      "Misreading what the final part asks (e.g. which good meets BOTH goals). This kept 2025 Merit and Excellence exemplars from full marks.",
+      "Calculation errors in $ areas (triangles and rectangles), and units left out ($m).",
+      "Totals: add the three question codes and apply the cut scores (N 0–6, A 7–13, M 14–19, E 20–24). Do not average grades."
+     ],
+     "aiLimits": "Economic models and graphs are drawn by hand on printed axes and must be checked by the teacher. Shading, dotted lines, curve positions and labels may be lost or misread in a scan or photo, and the AI cannot reliably judge whether a curve was shifted correctly or an area was shaded accurately. Handwritten calculations may also be misread.",
+     "researchNotes": "Standard text from the NZQA as91399 PDF (2019 folder; Version 2, 17 November 2016). The criteria are verbatim, and the ENs were obtained paraphrased. The 2025 schedule's sub-part evidence counts were partly unclear in the fetch. The cut scores were confirmed in the NZQA 2025 cut-scores PDF (91399: A from 7, M from 14, E from 20), and the 2024 ones come from the 2024 schedule. The 2024 exemplars are listed but were not read (the 2025 exemplars were used). The exam date and time allowance were not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91400",
+     "ref": "3.2",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of the efficiency of different market structures using marginal analysis",
+     "criteria": {
+      "achieved": "Demonstrate understanding of the efficiency of different market structures using marginal analysis.",
+      "merit": "Demonstrate in-depth understanding of the efficiency of different market structures using marginal analysis.",
+      "excellence": "Demonstrate comprehensive understanding of the efficiency of different market structures using marginal analysis."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves explaining the pricing and output decisions of perfectly competitive and/or monopoly firms using marginal analysis, explaining the efficiency of a market structure, explaining the impact of a market change on a firm's short- and/or long-run decisions, explaining a government policy that improves monopoly efficiency, and using economic model(s) to illustrate concepts.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves explaining these in detail, and using economic model(s) to illustrate complex concepts and/or support detailed explanations.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves comparing and/or contrasting the efficiency of market structures, the impacts of market changes on short- and long-run decisions, and/or the effectiveness of policies to improve monopoly efficiency, and integrating economic model(s) into explanations.",
+      "EN3: Efficiency refers to allocative efficiency at market equilibrium, where the sum of consumer and producer surplus is maximised. Deadweight loss indicates allocative inefficiency.",
+      "EN4: Market structures are monopolies (including natural monopolies) and perfectly competitive firms. Distinguishing features of each may be included.",
+      "EN5: Marginal analysis uses marginal revenue and marginal cost to determine output and price. Perfectly competitive firms produce where P = MR = MC, and are allocatively efficient. Monopolies produce where MR = MC but are allocatively inefficient.",
+      "2026 specification: models are the supply and demand model, and the cost and revenue model for a perfectly competitive firm and a monopoly firm (including natural monopoly)."
+     ],
+     "examFormat": [
+      "2026 change: none. The 2026 specification (October 2025) names the same models, and says questions may draw on contemporary NZ contexts and may be scaffolded.",
+      "Format in 2026: end-of-year examination, PRINTED PAPER. A ruler and an approved calculator are required.",
+      "Three questions, all compulsory. Recent papers have one each on monopoly, perfect competition and natural monopoly. Each mixes graph work (identify and label profit-maximising P and Q, shade and label the type of profit and DWL, add AR/MR/AC/MC curves, show long-run positions) with scaffolded explanations and a final compare-and-contrast part.",
+      "Short resource material is printed in some questions (2025: farmers facing higher council rates and fertiliser costs; natural monopoly infrastructure). The 2025 paper needed no calculations.",
+      "No time allowance is printed on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "PER QUESTION: each question receives one code, and the three codes are TOTALLED out of 24.",
+      "Score codes (2024 and 2025 schedules): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all points covered.",
+      "Sub-part evidence (2025 schedule examples): a graph row is credited for 'any TWO' of the labels or shadings. Q1(b)(iii) Achievement = ONE of MR1 > MC / missing marginal profits / output rises / Q1 where MC = MR1, Merit = THREE in detail, Excellence = all, with reference to Graph Two. Q3(a)(ii) Achievement = TWO of six natural-monopoly points, Merit = FOUR including the economies-of-scale link, Excellence = ALL six.",
+      "Graph detail matters: e.g. AR1 must be drawn twice the distance of MR1 from the origin, AC1 must cross MC at AC1's minimum, and the long-run perfect-competition line is MR1 = AR1 = D1.",
+      "Per-question rule: the answer must refer to that question's graph(s), and the top code needs relevant information from the graphs (and resource material where given) integrated.",
+      "Cut scores 2025 and 2024: Not Achieved 0–6, Achievement 7–13, Merit 14–19, Excellence 20–24 (schedules; NZQA 2025 cut-scores PDF)."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 Monopoly: (a) Graph One: SR and LR profit-maximising P and Q, shade supernormal profit and DWL. Explain SR vs LR price, output and profit, and whether the monopoly is allocatively efficient. (b) Graph Two: demand increase (add AR1, show P1 and Q1, shade profit). Use marginal analysis to explain the output change, and explain the profit before and after and the monopoly's response.",
+        "Q2 Perfect competition with rising costs (council rates = fixed, fertiliser = variable): (a) explain FC vs VC, add AC1 on Graphs Three and Four, show SR output and profit type, and explain why output differs after an FC rise vs a VC rise. (b) Show the LR position after the FC rise, then compare and contrast the SR and LR positions (marginal analysis, characteristics, resource).",
+        "Q3 Natural monopoly (unregulated, e.g. electricity grid): (a) Graph Five: Pe, Qe, supernormal profit and DWL. Explain why government might not encourage competition (economies of scale, duplication), and why it produces at Qe (marginal analysis). (b) Show marginal cost pricing (P1, Q1, subnormal profit), then compare and contrast the regulated and unregulated price, profit and long-term viability."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91400-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91400-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91400-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91400-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91400-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91400-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 Perfect competition: (a) add MC for loss minimisation, label Pe and Qe, shade subnormal profit, show the LR P1 and Q1, and explain how the firm reaches LR equilibrium. (b) Severe weather: show the shift on the market graph and the firm graph. (c) Compare and contrast the impact on the market and the firm (why market quantity falls while firm output rises).",
+        "Q2 Monopoly: (a) SR and LR profit-maximising positions and profit type. (b) Compare and contrast the SR and LR positions. (c) Falling demand (AR1 and MR1 drawn): show the new position and explain why it threatens long-run survival, using marginal analysis.",
+        "Q3 Natural monopoly: (a) Table from Graph Six (price, output, CS and DWL under profit-maximising, average cost and marginal cost pricing) and the profit type under each. (b) Explain which option is best and worst for consumers, most and least allocatively efficient, and the monopolist's profit and effect on government under each."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91400-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91400-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91400-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91400-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91400-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91400-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: used at least one key marginal-analysis point (MR > MC so marginal profit is missed and output rises to MR = MC, or the reverse), made graph changes with shading and labels, linked characteristics to price, output and profit rather than listing them, stated that a monopoly is inefficient because D ≠ S or DWL exists, and explained FC and VC.",
+      "2025, Merit: correct graph changes, explanations of why and how changes occur with references to graph labels and resources, accurate marginal analysis, FC and VC examples, correct terminology.",
+      "2025, Excellence: compared and contrasted the effects on price, profit and output (e.g. a monopoly's SR = LR; output falls when VC rise but not when FC rise), gave multiple reasons, used precise marginal-analysis language, and integrated graphs and resources throughout.",
+      "2025, Not Achieved: no marginal analysis, inaccurate graph changes, no use of graphs or resources, characteristics listed without their effect, no D = S or DWL in efficiency answers.",
+      "2025, commentary: marginal analysis improved significantly. Some candidates said perfect competitors have 'low' barriers to exit (there are none). Natural-monopoly explanations (why AC slopes down) were weaker. Graph errors: mislabelled natural-monopoly P and Q, wrong DWL or profit shading, AC1 shifted wrongly, LR perfect competition drawn wrongly, MC not cutting AC at its minimum, no ruler.",
+      "2024, Achievement: graph changes shaded and labelled, characteristics linked to LR price, profit and output, at least one marginal-analysis point, CS largest under MC pricing and smallest under profit-maximising.",
+      "2024, Merit: explained WHY CS is largest under MC pricing (lowest price, highest quantity), correct graph changes with specific labels, missed marginal profits and marginal losses, multiple graph references, relevant resource material.",
+      "2024, Excellence: accurate graph references, terminology and characteristics integrated throughout, multiple valid reasons for the changes in CS, AE, price, profit and output, and consistent marginal analysis.",
+      "2024, Not Achieved: LR monopoly P and Q mislabelled (they equal SR), MC not intersecting AC at its minimum, characteristics listed, no marginal analysis, no D = S or DWL, incomplete questions. Avoid vague words like 'massive'."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (10: A4, N2, A4, 2025)",
+       "text": "Q1 and Q3: correct labels and shading, SR = LR supernormal profit, inefficiency due to DWL, some marginal analysis for Qe. Q2: only minimal evidence (partial FC vs VC).",
+       "miss": "Q1 needed barriers to entry explained (supply cannot rise, so price cannot fall), with graph references. Q2 needed AC1 positioned correctly, Pe labelled, the LR MR1 = AR1 = D1 drawn, and (a)(iv) focused on output rather than profit. Q3 needed 'Qe is where MC = MR' stated and several natural-monopoly features used."
+      },
+      {
+       "grade": "Merit (18: M6, M6, M6, 2025)",
+       "text": "Correct labels and shading referred to in the explanations, supernormal profit linked to characteristics, FC and VC with farming examples, and marginal analysis for output choices.",
+       "miss": "E7 needed: the monopolist as a price maker controlling price OR output, not both; forgone marginal PROFIT rather than 'potential revenue'; an FC rise does NOT shift MC, so output is unchanged; economies of scale and the downward-sloping AC explained in context."
+      },
+      {
+       "grade": "Excellence (24: E8, E8, E8, 2025)",
+       "text": "Accurate graphs, SR = LR for a monopoly explained, inefficiency justified, output changes explained with marginal analysis (below and above Qe), why output is unchanged after an FC rise but falls after a VC rise, and economies of scale letting a natural monopoly supply the whole market at lower prices.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on printed paper (2026). A ruler and an approved calculator are required.",
+      "Graphs are completed by hand on printed cost and revenue diagrams. Scans must show the shading and curves clearly.",
+      "Literacy co-requisite: not checked. It does not affect derived-grade eligibility."
+     ],
+     "components": [
+      "Question One: monopoly (short and long run, change in demand)",
+      "Question Two: perfect competition (fixed vs variable cost increase, short and long run)",
+      "Question Three: natural monopoly (unregulated vs marginal cost pricing)"
+     ],
+     "focusTip": "Name each question's market structure and change, and describe the printed cost and revenue graphs (curves, labels), so marginal-analysis statements can be checked against them.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2 + EN5",
+        "t": "Explains price and output decisions using MARGINAL ANALYSIS (MR = MC, and why output moves when MR > MC or MR < MC)."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN3",
+        "t": "Explains the efficiency of the market structure: whether D = S, whether CS + PS is maximised, and DWL."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the impact of a market change on the firm's short- and/or long-run decisions, and (where asked) a government policy that improves monopoly efficiency."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule graph rows and per-question rule",
+        "t": "Uses the cost and revenue model: positions identified, labelled and shaded to the schedule count, and referred to in the answer."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Characteristics are LINKED to price, output and profit outcomes (e.g. no barriers to exit, so firms leave, supply falls and price rises), not listed."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains IN DETAIL, with the model supporting the detailed explanations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule; Assessment Reports",
+        "t": "Several marginal-analysis steps (MR1 > MC, missed marginal profit, output rises to Q1 where MC = MR1) with specific graph-label references."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Merit exemplar commentary",
+        "t": "Correct terms: marginal profit or loss (not 'revenue'), and a price maker sets price OR output."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "COMPARES and/or CONTRASTS the efficiency of structures, the SR vs LR effects of changes, and/or the effectiveness of policies (e.g. regulated vs unregulated natural monopoly)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule top-code rule",
+        "t": "INTEGRATES the models (and resource material where given) into the explanations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and E8 exemplar",
+        "t": "Covers all the schedule points, e.g. why an FC rise leaves MC and output unchanged while a VC rise reduces output; economies of scale and the falling AC; both 'below Qe' and 'above Qe' cases."
+       }
+      ]
+     },
+     "watch": [
+      "Marginal analysis stated as a slogan ('MR = MC') without the process (MR > MC, so marginal profit is missed and output increases).",
+      "Graph technicalities: MC not cutting AC at its minimum, AR not twice MR's intercept, LR monopoly P and Q not equal to SR, MR1 = AR1 = D1 misplaced, wrong profit or DWL area shaded.",
+      "Shifting MC after a fixed-cost increase. FC changes affect AC only.",
+      "Listing monopoly or perfect-competition characteristics without linking them to outcomes.",
+      "Allocative efficiency claimed without D = S, CS + PS or DWL.",
+      "'Low' barriers to exit for perfect competition (there are none), and vague words ('massive') instead of precise comparisons.",
+      "Totals: add the three question codes and apply the cut scores (N 0–6, A 7–13, M 14–19, E 20–24)."
+     ],
+     "aiLimits": "Economic models and graphs are drawn by hand on printed axes and must be checked by the teacher. The AI cannot reliably verify from a scan where MC crosses AC, whether AR is drawn correctly relative to MR, or which area was shaded. The teacher confirms all graph rows before the code is set.",
+     "researchNotes": "Standard text from the NZQA as91400 PDF (2019 folder; Version 2, 17 November 2016). The criteria are verbatim, and the ENs were obtained paraphrased. The 2025 schedule detail was summarised by the fetch tool. The cut scores were confirmed in the NZQA 2025 cut-scores PDF. The 2024 exemplars are listed but were not read (the 2025 exemplars were used). The exam date and time allowance were not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91403",
+     "ref": "3.5",
+     "credits": 6,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of macro-economic influences on the New Zealand economy",
+     "criteria": {
+      "achieved": "Demonstrate understanding of macro-economic influences on the New Zealand economy.",
+      "merit": "Demonstrate in-depth understanding of macro-economic influences on the New Zealand economy.",
+      "excellence": "Demonstrate comprehensive understanding of macro-economic influences on the New Zealand economy."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves explaining the current state of the New Zealand economy in relation to macro-economic goals; identifying, defining, calculating and describing or explaining macro-economic influences; and using an economic model(s) to illustrate concepts.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves explaining macro-economic influences in detail, and using economic model(s) to illustrate complex concepts and/or support detailed explanations.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves comparing and/or contrasting the effectiveness of one government policy across different goals, or of different policies against one goal, and/or the impacts of one influence across different goals or of different influences on one goal, and integrating economic model(s) into explanations that compare and/or contrast the impacts on goals.",
+      "EN3: Macro-economic influences may be internal (e.g. changes in government policy, consumption, saving, investment) or external (e.g. net exports, terms of trade, exchange rates, trade agreements, the world economy).",
+      "EN4: The economy includes macro-economic indicators that describe its current state (e.g. inflation, growth, current account balance, unemployment) and/or its position in the business cycle, and the government's macro-economic goals (e.g. price stability, a balanced current account, economic growth, full employment).",
+      "2026 specification: models are the business cycle, the AD/AS model, the spending multiplier, the foreign exchange model and the circular flow model. Policies may include monetary, fiscal, supply-side and international trade policies."
+     ],
+     "examFormat": [
+      "2026 change: none. The 2026 specification (October 2025) lists the same models and policies, and says questions may draw on contemporary NZ contexts and may be scaffolded.",
+      "Format in 2026: end-of-year examination, PRINTED PAPER. A ruler and an approved calculator are required.",
+      "Three questions, all compulsory. Each mixes model work (AD/AS shifts with labelled PL, Y and recessionary or inflationary gap; the circular flow; the business cycle) and/or multiplier calculations with scaffolded explanations against government goals. Resource extracts (news, Treasury, RBNZ, Stats NZ) are printed in the paper.",
+      "Recent contexts: recession in China and Australia (current account, full employment), the multiplier on health and education spending and on lost visitor spending, and expansionary monetary policy across large vs small recessionary gaps (2025); net migration and monetary policy, a $17.5b tax cut vs infrastructure spending with the multiplier and an EU FTA, the business cycle position, and house vs fuel price shocks (2024).",
+      "No time allowance is printed on the paper. This is a 6-credit standard, with the same three-question, 24-point structure as 91399 and 91400."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "PER QUESTION: each question receives one code, and the three codes are TOTALLED out of 24.",
+      "Score codes (2025 schedule): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all points covered.",
+      "Sub-part evidence (2025 schedule examples): Q2(a) multiplier = 1/0.15 = 6.67 and ΔGDP = $9.97b × 6.67 = $66.5b. Achievement = TWO of (multiplier, correct final change, spending creates income that is re-spent, one person's spending is another's income). Excellence = all, in detail, with the multiplier integrated. Q2(b) is −$273m × 6.67 = −$1.82b. Graph rows: Achievement = fall in AD, PL and Y labelled, and Merit/Excellence also need the recessionary gap labelled (RG to RG1).",
+      "Per-question rules: the answer must refer to the question's model (e.g. 2024 Q1 'must refer to Graph One', Q2 'must refer to Model One and the multiplier'), and the top code integrates the model(s) and the resource box.",
+      "2024 appendix note: a graph may be accepted where the student increased Yf to show increased capacity.",
+      "Cut scores 2025 (schedule and NZQA cut-scores PDF): Not Achieved 0–6, Achievement 7–12, Merit 13–18, Excellence 19–24. 2024 (schedule as fetched): Not Achieved 0–7, Achievement 8–12, Merit 13–18, Excellence 19–24. These differ from 91399 and 91400."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 External influences: recession in China and Australia. (a) Using circular flow Model One, explain the negative effect on NZ and on the goal of a balanced current account. (b) Graph One AD/AS: show the effect, labelling all changes including the recessionary gap, and explain the effect on full employment. (c) Explain why the effect on the current account may be temporary (depreciation, export receipts, import payments).",
+        "Q2 Fiscal policy and growth: (a) calculate and explain the final effect of a $9.97b rise in health and education spending (MPS 0.15) on real GDP and growth. (b) Calculate and explain the effect of a fall in visitor spending on export receipts. (c) Explain the long-term positive effects on growth of the spending and of a higher international visitor levy (IVL).",
+        "Q3 Expansionary monetary policy: (a) effect on interest rates (OCR). (b) Using Graph Two, the effect on households, businesses and inflation, the effect of depreciation on inflation (demand-pull and cost-push), and why the policy is still consistent with price stability (PTA 1–3%, spare capacity, resource data). (c) Effectiveness in lowering unemployment with a large (Graph Two) vs small (Graph Three) recessionary gap."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91403-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91403-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91403-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91403-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91403-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91403-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 Migration and monetary policy: (a) shift AD and AS on Graph One for higher net migration and explain the effect on growth. (b) Explain the effect on price stability, state the PTA, and explain the likely Reserve Bank response.",
+        "Q2 Fiscal policy: (a) using Model One and 1/(1−MPC) with MPC 0.83, calculate and explain the final effect of a $17.5b tax cut (multiplier ≈ 5.88, about $102.9b). (b) Explain why $17.5b of infrastructure spending gives a larger increase in GDP, and more sustainable long-run growth. (c) Explain how higher imports from an EU FTA reduce the multiplier.",
+        "Q3 Internal influences: (a) mark NZ's September 2023 position on the business cycle (Model Two) and explain it. (b) Falling house prices: shift one curve on Graph Two and explain the effect on inflation and employment. (c) Higher fuel prices: shift one curve on Graph Three and explain the same. (d) Explain which shock has the greater impact."
+       ],
+       "cutScores": "N 0–7, A 8–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91403-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91403-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91403-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91403-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91403-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91403-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: showed and labelled graph changes, calculated the multiplier and the final change in real GDP accurately, defined and applied concepts (e.g. trading-partner recession lowers exports and worsens the current account), and applied the components of AD and AS.",
+      "2025, Merit: used relevant resource material, defined and applied terms including the PTA, recognised China and Australia as major trading partners, explained why unemployment rose (derived demand), explained depreciation's effect on export competitiveness, and recognised that lost tourism income flows through other sectors.",
+      "2025, Excellence: clear, accurate reasons (e.g. how a depreciating NZD affects the current account), resource material and models integrated into detailed explanations, the multiplier applied in both positive AND negative scenarios, OCR and exchange-rate effects on the components of AD and AS, spare capacity on the AS curve, fluent and concise writing.",
+      "2025, Not Achieved: concepts (e.g. the current account) not defined, curves shifted inaccurately, increase/decrease and left/right confused, resources not used, multiplier not calculated or applied, OCR–interest rate link missing, PTA not stated.",
+      "2025, commentary: competency with the circular flow and the multiplier was inconsistent. Commonly confused pairs: deflation/depreciation, exchange rate/interest rate, monetary/fiscal, exports/export receipts, imports/import payments. Higher achievers were concise and did not repeat content across parts.",
+      "2024, Achievement: graph changes shown and labelled, accurate calculations, concepts defined and applied, components of AD and AS applied.",
+      "2024, Merit: multiple graph references with reasons for the model changes, reasons or examples added, resource material used, parts of each question linked, short run vs long run distinguished, longer answers concluded with a summary.",
+      "2024, Excellence: strong use of the circular flow and the multiplier, no errors in calculations or model changes, the relationship and relative shifts of AD and AS, short- vs long-run impacts, fluent writing.",
+      "2024, Not Achieved: concepts not defined, inaccurate or unlabelled shifts, increases and decreases confused, resources not used or understood, incomplete questions. Many did not distinguish declining growth from negative growth."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (11: A4, A4, A3, 2025)",
+       "text": "Identified China and Australia and the fall in export receipts, calculated the multiplier correctly, and explained the AD increase to PL2.",
+       "miss": "No definition or formula for the current account and no reference to the goal; AS wrongly shifted right and recessionary gaps not marked; no derived demand; multiplier concept not explained; depreciation confused with an OCR cut; no reference to the resources, spare capacity or Graphs Two and Three in Q3."
+      },
+      {
+       "grade": "Merit (18: E7, M6, M5, 2025)",
+       "text": "Explained the export and current-account effects and the widening recessionary gap with unemployment, used the multiplier with MPS and MPC and the idea of re-spending, linked inflation to the 1–3% target, and compared large and small gaps.",
+       "miss": "Q1: inaccurate reference to Model One, and gaps mislabelled ('deflationary'). Q3: lacked depth and did not use demand-pull or cost-push."
+      },
+      {
+       "grade": "Excellence (23: E8, E8, E7, 2025)",
+       "text": "Correct AD shift with PL, Y and a widening gap, unemployment linked to lower export spending, a temporary current-account effect via depreciation, the multiplier applied to both the spending increase and the lost tourism receipts, the OCR passed through to interest rates, demand-pull and cost-push both explained, and the PTA and resource data used.",
+       "miss": "Q3(c) (large vs small gap) was less complete than the rest."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on printed paper (2026). A ruler and an approved calculator are required for the AD/AS graphs and multiplier calculations.",
+      "Resource extracts with real NZ data are printed in the paper. A practice paper should use current, unseen data, and students must not have notes.",
+      "Literacy co-requisite: not checked. It does not affect derived-grade eligibility."
+     ],
+     "components": [
+      "Question One: external influences (trading-partner recession) on the current account and full employment",
+      "Question Two: fiscal policy, the multiplier and economic growth",
+      "Question Three: expansionary monetary policy, price stability and unemployment"
+     ],
+     "focusTip": "Name each question's influence or policy and the goals it is judged against, and give the figures used (spending, MPC or MPS), so the multiplier answers and AD/AS shifts can be checked.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the state of the NZ economy in relation to the macro-economic goals named in the question (e.g. price stability, balanced current account, growth, full employment)."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Identifies, defines, CALCULATES and describes or explains the influences (e.g. multiplier value and final change in real GDP, current account components)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule graph rows and per-question rule",
+        "t": "Uses the model: correct AD/AS (or circular flow, business cycle) changes labelled (AD, PL, Y, gap), and refers to the named graph or model."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Accurate definitions, and correct direction (left vs right, increase vs decrease)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the influences IN DETAIL, using model(s) to support detailed explanations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and Assessment Report",
+        "t": "Gives the causal chain (e.g. lower OCR, lower lending rates, more consumption and investment, AD shifts right, demand-pull), with resource evidence and the PTA where relevant. Merit/Excellence graph rows also need the gap labelled."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Distinguishes short-run from long-run effects, and links the parts of the question."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "COMPARES and/or CONTRASTS the effectiveness of a policy across goals (or of policies on one goal), or the impacts of influences on goals (e.g. large vs small recessionary gap; tax cut vs infrastructure spending; house vs fuel price shock)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule top-code rule",
+        "t": "INTEGRATES the models and resource material into the comparing explanations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report and E8 exemplar",
+        "t": "Precise distinctions (demand-pull vs cost-push; export receipts vs exports; spare capacity on the AS curve), the multiplier applied in negative as well as positive cases, error-free calculations, concise."
+       }
+      ]
+     },
+     "watch": [
+      "Wrong shift (AS instead of AD, right instead of left) or an unlabelled recessionary gap. The graph rows drive the Achievement floor.",
+      "Multiplier slips: using MPC where MPS is given, rounding, or missing units and the sign for a fall.",
+      "Confusing pairs: depreciation/deflation, OCR/exchange rate, monetary/fiscal, exports/export receipts.",
+      "Current account not defined, or the goal never mentioned, when the question asks about a goal.",
+      "No resource material used when the question says 'refer to the resources'.",
+      "Long answers repeating the same chain in every part. NZQA rewards concise, relevant answers.",
+      "Cut scores for 91403 differ from 91399/91400 (2025: A from 7, M from 13, E from 19). Add the three codes and apply them."
+     ],
+     "aiLimits": "Economic models and graphs (AD/AS shifts, circular flow arrows, business-cycle positions) are drawn by hand and must be checked by the teacher. Curve positions, labels and gap markings may be lost or misread in a scan, and handwritten calculations may be misread. The AI also cannot check the student's use of resource figures unless the practice paper's resources are supplied.",
+     "researchNotes": "Standard text from the NZQA as91403 PDF (2019 folder; Version 2, 17 November 2016). The criteria are near verbatim, and the ENs were obtained paraphrased. The 2024 schedule's code-descriptor alignment came out garbled in the fetch, so the standard L3 Economics wording from the 2025 schedule is given. The 2024 cut scores (N 0–7, A 8–12) come from that fetch and could not be cross-checked, because the NZQA cut-scores PDF covers 2025 only. The 2024 exemplars are listed but were not read. The resource passages in the 2025 paper were not fully extracted. The exam date and time allowance were not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "English": {
+   "slug": "english",
+   "discipline": "Level 3 English externals are judged on the quality of a critical argument about the text, not on knowledge of the plot or the number of techniques named. Markers look at how closely the response answers the exact statement or question, how far it evaluates (not just explains) how the specified aspects create meaning, and how well specific, well-chosen evidence is woven into the argument. NZQA repeats every year that quality, not length, is assessed. Over-long, pre-prepared or theory-heavy essays are commonly marked down.",
+   "parallelHint": "a different studied text (or for 91474 a different unfamiliar prose extract and poem) and a different statement or question focus, e.g. a statement about setting instead of character, so students cannot reuse a model answer",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 English 91472, 91473, 91474 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91472-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 English (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91473-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91472 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91472"
+    },
+    {
+     "label": "NZQA 91473 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91473"
+    },
+    {
+     "label": "NZQA 91474 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91474"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 English (covers 91472, 91473, 91474)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91472-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 English (covers 91472, 91473, 91474)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91472-report-2024.pdf"
+    },
+    {
+     "label": "NZQA digital external assessment (schools may flag entries as paper)",
+     "url": "https://www2.nzqa.govt.nz/ncea/external-assessment/digital/"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes end-of-year external examinations. 91472, 91473 and 91474 are all end-of-year examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards (32403, 32405, 32406, 32412, 32413, 32415), and school-marked portfolio work verified by NZQA. None of the three Level 3 English externals falls into these categories, so all three are eligible. (This reading of the Rules is carried over from the Level 1 History research in this project; I did not re-read the Rules PDF for this file.)",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): the grade must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence, normally a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats that practice exams for derived grades must match the external format and conditions.",
+    "For 91472 and 91473 that means: unseen statements (about eight, choose ONE), one essay on at least one studied text, written under supervision without notes or a prepared essay, with the same 800–900 word guidance. For 91474 it means: an UNSEEN prose extract and an unseen poem, and all three questions (one on each text, one comparing them).",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should check it (for example, a colleague checking boundary scripts). Practice exams may be based on modified papers from previous years, but for 91474 the texts must be unfamiliar to the students.",
+    "Derived grades are approved only after the exam cycle is complete, and the student receives the better of the derived grade and the exam result. Not Achieved is a valid derived grade (from the 2026 Rules change summary, as recorded in the Level 1 History file)."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91472",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 1 (published 4 December 2012; the 2019 PDF still reads Version 1, planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Respond critically to specified aspect(s) of studied written text(s), supported by evidence",
+     "criteria": {
+      "achieved": "Respond critically to specified aspect(s) of studied written text(s), supported by evidence.",
+      "merit": "Respond critically and convincingly to specified aspect(s) of studied written text(s), supported by evidence.",
+      "excellence": "Respond critically and perceptively to specified aspect(s) of studied written text(s), supported by evidence."
+     },
+     "notes": [
+      "EN1: Texts should be at Curriculum Level 8 and/or have characteristics that let students show the expected understanding.",
+      "EN2: Respond critically involves developing the focus and scope of an argument when discussing specified aspect(s) of the text(s), integrating relevant points into a clear, coherent argument in a structured, essay-format written answer. Respond critically and convincingly involves making a discerning and informed argument. Respond critically and perceptively involves making a sophisticated and insightful and/or original argument.",
+      "EN3: Specified aspects are purposes and audiences; ideas (e.g. character, theme, setting); language features (e.g. figurative language, syntax, style, symbolism, diction, vocabulary, sound devices); and structures (e.g. narrative sequence, beginnings and endings).",
+      "EN4: Studied refers to a considered exploration of the specified aspects of text(s).",
+      "EN5: Texts may be New Zealand or world texts, and the study may be intertextual, across novels, non-fiction, drama scripts, short stories, poetry, song lyrics, print media, and digital or online texts.",
+      "EN6: Supported by evidence refers to the use of specific and relevant details to support an argument (examples, quotations and/or references to the studied text(s) or other sources).",
+      "Assessment schedule note: expectations of 'insight' and 'originality' should be considered in the context of a candidate working at Level 8 of the curriculum."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination only. The 2025 specification (October 2024) said 'online digital examination or printed paper'. NZQA's digital assessment page says schools can still flag entries as paper, so check how your school has entered students. The task and length guidance are unchanged.",
+      "One essay on at least ONE studied written text, in response to ONE statement chosen from a range covering all written text types. The 2024 and 2025 papers each offered eight statements.",
+      "The candidate records the text details (title, writer, text type) on the planning page. Text types: novel, short story, print media, non-fiction, poetry/song lyric, digital/online text, drama script.",
+      "Instruction: discuss the extent to which you agree with your chosen statement, responding critically through close analysis of the text(s).",
+      "Length guidance: a concise response of about 800–900 words (5–6 pages) is encouraged. It is assessed on quality, not length. Planning spaces are not marked.",
+      "Familiar context: the text is studied in advance, but the statements are unseen. No notes or texts are allowed in the exam room.",
+      "The paper does not state a time allowance for this standard (it is sat in a session with the other Level 3 English papers)."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay gets ONE score code from N0 to E8 for the whole response.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "N0: no response or no relevant evidence. N1: attempts to discuss the statement. N2: states a relevant idea, shows awareness of the use of the specified aspect(s) and includes details from the text(s), but does not reach Achievement.",
+      "A3: fulfils the intent of the Achievement criteria, although some parts may be partial or weak. A4: securely fulfils the intent of the Achievement criteria.",
+      "M5: fulfils the intent of the Merit criteria, although some parts may be imbalanced or limited. M6: securely fulfils the Merit criteria. E7 and E8 follow the same pattern for Excellence.",
+      "Achievement judgement: a structured response following essay conventions (some clumsiness allowed); a relevant critical argument giving an evaluative response to the chosen statement; a range of relevant points showing understanding of the specified aspect(s); specific and relevant details from the text(s); potentially linking to matters beyond the text(s).",
+      "Merit judgement: a convincing critical argument showing familiarity and engagement with the text(s); points showing convincing understanding of the specified aspect(s); beginning to weave specific and relevant details into the response; linking to other aspects of the text or other contexts.",
+      "Excellence judgement: a cohesive and articulate essay; a sophisticated and insightful or original critical argument or interpretation showing appreciation of the text(s); perceptive understanding of the specified aspect(s); weaving judiciously chosen details that support and expand the argument; linking to human experience, society and the wider world."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Choose ONE of eight statements: (1) Characters who behave badly make us think deeply. (2) Changes that take place in a text teach us valuable lessons. (3) Relationships that are challenging lead us to important discoveries. (4) Interesting settings encourage us to re-examine our own environment. (5) Carefully crafted language provokes new understandings. (6) Writers develop important ideas in order to critique society. (7) The fate of heroes helps us understand the world. (8) Effective symbols communicate significant ideas."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91472-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91472-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91472-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91472-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91472-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91472-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Choose ONE of eight statements: (1) Worthwhile texts use language in unusual ways to deliver ideas. (2) The start of a significant text only makes complete sense at the end. (3) We gain important lessons from the way characters' lives intersect. (4) Effective texts use distinctive settings to portray challenging ideas. (5) A great text uses structure to reveal truths about humanity. (6) Characters who challenge our expectations are worth our time. (7) Powerful texts present ideas that help us to rethink our lives. (8) Well-chosen language leads to enjoyment for the reader."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91472-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91472-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91472-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: basic understanding of the text's meaning, a focus on plot, a limited response to the statement's keywords, and an argument of limited depth.",
+      "2025, Merit: understood the text's purpose and/or audience, made connections within the text (between ideas or characters), gave a nuanced, holistic response to the statement's keywords, attempted theory (often without depth) and included a personal response showing engagement.",
+      "2025, Excellence: a clear thesis based on the WHOLE statement, insightful analysis woven with carefully selected evidence, sophisticated vocabulary, links to human nature integrated into the argument, and an understanding of the text's context.",
+      "2025, Not Achieved: misunderstood or ignored the statement, few or no specific textual details, short responses, simplistic or unsupported analysis, and a statement that did not fit the text (often a twisted prepared answer).",
+      "2025, commentary: higher grades went to candidates who unpacked the statement's keywords and explained why their aspect met that quality. Theory imported from 91479 (Marxism, psychoanalysis, feminist waves) often weakened answers when it was understood only superficially. Many scripts were too long, and many candidates did not use spell check in the digital exam.",
+      "2024, Achievement: attended to keywords, though unevenly; had a thesis, clear introduction and conclusion and mostly appropriate evidence; often engaged with only one part of the statement in the last sentence of each paragraph, which unbalanced the response; presented rote-learned ideas rather than a crafted argument.",
+      "2024, Merit: clear attention to the statement and a consistent argument; understood the writer's purpose and how the text functioned in context; moved beyond simple text-to-world comparisons; discussed craft (language and techniques).",
+      "2024, Excellence: exploited the statement's key words; a thoughtful, incisive argument written with flair; links across the whole text; perceptive analysis of craft and intent, including how readers are positioned; connected the text to human experience and its context of creation or reception.",
+      "2024, Not Achieved: misunderstood or did not address the statement, a short or incomplete response, little evidence of the text, topics below Level 8, or a pre-prepared essay that did not fit.",
+      "2024, commentary: better answers wove the statement through the whole essay rather than adding it at paragraph ends. Using several short texts (poems) worked, but risked thin detail if the links were weak. Disagreeing with the statement is allowed if argued carefully around the specified aspect, but rewriting the statement or switching aspect was penalised. Critical and secondary material added for its own sake earned little."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, 2025)",
+       "text": "A sound response on a poem that clearly showed how the relationship between elements in the text led to new insights for the poet or character and for the reader. The link between the poet's life and the poem was engaging.",
+       "miss": "The focus on the poet's life at times drew attention away from analysing the poem itself. A more developed exploration of the text was needed."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "A clear argument engaging directly with the statement, with detailed evidence woven in, focused on the main character's deep reflection on his own actions.",
+       "miss": "Needed deeper analysis of how this focus on the character's reflection shapes the reader's understanding of the central idea."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "1984 (Orwell). A detailed, intelligent analysis closely focused on the statement, showing the harmful effects of totalitarian control and connecting them to modern society, with text and wider-world evidence woven in perceptively.",
+       "miss": "For E8, it needed a more developed explanation of how the novel itself critiques society, rather than discussing similar social patterns in general."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). Planning spaces are not marked.",
+      "Studied text(s) are prepared in advance, but the statements are unseen. No notes, texts or prepared essays are allowed. A practice exam must use statements the students have not seen.",
+      "Write in English. Spell check is available in the digital exam, and the 2025 report noted many candidates did not use it.",
+      "Literacy status: NOT VERIFIED in this session (Level 3 English standards are commonly on the UE literacy list, but I did not confirm this)."
+     ],
+     "components": [
+      "Introduction and thesis responding to the whole statement",
+      "Body argument: specified aspect(s) analysed with woven evidence",
+      "Links beyond the text (human experience, society, context)",
+      "Conclusion that evaluates the statement"
+     ],
+     "focusTip": "Give the statement the student chose (word for word) and the text(s) and writer, so the marker can check the essay answers that statement and the evidence is accurate.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule judgement",
+        "t": "A structured, essay-format response with a relevant critical ARGUMENT that responds to the CHOSEN statement (some clumsiness in style and organisation is allowed)."
+       },
+       {
+        "type": "req",
+        "src": "EN3; schedule N2/A3",
+        "t": "Shows understanding of the specified aspect(s) named in the statement (e.g. setting, symbols, language), not a different aspect."
+       },
+       {
+        "type": "req",
+        "src": "EN6",
+        "t": "Supported by specific, relevant details from the studied text(s) (quotations, examples, references)."
+       },
+       {
+        "type": "req",
+        "src": "EN1 + EN4",
+        "t": "The text is a studied written text of Level 8 complexity. Simple or lower-level texts were a Not Achieved factor (2024 report)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "The statement is addressed through the body, not only in the introduction, conclusion or last sentence of each paragraph. A pre-prepared essay bent to fit is a common Not Achieved pattern."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Goes beyond plot summary."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule M",
+        "t": "A CONVINCING, discerning and informed argument that shows familiarity and engagement with the text(s)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M",
+        "t": "Convincing understanding of the specified aspect(s), with specific details beginning to be WOVEN into the argument."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M; 2024 Assessment Report",
+        "t": "Links to other aspects of the text or other contexts beyond a simple text-to-world comparison, and shows understanding of the writer's purpose."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Unpacks the statement's keywords (e.g. 'interesting', 'challenging') rather than treating the statement as a topic."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule E",
+        "t": "A SOPHISTICATED and insightful or original argument or interpretation (judged at Level 8, not adult-critic level)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E",
+        "t": "Perceptive understanding of the specified aspect(s), with judiciously chosen details woven in to support AND expand the argument."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E; 2024 and 2025 Assessment Reports",
+        "t": "Links the text to human experience, society and the wider world, and shows how readers are positioned and how the text works across its whole."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "A clear thesis on the whole statement, cohesive and articulate writing, and concise selection rather than over-production."
+       }
+      ]
+     },
+     "watch": [
+      "Pre-prepared essays twisted to fit the statement. This was the most common reason for Not Achieved in both 2024 and 2025.",
+      "The statement addressed only in the introduction, conclusion or last line of each paragraph, or only one part of a two-part statement.",
+      "Rewriting the statement or switching to a different aspect (e.g. writing about theme when the statement asks about symbols).",
+      "Theory (Marxist, feminist, psychoanalytic) bolted on without depth. NZQA says this often weakened responses in 2025.",
+      "Over-long essays. Do not reward length. Many 2,000+ word scripts were hard to reward because of repetition and irrelevance.",
+      "Plot summary or biography of the writer instead of analysis of the text.",
+      "The practice paper must use unseen statements. Reusing a statement the class has rehearsed does not meet derived-grade conditions."
+     ],
+     "aiLimits": "The AI cannot check the studied text, so the teacher must verify that quotations, character names and plot details are accurate and that the text is a studied Level 8 text. Scans of handwriting may be misread. The teacher must confirm the essay was written under supervision without notes.",
+     "researchNotes": "Standard text from the NZQA as91472 PDF (2019 folder, which reads Version 1, published 4 December 2012, review date 31 December 2020). The ENs were obtained partly paraphrased. 2026 and 2025 specifications read via fetch. 2025 and 2024 schedules read; the N1/N2 split was ambiguous in the extracted layout. No 2026 paper or schedule exists yet. No 2024 exemplars are published (2025 and 2023 exist). The 2025 exemplar commentary does not name the statement chosen. The exam time allowance and the date were not confirmed. Literacy-list status was not verified. The derived-grade rule summaries are carried over from the project's Level 1 History research, not re-read for this file.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91473",
+     "ref": "3.2",
+     "credits": 4,
+     "version": "Version 1 (published 4 December 2012; the 2019 PDF still reads Version 1, planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Respond critically to specified aspect(s) of studied visual or oral text(s), supported by evidence",
+     "criteria": {
+      "achieved": "Respond critically to specified aspect(s) of studied visual or oral text(s), supported by evidence.",
+      "merit": "Respond critically and convincingly to specified aspect(s) of studied visual or oral text(s), supported by evidence.",
+      "excellence": "Respond critically and perceptively to specified aspect(s) of studied visual or oral text(s), supported by evidence."
+     },
+     "notes": [
+      "EN1: Texts should be at Curriculum Level 8 and/or have characteristics that let students show the expected understanding.",
+      "EN2: Respond critically involves developing the focus and scope of an argument when discussing specified aspect(s) of the text(s), integrating relevant points into a clear, coherent argument in a structured essay-format written answer. Respond critically and convincingly involves making a discerning and informed argument. Respond critically and perceptively involves making a sophisticated and insightful and/or original argument.",
+      "EN3: Specified aspects are selected from: purposes and audiences; ideas (e.g. character, theme, setting); language features (e.g. cinematography, mise-en-scène, editing, production design, sound, performance, rhetorical devices); and structures (e.g. narrative sequence, beginnings and endings).",
+      "EN4: Studied refers to a considered exploration of the specified aspects of text(s).",
+      "EN5: Texts may be whole or partial, from New Zealand or elsewhere, and intertextual studies are allowed: film, television programmes, drama productions, radio programmes, oral performances, multimedia, graphic novels, digital or online texts.",
+      "EN6: Supported by evidence refers to the use of specific and relevant details to support an argument (examples, quotations and/or references to the studied text(s) or other sources).",
+      "Assessment schedule note: expectations of 'insight' and 'originality' should be considered in the context of a candidate working at Level 8."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination only. The 2025 specification said 'online digital examination or printed paper'. Schools can still flag entries as paper (NZQA digital assessment page). The task and length guidance are unchanged.",
+      "One essay on at least ONE studied visual or oral text, in response to ONE statement chosen from a range covering visual and oral text types. The 2024 and 2025 papers each offered eight statements.",
+      "The candidate records the text title(s) and director(s)/creator(s). Text types: film, television programme, radio programme, oral performance, drama production, graphic novel, multimedia/digital/online text.",
+      "Instruction: discuss the extent to which you agree with your chosen statement, responding critically through close analysis of the text(s).",
+      "Length guidance: about 800–900 words (5–6 pages). Assessed on quality, not length. Planning spaces are not marked.",
+      "Familiar context: the text is studied in advance, but the statements are unseen. No notes or viewing in the exam."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay gets ONE score code from N0 to E8 for the whole response.",
+      "Cut scores (2025 schedule): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8. The 2024 schedule was not re-checked for this standard; 91472's 2024 schedule uses the same cut scores.",
+      "N0: no response or no relevant evidence. N1: attempts to discuss the statement. N2: states a relevant idea and shows awareness of the use of the specified aspect(s), but does not reach Achievement.",
+      "A3/M5/E7: fulfils the intent of the criteria for that grade, although some parts may be partial or weak (A3) or imbalanced or limited (M5, E7). A4/M6/E8: securely fulfils the intent of the criteria for that grade.",
+      "Achievement: a structured essay (some clumsiness allowed); a relevant critical argument giving an evaluative response to the chosen statement; a range of relevant points showing understanding of the specified aspect(s); specific and relevant details; potentially linking beyond the text.",
+      "Merit: a convincing critical argument showing familiarity and engagement; convincing understanding of the aspect(s); beginning to weave details; links to other aspects of the text or other contexts.",
+      "Excellence: a cohesive, articulate essay; a sophisticated and insightful or original argument; perceptive understanding of the aspect(s); judiciously chosen details woven in to support and expand the argument; links to human experience, society and the wider world."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Choose ONE of eight statements: (1) Key moments become engaging through the director's / creator's skill. (2) The interesting use of time challenges our understanding of the world. (3) Characters who change for the better teach us much about human nature. (4) Captivating settings reveal important things about society. (5) The results of conflict communicate the director's / creator's ideas. (6) The skilful combination of sound and vision reveals a text's main message. (7) Unusual relationships provide insight for the audience. (8) Convincing villains give us a deeper understanding of what it is to be human."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91473-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91473-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91473-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91473-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91473-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91473-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Choose ONE of eight statements: (1) In effective texts, vision and sound work together to challenge the viewer's understanding. (2) Heroes give us hope through the way they manage their own weaknesses. (3) The way characters interact with their environment reveals important truths. (4) In a great text there is a turning point that disrupts the viewer's expectations. (5) Differences between settings reveal significant ideas about our world. (6) Successful texts deliver important ideas that help us to examine ourselves. (7) Unusual relationships shape the audience's understanding of everyday life. (8) The characters who influence us the most are those who make us uncomfortable."
+       ],
+       "cutScores": "Not re-checked for 91473 in 2024 (expected N 0–2, A 3–4, M 5–6, E 7–8 as for 91472)",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91473-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91473-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91473-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: a straightforward, simple approach to the statement, basic familiarity with the text, specific examples, and a formal, organised style.",
+      "2025, Merit: depth of knowledge of the text, ample evidence often referring to the craft of the visual or oral text, comment on the director's or creator's purpose in relation to the statement, and links to the wider world beyond simple comparison.",
+      "2025, Excellence: a sophisticated line of argument aligned with the statement, a structure that develops and evaluates it, flair and command of language, insight into sophisticated constructs, judicious evidence, and a nuanced understanding of how audiences are positioned.",
+      "2025, Not Achieved: misunderstood or did not address the statement, little knowledge of the text, very short responses with little evidence, a twisted pre-prepared essay, and theory without depth.",
+      "2025, commentary: Parasite, Zone of Interest, The Substance, Everything Everywhere All At Once, Triangle of Sadness and In My Father's Den supported achievement. Star Wars, Moana and Charlie and the Chocolate Factory limited discussion at Level 8. Multi-episode series were hard to discuss concisely. Candidates often confused 'setting' with 'scene'. Technique-focused statements were sometimes answered below Level 3 expectations.",
+      "2024, Achievement: straightforward, explanatory responses with some insight, generally coherent but sometimes unbalanced; relied on plot description with one or two sentences of analysis per paragraph; generic statements that needed detail.",
+      "2024, Merit: clear understanding of the text and of the aspects in the statement, strong evidence, explained how specific elements conveyed the creator's ideas, straightforward links beyond the text, basic critical lenses or tropes.",
+      "2024, Excellence: created and sustained an insightful argument engaging consistently with text and statement, integrated relevant technical analysis, linked to human concerns on-topic, adapted textual knowledge skilfully to the statement, used evidence selectively and avoided over-production.",
+      "2024, Not Achieved: ignored or misunderstood the statement or addressed only some of its aspects, insufficient relevant detail, overly simple texts (The Lego Movie, Spiderman, many Disney films), very short responses.",
+      "2024, commentary: many essays exceeded 2,000 words but contained irrelevance or repetition. Predictable readings repeated across schools (class in Parasite, racism in Get Out, gender in Barbie) limited original, statement-specific answers. Spoken word, oral performance and some Black Mirror episodes supported good achievement."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A4, 2025)",
+       "text": "A clear opening focus on unusual relationships (statement 7), examining isolation, fantasy and obsession, and what such relationships teach us, especially the risks.",
+       "miss": "Needed deeper discussion of the insights the text offers, and evidence balanced more evenly against the purpose it serves."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Evaluated the director's skill directly (statement 1), reading a door to a quilting room both literally and symbolically, supported by the lighting used throughout the text.",
+       "miss": "Leaned heavily to one side of the statement. Generic passages, especially about emotional responses, needed specific analysis of why and how the text produces those emotions."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Focused on how the director contrasts two settings to highlight the wealth gap and its consequences, with perception about the discomfort the film creates in its audience over the division of rich and poor.",
+       "miss": "For E8, it could discuss more fully the systemic causes of poverty the text critiques, and develop the idea of 'blindness' it raised but did not explore."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). Planning spaces are not marked.",
+      "Studied text(s) are prepared in advance, but the statements are unseen. No notes, no viewing and no prepared essays are allowed. A practice exam must use statements the students have not seen.",
+      "Literacy status: NOT VERIFIED in this session."
+     ],
+     "components": [
+      "Introduction and thesis responding to the whole statement",
+      "Body argument: specified aspect(s), including visual/oral techniques, analysed with woven evidence",
+      "Links beyond the text (human experience, society, audience positioning)",
+      "Conclusion that evaluates the statement"
+     ],
+     "focusTip": "Give the statement the student chose (word for word) and the text title(s) and director/creator, so the marker can check the essay answers that statement and the scene details are accurate.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule judgement",
+        "t": "A structured, essay-format response with a relevant critical ARGUMENT responding to the CHOSEN statement."
+       },
+       {
+        "type": "req",
+        "src": "EN3; schedule N2/A3",
+        "t": "Shows understanding of the specified aspect(s) in the statement (e.g. setting, sound and vision, villains), not a different aspect."
+       },
+       {
+        "type": "req",
+        "src": "EN6",
+        "t": "Supported by specific, relevant details from the studied visual or oral text (scenes, shots, sound, dialogue)."
+       },
+       {
+        "type": "req",
+        "src": "EN1 + EN4",
+        "t": "The text is a studied visual or oral text of Level 8 complexity. Overly simple texts were a Not Achieved factor (2024 report)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "The statement is addressed throughout, not twisted from a prepared essay, and the answer goes beyond plot retelling."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule M",
+        "t": "A CONVINCING, discerning and informed argument showing familiarity and engagement with the text."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M",
+        "t": "Convincing understanding of the specified aspect(s), with specific details beginning to be WOVEN in."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Explains how specific film or oral techniques convey the director's or creator's purpose, and links beyond the text beyond simple comparison."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule E",
+        "t": "A SOPHISTICATED and insightful or original argument or interpretation (judged at Level 8)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E",
+        "t": "Perceptive understanding of the specified aspect(s), with judiciously chosen details that support AND expand the argument."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E; 2025 Assessment Report",
+        "t": "Links to human experience, society and the wider world, and a nuanced understanding of how audiences are positioned."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Selective evidence and integrated technical analysis, with no over-production or repetition."
+       }
+      ]
+     },
+     "watch": [
+      "Pre-prepared essays twisted to fit the statement, and predictable class-wide readings (e.g. Parasite = class) that do not answer this statement.",
+      "Confusing 'setting' with 'scene', or treating technique statements simplistically (naming shots without analysing their effect).",
+      "Plot description with one or two lines of analysis at paragraph ends.",
+      "Overly simple texts for Level 8, and multi-episode series discussed without focus.",
+      "Over-long essays. Do not reward length.",
+      "Only one part of the statement addressed (e.g. 'sound' without 'vision').",
+      "The practice paper must use unseen statements, written under supervision."
+     ],
+     "aiLimits": "The AI cannot watch or listen to the studied text, so the teacher must verify that scenes, shots, sound details, dialogue and character names are accurate. Scans of handwriting may be misread. The teacher must confirm the essay was written under supervision without notes.",
+     "researchNotes": "Standard text from the NZQA as91473 PDF (2019 folder, which reads Version 1). 2026 and 2025 specifications, 2025 and 2024 papers, 2025 schedule, and 2024 and 2025 reports read via fetch. The 2024 91473 schedule was not opened (cut scores assumed from 91472 and marked as not re-checked). No 2024 exemplars are published. The 2025 exemplar commentary does not name the texts. The exam time allowance was not confirmed. Literacy status not verified.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91474",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 1 (published 4 December 2012; the 2019 PDF still reads Version 1, planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Respond critically to significant aspects of unfamiliar written texts through close reading, supported by evidence",
+     "criteria": {
+      "achieved": "Respond critically to significant aspects of unfamiliar written texts through close reading, supported by evidence.",
+      "merit": "Respond critically and convincingly to significant aspects of unfamiliar written texts through close reading, supported by evidence.",
+      "excellence": "Respond critically and perceptively to significant aspects of unfamiliar written texts through close reading, supported by evidence."
+     },
+     "notes": [
+      "EN2: Respond critically involves making evaluative interpretations and judgements. Respond critically and convincingly involves making discerning and informed interpretations and judgements. Respond critically and perceptively involves making sophisticated and insightful and/or original interpretations and judgements.",
+      "EN3: Close reading involves a detailed exploration and consideration of significant aspects of texts.",
+      "EN4: Aspects of written texts include: audiences and purposes; ideas (e.g. themes, attitudes, beliefs, experiences, feelings, insights, meanings, opinions, thoughts, understandings within the text); language features (e.g. figurative language, syntax, style, symbolism, diction, vocabulary, sound devices); structures (e.g. narrative sequence, beginnings and endings).",
+      "EN5: Significant refers to how aspects and interpretations of the text create meaning.",
+      "EN6: Supported by evidence refers to the use of specific and relevant details to support interpretation and judgement. This may include quotations from and/or references to the texts.",
+      "Assessment schedule note: expectations of 'insight' and 'originality' are judged in the context of a candidate working at Level 8."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination only. The 2025 specification said 'online digital examination or printed paper'. Schools can still flag entries as paper. Candidates sitting online get a PHYSICAL copy of the texts. The question structure is unchanged.",
+      "UNFAMILIAR texts in a resource booklet (91474R): one prose text and one poem. Candidates answer ALL three questions, with no choice.",
+      "Question One: a discussion of the prose text against a stated idea, referring to at least TWO specific aspects of written texts.",
+      "Question Two: a discussion of the poem against a stated idea, referring to at least TWO specific aspects.",
+      "Question Three: a comparison of how the two writers treat a shared idea, referring to at least ONE specific aspect used in EACH text.",
+      "No length guidance is given. Planning spaces are not marked."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is given its own score code from N0 to E8, using the same descriptors for each question. The three scores are TOTALLED out of 24.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–7, Achievement 8–12, Merit 13–18, Excellence 19–24.",
+      "Per question (2024 schedule wording, paraphrased): N1 identifies an idea from the text related to the question. N2 identifies a relevant idea and shows awareness of ONE aspect without linking it to the idea. A3 gives a critical discussion of how ONE aspect creates meaning in relation to the idea (some parts may be partial or weak). A4 securely meets Achievement. M5 shows awareness of TWO aspects, both linked to the idea (some parts may be imbalanced or limited). M6 securely meets Merit, with specific details. E7 gives a sophisticated or original critical discussion with insight (some parts may be imbalanced or limited). E8 securely meets Excellence, weaving judiciously chosen details and linking to wider human, social or global contexts.",
+      "Judgement statements (2025 schedule): Achievement is a relevant critical discussion in response to the question, engagement with the text, understanding of how at least TWO aspects create meaning, specific and relevant details, and potentially links beyond the text. Merit adds a convincing discussion, informed engagement, convincing understanding of the aspects and beginning to weave details. Excellence adds a sophisticated or original discussion, insightful engagement, perceptive understanding, judiciously chosen details woven in, and tracing the development of ideas through the text.",
+      "The schedule lists possible ideas and aspects for each question. These are indicative, not required."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1 (prose, Text A 'Lippy'): discuss how storytelling is explored, referring to at least TWO aspects. The schedule suggested others telling your story, emotion in storytelling, a metaphor for storytelling as shared effort, shifts between first- and third-person pronouns, anecdote, emotive words, personification, and alternation of general comment with specific recall.",
+        "Q2 (poetry, Text B 'Meteorite'): discuss how the writer explores their emotions, referring to at least TWO aspects. The schedule suggested helplessness before vast scale, inability to respond emotionally, self-doubt, negative phrasing, repetition, speculation and humour showing insecurity, and emotive physical imagery and wonder.",
+        "Q3 (comparison): compare how the writers make sense of life, referring to at least ONE aspect in each text. The schedule suggested comparison as sense-making, different pasts (art history versus celestial bodies), sense-making through others versus alone, and family-based sense-making versus a solitary list of past selves."
+       ],
+       "cutScores": "N 0–7, A 8–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91474-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91474-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91474-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91474-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91474-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91474-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91474-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1 (Text A 'Teen Spirit'): discuss how the writer explores the ways people experience their environment, referring to at least TWO aspects. Suggested aspects included personification, emotive language, comparison, personal pronouns, repeated motifs and dialogue.",
+        "Q2 (Text B 'Comeuppance'): discuss how the writer explores ideas about belonging, referring to at least TWO aspects. The schedule framed it as how people (and/or seals) feel about where they live: ownership, protection of the environment, distress at change, privacy; onomatopoeia, contrast, allusion, sensory language, domestic diction.",
+        "Q3 (comparison): compare how the writers portray the relationships between people and animals, referring to at least ONE aspect in each text (e.g. shifting language between humans and animals, us/them pronouns, sensory and emotive language)."
+       ],
+       "cutScores": "N 0–7, A 8–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91474-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91474-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91474-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91474-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: attempted all three questions, understood both texts, identified and exemplified at least two relevant aspects per answer, and supported commentary with relevant details.",
+      "2025, Merit: convincing engagement, accurate identification of aspects and the writer's purpose, well-chosen quotations unpacked and woven into commentary, balanced in-depth discussion for ALL questions, personal interpretation, and development of ideas across both texts.",
+      "2025, Excellence: perceptive, original insights across all questions; aspects identified throughout with constant reference to the question; comment on COMBINATIONS of aspects; different authorial viewpoints linked to societal and personal issues; appreciation of language as choice; a coherent analytical argument; balanced answers to all three.",
+      "2025, Not Achieved: did not answer all three questions; did not identify or exemplify aspects, even in otherwise well-written answers; summary instead of analysis; only one aspect per question.",
+      "2025, commentary: candidates handled poetry better than prose, and needed more work on how prose builds meaning, including narrative perspective (first, second, third person). Question Three (comparison) was the hardest. Candidates who discussed both texts together did well, but time management was a problem for some.",
+      "2024, Achievement: attempted all three, identified and illustrated at least two aspects, relevant detail, but key ideas simplistic or undeveloped, literal analysis of sections rather than the whole text.",
+      "2024, Merit: answered directly with a range of evidence, an example and comment for each aspect, explained why and how aspects create impact, traced the development of ideas, explained how aspects work together, and integrated comparison in Question Three.",
+      "2024, Excellence: consistent across all three questions with at least two aspects in each; concise, well-chosen examples; the question woven through every part; how techniques combine for effect; perceptive insight; universal links without losing textual focus; how the text positions the reader.",
+      "2024, Not Achieved: did not identify two aspects per answer (especially in Q3), quoted without naming the aspect (a quotation is not an aspect), limited understanding, or drifted into personal experience or real-world issues without returning to the text."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (total 10: A3, A3, A4, 2025)",
+       "text": "Q1 identified that storytellers aim to entertain and inform, supported with examples of point of view and dialogue. Q2 identified and supported diction and simile, beginning to explain emotion. Q3 made relevant points about both writers using direct speech and first-person narration, with specific quotations.",
+       "miss": "Needed fuller explanation of how techniques convey the writer's ideas, clearer handling of point of view and how it positions the reader, and analysis of how techniques shape the reader's emotional response."
+      },
+      {
+       "grade": "Merit (total 16: M5, M6, M5, 2025)",
+       "text": "Q1 convincingly discussed how storytelling helps people understand one another, using description and direct speech. Q2 unpacked repetition and syntax, linked to real-world pressures such as social media, and traced ideas while moving in and out of the text. Q3 identified each writer's sense-making aspects convincingly.",
+       "miss": "In Q1 the tracing was limited and the techniques needed fuller unpacking. In Q3 the texts were discussed separately with only a brief comparison at the end; integrated discussion throughout was needed."
+      },
+      {
+       "grade": "Excellence (total 24: E8, E8, E8, 2025)",
+       "text": "Linked construction to effect on the reader, wove language analysis into the argument and showed how several techniques combine. Made evaluative, original judgements about emotion in the poem. In Q3 moved in and out of both texts, synthesising them with woven evidence and connecting to human experience and the wider world.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). Candidates sitting online receive a physical copy of the texts. Planning spaces are not marked.",
+      "The texts must be UNFAMILIAR. A practice exam for derived grades must use a prose extract and a poem the students have not studied or seen.",
+      "No notes or dictionaries are mentioned as allowed. All three questions must be answered, so the practice exam should be timed as a whole paper.",
+      "Literacy status: NOT VERIFIED in this session."
+     ],
+     "components": [
+      "Question One: prose text, a stated idea, at least two aspects",
+      "Question Two: poem, a stated idea, at least two aspects",
+      "Question Three: comparison of both texts, at least one aspect in each"
+     ],
+     "focusTip": "Supply the two unfamiliar texts (or their titles and sources) and the exact wording of all three questions, so the marker can check each answer against its idea and the aspects the student names.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2 + EN4; schedule A3",
+        "t": "For each question, a relevant critical discussion that identifies the idea asked about and shows how named ASPECTS (e.g. pronouns, imagery, structure) create meaning in relation to it."
+       },
+       {
+        "type": "req",
+        "src": "EN6",
+        "t": "Specific, relevant details (quotations, references) support each point."
+       },
+       {
+        "type": "ind",
+        "src": "Paper instructions; schedule",
+        "t": "Question One and Question Two each refer to at least TWO aspects. Question Three refers to at least ONE aspect in EACH text and actually compares them."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All three questions are attempted. Not answering all three is the first Not Achieved pattern listed in the 2025 report, and because the total is out of 24, a missing question costs heavily."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "A quotation is not an aspect. The aspect must be named and then exemplified."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule M",
+        "t": "CONVINCING, discerning and informed interpretations: explains why and how aspects create meaning, with details beginning to be woven into commentary."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Traces the development of ideas through the text, explains how aspects work together, and integrates the comparison in Question Three rather than discussing the texts separately."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Balanced depth across all three questions."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule E",
+        "t": "SOPHISTICATED, insightful and/or original interpretations and judgements, with judiciously chosen details woven in."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E",
+        "t": "Traces the development of ideas throughout the text and links to wider human, social or global contexts without losing the textual focus."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E8 exemplar",
+        "t": "Analyses how techniques COMBINE for effect, treats language as choice, shows how the reader is positioned, and is consistent across all three questions (Q3 synthesises both texts)."
+       }
+      ]
+     },
+     "watch": [
+      "Only one aspect discussed per question, or a quotation offered as if it were an aspect.",
+      "Question Three answered as two separate mini-essays with a token comparison at the end. This held the 2025 Merit exemplar at M5 on Q3.",
+      "Summary or paraphrase of the text instead of analysis of how meaning is made.",
+      "Drifting into personal experience or real-world issues without returning to the text.",
+      "Weak handling of prose, especially narrative perspective. NZQA flagged this in 2025.",
+      "Score each question separately and total out of 24. Do not give one holistic grade for the paper. Use the paper cut scores (A from 8, M from 13, E from 19), not the single-question bands.",
+      "The practice texts must be genuinely unfamiliar. Past NZQA texts the class has already worked on do not meet the derived-grade conditions."
+     ],
+     "aiLimits": "The AI can only check quotations and aspects against the texts if the teacher supplies the resource booklet texts. Scans of handwriting may be misread. The teacher must confirm the texts were unseen and the paper was sat under supervision.",
+     "researchNotes": "Standard text from the NZQA as91474 PDF (2019 folder, Version 1). The subject reference 3.3 is inferred from the sequence (91472 is English 3.1 and 91473 is English 3.2 on their PDFs). 2026 and 2025 specifications read. The 2024 and 2025 schedules were read, but the per-code grid extracted with an ambiguous layout. The per-question descriptors above follow the 2024 extraction and are paraphrased, not verbatim. The 2025 schedule does not state in words that question scores are added, but its 0–24 cut scores show this. The resource booklets were not opened, so the writers of 'Lippy', 'Meteorite', 'Teen Spirit' and 'Comeuppance' are not recorded. No 2024 exemplars are published. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Geography": {
+   "slug": "geography",
+   "discipline": "Each Level 3 Geography exam is marked holistically. The marker reads the whole booklet, written and visual parts together, and gives ONE score from 0 to 8. The score climbs from analysis with some case study evidence (A), to detailed analysis with detailed evidence (M), to comprehensive, insightful analysis with integrated evidence (E). For 91426 and 91427, insight means linking processes, elements or features to draw conclusions. For 91429 it means applying concepts and skills to the resource booklet with precision and evaluation. Specific, located case study evidence (place names, data, dates, rates) and annotated maps or diagrams count. Rote-learned material that is not adapted to the question, bullet points, copied resources and length do not.",
+   "parallelHint": "a different New Zealand environment shaped by different interacting natural processes (e.g. Tongariro volcanic plateau instead of the Coromandel coast) for 91426; a different cultural process in a different environment (e.g. urban intensification in Hamilton instead of tourism development in Queenstown) for 91427; a different overseas setting with its own resource set (e.g. Mekong Delta flooding instead of Canadian wildfires) for 91429",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Geography (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91426-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 Geography (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91429-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91426 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91426"
+    },
+    {
+     "label": "NZQA 91427 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91427"
+    },
+    {
+     "label": "NZQA 91429 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91429"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Geography (covers 91426, 91427, 91429)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91426-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Geography (covers 91426, 91427, 91429)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91426-report-2024.pdf"
+    },
+    {
+     "label": "NCEA cut scores 2025",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2-Universal-documents/Cut-Scores.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "Summary of 2026 Assessment Rules changes (EmaiLink March 2026)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Publications/EmaiLink/March-2026/Summary-of-2026-Assessment-Rules-changes.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91426, 91427 and 91429 are end-of-year printed-paper examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of these three Geography standards falls into those groups. No Geography-specific exclusion was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): the evidence must be quality-assured, pre-existing, valid, authentic and standard-specific. It must come from a practice assessment that matches the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For 91426 and 91427 that means: supervised, no notes, ONE question with multiple parts, a written AND a visual (annotated map or diagram) component, and the student's own studied environment and case study recalled from memory. A practice paper set in the 2024 single-question layout ('spatial OR temporal variation') does not mirror the 2025 two-part layout, and the 2026 specification still says 'one question with multiple parts'.",
+    "For 91429 that means: a resource booklet on an OVERSEAS setting that students have NOT seen, with concept definitions printed in the booklet, and parts that each require skills and concepts to be applied. A booklet re-used from a class unit, or a previous NZQA booklet that students have already studied, weakens the validity of the evidence.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it (panel marking or checking boundary scripts). Practice exams may be modified papers from previous years.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete, and the student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91426",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of how interacting natural processes shape a New Zealand geographic environment",
+     "criteria": {
+      "achieved": "Demonstrate understanding of how interacting natural processes shape a New Zealand geographic environment.",
+      "merit": "Demonstrate in-depth understanding of how interacting natural processes shape a New Zealand geographic environment.",
+      "excellence": "Demonstrate comprehensive understanding of how interacting natural processes shape a New Zealand geographic environment."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves analysing the interacting natural processes and how they shape the environment, with some supporting case study evidence.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves analysing the interacting natural processes in detail and how they shape the environment, with detailed supporting case study evidence.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves providing an insightful analysis of the interacting natural processes and how they shape the environment, with integrated, comprehensive supporting case study evidence. Insight is shown by examining the interaction between processes, elements and/or features to draw conclusions.",
+      "EN3: Interacting natural processes operate together to shape the environment. They may operate at different rates and scales, creating spatial and/or temporal variation.",
+      "EN4: The geographic environment is the features and characteristics of an area large enough for several interacting processes to be studied.",
+      "EN5: Integrating means weaving relevant examples throughout the evidence to support explanations."
+     ],
+     "examFormat": [
+      "2026 change: none stated. The 2026 specification (October 2025) repeats the 2025 wording: ONE question with multiple parts, with a written and a visual component. It does not say whether the 2025 two-part (a)/(b) 'two features' layout will be repeated.",
+      "Format in 2026: end-of-year examination, PRINTED PAPER. Candidates should use coloured pencils for diagrams and maps, write annotations in pen, and bring coloured pencils, a calculator and a ruler.",
+      "2025 paper: the candidate names ONE New Zealand geographic environment for both parts. (a) Annotated map(s) and/or diagram(s) on page 3, explaining how interacting natural processes shaped ONE natural feature. (b) A written analysis of how interacting natural processes shape a SECOND, different natural feature, with integrated, comprehensive case study evidence. A planning page is provided.",
+      "2024 paper (different layout): a single question, 'How do interacting natural processes create spatial OR temporal variations in a New Zealand geographic environment?' The candidate ticked the chosen variation, drew a supporting annotated map or diagram on page 3, and could integrate other diagrams.",
+      "There is no resource booklet. The environment and case study evidence come from the student's own study, recalled without notes. NZQA does not specify environments.",
+      "No time allowance or word guidance is printed on the papers. The 2025 booklet had pages 2–11 plus extra space."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "HOLISTIC: one set of score codes (N0–E8) for the whole response. In 2025 parts (a) and (b) were judged together. The (a) diagram does not need to be comprehensive for Merit or Excellence (2025 schedule).",
+      "Cut scores (2024 and 2025 schedules; NZQA 2025 cut scores): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "2025 codes. N1: some relevant material, but the question is not addressed. N2: describes processes without linking them to features, OR describes features without linking them to processes.",
+      "A3: partially analyses how processes shape a feature. The analysis is partly inferred or largely descriptive, with some case study evidence. A4: analyses how interacting processes shape a feature, with case study evidence.",
+      "M5: analyses in some detail, not consistently throughout, with some detailed case study evidence. M6: analyses in detail in BOTH the written and visual components, with detailed case study evidence.",
+      "E7: analyses comprehensively with some insight in both components, integrating comprehensive case study evidence throughout. E8: as E7, with insight, drawing conclusions from the interaction between processes and features.",
+      "2025 evidence notes: (b) must be a DIFFERENT feature from (a). Development of the feature over time and space is acceptable in (b), but it should not be the main focus.",
+      "2024 codes added a variation strand. N2: processes linked to features but no interaction or variation. A4: describes interaction and how the variations occur. M5–E8: explain interaction and WHY the variations occur. M5 needs detailed evidence in written OR visual work, and M6 needs it in both."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Name a New Zealand geographic environment to use for both parts.",
+        "(a) Draw annotated map(s) and/or diagram(s) of the environment explaining how interacting natural processes have shaped ONE natural feature.",
+        "(b) Analyse how interacting natural processes operate to shape a SECOND, different natural feature: name it, explain how the processes operate and interact to create and shape it, and integrate comprehensive case study evidence."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91426-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91426-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91426-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "One question: how do interacting natural processes create spatial OR temporal variations in a New Zealand geographic environment? Name the environment and processes, tick the chosen variation, construct a supporting annotated map or diagram (page 3), and integrate comprehensive case study evidence. Other annotated diagrams may be added."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91426-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91426-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91426-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91426-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91426-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91426-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: addressed all parts, explained how processes operate and interact with some specific evidence, and drew brief diagrams with limited case study support.",
+      "2025, Merit: chose two genuinely different features and analysed the second in detail, analysed the interactions between processes in detail, and gave complete responses with appropriate case study evidence.",
+      "2025, Excellence: comprehensively analysed a second, separate feature, with interacting processes shown clearly in diagrams and detailed case study evidence.",
+      "2025, Not Achieved: incomplete or partial responses, insufficient case study evidence, process interactions not explained, diagrams labelled only with feature names and locations (or none), focus only on change over time or only on variation between places, bullet points.",
+      "2025, common errors: ignoring the two-part format so that (b) repeated (a), and minimally labelled diagrams with little case study evidence. Tailored answers did better than rote-learned material, and planning helped structure.",
+      "2024, Achievement: addressed the question, described how processes operated and interacted, and included some specific evidence.",
+      "2024, Merit: complete responses with good case study detail, sound understanding of process interaction, and a relevant annotated diagram or map.",
+      "2024, Excellence: insightful analysis with concluding statements, integrated case study evidence, clear explanation of process interaction using geographic terminology, and fully annotated diagrams or maps.",
+      "2024, Not Achieved: did not address the question, no case study evidence, no process interaction described, incomplete answers, or maps labelled with names only.",
+      "2024, commentary: committing to EITHER spatial OR temporal variation from the start gave more focused answers, while switching between them usually lacked depth. Diagrams needed more annotation. Work written in coloured pencil was hard to read, so candidates should write in pen."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A4, 2024)",
+       "text": "The environment and the interacting natural processes were well described, with some diagrams and supporting case study evidence.",
+       "miss": "Not enough detailed case study evidence or explanation of the interactions for Merit."
+      },
+      {
+       "grade": "Merit (M5, 2024)",
+       "text": "Detailed response with detailed case study evidence. It analysed in depth the reasons for the variations and the interactions between processes, but had one unannotated diagram.",
+       "miss": "Excellence needed further annotation of diagrams and greater integration of evidence with insightful analysis."
+      },
+      {
+       "grade": "Excellence (E8, 2024)",
+       "text": "Excellent, generally clearly annotated diagrams throughout, with comprehensive supporting case study evidence in the writing. It showed insight that interacting processes operate to form different features, creating distinct spatial variations within the environment.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on printed paper (2026). Diagrams and maps in coloured pencil, annotations in pen. Coloured pencils, calculator and ruler are advised.",
+      "No resource booklet: the environment and case study evidence come from the student's own learning, recalled under supervision without notes. A derived-grade practice exam must replicate this.",
+      "The student chooses the environment, so pre-learned answers are likely. The practice paper should ask a question the student has not prepared word for word (e.g. a different feature or variation), as the real exam does.",
+      "Literacy co-requisite: not checked. It does not affect derived-grade eligibility, because only the dedicated co-requisite standards are excluded."
+     ],
+     "components": [
+      "(a) Annotated map(s)/diagram(s): how interacting natural processes shaped ONE natural feature",
+      "(b) Written analysis: how interacting natural processes shape a SECOND, different feature, with integrated case study evidence"
+     ],
+     "focusTip": "Name the student's New Zealand environment and the two features (or, for a 2024-style paper, the variation chosen), so the processes and case study evidence can be checked against that place.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3/A4",
+        "t": "ANALYSES how interacting natural processes shape the environment (in 2025, a feature), not just describing processes OR features. Processes without features, or features without processes = N2."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Includes some supporting case study evidence from a named New Zealand environment."
+       },
+       {
+        "type": "req",
+        "src": "EN3; schedule",
+        "t": "The processes are shown INTERACTING (operating together), not as a list of separate processes."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "All parts are attempted, with a visual component as well as writing. Missing or name-only diagrams were common in Not Achieved scripts."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Continuous prose, not bullet points, answering the question asked rather than a pre-learned essay."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule M5/M6",
+        "t": "Analyses the interacting processes IN DETAIL, with DETAILED case study evidence. At M6, the detail appears in BOTH the written and visual components."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Part (b) treats a genuinely different feature in detail and does not repeat part (a)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 schedule and Assessment Report; M5 exemplar",
+        "t": "Explains WHY the variations occur (2024 layout), with annotated (not merely labelled) diagrams."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule E7/E8",
+        "t": "INSIGHTFUL analysis: examines the interaction between processes, elements and/or features to DRAW CONCLUSIONS."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN5; schedule E7",
+        "t": "Comprehensive case study evidence INTEGRATED (woven) throughout the written and visual components."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report; E8 exemplar",
+        "t": "Concluding statements, accurate geographic terminology, fully annotated diagrams, and recognition that interacting processes form different features or variations across the environment."
+       }
+      ]
+     },
+     "watch": [
+      "Part (b) about the same feature as part (a), or a feature from a different environment. In 2025 both had to come from ONE named environment, with a different feature in (b).",
+      "Processes listed one by one with no interaction ('weathering… then erosion…'). Interaction is the core of the standard.",
+      "Diagrams with names and arrows but no explanatory annotation. These count for little, and M6 needs detail in BOTH components.",
+      "Rote-learned essays (e.g. a prepared 'spatial variation' answer) pasted into a two-feature question. Credit only what answers the question.",
+      "Generic evidence ('lots of rain', 'strong winds') instead of located, specific data (rainfall in mm, uplift rates, place names, dates).",
+      "Coloured-pencil writing in scans is hard to read. Ask for annotations in pen as the specification requires.",
+      "One holistic score: do not score (a) and (b) separately and add them."
+     ],
+     "aiLimits": "Hand-drawn maps and diagrams, and handwriting in scans, may be misread, and colour shading may be lost in a photo. The teacher must check what the diagrams show and how well they are annotated, and confirm the accuracy of the case study facts (place names, rates, data) the AI cannot verify for the student's chosen environment.",
+     "researchNotes": "Standard text from the NZQA as91426 PDF (2019 folder; Version 2, 17 November 2016). The ENs were obtained paraphrased, so the wording here is close but not verbatim, and EN1 (curriculum derivation) and EN6 (specifications) are omitted. 2026 and 2025 specifications read via fetch. Schedules were summarised by the fetch tool rather than quoted. The 2024 schedule's column alignment was partly unclear. The cut scores were confirmed in the NZQA 2025 cut-scores PDF, and the 2024 ones come from the 2024 schedule. The 2024 exemplars do not name the environment. No 2025 exemplars were listed. The 2025 and 2024 Assessment Reports are single Level 3 Geography reports (filed under each standard). The exam date and time allowance were not confirmed. No 2026 sample paper was found.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91427",
+     "ref": "3.2",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of how a cultural process shapes geographic environment(s)",
+     "criteria": {
+      "achieved": "Demonstrate understanding of how a cultural process shapes geographic environment(s).",
+      "merit": "Demonstrate in-depth understanding of how a cultural process shapes geographic environment(s).",
+      "excellence": "Demonstrate comprehensive understanding of how a cultural process shapes geographic environment(s)."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves analysing aspects of the cultural process and how they shape the geographic environment(s), with some supporting case study evidence.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves analysing these aspects in detail, with detailed supporting case study evidence.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves providing an insightful analysis, which includes examining the links between elements of the cultural process to draw conclusions, with integrated, comprehensive supporting case study evidence.",
+      "EN3: A cultural process is any process caused by people.",
+      "EN4: The geographic environment is the features and characteristics of one or more areas where the cultural process operates.",
+      "EN5: Aspects of the cultural process MAY include how it creates spatial and/or temporal variations in the environment, and how it has affected people and environments.",
+      "EN6: Integrating means weaving relevant examples throughout the evidence to support explanations."
+     ],
+     "examFormat": [
+      "2026 change: none stated. The 2026 specification (October 2025) repeats the 2025 wording: ONE question with multiple parts, with a written and a visual component. It does not say whether the 2025 (a) map / (b) 'impacts on people' layout will be repeated.",
+      "Format in 2026: end-of-year examination, PRINTED PAPER. Coloured pencils for diagrams and maps, annotations in pen. Coloured pencils, calculator and ruler are advised.",
+      "2025 paper: name ONE geographic environment and ONE cultural process for both parts. (a) Annotated map(s) and/or diagram(s) explaining how the process has impacted the environment. (b) Explain how the process operates to create impacts ON PEOPLE in the environment, including links between the elements of the process used to draw conclusions, and integrated, comprehensive case study evidence.",
+      "2024 paper (different layout): a single question, 'How does a cultural process operate to impact a geographic environment(s) you have studied?' Name the process and environment(s), construct a supporting annotated map or diagram (page 3), and integrate comprehensive case study evidence. Impacts could be on the natural and/or cultural environment.",
+      "There is no resource booklet. The student brings their own process, environment and case study from memory. Tourism development was the most common process in 2024.",
+      "No time allowance or word guidance is printed on the papers."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "HOLISTIC: one set of score codes (N0–E8) covers the whole response. Both parts feed one judgement. The (a) visual does not need to be comprehensive for Merit or Excellence (2025 schedule).",
+      "Cut scores (2024 and 2025 schedules; NZQA 2025 cut scores): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "2025 codes. N2: little accurate information on impacts, or describes where or how the process operates without analysing its effect on people or the environment.",
+      "A3: partially analyses how the process operates to affect people and/or the environment, possibly focused more on the impacts than on how the process caused them, with some case study evidence. A4: analyses this, though parts may lean on impacts rather than the process, with case study evidence.",
+      "M5: analyses in some detail how the process operates to affect people and the environment, with some detailed case study evidence. M6: analyses in detail in BOTH the written and visual components, with detailed evidence.",
+      "E7: analyses comprehensively with some insight in both components, LINKING ELEMENTS of the process to draw conclusions and integrating comprehensive case study evidence throughout. E8: as E7, with insight.",
+      "2025 evidence notes: (b) impacts must focus on PEOPLE (they may be considered across time and space). (a) may show impacts on the natural or cultural environment, with people as part of the cultural environment.",
+      "2024 codes: A3 explains the process OR the impact, A4 both (one may be weaker), M5/M6 explain both process and impact with detailed evidence (M6 in both components), and E7/E8 explain the process by considering the LINKS BETWEEN ITS ELEMENTS."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Name one geographic environment and one cultural process for both parts.",
+        "(a) Draw annotated map(s) and/or diagram(s) explaining how the cultural process has impacted the environment.",
+        "(b) Explain how the cultural process operates to create impacts on people in the environment: the operation of the process and its impacts on people, links between the elements of the process used to draw conclusions, and integrated, comprehensive case study evidence."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91427-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91427-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91427-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "One question: how does a cultural process operate to impact a geographic environment(s) you have studied? Name the process and environment(s), construct a supporting annotated map or diagram, and integrate comprehensive case study evidence."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91427-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91427-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91427-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91427-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91427-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91427-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: addressed all parts, explained some links between the process and its impacts with some specific evidence, and described impacts more than analysed them.",
+      "2025, Merit: complete responses that categorised impacts (e.g. social, cultural, economic) and analysed each, though the depth varied.",
+      "2025, Excellence: linked the OPERATION of the process to its impacts, analysed links between the elements of the process, organised impacts by category (social, economic, short- and long-term, positive and negative), and evaluated their significance or mitigation.",
+      "2025, Not Achieved: impacts described without linking them to how the process operates, insufficient evidence, missing or name-only diagrams, incomplete answers.",
+      "2025, common errors: attributing impacts directly to COVID-19 rather than to a change in the process, and choosing processes (e.g. 'migration', 'urban development') without clear, identifiable elements.",
+      "2024, Achievement: named a process and a defined environment, gave simple reasoning linking the process to impacts, and described a range of impacts with limited analysis.",
+      "2024, Merit: a relevant map or diagram, detailed understanding of how the process caused impacts on the natural and cultural environment, in-depth analysis of several impacts, and some technical language.",
+      "2024, Excellence: comprehensive, insightful analysis of how the process caused the impacts, analysis of links between its elements, integrated evidence, correct terminology or theory, and logically categorised impacts with their significance or mitigation weighed.",
+      "2024, Not Achieved: no clear process or environment, no map or diagram, a focus only on how the process changed over time without linking that to impacts, descriptive impacts, too few impacts, or an unsuitable process.",
+      "2024, commentary: pre-learned answers about how a process changed over time were capped unless the changes were linked to environmental impacts. Abstract processes without clear elements produced descriptive answers, while processes with clearly signposted elements allowed stronger analysis."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A4, 2024)",
+       "text": "Tourism development. Made simple links between the process and its impacts.",
+       "miss": "Merit needed further analysis of the reasons for HOW tourism development caused each impact."
+      },
+      {
+       "grade": "Merit (M5, 2024)",
+       "text": "Clearly showed how a cultural process affects an environment, logically structured, with good analysis of how the process operated over time and space.",
+       "miss": "Excellence needed insightful analysis, with more technical understanding integrated throughout and clearer links between elements."
+      },
+      {
+       "grade": "Excellence (E7, 2024)",
+       "text": "Covered both how the process operates and its impacts, linking cause and outcome. It was organised by type of impact, each impact's reasoning connected to the process and to other elements, and a relevant diagram supported the writing. Insight came through structure, terminology, discussion of significance, mitigation and links between elements.",
+       "miss": "The commentary does not state the step to E8."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on printed paper (2026). Diagrams and maps in coloured pencil, annotations in pen.",
+      "No resource booklet: the process, environment and case study evidence come from the student's own learning, recalled under supervision without notes.",
+      "The student's choice of process and environment invites prepared essays. The practice question should require adaptation, as the real exam does (e.g. the 2025 focus on impacts on PEOPLE).",
+      "Literacy co-requisite: not checked. It does not affect derived-grade eligibility."
+     ],
+     "components": [
+      "(a) Annotated map(s)/diagram(s): how the cultural process has impacted the environment",
+      "(b) Written analysis: how the process operates to create impacts on people, linking its elements to draw conclusions"
+     ],
+     "focusTip": "Name the student's cultural process, its elements as they were taught (e.g. tourism development: attractions, accessibility, investment, marketing), and the environment, so the AI can check that the answer links elements to impacts.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3/A4",
+        "t": "ANALYSES how the cultural process OPERATES to shape (impact) the environment, linking the process to its impacts. Describing where or how the process operates without its effects = N2."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Includes some supporting case study evidence for a named process and environment."
+       },
+       {
+        "type": "ind",
+        "src": "2025 paper and schedule",
+        "t": "In the 2025 layout, part (b)'s impacts are on PEOPLE in the environment."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "A clearly defined environment and a process with identifiable elements. Abstract processes produced descriptive answers."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "A map or diagram is present. Missing visuals were common in Not Achieved scripts."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2; schedule M5/M6",
+        "t": "Analyses IN DETAIL how the process operates to affect people and the environment, with DETAILED case study evidence. At M6 the detail appears in BOTH the written and visual components."
+       },
+       {
+        "type": "ind",
+        "src": "A4 exemplar; 2024 and 2025 Assessment Reports",
+        "t": "Gives reasons for HOW the process caused EACH impact, often with impacts grouped by category (social, cultural, economic)."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; schedule E7/E8",
+        "t": "INSIGHT: examines the LINKS BETWEEN ELEMENTS of the cultural process to draw conclusions."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN6; schedule E7",
+        "t": "Comprehensive case study evidence INTEGRATED throughout the written and visual components."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E7 exemplar",
+        "t": "Impacts organised by category (short- and long-term, positive and negative), with their significance weighed or mitigation discussed, in precise terminology."
+       }
+      ]
+     },
+     "watch": [
+      "A list of impacts with no explanation of how the process caused them. This was the most common cap at Achievement in both years.",
+      "Pre-learned history of how the process changed over time, not tied to impacts (capped in 2024).",
+      "COVID-19 named as the cause of impacts instead of being shown to change how the process operates.",
+      "Vague processes ('urban development', 'migration') with no elements to link, which make Excellence insight almost impossible.",
+      "In a 2025-style paper, (b) written about the natural environment when the question asks about impacts on people.",
+      "Diagrams with labels but no explanation. M6 needs detail in both components.",
+      "One holistic score: do not score (a) and (b) separately and add them."
+     ],
+     "aiLimits": "Hand-drawn maps and diagrams, and handwriting in scans, may be misread, and colour may be lost. The teacher must check the visual component and confirm the accuracy of the case study facts (places, figures, dates) for the student's chosen environment, which the AI cannot verify.",
+     "researchNotes": "Standard text from the NZQA as91427 PDF (2019 folder; Version 2, 17 November 2016). The criteria are verbatim, and the ENs were close to verbatim from the fetch. Schedules were summarised by the fetch tool. The cut scores were confirmed in the NZQA 2025 cut-scores PDF. The 2024 exemplars, apart from the Achieved one (tourism development), do not name the process or environment. No 2025 exemplars were listed. The exam date and time allowance were not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91429",
+     "ref": "3.4",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of a given environment(s) through selection and application of geographic concepts and skills",
+     "criteria": {
+      "achieved": "Demonstrate understanding of a given environment(s) through selection and application of geographic concepts and skills.",
+      "merit": "Demonstrate in-depth understanding of a given environment(s) through selection and application of geographic concepts and skills.",
+      "excellence": "Demonstrate comprehensive understanding of a given environment(s) through selection and application of geographic concepts and skills."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves analysing the given environment(s) through geographic concepts, and using geographic skills and conventions to present and/or interpret information.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves analysing the given environment(s) in detail, and using geographic skills and conventions with precision.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves analysing the given environment(s) with insight.",
+      "EN3: Geographic skills include mapping, interpreting visual material, graphing and statistics, as listed in the Geography Teaching and Learning Guide.",
+      "EN4: Geographic concepts are those in the Teaching and Learning Guide (e.g. environments, perspectives, processes, patterns, interaction, change, sustainability).",
+      "EN5: A given environment is a specific New Zealand and/or overseas setting unified by place, geographic characteristics or themes. (For the exam, the specification sets an OVERSEAS setting.)"
+     ],
+     "examFormat": [
+      "2026 change: none stated. The 2026 specification (October 2025) matches 2025: ONE question with multiple parts, each requiring selection and application of geographic skills and concepts to a given environment in an OVERSEAS setting. Concept definitions are in the resource booklet, not in the questions.",
+      "Format in 2026: end-of-year examination, PRINTED PAPER, with a resource booklet (91429R) pulled out of the centre of the answer booklet. Coloured pencils, calculator and ruler are advised.",
+      "The context is unseen: candidates read the resource booklet in the exam and integrate concepts and evidence from any of the resources into their answers. A planning space is provided.",
+      "2025 (relocation of Indonesia's capital): (a) describe the location and geographic environment of Borneo; (b) ONE natural and ONE cultural challenge facing Jakarta that led to the need to relocate; (c) evaluate the geographic impacts (environmental, social, economic, cultural) of the relocation.",
+      "2024 (wildfires in Canada): (a) describe the pattern (spatial or temporal) of Canadian wildfires using resource evidence; (b) two different perspectives on the wildfires and why people hold them; (c) evaluate the consequences of wildfires for people and the environment.",
+      "No time allowance or word guidance is printed on the papers."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "HOLISTIC: one score code (N0–E8) for the whole response. The schedule sets out evidence for each part, plus a 'resources and skills' strand applied across the parts, but gives a single code.",
+      "Cut scores (2024 and 2025 schedules; NZQA 2025 cut scores): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "2025 ladder (approximate; the column alignment in the fetched schedule was partly unclear). N1: very limited, question not addressed. N2: some accurate information, but skills and/or concepts not clearly shown. A3: some understanding, lacking depth, describing the challenges and some impacts with some integration of evidence. A4: understanding, explaining the challenges (partly descriptive) and integrating some specific evidence.",
+      "M5: some detailed understanding, explaining in detail (one part may be weaker), with detailed, precise evidence. M6: detailed understanding, explaining and analysing in detail, integrating specific evidence with precision.",
+      "E7: comprehensive understanding with some insight, comprehensively explaining and analysing (one part may be slightly weaker), with precise use of skills and conventions. E8: comprehensive understanding with insight throughout.",
+      "2024 ladder (wildfires): A3 needed ONE perspective and why it is held, with consequences outlined. A4 needed TWO perspectives (may be descriptive) and consequences for people AND the environment. M5/M6 explained both perspectives and gave simple, then clear, evaluation. E7/E8 explained both comprehensively, evaluated thoroughly and integrated specific evidence. Detailed evidence at Merit 'need not be integrated'.",
+      "Concepts named in the schedules: 2025 environment, change, interaction, perspectives, sustainability, processes. 2024 pattern, change, perspectives, environment, interaction, processes."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Resource booklet: the relocation of Indonesia's capital city from Jakarta to Borneo.",
+        "(a) Describe the location and geographic environment of the island of Borneo.",
+        "(b) What are ONE natural and ONE cultural challenge facing Jakarta that have resulted in the need to relocate to a new capital city?",
+        "(c) Evaluate the geographic impacts (environmental, social, economic and cultural) of the relocation of Indonesia's capital city."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91429-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91429-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91429-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91429-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Resource booklet: wildfires in Canada.",
+        "(a) Using evidence from the resources, describe the pattern (spatial or temporal) of Canadian wildfires.",
+        "(b) What are two different perspectives related to the wildfires, and why do people hold these perspectives?",
+        "(c) Evaluate the consequences of wildfires for people and the environment."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91429-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91429-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91429-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91429-report-2024.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91429-exp-2024-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91429-exp-2024-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91429-exp-2024-achievement.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: addressed all parts with some specific resource evidence, and described impacts more than analysed them.",
+      "2025, Merit: described Borneo and Jakarta in detail using the resources, and categorised and analysed impacts, but made no inferences beyond the resources and gave no overall evaluation.",
+      "2025, Excellence: connected the factors behind Jakarta's challenges, organised impacts by category and evaluated their significance, and ended with a JUDGEMENT on the overall impact of the relocation.",
+      "2025, Not Achieved: partial responses, resource material reproduced without analysis, bullet points.",
+      "2025, common errors: misunderstanding 'evaluate', mixing up natural and cultural challenges, writing about the impacts of relocation when (b) asked for challenges, and covering Borneo's location and environment only partially (often biodiversity alone).",
+      "2024, Achievement: basic understanding of the spatial or temporal pattern, perspectives given without explaining why they are held, viewpoints confused with perspectives (including political viewpoints), two types of impact, resource material copied.",
+      "2024, Merit: sound understanding of the pattern using geographic conventions, specific evidence linked to parts of Canada, two perspectives with clear reasons, a detailed range of consequences and some evaluation.",
+      "2024, Excellence: pattern linked to specific Canadian locations or times, explicit skills (coordinates, directions, place names), two perspectives compared using terms such as 'value' and 'belief' (Indigenous and political perspectives were stronger than scientific ones), comprehensive consequences grouped by category and evaluated, extrapolation to short- and long-term impacts.",
+      "2024, Not Achieved: described the conditions for wildfire formation instead of the pattern, discussed viewpoints instead of perspectives, quoted individuals at length without explanation, skipped (c) or wrote about wildfires in general rather than in Canada, focused on one impact type, or gave brief answers copied from the resources.",
+      "2024, commentary: linking specific resource evidence to each part, rather than grouping it in one place, supported higher grades. Claiming evaluation by naming one 'most significant' impact is not evaluating throughout."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A4, 2024)",
+       "text": "Accurately described the pattern of wildfires. Described perspectives but only implied why they are held. Consequences were mainly descriptive.",
+       "miss": "By the schedule and commentary, Merit needed the reasons behind the perspectives explained and the consequences evaluated."
+      },
+      {
+       "grade": "Merit (M6, 2024)",
+       "text": "Good description of the wildfire pattern, linked to boreal fires without relying entirely on them. Effectively explained the reasoning behind two perspectives, and explained the consequences well.",
+       "miss": "Excellence needed the consequences to be effectively evaluated, with more insight shown."
+      },
+      {
+       "grade": "Excellence (E8, 2024)",
+       "text": "All parts answered, with significant insight and integration of geographic concepts throughout. Used the resource booklet to support ideas without relying on direct quotation, showing clear interpretation, clear thinking and evaluation.",
+       "miss": ""
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam on printed paper (2026) with an UNSEEN resource booklet on an overseas setting. Concept definitions are printed in the booklet.",
+      "A derived-grade practice paper should use a booklet the students have not studied. Re-using a past NZQA booklet the class has worked through in lessons does not match the exam conditions.",
+      "Calculator, ruler and coloured pencils are advised, because skills such as reading graphs, maps and statistics are assessed.",
+      "Literacy co-requisite: not checked. It does not affect derived-grade eligibility."
+     ],
+     "components": [
+      "(a) Location and geographic environment of Borneo (describe, using resource evidence and skills)",
+      "(b) One natural and one cultural challenge facing Jakarta that led to relocation",
+      "(c) Evaluation of the environmental, social, economic and cultural impacts of relocating the capital"
+     ],
+     "focusTip": "Name the resource-booklet setting and list what each part asks (pattern, perspectives, challenges, evaluation). Upload or summarise the booklet, because the AI can only check resource evidence it can see.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Analyses the given environment THROUGH geographic concepts (e.g. pattern, perspectives, interaction, change), answering each part in the context of the booklet's setting, not in general terms."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN3",
+        "t": "Uses geographic skills and conventions to interpret or present information from the resources (maps, graphs, statistics, visual material), with some evidence from the resources."
+       },
+       {
+        "type": "ind",
+        "src": "Exam instructions; 2024 schedule A4",
+        "t": "All parts are attempted, and each part's demand is met at least descriptively (e.g. BOTH required perspectives, BOTH a natural and a cultural challenge)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Perspectives, not viewpoints: the answer gives the values or beliefs behind a position, not just a stated opinion."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Interprets resource material in the student's own words rather than copying it."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Analyses IN DETAIL, and uses skills and conventions with PRECISION (accurate place names, directions, coordinates, figures read from graphs)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 schedule M5/M6; M6 exemplar",
+        "t": "Reasons for each perspective or challenge are explained, and some evaluation is made (simple at M5, clear at M6)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Specific resource evidence is tied to each part and to particular places or times."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Analyses the given environment WITH INSIGHT."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules E7/E8",
+        "t": "Comprehensive explanation and THOROUGH evaluation, integrating specific resource evidence throughout."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E8 exemplar",
+        "t": "Goes beyond the resources (inference, extrapolation to short- and long-term effects), compares perspectives in terms of values and beliefs, groups impacts by category, and ends with a supported overall judgement."
+       }
+      ]
+     },
+     "watch": [
+      "'Evaluate' treated as 'list': naming one 'most significant' impact at the end is not evaluation throughout.",
+      "Viewpoints or quotes presented as perspectives, with no values or beliefs explained.",
+      "Copying or lightly paraphrasing the resource booklet. Credit interpretation, not transcription.",
+      "Answering the wrong demand (e.g. relocation impacts written in (b), which asks for challenges, or natural and cultural mixed up).",
+      "Generic answers about the phenomenon (wildfires, urbanisation) instead of the specific overseas setting given.",
+      "Practice booklets students have already seen in class: the evidence will overstate what they can do with an unseen booklet.",
+      "One holistic score: do not mark each part out of 8 and add them."
+     ],
+     "aiLimits": "The AI can only judge resource-evidence accuracy if the teacher supplies the resource booklet used. Handwriting, hand-drawn sketches and graph readings in scans may be misread. The teacher should confirm that the booklet was unseen and that figures or place names the student quotes match it.",
+     "researchNotes": "Standard text from the NZQA as91429 PDF (2019 folder; Version 2, 17 November 2016). The criteria are close to verbatim. EN4 examples of concepts are taken from the schedules' 'concepts likely to appear' lists, because the fetch said the standard refers to the Teaching and Learning Guide without listing them. The 2025 schedule's column alignment was unclear in the fetch, so the 2025 ladder is approximate. Resource booklets were not read. The cut scores were confirmed in the NZQA 2025 cut-scores PDF. No 2025 exemplars were listed. The exam date and time allowance were not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Health": {
+   "slug": "health",
+   "discipline": "Both Level 3 Health exams are one question in several parts, built on an unseen resource booklet, and markers give ONE score from 0 to 8 for the whole response. The score depends on how well the student analyses (91462) or evaluates (91465) using specific, relevant evidence from the booklet and their own knowledge, and on how far they link their points to the underlying concepts (hauora, the socio-ecological perspective, health promotion, attitudes and values). Length is never the criterion: NZQA states that responses are marked on quality, not length, and the 2024 report notes that concise, coherent answers scored higher than long ones.",
+   "parallelHint": "a different international health issue in a different country or community (for example maternal mortality in rural Afghanistan instead of TB in Mozambique), or for 91465 a different New Zealand health promotion campaign (for example a smokefree or mental health campaign instead of Pink Shirt Day)",
+   "privacyNote": "Health answers can include personal disclosures about the student, their whānau or friends (sexual health, bullying, drug use, mental health). Treat these as confidential and do not repeat them in feedback. If anything in a script suggests a student may be unsafe or at risk, put that at the TOP of the response to the teacher, before any marking, so the teacher can follow the school's pastoral care and safeguarding process.",
+   "sources": [
+    {
+     "label": "Level 3 Health 2026 Assessment Specifications, 91462 and 91465 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91462-spc-2026.pdf"
+    },
+    {
+     "label": "Level 3 Health 2025 Assessment Specifications (for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91462-spc-2025.pdf"
+    },
+    {
+     "label": "AS91462 Version 3 (published 9 December 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2025/as91462.pdf"
+    },
+    {
+     "label": "AS91462 Version 2 (2016, used for the 2021-2025 exams)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91462.pdf"
+    },
+    {
+     "label": "AS91465 Version 3 (published December 2024)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2024/as91465.pdf"
+    },
+    {
+     "label": "NZQA 91462 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91462"
+    },
+    {
+     "label": "NZQA 91465 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91465"
+    },
+    {
+     "label": "NZQA review summary November 2025 (91462 Category B review)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/summaries/2025/nov25/revsumnov25-03.html"
+    },
+    {
+     "label": "NZQA review summary November 2024 (91465 Category B review)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/summaries/2024/nov24/revsumnov24-04.html"
+    },
+    {
+     "label": "NZQA: Revised achievement standards and supporting materials for assessment in 2026",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/select-subject/revised-standards-and-materials/"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which covers external examinations. 91462 and 91465 are both end-of-year examinations in 2026 (2026 Assessment Specifications), so both are eligible.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. Neither Health standard falls into these groups. No published ineligibility for 91462 or 91465 was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For both Health standards that means: an UNSEEN resource booklet (students must not see it before the practice exam), one question in parts answered under supervision, no notes, and answers that draw on the booklet plus the student's own knowledge. For 91462 the booklet issue should sit within the 2026 specified topics (sexual and reproductive health; culture and gender).",
+    "Version change: 91462 moved to Version 3 (published 9 December 2025, Category B: wording changes for clarity, outcome unchanged). The 2025 and earlier papers, schedules and exemplars carry NZQA's warning that they are based on an expired version. A practice paper modelled on them is still the right shape, but should be marked against the Version 3 criteria and explanatory notes.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it. Practice exams may be based on modified papers from previous years.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91462",
+     "ref": "3.2",
+     "credits": 5,
+     "version": "Version 3 (published 9 December 2025; planned review 31 December 2029)",
+     "verified": "2026-10-25",
+     "title": "Analyse an international health issue",
+     "criteria": {
+      "achieved": "Analyse an international health issue.",
+      "merit": "Analyse, in depth, an international health issue.",
+      "excellence": "Analyse, perceptively, an international health issue."
+     },
+     "notes": [
+      "EN1: The standard is derived from Level 8 of the Health and Physical Education learning area of The New Zealand Curriculum and from Te Marautanga o Aotearoa. Assessment reflects the underlying concepts: hauora, the socio-ecological perspective, health promotion, and attitudes and values.",
+      "EN2: Analyse (Achieved) involves applying a critical perspective by explaining the issue and its implications for well-being, explaining how the major factors influence the issue, and recommending strategies that would produce more equitable outcomes, supported by evidence.",
+      "EN2: Analyse in depth (Merit) involves recommending strategies that take account of how the major factors influence the issue and affect well-being, supported by detailed evidence.",
+      "EN2: Analyse perceptively (Excellence) involves recommending strategies based on a coherent explanation that links the issue, and the influence of the factors on it, to the underlying health concepts, using evidence coherently and consistently.",
+      "EN3: An international health issue currently affects the well-being of an identified community or sector in one or more countries and is a matter of public concern. Sources include culture and gender, sexual and reproductive health, disease, immunisation, life expectancy, drug use, colonisation and the health of Indigenous peoples, and globalisation and health.",
+      "EN4: Factors that influence a health issue may include economic considerations, social norms, policy decisions and location. (Version 2 used 'major determinants of health'; the 2021-2025 papers and schedules use 'determinants'.)",
+      "EN5: Supported by evidence means specific, relevant details that support the analysis, such as examples, quotations or data from credible, current sources (e.g. government ministries, recognised NGOs, research journals). Current generally means published within the last five years."
+     ],
+     "examFormat": [
+      "2026 change: the exam is ONLINE DIGITAL only (the 2025 specification allowed digital or printed paper). 91462 is also assessed against Version 3 for the first time; the criteria are unchanged but the explanatory notes now say 'factors' rather than 'determinants of health'. Whether the 2026 paper will say 'factors' or 'determinants' is not known.",
+      "2026 specification: candidates apply their knowledge to scenarios and/or material in a SEPARATE RESOURCE BOOKLET, and use specific, relevant research evidence (EN5). Candidates should be familiar with health issues related to sexual and reproductive health, and culture and gender (the same topics as 2025).",
+      "2024 and 2025 papers: ONE question in five parts, all compulsory, no choice: (a) why the issue is of international concern; (b) how TWO major determinants influence it (named in boxes, then used in all later parts); (c) implications for the well-being of people and society; (d)(i) ONE local/national strategy and (d)(ii) ONE international strategy, each explained in terms of more equitable outcomes for those directly and indirectly affected.",
+      "Evidence is expected from the resource booklet AND the student's own knowledge (examples, quotations, data from credible, current sources). A planning page is provided and is not assessed.",
+      "No time allowance or word guidance is printed on the papers. The 2025 booklet ran to pages 2-12 including extra space."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The paper is marked as ONE question: the schedule gives a single score code (N0-E8) for the whole response across parts (a) to (d). The parts are not scored separately and added up.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0-2, Achievement 3-4, Merit 5-6, Excellence 7-8.",
+      "N0: no response; no relevant evidence. N1: partial answer, but does not analyse the health issue. N2: insufficient evidence to meet the requirements for Achievement.",
+      "A3: the analysis generally meets the requirements for Achievement, but the quality may be inconsistent; some supporting evidence. A4: the analysis consistently meets Achievement; supporting evidence is provided.",
+      "M5: the in-depth analysis meets Merit, but some aspects may be inconsistent; some detailed supporting evidence. M6: the in-depth analysis consistently meets Merit; detailed supporting evidence.",
+      "E7: the perceptive analysis meets Excellence, but one aspect may be inconsistent; consistent and coherent evidence. E8: the perceptive analysis meets Excellence; consistent and coherent evidence throughout.",
+      "The schedule's sample evidence is marked 'other responses possible'. For 2025, the sample determinants were economic (funding, low GDP, contraception costs) and cultural (stigma, religious beliefs), with social and political also accepted."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Context: lack of access to quality sexual health services in some developing countries, presented as a global concern, with Resource Booklet 91462R.",
+        "(a) Explain why this lack of access is an international health issue.",
+        "(b) Explain how TWO major determinants of health influence the lack of access (each named in a box).",
+        "(c) Explain how the lack of access can affect the well-being of people and society.",
+        "(d)(i) Recommend ONE national strategy that addresses the determinants and implications, and explain how it would produce more equitable outcomes for those directly and indirectly affected. (d)(ii) The same for ONE international strategy."
+       ],
+       "cutScores": "N 0-2, A 3-4, M 5-6, E 7-8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91462-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91462-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91462-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91462-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Context: tuberculosis (TB) in Mozambique, with Resource Booklet 91462R.",
+        "(a) Explain why TB in Mozambique is a health issue of international concern.",
+        "(b) Explain how TWO major determinants of health influence the TB epidemic (used in all later parts).",
+        "(c) Explain how the implications of TB may affect the well-being of people and society in Mozambique.",
+        "(d)(i) Recommend ONE local strategy and (d)(ii) ONE international strategy that address the determinants and implications, explaining how each would produce more equitable outcomes for those directly and indirectly affected. Schedule sample determinants: economic, political, environmental."
+       ],
+       "cutScores": "N 0-2, A 3-4, M 5-6, E 7-8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91462-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91462-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91462-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91462-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, general: the strongest responses used the resources skilfully, applied them directly, and integrated the underlying health concepts into the analysis.",
+      "2025, Achievement: explained why the issue was an international concern, identified two major determinants and discussed their implications, suggested two strategies (often without distinguishing local from international), used some resource evidence, and showed basic application of health concepts.",
+      "2025, Merit: detailed, accurate explanations of two determinants; implications linked to well-being with reference to hauora and other health perspectives; one local and one international strategy, each tied to the determinants; referenced evidence used consistently, with clear links between determinants, strategies and outcomes.",
+      "2025, Excellence: applied health concepts to the determinants, implications AND strategies (health promotion models, attitudes and values, the socio-ecological perspective); linked determinants, strategies and outcomes to equitable solutions with insight; a range of detailed, well-referenced evidence supporting concise points.",
+      "2025, Not Achieved: fewer than two determinants; did not explain the international concern, the implications or hauora; insufficient evidence; strategies not linked to equity or the determinants, or no strategies; brief, incomplete or poorly connected answers.",
+      "2024, Achievement: explained two determinants and their implications for individual and societal well-being, used consistent evidence, gave two different strategies (not necessarily one local and one international).",
+      "2024, Merit: two clear, significant determinants; evidence referenced across all answers; impacts explained in detail with reference to hauora; one local and one international strategy each directly linked to the determinants and implications.",
+      "2024, Excellence: a range of evidence from DIFFERENT booklet sources across all parts, concise and coherent; underlying concepts applied in each part, explicitly: health promotion models in the strategies, attitudes and values in the determinants, the socio-ecological perspective and hauora in the implications.",
+      "2024, Not Achieved: did not explain why TB was of international concern, gave only one determinant or one strategy, gave insufficient evidence, or did not explain the impact on people and society.",
+      "2024, commentary: concise, coherent answers scored higher than long ones. Accurate referencing of the resources and clear application of the underlying concepts were strong indicators."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A3, 2025)",
+       "text": "Suggested some strategies to address the issue (lack of access to quality sexual health services).",
+       "miss": "Needed detailed, sourced evidence throughout, recommended strategies that sufficiently considered the influence of the determinants, and the wider implications of the strategies."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Explained why lack of access to quality sexual health services is a global concern with detailed evidence, explained two key determinants, discussed implications for individuals and society, and proposed a relevant national and an international strategy that took account of the determinants and well-being. Consistent evidence throughout.",
+       "miss": "The commentary does not state the gap. By EN2, Excellence needs strategies based on a coherent explanation linking the issue and determinants to the underlying concepts."
+      },
+      {
+       "grade": "Merit (M6, 2024)",
+       "text": "Explained with detailed evidence why TB in Mozambique is an international concern, identified two major determinants, explained implications for people and society, and recommended local and international strategies that addressed the determinants and well-being implications. Detailed evidence throughout.",
+       "miss": "The commentary does not state the gap. By EN2, the step to Excellence is the perceptive link to the underlying concepts."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Coherent and consistent sourced evidence throughout; local and international strategies; clear consideration of the major determinants and their impact on individuals and society; all relevant underlying concepts incorporated.",
+       "miss": "The commentary does not detail the step to E8."
+      },
+      {
+       "grade": "Excellence (E8, 2024)",
+       "text": "Evidence used consistently throughout; well thought out and insightful; local and international strategies; considered the major determinants and their effects on people and society; included all the relevant underlying concepts.",
+       "miss": "Marker noted key points could have been much more concise to enhance readability."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam in ONLINE DIGITAL format in 2026, on a laptop or desktop. Planning spaces are not marked, and quality counts, not length.",
+      "The resource booklet is UNSEEN. A practice exam used for derived grades must use a booklet the students have not seen, on an issue within the specified topics.",
+      "Evidence comes from the booklet and the student's own knowledge (credible, current sources, EN5). No notes are allowed in the exam, so prior research must be recalled.",
+      "Special assessment conditions are available for eligible candidates (2026 specification)."
+     ],
+     "components": [
+      "(a) Why the issue is of international concern",
+      "(b) Two major factors / determinants and how they influence the issue",
+      "(c) Implications for the well-being of people and society",
+      "(d)(i) Local / national strategy and its equitable outcomes",
+      "(d)(ii) International strategy and its equitable outcomes"
+     ],
+     "focusTip": "Name the resource-booklet issue and country or community, and say whether the practice paper asks for 'determinants' or 'factors' and for a local or national strategy, so the response can be read against the right parts.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the issue and its implications for well-being (including why it is of international / public concern, EN3)."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains how the major factors (determinants) influence the issue, not just names them."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Recommends strategies that would produce more EQUITABLE outcomes. Strategies with no link to equity or to the issue do not meet this."
+       },
+       {
+        "type": "req",
+        "src": "EN2 + EN5",
+        "t": "The analysis is supported by evidence: specific, relevant examples, quotations or data from the booklet and credible, current sources."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 papers; Assessment Reports",
+        "t": "Two factors and both strategies (local/national AND international) are given, as the paper asks. Only one determinant or one strategy was a common Not Achieved pattern."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "All parts are attempted and connected; brief, incomplete or disconnected parts held responses at N."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "The recommended strategies take account of HOW the major factors influence the issue and how they affect well-being: strategies are explicitly tied back to the factors and implications in (b) and (c)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule M5/M6",
+        "t": "Evidence is DETAILED (at M6, detailed evidence throughout)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Implications are explained in detail with reference to hauora; one local and one international strategy are clearly distinguished; evidence is referenced across all parts."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Strategies are based on a COHERENT explanation that links the issue and the influence of the factors to the underlying concepts (hauora, socio-ecological perspective, health promotion, attitudes and values)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule E7/E8",
+        "t": "Evidence is used coherently and consistently (E8: throughout)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Concepts are applied in EVERY part: attitudes and values in the factors, the socio-ecological perspective and hauora in the implications, health promotion models in the strategies."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E8 2024 exemplar",
+        "t": "A range of evidence from different booklet sources, used concisely; insight into how the strategies produce equitable outcomes for those directly and indirectly affected."
+       }
+      ]
+     },
+     "watch": [
+      "A practice paper on a topic outside the 2026 specified areas (sexual and reproductive health; culture and gender) does not mirror the real exam for derived-grade evidence.",
+      "Two strategies that are both local (or both international) when the paper asks for one of each; credit what is there but expect a lower score.",
+      "Strategies that are not linked back to the named factors and implications. This is the main step from A to M.",
+      "Underlying concepts named in a closing line rather than applied in each part. Excellence needs a coherent link, not a list.",
+      "Copying booklet text without explaining it, or evidence that is generic, unsourced or out of date (EN5: credible, current).",
+      "Rewarding length: NZQA says concise, coherent answers scored higher; even the 2024 E8 exemplar was told to be more concise.",
+      "Marking each part separately and adding up. The schedule gives ONE code for the whole response."
+     ],
+     "aiLimits": "The AI cannot see the teacher's resource booklet unless it is supplied, and cannot check whether statistics or claims from the student's own knowledge are accurate and current. Screenshots or scans of answers may be misread. The teacher must confirm the booklet content, the accuracy of cited evidence, and that the practice exam was sat under supervision. Personal disclosures must be handled by the teacher (see privacyNote).",
+     "researchNotes": "Version 3 explanatory notes were obtained as a close paraphrase, not verbatim (the fetch tool limited quotation length); compare against the PDF before quoting. The v3 change from 'determinants' to 'factors' is inferred from the v3 paraphrase (EN2/EN4) against the v2 text; NZQA's review summary says only 'wording changes for clarity'. The schedule does not use the word 'holistic', but gives a single 0-8 code set for the whole question. The time allowance for the 2026 exam was not found (the papers state none). No 2026 sample paper for Version 3 was found. The exemplar 'miss' fields marked 'not stated' are my reading of EN2, not NZQA commentary. The 2023 and earlier materials were not used.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91465",
+     "ref": "3.5",
+     "credits": 5,
+     "version": "Version 3 (published December 2024; planned review December 2028)",
+     "verified": "2026-10-25",
+     "title": "Evaluate models for health promotion",
+     "criteria": {
+      "achieved": "Evaluate models for health promotion.",
+      "merit": "Evaluate, in depth, models for health promotion.",
+      "excellence": "Evaluate, perceptively, models for health promotion."
+     },
+     "notes": [
+      "EN1: The standard is derived from Level 8 of the Health and Physical Education learning area of The New Zealand Curriculum and from Te Marautanga o Aotearoa. Assessment reflects the underlying concepts: hauora, the socio-ecological perspective, health promotion, and attitudes and values.",
+      "EN2: Evaluate (Achieved) involves considering the implications of health promotion models for people's well-being by comparing and contrasting models, explaining their advantages and disadvantages, and drawing conclusions about their effectiveness.",
+      "EN2: Evaluate in depth (Merit) involves exploring the links between health promotion models and their use for improving well-being in given situations, and drawing reasoned conclusions about their effectiveness.",
+      "EN2: Evaluate perceptively (Excellence) involves showing insight into how the models relate to the underlying health concepts, and drawing conclusions informed by those relationships.",
+      "EN3: Models that use Health Education concepts and terms may include behavioural change, self-empowerment and collective action models. These may be supported by documents such as the Ottawa Charter, the Bangkok Charter and Te Tiriti o Waitangi."
+     ],
+     "examFormat": [
+      "2026 change: the exam is ONLINE DIGITAL only (the 2025 specification allowed digital or printed paper). Version 3 of the standard was already in use for the 2025 exam.",
+      "2026 specification: candidates use the resources provided to support their evaluation with evidence. They should be familiar with various health promotion models and supporting documents, including Te Tiriti o Waitangi / the Treaty of Waitangi (EN3).",
+      "2024 and 2025 papers: ONE question in three parts, all compulsory, built on a New Zealand campaign described in Resource Booklet 91465R: (a) identify and explain TWO health promotion models used in the campaign; (b) evaluate the two models (advantages and disadvantages for well-being; conclusions about effectiveness); (c) identify aspects of the Bangkok Charter and Te Tiriti o Waitangi in the campaign and evaluate how effective they could be in improving well-being.",
+      "Evidence comes from the booklet and the student's own understanding of health promotion models. A planning space is provided and is not assessed.",
+      "No time allowance or word guidance is printed on the papers. The 2024 and 2025 booklets ran to pages 2-8 plus extra space."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The paper is marked as ONE question: the schedule gives a single score code (N0-E8) for the whole response across parts (a) to (c).",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0-2, Achievement 3-4, Merit 5-6, Excellence 7-8.",
+      "N0: no response; no relevant evidence. N1: partial answer, but does not evaluate the models for health promotion. N2: insufficient evidence to meet Achievement.",
+      "A3: the evaluation generally meets Achievement, but the quality may be inconsistent across the criteria. A4: the evaluation consistently meets Achievement.",
+      "M5: the in-depth evaluation meets Merit, but one aspect may be inconsistent. M6: the in-depth evaluation consistently meets Merit.",
+      "E7: the perceptive evaluation meets Excellence, but some relationships to the underlying concepts may be inconsistent. E8: the perceptive evaluation meets Excellence.",
+      "Schedule sample evidence (other responses possible): models are behavioural change (e.g. media messages), self-empowerment (e.g. peer workshops) and collective action (e.g. iwi, communities and agencies working together). Bangkok Charter aspects include partnerships and supportive environments; Te Tiriti aspects include Māori participation and partnership."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Context: the Pink Shirt Day campaign against bullying in New Zealand, with Resource Booklet 91465R.",
+        "(a) Identify and explain TWO models of health promotion used in the campaign.",
+        "(b) Explain how the two models could bring advantages and disadvantages for New Zealanders' well-being, and draw conclusions on the effectiveness of the models used.",
+        "(c) Identify aspects of the Bangkok Charter and Te Tiriti o Waitangi used in the campaign, and evaluate how effective these aspects could be in improving New Zealanders' well-being."
+       ],
+       "cutScores": "N 0-2, A 3-4, M 5-6, E 7-8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91465-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91465-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91465-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report (combined with 91462)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91462-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Context: the 'Be Safe In Our Space' meningococcal immunisation campaign, with Resource Booklet 91465R.",
+        "(a) Identify and explain TWO models for health promotion represented in the campaign's strategies.",
+        "(b) Evaluate how effective the two models are at improving well-being through immunisation, considering advantages and disadvantages of each.",
+        "(c) Identify aspects of the Bangkok Charter and Te Tiriti o Waitangi evident in the campaign, and evaluate how effective they are at improving well-being through immunisation."
+       ],
+       "cutScores": "N 0-2, A 3-4, M 5-6, E 7-8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91465-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91465-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91465-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: identified advantages and disadvantages of the models, showed basic understanding of the campaign's effect on well-being, and compared the models and supporting documents with some evidence.",
+      "2025, Merit: mostly detailed, accurate comparisons of the models and documents; explained how they connect and could enhance well-being through bullying prevention and inclusion; reasoned conclusions about strengths and limitations; explained clearly whether supporting documents were included or omitted; used the resources effectively.",
+      "2025, Excellence: strong conceptual understanding of models and documents; clear, accurate comparisons; convincing explanation of their relationship to the underlying concepts; recognised collective action as key to long-term, sustainable change; critically evaluated effectiveness for well-being, bullying prevention and social inclusion with consistent, integrated evidence.",
+      "2025, Not Achieved: limited responses or unanswered parts; models or documents explained incorrectly or unclearly, without comparing or contrasting; no explanation of how the campaign could affect New Zealanders' well-being.",
+      "2024, Achievement: accurate advantages and disadvantages of the identified models; compared the models with the supporting documents; some understanding of the campaign's effect on well-being; some supporting evidence from the resources.",
+      "2024, Merit: detailed, mostly accurate comparisons; reasoned conclusions on advantages and disadvantages; understood how models and documents could improve well-being; explained in depth whether supporting documents were included or omitted.",
+      "2024, Excellence: conceptual understanding; accurate comparisons; recognised that collective action supports long-term, sustainable change; insight into how the models and documents relate to the underlying concepts; critical thinking about effectiveness; consistent, coherent evidence.",
+      "2024, Not Achieved: did not attempt all parts or gave brief answers; did not explain the effect on well-being; inaccurate explanations of the models or documents; no comparing and contrasting."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (A3, 2025)",
+       "text": "Compared and contrasted the models and drew conclusions about how effective two health promotion models were within the Pink Shirt Day campaign.",
+       "miss": "The connections between the models and their role in improving well-being were not examined in sufficient depth."
+      },
+      {
+       "grade": "Achieved (A4, 2024)",
+       "text": "Attempted to compare and contrast the models and drew some conclusions about how effective two models were within the immunisation campaign.",
+       "miss": "Conclusions were limited and needed development; needed a more thorough examination of how the models connect in supporting well-being."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Explored the links between two models evident in the campaign and drew reasoned conclusions about their effectiveness for New Zealanders' well-being in relation to bullying-related harm.",
+       "miss": "The commentary does not state the gap. By EN2, Excellence needs insight into how the models relate to the underlying concepts, with conclusions informed by that."
+      },
+      {
+       "grade": "Merit (M6, 2024)",
+       "text": "Explored the links between two models in the campaign and drew well-reasoned conclusions about their effectiveness for well-being in relation to meningitis.",
+       "miss": "The commentary does not state the gap (by EN2, the perceptive link to underlying concepts)."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Written coherently and concisely; showed how the two models relate to the underlying concepts and drew reasoned conclusions based on those relationships.",
+       "miss": "The commentary does not detail the step to E8."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam in ONLINE DIGITAL format in 2026. Planning spaces are not marked; quality counts, not length.",
+      "The resource booklet (campaign material) is UNSEEN. A practice exam for derived grades should use a campaign booklet the students have not studied in class.",
+      "No notes. Students must know the models and supporting documents (including Te Tiriti o Waitangi) from memory.",
+      "Special assessment conditions are available for eligible candidates."
+     ],
+     "components": [
+      "(a) Two health promotion models identified and explained in the campaign",
+      "(b) Advantages and disadvantages of the models for well-being, with conclusions on effectiveness",
+      "(c) Bangkok Charter and Te Tiriti o Waitangi aspects in the campaign, and their effectiveness"
+     ],
+     "focusTip": "Name the campaign in the practice booklet and which supporting documents the paper asks about (e.g. Bangkok Charter and Te Tiriti o Waitangi), so model identification and evidence can be checked against the booklet.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "COMPARES AND CONTRASTS the models, rather than describing each separately."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Explains the advantages and disadvantages of the models in terms of people's well-being."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Draws conclusions about the models' effectiveness."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 papers; schedules",
+        "t": "The two models are correctly identified from the campaign (e.g. behavioural change, self-empowerment, collective action) and supported with booklet evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 papers; EN3",
+        "t": "Aspects of the supporting documents named in the paper (Bangkok Charter, Te Tiriti o Waitangi) are identified accurately in the campaign."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts attempted; inaccurate explanations of the models or documents were a common Not Achieved pattern."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EXPLORES THE LINKS between the models and their use for improving well-being in the given situation (this campaign), not models in general."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Draws REASONED conclusions about effectiveness (justified, weighing strengths and limitations)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Detailed, accurate comparisons; explains whether the supporting documents' principles are included or omitted in the campaign; uses the resources effectively."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Shows INSIGHT into how the models relate to the underlying concepts (hauora, socio-ecological perspective, health promotion, attitudes and values)."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Conclusions are INFORMED BY those relationships, not separate from them."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Recognises collective action as key to long-term, sustainable change; critically evaluates effectiveness with consistent, integrated evidence."
+       },
+       {
+        "type": "ind",
+        "src": "E7 2025 exemplar",
+        "t": "Written coherently and concisely."
+       }
+      ]
+     },
+     "watch": [
+      "Models misidentified from the campaign (e.g. calling a media campaign collective action). Check against the booklet.",
+      "Describing each model in turn without comparing and contrasting them. This is an Achievement requirement (EN2).",
+      "Conclusions that are asserted ('this was effective') rather than reasoned. Reasoned conclusions are the Merit step.",
+      "Te Tiriti o Waitangi handled as a token mention. Check the principles or articles are accurate and actually located in the campaign.",
+      "Underlying concepts listed rather than used to inform the conclusions; Excellence needs the relationship, not the label.",
+      "A practice campaign the class has already studied in depth does not mirror the unseen booklet condition.",
+      "Marking each part separately and adding up. The schedule gives ONE code for the whole response."
+     ],
+     "aiLimits": "The AI cannot see the teacher's campaign booklet unless it is supplied, so it cannot confirm which models and Charter or Te Tiriti aspects are actually present. Screenshots or scans of answers may be misread. The teacher must confirm the booklet content and that the practice exam was sat under supervision. Personal disclosures (e.g. about bullying) must be handled by the teacher (see privacyNote).",
+     "researchNotes": "Version 3 explanatory notes were obtained as a close paraphrase, not verbatim. The 2024 review was Category B (wording changes for clarity; outcome unchanged). The schedule does not say 'holistic', but gives a single 0-8 code set for the whole question. The M5 and E7 descriptor wording was partly paraphrased by the fetch tool. The 2026 time allowance was not found. The 2025 and 2024 assessment reports are combined with 91462. The 2024 resource booklet link was not verified separately. Exemplar 'miss' fields marked 'not stated' are my reading of EN2, not NZQA commentary.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "History": {
+   "slug": "history",
+   "discipline": "Level 3 History has two kinds of exam. 91436 is a source-analysis paper: three questions, each scored N0–E8 against its own historical concept, with the three scores added to a total out of 24. 91438 and 91439 are single essays, each given ONE code out of 8 for the whole essay. In all three, markers reward the step from analyse (A) to analyse in depth (M) to comprehensively analyse with insight (E). That step is shown through referenced or substantiated generalisations, prioritisation, judgement and an understanding of complexity, never through narrative, retelling of sources or length. The 2026 specifications state that 'Assessment will be based on the quality of the response rather than its length.'",
+   "parallelHint": "for 91436, a different resource-booklet event and a different set of sources and concepts (e.g. a different single event that reveals the attitudes of its time and place); for 91438, a different significant event (a specific occurrence, not a broad period); for 91439, a different significant trend (a connected series of events over time, e.g. the changing role of women instead of decolonisation)",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Level 3 History Assessment Specifications 91436/91438/91439 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91436-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Level 3 History Assessment Specifications (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91436-spc-2025.pdf"
+    },
+    {
+     "label": "AS91436 standard (Version 2)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91436.pdf"
+    },
+    {
+     "label": "AS91438 standard (Version 2)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91438.pdf"
+    },
+    {
+     "label": "AS91439 standard (Version 2)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91439.pdf"
+    },
+    {
+     "label": "NZQA 91436 standard page (papers, schedules, reports)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91436"
+    },
+    {
+     "label": "NZQA 91438 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91438"
+    },
+    {
+     "label": "NZQA 91439 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91439"
+    },
+    {
+     "label": "2025 Level 3 History Assessment Report (covers 91436, 91438, 91439)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91436-report-2025.pdf"
+    },
+    {
+     "label": "2024 Level 3 History Assessment Report (covers 91436, 91438, 91439)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91436-report-2024.pdf"
+    },
+    {
+     "label": "NZQA 2025 cut scores (PDF)",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2-Universal-documents/Cut-Scores.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91436, 91438 and 91439 are all end-of-year examinations in 2026, delivered as online digital examinations (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards (32403, 32405, 32406, 32412, 32413, 32415), and school-marked portfolio work verified by NZQA. None of 91436, 91438 or 91439 falls into these groups, so all three are eligible. No NZQA notice making any of them ineligible was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence, from a practice assessment that matches the format and conditions of the external assessment. Grades must be submitted before the November examinations. EmaiLink August 2026 repeats that practice exams for derived grades must match the external format and conditions and be quality assured.",
+    "What 'matching' means here. For 91436: an UNSEEN resource booklet of primary and secondary sources, about a single event that helps explain the wider cultural and social attitudes of its time and place (the 2026 context), with paragraph answers to concept-based questions. For 91438 and 91439: ONE general essay question, written under supervision on a studied event or trend, without notes, aiming for no more than 800–900 words (5–6 pages).",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader (panel marking or a colleague checking boundary scripts) should verify it. Practice exams may be based on modified papers from previous years. A pre-learnt essay written at home and copied out does not meet the authenticity requirement.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade, and NZQA records a school-reported N as V."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91436",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016; 2026 specification lists Version 2)",
+     "verified": "2026-10-25",
+     "title": "Analyse evidence relating to an historical event of significance to New Zealanders",
+     "criteria": {
+      "achieved": "Analyse evidence relating to an historical event of significance to New Zealanders.",
+      "merit": "Analyse, in depth, evidence relating to an historical event of significance to New Zealanders.",
+      "excellence": "Comprehensively analyse evidence relating to an historical event of significance to New Zealanders."
+     },
+     "notes": [
+      "EN2: Analyse involves using historians' skills to interpret evidence in order to demonstrate understanding of historical concepts.",
+      "EN2: Analyse, in depth, involves using historians' skills to interpret evidence in order to demonstrate thorough understanding of historical concepts.",
+      "EN2: Comprehensively analyse involves using historians' skills to interpret evidence in order to demonstrate understanding of historical concepts, showing insight. Insight includes 'reading between the lines' to draw conclusions that go beyond the immediately obvious and demonstrate a high degree of engagement with the evidence.",
+      "EN3 (summary): evidence comes from sources such as documents, images, graphs, maps, articles, speeches, cartoons and textbooks.",
+      "EN4: Historians' skills involve close reading, comprehension, and extracting meaning.",
+      "EN5: Historians' skills are used to identify historical concepts such as perspectives, past and present, reliability and usefulness, bias or propaganda, continuity and change, intent and motivation, cause and effect, specific and generalised, influence and significance, contingency.",
+      "EN6–EN8 (summary): an event can be a specific event, a broader development or movement, or a person's role in one. It is of significance to New Zealanders if it happened in NZ, involved New Zealanders internationally, or influenced New Zealanders. Significance can be judged by importance at the time, how deeply and how many people were affected, how long the effects lasted, and how far it still affects society."
+     ],
+     "examFormat": [
+      "2026 change: the exam is an ONLINE DIGITAL examination only (2025 allowed online digital OR printed paper). The resource context also changes: in 2026 it 'will be how a single event from the past helps to explain wider cultural and social attitudes of that time and place'. In 2025 it was the role an individual played in a significant 20th-century New Zealand historical movement (Mira Szászy and the Māori Women's Welfare League). Teachers should expect source content and concepts to fit an attitudes-of-the-time framing.",
+      "Candidates receive a resource booklet (91436R) of primary and secondary sources, and the booklet is not seen before the exam. They write paragraph-length answers to three questions, each built around one historical concept from EN5. The questions direct candidates to particular sources (e.g. 'Sources A–E') but allow evidence from any other sources.",
+      "The concepts vary each year. 2025: cause and effect, continuity and change, significance. 2024: perspectives, influence and significance, reliability and usefulness.",
+      "Candidates attempt ALL questions. The papers give no time allowance and no word guidance. Planning-space content is not marked."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each of the three questions gets its own score code, N0–E8, from a question-specific schedule. The three codes are TOTALLED out of 24.",
+      "Cut scores (2024 and 2025 schedules; 2025 NZQA cut-score PDF): Not Achieved 0–8, Achievement 9–12, Merit 13–18, Excellence 19–24.",
+      "N0: no response or no relevant evidence. N1: some relevant evidence, but extremely limited. N2: relevant evidence, but the sources or concept are misinterpreted, the question is ignored, or the analysis lacks the depth required for Level 3.",
+      "A3: attempts to interpret the sources and the question, with ONE referenced generalisation and limited cross-referencing. A4: interprets the sources and the question, with at least TWO referenced generalisations.",
+      "M5: analyses in some depth, with at least two substantiated generalisations showing some understanding of the concept, and developed cross-referencing. M6: analyses in depth, with at least two substantiated generalisations showing understanding, and clearly developed cross-referencing.",
+      "E7: analyses comprehensively with SOME insight, selecting the most relevant evidence to support perceptive generalisations. E8: analyses comprehensively WITH insight, discerningly selecting the most relevant evidence to support perceptive generalisations, with clearly developed cross-referencing.",
+      "A reliability-and-usefulness question (2024 Q3) counts sources rather than generalisations: A3 refers to one source, A4 to two, M5 gives one substantiated generalisation, M6 two, E7 one perceptive generalisation and E8 perceptive generalisations.",
+      "Each schedule lists sample evidence as grouped categories (2025 Q1, for example: health and well-being, tikanga Māori, mana wāhine). Grouping evidence into categories and judging between them is the step into Merit and Excellence."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Context: Mira Szászy and the founding of Te Rōpū Wāhine Māori Toko i te Ora (the Māori Women's Welfare League, MWWL), 1951.",
+        "Q1 (Cause and effect): what led to the founding of the MWWL in 1951? Use the Introduction and Sources A–E.",
+        "Q2 (Continuity and change): in what ways do the perspectives towards wāhine Māori in Sources E–H demonstrate continuity and change? Evidence from other sources may be used.",
+        "Q3 (Significance): how do Sources H–L show the extent to which Mira Szászy is a significant historical figure in New Zealand? Evidence from other sources may be used."
+       ],
+       "cutScores": "N 0–8, A 9–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91436-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91436-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91436-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91436-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Context: the 1905 'Originals' New Zealand rugby tour of Britain.",
+        "Q1 (Perspectives): how did perspectives differ on why the Originals were so successful? Introduction and Sources A–D. Sample evidence: skill, fitness, accusations of cheating, individual players and NZ's 'healthier' lifestyle, grouped by who held the view and why.",
+        "Q2 (Influence and significance): how could the tour be considered significant for New Zealand and New Zealanders? Sources E–H. Sample evidence: significance at the time (national pride, political promotion) and later (1955, the 2011 Gallaher statue, the jersey sale).",
+        "Q3 (Reliability and usefulness): how useful would Sources I–L be to a historian evaluating whether the Originals proved that NZ's rural nature made British colonists fitter, healthier and better?"
+       ],
+       "cutScores": "N 0–8, A 9–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91436-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91436-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91436-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91436-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: continuity and change was the hardest concept. Using a significance framework in Q3 led to deeper source analysis. Mnemonics such as PLONK helped some candidates, but could produce long answers that missed the question. Concise use of the most relevant parts worked best.",
+      "2025, Achievement: addressed only one part of a concept (e.g. continuity without change), analysed sources one by one rather than identifying where they supported each other, gave limited evidence, handled concepts implicitly, and relied on lengthy rewording of sources.",
+      "2025, Merit: applied concepts accurately and addressed BOTH parts of each concept, interpreted sources correctly in content and context, made several generalisations backed by relevant evidence, and wrote analysis rather than narrative or sequential description.",
+      "2025, Excellence: used a wide range of the most relevant evidence (including sources beyond those specified, where relevant), opened each answer with a clear argument and sustained it, categorised and prioritised ideas to assess their importance, and applied conceptual frameworks, especially for significance.",
+      "2025, Not Achieved: misinterpreted sources or concepts, rewrote sources instead of answering the question, or did not use evidence from the sources.",
+      "2024, commentary: candidates engaged well with the sources and often critiqued the colonial and patriarchal nature of 1905 New Zealand society. The common error was overusing sources, which made it hard for candidates to show their own understanding.",
+      "2024, Achievement: extracted evidence source by source, referred only briefly to the concept, treated sources in isolation, relied on the sources rather than selecting evidence, and interpreted most sources accurately.",
+      "2024, Merit: organised answers into categories (e.g. short-term, political, cultural), linked sources showing similar examples of the concept, made clear generalisations backed by specific evidence, and interpreted sources accurately.",
+      "2024, Excellence: interpreted sources accurately and with nuance, understood the wider 1905 social and political context, applied conceptual frameworks (especially for significance), selected relevant evidence for carefully framed generalisations, and explained how motivations, backgrounds and identity shape perspectives.",
+      "2024, Not Achieved: misinterpreted sources, over-quoted them, gave no independent explanation of the concept, made explanations without evidence, or completed two or fewer of the three questions."
+     ],
+     "exemplars": [],
+     "conditions": [
+      "End-of-year external exam, online digital only in 2026. Paragraph-length answers, and planning-space content is not marked.",
+      "The resource booklet must be unseen. A practice exam used for derived grades should use a booklet students have not seen, on a single event that reveals the wider cultural and social attitudes of its time and place (2026 context).",
+      "All three questions must be attempted. Completing two or fewer was a common Not Achieved pattern (2024 report).",
+      "The time allowance was not confirmed: the papers state no time and the 2026 timetable was not checked."
+     ],
+     "components": [
+      "Question One: a concept question on the first set of sources (2025: cause and effect, founding of the MWWL)",
+      "Question Two: a concept question on the second set of sources (2025: continuity and change in perspectives towards wāhine Māori)",
+      "Question Three: a concept question on the third set of sources (2025: significance of Mira Szászy)"
+     ],
+     "focusTip": "Name the booklet's event and, for each question, the historical concept and the sources it points to. The AI marks each question against its own concept and totals out of 24, so a booklet and question paper must be supplied.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Uses historians' skills to INTERPRET evidence from the sources to demonstrate understanding of the historical concept named in each question. Paraphrasing a source is not interpretation."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule A3/A4",
+        "t": "Makes at least one (A3) or at least two (A4) REFERENCED generalisations per question: a claim about the concept, tied to specific sources (or, for reliability and usefulness, refers to one or two sources)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule N2",
+        "t": "The sources and the concept are interpreted correctly and the question is answered. Misinterpreting a source or concept, or ignoring the question, caps the question at N2."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Both halves of a paired concept are covered (continuity AND change; cause AND effect). Answering only one half was typical of Achievement."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Evidence is selected and explained, not over-quoted or copied source by source."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Demonstrates THOROUGH understanding of the historical concepts through interpretation of the evidence."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Makes at least two SUBSTANTIATED generalisations per question, with cross-referencing between sources developed (M5) or clearly developed (M6)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Organises evidence into categories (e.g. political, cultural, short-term, long-term) and links sources that show similar examples, rather than going source by source."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Analysis rather than narrative or sequential description, and sources interpreted correctly in both content and context."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Shows INSIGHT: 'reading between the lines' to draw conclusions beyond the immediately obvious, with a high degree of engagement with the evidence."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Analyses comprehensively, selecting (E8: discerningly selecting) the most relevant evidence to support PERCEPTIVE generalisations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Opens with a clear argument and sustains it, then categorises and prioritises ideas to judge their importance."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Applies a conceptual framework (especially for significance), understands the wider social and political context, and explains how motivations, backgrounds and identity shape perspectives."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Critiques the sources themselves, e.g. noticing that every perspective comes from one social group, or that explanations are self-serving."
+       }
+      ]
+     },
+     "watch": [
+      "A practice booklet seen before the exam, or a printed-paper paper presented as matching. The 2026 exam is online digital with an unseen booklet.",
+      "Totalling errors: each question is scored separately against its own concept and the three are added. Do not give one holistic grade.",
+      "Source-by-source answers that restate content ('Source A shows…'). These held candidates at Achievement in both years.",
+      "Answering only half of a paired concept (continuity but not change, cause but not effect).",
+      "Mnemonic or framework answers (e.g. PLONK) that run long and drift from the question. Reward relevance, not coverage.",
+      "Misreading a source's content or context. This caps the question at N2 even if the answer is otherwise well written.",
+      "A missing or token third question. With N 0–8, one N0 makes Achievement very hard to reach."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI cannot see the resource booklet unless it is supplied, and it cannot judge whether a source has been read correctly without it. The teacher must confirm the booklet, which concept each question tests, and the per-question scores before totalling.",
+     "researchNotes": "The standard text comes from the NZQA as91436 PDF (2019 folder, Version 2). EN2, EN4 and EN5 were quoted. EN3 and EN6–EN8 are summarised. The 2026 and 2025 specifications were read via fetch: the 2026 one covers all three History standards and was published October 2025. No 2026 paper or schedule exists yet (the exam is in November 2026). The 2025 and 2024 schedule descriptors were obtained as close paraphrase rather than verbatim. The 2025 resource booklet itself was not read: its context comes from the exam paper and schedule. The 2024 and 2025 assessment reports are single documents covering all three Level 3 History standards. NZQA lists no exemplars for 91436 after 2023, and the 2023 exemplars were not read, so 'exemplars' is empty. The exam time allowance and the 2026 exam date were not confirmed. Derived-grade rule details (Rules 2026 Schedule 2, the QA page and EmaiLink August 2026) are the same documents used for the Level 1 History file. They were not re-fetched here because the web-fetch hourly limit was reached. UE literacy status was not checked.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91438",
+     "ref": "3.5",
+     "credits": 6,
+     "version": "Version 2 (2026 specification lists Version 2)",
+     "verified": "2026-10-25",
+     "title": "Analyse the causes and consequences of a significant historical event",
+     "criteria": {
+      "achieved": "Analyse the causes and consequences of a significant historical event.",
+      "merit": "Analyse, in depth, the causes and consequences of a significant historical event.",
+      "excellence": "Comprehensively analyse the causes and consequences of a significant historical event."
+     },
+     "notes": [
+      "EN2: Analyse involves explaining the causes and consequences of a significant historical event. This may involve establishing underlying and immediate causes and short term and long term consequences.",
+      "EN2: Analyse, in depth, involves evaluating the causes and consequences of a significant historical event. Evaluating includes the prioritisation of causes and consequences by justifying their relative significance.",
+      "EN2: Comprehensively analyse means to evaluate the causes and consequences of an historical event to support well-considered judgements that demonstrate understanding of the complexity of the causes and consequences.",
+      "EN3 (summary): a significant historical event is a specific, identifiable occurrence at a particular time, for example a famine, invasion, battle, massacre or specific law.",
+      "EN4 (summary): significance can be judged by the event's impact and importance over time, how deeply and how many people were affected, how long the effects lasted, and whether it still shapes society today."
+     ],
+     "examFormat": [
+      "2026 change: the exam is an ONLINE DIGITAL examination only (2025 allowed online digital OR printed paper). The task itself is unchanged in the 2026 specification.",
+      "Candidates write ONE conventional essay on ONE significant event they have studied, answering ONE general essay question. They write their chosen event in a box. They analyse a limited number of causes and/or consequences, and no content is prescribed.",
+      "'Candidates are encouraged to write a concise response of no more than 800–900 words (5–6 pages).' There is a planning page, and planning is not marked.",
+      "The question changes each year and is not published beforehand. Both recent papers asked about CONSEQUENCES only: 2024, 'Evaluate TWO consequences… Which was the most significant consequence of the event, and why?'; 2025, 'To what extent are the long-term consequences of your chosen historical event more important than the short-term consequences?'. A practice question could equally target causes, so students should not pre-learn a single essay.",
+      "There are no sources. All evidence comes from the student's own study, recalled without notes."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay is marked HOLISTICALLY with ONE score code from 0 to 8, from a schedule written for that year's question. Its rows cover the analysis, the evidence, and the argument and concision.",
+      "Cut scores (2024 and 2025 schedules; 2025 NZQA cut-score PDF): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "2025 ladder (long-term versus short-term). N1: identifies one consequence without supporting evidence. N2: one consequence, but its link to the event is unclear and the evidence is limited. A3: establishes a short-term AND a long-term consequence and asserts the importance of one, with relevant supporting evidence and some accurate detail, attempting a well-considered argument. A4: explains the extent to which the long-term consequence is more important, showing some depth, with a well-considered argument.",
+      "2025, continued. M5: assesses and prioritises the extent to which the long-term consequence is more important, with relevant, specific evidence. M6: as M5, with evidence showing depth of understanding. E7: evaluates the extent with some insight, using well-chosen, specific evidence with some comprehensive understanding. E8: evaluates and shows a 'clear and perceptive understanding of the complexity', with insight and comprehensive understanding.",
+      "2024 ladder (two consequences, which most significant). A3/A4: explains TWO valid consequences and attempts to explain (A3) or explains (A4) which was most significant. M5/M6: attempts to assess (M5) or assesses (M6) two relevant consequences and prioritises the most significant. E7/E8: evaluates two important consequences and shows a clear (E7) or clear and perceptive (E8) understanding of the complexity.",
+      "The common verb ladder across years is explain (A) → assess and prioritise (M) → evaluate, showing complexity, with insight (E). This matches EN2. For a practice paper, adapt it to the question set."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "One essay: 'To what extent are the long-term consequences of your chosen historical event more important than the short-term consequences?' The candidate names the event in a box. Aim for no more than 5–6 pages."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91438-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91438-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91438-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "One essay: 'Evaluate TWO consequences of a significant historical event. Which was the most significant consequence of the event, and why?'"
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91438-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91438-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91438-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: most candidates kept to consequences and avoided causes. Specific, discrete events did better than broad, multi-year periods. Successful essays identified two direct, valid consequences, distinguished short- from long-term impact, and justified why one mattered more.",
+      "2025, Achievement: a specific event with some understanding of both short- and long-term consequences, but explained at a basic level, often with one developed far more than the other. Links had to be inferred by the marker, long-term was asserted to be more important without explanation, and the question was addressed mainly in the introduction and conclusion.",
+      "2025, Merit: two direct, appropriate consequences clearly explained, with accurate, specific, largely error-free evidence, an explicit evaluative paragraph prioritising, and clear topic sentences. Some unnecessary detail weakened the argument.",
+      "2025, Excellence: events that allowed complex analysis, strong contextual knowledge, and a coherent argument sustained from introduction to conclusion with evaluation throughout. These essays acknowledged complexity, limitations and differing perspectives, explained why the evidence mattered rather than just what happened, and were concise and insightful.",
+      "2025, Not Achieved: cause-focused essays (or one cause and one consequence), vague or over-broad events, narrative or description, later events not causally linked to the event, no weighing of long- against short-term consequences, and short or rushed answers.",
+      "2024, commentary: a framework for comparing consequences helps, from simple (e.g. lives lost) to more sophisticated (aspects of Counsell's or Partington's significance frameworks). Avoid natural or man-made disasters, which make Excellence hard. Discuss exactly two consequences, because a third dilutes the argument and leaves less room for prioritisation. Concise means focused, not a word count.",
+      "2024, Achievement: clear but limited coverage, often without context. The second consequence was sometimes indirect (a consequence of the first). Evidence was mostly accurate but basic, and prioritisation was attempted without real comparison.",
+      "2024, Merit: a suitable event with sound context, clear structure, topic sentences categorising consequences, and two distinct, direct consequences. High Merit made explicit comparisons and justified the most significant consequence with specific evidence.",
+      "2024, Excellence: a specific, well-considered event, a clear position in the introduction that was sustained, two important direct consequences, no tangents, historiography used to support (not replace) the candidate's own analysis, and conclusions that synthesised why the consequences mattered.",
+      "2024, Not Achieved: vague, broad or insignificant events, no statement of which consequence was most significant, only one valid consequence, a focus on causes, chronological narrative of later events, unsubstantiated generalisations, and repeated significant errors."
+     ],
+     "exemplars": [],
+     "conditions": [
+      "End-of-year external exam, online digital only in 2026. One essay, aiming for no more than 800–900 words (5–6 pages). The planning page is not marked.",
+      "No sources and no notes. The event and the evidence come from the student's own study. A practice essay must be written under supervision to the unseen question: pre-written, take-home or memorised-and-copied essays do not meet derived-grade authenticity or conditions.",
+      "The question is unseen and general. A practice question must allow any studied event and target causes and/or consequences, as the real paper does.",
+      "The time allowance was not confirmed."
+     ],
+     "components": [
+      "Introduction: the event named precisely, with a clear position on the question",
+      "First cause or consequence: explained, with specific evidence",
+      "Second cause or consequence: explained, with specific evidence",
+      "Prioritisation and evaluation: which matters more and why, with complexity acknowledged",
+      "Conclusion: a synthesised judgement"
+     ],
+     "focusTip": "Paste the exact practice question and the event the student named. The schedule wording depends on the question (e.g. long-term versus short-term, or which of two consequences), and the AI needs it to place the essay on the explain → assess and prioritise → evaluate ladder.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3/A4",
+        "t": "EXPLAINS the causes and/or consequences the question asks for (in 2024 and 2025, TWO valid consequences), with relevant supporting evidence and some accurate detail."
+       },
+       {
+        "type": "req",
+        "src": "EN3",
+        "t": "The event is a SPECIFIC, identifiable occurrence at a particular time, not a broad period or theme."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule N1/N2",
+        "t": "Each cause or consequence is clearly linked to the event. One consequence only, or an unclear link, caps the essay at N2."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule A3/A4",
+        "t": "Attempts (A3) or makes (A4) the judgement the question asks for, e.g. which consequence is more significant."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Answers what was asked: causes are not substituted for consequences (or the reverse), and the essay analyses rather than narrating events in order."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Two direct consequences, the second not merely a knock-on effect of the first."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EVALUATES the causes and/or consequences, PRIORITISING them by justifying their relative significance."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Assesses and prioritises, with relevant, SPECIFIC supporting evidence showing (some) depth of understanding."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "An explicit evaluative paragraph or comparison, topic sentences that categorise, and evidence that is accurate and largely error-free."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Uses a framework to compare (e.g. scale, depth or duration of impact, or aspects of Counsell's or Partington's significance criteria)."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Makes WELL-CONSIDERED JUDGEMENTS that demonstrate understanding of the COMPLEXITY of the causes and consequences."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Evaluates with (some) insight, using well-chosen, specific evidence that shows comprehensive understanding. E8 needs a clear and perceptive grasp of complexity."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "A position set out in the introduction and sustained throughout, evaluation in every section (not only in the conclusion), limitations and differing perspectives acknowledged, and concision."
+       },
+       {
+        "type": "ind",
+        "src": "2024 Assessment Report",
+        "t": "Historiography supports the student's own analysis rather than replacing it."
+       }
+      ]
+     },
+     "watch": [
+      "Pre-learnt essays bent to fit the question, e.g. a causes essay when the question asks about consequences. This is a common Not Achieved pattern.",
+      "Over-broad contexts ('the Cold War', 'World War I') rather than a specific event, which lead to generic evidence.",
+      "Disaster contexts, which the 2024 report says make Excellence difficult.",
+      "Three or more consequences. These dilute prioritisation, which is the step to Merit.",
+      "Judgement left to the conclusion. Excellence needs evaluation throughout.",
+      "Do not reward length: the guidance is no more than 800–900 words, and over-long essays tend to lose focus.",
+      "Marking against the wrong year's schedule. The descriptors are written for each question, so adapt them to the practice question."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The context is the student's own, so the AI cannot verify every name, date, statistic or historian quoted. The teacher must check factual accuracy and confirm that the essay was written under supervised exam conditions and not pre-written.",
+     "researchNotes": "The standard text comes from the NZQA as91438 PDF (2019 folder, Version 2). EN2 was quoted, and EN3 and EN4 are summarised. The 2026 specification was read via the 91436-spc-2026 fetch (it covers all three standards). The 2025 and 2024 schedule descriptors were obtained as short quotes and close paraphrase. The row layout of the argument and concision lines was unclear in the extraction. The 2025 and 2024 reports are the combined Level 3 History reports. The only exemplars NZQA lists are 2019–2021 ZIP files, which could not be read, so 'exemplars' is empty. NZQA also lists a 2025 'Pepa whakamatautau' (te reo Māori version of the paper). The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91439",
+     "ref": "3.6",
+     "credits": 6,
+     "version": "Version 2 (2026 specification lists Version 2)",
+     "verified": "2026-10-25",
+     "title": "Analyse a significant historical trend and the force(s) that influenced it",
+     "criteria": {
+      "achieved": "Analyse a significant historical trend and the force(s) that influenced it.",
+      "merit": "Analyse, in depth, a significant historical trend and the force(s) that influenced it.",
+      "excellence": "Comprehensively analyse a significant historical trend and the force(s) that influenced it."
+     },
+     "notes": [
+      "EN2: Analyse involves examining a significant historical trend and explaining the force(s) that influenced the trend.",
+      "EN2: Analyse, in depth, involves assessing the importance of the force(s) that influenced a significant historical trend.",
+      "EN2: Comprehensively analyse involves examining the force(s) that influenced a significant historical trend presenting well-considered judgements that demonstrate understanding of the complexity of the trend and/or the force(s).",
+      "EN3 (summary): a force is any idea, concept or condition that drives social, political, cultural, environmental or economic change, or a combination of these.",
+      "EN4 (summary): a significant trend is a connected series of events with several causes, showing major social, political, cultural, environmental or economic changes and continuities over time. Case studies should cover a broad trend across a period, e.g. migration, uprisings against authoritarian rule, racism, or shifts in women's social roles. For each, students consider what drove the trend and what changed or stayed the same as a result.",
+      "EN5 (summary): significance can be judged by importance to people at the time, how deeply and for how long lives were affected, how many people it touched, and how far its effects still shape society."
+     ],
+     "examFormat": [
+      "2026 change: the exam is an ONLINE DIGITAL examination only (2025 allowed online digital OR printed paper). The task is unchanged in the 2026 specification.",
+      "Candidates write ONE conventional essay on ONE significant trend they have studied, answering ONE general question, and write the trend in a box. They analyse EITHER the trend and its effects OR the force(s) that influenced it. No content is prescribed.",
+      "'Candidates are encouraged to write a concise response of no more than 800–900 words (5–6 pages).' There is a planning page, and planning is not marked.",
+      "The question alternates focus. 2024 asked about the trend's effects ('To what extent did a significant historical trend cause change and continuity?'). 2025 asked about forces ('Evaluate TWO forces that influenced a significant historical trend. Which was the more important force and why?'). Students need to be ready for either.",
+      "There are no sources. Evidence and any historiography come from the student's own study, without notes."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay is marked HOLISTICALLY with ONE score code from 0 to 8, from a schedule written for that year's question.",
+      "Cut scores (2024 and 2025 schedules; 2025 NZQA cut-score PDF): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "2025 ladder (two forces). N1: identifies a significant trend. N2: identifies a trend and ONE force without further development. A3: attempts to explain two forces and which was more important and why, with supporting evidence, attempting a well-considered argument. A4: explains this, with relevant supporting evidence and some accurate detail, and presents a well-considered argument.",
+      "2025, continued. M5: assesses two forces and which was more important, with some relevant, specific evidence showing some depth. M6: assesses and prioritises, with relevant, specific evidence showing depth. E7: evaluates two forces with some insight, prioritising the more important and acknowledging the complexity of the relationship between the trend and the forces, with well-chosen, specific evidence showing some comprehensive understanding. E8: as E7 with insight and comprehensive understanding.",
+      "2024 ladder (change and continuity). N2: a trend and a change and/or continuity without development. A3/A4: attempts to explain (A3) or explains (A4) the extent to which the trend caused change and/or continuity. M5/M6: attempts to assess (M5) or assesses in depth, prioritising the most significant (M6), the extent of change AND continuity. E7/E8: evaluates the extent of change and continuity, with (some) insight into the complexity of the relationship between the trend and the change and continuity.",
+      "The common ladder is explain (A) → assess and prioritise (M) → evaluate with insight into complexity (E), matching EN2. Adapt the descriptors to the practice question."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "One essay: 'Evaluate TWO forces that influenced a significant historical trend. Which was the more important force and why?' The candidate names the trend in a box. Aim for no more than 5–6 pages."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91439-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91439-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91439-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "One essay: 'To what extent did a significant historical trend cause change and continuity?'"
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91439-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91439-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91439-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, commentary: choosing an appropriate trend was essential. Trends centred on a single event or individual were unsuitable.",
+      "2025, Achievement: used historical conventions and correct supporting evidence, identified two forces accurately and attempted to explain their impact on the trend, attempted to use historiography, and addressed all parts of the question.",
+      "2025, Merit: carefully selected evidence, historiography used appropriately, forces prioritised, and all parts of the question addressed.",
+      "2025, Excellence: fluent writing within historical conventions, evidence curated to strengthen the argument, relevant historiography selected effectively, and an understanding of the intricacies of the forces and their effect on the trend.",
+      "2025, Not Achieved: short answers lacking Level 3 depth, overviews without supporting detail, narrative of events, little understanding of the forces or the trend, or parts of the question not addressed.",
+      "2024, commentary: clear, specific trends worked well (the changing role of women, changing attitudes to LGBTQ+ people, New Zealand sovereignty). Topics centred on events or individuals struggled.",
+      "2024, Achievement: addressed change OR continuity rather than both, gave limited evidence, followed a traditional essay structure, and explained the trend rather than evaluating it.",
+      "2024, Merit: depth of knowledge, both change and continuity addressed, and the most significant change or continuity prioritised.",
+      "2024, Excellence: comprehensive, balanced essays with a sustained argument, strategic use of evidence, the complexity of the trend shown, effective evaluation, and the question addressed explicitly.",
+      "2024, Not Achieved: identified a trend or force without analysing it, superficial or unstructured writing, unsuitable topics, and little or no evidence."
+     ],
+     "exemplars": [],
+     "conditions": [
+      "End-of-year external exam, online digital only in 2026. One essay, aiming for no more than 800–900 words (5–6 pages). The planning page is not marked.",
+      "No sources and no notes. The trend, evidence and historiography come from the student's own study. A practice essay must be written under supervision to an unseen question, not pre-written.",
+      "A practice question should be general and could target either forces or the trend's effects (change and continuity), matching the specification.",
+      "The time allowance was not confirmed."
+     ],
+     "components": [
+      "Introduction: the trend named and bounded in time, with a clear position",
+      "First force (or change/continuity): explained, with specific evidence",
+      "Second force (or change/continuity): explained, with specific evidence",
+      "Prioritisation and evaluation: which matters more and why, including the complexity of the trend–force relationship",
+      "Conclusion: a synthesised judgement"
+     ],
+     "focusTip": "Paste the exact practice question and the trend the student named, and check the trend is a connected series of events over time, not a single event or person.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3/A4",
+        "t": "EXAMINES the trend and EXPLAINS what the question asks: the force(s) that influenced it, or the change and/or continuity it caused. Uses relevant supporting evidence."
+       },
+       {
+        "type": "req",
+        "src": "EN4",
+        "t": "The subject is a genuine TREND: a connected series of events with several causes, showing change and continuity over time, not a single event or individual."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule N2",
+        "t": "More than identification. A trend plus one force (or one change) 'without further development' is N2."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule A3/A4",
+        "t": "Attempts (A3) or makes (A4) the judgement the question asks for (e.g. which force was more important, or to what extent)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "All parts of the question are addressed (both forces, and the 'which is more important and why')."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Analysis rather than an overview or narrative of events."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "ASSESSES THE IMPORTANCE of the force(s) (or the extent of change and continuity), going beyond explanation."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Assesses and prioritises, with relevant, specific supporting evidence showing (some) depth of understanding. For a change-and-continuity question, BOTH change AND continuity are covered."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Carefully selected evidence, with historiography used appropriately."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Presents WELL-CONSIDERED JUDGEMENTS that demonstrate understanding of the COMPLEXITY of the trend and/or the forces."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Evaluates with (some) insight, acknowledging the complexity of the relationship between the trend and the forces (or change and continuity), with well-chosen, specific evidence showing comprehensive understanding."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "A balanced essay with a sustained argument, evidence curated strategically, and relevant historiography selected to strengthen the argument."
+       }
+      ]
+     },
+     "watch": [
+      "Event-based or person-based 'trends' (e.g. one war, one leader). Both reports say these struggled to meet the standard.",
+      "Pre-learnt essays that answer last year's focus (forces) when the question asks about change and continuity, or the reverse.",
+      "Change only or continuity only in a change-and-continuity question. This held candidates at Achievement in 2024.",
+      "Forces named but not weighed against each other. Merit needs prioritisation.",
+      "Historiography quoted as decoration rather than used to support the student's own judgement.",
+      "Do not reward length. The guidance is no more than 800–900 words.",
+      "Adapt the schedule to the practice question. The descriptors are written for each year's question."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The trend and evidence are the student's own, so the AI cannot verify every fact, statistic or historian cited. The teacher must check accuracy and confirm the essay was written under supervised exam conditions.",
+     "researchNotes": "The standard text comes from the NZQA as91439 PDF (2019 folder, Version 2). EN2 was quoted, with the third clause as extracted (it may be missing a comma or 'and'). EN3–EN5 are summarised. The 2026 specification was read via the 91436-spc-2026 fetch. The 2025 and 2024 schedules were obtained as short quotes and close paraphrase. The reports are the combined Level 3 History reports. NZQA lists no exemplars after 2021, and the 2021 materials were not read, so 'exemplars' is empty. A 2025 te reo Māori version of the paper (Pepa whakamatautau) is listed. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Media Studies": {
+   "slug": "media-studies",
+   "discipline": "Both Level 3 Media Studies externals are one essay that answers ONE chosen statement. Markers judge it holistically, from explaining (A) to analysing impact (M) to evaluating impact and wider significance (E). The score depends on how consistently the essay interrogates the statement, and on detailed, current primary evidence backed by secondary sources. It does not depend on industry or genre history, theory used as scaffolding, or length. A rote-learned essay bent to fit the statement is the most common reason for a low grade.",
+   "parallelHint": "a different media industry and aspect (e.g. regulation in the New Zealand news industry instead of technology in the music industry), or for 91493 a different genre and a different society (time and place or audience), answering a different statement",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Media Studies 91490 and 91493 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91490-spc-2026.pdf"
+    },
+    {
+     "label": "91493 assessment specification 2026",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91493-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91493-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91490 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91490"
+    },
+    {
+     "label": "NZQA 91493 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91493"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Media Studies (covers 91490 and 91493)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91490-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Media Studies (covers 91490 and 91493)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91490-report-2024.pdf"
+    },
+    {
+     "label": "NZQA digital external assessment (schools may flag entries as paper)",
+     "url": "https://www2.nzqa.govt.nz/ncea/external-assessment/digital/"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes end-of-year external examinations. 91490 and 91493 are both end-of-year examinations in 2026 (2026 Assessment Specifications).",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. Neither Media Studies external falls into these categories, so both are eligible. (This reading of the Rules is carried over from the project's Level 1 History research; I did not re-read the Rules PDF for this file.)",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3), and EmaiLink August 2026: the evidence must be a quality-assured, authentic, standard-specific practice assessment that matches the format and conditions of the external exam, and it must be submitted before the November examinations.",
+    "For both standards that means: a set of UNSEEN statements (five in 2024 and 2025), ONE chosen, one essay of about 800–900 words, written under supervision without notes or a pre-written essay. The student brings their own industry or genre knowledge and evidence from memory.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria, be certainly the student's own, and be checked by a suitably qualified second reader. Practice exams may adapt previous papers, but the statement must be new to the students.",
+    "Derived grades are approved only after the exam cycle, and the student receives the better of the derived grade and the exam result."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91490",
+     "ref": "3.1",
+     "credits": 4,
+     "version": "Version 3 (published 28 November 2019; planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of an aspect of a media industry",
+     "criteria": {
+      "achieved": "Demonstrate understanding of an aspect of a media industry.",
+      "merit": "Demonstrate in-depth understanding of an aspect of a media industry.",
+      "excellence": "Demonstrate perceptive understanding of an aspect of a media industry."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves identifying an aspect of a media industry and explaining how and/or why this aspect operates in the industry.",
+      "EN2: Demonstrate in-depth understanding involves analysing an aspect of a media industry by explaining its impact on the industry and/or society. An impact may be social, cultural, political, historical, economic, technological, or ideological.",
+      "EN2: Demonstrate perceptive understanding involves evaluating the impact of an aspect of a media industry on the industry and/or society.",
+      "EN3: A media industry is any historical or current media industry, e.g. newspaper industry in New Zealand, television industry in New Zealand, Hollywood film industry or the global music industry.",
+      "EN4: An aspect of a media industry may include: organisation, audience demand, market forces, technology, regulation and legislation."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination only. The 2025 specification (October 2024) said 'online digital examination or printed paper'. NZQA's digital page says schools can still flag entries as paper. The task and length guidance are unchanged.",
+      "ONE essay on ONE statement chosen from a range. The 2024 and 2025 papers offered five statements. No industries are specified.",
+      "The planning page asks for: media industry, aspect of the media industry, statement number.",
+      "Instruction: write on the extent to which you agree with the statement, evaluating how the aspect operates, its impact and its wider significance, responding only to the chosen statement, and supporting points with specific media texts and/or other evidence.",
+      "Length guidance: about 800–900 words (5–6 pages). Quality, not length, is assessed. Planning spaces are not marked.",
+      "Familiar context: the student's own studied industry, but the statements are unseen. Secondary sources (media theory, criticism, articles) may support the student's own understanding.",
+      "No time allowance is stated on the paper."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay gets ONE score code from N0 to E8 for the whole response.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "N1: attempts to show understanding of an aspect, little direct evidence, addresses the statement only some of the time (perhaps only the introduction or conclusion). N2: identifies an aspect and attempts to explain how it operates, with some relevant evidence, addressing the statement generally.",
+      "A3: identifies an aspect and explains how it operates and its impact, with general evidence from a range of sources, addressing the statement throughout. A4: explains in detail, with detailed, appropriate evidence and some nuance.",
+      "M5: in-depth understanding of how the aspect operates, explaining impact in detail and perhaps attempting limited evaluation, with detailed relevant evidence, interrogating the statement generally. M6: evaluates impact (may discuss its extent), with evidence that clearly supports the discussion, interrogating the statement throughout with nuance.",
+      "E7: perceptive understanding that draws conclusions about wider significance and evaluates impact on the industry and/or society, with relevant, insightful detail from primary AND secondary sources. E8: perceptive and engaging, convincing conclusions about wider significance, may discuss the complexities of the industry.",
+      "The candidate must identify the statement (1–5) or make the choice clear. Evidence points in the schedule are indicative, not exclusive.",
+      "The descriptor grid did not extract cleanly. The code-by-code mapping above is my best reading of the 2025 schedule, not verbatim."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Choose ONE: (1) Audience fatigue (apathy, indifference or mental exhaustion from too much media content) is economically challenging for media industries. (2) Outrage is currency for media industries. (3) Indigenous media struggles in relation to mainstream media. (4) Media industries have moved from instant to constant gratification (fulfilment). (5) Current media has rewritten the rules for media industries."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91490-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91490-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91490-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91490-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91490-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91490-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Choose ONE: (1) Artificial Intelligence (AI) should not replace traditional media practices. (2) The digitisation of media products favours media industries. (3) The future of media industries is people, not profit. (4) Local producers create the foundation for sustainable media industries. (5) Being inclusive should be authentic in media industries."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91490-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91490-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91490-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: picked up keywords from the statement, usually only in the introduction or conclusion; relied heavily on industry history rather than a specific aspect; focused on a single entity rather than the wider industry; basic, often primary, evidence.",
+      "2025, Merit: explained a clear impact of the aspect on the industry, set up a thesis in the introduction that was sustained through the essay, moved beyond history to more recent developments, and mixed primary and secondary evidence including statistics.",
+      "2025, Excellence: a sophisticated, integrated argument interrogating the statement's complexities; deep knowledge adapted to the statement rather than a scaffolded structure; judicious, current examples; challenged or subverted the statement.",
+      "2025, Not Achieved: wrote about 'the media' in general or one business or show rather than an industry; did not address the statement; pre-prepared essay; no evidence; well under length, or long but mostly irrelevant history; a broad issue (e.g. AI) not linked to how it works in a media industry.",
+      "2025, commentary: statement 5 ('Current media has rewritten the rules') was by far the most popular. Many answers gave long historical overviews, read 'rules' too narrowly as regulation only, or read 'current media' too broadly. Statement 3 (Indigenous media) was least popular, and terms like 'indigenous' and 'outrage' caused difficulty.",
+      "2024, Achievement: keywords mainly in the introduction and conclusion, heavy industry history, superficial impacts with little evidence, one company rather than the wider industry.",
+      "2024, Merit: explained how the aspect affects the industry, an argument set up in the introduction and sustained, the statement addressed throughout, relevant primary and secondary evidence.",
+      "2024, Excellence: used the statement to frame a clear line of argument and then subverted or interrogated it, judicious valid primary and secondary examples, appropriate media theory to extend points.",
+      "2024, Not Achieved: little or no evidence, superficial or misunderstood statement, one entity only (often just history), opinion essays without evidence (especially on the AI and inclusivity statements), an overview of the industry rather than its aspects.",
+      "2024, commentary: the music industry and digitisation were the most common choice, often recycled from earlier years. Single businesses worked only as case studies of wider trends. Strong New Zealand news answers used the closure of Newshub and TVNZ cuts. Some chose statements that did not fit their material (e.g. digitisation under 'people, not profit')."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, 2025)",
+       "text": "Statement 5. Identified technology as a relevant aspect changing how the industry operates and explained it to some degree with general evidence. Addressed the statement, though not consistently.",
+       "miss": "Needed a closer focus on Spotify and how it changed the music industry rather than earlier developments, more relevant and detailed evidence, and the wider impacts on the industry as a whole."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Statement 1, music industry. Responded directly to the statement, discussed the industry as a whole, and explained how different forms of fatigue have shaped audience demand.",
+       "miss": "Too much historical description. Needed more evaluation of how fatigue has affected the industry overall, with further evidence."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Statement 5, Hollywood film industry and technology (especially AI). A clear, developed argument that tested the statement; history included but not dominant; covered how the parts of the industry work and how AI is changing them; well-chosen, insightful evidence.",
+       "miss": "Fuller development of future impacts would have given a chance at E8."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). Planning spaces are not marked.",
+      "The student brings their own industry and evidence from memory. No notes or pre-written essays are allowed. A practice exam must use statements the students have not seen.",
+      "A te reo Māori version (pepa whakamatautau) is published for 91493 but not for 91490 on the NZQA page. Check whether any students intend to sit in te reo Māori."
+     ],
+     "components": [
+      "Introduction: industry, aspect and a thesis on the statement",
+      "How the aspect operates in the industry (explain)",
+      "Impact on the industry and/or society (analyse)",
+      "Evaluation of the impact and wider significance, interrogating the statement",
+      "Evidence: current primary examples and secondary sources"
+     ],
+     "focusTip": "Give the statement number and wording, plus the student's industry and aspect as they wrote them on the planning page, so the marker can check the essay stays on that industry and that statement.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2 + EN4",
+        "t": "IDENTIFIES a specific aspect (organisation, audience demand, market forces, technology, regulation, legislation) of a media INDUSTRY and explains how and/or why it operates in that industry."
+       },
+       {
+        "type": "req",
+        "src": "EN3; 2025 report",
+        "t": "The subject is an industry (e.g. the NZ news industry, the global music industry), not 'the media' in general or a single company or show."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule A3",
+        "t": "Addresses the chosen statement THROUGHOUT, with evidence from a range of sources. Addressing it only in the introduction and conclusion is N1–N2 territory."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "The essay is about the aspect, not a history of the industry, and the evidence is specific rather than opinion."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "ANALYSES the aspect by explaining its IMPACT on the industry and/or society (social, cultural, political, historical, economic, technological or ideological)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Detailed, relevant evidence, and the statement is interrogated (not just repeated) with some nuance."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "A thesis in the introduction that is sustained through the essay, recent developments rather than history, and primary and secondary evidence including statistics."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EVALUATES the impact of the aspect on the industry and/or society (judges its extent and significance)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Draws conclusions about WIDER significance, supported by relevant, insightful detail from primary AND secondary sources."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Interrogates, challenges or subverts the statement; adapts knowledge to the statement instead of following a scaffold; uses current, judicious examples; theory extends points rather than structuring the essay."
+       }
+      ]
+     },
+     "watch": [
+      "Pre-prepared essays bent to fit the statement. This was the biggest problem in both 2024 and 2025.",
+      "Long industry histories that crowd out the aspect and its current impact.",
+      "One company, platform or show treated as 'the industry', unless it is used as a case study of a wider trend.",
+      "The statement addressed only in the introduction and conclusion, or only half of it addressed.",
+      "Narrow readings of keywords (e.g. 'rules' as regulation only) or AI discussed as opinion rather than industry operation.",
+      "Outdated evidence. Markers rewarded current developments (e.g. Newshub's closure, TVNZ cuts).",
+      "Do not reward length. Mark one holistic code for the whole essay."
+     ],
+     "aiLimits": "The AI cannot verify every industry fact, statistic, date or quotation from a secondary source, so the teacher must check accuracy and currency. Scans of handwriting may be misread. The teacher must confirm the essay was written under supervision from memory.",
+     "researchNotes": "Standard text from the NZQA as91490 PDF (2020 folder, Version 3, published 28 November 2019). 2026 specification read. The 2025 specification for 91490 failed to fetch, but the 91493 2025 specification covers both standards and lists 'online digital examination or printed paper'. The 2025 schedule grid extracted with an ambiguous layout, so the code descriptors are a best reading, not verbatim. No 2024 exemplars are published. The subject reference (3.1) is inferred from the numbering sequence (91491 is 3.2 and 91492 is 3.3 in this project's internal-standards file), not read from the standard PDF. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91493",
+     "ref": "3.4",
+     "credits": 4,
+     "version": "Version 3 (published 28 November 2019; planned review date 31 December 2020)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of a relationship between a media genre and society",
+     "criteria": {
+      "achieved": "Demonstrate understanding of a relationship between a media genre and society.",
+      "merit": "Demonstrate in-depth understanding of a relationship between a media genre and society.",
+      "excellence": "Demonstrate perceptive understanding of a relationship between a media genre and society."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding involves explaining a relationship between a media genre and society.",
+      "EN2: Demonstrate in-depth understanding involves analysing a relationship between a media genre and society by explaining its impact on the genre and/or society. An impact may be social, cultural, political, historical, economic, technological, or ideological.",
+      "EN2: Demonstrate perceptive understanding involves evaluating the impact of a relationship between a media genre and society on the genre and/or society.",
+      "EN3: A relationship may include any economic, cultural, historical, technological, ideological, political or social connection between a media genre and society, e.g. a discussion of how dystopian genres reflect American concerns post-'9/11' or a discussion about the relationship between the fantasy genre and its fans.",
+      "EN4: Society refers to a community in a specific time and place (e.g. 1950s America), or the audience for a genre (e.g. sci-fi fans)."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the medium as an online digital examination only. The 2025 specification said 'online digital examination or printed paper'. Schools can still flag entries as paper. The task and length guidance are unchanged.",
+      "ONE essay on ONE statement chosen from a range. The 2024 and 2025 papers offered five statements. No genres are specified.",
+      "The planning page asks for: media genre, society, statement number. 'Society' is defined on the paper as a community in a specific time and place, or the audience for a genre.",
+      "Instruction: say how far you agree with the statement, critically evaluating the influence, impact and wider significance of the genre–society relationship, using specific detail from a RANGE of media texts.",
+      "Length guidance: about 800–900 words (5–6 pages). Quality, not length, is assessed. Planning spaces are not marked. Note that the 2025 report says Merit and Excellence were rarely awarded under about 1100 words.",
+      "A te reo Māori paper (pepa whakamatautau, 91493-mex) is published for 2023–2025."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "The essay gets ONE score code from N0 to E8 for the whole response.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "N1: attempts to show understanding, little or no impact, little direct evidence, addresses the statement only some of the time. N2: some limited understanding, limited impact, some relevant evidence, addresses the statement generally.",
+      "A3: some understanding, explains impact, some detailed evidence from a range of media texts, addresses the statement throughout. A4: solid understanding with detailed evidence from a range of texts.",
+      "M5: reasoned understanding, explains impact in detail and attempts some evaluation, with detailed evidence from texts and/or secondary sources. M6: in-depth understanding, addressing the statement throughout with some nuance.",
+      "E7: perceptive understanding, draws conclusions about wider significance, evaluates impact (may discuss extent), with relevant insightful detail from primary and secondary sources, interrogating the statement throughout. E8: perceptive and engaging, convincing conclusions, may discuss wider significance and complexities.",
+      "The candidate must identify the statement (1–5). Evidence points are indicative, not exclusive.",
+      "The descriptor grid did not extract cleanly. The code-by-code mapping above is my best reading of the 2025 schedule, not verbatim."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Choose ONE: (1) An emerging (becoming recognised) genre can reflect cultural change. (2) For better or worse, genre shows us how society used to be. (3) Genre echoes political ideologies. (4) Social discourse (exchange of ideas) shapes genre. (5) Genre peers into society's shadows."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91493-exm-2025.pdf"
+        },
+        {
+         "label": "Pepa whakamatautau (te reo Māori paper)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91493-mex-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91493-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91493-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar: Excellence",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91493-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar: Merit",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91493-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar: Achievement",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91493-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Choose ONE: (1) Genre tests the waters for social change. (2) Genre acts as a time capsule. (3) Genre profits (an advantage or benefit, or financial gain) from society's fears. (4) Genre primarily entertains. (5) Genre serves as a cautionary tale."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91493-exm-2024.pdf"
+        },
+        {
+         "label": "Pepa whakamatautau (te reo Māori paper)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91493-mex-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91493-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91493-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: set up the genre and society at the start and end; engaged with the statement mainly in the introduction and conclusion; began paragraphs with an aspect of the relationship supported by genre evidence; mostly linked texts to a time period rather than analysing the genre as a whole.",
+      "2025, Merit: made the genre–society relationship central; applied evidence from genre texts and/or secondary sources; began to make judgements on the statement; discussed several texts per paragraph; connected paragraphs through a common thread; used specific, often narrow time frames (e.g. post-9/11 US war films, 1940s–50s film noir, post-2008 neo-noir).",
+      "2025, Excellence: original, nuanced writing; theory used meaningfully rather than as the essay's structure; genre first and texts second; secondary evidence; judged whether the relationship served society or the genre more; engaged with the genre beyond the studied texts; a narrow society time frame held without tangents.",
+      "2025, Not Achieved: close readings of texts without drawing out the genre; one paragraph per text per period without the relationship; a broad genre overview with no society; rote-learned or off-statement responses; invented information or a made-up genre or statement; a single text rather than a genre.",
+      "2025, commentary: many relied on rote-learned genres and evidence from earlier exam cycles and reinterpreted the statement to fit. Overall standards were lower than in earlier years. Text-by-text, era-by-era structure and heavy use of genre-cycle theory (Focillon, Metz, Schatz) with one film per stage often looked like Level 2 work. Merit and Excellence were rarely awarded under about 1100 words.",
+      "2024, Achievement: genre and society set up in the introduction and conclusion; individual texts and their periods rather than the genre; each paragraph led with a text title; evidence from two texts beyond plot; limited depth.",
+      "2024, Merit: the statement in topic sentences throughout; argued for or against it; secure understanding of genre and society; detailed primary and often secondary evidence; built around a genre convention with a sociological counterpart (e.g. the femme fatale, the final girl); texts discussed alongside each other.",
+      "2024, Excellence: critical engagement with the complex, often symbiotic, genre–society relationship throughout; the genre's significance for a particular society, time and place; cohesive argument with a range of texts and secondary sources; cause and effect between genre and society; an original viewpoint; the genre's influence on later texts.",
+      "2024, Not Achieved: minimal evidence or no link to society; plot or theme retelling of one or two texts; one text in detail with others only named; genre and society in general terms without textual evidence; disparate texts that do not form a genre.",
+      "2024, commentary: clearly defined genres placed in a specific society worked best (film noir, post-9/11 zombie films, 1980s–90s slashers). 'Genre primarily entertains' was hard unless candidates showed how entertainment connects genre to society. NZQA recommends more teaching of emerging, non-traditional and socially oriented genres (e.g. queer and feminist genres)."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, 2025)",
+       "text": "Statement 2, the found-footage genre and its audience. Explained to some degree how and why the genre–society relationship works for the statement.",
+       "miss": "Some passages described rather than explained. The example of why The Blair Witch Project connected so strongly with audiences was described but not analysed."
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Statement 5 ('Genre peers into society's shadows'). Showed some reasoned understanding of the relationship, explained its impact, and supported it with some detailed evidence.",
+       "miss": "The commentary does not state the gap. By the schedule, Excellence needs evaluation of the impact and conclusions about wider significance, with insightful primary and secondary evidence."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Statement 4 ('Social discourse shapes genre'). Discussed the relationship concisely and drew conclusions about its significance, with some perceptive understanding, some nuance in interrogating the statement, and considered detail from genre texts and secondary sources.",
+       "miss": "The commentary does not state the gap. By the schedule, E8 needs perceptive, engaging understanding and convincing conclusions throughout."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam. 2026 specification: online digital examination (schools may flag entries as paper). Planning spaces are not marked.",
+      "The student brings their own genre, society and texts from memory. No notes or pre-written essays. A practice exam must use statements the students have not seen.",
+      "A te reo Māori paper is published. A practice exam answered in te reo Māori needs a kaiako fluent in te reo to mark it; the AI should not judge reo quality."
+     ],
+     "components": [
+      "Introduction: genre, society (time and place or audience) and a thesis on the statement",
+      "The genre–society relationship explained across a range of texts",
+      "Impact on the genre and/or society (analyse)",
+      "Evaluation of the impact and wider significance, interrogating the statement",
+      "Evidence: several genre texts plus secondary sources"
+     ],
+     "focusTip": "Give the statement number and wording, plus the student's genre and society as written on the planning page (e.g. 'film noir, 1940s–50s America'), so the marker can check the essay stays on the genre–society relationship.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2 + EN3",
+        "t": "EXPLAINS a relationship (economic, cultural, historical, technological, ideological, political or social) between a media GENRE and society."
+       },
+       {
+        "type": "req",
+        "src": "EN4",
+        "t": "Names a specific society: a community in a specific time and place, or the genre's audience."
+       },
+       {
+        "type": "ind",
+        "src": "Paper instructions; schedule A3",
+        "t": "Uses specific detail from a RANGE of genre texts and addresses the chosen statement throughout."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "The essay is about the genre, not a series of single-text readings, representation or industry, and the texts actually form a genre."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "ANALYSES the relationship by explaining its IMPACT on the genre and/or society."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule M5/M6",
+        "t": "Detailed evidence from texts and/or secondary sources, with the statement addressed throughout and some nuance."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Several texts discussed together per paragraph around a genre convention with a sociological counterpart, and a narrow, specific time frame for the society."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "EVALUATES the impact of the genre–society relationship on the genre and/or society."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule E7/E8",
+        "t": "Draws conclusions about WIDER significance, with relevant, insightful detail from primary AND secondary sources, interrogating the statement throughout."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Genre first, texts second; theory used meaningfully, not as scaffolding; judges whether the relationship serves society or the genre more; an original viewpoint; the genre's influence beyond the studied texts."
+       }
+      ]
+     },
+     "watch": [
+      "Rote-learned genre essays from earlier exam cycles bent to fit the statement.",
+      "Text-by-text or era-by-era structure (one film per paragraph or per genre-cycle stage) that never traces the genre.",
+      "Essays that drift into representation, readings or industry rather than the genre–society relationship.",
+      "A vague society ('America', 'people today'). The society must be a specific time and place, or an audience.",
+      "Only one part of the statement addressed, or the statement only in the introduction and conclusion.",
+      "Very short essays. The 2025 report says Merit and Excellence were rarely awarded under about 1100 words, even though the guidance is 800–900. Judge depth, not word count.",
+      "Mark one holistic code for the whole essay."
+     ],
+     "aiLimits": "The AI cannot watch the genre texts, so the teacher must check that film titles, dates, scenes and secondary-source claims are accurate. Scans of handwriting may be misread. Answers in te reo Māori need a fluent kaiako. The teacher must confirm the essay was written under supervision from memory.",
+     "researchNotes": "Standard text from the NZQA as91493 PDF (2020 folder, Version 3, published 28 November 2019). 2026 and 2025 specifications read. The 2025 schedule grid extracted with an ambiguous layout, so the code descriptors are a best reading, not verbatim. The 2025 Merit exemplar extraction was ambiguous between M5 and M6; the total was read as 06, so M6 is recorded. The Excellence and Merit exemplar commentary did not name the genre. No 2024 exemplars are published. The subject reference (3.4) is inferred from the numbering sequence (91492 is 3.3), not read from the standard PDF. The time allowance was not confirmed.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Music": {
+   "slug": "music",
+   "discipline": "",
+   "parallelHint": "",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "Level 3 Music 2026 Assessment Specifications, 91420, 91421 and 91423 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91420-spc-2026.pdf"
+    },
+    {
+     "label": "NZQA 91420 standard page (papers, schedules, reports)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91420"
+    },
+    {
+     "label": "91420 exam paper 2025",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91420-exm-2025.pdf"
+    }
+   ],
+   "derivedGradeNotes": [],
+   "excluded": [
+    {
+     "code": "91420",
+     "title": "Integrate aural skills into written representation",
+     "reason": "This is a listening exam: students hear recorded extracts played in the exam and answer mainly by writing melodies, rhythms and chord symbols by hand on staves (in 2025, the Martin Guerre, Don't Dream It's Over and Beethoven Symphony No. 7 extracts), and the AI can neither hear the audio nor reliably read handwritten notation, so a music teacher should mark it."
+    }
+   ],
+   "standards": []
+  },
+  "Physics": {
+   "slug": "physics",
+   "discipline": "Each Level 3 Physics paper has three compulsory questions, usually with four parts each. Every part is credited as Achievement, Merit or Excellence evidence, each question gets one code from N0 to E8 based on the combination of evidence, and the three codes are added to give a total out of 24, which the year's cut scores convert to a grade. Achievement is a correct single-step calculation or a statement that shows awareness of the relevant physics. Merit gives an explanation of the phenomenon or a multi-step calculation. Excellence connects two or more concepts or principles in the given situation, with a fully correct answer or a complete causal explanation. Memorised answers that do not fit the context, and restating the information given, are not credited.",
+   "parallelHint": "a different physical situation using the same principle: for example a different moving source for the Doppler effect, a different instrument or pipe for standing waves, a different rotating object or orbit, or a different RC, LR or RLC circuit with new component values",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "Level 3 Physics 2026 Assessment Specifications (91523, 91524, 91526; published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91523-spc-2026.pdf"
+    },
+    {
+     "label": "Level 3 Physics 2025 Assessment Specifications (published February 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91523-spc-2025.pdf"
+    },
+    {
+     "label": "NZQA 91523 standard page (papers, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91523"
+    },
+    {
+     "label": "NZQA 91524 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91524"
+    },
+    {
+     "label": "NZQA 91526 standard page",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91526"
+    },
+    {
+     "label": "2025 Level 3 Physics Assessment Report (covers 91523, 91524, 91526)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91523-report-2025.pdf"
+    },
+    {
+     "label": "2024 Level 3 Physics Assessment Report (covers 91523, 91524, 91526)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91523-report-2024.pdf"
+    },
+    {
+     "label": "2025 Resource Booklet L3-PHYSR (formulae and constants)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91523-res-2025.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "Summary of 2026 Assessment Rules changes (EmaiLink March 2026)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Publications/EmaiLink/March-2026/Summary-of-2026-Assessment-Rules-changes.pdf"
+    },
+    {
+     "label": "Assessment Matters A2024/5: Derived grades for the new achievement standards (point-in-time eligibility test)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/assessment-matters/a20245/"
+    },
+    {
+     "label": "NZQA derived grades overview",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/"
+    },
+    {
+     "label": "NZQA 2026 Exam Timetable",
+     "url": "https://www2.nzqa.govt.nz/assets/NCEA/2026-Exam-Timetable.pdf"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): a derived grade is available for external examinations where NZQA marks the work. 91523, 91524 and 91526 are all end-of-year NZQA examinations in 2026 (2026 Assessment Specifications), so all three are eligible.",
+    "2026 Rules, Schedule 2 cl. 3(3): derived grades are not available for NZ Scholarship, for standards NZQA has specifically excluded, or for the dedicated literacy and numeracy standards (32403, 32405, 32406, 32412, 32413, 32415). No Level 3 Physics standard is named as excluded in any source I found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): the grade must come from quality-assured, standard-specific evidence 'from a practice assessment of the Standard that matches the format and conditions of the external assessment'. It must be submitted before the November examinations begin or by the published submission date.",
+    "For these standards, matching format and conditions means a supervised, printed answer booklet with three compulsory questions for each standard, usually four parts per question. Students work without notes, using only the Resource Booklet L3-PHYSR (formulae and constants), an approved calculator, a ruler and a protractor. The practice paper should be marked with per-question N0–E8 codes and a total out of 24.",
+    "2026 Rules change summary (EmaiLink March 2026): derived grades are approved only after the exam cycle is complete. NZQA's derived-grade page says a student approved for a derived grade who still sits the exam receives the better of the two grades, and that derived grades cannot be used to make up for missed learning or preparation time.",
+    "Evidence should cover the standard rather than one topic. For 91524, for example, a practice paper on rotational motion alone does not sample translational motion, circular motion and gravity, or SHM (EN4)."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91523",
+     "ref": "3.3",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016; registered 4 December 2012)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of wave systems",
+     "criteria": {
+      "achieved": "Demonstrate understanding of wave systems.",
+      "merit": "Demonstrate in-depth understanding of wave systems.",
+      "excellence": "Demonstrate comprehensive understanding of wave systems."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves 'showing an awareness of how simple facets of phenomena, concepts, or principles relate to a given situation'.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves 'giving explanations for phenomena, concepts, or principles that relate to a given situation'.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves 'connecting concepts or principles that relate to a given situation'.",
+      "EN3: Wave systems may be addressed through mathematical solutions and/or written descriptions. Written descriptions may include graphs or diagrams.",
+      "EN4: Assessment is limited to: quantitative interference of electromagnetic and sound waves (including multi-slit interference and diffraction gratings), standing waves in strings and pipes, harmonics, resonance, beats, and the Doppler effect for mechanical waves with a stationary observer. EN4 also lists the relationships, including those for diffraction gratings, single-slit diffraction and standing waves.",
+      "Assessment specifications (2025): 'Mathematical solutions will require candidates to show, mathematically, that two phenomena, concepts, or principles are connected.' Candidates should be familiar with all aspects listed in EN4."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification (October 2025) keeps an end-of-year examination on printed paper. Not online digital in 2026.",
+      "Three compulsory questions, each with four parts (2024 and 2025 Assessment Reports), each covering one EN4 topic. In 2025 these were the Doppler effect, standing waves on a string with beats, and two-slit and grating interference. Each question gives two Excellence opportunities (2024 report).",
+      "Resource Booklet L3-PHYSR is supplied, with wave formulae (d sinθ = nλ, the Doppler relationship f′ = f(v ± v_W)/(v ± v_S), v = fλ, f = 1/T and others) and constants. An approved calculator, ruler and protractor are required, and g = 9.81 m s⁻².",
+      "Instructions: show clear numerical working, words and/or diagrams; give numerical answers with an appropriate SI unit; significant figures consistent with the data; write unrounded values in 'show that' questions. Prefixes are limited to giga to pico.",
+      "No time allowance is printed on the paper. The 2026 timetable lists Physics sessions on 12 November (PM) and 18 November, but the extracted text did not show which session is Level 3 or its length."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each part of a question is credited as a, m or e evidence (or not credited) against the schedule. The question's code comes from the combination of evidence.",
+      "2025 grid (as extracted). N0: no relevant response. N1: 1a. N2: 2a. A3: 3a or 1a + 1m. A4: 4a or 2a + 1m. M5: 3a + 1m. M6: 1a + 2m or 2a + 2m. E7: 3a + 1e, 2a + 1m + 1e, or 2m + 1e. E8: 2a + 2e or 1m + 2e. The 2024 grid is similar (A4: 4a or 1a + 1m; M5: 2a + 1m; M6: 3a + 1m or 2a + 2m). Some extractions were garbled, so check the original grid for the paper being used.",
+      "Calculations are tiered within one part: a correct substitution or sign choice is a; a minor error or insufficient working is m; the correct answer with working is e (2025 Q1(d) and Q3(d)).",
+      "Explanations are tiered by completeness. For example, for the Doppler effect, stating one of higher f, shorter apparent λ or constant v is a; all three is m (2025 Q1(b)). For grating versus double-slit patterns, identifying a difference is a, justifying one is m, and justifying all three (brighter, sharper, further apart) is e (2025 Q3(c)).",
+      "The three question codes are added to give a total out of 24. Cut scores: 2025 N 0–6, A 7–13, M 14–18, E 19–24; 2024 N 0–6, A 7–12, M 13–19, E 20–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Doppler effect (jet ski air horn, 1043 Hz at 27.3 m s⁻¹): observed frequency on approach; explain why the frequency differs (wavefronts bunched, shorter apparent wavelength, constant wave speed); explain the frequency-against-position graph for an observer near the path and one on the bank (velocity component towards the observer); calculate the speed of sound in water from 574.0 Hz emitted and 563.6 Hz received while receding.",
+        "Q2: Standing waves on a cello string (0.690 m): draw the 4th harmonic with nodes and antinodes; explain the effect of reduced tension on frequency using v = √(T/μ); calculate the fingered length for a 207 Hz first harmonic (0.49 m); explain why beats form and what is heard as string 1 is shortened further (beat frequency falls and stops when the frequencies match).",
+        "Q3: Interference: show the wavelength is 515 nm from double-slit data; explain intensity variation for 2 and 3 slits using path or phase difference; describe and explain the changes when a diffraction grating replaces the double slit; calculate the possible range of slit separations when seven maxima fit a 0.900 m screen at 1.20 m (no small-angle approximation)."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91523-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91523-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91523-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91523-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91523-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91523-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91523-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Standing waves in a pan flute (closed pipe): draw the standing wave; wavelength and frequency of the 3rd harmonic (about 3030 Hz); explain the end conditions and why only odd harmonics occur; a 9 Hz beat against a 523 Hz tuning fork, the length change needed (about 2.83 mm) and why no beat is heard when the pipe is in tune.",
+        "Q2: Light: calculate a path difference; maximum order with d = 5 × 10⁻⁶ m (n ≈ 7.83, so 15 dots); compare two-slit and grating patterns; explain why red maxima are further from the centre than blue (wavelength and path difference).",
+        "Q3: Doppler effect (train whistle): higher frequency on approach; explain it (bunched wavefronts, shorter apparent wavelength, constant speed of sound); calculate the train speed from 1270 Hz and 1190 Hz using simultaneous equations (about 11.2 m s⁻¹); interpret a pitch-against-time graph and justify that the train is accelerating."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91523-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91523-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91523-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91523-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: attempted all questions; drew and labelled standing waves; substituted into basic formulae and v = fλ; solved Doppler equations; described beats as volume fluctuations; distinguished double-slit from grating patterns.",
+      "2025, Merit: used formulae to justify answers; rearranged correctly and completed two-step calculations; explained the Doppler effect fully with v = fλ, including that the speed of sound is constant; explained beat formation and the role of path difference; partly explained double-slit versus grating differences.",
+      "2025, Excellence: accurate formulae and terminology; confident multi-step algebra; explained how the velocity COMPONENT towards the observer sets the apparent frequency; explained how changing a frequency changes beat frequency; fully explained two-slit versus multi-slit differences and related maxima to slit spacing when n is not a whole number.",
+      "2025, Not Achieved: wrong vocabulary; did not know the variables in formulae; pre-learned answers that did not fit; confused volume with frequency in the Doppler effect, or thought distance alone matters; confused crests, antinodes and antinodal lines; used path difference to explain beats; mixed up Doppler, standing waves and interference.",
+      "2025, common errors: confusing diffraction with interference; 'peaks and troughs' instead of phase; early rounding and inconsistent significant figures (answers up to 15% off).",
+      "2024, Achievement: drew waves in pipes; distinguished double slits from gratings; stated red light has a longer wavelength; recognised that an approaching source sounds higher; solved Doppler equations.",
+      "2024, Merit: calculated pipe frequencies and explained why only odd multiples of ¼λ fit a closed pipe; understood nλ = path difference and counted maxima; fully explained the Doppler effect including constant speed of sound.",
+      "2024, Excellence: linked several concepts coherently with formulae; described standing-wave formation including phase change on reflection; explained why gratings and double slits differ; set up and solved simultaneous Doppler equations and identified the train was accelerating.",
+      "2024, Not Achieved and common errors: SI prefixes not converted; calculator 'e' notation instead of standard form; uneven waves that did not fill the pipe; 'red diffracts more'; 'bunching' without reference to wavelength; variables said to 'change' instead of increase or decrease; crossing out partly correct answers."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 10: 3, 4, 3; 2025)",
+       "text": "Gained Achievement credit across all three questions, including correctly identifying constructive interference as giving a bright region.",
+       "miss": "Commentary: needed to 'specify increase or decrease' rather than 'different'; insufficient working in Q1(d); a standing wave not centred on equilibrium, with unequal node spacing; wrongly assumed changing string length changes wave velocity; did not state the in-phase / whole-wavelength path-difference condition; used the small-angle approximation for a large angle."
+      },
+      {
+       "grade": "Merit (total 15: 6, 6, 3; 2025)",
+       "text": "Correct answers for Q2 (a)–(c) and a credited explanation of beats in (d)(i).",
+       "miss": "Commentary: 'restating the information provided is insufficient' in Q1(c); did not mention that the beats disappear when the frequencies match; in Q3 did not specify the in-phase condition, did not identify or explain the pattern changes, and used the small-angle formula for a large angle."
+      },
+      {
+       "grade": "Excellence (total 22: 7, 8, 7; 2025)",
+       "text": "Clear algebra and an unrounded answer in Q1(d); points 'sensibly separated into three paragraphs' in Q3(c); 'an exceptionally clear layout and communication of the answer' in Q3(d).",
+       "miss": "Commentary: Q1 needed to state the wave velocity is constant in (b) and to discuss the velocity component towards the observer, rather than relative velocity, in (c); Q2 could have explained that the beat frequency decreases as f₁ increases towards f₂."
+      }
+     ],
+     "conditions": [
+      "End-of-year NZQA examination on printed paper (2026 specification). Answers go in the question and answer booklet, and margins are cut off and not marked.",
+      "Resource Booklet L3-PHYSR (formulae and constants), an approved calculator, a ruler and a protractor. No notes.",
+      "'Show that' questions require unrounded values to be written. Significant figures should be consistent with the data.",
+      "Literacy/numeracy co-requisite status was not checked. It does not affect derived-grade eligibility, because only the dedicated co-requisite standards are excluded (2026 Rules, Schedule 2 cl. 3(3))."
+     ],
+     "components": [
+      "Question One: the Doppler effect (moving source, stationary observer)",
+      "Question Two: standing waves on a string and beats",
+      "Question Three: two-slit and diffraction-grating interference"
+     ],
+     "focusTip": "Name the wave context and values used in each question (source frequency and speed, string or pipe length and harmonic, slit or grating spacing and screen distance) so the AI can check every calculated value.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Shows awareness of how simple facets of the phenomena, concepts or principles relate to the given situation, for example a correct single-step calculation, a correctly labelled standing-wave diagram, or a correct statement of what changes (increases or decreases)."
+       },
+       {
+        "type": "req",
+        "src": "EN4",
+        "t": "The physics used is within EN4 (interference and gratings, standing waves in strings and pipes, harmonics, resonance, beats, Doppler with a stationary observer)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 reports",
+        "t": "Correct substitution into the resource-booklet formula with SI units and prefixes converted; diagrams with even waves that fill the string or pipe, and nodes and antinodes correctly placed."
+       },
+       {
+        "type": "ind",
+        "src": "2025 exemplar commentary",
+        "t": "States the direction of a change ('increases'/'decreases'), not just 'different' or 'changes'."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Gives EXPLANATIONS for the phenomena in the given situation, for example why the frequency rises (shorter apparent wavelength at constant wave speed) or how beats form from alternating constructive and destructive interference."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and report",
+        "t": "Two-step calculations with correct rearrangement, or the correct method with a minor error; explanations using phase or path difference rather than 'peaks and troughs'."
+       },
+       {
+        "type": "ind",
+        "src": "2025 exemplar commentary",
+        "t": "Uses the context. Restating the information given in the question earns nothing."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; 2025 specification",
+        "t": "CONNECTS two or more concepts or principles in the given situation. Mathematical solutions show mathematically that two phenomena, concepts or principles are connected."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 schedules",
+        "t": "Multi-step answers fully correct with working, for example simultaneous Doppler equations, slit-spacing ranges using sin θ (not the small-angle approximation for large angles), or tuning-length changes from beat frequency."
+       },
+       {
+        "type": "ind",
+        "src": "2025 report; Excellence exemplar",
+        "t": "Complete explanations covering every point the context needs, for example the velocity component towards the observer, beat frequency falling to zero as the frequencies match, or all three grating-pattern differences."
+       }
+      ]
+     },
+     "watch": [
+      "Doppler answers that confuse volume (loudness) with frequency, or that say distance alone changes the frequency.",
+      "Path difference used to explain beats (beats are a superposition in time of two frequencies), and diffraction confused with interference.",
+      "The small-angle formula (nλ = dx/L) used where the angle is large. Expect it to be capped below Excellence.",
+      "Unconverted prefixes (nm, mm), calculator 'e' notation, early rounding, and wrong significant figures in 'show that' answers.",
+      "Standing-wave diagrams with uneven loops, waves not reaching the ends, or a node and antinode at the wrong ends of a pipe.",
+      "Pre-learned answers that do not fit the context, or restated question information, credited as explanation.",
+      "Totals converted with the wrong year's cut scores. The 2024 and 2025 bands differ."
+     ],
+     "aiLimits": "Calculations, rearranged formulae, standing-wave and interference diagrams, sketched graphs and handwritten working are read from scans and may be misread (subscripts, signs, powers of ten, node and antinode labels). The teacher must check every diagram and calculated value the AI credits or rejects, and confirm the paper was sat under exam conditions with only the resource booklet.",
+     "researchNotes": "Standard details from as91523 (2019 PDF, Version 2, published 17 November 2016). The EN2 grade definitions are quoted exactly from fetched fragments, and EN3–EN4 are paraphrased (the full EN4 relationships list is not reproduced). The 2026 specification states printed paper but gives no other standard-specific notes. The 2025 specification (published February 2025) says candidates should be familiar with all of EN4. The 2024 and 2025 grids were partly garbled in extraction. No 2024 exemplars are published for 91523. The time allowance was not confirmed. No 2026 paper exists yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91524",
+     "ref": "3.4",
+     "credits": 6,
+     "version": "Version 2 (published 17 November 2016; registered 4 December 2012)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of mechanical systems",
+     "criteria": {
+      "achieved": "Demonstrate understanding of mechanical systems.",
+      "merit": "Demonstrate in-depth understanding of mechanical systems.",
+      "excellence": "Demonstrate comprehensive understanding of mechanical systems."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves 'showing an awareness of how simple facets of phenomena, concepts, or principles relate to a given situation'.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves 'giving explanations for phenomena, concepts, or principles that relate to a given situation'.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves 'connecting concepts or principles that relate to a given situation'.",
+      "EN3: Mechanical systems may be addressed through mathematical solutions and/or written descriptions, which may include graphs or diagrams.",
+      "EN4: Translational motion: centre of mass (1 and 2 dimensions); conservation of momentum and impulse (2 dimensions only).",
+      "EN4: Circular motion and gravity: velocity, acceleration and resultant force in circular motion under two or more forces; Newton's law of gravitation; satellite motion.",
+      "EN4: Rotating systems: rotational motion with constant angular acceleration; torque; rotational inertia; conservation of angular momentum; conservation of energy.",
+      "EN4: Oscillating systems: conditions for simple harmonic motion; angular frequency; phasor diagrams and reference circles; damped and driven systems; resonance; conservation of energy.",
+      "Assessment specifications (2025): 'Mathematical solutions will require candidates to show, mathematically, that two phenomena, concepts, or principles are connected.'"
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification (October 2025) keeps an end-of-year examination on printed paper. Not online digital in 2026.",
+      "Three compulsory questions, each with four parts (2024 and 2025 reports). In 2025 they covered: Q1 centre of mass, 2D momentum, orbits and weightlessness; Q2 rotational kinematics, torque, conservation of angular momentum and rotational energy; Q3 SHM (pendulum) and resonance. Several parts are 'show that' questions.",
+      "Resource Booklet L3-PHYSR is supplied, with mechanics formulae (centre of mass, p = mv, Δp = FΔt, τ = Iα, L = Iω, F_g = GMm/r², F_c = mv²/r, T = 2π√(l/g), T = 2π√(m/k) and others) and constants (G, g = 9.81 m s⁻²).",
+      "Approved calculator, ruler and protractor. Show working; SI units; significant figures consistent with the data; unrounded values in 'show that' answers.",
+      "No time allowance is printed on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each part is credited as a, m or e evidence against the schedule, and the question's code comes from the combination of evidence.",
+      "2025 grid (as extracted). N1: 1a. N2: 2a. A3: 3a or 1a + 1m. A4: 4a, 2a + 1m, or 1a + 1e. M5: 2m or 2a + 1e. M6: 3m, 2m + 2a, or 1m + 1e. E7: 1a + 1m + 1e, 2m + 1e, or 2e + 1a. E8: 1m + 2e or 2a + 2e. The 2024 grid was garbled in extraction, so check the original.",
+      "'Show that' parts are usually Achievement evidence and need the base equation, substitution and an unrounded answer. Omitting the base equation and algebraic steps was a Not Achieved pattern in 2025.",
+      "Multi-step parts are tiered: a correct first step (for example angular acceleration, or setting L_i = L_f) is a; one error is m; the correct answer is e. 2025 Q2(c) needed both the roundabout's and the person's rotational inertia.",
+      "Explanation parts at e need the full chain. In 2025 Q1(d), weightlessness required free fall, no reaction force, AND gravity providing the centripetal force. In Q3(d), resonance required the driving frequency matching the natural frequency, energy input exceeding damping losses, and the amplitude building.",
+      "The three question codes are added to give a total out of 24. Cut scores: 2025 N 0–6, A 7–12, M 13–18, E 19–24; 2024 N 0–6, A 7–13, M 14–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Saturn and Titan: show the centre of mass is 2.90 × 10⁵ m from Saturn's centre; 2D momentum of two colliding ice particles (magnitude about 51.8 kg m s⁻¹ and direction); Titan's orbital period using F_g = F_c (about 15.9 days); explain why ISS astronauts appear weightless yet stay in orbit.",
+        "Q2: Playground roundabout: show ω = 4.19 rad s⁻¹ after 12.0 s; average torque that stops it over 19.2 s (I = 430 kg m²); new ω after Jane (52.0 kg, 6.39 m s⁻¹) jumps on at 1.20 m (conservation of angular momentum, total I); explain the effect on rotational energy when Rīhari moves inwards.",
+        "Q3: Pendulum SHM: show the amplitude is 0.117 m (trigonometry); show ω = 2.86 rad s⁻¹ (from T); time to reach a point 3.30 cm before the next stationary position (reference circle, about 0.829 s); explain the large amplitude at one driving frequency (resonance, force and energy)."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91524-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91524-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91523-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91523-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91524-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91524-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91524-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: Circular motion: a ball bearing moving in a circle with weight and a reaction/resistance force; the speed at which weight alone provides the centripetal force; explain the forces at two positions (sizes and directions, free-body diagrams); conservation of energy including linear AND rotational kinetic energy to find a height.",
+        "Q2: Rotational dynamics: a falling mass driving a flywheel or disc; angular displacement and final angular velocity; rotational inertia from tension and torque (τ = Fr, τ = Iα); explain how changing the mass distribution affects I, angular acceleration and final velocity.",
+        "Q3: SHM and damping: the conditions for SHM (restoring force proportional to displacement and directed towards equilibrium); angular frequency; displacement at a given time; displacement-time graph with decaying amplitude; explain the decreasing amplitude (energy lost as heat)."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91524-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91524-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91523-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: straightforward substitutions (p = mv, τ = Iα, I = mr²); recognised that an orbit needs F_c = F_g; recognised conservation of momentum; found a pendulum's period; knew that moving inwards on a roundabout increases ω; recognised resonance.",
+      "2025, Merit: found the centre of mass of a system; applied 2D momentum conservation for magnitude and direction; used F_c = F_g for orbital velocity; calculated a stopping torque; applied conservation of angular momentum; calculated angular frequency; linked ideas to explain changes in rotational kinetic energy.",
+      "2025, Excellence: found total 2D momentum and the orbital period; explained that gravity provides the centripetal force and that weight sensation involves the reaction force; explained resonance as the driving frequency matching the natural frequency, transferring energy and building amplitude; good command of SHM formulae.",
+      "2025, Not Achieved: left out the base equation and algebra in 'show that' questions; added vector magnitudes arithmetically; said VELOCITY is conserved; used constant-speed formulae for accelerating systems; ignored the total rotational inertia; named 'resonance' or 'natural frequency' without the mechanics.",
+      "2025, common errors: 'constant' confused with 'conserved'; vector directions, phasor diagrams and SHM application; reliance on memorised definitions and previous papers; terrestrial analogies (roller coasters) applied to orbits.",
+      "2024, Achievement: related centripetal and gravitational force; drew free-body diagrams correctly; angular velocity and rotational kinematics; how mass distribution affects rotational inertia; stated the conditions for SHM; identified damping.",
+      "2024, Merit: used F_c = F_g for maximum velocity; recognised that the NET force provides the centripetal force; applied conservation of energy with some errors; explained why rotational inertia decreases; a damped graph starting at maximum displacement.",
+      "2024, Excellence: comprehensive net-force discussion with correct free-body diagrams at different positions; explained how changing rotational inertia affects a flywheel's acceleration; clear sequential working; described all energy transformations and the causes of energy loss in damping.",
+      "2024, Not Achieved: could not define centripetal force; weight and support forces drawn in the wrong directions; conservation of energy misapplied; did not recognise the effect of torque; only said damping reduces amplitude."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 12: 4, 5, 3; 2025)",
+       "text": "Correct centre of mass; total initial momentum; the correct orbital-velocity method; torque calculated via angular acceleration; recognised conservation of angular momentum; linked a smaller radius to lower inertia (Merit evidence); period then angular frequency for the pendulum.",
+       "miss": "Commentary: could not use momentum in 2 dimensions; used the wrong radius; confused reaction, centripetal and gravitational force; did not recognise that the roundabout's inertia was initially zero in the momentum step; needed 'the significance of moving towards the axis of rotation' for Excellence; did not use trigonometry for amplitude; resonance answer lacked the driving force and energy transfer."
+      },
+      {
+       "grade": "Merit (total 17: 5, 5, 7; 2025)",
+       "text": "Correct centre of mass, 2D momentum and orbital velocity; torque via angular acceleration; L_i = L_f; trigonometric amplitude; two-step angular frequency; clear solution for time from displacement in SHM.",
+       "miss": "Commentary: weightlessness needed 'to link at least to Fg providing the Fc required to remain in orbit'; did not recognise the roundabout was accelerating in Q2(a); did not explain why angular momentum is conserved (no net torque) or why inertia falls as mass moves to the axis; 'did not recall information regarding resonance and natural frequency'."
+      },
+      {
+       "grade": "Excellence (total 23: 7, 8, 8; 2025)",
+       "text": "Correct 2D vector momentum and direction; F_c = F_g then the period; recognised acceleration in the kinematics; combined inertia in angular momentum; a clear summary using the axis of rotation, zero net torque and the squared ω term outweighing the fall in I; reference circle used effectively; resonance explained with the driving force at the natural frequency, energy transformations and damping.",
+       "miss": "Commentary: in Q1(d), for E8 the candidate 'needed to link in free fall' (station and astronaut accelerating towards Earth at the same rate)."
+      }
+     ],
+     "conditions": [
+      "End-of-year NZQA examination on printed paper (2026 specification). Margins are cut off and not marked.",
+      "Resource Booklet L3-PHYSR (formulae and constants), an approved calculator, a ruler and a protractor. No notes. g = 9.81 m s⁻².",
+      "'Show that' questions require the base equation, substitution and an unrounded value. Significant figures should be consistent with the data.",
+      "Literacy/numeracy co-requisite status was not checked. It does not affect derived-grade eligibility (2026 Rules, Schedule 2 cl. 3(3))."
+     ],
+     "components": [
+      "Question One: centre of mass, 2D momentum, gravitation and orbits",
+      "Question Two: rotational motion: kinematics, torque, angular momentum and rotational energy",
+      "Question Three: simple harmonic motion, reference circle and resonance or damping"
+     ],
+     "focusTip": "Name the system and values in each question (masses, radii, rotational inertia, lengths, frequencies) so the AI can check every calculated value and the vector or phasor directions.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Shows awareness of how simple facets of the physics relate to the situation, for example a correct single substitution (p = mv, τ = Iα, F_c = F_g set up), a correct 'show that' with its base equation, or recognising that a quantity is conserved."
+       },
+       {
+        "type": "req",
+        "src": "EN4",
+        "t": "The physics used is within EN4 (translational, circular and gravitational, rotational and oscillating systems)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 report",
+        "t": "Base equation and algebraic steps shown in 'show that' parts; vector magnitudes not added arithmetically."
+       },
+       {
+        "type": "ind",
+        "src": "2024 report",
+        "t": "Free-body diagrams with forces in the correct directions; states the conditions for SHM (restoring force or acceleration proportional to displacement, directed towards equilibrium)."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Gives EXPLANATIONS for the phenomena in the situation (for example why I decreases as mass moves inwards, or why the net force provides the centripetal force), or completes multi-step calculations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and report",
+        "t": "Multi-step solutions with at most one error: 2D momentum with direction; F_c = F_g for orbital speed; torque from angular deceleration; L_i = L_f with the TOTAL rotational inertia."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Merit exemplar",
+        "t": "Recognises when a system is accelerating and chooses the matching equations, not constant-speed formulae."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; 2025 specification",
+        "t": "CONNECTS two or more concepts or principles in the situation (for example angular momentum conservation with rotational energy, or gravity as the centripetal force with free fall and the absence of a reaction force)."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule",
+        "t": "Fully correct multi-step answers with units, for example orbital period or time to a displacement using the reference circle."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and Excellence exemplar",
+        "t": "Complete causal explanations: why angular momentum is conserved (no net external torque), why I falls (mass nearer the axis), why E_K rises (the ω² term outweighs the fall in I); resonance explained with driving frequency = natural frequency, energy input exceeding damping losses, and amplitude building."
+       }
+      ]
+     },
+     "watch": [
+      "'Velocity is conserved' or 'constant' used in place of 'momentum (or angular momentum) is conserved'.",
+      "2D momentum done by adding magnitudes, or with no direction or reference given for the angle.",
+      "The wrong radius in gravitation (surface height instead of distance between centres), or ignoring the person's inertia in roundabout problems.",
+      "Weightlessness explained as 'no gravity in space'. Gravity provides the centripetal force, and both astronaut and station are in free fall.",
+      "'Resonance' or 'natural frequency' named without the driving-force and energy explanation.",
+      "'Show that' answers that start from a substituted number with no base equation, or that round to the target value.",
+      "Phasor or reference-circle answers measured from the wrong starting position (for example from equilibrium instead of maximum displacement)."
+     ],
+     "aiLimits": "Calculations, vector and free-body diagrams, phasor and reference-circle sketches, graphs and handwritten working are read from scans and may be misread (angles, arrows, signs, powers of ten). The teacher must check every diagram and calculated value the AI credits or rejects, and confirm the paper was sat under exam conditions with only the resource booklet.",
+     "researchNotes": "Standard details from as91524 (2019 PDF, Version 2, published 17 November 2016). The EN2 definitions follow the same wording as 91523, quoted from fetched fragments, and EN4 is paraphrased. The 2025 grid was read from a hard-to-parse layout, and the 2024 grid could not be mapped reliably, so teachers should check the originals. The 2024 paper contexts are summarised from the schedule and report, not from the paper itself. No 2024 exemplars were checked. The time allowance was not confirmed. No 2026 paper exists yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91526",
+     "ref": "3.6",
+     "credits": 6,
+     "version": "Version 2 (published 17 November 2016; registered 4 December 2012)",
+     "verified": "2026-10-25",
+     "title": "Demonstrate understanding of electrical systems",
+     "criteria": {
+      "achieved": "Demonstrate understanding of electrical systems.",
+      "merit": "Demonstrate in-depth understanding of electrical systems.",
+      "excellence": "Demonstrate comprehensive understanding of electrical systems."
+     },
+     "notes": [
+      "EN2: Demonstrate understanding (Achieved) involves showing an awareness of 'how simple facets of phenomena, concepts, or principles relate to a given situation'.",
+      "EN2: Demonstrate in-depth understanding (Merit) involves giving explanations for phenomena, concepts or principles that relate to a given situation.",
+      "EN2: Demonstrate comprehensive understanding (Excellence) involves connecting concepts or principles that relate to a given situation.",
+      "EN3: Electrical systems may be addressed through mathematical solutions and/or written descriptions, which may include graphs or diagrams.",
+      "EN4: Assessment is limited to resistors in DC circuits, capacitors in DC circuits, inductors in DC circuits, and AC circuits, each with a defined list of content and relationships in the standard.",
+      "Assessment specifications (2025): 'Mathematical solutions will require candidates to show, mathematically, that two phenomena, concepts, or principles are connected.'"
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 specification (October 2025) keeps an end-of-year examination on printed paper. Not online digital in 2026.",
+      "Three compulsory questions, each with four parts (2024 and 2025 reports): in 2025, Q1 DC circuits with internal resistance and RC discharge, Q2 inductors in DC (LR) circuits and energy storage, Q3 AC circuits (reactance, iron core, RLC resonance, impedance). The booklet includes spare diagrams and redraw boxes for graphs and phasor diagrams.",
+      "Resource Booklet L3-PHYSR is supplied, with electrical formulae (Q = CV, C = ε₀ε_rA/d, series and parallel capacitor and resistor rules, V = IR, P = VI, transformer ratio, LC resonant frequency, reactance and impedance formulae and others) and constants (ε₀, electron charge).",
+      "Approved calculator, ruler and protractor. Show working; SI units; significant figures consistent with the data; unrounded values in 'show that' answers.",
+      "No time allowance is printed on the paper."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each part is credited as a, m or e evidence against the schedule, and the question's code comes from the combination of evidence.",
+      "2025 grid. N0: no relevant evidence. N1: 1a. N2: 2a. A3: 3a, 1m + 1a, or 1e. A4: 4a, 1m + 2a, or 1e + 1a. M5: 2m + 1a or 1m + 3a. M6: 3m, 2m + 2a, or 1e + 3a. E7: 2e + 1a or 1e + 2m. E8: 2e + 1m or 2e + 2a. The 2024 grid lists the same combinations, but the extracted mapping to codes was unclear.",
+      "Calculation parts give method marks: a correct method or correct intermediate values (time constant, reactances) can be credited even when the final answer is wrong (2025 Q2(d), Q3(d)).",
+      "Explanation parts at e need the full causal chain. In 2025 Q2(c), the spark needed the large air-gap resistance giving a small time constant, so a rapid change in current and flux induces a large emf. In Q3(c), resonance needed X_L = X_C, the reactances cancelling because their voltages are 180° out of phase, Z = R (minimum), and current at its maximum.",
+      "The three question codes are added to give a total out of 24. Cut scores: 2025 N 0–6, A 7–13, M 14–18, E 19–24; 2024 N 0–6, A 7–13, M 14–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: Caravan battery (EMF 12.6 V, r = 0.100 Ω): show the terminal voltage is 12.4 V at 2.07 A; explain the effect of rising internal resistance; a 90.0 F capacitor at 4.20 V discharging through 6.00 Ω, sketching I against t with the initial current and the current after one time constant, then explaining the shape; compare three capacitors in series and in parallel (total C, τ, initial current, rate of decay).",
+        "Q2: Inductor (0.600 H, 2.40 Ω, 12.6 V): induced EMF at switch-on; EMF 0.240 s later (one time constant); explain the spark when the switch opens; the capacitance that stores the same energy as the inductor at maximum current (about 0.096 F).",
+        "Q3: AC (0.600 H coil in series with 68.0 Ω, 9.00 V RMS): show X_L = 94.2 Ω at 25.0 Hz; explain the effect of an iron nail on the resistor's RMS voltage; with a 120 μF capacitor added, explain why the resistor voltage peaks at one frequency (resonance); calculate the RMS current at 16.0 Hz (X_L ≈ 60.3 Ω, X_C ≈ 82.9 Ω, Z ≈ 73.9 Ω, I ≈ 0.122 A)."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91526-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91526-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91523-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91523-report-2025.pdf"
+        },
+        {
+         "label": "Exemplar (Excellence)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91526-exp-2025-excellence.pdf"
+        },
+        {
+         "label": "Exemplar (Merit)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91526-exp-2025-merit.pdf"
+        },
+        {
+         "label": "Exemplar (Achievement)",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91526-exp-2025-achievement.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: DC circuits: define EMF; compare voltmeter readings with the switch open and closed; calculate current and terminal voltage (including a battery being charged); how the brightness of lamps A and B changes after switching on a circuit with a capacitor and resistors in parallel branches.",
+        "Q2: Induction: inductance of a coil; induced EMF from a change in flux (25-turn coil); why a magnet falling through a metal ring accelerates at less than g (Faraday and Lenz); current in an RL circuit after 0.6 s.",
+        "Q3: AC: peak voltage from RMS; reactance and phase angle, with a phasor diagram showing the supply voltage leading the current; the effect of removing the soft iron core on bulb brightness; why the current is maximum at resonance."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91526-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91526-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91523-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: calculated terminal voltage and recognised it falls as internal resistance rises; sketched current-time decay and calculated the maximum current and time constant; recognised how series and parallel change capacitance and τ; induced EMF from a rapidly falling flux; an iron core increases inductance; calculated X_L and X_C; identified resonance as X_L = X_C.",
+      "2025, Merit: explained how higher internal resistance lowers terminal voltage; accurate exponential graphs; analysed series and parallel variations; described back EMF from changing current and flux; calculated stored energy; explained the resonance conditions (X_L and X_C cancel, Z = R), though some forgot the inductor's internal resistance.",
+      "2025, Excellence: analysed capacitor discharge accurately; explained that series raises voltage but lowers C and τ, while parallel changes current and discharge behaviour; explained that a rapid current change gives a large back EMF and a small time constant; explained minimum impedance and maximum current at resonance; matched capacitor and inductor energy storage; found impedance and current using total resistance and reactance.",
+      "2025, Not Achieved: attempted only Q1(a)–(b); could not separate EMF from terminal voltage, or charging from discharging; confused capacitor and inductor functions; did not know inductor behaviour on opening a circuit, or how to identify resonant frequency.",
+      "2025, common errors: 'current follows the path of least resistance'; misunderstanding a capacitor in parallel circuits with the switch open or closed; using 'EMF' only for induction; V_peak calculated with the full 2V_RMS under the root (V_peak = √2 × V_RMS).",
+      "2024, Achievement: explained EMF and why voltmeter readings differ between open and closed circuits; simple Kirchhoff voltage law; a lamp in series with an uncharged capacitor glows initially; calculated self-inductance, EMF in one turn, LR time constant and inductive reactance; RMS to peak.",
+      "2024, Merit: applied Kirchhoff's law to complex circuits; compared lamp brightness for capacitor and resistor circuits; calculated EMF for a 25-turn coil; explained why the magnet slows near the ring; current after one time constant; phase difference (voltage leads current); current and impedance at resonance.",
+      "2024, Excellence: explained internal-resistance effects and terminal voltage when charging; explained lamp brightness in depth; used Faraday's and Lenz's laws for the falling magnet; current after two time constants; explained how inductance changes affect brightness; why the net reactance is zero at resonance and its effect on impedance and current.",
+      "2024, Not Achieved: confused battery EMF with induced EMF; little grasp of internal resistance; could not tell charging from discharging; confused inductors and capacitors; did not distinguish DC from AC; little understanding of Faraday's and Lenz's laws or resonance."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 10: 4, 3, 3; 2025)",
+       "text": "Correct terminal voltage; graph with the correct initial current and time constant; compared total capacitance, time constants and how the current varies; correct energy-equation method; a fully correct 'show that' for X_L; identified resonance and X_L = X_C; correct X_C and X_L values.",
+       "miss": "Commentary: current after one time constant calculated incorrectly; did not compare the size of the original current in each circuit; stated a large back EMF 'but has not explained why'; used an incorrect current in the energy step; did not state that X_L and X_C are 180° out of phase and cancel; used an incorrect impedance formula."
+      },
+      {
+       "grade": "Merit (total 16: 5, 6, 5; 2025)",
+       "text": "Explained why the terminal voltage falls; correct initial current, τ and current after one time constant; correct total capacitance for both circuits; explained a large induced voltage from a large change in current and flux in a short time; Q3(c) met 'all the requirements for excellence' (resonance and X_L = X_C).",
+       "miss": "Commentary: graph plotted from the wrong starting current; did not explain how the current varies over time; did not realise the given time WAS the time constant; did not discuss why the time is small; in Q3(b) did not explain why more flux reduces the current, or that the resistor voltage falls as the inductor voltage rises."
+      },
+      {
+       "grade": "Excellence (total 21: 7, 7, 7; 2025)",
+       "text": "Compared total capacitance, τ, current variation and original current for both circuits; calculated τ from the total resistance and the inductor EMF; explained the iron-core effect on impedance, current and resistor voltage; explained why X_L and X_C cancel at resonance, giving minimum impedance and maximum current; calculated Z from the total resistance and the reactance difference, then the RMS current.",
+       "miss": "Commentary gaps: did not explain WHY the discharge graph has its shape; Q2(c) did not mention the change in flux, or why the time is small and the voltage can exceed the supply; did not state that impedance equals resistance at resonance."
+      }
+     ],
+     "conditions": [
+      "End-of-year NZQA examination on printed paper (2026 specification). Spare diagrams and redraw boxes are provided in the booklet. Margins are cut off and not marked.",
+      "Resource Booklet L3-PHYSR (formulae and constants), an approved calculator, a ruler and a protractor. No notes.",
+      "'Show that' questions require unrounded values. Significant figures should be consistent with the data.",
+      "Literacy/numeracy co-requisite status was not checked. It does not affect derived-grade eligibility (2026 Rules, Schedule 2 cl. 3(3))."
+     ],
+     "components": [
+      "Question One: DC circuits: EMF and internal resistance, RC discharge, capacitors in series and parallel",
+      "Question Two: inductors in DC circuits: induced EMF, LR time constant, back EMF and energy storage",
+      "Question Three: AC circuits: reactance, effect of an iron core, RLC resonance and impedance"
+     ],
+     "focusTip": "Name the circuit and component values in each question (EMF, internal resistance, R, C, L, frequency, RMS supply) so the AI can check time constants, reactances, impedance and currents.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Shows awareness of how simple facets of the physics relate to the circuit, for example a correct single calculation (terminal voltage, τ = RC or L/R, X_L), a correct decay-curve sketch with the initial value, or a correct statement of what increases or decreases."
+       },
+       {
+        "type": "req",
+        "src": "EN4",
+        "t": "The physics used is within EN4 (resistors, capacitors and inductors in DC circuits, and AC circuits)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 reports",
+        "t": "Distinguishes EMF from terminal voltage, charging from discharging, and capacitor from inductor behaviour; identifies resonance as X_L = X_C."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Gives EXPLANATIONS for circuit behaviour (for example why the terminal voltage falls using lost volts, why back EMF arises from changing current and flux, or why current and impedance change at resonance), or completes multi-step calculations."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule",
+        "t": "Graphs with correct values plotted (initial current and after one τ); series and parallel comparisons that include the initial current and the rate of decay."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Merit exemplar",
+        "t": "Recognises when a given time equals the time constant and uses it."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2; 2025 specification",
+        "t": "CONNECTS two or more concepts or principles in the circuit, for example a small time constant giving a rapid flux change and a large induced EMF, or phase relationships making the reactances cancel so that Z = R and current is a maximum."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule and exemplars",
+        "t": "Fully correct multi-step answers using TOTAL resistance (including internal or coil resistance) and the reactance difference for impedance."
+       },
+       {
+        "type": "ind",
+        "src": "2025 exemplar commentary",
+        "t": "Explains WHY a graph has its shape (falling charge gives falling voltage and current), and states every link in the chain, including the flux change, why the time is short, and Z = R at resonance."
+       }
+      ]
+     },
+     "watch": [
+      "'Current follows the path of least resistance' reasoning in parallel circuits with capacitors.",
+      "Capacitor and inductor behaviour swapped (for example a capacitor described as opposing changes in current).",
+      "EMF confused with terminal voltage, or used only for induced EMF.",
+      "Peak voltage calculated with the full 2V_RMS under the square root; V_peak = √2 × V_RMS.",
+      "Impedance found by adding R and reactances arithmetically, or ignoring the coil's internal resistance.",
+      "Exponential curves drawn as straight lines, starting at the wrong value, or without the one-time-constant point.",
+      "Resonance named without the phase reasoning (voltages across L and C 180° out of phase), which caps the answer below Excellence."
+     ],
+     "aiLimits": "Calculations, circuit diagrams, exponential-decay and phasor sketches, and handwritten working are read from scans and may be misread (powers of ten, μ versus m, phase angles, curve shapes). The teacher must check every graph, phasor diagram and calculated value the AI credits or rejects, and confirm the paper was sat under exam conditions with only the resource booklet.",
+     "researchNotes": "Standard details from as91526 (2019 PDF, Version 2, published 17 November 2016). The EN2 definitions are quoted in fragments, and EN4 is given only as its topic headings. The 2025 grid is taken from a clear extraction. The 2024 grid's combinations were listed but their mapping to codes was unclear. The 2024 paper is summarised from the schedule and report. The 2025 Achievement exemplar's per-question codes were garbled, and the scores 4, 3, 3 come from the commentary. The time allowance was not confirmed. No 2026 paper exists yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Psychology": {
+   "slug": "psychology",
+   "discipline": "The 91876 exam is one task in parts (a) to (c) based on ONE case study the candidate chooses from the resource booklet. It is marked holistically with a single 0–8 score. Answers are judged on the step from explaining the issue in the case study and in psychological practice (A), to describing in detail how it is evident with published theories, concepts or studies (M), to a comprehensive critique of its effect on practice and evidence-based ways to address it (E). Analysis and evaluation of evidence count, not description, recounting the case study, or naming famous studies (Zimbardo, Asch, Milgram) without evaluation.",
+   "parallelHint": "a different case study showing a different significant issue from EN3 (for example socially sensitive research or ownership of knowledge instead of gender bias), or a different setting of psychological practice (clinical, organisational, research), supported by different published studies",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Psychology 91876 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91876-spc-2026.pdf"
+    },
+    {
+     "label": "2025 Assessment Specifications, Level 3 Psychology 91876 (published October 2024, for comparison)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2025/91876-spc-2025.pdf"
+    },
+    {
+     "label": "Achievement standard 91876 (Version 1)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91876.pdf"
+    },
+    {
+     "label": "NZQA 91876 standard page (papers, resource booklets, schedules, reports, exemplars)",
+     "url": "https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91876"
+    },
+    {
+     "label": "2025 Assessment Report 91876",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91876-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report 91876",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91876-report-2024.pdf"
+    },
+    {
+     "label": "2024 sample assessment resource booklet 91876",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91876-sxp-2024.pdf"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades overview",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes end-of-year external examinations. 91876 is an end-of-year online digital examination in 2026 (2026 Assessment Specifications), so it is within scope.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. 91876 is in none of these groups, and no NZQA notice excluding it was found.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats this.",
+    "For 91876 that means a resource booklet of THREE unseen case studies, each showing a different significant issue from EN3; the student chooses ONE and answers one multi-part question about it under supervision, without notes, drawing on published theories and studies from memory.",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, so a practice paper must include a part asking how the issue could be addressed (the Excellence evidence). It must be certain the work is the student's own, and a suitably qualified second reader should verify it. Modified previous papers may be used; the 2024 and 2025 NZQA case studies and exemplars are public, so unchanged reuse risks pre-learned answers.",
+    "Derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result (NZQA derived grades overview)."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91876",
+     "ref": "",
+     "credits": 3,
+     "version": "Version 1 (published 23 November 2017)",
+     "verified": "2026-10-25",
+     "title": "Analyse a significant issue in psychological practice",
+     "criteria": {
+      "achieved": "Analyse a significant issue in psychological practice.",
+      "merit": "Analyse, in depth, a significant issue in psychological practice.",
+      "excellence": "Comprehensively analyse a significant issue in psychological practice."
+     },
+     "notes": [
+      "EN2 (Achieved): Analyse involves a detailed discussion on a significant issue in psychological practice.",
+      "EN2 (Merit): Analyse, in-depth, involves critiquing how a significant issue is evident in psychological practice. The critique includes descriptions of, or references to, psychological theories, concepts and/or studies from published works.",
+      "EN2 (Excellence): Comprehensively analyse involves a detailed critique focusing on how a significant issue has an effect in psychological practice. The detailed critique discusses how the issue could be addressed with references to psychological theories, concepts and/or studies from published works.",
+      "EN3: A significant issue refers to concerns within psychology that are of an enduring or emerging nature and impact on psychological research practice and psychological discourse. Examples include gender bias (including androcentrism and alpha/beta bias), religious bias, cultural bias (including ethnocentrism and cultural relativism), socially sensitive research, ownership of knowledge, and use of children and animals in psychological research.",
+      "EN4: Psychological practice refers to the activities that are part of the scientific, educational and professional roles of those working in the field of psychology."
+     ],
+     "examFormat": [
+      "2026 change: the 2026 specification (October 2025) lists the exam as an online digital examination. The 2025 specification allowed online OR printed paper, and the 2024 and 2025 papers were handwritten booklets. No change to the task structure is stated.",
+      "A resource booklet (91876R) gives THREE case studies (A, B, C), each presenting one of the significant issues in EN3. The candidate selects ONE, identifies the issue it presents, and uses it in ALL parts of one multi-part question.",
+      "2025 paper: (a)(i) name the significant issue shown in the selected case study; (a)(ii) explain how the issue is demonstrated in the case study; (b) discuss how the issue has affected psychological practice, referring to the case study and psychological contexts learned, supported by theories and/or studies; (c) propose solutions to address the issue, at least one clearly linked to the case study, supported by theories, concepts and/or studies.",
+      "2024 paper: (a) how has a significant issue been demonstrated in your selected case study? (b) discuss how this issue has impacted psychological practice, linked to the case study; (c) in what ways could this issue be addressed? referring to published theories, concepts and/or studies.",
+      "There is a planning space (not marked) and no word guidance or time allowance stated. Answer space was pages 3–7 in 2024 and 3–11 in 2025, including extra space.",
+      "Case studies so far: 2025 — A animal models in attachment research (dogs, rats, rhesus monkeys), B cultural bias and data ownership in a cross-cultural learning study (Aroha, kapa haka, Kaupapa Māori), C gender stereotypes in workplace stress management ('fight or flight' vs 'tend and befriend'). 2024 — A gender bias in ADHD diagnosis, B cultural bias in a multinational motivation study, C an unapproved 1970s rat stress study. 2024 sample — Western frameworks and Māori clients, an all-male driving-risk study, sleep-deprived monkeys."
+     ],
+     "scoring": "whole",
+     "markingModel": [
+      "Marked HOLISTICALLY as one task: the schedule gives one score code for the whole response (exemplars show 'Question One: M5', total 05). Parts (a)–(c) are not scored separately.",
+      "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
+      "N0: no response or no relevant evidence. N1: includes some relevant material but does not address the question (very limited answer). N2: a limited explanation of an issue in psychological practice, which is insubstantial.",
+      "A3: an explanation of a significant issue in psychological practice using a selected case study; may use subject-specific terminology. A4: a CLEAR explanation using the case study; uses subject-specific terminology; describes, in some detail, how the issue is evident using theories, concepts or studies.",
+      "M5: a DETAILED explanation using the selected case study; describes, in detail, how the issue is evident using supporting theories, concepts or studies. M6: as M5, and discusses ways the issue could be addressed through the integration of supporting evidence.",
+      "E7: a COMPREHENSIVE explanation of the issue in psychological practice, discussing ways it could be addressed by integrating supporting research. E8: as E7, discussing a RANGE of ways the issue could be addressed, comprehensively integrating theories, concepts or studies.",
+      "The schedule's judgement statements restate EN2: Achieved = discussing the issue; Merit = critiquing how it is evident, with references to theories, concepts or studies; Excellence = a detailed critique of its effect on practice and how it could be addressed, with references to published works."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Resource booklet: Case Study A (Mata choosing animal participants for attachment research: rhesus monkeys, rats, dogs); Case Study B (Aroha in a cross-cultural learning study: Western memory task, kapa haka dismissed, denied the chance to check her interview data); Case Study C (Riley reviewing gendered workplace stress-management practices).",
+        "(a)(i) Name the significant issue in psychological practice shown in the selected case study. (a)(ii) Explain how this issue is demonstrated in the case study.",
+        "(b) Discuss how the issue has affected psychological practice, referring to the case study and the psychological context(s) learned, supported by evidence from theories and/or studies.",
+        "(c) Propose solutions to address the issue, at least one clearly linked to the case study, using evidence from relevant theories, concepts and/or studies."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91876-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91876-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91876-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91876-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Resource booklet: Case Study A (Sarah, ADHD dismissed by a psychologist who assumed male-typical symptoms); Case Study B (Dr Emily Jones's Western-focused motivation study across US, Japan, Brazil and India offices); Case Study C (1970s students' unapproved rat maze stress study with an electrified floor, generalised to humans).",
+        "(a) How has a significant issue in psychology been demonstrated in your selected case study?",
+        "(b) Discuss how this significant issue has impacted psychological practice, clearly linked to the case study and to areas of practice, theory and/or research studied.",
+        "(c) In what ways could this significant issue be addressed? Refer to relevant psychological theories, concepts and/or studies from published works."
+       ],
+       "cutScores": "N 0–2, A 3–4, M 5–6, E 7–8",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91876-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91876-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91876-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91876-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, general: successful responses addressed all parts and explained the issue in BOTH the selected case study and psychological practice. Description alone was limited; stronger responses analysed how the issue affected the VALIDITY of practice (how far animal findings generalise to humans; how gender or cultural bias affects outcomes for groups such as Indigenous communities or women).",
+      "2025, evidence: familiar studies (Zimbardo, Asch, Milgram) used without evaluation were limited — e.g. Zimbardo's (1971) all-male sample noted without its implications for validity and generalisability. Kohlberg (1958) worked better when evaluated alongside Gilligan's (1982) critique. The report suggests gender-diverse perspectives (Cameron and Stinson, 2019) and, for cultural bias, Kaupapa Māori research (Linda Tuhiwai Smith) and Mason Durie's Te Whare Tapa Whā.",
+      "2025, Achievement: explained how the issue was evident in the case study and in practice; defined and applied terms (validity, universalism, alpha bias, beta bias); descriptions of evidence were general or vague.",
+      "2025, Merit: detailed explanation with accurate terminology and insight; selected and analysed at least TWO pieces of evidence; sometimes counterarguments (e.g. Western vs Indigenous approaches to mental health); solutions attempted but with limited depth.",
+      "2025, Excellence: comprehensive, well-integrated analysis with consistent, accurate terminology; at least two pieces of evidence discussed in detail; at least TWO distinct, realistic, specific solutions explicitly linked to concepts, research or theory, at least one linked to the case study; sometimes considered limitations or consequences of the solutions.",
+      "2025, Not Achieved: did not clearly or accurately identify the issue in the case study; limited or incorrect terminology; little or no reference to the case study, or quoting it without analysis; little or no reference to how the issue appears in psychological practice.",
+      "2024, general: show the issue in DIFFERENT ways (e.g. both alpha and beta bias using Freud and Kohlberg) rather than studies that show it the same way (Asch and Zimbardo's American male samples). For animal research, terms such as 'speciesism' and going beyond harm (consent, application to humans, cost-benefit analysis) showed depth.",
+      "2024, Achievement: identified and explained the issue linked to the case study, with general evidence and defined terms. Merit: in-depth explanation with specific case links, at least two carefully selected pieces of evidence described in detail, possible counterarguments (Horney critiquing Freud), strategies attempted but lacking detail. Excellence: comprehensive analysis with case links throughout, broader insights (e.g. societal contexts such as racism), at least two distinct, specific, realistic, evidence-based strategies with how each would work, and their limitations or consequences.",
+      "2024, Not Achieved: did not identify the issue; no reference to the case study, or only the case study with no link to practice; repeated case information; wrote about broad societal issues (racism, sexism) instead of the issue in psychological practice."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (A3, 2025)",
+       "text": "Case study C: brief descriptions of gender bias, alpha bias, beta bias and androcentrism; identified several examples of gender bias in psychological practice with some explanation.",
+       "miss": "Needed further elaboration on how gender bias is evident in those examples."
+      },
+      {
+       "grade": "Achievement (A4, 2024)",
+       "text": "Case study B: a clear explanation of cultural bias in practice, integrating terms such as imposed etic and cultural relativism; described Ainsworth's study and gave a brief overview of strategies.",
+       "miss": "The evidence and strategies lacked the depth and detail required for Merit."
+      },
+      {
+       "grade": "Merit (M5, 2025)",
+       "text": "Case study B: explained in detail how cultural bias and ethnocentrism are demonstrated in the case study and in practice, and described in some detail how cultural bias is evident in examples of psychological research.",
+       "miss": "Proposed solutions lacked sufficient detail for Excellence."
+      },
+      {
+       "grade": "Merit (M6, 2024)",
+       "text": "Case study A: a detailed explanation of gender bias in practice, describing in detail how it is evident across a range of studies, with strategies to address it linked to the case study.",
+       "miss": "Strategies lacked sufficient detail and psychological evidence for Excellence."
+      },
+      {
+       "grade": "Excellence (E7, 2024)",
+       "text": "Case study B: a comprehensive explanation of cultural bias using specific case details throughout; detailed descriptions of Yerkes and Ainsworth explaining how they show cultural bias. Minor errors (e.g. 'Donner, 1972') did not detract.",
+       "miss": "Strategies could be developed with greater specificity and detail (the step to E8)."
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Case study B: explained the issue in detail, with relevant evidence integrated and analysed throughout, and two solutions supported with evidence.",
+       "miss": "The first solution needed greater specificity and clearer links to evidence."
+      }
+     ],
+     "conditions": [
+      "End-of-year external exam in online digital format (2026). Planning space is not marked.",
+      "The resource booklet must be unseen; the student chooses ONE of three case studies on the day and uses it in all parts.",
+      "Supervised, no notes. Published theories and studies (names, dates, findings) must be recalled from memory. Minor citation errors are tolerated if understanding is clear (2024 E7 exemplar).",
+      "Literacy status for 2026 (UE literacy list) was not confirmed. It is not a co-requisite standard, so it is not excluded from derived grades on that ground."
+     ],
+     "components": [
+      "(a)(i) Naming the significant issue shown in the selected case study",
+      "(a)(ii) How the issue is demonstrated in the case study",
+      "(b) How the issue has affected psychological practice, with theories and/or studies",
+      "(c) Solutions to address the issue, at least one linked to the case study, with supporting evidence"
+     ],
+     "focusTip": "Say which case study the student chose and the issue it was written to show (attach the practice booklet), so the AI can check the issue is identified correctly and the evidence fits it.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "EN2; schedule A3",
+        "t": "DISCUSSES / explains a significant issue in psychological practice (EN3) using the selected case study. A limited, insubstantial explanation is N2."
+       },
+       {
+        "type": "ind",
+        "src": "2025 and 2026 specifications",
+        "t": "Correctly identifies the issue the selected case study presents and uses that case study to support the analysis. Misidentifying the issue, or ignoring the case study, was the main Not Achieved pattern."
+       },
+       {
+        "type": "req",
+        "src": "EN4; schedule",
+        "t": "Links the issue to psychological PRACTICE (research, clinical, educational or organisational work), not only to the case study or to broad societal issues such as racism or sexism (2024 report)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule A4; 2024 and 2025 Assessment Reports",
+        "t": "Uses subject-specific terminology accurately (e.g. androcentrism, alpha/beta bias, ethnocentrism, imposed etic, cultural relativism, speciesism) and refers to at least some evidence."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "All parts attempted; case study details are analysed, not just repeated."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "CRITIQUES how the issue is evident in psychological practice, beyond explaining that it is."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule M5",
+        "t": "The critique includes descriptions of, or references to, psychological theories, concepts and/or studies from PUBLISHED works, described in detail to show how the issue is evident."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; M5/M6 exemplars",
+        "t": "At least two carefully selected pieces of evidence that show the issue in different ways, evaluated (methodology, sample, critiques such as Gilligan on Kohlberg or Horney on Freud), sometimes with counterarguments."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "A DETAILED critique focusing on how the issue has an EFFECT in psychological practice (e.g. on validity, generalisability, diagnosis, or outcomes for particular groups)."
+       },
+       {
+        "type": "req",
+        "src": "EN2; schedule E7/E8",
+        "t": "Discusses how the issue could be ADDRESSED, with references to published theories, concepts and/or studies. E8 needs a RANGE of ways, comprehensively integrated."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports; E7 exemplars",
+        "t": "At least two distinct, specific, realistic solutions, each explicitly linked to evidence and at least one to the case study, with how each would work and its limitations or consequences."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Contemporary or localised perspectives (Kaupapa Māori research, Te Whare Tapa Whā, gender-diverse research) integrated into the analysis."
+       }
+      ]
+     },
+     "watch": [
+      "Wrong or vague issue named for the case study (e.g. 'racism' rather than cultural bias or ethnocentrism in practice).",
+      "Retelling the case study, or naming Zimbardo, Asch or Milgram without evaluating what the issue does to validity or generalisability.",
+      "Evidence that all shows the issue the same way (several all-male American samples). This limits depth.",
+      "Generic solutions ('use more diverse samples') with no evidence, no case-study link and no detail. This held 2024 and 2025 Merit and E7 scripts back.",
+      "Analysis that stays in the case study and never reaches psychological practice, or the reverse.",
+      "Check the accuracy of cited studies, dates and findings. NZQA tolerates minor slips, but wrong findings undermine the analysis.",
+      "Practice papers that reuse the published 2024 or 2025 case studies; students may have rehearsed answers from the public exemplars."
+     ],
+     "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI cannot see the practice case studies unless they are supplied, and its knowledge of published studies may be imperfect. The teacher must check the case study used and the accuracy of cited theories, studies and dates.",
+     "researchNotes": "Standard text from as91876 (2019 folder, Version 1, published 23 November 2017), quoted in fragments; EN2–EN4 are close to verbatim. The subject reference number (3.x) was not found, so ref is left empty. 2026 and 2025 specifications read via fetch; neither gives a time allowance. The schedule's N1–E8 cells were read from a flattened PDF table via WebFetch (direct download blocked), so the A4/M5/M6/E7 wording and placement are a best reading, not guaranteed verbatim; in particular, M6's mention of 'ways the issue could be addressed' should be checked against the PDF. Schedule sample evidence per case study was not extracted. The 2024 sample assessment was a resource booklet only; the question paper was not found, and why it was released (possibly a format change from 2023) was not established. 2021–2023 papers were not used. No 2026 paper yet.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Statistics": {
+   "slug": "mathematics-and-statistics",
+   "discipline": "Each Level 3 Statistics paper has three questions. Each question is marked on its own from N0 to E8 by counting the grade symbols it earns, and the three question scores are added to give a total out of 24. A correct calculation alone earns Achievement-level evidence. Merit and Excellence need the statistics tied to the context: inference statements naming the population and variable, conditions and assumptions explained for THIS situation, claims judged with numerical evidence. Generic, memorised answers and answers with no numerical support score low.",
+   "parallelHint": "a different real-life report, survey, experiment or chance situation (a different poll, product, sport or health context) with different numbers, so students cannot reuse a memorised answer about a published NZQA context",
+   "privacyNote": "",
+   "sources": [
+    {
+     "label": "2026 Assessment Specifications, Level 3 Statistics 91584, 91585, 91586 (published October 2025)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91584-spc-2026.pdf"
+    },
+    {
+     "label": "AS91584 Version 2",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91584.pdf"
+    },
+    {
+     "label": "AS91585 Version 2",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91585.pdf"
+    },
+    {
+     "label": "AS91586 Version 2",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91586.pdf"
+    },
+    {
+     "label": "2025 Assessment Report, Level 3 Statistics (one report covers 91584, 91585 and 91586)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91584-report-2025.pdf"
+    },
+    {
+     "label": "2024 Assessment Report, Level 3 Statistics (covers all three standards)",
+     "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91584-report-2024.pdf"
+    },
+    {
+     "label": "NZQA past exams and exemplars: Mathematics and Statistics",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/mathematics-and-statistics/"
+    },
+    {
+     "label": "Assessment and Examination for NCEA and NZ Scholarship Rules 2026 (Schedule 2: Derived Grades)",
+     "url": "https://www2.nzqa.govt.nz/assets/About-us/Our-rules-fees-and-policies/NZQA-Rules/2026/Assessment-and-Examination-for-NCEA-and-New-Zealand-Scholarship-Rules-2026.pdf"
+    },
+    {
+     "label": "NZQA derived grades: quality assurance processes",
+     "url": "https://www2.nzqa.govt.nz/ncea/ncea-for-teachers-and-schools/managing-national-assessment-in-schools/derived-grades/process/qa/"
+    },
+    {
+     "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
+     "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    },
+    {
+     "label": "NZQA cut scores",
+     "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "derivedGradeNotes": [
+    "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which includes external examinations. 91584, 91585 and 91586 are end-of-year examinations on printed paper in 2026 (2026 Assessment Specifications), so they are within scope.",
+    "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship (including Scholarship Statistics), standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards, and school-marked portfolio work verified by NZQA. None of 91584, 91585 or 91586 falls into these groups.",
+    "2026 Rules, Schedule 2 cl. 4(1) and 4(3): grades must come from quality-assured, pre-existing, valid, authentic, standard-specific evidence. That evidence must be a practice assessment matching the format and conditions of the external assessment, and grades must be submitted before the November examinations. EmaiLink August 2026 repeats that practice exams for derived grades must match the external format and conditions and be quality assured.",
+    "For Statistics that means: a printed paper of three questions per standard, each marked N0–E8 and totalled out of 24; the Formulae and Tables Booklet available; an approved (preferably graphing) calculator; supervised, closed-book conditions. For 91584 it also means a resource booklet of reports that students have NOT studied in advance, as in the real exam (a resource booklet and a question-and-answer booklet are provided).",
+    "NZQA derived-grade QA page: the evidence must cover ALL criteria of the standard, it must be certain the work is the student's own, and a suitably qualified second reader should verify it (panel marking or a colleague checking boundary scripts). Practice exams may be based on modified papers from previous years. Published NZQA contexts and schedules are public, so unchanged papers carry an authenticity risk.",
+    "2026 Rules change summary: derived grades are approved only after the exam cycle is complete. The student gets the better of the derived grade and the exam result. Not Achieved is a valid derived grade, and NZQA records a school-reported N as V."
+   ],
+   "excluded": [],
+   "standards": [
+    {
+     "code": "91584",
+     "ref": "3.12",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016); listed as Version 2 in the 2026 Assessment Specifications",
+     "verified": "2026-10-25",
+     "title": "Evaluate statistically based reports",
+     "criteria": {
+      "achieved": "Evaluate statistically based reports.",
+      "merit": "Evaluate statistically based reports, with justification.",
+      "excellence": "Evaluate statistically based reports, with statistical insight."
+     },
+     "notes": [
+      "EN2: Evaluate (Achievement) involves identifying and commenting on key features of reports that relate to the report's conclusions.",
+      "EN2: With justification (Merit) involves supporting those comments by citing the statistical evidence and processes described in the report, as they relate to its conclusions.",
+      "EN2: With statistical insight (Excellence) involves integrating statistical and contextual information to judge the quality of a report's conclusions.",
+      "EN3: Evaluating statistically based reports requires familiarity with: the statistical enquiry cycle; principles of experimental design; surveys and polls, including potential sources of bias; interpreting statistical inferences; interpreting a wide variety of statistical tables and graphs; analysing a wide variety of statistical situations; critiquing causal-relationship claims; interpreting margins of error.",
+      "2026 specification: reports will be set in real-life contexts; candidates are provided with a resource booklet and a question-and-answer booklet; candidates should recall and use the 'rules of thumb' based on 1/√n for margin of error."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 Assessment Specifications (published October 2025) list the same Version 2 standard, printed-paper exam, resource booklet and rule-of-thumb expectations.",
+      "Printed paper, end-of-year examination, with a separate RESOURCE BOOKLET of reports (articles, survey and experiment summaries, graphs) and a question-and-answer booklet.",
+      "Three questions, each based on a report in the resource booklet. 2025: an AI-use survey (Americans and New Zealanders), an experiment on rating paintings labelled human- or AI-created, a house-plant retailer survey. 2024: an organ-location survey funded by a private clinic, a socks-on-footwear icy-slope experiment, a YouGov 'land a plane' poll plus a video experiment.",
+      "Candidates must recall the 1/√n rules of thumb for margin of error (including when they do not apply, outside 30–70%) and build confidence intervals, including for a difference between groups.",
+      "Formulae and Tables Booklet provided; approved calculator (preferably graphing) required.",
+      "Time allowance not stated in the specification (not confirmed)."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is scored N0–E8 on its own; the three scores are totalled (maximum 24).",
+      "Grade symbols in the 91584 schedule are DIFFERENT from the other maths standards: the headings read 'Achievement (c)', 'Achievement with Merit (j)', 'Achievement with Excellence (i)'. They match the criteria (j = justification, i = statistical insight; c = the Achievement-level comment/evaluation, my reading). The schedules do not use u/r/t, 'e' or 'n' for this standard.",
+      "Judgement grid, raw text in the 2024 and 2025 schedules: N0 'No response; no relevant evidence.' N1 'Attempts at least one part of the question.' then '1 of c | 2 of c OR 1 of j | 3 of c | 1 of j AND 1 of c | 2 of j | 1 of i | 2 of i' across N2–E8.",
+      "Most likely reading: N2 = 1c; A3 = 2c OR 1j; A4 = 3c; M5 = 1j AND 1c; M6 = 2j; E7 = 1i; E8 = 2i. The extracted text does not make the M5 and M6 cells certain (the 'AND 1 of c' could belong to M6), so check the PDF grid before relying on the M5/M6 boundary.",
+      "Each part's evidence is graded c, j or i: e.g. a correct confidence interval is c; the interval used with a contextual inference statement (population AND variable) is j; a full evaluation linking design or bias to the report's conclusion in context is i. Minor calculation errors are allowed 'if working evident, and answer is reasonable'.",
+      "Overlap methods for comparing confidence intervals are NOT accepted ('The overlap method is not accepted in this standard', 2024 Merit exemplar).",
+      "Cut scores (totals out of 24). 2025: N 0–7, A 8–14, M 15–19, E 20–24. 2024: N 0–7, A 8–14, M 15–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: AI-use survey of Americans and New Zealanders. (a)(i) margin of error by rule of thumb (c); (a)(ii) why the MOE is needed, in context (c/j); (b) 95% CI 44% ± 2.2% and an inference statement about the proportion of all Americans who are polite to AI (c, j combined); (c) CI for a difference between groups using the average MOE or 1.5 × average MOE, inference and response to a claim (c, j); (d) online-survey data-quality issues (speeders, open ends, bots, duplicates): why relevant and how results may be affected (c, i).",
+        "Q2: experiment on rating paintings labelled 'human-created' or 'AI-created'. (a)(i) why it is an experiment (c); (a)(ii) explanatory and response variables (c, j); (b)(i) why labels were randomly allocated, linked to balancing other effects (c, j); (b)(ii) why paintings were shown in random order (c/j); (c) an issue with extending the results to the claim, using features of the study (c, j).",
+        "Q3: house-plant retailer survey. (a) need for a random sample (c); (b) mismatch between target population and sampling frame (c); (c) a percentage outside 30–70% so the rule of thumb overestimates the MOE (c, j); (d) MOE 5.7% with method, CI, inference and response to a claim (c, j); (e) problem with surveying only purchasers and its effect (c, j)."
+       ],
+       "cutScores": "N 0–7, A 8–14, M 15–19, E 20–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91584-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91584-ass-2025.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91584-res-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91584-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: organ-location survey (UK adults, n = 2000, funded by a private clinic). (a) suggest a method to test knowledge of body-part locations (c); (b) CI for the 55% who located the rectum, interpreted (c); (c) funding bias: identify, explain the benefit to the funder and the effect (c, j, i); (d) CI for a difference between two proportions and evaluation of a claim (c, j); (e) target population, sampling frame, representativeness and a non-sampling error (c, j, i).",
+        "Q2: experiment on socks over footwear on an icy slope. (a) justify self-rated slipperiness as the outcome (c, j); (b) explanatory and response variables (c); (c)(i) why blinding was not possible (c); (c)(ii) measures that reduced the impact of no blinding (c, j); (d) confounding variables and how they affect the response (c, j).",
+        "Q3: YouGov poll on confidence in landing a plane, plus a Waikato video experiment. (a) how the 50% headline was reached (c); (b) a percentage outside 30–70% and the rule of thumb overestimating the MOE (c, j); (c) study design, inference type and assumptions for each study (c, j, i); (d) features of graphs with numerical evidence (c, j); (e) order effects and randomised question order (c)."
+       ],
+       "cutScores": "N 0–7, A 8–14, M 15–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91584-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91584-ass-2024.pdf"
+        },
+        {
+         "label": "Resource booklet",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91584-res-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91584-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: calculated margins of error and confidence intervals but often left out the population, variable or a clear claim; identified confounding, incentives or response bias with brief explanations of the effect; used terms like 'placebo' or 'fair' in isolation.",
+      "2025, Merit: calculated intervals correctly and EITHER interpreted them OR justified a claim, rarely both; explained random allocation and order effects, often descriptively; named advantages and disadvantages of survey methods and sampling-frame mismatches.",
+      "2025, Excellence: wrote full, formal inference statements and linked claims, naming the population and variable; explained why AND how design choices (random allocation, random order) affected the response variable; distinguished order effects (fatigue, learning, loss of attention); used precise language and explained when the MOE could be used for an approximate 95% interval.",
+      "2025, Not Achieved: described the methodology without answering the question, wrote too little, used an incorrect interval method or MOE, and attacked a study on sample size alone instead of representativeness or scope of inference.",
+      "2025, advice: avoid generic, memorised answers; a causal claim can be inferred from an experiment, not an observational study; say bias is 'reduced', not 'eliminated'; the overlap method is not acceptable; underline key words; connect every point to the report's context.",
+      "2024, Achievement: referred to statistical evidence with some detail, calculated a CI, described a confounding variable and blinding in context, identified issues with extending experimental results. Merit: interpreted OR justified a CI, explained how random allocation balances confounding variables, described post-weighting. Excellence: explained regional stratification with reasoning, calculated and interpreted a comparison CI in context with correct language, explained how blinding affects the response variable.",
+      "2024, Not Achieved: did not refer to the statistical nature of the reports, used the wrong MOE for a comparison CI, misused statistical terms, focused on sample size, began with 'eliminating bias'. Interpret intervals in context (e.g. 'I am confident that the proportion ...') and state the claim separately."
+     ],
+     "exemplars": [
+      {
+       "grade": "Merit (total 16, 2024)",
+       "text": "Q2 E7: blinding correctly judged impossible with a valid reason, two valid measures, correct variables, two confounders described. Q1 A4: sensible method, correct CI, funding issue identified. Q3 M5: explained the 50%, applied the rule-of-thumb caveat, identified the study design.",
+       "miss": "Q1: CI 'not properly interpreted'; funding bias not explained in detail; (d) used overlap ('The overlap method is not accepted in this standard'); (e) no response. Q2: the second confounder 'does not discuss HOW the confounding variable may interact with the response variable(s)'. Q3: did not identify the type of inference or assumptions; comparisons needed 'clear numerical evidence from Figure 1, not from the text statements'; order effect not linked to the study."
+      }
+     ],
+     "conditions": [
+      "End-of-year examination on printed paper with a resource booklet and a question-and-answer booklet (2026 specification).",
+      "The reports are unseen until the exam. A practice paper for derived grades should use reports the students have not studied.",
+      "Formulae and Tables Booklet provided; approved calculator required. Rules of thumb (1/√n) must be recalled.",
+      "Closed book, supervised; three questions marked N0–E8 and totalled out of 24."
+     ],
+     "components": [
+      "Question One: survey report — margin of error, confidence intervals, comparing groups, data-quality issues (2025)",
+      "Question Two: experiment report — design, variables, random allocation and order, extending results (2025)",
+      "Question Three: survey report — sampling, frame vs population, rule-of-thumb limits, CI and claim, question design (2025)"
+     ],
+     "focusTip": "Name the reports used in the practice resource booklet and confirm students had not seen them; give the cut scores of the paper the practice exam is modelled on.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "EVALUATES: identifies and comments on key features of the report that relate to its conclusions (design, sampling, bias, margin of error)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "At least 2 pieces of c-level evidence (or 1 j) in a question for A3, 3c for A4."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Comments refer to the actual report, not generic textbook points; MOE and CI calculations are correct."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "WITH JUSTIFICATION: comments are supported by citing the statistical evidence and processes in the report as they relate to its conclusions."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "j-level evidence in the question (M5 and M6 per the grid; check the M5 cell in the PDF)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "A confidence interval is both interpreted in context (population AND variable) and used to justify or reject the claim."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Explains how random allocation or random order balances other variables, rather than just naming it."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "WITH STATISTICAL INSIGHT: integrates statistical and contextual information to judge the quality of the report's conclusions."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1 i-level piece in a question for E7, 2 for E8."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Explains why AND how a design feature or bias would change the response variable or the conclusion, using precise language (reduce, not eliminate)."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Names the study type and the scope of inference (causal only from experiments; sample-to-population from random samples)."
+       }
+      ]
+     },
+     "watch": [
+      "Overlap of two confidence intervals used to compare groups: not accepted.",
+      "Wrong margin of error for a difference (the schedule expects the average MOE or 1.5 × average MOE for independent groups) and the rule of thumb used outside 30–70% without comment.",
+      "Inference statements missing the population or the variable, or the claim not stated separately.",
+      "Generic answers ('sample too small', 'bias') not tied to the report.",
+      "'Eliminates bias' instead of 'reduces'.",
+      "Causal claims accepted from observational studies.",
+      "Practice papers using a report students have already studied in class: does not match the unseen resource booklet."
+     ],
+     "aiLimits": "Handwritten working from scans may be misread: percentages, ± signs, square roots in 1/√n, interval brackets, and short phrases squeezed into margins. The AI cannot see the resource booklet unless it is supplied. The teacher must confirm the booklet content, the numbers the student quoted from it, and the symbols and figures the AI read.",
+     "researchNotes": "Standard text from NZQA as91584 (2019 folder, Version 2, published 17 November 2016), paraphrased with short quotes. The grade symbols c/j/i are as they appear in the extracted schedule text; I could not view the PDF itself, so I could not confirm whether they are printed letters or glyphs in a symbol font. The M5/M6 cells of the judgement grid could not be separated reliably from the extracted text (raw string recorded in markingModel). Resource booklet and exam paper URLs follow NZQA's naming pattern and were not opened. Time allowance not confirmed. Only one exemplar (2024 Merit) was read; it labels Q3 'A5', which I take to be M5 since the total is 16.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91585",
+     "ref": "3.13",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016); listed as Version 2 in the 2026 Assessment Specifications",
+     "verified": "2026-10-25",
+     "title": "Apply probability concepts in solving problems",
+     "criteria": {
+      "achieved": "Apply probability concepts in solving problems.",
+      "merit": "Apply probability concepts, using relational thinking, in solving problems.",
+      "excellence": "Apply probability concepts, using extended abstract thinking, in solving problems."
+     },
+     "notes": [
+      "EN2: Apply probability concepts in solving problems involves selecting and using methods, demonstrating knowledge of probability concepts and terms, and communicating using appropriate representations.",
+      "EN2: Relational thinking (Merit) involves one or more of: selecting and carrying out a logical sequence of steps; connecting different concepts or representations; demonstrating understanding of concepts. It also involves relating findings to a context, or communicating thinking using appropriate statements.",
+      "EN2: Extended abstract thinking (Excellence) involves one or more of: devising a strategy to investigate or solve a problem; identifying relevant concepts in context; developing a chain of logical reasoning; making a generalisation. Where appropriate, it also involves using contextual knowledge to reflect on the answer.",
+      "EN3: Problems are situations that provide opportunities to apply knowledge or understanding of mathematical and statistical concepts and methods, set in real-life or statistical contexts.",
+      "EN4: Methods include a selection from: true probability versus model estimates versus experimental estimates; randomness; independence; mutually exclusive events; conditional probabilities; probability distribution tables and graphs; two-way tables; probability trees; Venn diagrams.",
+      "2026 specification: candidates should clearly show the method they have used to calculate probabilities and state assumptions made."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 Assessment Specifications (published October 2025) list the same Version 2 standard and printed-paper exam.",
+      "Printed paper, end-of-year examination. Three questions in real-life contexts, each with several parts.",
+      "2025 contexts: a student sports survey (independence, injuries, binomial), estimates and concussion data, ultimate frisbee participation and a squad-selection model. 2024 contexts: AI-detection and cheating, candidate shortlisting and NCEA attainment, a dice game and a possibly biased die.",
+      "Verbs such as 'comment', 'interpret' and 'justify' require a calculation and a statement linked back to the question (2025 report).",
+      "Formulae and Tables Booklet provided; approved calculator (preferably graphing) required.",
+      "Time allowance not stated in the specification (not confirmed)."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is scored N0–E8 on its own; the three scores are totalled (maximum 24).",
+      "Grade symbols: u = Achievement evidence, r = Merit evidence, t = Excellence evidence (schedule headings 'Achievement (u)', 'Achievement with Merit (r)', 'Achievement with Excellence (t)'). No 'e' or 'n' evidence symbol is used.",
+      "Judgement grid (2024 and 2025): N0 'No response; no relevant evidence.' N1 'Attempts at least one part of the question.' N2 = 1 of u. A3 = 2 of u. A4 = 3 of u. M5 = 1 of r. M6 = 2 of r. E7 = 1 of t. E8 = 2 of t.",
+      "Unlike Calculus, a question can contain several t opportunities (e.g. 2025 Q1 had t in (c), (d)(ii) and (d)(iii)), so E8 needs TWO separate t-level pieces, not a refined version of one.",
+      "A part usually has a ladder: one correct probability = u; correct comparison or conditional probability with a conclusion = r; a full contextual explanation or justified judgement of the claim = t.",
+      "Cut scores (totals out of 24). 2025: N 0–6, A 7–13, M 14–18, E 19–24. 2024: N 0–6, A 7–12, M 13–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: student sports survey. (a) Venn diagram or probability (u); (b) requested probabilities (u); (c) are playing badminton and hockey independent? (one probability u; compare joint with product r; clear contextual description t); (d)(i) P(injury) and P(artificial turf | injury) (u, r); (d)(ii) limits on generalising the data (one issue u; impact r; two issues t); (d)(iii) binomial P(X = 1) = 0.1402 with an assumption (u, r, t with contextual assumption).",
+        "Q2: estimates and concussion data. (a) probability with explanation that the count is an estimate (r); (b) students play both netball and basketball, P(N ∩ B) > 0 (u, r in context); (c)(i) union and conditional probability vs a rugby coach's claim (u, r, t); (c)(ii) probability of no concussion (u); (c)(iii) P(concussion | positive test) compared with the claim (r/t); (d) three methods of estimating a probability; census value most accurate (u, r, t).",
+        "Q3: ultimate frisbee participation and a squad-selection model. (a)(i) highest-participation year with probabilities compared (u); (a)(ii) why the data is not representative, reasons for the increase (u, r, t); (b)(i) P(X ≥ 4) = 0.45 (u); (b)(ii) claim not supported because 1.22 < 2 (r); (c)(i) observer's selections and the below-standard rate vs the coach's goal (u, r, t); (c)(ii) the observer does not meet the 90% goal (t)."
+       ],
+       "cutScores": "N 0–6, A 7–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91585-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91585-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91585-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: AI-detection and cheating (120 pieces of work). (a)(i) number flagged as AI-generated (u); (a)(ii) P(human-written | flagged) and whether teachers should worry (u, r); (b)(i) are cheating and finishing in under 25% of the time independent? (u, r, t); (b)(ii) P(cheats and finishes early) (u); (b)(iii) reasons to treat the cheating estimates cautiously (u, r, t for two reasons clearly explained).",
+        "Q2: shortlisting and NCEA attainment. (a)(i) proportion shortlisted (u); (a)(ii) P(exactly one of three skills) via a Venn diagram (u, r); (a)(iii) conditional probabilities and a claim about applicants (u, r, t); (b)(i) 2012 vs 2022 Level 2 proportions for 18-year-olds (u, r); (b)(ii) change in post-school attainment (u, r, t).",
+        "Q3: dice game and a possibly biased die. (a)(i) winning one game and at least once in three (u, r); (a)(ii) losing before the third roll (u, r); (b)(i) compare P(3 or less) with P(4 or more) from data (u); (b)(ii) use a simulation to judge bias, accounting for sampling variation and sample size (u, r, t); (b)(iii) effect of bias on rolling a total of 2 (t)."
+       ],
+       "cutScores": "N 0–6, A 7–12, M 13–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91585-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91585-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91584-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: solved one-step problems or partly solved complex ones, chose a suitable probability tool, used graphs and found proportions from data; gave model, experimental and true probabilities but often did not judge which was most reliable.",
+      "2025, Merit: used accurate tests for independence and mutual exclusivity with correct notation, completed Venn diagrams, used conditional probabilities and trees, and justified claims with calculations.",
+      "2025, Excellence: used extended abstract thinking to validate or refute claims, compared true, experimental and model estimates to choose the best for prediction, explained independence in clear context, calculated and explained relative risk, distinguished 'times as likely' from 'times more likely'.",
+      "2025, Not Achieved: did not use tables or diagrams, could not complete a Venn diagram or a distribution table, gave probabilities outside 0–1, misread scientific notation, mixed decimal and percentage notation, and gave answers without numerical support.",
+      "2025, observations: candidates who attempted all three questions scored higher; many confused the tests for mutually exclusive and independent events, and explanations of mutual exclusivity should include the probability of the intersection.",
+      "2024, Achievement: chose and applied suitable tools, tested independence, explained why experimental probabilities differ from theoretical. Merit: selected an appropriate independence test, completed a Venn diagram, listed a two-dice sample space, justified claims with calculations. Excellence: calculated and explained relative risk in context, identified evidence of a biased die and analysed its effect, justified why data-sourced probabilities are not valid.",
+      "2024, Not Achieved: no table or diagram to organise information, probabilities outside 0–1, no numerical evidence, decimal multiplication errors. Explaining simulations with true, theoretical and experimental probability was generally weak."
+     ],
+     "exemplars": [
+      {
+       "grade": "Achievement (total 12, 2024)",
+       "text": "Q1 M5: partial proof of non-independence, correctly calculating 0.01 × 0.2 = 0.002. Q2 M5: compared the 2012 and 2022 proportions and concluded the claim could be supported. Q3 N2: calculated P(3 or less), compared it with P(4 or more) and made a correct conclusion.",
+       "miss": "Q1 compared the product with 0.8, 'which is the conditional probability rather than the intersection'. Q2 could not correctly answer the three parts of 2(a). The commentary does not explain why Q3 stayed at N2. 12 was the top of the 2024 Achievement band."
+      }
+     ],
+     "conditions": [
+      "End-of-year examination on printed paper (2026 specification).",
+      "Formulae and Tables Booklet provided; approved calculator required.",
+      "Candidates should show the method used to calculate probabilities and state assumptions (2026 specification).",
+      "Closed book, supervised; three questions marked N0–E8 and totalled out of 24."
+     ],
+     "components": [
+      "Question One: student sports survey — Venn diagram, independence test, conditional probability, generalising, binomial (2025)",
+      "Question Two: estimates and concussion data — overlap of events, conditional probability vs claims, comparing methods (2025)",
+      "Question Three: frisbee participation and a selection model — representativeness, model probabilities, judging a goal (2025)"
+     ],
+     "focusTip": "Name the contexts in the practice paper and the cut scores used; note which parts ask students to 'comment', 'interpret' or 'justify', since those carry the r and t evidence.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2 + EN4",
+        "t": "Selects and uses a suitable probability method from EN4 (two-way table, tree, Venn diagram, conditional probability) and calculates correctly."
+       },
+       {
+        "type": "ind",
+        "src": "2026 specification",
+        "t": "Shows the method used to calculate probabilities."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "2 of u in a question for A3, 3 of u for A4."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Probabilities stay between 0 and 1, and decimal and percentage notation are not mixed."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses RELATIONAL THINKING: a logical sequence of steps, connecting concepts or representations, demonstrating understanding of concepts."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Relates findings to the context or communicates with appropriate statements."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1 of r for M5, 2 of r for M6."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Uses the correct test for independence (P(A ∩ B) vs P(A) × P(B)) or mutual exclusivity (P(A ∩ B) = 0) with correct notation, and justifies claims with the numbers."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses EXTENDED ABSTRACT THINKING: devises a strategy, identifies relevant concepts in context, develops a chain of logical reasoning, or generalises."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Where appropriate, uses contextual knowledge to reflect on the answer."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1 of t for E7, 2 of t for E8."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Explains relative risk and independence in context, compares true, model and experimental estimates to choose the best, and validates or refutes the claim."
+       }
+      ]
+     },
+     "watch": [
+      "Independence and mutual exclusivity confused, or tested with the conditional probability instead of the intersection (2024 Achievement exemplar).",
+      "'Times as likely' and 'times more likely' used interchangeably in relative risk.",
+      "Answers to 'comment' or 'justify' with no calculation, or a calculation with no contextual statement.",
+      "Probabilities above 1, percentage signs on decimals, misread scientific notation.",
+      "Simulation questions answered without reference to sampling variation and sample size.",
+      "E8 needs two separate t pieces in the question; one excellent part is E7.",
+      "Students who skip a whole question: the 2025 report says those who attempted all three scored higher."
+     ],
+     "aiLimits": "Handwritten working from scans may be misread: Venn diagram and tree values, two-way table entries, ∩, ∪ and | symbols, decimals and scientific notation. The teacher must check the diagram values and symbols the AI read against the original script and confirm which paper and schedule were used.",
+     "researchNotes": "Standard text from NZQA as91585 (2019 folder, Version 2, published 17 November 2016), paraphrased with short quotes. Schedules read through text extraction; the grid and cut scores were quoted, and symbol placement within parts is partly inferred. Exam paper URLs follow NZQA's naming pattern and were not opened. The 2024 report link uses the 91584 file name because one Statistics report covers all three standards; the 2025 per-standard link (91585-report-2025) was not opened. Time allowance not confirmed. Only one exemplar (2024 Achievement) was read.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    },
+    {
+     "code": "91586",
+     "ref": "3.14",
+     "credits": 4,
+     "version": "Version 2 (published 17 November 2016); listed as Version 2 in the 2026 Assessment Specifications",
+     "verified": "2026-10-25",
+     "title": "Apply probability distributions in solving problems",
+     "criteria": {
+      "achieved": "Apply probability distributions in solving problems.",
+      "merit": "Apply probability distributions, using relational thinking, in solving problems.",
+      "excellence": "Apply probability distributions, using extended abstract thinking, in solving problems."
+     },
+     "notes": [
+      "EN2: Apply probability distributions in solving problems involves selecting and using methods, demonstrating knowledge of concepts and terms, and communicating using appropriate representations.",
+      "EN2: Relational thinking (Merit) involves one or more of: selecting and carrying out a logical sequence of steps; connecting different concepts or representations; demonstrating understanding of concepts. It also involves relating findings to a context, or communicating thinking using appropriate statements.",
+      "EN2: Extended abstract thinking (Excellence) involves one or more of: devising a strategy to investigate or solve a problem; identifying relevant concepts in context; developing a chain of logical reasoning; making a generalisation. Where appropriate, it also involves using contextual knowledge to reflect on the answer.",
+      "EN3: Problems are situations that provide opportunities to apply knowledge or understanding of mathematical and statistical concepts and methods, set in real-life or statistical contexts.",
+      "EN4: Methods include a selection from: discrete and continuous probability distributions; mean and standard deviation of random variables; distinguishing between true probabilities, model estimates of probabilities and experimental estimates of probabilities.",
+      "2026 specification: candidates will need to be familiar with the normal, Poisson, binomial, uniform and triangular distributions."
+     ],
+     "examFormat": [
+      "2026 change: none found. The 2026 Assessment Specifications (published October 2025) list the same Version 2 standard, printed-paper exam and the five named distributions.",
+      "Printed paper, end-of-year examination. Three questions in real-life contexts, each with several parts.",
+      "2025 contexts: social media post lengths (normal, then uniform), social media users' ages (triangular), harmful-content detection (binomial and Poisson). 2024 contexts: belly-button 'outies' (binomial, normal), fluff weights and towels (triangular, means and SDs of random variables), washing frequency (Poisson, simulation, alternative model).",
+      "Questions mix calculation (probabilities, parameters, inverse normal, Poisson rate), modelling (choosing and justifying parameters) and judgement (does the model fit the data; conditions in context).",
+      "Formulae and Tables Booklet provided; approved calculator (preferably graphing) required.",
+      "Time allowance not stated in the specification (not confirmed)."
+     ],
+     "scoring": "question",
+     "markingModel": [
+      "Each question is scored N0–E8 on its own; the three scores are totalled (maximum 24).",
+      "Grade symbols: u = Achievement evidence, r = Merit evidence, t = Excellence evidence (schedule headings 'Achievement (u)', 'Achievement with Merit (r)', 'Achievement with Excellence (t)'). No 'e' or 'n' evidence symbol is used.",
+      "Judgement grid (2024 and 2025): N0 'No response; no relevant evidence.' N1 'Attempts at least one part of the question.' N2 = 1 of u. A3 = 2 of u. A4 = 3 of u. M5 = 1 of r. M6 = 2 of r. E7 = 1 of t. E8 = 2 of t.",
+      "Probability parts require the distribution AND its parameters to be stated: the 2025 schedule's Q3(a) evidence is 'correct distribution, parameters and probability', and the 2025 report says 'a failure to identify the distribution and parameters will prevent the award of a grade'.",
+      "Working must be shown: 'if insufficient working or no working is shown, the grade must be Not Achieved' (2025 report).",
+      "Ladders within parts: e.g. an assumption stated = u; stated in context with why it may not hold = r; plus its effect on the estimate = t. Parameters chosen = u; one or two justified in context = r; all justified = t.",
+      "Cut scores (totals out of 24). 2025: N 0–7, A 8–13, M 14–18, E 19–24. 2024: N 0–7, A 8–13, M 14–18, E 19–24."
+     ],
+     "papers": [
+      {
+       "year": "2025",
+       "questions": [
+        "Q1: social media post lengths. (a)(i) normal probability of a short post (u); (a)(ii) one short and one not (u); (a)(iii) independence assumption (stated u; in context with example or impact r; why it may not hold and the effect on the estimate t); (a)(iv) a post over 280 characters is very unlikely, justified by a normal-distribution feature (u, r); (b)(i) sketch a uniform distribution 10–130 with correct height (u); (b)(ii) conditional probability P(X > 50 | X < 120) (u).",
+        "Q2: social media users' ages. (a) proportion over 35 and the claim (u); (b)(i) choose triangular parameters a, b, c (two justified in context r; all three t); (b)(ii) height and probability at X = 35 (u); (b)(iii) observed about 48% vs model about 65% (comparison u; model overestimates r; model unsuitable for this sample t); (c) minimum standard deviation meeting P(X < 17) < 0.001 and P(X > 70) < 0.01 (one s u; two r; justified s ≤ 6.47 t).",
+        "Q3: harmful-content detection. (a) binomial n = 20, p = 0.1, P(X < 3) ≈ 0.677 with distribution and parameters (u); (b) independence across one user's posts (in context u; why unlikely to hold r); (c)(i) E(X) = 2.1 false positives per 100 posts (u); (c)(ii) justify a Poisson model (one reason u; justified or two reasons r; two justified t); (d) competing system with P(X = 0) = 0.03 gives λ ≈ 3.5 (λ u; comparison r; conclusion about accuracy in context t)."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2025/91586-exm-2025.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2025/91586-ass-2025.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2025/91586-report-2025.pdf"
+        }
+       ]
+      },
+      {
+       "year": "2024",
+       "questions": [
+        "Q1: belly-button 'outies' and 'innies'. (a)(i) binomial n = 30, p = 0.04, P(X = 0) (u, r); (a)(ii) binomial conditions in context (one u; two r); (a)(iii) outie and fluff combined probability (u); (b)(i) normal (μ = 2.05 cm, σ = 0.9 cm) probability and conditional probability (u, r); (b)(ii) is a normal model suitable for navel diameters given it allows negative values (r, t).",
+        "Q2: fluff weights, towels and clothing changes. (a)(i) sketch the distribution (u); (a)(ii) triangular height at X = 1.5 and P(X < 1.5) (u, r); (a)(iii) choose minimum, maximum and mode with justification (u, r, t); (b)(i) mean number of towels (u); (b)(ii) standard deviations with a contextual comment (u, r); (b)(iii) test independence using variances, explained in context (u, r).",
+        "Q3: belly-button washing. (a) check a headline claim (u); (b)(i) Poisson λ = 2.8 per week converted to a daily rate, P(X ≥ 1) (u); (b)(ii) a Poisson assumption and why it fails in context (u); (b)(iii) explain the grey band in a simulation (u, r with sampling variation); (b)(iv) does the Poisson model fit (u, r); (b)(v) propose an alternative model with justified parameters (u, r, t)."
+       ],
+       "cutScores": "N 0–7, A 8–13, M 14–18, E 19–24",
+       "links": [
+        {
+         "label": "Exam paper",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2024/91586-exm-2024.pdf"
+        },
+        {
+         "label": "Assessment schedule",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2024/91586-ass-2024.pdf"
+        },
+        {
+         "label": "Assessment report",
+         "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/reports/2024/91584-report-2024.pdf"
+        }
+       ]
+      }
+     ],
+     "assessmentReport": [
+      "2025, Achievement: identified a suitable distribution and its parameters and calculated a probability, sketched distributions accurately, calculated the mean of a discrete distribution from a table, found observed proportions from frequency graphs and histograms, and stated the independence assumption in context.",
+      "2025, Merit: completed multi-step problems across several distributions including conditional probabilities, explained why a model suited the context and whether its parameters were suitable, calculated a normal standard deviation from a given probability, and found a rate using the inverse Poisson.",
+      "2025, Excellence: linked statistical features to the situation across distributions, judged whether a model and its parameters were appropriate using evidence and context, proposed and justified a standard deviation meeting constraints, and identified an assumption, evaluated its validity and explained how changing it would affect accuracy.",
+      "2025, Not Achieved: did not state the distribution or parameters ('a failure to identify the distribution and parameters will prevent the award of a grade'), made calculation errors, misread scientific notation, rounded too early, could not calculate means from tables or proportions from graphs, could not explain independence in context.",
+      "2025, observations: conditions must be linked to the context, not stated generally; Poisson 'conditions of independence and a constant rate are often mistakenly described in terms of probabilities'; 'if insufficient working or no working is shown, the grade must be Not Achieved'; keep at least 4 decimal places in intermediate working.",
+      "2024, Achievement: identified the distribution and calculated a probability, sketched accurately, calculated mean and SD from a probability table, explained simulation variation. Merit: multi-step problems, conditional probabilities, explained why a model and parameters suit the context, explained why SDs differ in context, changed λ for a different interval. Excellence: discussed model appropriateness with evidence, proposed and justified an alternative model, compared simulation results with observed data.",
+      "2024, Not Achieved: did not identify the distribution or parameters, did not calculate required values, rounded prematurely, did not show working or link to context. The report suggests the University of Auckland distribution explorer tool for learning to fit models."
+     ],
+     "exemplars": [
+      {
+       "grade": "Excellence (total 19, 2024)",
+       "text": "Q1 E7: 'The distribution and correct parameters have been clearly stated and the probability correctly calculated', and t was earned because '(a)(i), (a)(ii) and (a)(iii) are correct'. Q2 M6 and Q3 M6: correct triangular probability with working; correct Poisson probability.",
+       "miss": "Q1(b)(ii): 'Insufficient detail as to how/why the given parameters µ = 2.05 cm and σ = 0.9 cm are suitable'. Q2: parameters 'not sufficiently justified in terms of the features of the data and/or context'; Var(T), Var(C), Var(T + C) working missing. Q3: 'Probabilities are not independent, events are'; sample size needed in (b)(iii); for t in (b)(iv) 'a discussion of what is expected to be seen by chance alone is required'; parameters in (b)(v) needed justification for r. 19 was the bottom of the 2024 Excellence band."
+      }
+     ],
+     "conditions": [
+      "End-of-year examination on printed paper (2026 specification).",
+      "Formulae and Tables Booklet provided; approved calculator (preferably graphing) required.",
+      "Working, the distribution and its parameters must be shown for probability calculations to earn credit.",
+      "Closed book, supervised; three questions marked N0–E8 and totalled out of 24."
+     ],
+     "components": [
+      "Question One: post lengths — normal probabilities, independence assumption, uniform sketch and conditional probability (2025)",
+      "Question Two: users' ages — triangular parameters, model vs observed, minimum standard deviation (2025)",
+      "Question Three: content detection — binomial, independence, Poisson justification, inverse Poisson comparison (2025)"
+     ],
+     "focusTip": "Name the contexts and distributions in each question of the practice paper and the cut scores used; check every probability answer states the distribution and parameters.",
+     "gates": {
+      "achieved": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2 + EN4",
+        "t": "Selects and uses a suitable probability distribution (normal, Poisson, binomial, uniform, triangular) or random-variable method and calculates correctly."
+       },
+       {
+        "type": "ind",
+        "src": "2025 schedule; 2025 Assessment Report",
+        "t": "States the distribution AND its parameters for each probability calculation; without them a grade cannot be awarded for that evidence. Working must be shown."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "2 of u in a question for A3, 3 of u for A4."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Assessment Report",
+        "t": "Keeps at least 4 decimal places until the final answer and reads scientific notation correctly."
+       }
+      ],
+      "merit": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses RELATIONAL THINKING: a logical sequence of steps (multi-step and conditional problems), connecting concepts or representations, demonstrating understanding of concepts."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Relates findings to the context or communicates with appropriate statements."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1 of r for M5, 2 of r for M6."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Explains why the model and its parameters suit the context, with each condition (e.g. independence of EVENTS, constant rate) unpacked for this situation."
+       }
+      ],
+      "excellence": [
+       {
+        "type": "req",
+        "src": "Criterion + EN2",
+        "t": "Uses EXTENDED ABSTRACT THINKING: devises a strategy (e.g. finding a parameter that meets constraints), identifies relevant concepts in context, develops a chain of reasoning, or generalises."
+       },
+       {
+        "type": "req",
+        "src": "EN2",
+        "t": "Where appropriate, uses contextual knowledge to reflect on the answer (does the model fit; how would a broken assumption change the estimate)."
+       },
+       {
+        "type": "ind",
+        "src": "Schedule judgement grid",
+        "t": "1 of t for E7, 2 of t for E8."
+       },
+       {
+        "type": "ind",
+        "src": "2024 and 2025 Assessment Reports",
+        "t": "Compares model, observed data and simulation, discussing what could happen by chance alone and the sample size, and proposes or justifies an alternative model or parameters."
+       }
+      ]
+     },
+     "watch": [
+      "Probabilities given without naming the distribution and parameters: NZQA will not award the grade.",
+      "Calculator answers with no working: 'the grade must be Not Achieved'.",
+      "Conditions stated generically or in terms of probabilities ('probabilities are independent') instead of events in context.",
+      "Premature rounding (fewer than 4 decimal places mid-solution) and misread scientific notation.",
+      "Parameters chosen but not justified from features of the data or context (common Merit-to-Excellence gap).",
+      "Simulation and model-fit answers that ignore sampling variation, sample size and what could occur by chance.",
+      "E8 needs two separate t pieces in the question."
+     ],
+     "aiLimits": "Handwritten working from scans may be misread: λ, μ, σ, inequality signs (< versus ≤), decimals and scientific notation, and parameters written beside a sketch. Hand-drawn sketches of uniform, triangular or normal distributions (heights, labels, shading) may not be legible. The teacher must check the distributions, parameters, sketches and figures the AI read against the original script and confirm which paper and schedule were used.",
+     "researchNotes": "Standard text from NZQA as91586 (2019 folder, Version 2, published 17 November 2016), paraphrased. Schedules read through text extraction; the grid and cut scores were quoted, and symbol placement within parts is partly inferred. Exam paper URLs follow NZQA's naming pattern and were not opened. The 2024 report link uses the 91584 file name because one Statistics report covers all three standards; the 2025 per-standard link (91586-report-2025) was not opened. Time allowance not confirmed. Only one exemplar (2024 Excellence) was read.",
+     "clarifications": {
+      "date": "n/a",
+      "points": []
+     },
+     "nmr": []
+    }
+   ]
+  },
+  "Te Ao Haka": {
+   "slug": "te-ao-haka",
+   "discipline": "",
+   "parallelHint": "",
+   "privacyNote": "",
+   "sources": [],
+   "derivedGradeNotes": [],
+   "excluded": [
+    {
+     "code": "91987",
+     "title": "Demonstrate understanding of a key role within Te Ao Haka",
+     "reason": "Understanding of a role in Te Ao Haka is grounded in kapa haka practice and tikanga that a kaiako of Te Ao Haka should judge, not an AI."
+    }
+   ],
+   "standards": []
+  },
+  "Te Reo Māori": {
+   "slug": "te-reo-maori",
+   "discipline": "",
+   "parallelHint": "",
+   "privacyNote": "",
+   "sources": [],
+   "derivedGradeNotes": [],
+   "excluded": [
+    {
+     "code": "91652",
+     "title": "Pānui kia mōhio ki te reo Māori o te ao whānui",
+     "reason": "Judging te reo Māori quality, including mita, kupu and tikanga, needs a fluent kaiako; the AI should not be the second reader for it."
+    },
+    {
+     "code": "91653",
+     "title": "Tuhi i te reo Māori o te ao whānui",
+     "reason": "Judging te reo Māori quality, including mita, kupu and tikanga, needs a fluent kaiako; the AI should not be the second reader for it."
+    }
+   ],
+   "standards": []
+  }
+ }
+};
+})();
