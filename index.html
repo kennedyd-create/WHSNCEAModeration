@@ -10,6 +10,7 @@
 <script src="mod-l1.js?v=4"></script>
 <script src="mod-l2.js?v=4"></script>
 <script src="mod-l3.js?v=4"></script>
+<script src="mod-ex-l1.js?v=1"></script>
 <!--/DATA-->
 <style>
 /* Layout: a single working column of numbered steps, the prompt docked at the end.
@@ -196,10 +197,16 @@ textarea.field{resize:vertical;line-height:1.5}
 .purpose em{font-style:normal;font-size:.625rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;justify-self:start;
   padding:.2rem .55rem;border-radius:999px;background:color-mix(in srgb,var(--fac) 16%,var(--surface));color:var(--fac)}
 .purpose[aria-pressed="true"] em{background:var(--fac);color:#fff}
+.purpose em span{color:inherit;font-size:inherit}
 #sp{--fac:#0e7c86;--fac-light:#e3f5f6}
 :root[data-theme="dark"] #sp{--fac:#3fb8c2;--fac-light:#10292c}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) #sp{--fac:#3fb8c2;--fac-light:#10292c} }
 :root[data-theme="dark"] .purpose[aria-pressed="true"] em{color:#04282b}
+body[data-kind="exam"] .k-int, body:not([data-kind="exam"]) .k-ex{display:none !important}
+.kind{display:inline-flex;border:2px solid var(--line-strong);border-radius:.7rem;overflow:hidden;margin-bottom:.8rem}
+.kind button{font:inherit;font-size:.8125rem;font-weight:800;padding:.55rem 1rem;border:0;background:var(--surface);color:var(--ink-soft);cursor:pointer}
+.kind button[aria-pressed="true"]{background:var(--brand-ink);color:var(--surface)}
+.kind button small{display:block;font-size:.625rem;font-weight:700;opacity:.8}
 .docpick{display:grid;gap:.5rem;margin-bottom:1.1rem}
 .docpick .doc{border:1px solid var(--line);border-radius:.6rem;padding:.6rem .75rem;background:var(--surface)}
 .docpick .doc .lbl{margin-bottom:.35rem}
@@ -250,7 +257,11 @@ footer p{max-width:60ch;margin:.4rem auto}
 
   <!-- 1 -->
   <section class="panel" id="s1">
-    <h2 class="step-h"><span class="step-n">1</span>Level, faculty and subject</h2>
+    <h2 class="step-h"><span class="step-n">1</span>Assessment type, level, faculty and subject</h2>
+    <div class="kind" id="kind" role="group" aria-label="Assessment type">
+      <button type="button" data-k="int" aria-pressed="true">Internal assessment<small>Moderation of internals</small></button>
+      <button type="button" data-k="exam" aria-pressed="false">Practice exam<small>Derived grade evidence · pilot</small></button>
+    </div>
     <div class="row">
       <div class="pills" id="levels"></div>
       <div class="pills" id="faculties" hidden></div>
@@ -270,11 +281,11 @@ footer p{max-width:60ch;margin:.4rem auto}
   <section class="panel dead" id="sp">
     <h2 class="step-h"><span class="step-n">3</span>What do you need?</h2>
     <div class="purposes" id="purposes">
-      <button class="purpose" data-p="grade" aria-pressed="true" type="button"><em>Final work</em><b>Grading advice</b>
-        <span>A moderation table: a grade for each task, an overall grade with reasons, and points for you to check.</span></button>
-      <button class="purpose" data-p="feedback" aria-pressed="false" type="button"><em>During the assessment</em><b>Feedback to students</b>
-        <span>Individual feedback within NZQA's limits, for a draft check or a resubmission. Only if your conditions of assessment allow it.</span></button>
-      <button class="purpose" data-p="class" aria-pressed="false" type="button"><em>During or after</em><b>Whole-class feedback &amp; feedforward</b>
+      <button class="purpose" data-p="grade" aria-pressed="true" type="button"><em><span class="k-int">Final work</span><span class="k-ex">Marked practice exam</span></em><b>Grading advice</b>
+        <span><span class="k-int">A moderation table: a grade for each task, an overall grade with reasons, and points for you to check.</span><span class="k-ex">Score codes from the marking schedule, the grade from the cut scores, and the boundary scripts to put in your verification sample.</span></span></button>
+      <button class="purpose" data-p="feedback" aria-pressed="false" type="button"><em><span class="k-int">During the assessment</span><span class="k-ex">Before the real exam</span></em><b>Feedback to students</b>
+        <span><span class="k-int">Individual feedback within NZQA's limits, for a draft check or a resubmission. Only if your conditions of assessment allow it.</span><span class="k-ex">Short, specific feedback on each student's practice exam: one strength and the one step that would lift their answer in November.</span></span></button>
+      <button class="purpose" data-p="class" aria-pressed="false" type="button"><em><span class="k-int">During or after</span><span class="k-ex">Before the real exam</span></em><b>Whole-class feedback &amp; feedforward</b>
         <span>The department's Feedback &amp; Feedforward sheet, filled in from the class's work, with the student D.I.R.T. action plan.</span></button>
     </div>
   </section>
@@ -285,7 +296,7 @@ footer p{max-width:60ch;margin:.4rem auto}
     <p class="hint">These details go into the prompt so the AI judges against your task. The assessment schedule and task sheet are required: paste them here, or attach them in the AI. Student work is always attached in the AI.</p>
     <div class="docpick">
       <div class="doc">
-        <span class="lbl">Assessment schedule <span class="req">required</span></span>
+        <span class="lbl"><span class="k-int">Assessment schedule</span><span class="k-ex">Assessment (marking) schedule for the paper</span> <span class="req">required</span></span>
         <div class="radios">
           <label><input type="radio" name="sched-mode" value="upload" checked> I'll attach it in the AI</label>
           <label><input type="radio" name="sched-mode" value="paste"> Paste it here</label>
@@ -293,7 +304,7 @@ footer p{max-width:60ch;margin:.4rem auto}
         <textarea id="sched-text" class="field" rows="6" hidden placeholder="Paste the whole assessment schedule, including the evidence statements for each grade."></textarea>
       </div>
       <div class="doc">
-        <span class="lbl">Task sheet given to students <span class="req">required</span></span>
+        <span class="lbl"><span class="k-int">Task sheet given to students</span><span class="k-ex">Exam paper, and resource booklet if there is one</span> <span class="req">required</span></span>
         <div class="radios">
           <label><input type="radio" name="task-mode" value="upload" checked> I'll attach it in the AI</label>
           <label><input type="radio" name="task-mode" value="paste"> Paste it here</label>
@@ -309,15 +320,15 @@ footer p{max-width:60ch;margin:.4rem auto}
           <input id="a-name" class="field" type="text" placeholder="e.g. 13HIS Research Portfolio 2026">
         </div>
         <div>
-          <label class="lbl" for="a-focus">Focus question, moot or context <span class="opt">optional</span></label>
+          <label class="lbl" for="a-focus"><span class="k-int">Focus question, moot or context</span><span class="k-ex">Which paper, and the context students wrote on</span> <span class="opt">optional</span></label>
           <textarea id="a-focus" class="field" rows="2" placeholder="e.g. 'The Native Land Court: a tool of dispossession – or not?'"></textarea>
           <p class="sm" id="focus-tip"></p>
         </div>
         <div>
-          <span class="lbl">Tasks or components <span class="req">at least one</span></span>
+          <span class="lbl"><span class="k-int">Tasks or components</span><span class="k-ex">Questions</span> <span class="req">at least one</span></span>
           <div class="comps" id="comps"></div>
           <button class="link-btn" id="add-comp" type="button">+ Add a task</button>
-          <p class="sm">Pre-filled from the standard. Rename them to match your task sheet (Task A, Task B…). For grading advice each becomes a column in the table.</p>
+          <p class="sm"><span class="k-int">Pre-filled from the standard. Rename them to match your task sheet (Task A, Task B…). For grading advice each becomes a column in the table.</span><span class="k-ex">Pre-filled from the most recent NZQA paper. Match them to the questions on the paper you used. Each becomes a column of score codes in the table.</span></p>
         </div>
       </div>
       <div class="row">
@@ -340,7 +351,12 @@ footer p{max-width:60ch;margin:.4rem auto}
           </div>
 
         </div>
-        <div data-for="grade">
+        <div data-for="grade" class="k-ex">
+          <label class="lbl" for="cuts">Cut scores <span class="opt">optional</span></label>
+          <input id="cuts" class="field" type="text" placeholder="e.g. N 0–6 · A 7–12 · M 13–18 · E 19–24">
+          <p class="sm">The totals for each grade from the schedule for your paper. Leave blank and the AI takes them from the schedule, or asks.</p>
+        </div>
+        <div data-for="grade" class="k-int">
           <label class="lbl" for="grades">Grade detail</label>
           <select id="grades" class="field">
             <option value="band">N / A / M / E with Low, Mid or High</option>
@@ -354,7 +370,7 @@ footer p{max-width:60ch;margin:.4rem auto}
       </div>
     </div>
 
-    <div class="optbox" data-for="feedback">
+    <div class="optbox k-int" data-for="feedback">
       <h3>Feedback to students</h3>
       <label class="check gate"><input type="checkbox" id="fb-ok">
         <span><strong>I've checked my conditions of assessment and school policy allow feedback at this stage.</strong>
@@ -385,7 +401,7 @@ footer p{max-width:60ch;margin:.4rem auto}
           <label class="lbl" for="cl-class">Class</label>
           <input id="cl-class" class="field" type="text" placeholder="e.g. 13HIS">
         </div>
-        <div>
+        <div class="k-int">
           <label class="lbl" for="cl-timing">When it will be used</label>
           <select id="cl-timing" class="field">
             <option value="during">During the assessment, before final submission</option>
@@ -408,11 +424,11 @@ footer p{max-width:60ch;margin:.4rem auto}
       <span class="lbl">What you will attach in the AI</span>
       <div class="checks" id="attach">
         <label class="check" id="att-sched"><input type="checkbox" data-a="schedule" checked disabled>
-          <span><strong>Your assessment schedule</strong> <span class="req">required</span><small>The AI will stop and ask for it rather than invent one.</small></span></label>
+          <span><strong><span class="k-int">Your assessment schedule</span><span class="k-ex">The assessment (marking) schedule</span></strong> <span class="req">required</span><small>The AI will stop and ask for it rather than invent one.</small></span></label>
         <label class="check" id="att-task"><input type="checkbox" data-a="task" checked disabled>
-          <span><strong>The task sheet students were given</strong> <span class="req">required</span><small>Lets it check students answered the task actually set.</small></span></label>
+          <span><strong><span class="k-int">The task sheet students were given</span><span class="k-ex">The exam paper and resource booklet</span></strong> <span class="req">required</span><small>Lets it check students answered the task actually set.</small></span></label>
         <label class="check"><input type="checkbox" data-a="work" checked disabled>
-          <span><strong>Student work</strong> <span class="req">required</span><small>A student can have several files. Start every file name with the student's name or code (e.g. "Aroha K – Proposal.pdf", "Aroha K – Annotations.docx") so the AI groups them correctly.</small></span></label>
+          <span><strong><span class="k-int">Student work</span><span class="k-ex">Answer booklets (scans or exported digital answers)</span></strong> <span class="req">required</span><small><span class="k-ex">For handwritten scripts, scan at 300 dpi or clearer. Handwriting the AI can't read is flagged, not guessed. </span>A student can have several files. Start every file name with the student's name or code (e.g. "Aroha K – Proposal.pdf", "Aroha K – Annotations.docx") so the AI groups them correctly.</small></span></label>
         <label class="check" data-for="grade"><input type="checkbox" data-a="provisional">
           <span><strong>Your own provisional grades</strong> <span class="opt">optional</span><small>It will compare and list every disagreement, without anchoring on yours.</small></span></label>
         <label class="check" data-for="class"><input type="checkbox" data-a="results">
@@ -483,6 +499,7 @@ const LEVELS = [
 let sel = { level:null, faculty:null, subject:null, std:null };
 let comps = [];
 let purpose = 'grade';
+let kind = 'int';
 
 /* ---- theme ---- */
 function setTheme(t){
@@ -498,9 +515,9 @@ function setTheme(t){
 $('theme').onclick = () => setTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
 
 /* ---- per-standard memory of the teacher's setup ---- */
-const FIELDS = ['a-name','a-focus','ids','detail','grades','notes','sched-text','task-text','fb-stage','fb-spec','cl-class','cl-timing'];
+const FIELDS = ['a-name','a-focus','cuts','ids','detail','grades','notes','sched-text','task-text','fb-stage','fb-spec','cl-class','cl-timing'];
 const CHECKS = ['fb-ok','cl-names','cl-audio','cl-html'];
-const DEF = { 'a-name':'', 'a-focus':'', notes:'', ids:'names', detail:'standard', grades:'band', 'sched-text':'', 'task-text':'',
+const DEF = { 'a-name':'', 'a-focus':'', notes:'', ids:'names', detail:'standard', grades:'band', 'sched-text':'', 'task-text':'', cuts:'',
   'fb-stage':'draft', 'fb-spec':'general', 'cl-class':'', 'cl-timing':'during' };
 const DEFC = { 'fb-ok':false, 'cl-names':false, 'cl-audio':true, 'cl-html':false };
 const mode = n => (document.querySelector(`input[name="${n}"]:checked`) || {}).value || 'upload';
@@ -516,10 +533,10 @@ function saveSetup(){
   const d = { comps, attach:attachState(), purpose, checks:{}, schedMode:mode('sched-mode'), taskMode:mode('task-mode') };
   FIELDS.forEach(f => d[f] = $(f).value);
   CHECKS.filter(c => c !== 'fb-ok').forEach(c => d.checks[c] = $(c).checked);
-  try{ localStorage.setItem('whs_mod_'+sel.std.code, JSON.stringify(d)); }catch(e){}
+  try{ localStorage.setItem('whs_mod_'+(kind==='exam'?'ex_':'')+sel.std.code, JSON.stringify(d)); }catch(e){}
 }
 function loadSetup(code){
-  try{ return JSON.parse(localStorage.getItem('whs_mod_'+code) || 'null'); }catch(e){ return null; }
+  try{ return JSON.parse(localStorage.getItem('whs_mod_'+(kind==='exam'?'ex_':'')+code) || 'null'); }catch(e){ return null; }
 }
 function attachState(){
   const o = {}; document.querySelectorAll('#attach input').forEach(i => o[i.dataset.a] = i.checked); return o;
@@ -533,10 +550,23 @@ function pills(el, items, onPick, pressed){
   el.querySelectorAll('.pill').forEach(b => b.onclick = () => onPick(+b.dataset.i));
 }
 function renderLevels(){
-  pills($('levels'), LEVELS.map(l => ({ label:l.label, cls:'lvl', soon:!l.live, disabled:!l.live })),
+  const live = l => l.live && !!(SRC() && SRC()[l.id]);
+  pills($('levels'), LEVELS.map(l => ({ label:l.label, cls:'lvl', soon:!live(l), disabled:!live(l) })),
     i => pickLevel(LEVELS[i].id), LEVELS.findIndex(l => l.id === sel.level));
 }
-function D(){ return window.MOD_DATA && window.MOD_DATA[sel.level]; }
+function SRC(){ return kind === 'exam' ? window.MOD_EX : window.MOD_DATA; }
+function D(){ return SRC() && SRC()[sel.level]; }
+function setKind(k){
+  kind = k; document.body.dataset.kind = k;
+  document.querySelectorAll('#kind button').forEach(b => b.setAttribute('aria-pressed', b.dataset.k === k));
+  sel = { level:null, faculty:null, subject:null, std:null };
+  document.documentElement.style.removeProperty('--fac'); document.documentElement.style.removeProperty('--fac-light');
+  renderLevels(); $('faculties').hidden = true; $('subjects').hidden = true;
+  $('s1-note').hidden = k !== 'exam';
+  $('s1-note').textContent = k === 'exam' ? 'Practice exam mode is a pilot. Level 1 History is ready; other subjects and levels will follow once this has been tested.' : '';
+  resetFrom(2);
+}
+document.querySelectorAll('#kind button').forEach(b => b.onclick = () => setKind(b.dataset.k));
 function pickLevel(id){
   sel = { level:id, faculty:null, subject:null, std:null };
   renderLevels();
@@ -560,7 +590,9 @@ function pickFaculty(i){
   renderSubjects(); resetFrom(2);
   const off = sel.faculty.subjects.filter(s => !D().subjects[s] || !D().subjects[s].standards.length);
   $('s1-note').hidden = !off.length;
-  $('s1-note').textContent = off.length ? `${off.join(', ')}: no internal standards here suit this kind of AI judgement (the evidence is a performance, a product, spoken language or something else the AI cannot fairly see). Select the subject to see why.` : '';
+  $('s1-note').textContent = !off.length ? '' : kind === 'exam'
+    ? `Practice exams for ${off.join(', ')} are not in the pilot yet.`
+    : `${off.join(', ')}: no internal standards here suit this kind of AI judgement (the evidence is a performance, a product, spoken language or something else the AI cannot fairly see). Select the subject to see why.`;
 }
 function renderSubjects(){
   const ss = sel.faculty.subjects;
@@ -572,12 +604,12 @@ function pickSubject(name){
   const list = D().subjects[name].standards, ex = D().subjects[name].excluded || [];
   $('s2').classList.remove('dead');
   $('s2-hint').textContent = list.length
-    ? `${list.length} internally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}.${ex.length ? ` ${ex.length} more ${ex.length===1?'is':'are'} listed at the end but left out, because AI judgement would not be fair or reliable for that evidence.` : ''}`
+    ? kind === 'exam' ? `${list.length} externally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}, for marking a school practice exam.` : `${list.length} internally assessed standard${list.length===1?'':'s'} in ${D().meta.stage} ${name}.${ex.length ? ` ${ex.length} more ${ex.length===1?'is':'are'} listed at the end but left out, because AI judgement would not be fair or reliable for that evidence.` : ''}`
     : `No ${D().meta.stage} ${name} internal standards are included. The reasons are below.`;
   $('stds').innerHTML = list.map(s => `
     <button class="std" data-code="${s.code}" aria-pressed="false">
       <span class="std-top"><span class="code">AS${s.code}</span><span class="ref">${s.ref}</span>
-        <span class="badge">internal</span><span class="cr">${s.credits} cr</span></span>
+        <span class="badge">${kind === 'exam' ? 'external' : 'internal'}</span><span class="cr">${s.credits} cr</span></span>
       <span class="std-title">${esc(s.title)}</span>
       <span class="std-ver">${esc(s.version)} · sources checked ${esc(s.verified)}</span>
     </button>`).join('') + ex.map(s => `
@@ -650,7 +682,35 @@ function setPurpose(p, quiet){
 document.querySelectorAll('#purposes .purpose').forEach(b => b.onclick = () => setPurpose(b.dataset.p));
 
 /* ---- step 5 ---- */
+function renderBriefExam(){
+  const s = sel.std, sub = D().subjects[sel.subject];
+  const li = a => (a && a.length) ? '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>' : '<p>None found when sources were checked.</p>';
+  const gl = a => '<ul>' + a.map(g => `<li><span class="gtag ${g.type}">${g.type === 'req' ? 'Required' : 'Indicator'}</span> <span class="gsrc">${esc(g.src)}</span> ${esc(g.t)}</li>`).join('') + '</ul>';
+  const lk = x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`;
+  $('brief').innerHTML = `
+    <section><h3>Achievement criteria · ${esc(s.version)}</h3>
+      <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
+    <section><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
+    <section><h3>The exam</h3>${li(s.examFormat)}</section>
+    <section><h3>How NZQA marks it</h3>${li(s.markingModel)}</section>
+    ${(s.papers||[]).length ? `<section><h3>Recent NZQA papers</h3>${s.papers.map(pp => `<div class="ex"><b>${esc(pp.year)}</b>${li(pp.questions)}${pp.cutScores ? `<p>Cut scores: ${esc(pp.cutScores)}</p>` : ''}<p>${(pp.links||[]).filter(x => x.url).map(lk).join(' · ')}</p></div>`).join('')}</section>` : ''}
+    <section><h3>NZQA Assessment Reports</h3>${li(s.assessmentReport)}</section>
+    ${(s.exemplars||[]).length ? `<section><h3>NZQA annotated exemplars</h3><div style="display:grid;gap:.7rem">${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}</div>`).join('')}</div></section>` : ''}
+    <section><h3>Derived grade rules that apply</h3>${li(sub.derivedGradeNotes)}</section>
+    <section><h3>Gates the AI checks, bottom up</h3>
+      <p style="margin-bottom:.6rem">The marking schedule's score codes decide each question. These gates, from the standard, are what the AI uses to sense-check the overall grade and explain boundaries.</p>
+      <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
+      <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
+      <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
+    <section><h3>Watch for in this exam</h3>${li(s.watch)}</section>
+    ${s.aiLimits ? `<section><h3>What the AI cannot judge from scans</h3><p>${esc(s.aiLimits)}</p></section>` : ''}
+    <section class="src"><h3>Sources</h3><ul>
+      <li><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=${s.code}" target="_blank" rel="noopener">AS${s.code} on NZQA</a></li>
+      ${sub.sources.map(x => `<li>${lk(x)}</li>`).join('')}
+    </ul></section>`;
+}
 function renderBrief(){
+  if(kind === 'exam') return renderBriefExam();
   const s = sel.std, sub = D().subjects[sel.subject];
   const li = a => '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>';
   const gl = a => '<ul>' + a.map(g => typeof g === 'string' ? `<li>${esc(g)}</li>`
@@ -798,7 +858,7 @@ function composePrompt(o){
   const { s, sub, stage, subject, name, focus, tasks, ids, detail, batch, grades, notes, attach,
           purpose = 'grade', fbStage = 'draft', fbSpec = 'general',
           clClass = '', clTiming = 'during', clNames = false, clAudio = true, clHtml = false, today = '',
-          schedMode = 'upload', taskMode = 'upload', schedText = '', taskText = '' } = o;
+          schedMode = 'upload', taskMode = 'upload', schedText = '', taskText = '', exam = false, cuts = '' } = o;
   const schedWhere = schedMode === 'paste' ? 'pasted in full in this prompt, below' : 'attached';
   const L = 'ABCDEFGHIJ';
   const toYou = t => String(t||'').replace(/\bthe AI\b/g,'you').replace(/\bThe AI\b/g,'You');
@@ -818,7 +878,101 @@ function composePrompt(o){
 
   /* ---------------- role ---------------- */
   const what = `${stage} ${subject} Achievement Standard ${s.code} (${s.ref}), ${s.version}, ${s.credits} credits: "${s.title}"`;
-  const role = {
+  /* ---------------- PRACTICE EXAM: role + knowledge ---------------- */
+  const exL = x => (x && x.length) ? bullets(x) : '  - (none found)';
+  const roleEx = exam ? {
+    grade:`ROLE
+You are a second reader supporting a NZQA-registered ${subject} teacher in Aotearoa New Zealand who is marking a school PRACTICE EXAM for the external standard ${what}.
+
+Why this matters: the marked practice exam is evidence the school may use for a derived grade (an unexpected event grade) if a student cannot sit, or is seriously affected in, the November exam. NZQA requires that evidence to be authentic and standard-specific, marked against the assessment schedule, and quality assured by the school — normally by a second subject expert checking a sample of grade boundaries. You are a pre-check that helps the teacher get that right and choose the scripts worth verifying. You are NOT the second assessor, and nothing you produce is itself evidence. Where an answer is hard to read, thin or ambiguous, say so rather than resolving it in either direction. A confident wrong score is worse than an honest "borderline".`,
+    feedback:`ROLE
+You are helping a NZQA-registered ${subject} teacher in Aotearoa New Zealand write short feedback to each student on their PRACTICE EXAM for ${what}, so they can lift their answers in the real external exam.
+
+The practice exam is not the final assessment, so feedback can be specific: you may point to a particular question and say what kind of thinking or evidence the schedule rewards that the answer did not show. But the student must produce the improvement themselves in the real exam, so you never write model answers or sentences for them to learn. Every comment is for the teacher to read, edit and decide whether to send.`,
+    class:`ROLE
+You are helping a NZQA-registered ${subject} teacher in Aotearoa New Zealand write whole-class feedback and feedforward on a marked PRACTICE EXAM for ${what}, to be shared with the class before the real external exam.
+
+You will read the class's answers, find the patterns, and fill in the teacher's Whole-Class Feedback & Feedforward Sheet. The sheet is about the class, not individuals, and everything in it should help students do better in the real exam. The teacher will edit it before it goes to students.`
+  }[purpose] : '';
+
+  const knowledgeEx = exam ? `Write in New Zealand English.
+
+${head('AUTHORITY — what you judge against, in this order')}
+1. The achievement standard (criteria and explanatory notes below). It is the only source of criteria.
+2. The ASSESSMENT SCHEDULE for the paper the students sat (${schedWhere}). It applies the standard to these exact questions: use its descriptors for each score code, quote them, and follow its cut scores. If the schedule appears to ask for more or less than the standard, FLAG it — do not resolve it yourself.
+3. NZQA Assessment Reports and annotated exemplars (below). They show how markers drew the lines in real scripts.
+4. The teacher's department notes (below, if any).
+
+Do NOT bring in criteria from memory, from the pre-2024 Level 1 standards, from ${others}, or from another year's schedule unless that is the paper the students sat. If you think the standard requires something not written here, say so as a question for the teacher.
+
+${head('THE STANDARD')}
+Achievement criteria
+  Achieved:   ${s.criteria.achieved}
+  Merit:      ${s.criteria.merit}
+  Excellence: ${s.criteria.excellence}
+
+Explanatory notes that define the grades
+${exL(s.notes)}
+
+The exam
+${exL(s.examFormat)}
+
+How NZQA marks it
+${exL(s.markingModel)}
+${(s.papers||[]).length ? `
+Recent NZQA papers
+${s.papers.map(pp => `  ${pp.year}:\n${(pp.questions||[]).map(q => '    - ' + q).join('\n')}${pp.cutScores ? `\n    Cut scores: ${pp.cutScores}` : ''}`).join('\n')}
+` : ''}
+NZQA Assessment Reports — what markers saw
+${exL(s.assessmentReport)}
+${(s.exemplars||[]).length ? `
+NZQA annotated exemplars — where the grade lines fall
+${s.exemplars.map(e => `  - ${e.grade.toUpperCase()}: ${e.text}${e.miss ? '\n    ' + e.miss : ''}`).join('\n')}
+` : ''}
+Gates for AS${s.code}, checked bottom up
+The schedule's score codes decide each question. Use these gates, taken from the standard, to sense-check the overall grade and to explain boundaries. Each item is labelled:
+  [REQUIRED] — from the standard's wording. Only REQUIRED items can cap a grade, and only when the answers CLEARLY do not meet them.
+  [INDICATOR] — an example of quality from exemplars or Assessment Reports. Never a checklist, never a cap on its own.
+
+  ACHIEVED requires:
+${gateLines(s.gates.achieved)}
+  MERIT requires everything for Achieved, plus:
+${gateLines(s.gates.merit)}
+  EXCELLENCE requires everything for Merit, plus:
+${gateLines(s.gates.excellence)}
+
+Common issues in this exam
+${exL(s.watch)}
+${s.aiLimits ? `
+What you cannot judge from scans
+  ${toYou(s.aiLimits)}
+` : ''}
+Derived grade rules that apply
+${exL(sub.derivedGradeNotes)}
+
+How this subject reasons
+  ${sub.discipline}
+
+${head('THIS PRACTICE EXAM')}
+${name ? `Assessment: ${name}\n` : ''}${focus ? `Paper and context (from the teacher): ${focus}\n` : ''}Questions:
+${taskList}
+${cuts ? `Cut scores given by the teacher: ${cuts}\n` : 'Cut scores: take them from the assessment schedule. If the schedule has none, ask the teacher before giving any overall grade.\n'}${notes ? `
+Department notes from the teacher (treat as context, not as new criteria):
+${notes}
+` : ''}${schedMode === 'paste' ? `
+ASSESSMENT SCHEDULE — pasted by the teacher (this is the schedule; do not ask for another copy)
+"""
+${schedText}
+"""
+` : ''}${taskMode === 'paste' ? `
+EXAM PAPER — pasted by the teacher (the questions students answered)
+"""
+${taskText}
+"""
+` : ''}` : '';
+
+
+  const role = exam ? roleEx : {
     grade:`ROLE
 You are a second reader supporting a NZQA-registered ${subject} teacher in Aotearoa New Zealand who is checking grades for internally assessed work against ${what}.
 
@@ -834,7 +988,7 @@ You will read the class's work, find the patterns, and fill in the teacher's Who
   }[purpose];
 
   /* ---------------- shared knowledge ---------------- */
-  const knowledge = `Write in New Zealand English.
+  const knowledge = exam ? knowledgeEx : `Write in New Zealand English.
 
 ${head('AUTHORITY — what you judge against, in this order')}
 1. The achievement standard (criteria and explanatory notes below). It is the only source of criteria.
@@ -910,9 +1064,9 @@ ${taskText}
 
   /* ---------------- step 0 ---------------- */
   const docList = [
-    schedMode === 'upload' ? '  - The ASSESSMENT SCHEDULE for this task (required).' : null,
-    taskMode === 'upload' ? '  - The TASK SHEET given to students (required).' : null,
-    '  - STUDENT WORK — one or more files per student (required).',
+    schedMode === 'upload' ? (exam ? '  - The ASSESSMENT SCHEDULE for the paper students sat (required).' : '  - The ASSESSMENT SCHEDULE for this task (required).') : null,
+    taskMode === 'upload' ? (exam ? '  - The EXAM PAPER, and the resource booklet if there is one (required).' : '  - The TASK SHEET given to students (required).') : null,
+    exam ? '  - Scanned ANSWER BOOKLETS — scans of handwritten scripts or exports of digital answers, one or more files per student (required).' : '  - STUDENT WORK — one or more files per student (required).',
     purpose === 'grade' && has('provisional') ? '  - The teacher’s own PROVISIONAL GRADES.' : null,
     purpose === 'class' && has('results') ? '  - The teacher’s GRADES or a moderation table for this class.' : null,
     has('exemplars') ? '  - EXEMPLARS or benchmark scripts.' : null,
@@ -923,16 +1077,17 @@ ${taskText}
 The teacher should have attached:
 ${docList}
 
-Students may have MORE THAN ONE FILE each (for example a proposal, an annotations document and an evaluation). The teacher has been asked to start every file name with the student's name or code.
+Students may have MORE THAN ONE FILE each (${exam ? 'for example a booklet scanned in two parts' : 'for example a proposal, an annotations document and an evaluation'}). The teacher has been asked to start every file name with the student's name or code.
   - Group files by student: every file whose name starts with the same identifier belongs to one student, and together they are that student's ONE submission. Judge the submission as a whole, never file by file.
   - If one combined file holds several students, split it at each student's name or heading.
   - If a file cannot be matched to a student, or two identifiers might be the same person (e.g. "Aroha K" and "A. Kingi"), ASK before continuing. Do not guess.
 
 In your FIRST response:
-  a) Give a short table: | Student | Files | Pages | Readable words (approx.) | Reading problems | so the teacher can see every file was read and nothing was cut off. Page counts mislead for scans and images, so give the readable word count where you can and say plainly when text could not be extracted.
+  a) Give a short table: | Student | Files | Pages | Readable words (approx.) | Reading problems | so the teacher can see every file was read and nothing was cut off. Page counts mislead for scans and images, so give the readable word count where you can and say plainly when text could not be extracted.${exam ? '' : ' Under the table, give the class median of readable words and any word or time guide in the task sheet or department notes. These are reference points for checking depth against length, never criteria.'}
   b) Quote one line from the assessment schedule to show you can read it.
-  c) Note anything unreadable (handwriting, scans, images of text) and anything that looks incomplete.
-${schedMode === 'paste' && taskMode === 'paste' ? 'The assessment schedule and task sheet are pasted in this prompt.' : `If ${[schedMode === 'upload' ? 'the ASSESSMENT SCHEDULE' : null, taskMode === 'upload' ? 'the TASK SHEET' : null].filter(Boolean).join(' or ')} is missing or unreadable: say so and STOP. Ask for it, and do not ${purpose === 'grade' ? 'grade' : purpose === 'feedback' ? 'write feedback for' : 'build the sheet from'} ANY student until you have it. Never reconstruct or invent what a schedule or task says.`}
+  c) Note anything unreadable (handwriting, scans, images of text) and anything that looks incomplete.${exam ? `
+  d) Handwriting: never guess a word that decides a score. List every passage you could not read with confidence (student, question, page), and score that part as UNCLEAR until the teacher confirms what it says.` : ''}
+${schedMode === 'paste' && taskMode === 'paste' ? 'The assessment schedule and task sheet are pasted in this prompt.' : `If ${[schedMode === 'upload' ? 'the ASSESSMENT SCHEDULE' : null, taskMode === 'upload' ? (exam ? 'the EXAM PAPER' : 'the TASK SHEET') : null].filter(Boolean).join(' or ')} is missing or unreadable: say so and STOP. Ask for it, and do not ${purpose === 'grade' ? 'grade' : purpose === 'feedback' ? 'write feedback for' : 'build the sheet from'} ANY student until you have it. Never reconstruct or invent what a schedule or task says.`}
 If a student's file is missing or unreadable, name the limitation and continue only where a defensible judgement is still possible; say which judgements it affects.
 If the schedule and task sheet are present and the files are matched, continue straight on — do not wait to be asked.
 
@@ -944,6 +1099,66 @@ Student identifiers
   /* ---------------- purpose bodies ---------------- */
   let body = '';
 
+  if(exam && purpose === 'grade'){
+    const whole = s.scoring === 'whole';
+    const Q = tasks.map((t,i) => whole ? L[i] : `Q${i+1}`);
+    body = `${head('STEP 1 — ESTABLISH THE RULES (once, before marking any student)')}
+In your first response, after the Step 0 check:
+  a) Check the paper against the CURRENT assessment specification described under "The exam" above (format, number of concepts or perspectives, resource booklet or not). If the practice paper does not match it, put a [PAPER] warning at the very top of your reply: derived grade evidence should mirror the format and conditions of the real exam. Then carry on marking against the schedule the teacher supplied.
+  b) Give a short table from the assessment schedule:
+${whole ? '| Score code | What the schedule requires (quoted, short) |\n  covering N1 to E8 for the whole response.' : '| Question | What earns Achieved-level codes (quoted, short) | What earns Merit-level codes | What earns Excellence-level codes |'}
+  c) State the cut scores you will use (from the teacher above, or quoted from the schedule) and, in two or three sentences, what separates the score codes in THIS paper, using the schedule and the NZQA exemplars. This is your calibration: apply exactly this reading to every student, in every batch. If you later need to change it, say so openly (see Revisions) rather than drifting.
+
+${head('HOW TO MARK EACH STUDENT')}
+1. Read the student's WHOLE answer booklet before scoring ${whole ? 'it' : 'any question'}. Credit relevant material wherever it appears, if the schedule allows that.
+2. ${whole ? 'This paper is marked HOLISTICALLY, as NZQA does: give ONE score code for the whole response, across all its parts. Find the highest code whose descriptor the response as a whole CLEARLY meets. The parts are not scored separately and added up; your notes on each part are diagnostic only.' : "Score each question separately with the schedule's score codes (as NZQA does). For each, find the highest code whose descriptor the answer CLEARLY meets."}
+3. Judge only what is written. Do not credit knowledge the student has not shown. An idea that is stated but not developed is evidence of the idea, not of the explanation or examination a higher code needs; quality counts, not length. ${s.code === '92026' ? 'For the unfamiliar context, credit evidence drawn from the sources in the resource booklet; do not reward or penalise outside knowledge beyond what the schedule says.' : 'Where the student writes about a context they chose or studied, judge the accuracy and use of their own evidence; mark doubtful facts for the teacher to check.'}
+4. Where a response sits between two codes, or a key passage is hard to read, give both codes (e.g. "A4/M5") and log a [JUDGEMENT] or [READING] point. UNCLEAR is not a fail. Never round down automatically because something is uncertain.
+5. ${whole ? 'Convert the code to a grade with the cut scores. If the two candidate codes fall either side of a cut (e.g. A4/M5), the grade is Borderline: name both grades.' : 'Add the question scores to a total and convert it with the cut scores. If the total is within ONE point of a cut score, mark the grade Borderline and name both grades.'}
+6. Sense-check: if the cut-score grade seems out of line with the standard's gates (for example a ${whole ? 'code' : 'total'} that reaches Merit with no part showing explanation), say so in Why, but report the schedule-based grade — that is how the exam is marked.
+7. Anchor every score in evidence: one DECISIVE short quotation ${whole ? 'for the code, plus one per part where it helps' : 'per question where possible'} (under 20 words), with page number. Never invent a quotation. If you cannot quote evidence for a claim, do not make the claim.
+8. A derived grade must reflect the evidence in this script only. Do not adjust for effort, absence, later improvement, other assessments or what the student "would have" got.
+
+${head('POINTS TO NOTE — what the teacher should check before recording a score')}
+For each student, list anything the teacher should verify. Use these tags:
+
+  [READING]      A word, number or passage you could not read with confidence that affects a score. Give the page and what you think it says, and say which score it changes.
+  [ACCURACY]     Dates, names, figures or events that look wrong or need checking.
+  [QUESTION]     The answer addresses a different question from the one asked, misreads the question, or leaves part of it out.
+  [SOURCE]       ${s.code === '92026' ? 'A claim said to come from the resource booklet that the booklet does not seem to support (say which source), or evidence used without saying which source it came from.' : 'Evidence that is vague, unattributed or doubtful.'}
+  [SUFFICIENCY]  A question not attempted, a page that seems missing from the scan, or an answer cut off.
+  [JUDGEMENT]    A ${whole ? 'response' : 'question'} you found UNCLEAR between two codes. Give the competing readings with a short quote for each, and what the teacher should look at to decide. Every Borderline grade must have one.
+  [SCHEDULE]     The schedule seems to disagree with the standard, or is silent on something that decided a score.
+  [PAPER]        (once, at the top, not per student) The practice paper does not match the current exam specification.
+  [YOUR GRADE]   ${has('provisional') ? 'Your score differs from the teacher’s. State both and the deciding evidence. Score the script yourself BEFORE you look at the teacher’s score so you are not anchored by it.' : 'Not used — no provisional scores supplied.'}
+
+Honesty rules: never state or imply a script was copied or prepared in advance; describe what you see. Mark a fact as an error only if you are confident; otherwise "check". If there is nothing to note for a student, write "Nothing flagged."
+
+${head('OUTPUT')}
+Work through the students in batches of ${batch}. In each batch print ONLY that batch's new rows, then stop with: "Reply 'continue' for the next ${batch}." In the FINAL reply, give one consolidated table of every student.
+Revisions: if, while marking a later student, you would now score an earlier student differently, add a line "Revision: [student] ${whole ? '' : 'Q[n] '}from X to Y because …" and use the revised score in the consolidated table.
+
+PART 1 — MARKING TABLE (markdown table, exactly these columns)
+| Student | ${Q.join(' | ')} | ${whole ? 'Code' : 'Total'} | Grade | Confidence | Why |
+Under the table give the key: ${tasks.map((t,i) => `${Q[i]} = ${t}`).join('; ')}.
+${whole ? `- Each part: 2 to 5 words on what that part shows (e.g. "describes, some evidence", "explains why, strong evidence", "not attempted"). These are diagnostic, NOT scores.
+- Code: the ONE score code for the whole response (e.g. M5), or two codes if borderline (e.g. "A4/M5"). Grade: from the cut scores (N, A, M or E).` : `- Each question: the score code from the schedule (e.g. A4), or two codes if borderline (e.g. "M5/M6").
+- Total: the sum, as NZQA totals it. Grade: from the cut scores (N, A, M or E).`}
+- Confidence: High, or Borderline X/Y. Confidence is about how clear the evidence is, not a prediction of NZQA's result.
+- Why: ONE or TWO sentences naming what decided the code, quoting the schedule's key word, e.g. "Explains how the perspectives differ with supporting evidence (M5), but does not discuss the wider historical context needed for E7."
+${detail !== 'table' ? `
+PART 2 — EVIDENCE NOTES (one short block per student${detail === 'full' ? ', with a decisive quotation and page for every question' : ', 3 to 5 lines'})
+` : ''}
+PART 3 — POINTS TO NOTE (per student, using the tags above)
+
+PART 4 — FOR THE TEACHER (final reply only)
+- Grade distribution and the ${whole ? 'step on the schedule (e.g. describe → explain) that' : 'question that'} held back the most students.
+- Suggested VERIFICATION SAMPLE for the second assessor: every Borderline script, every script with a [READING] point that changes a score, and one secure script at each grade. Say why for each.
+${has('provisional') ? '- Agreement with the teacher’s scores: how many agree on the grade, and a list of every disagreement.\n' : ''}- Anything in the paper or schedule that may have made a question harder or easier than the real exam (worth knowing before these grades are used as derived grade evidence).
+
+End with this line exactly:
+"These are provisional scores to support, not replace, the teacher's professional judgement and the school's quality assurance. Verify them against the schedule and the scripts before any grade is recorded."`;
+  } else
   if(purpose === 'grade'){
     const gradeWords = grades === 'band'
       ? 'N, A, M or E, followed by Low, Mid or High for where the evidence sits within that grade (e.g. "M-High"). Low/High are only for flagging boundaries; they are not NZQA grades.'
@@ -951,7 +1166,7 @@ Student identifiers
     body = `${head('STEP 1 — ESTABLISH THE RULES (once, before grading any student)')}
 In your first response, after the Step 0 check, give a short table that maps the schedule onto this standard:
 | Schedule requirement (quoted, short) | Task | Grade | Matching gate (REQUIRED or INDICATOR) | Conflict or gap? |
-Then, in two or three sentences, say what separates Achieved, Merit and Excellence for THIS task, using the schedule and the NZQA exemplars. This is your calibration: apply exactly this reading to every student, in every batch. If you later realise you need to change it, say so openly (see Revisions below) rather than drifting.
+Then, in two or three sentences, say what separates Achieved, Merit and Excellence for THIS task, using the schedule and the NZQA exemplars, including what a DEVELOPED idea looks like at each grade (what the student does with it, not how much they write). This is your calibration: apply exactly this reading to every student, in every batch. If you later realise you need to change it, say so openly (see Revisions below) rather than drifting.
 
 ${head('HOW TO JUDGE EACH STUDENT')}
 These standards are graded holistically. A component grade is DIAGNOSTIC: it says what that part of the evidence shows on its own, to help the teacher see where the work is strong or weak. It is not an NZQA grade. The OVERALL grade is NOT an average of the components: it is the highest grade whose gates are ALL met across the whole submission. One weak component can cap the overall grade; one strong component cannot lift it. If the schedule maps grades to tasks differently, follow the schedule and say that you have.
@@ -960,10 +1175,16 @@ These standards are graded holistically. A component grade is DIAGNOSTIC: it say
 2. Judge only what is on the page. Do not infer understanding the student has not written down. Do not credit content from the task sheet, source pack or teacher notes unless the student has used it themselves.
 3. Work from the bottom up. Confirm Achieved, then Merit, then Excellence. The grade is the highest level where that level's REQUIRED items and every lower level's REQUIRED items are all met. Stop at the first level that fails; that is the cap.
 4. For each REQUIRED item, decide which of three things the evidence shows: CLEARLY MET, CLEARLY NOT MET, or UNCLEAR (ambiguous, incomplete, or open to more than one reasonable reading). Only CLEARLY NOT MET caps the grade. UNCLEAR is not a fail: give a Borderline judgement, explain the competing readings, and log it as a [JUDGEMENT] point to note. Never downgrade automatically because something is uncertain.
-5. Strength in one place never makes up for a REQUIRED item that is clearly not met. Within the requirements, use best-fit judgement for questions of degree (how many instances, how consistent, how deep) and do not demand perfection on every source or paragraph. Length is never a criterion in itself.
+5. Strength in one place never makes up for a REQUIRED item that is clearly not met. Within the requirements, use best-fit judgement for questions of degree (how many instances, how consistent, how deep) and do not demand perfection on every source or paragraph. Length is never a criterion in itself: see DEPTH AND LENGTH below.
 6. Anchor every judgement in evidence: one DECISIVE short quotation for the overall grade, plus short quotations for any other important claim (each under 20 words), with the file name and page or section. Never invent a quotation, page number or source detail. If you cannot quote evidence for a claim, do not make the claim.
 7. Where a student sits on a boundary, name both grades and the specific evidence that would settle it.
 ${focus ? '8. Judge relevance against the focus question or moot exactly as worded above. Note where a student has assumed relevance rather than shown it.\n' : ''}
+DEPTH AND LENGTH — judge development, never word count
+  - Depth is what the student DOES with each idea (explains how or why, supports it with specific evidence, links it, weighs it), not how much they write. What counts as developed rises with the level (curriculum level ${{'Level 1':'6','Level 2':'7','Level 3':'8'}[stage] || 'set by this standard'}): take it from the standard, clarification and exemplars above, never from an expected length.
+  - SHORT WORK. An idea that is stated but not developed is evidence of the idea, not of in-depth, comprehensive or perceptive understanding. A short submission reaches a grade only if EACH REQUIRED item at that grade is visibly developed on the page. Where the standard asks for a range, several linked ideas, consistency or comprehensive evidence, one insightful sentence does not show it. Before giving Merit or Excellence to work well below the class median, quote the passage that meets each REQUIRED item at that grade; an item with no such passage is not CLEARLY MET.
+  - LONG WORK. Judge long work on its strongest focused argument and the evidence that carries it, wherever that sits. Background, retelling, repetition and extra examples add nothing, and do not by themselves lower the grade: volume neither counts as analysis nor cancels analysis that is clearly there. They matter only where the standard, clarification or schedule makes focus part of the grade (for example "concise", "coherent", "sustained", "the most crucial aspects", or a brief's word count or duration). Then quote that wording and show how the padding affects it.
+  - A word or time guide in the task sheet or department notes is guidance unless the standard or schedule makes it binding. Note it; never cap a grade on length alone.
+
 ${head('POINTS TO NOTE — what the teacher should check before recording a grade')}
 For each student, list anything the teacher should verify. Use these tags:
 
@@ -976,6 +1197,7 @@ For each student, list anything the teacher should verify. Use these tags:
   [WRITING]      Observable changes in the writing: a sudden shift in register or vocabulary between sections or between files, polish markedly different from the rest of the piece, American spelling in otherwise New Zealand English writing, generic analysis that is not tied to this student's own sources, data or context, formatting artefacts. DESCRIBE what you see and where — quote it.
   [TASK]         The student answered a different question from the one set, ignored part of the task, or the task design itself may limit grades (raise cohort-wide task issues once, in the teacher section).
   [SUFFICIENCY]  Too little evidence to judge a gate, or a section or file that appears missing or cut off.
+  [LENGTH]       Length may be swaying the grade. Compare the Step 0 word count with the class median, not with fixed numbers. Raise it when: (a) Merit or Excellence rests on a submission roughly half the median or less: name the REQUIRED item resting on the least developed passage; (b) a submission is roughly double the median or more and the decisive evidence is buried, or the quality is diluted by background, retelling or repetition: say where the strongest passage is; (c) the task's word or time guide is clearly exceeded or far from met. Say what the teacher should read to confirm the grade. Not a grade gate. Skip (a) and (b) when there are fewer than five students, or when words are not the main evidence (performance, practical, visual or mathematical work).
   [JUDGEMENT]    A REQUIRED item you found UNCLEAR for this student. Name the item, give the competing readings with a short quote for each, say which grade each reading leads to, and say exactly what the teacher would need to look at to decide. Every Borderline grade must have at least one [JUDGEMENT] point explaining it.
   [SCHEDULE]     The schedule and the standard seem to disagree, or the schedule is silent on something that decided the grade.
   [YOUR GRADE]   ${has('provisional') ? 'Your provisional grade differs from the teacher’s. State both and the deciding evidence. Form your own judgement BEFORE you look at the teacher’s grade so you are not anchored by it.' : 'Not used — no provisional grades supplied.'}
@@ -993,8 +1215,9 @@ Work through the students in batches of ${batch}. In each batch print ONLY that 
 Revisions: if, while grading a later student, you would now judge an earlier student differently, do not silently change it. Add a line "Revision: [student] from X to Y because …" and use the revised grade in the consolidated table.
 
 PART 1 — MODERATION TABLE (markdown table, exactly these columns; ${tasks.map((t,i) => L[i]).join(', ')} are diagnostic component judgements)
-| Student | ${tasks.map((t,i) => L[i]).join(' | ')} | Overall | Confidence | Why |
+| Student | Words | ${tasks.map((t,i) => L[i]).join(' | ')} | Overall | Confidence | Why |
 Under the table give the key: ${tasks.map((t,i) => `${L[i]} = ${t}`).join('; ')}.
+- Words: approximate readable words from Step 0, for reference only. It never decides the grade.
 - Overall: the gate-capped overall grade.
 - Confidence: High, or Borderline X/Y (name the two grades). Confidence describes how strong and clear the evidence is for this judgement — not a prediction that NZQA or another assessor would agree.
 - Why: ONE or TWO sentences naming the gate that decided the grade, e.g. "All Merit gates met; caps at Merit because [name the Excellence gate that was not met, with a short quote]."
@@ -1010,7 +1233,7 @@ ${detail === 'full'
 `}
 PART ${detail === 'table' ? '3' : '4'} — FOR THE TEACHER (only in the final reply, after the last batch)
 - Grade distribution (count of N/A/M/E).
-- Suggested for check-marking or a second marker: every Borderline and [JUDGEMENT] point, every student with an [ACCURACY], [SOURCE] or [WRITING] point, and one secure script at each grade as a reference. Say why for each.
+- Suggested for check-marking or a second marker: every Borderline and [JUDGEMENT] point, every student with an [ACCURACY], [SOURCE], [WRITING] or [LENGTH] point, and one secure script at each grade as a reference. Say why for each.
 - Judgement calls for the whole cohort: where the same REQUIRED item was unclear for several students, or depends on the task design (for example whether a context is genuinely contested, or what counts as initiative), raise it ONCE here rather than per student, so the department can agree a reading.
 - Cohort patterns: where many students were capped by the same gate, name it once, with what that suggests about teaching or task design${s.cohortNote ? ` (${s.cohortNote})` : ''}.
 - Any [SCHEDULE] issues.
@@ -1019,6 +1242,46 @@ End with this line exactly:
 "These are provisional judgements to support, not replace, the teacher's professional judgement. Verify them against the assessment schedule and the student work before any grade is recorded or reported."`;
   }
 
+  if(exam && purpose === 'feedback'){
+    body = `${head('FEEDBACK RULES')}
+In any comment for a student, you MUST NOT:
+  - Write a model answer, a sentence, a paragraph or a structure for the student to learn or reuse. They have to produce it themselves in the real exam.
+  - Name or imply a grade, score code or result. Never use the words Not Achieved, Achieved, Merit, Excellence, grade, score, mark, pass or fail, nor phrases like "on track for" or "nearly there". The teacher returns scores separately.
+  - Correct a factual error by giving the right answer. You may say a fact needs checking.
+
+You MAY:
+  - Name the question and what it asked.
+  - Say what kind of thinking or evidence the schedule rewards that the answer did not show (e.g. "explain WHY", "use a specific detail from the sources", "compare the two").
+  - Name one genuine strength specifically, so they keep doing it.
+
+${head('HOW TO WORK')}
+1. Read each student's whole answer booklet.
+2. Privately, using the schedule and the gates, find where the script sits and the ONE change that would lift it most in the real exam: the lowest-scoring question, or the most common missing move across their answers.
+3. Write the comment around that one change.
+
+${head('COMMENT STYLE — short, in the teacher’s voice')}
+Write the way an experienced ${subject} teacher writes on a marked practice paper: plain, direct, encouraging, specific to this script. Second person ("you"), New Zealand English.
+  - 2 or 3 sentences, 25 to 55 words in total. Never longer.
+  - Sentence 1: one specific strength.
+  - Sentence 2: the ONE next step for the real exam, naming the question where it matters ("In Question 2, …", "Next time, …").
+  - Optional sentence 3: one question or a quick exam habit (planning, timing, reading the question twice).
+  - No lists, no headings. Use the standard's key terms in plain words.
+
+Before you output, scan every student comment for grade words or score codes and rewrite any comment that contains one.
+
+${head('OUTPUT')}
+Work in batches of ${batch} students. After each batch stop with "Reply 'continue' for the next ${batch}."
+
+PART 1 — FEEDBACK TABLE (markdown table)
+| Student | Comment for the student | Teacher note (not for the student) |
+- Teacher note: where the script sits (the only place a score may appear), the question the comment targets, and anything to check ([READING] problems, facts to check).
+
+PART 2 — FOR THE TEACHER (final reply only)
+- Patterns better handled in whole-class teaching before the exam.
+
+End with this line exactly:
+"Draft feedback for the teacher to check before it is shared with students."`;
+  } else
   if(purpose === 'feedback'){
     const located = fbSpec === 'located' || fbStage === 'resub';
     body = `${head('FEEDBACK RULES — these outrank every other instruction in this prompt')}
@@ -1044,7 +1307,7 @@ Before you output any comment, check it against every MUST NOT above, and scan t
 ${head('HOW TO WORK')}
 1. Read each student's whole submission — every file.
 2. Privately, using the gates and the schedule, find where the work currently sits and the ONE next step: the lowest REQUIRED gate that is not yet clearly met (all Achieved gates first; once those are secure, the first Merit gate; then Excellence). If every gate is clearly met, the next step is making the strongest quality consistent across the whole piece. Indicators can shape the wording, but never present an indicator as something the student must do.
-3. ${fbStage === 'resub' ? 'Under the resubmission rules above, the comment can only point to WHERE a minor, independently fixable error or omission is. A gate that needs new learning or new writing goes in the teacher note only, never in the student comment.' : 'Write the comment so it moves the student towards that one gate, describing the THINKING the standard asks for (explain why, compare, weigh up, connect, justify, evaluate, consider limitations), never the content that would satisfy it.'}
+3. ${fbStage === 'resub' ? 'Under the resubmission rules above, the comment can only point to WHERE a minor, independently fixable error or omission is. A gate that needs new learning or new writing goes in the teacher note only, never in the student comment.' : 'Write the comment so it moves the student towards that one gate, describing the THINKING the standard asks for (explain why, compare, weigh up, connect, justify, evaluate, consider limitations), never the content that would satisfy it.'}${fbStage === 'resub' ? '' : '\n4. Match the step to the problem. Ideas named but not developed: the step is to develop them (explain how or why, support, connect). Long work where the strongest thinking is buried in retelling or repetition: the step is to focus on what carries the answer. Never mention word counts unless the task sheet sets a guide, and then only as a reminder of that guide.'}
 
 ${head('COMMENT STYLE — short, in the teacher’s voice')}
 Write the way an experienced ${subject} teacher writes on a draft: plain, direct, encouraging, specific to this piece of work. Second person ("you"), New Zealand English.
@@ -1090,12 +1353,13 @@ End with this line exactly:
   - Outstanding exemplars: ${exemplarRule}
   - Feedback is TASK and PROCESS focused (what the work does, how to do it), never about the person.
   - Every misconception must be something you actually saw in several pieces of work. Do not pad the sheet with generic advice. If you only found one misconception, give one.
-  - Base the "Where to next?" advice on the gates of THIS standard, so students see exactly what moves work up a grade.
+  - Do not set or suggest a word count unless the task sheet gives one. Describe depth as what to do with an idea, not how much to write.
+  - Base the "Where to next?" advice on the gates of THIS standard, so students see exactly what moves work up a grade.${exam ? '\n  - The real exam is still to come. Every misconception and "Where to next?" action should be something students can practise and use in that exam. Examples may use the practice paper itself, because the real paper will be different.' : ''}
   - Use language a ${stage} student understands. Keep the standard's key terms and explain them the first time.
 
 ${head('HOW TO WORK')}
 1. Read every student's whole submission (all files).
-2. Privately tally patterns: what most did well, recurring errors in skills or ideas, recurring vocabulary or spelling errors, and the gate that most often held work back.${has('results') ? '\n3. Use the teacher’s grades or moderation table to check your patterns match where students actually landed.' : ''}
+2. Privately tally patterns: what most did well, recurring errors in skills or ideas, recurring vocabulary or spelling errors, the gate that most often held work back, and whether work was held back more by ideas left undeveloped or by length that diluted the focus (retelling, repetition).${has('results') ? '\n3. Use the teacher’s grades or moderation table to check your patterns match where students actually landed.' : ''}
 Then produce the sheet.
 
 ${head('OUTPUT — reproduce this structure exactly, with these headings, so it can be exported to Google Docs')}
@@ -1168,9 +1432,9 @@ function build(){
   if(!sel.std) return;
   const tasks = comps.map(c => c.trim()).filter(Boolean);
   $('comp-warn').hidden = tasks.length > 0;
-  const fbBlocked = purpose === 'feedback' && !$('fb-ok').checked;
+  const fbBlocked = kind === 'int' && purpose === 'feedback' && !$('fb-ok').checked;
   $('fb-warn').hidden = !fbBlocked;
-  const after = $('cl-timing').value === 'after';
+  const after = kind === 'exam' || $('cl-timing').value === 'after';
   $('cl-names').disabled = !after; if(!after) $('cl-names').checked = false;
   $('cl-names-wrap').style.opacity = after ? '' : '.5';
   $('fb-tip').textContent = $('fb-stage').value === 'resub'
@@ -1192,8 +1456,9 @@ function build(){
     ids: $('ids').value, detail: $('detail').value, batch: '5',
     grades: $('grades').value, notes: $('notes').value.trim(), attach: attachState(),
     purpose, fbStage: $('fb-stage').value, fbSpec: $('fb-spec').value,
-    clClass: $('cl-class').value.trim(), clTiming: $('cl-timing').value,
+    clClass: $('cl-class').value.trim(), clTiming: kind === 'exam' ? 'after' : $('cl-timing').value,
     clNames: $('cl-names').checked, clAudio: $('cl-audio').checked, clHtml: $('cl-html').checked,
+    exam: kind === 'exam', cuts: $('cuts').value.trim(),
     schedMode: sMode, taskMode: tMode, schedText: $('sched-text').value.trim(), taskText: $('task-text').value.trim(),
     today: new Date().toLocaleDateString('en-NZ', { day:'numeric', month:'long', year:'numeric' })
   });
@@ -1251,7 +1516,7 @@ $('reset').onclick = () => {
   b.classList.remove('arm'); b.textContent = 'Reset ✓';
   setTimeout(() => { b.textContent = 'Reset'; }, 1500);
   sel = { level:null, faculty:null, subject:null, std:null };
-  renderLevels(); $('faculties').hidden = true; $('subjects').hidden = true; $('s1-note').hidden = true; resetFrom(2);
+  setKind('int');
   window.scrollTo({ top:0, behavior:'smooth' });
 };
 
@@ -1269,7 +1534,8 @@ $('copy').onclick = async () => {
 };
 document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
 
-$('build').textContent = 'Build 8 · Levels 1–3, all suitable internal standards · NZQA sources checked October 2026';
+$('build').textContent = 'Build 9 · Levels 1–3 internals · Practice exam pilot: Level 1 History · NZQA sources checked October 2026';
+document.body.dataset.kind = 'int';
 renderLevels();
 </script>
 </body>
