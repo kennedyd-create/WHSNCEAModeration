@@ -7,12 +7,12 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap">
 <!--DATA-->
-<script src="mod-l1.js?v=4"></script>
-<script src="mod-l2.js?v=4"></script>
-<script src="mod-l3.js?v=4"></script>
-<script src="mod-ex-l1.js?v=2"></script>
-<script src="mod-ex-l2.js?v=1"></script>
-<script src="mod-ex-l3.js?v=2"></script>
+<script src="mod-l1.js?v=5"></script>
+<script src="mod-l2.js?v=6"></script>
+<script src="mod-l3.js?v=5"></script>
+<script src="mod-ex-l1.js?v=3"></script>
+<script src="mod-ex-l2.js?v=3"></script>
+<script src="mod-ex-l3.js?v=3"></script>
 <!--/DATA-->
 <style>
 /* Layout: a single working column of numbered steps, the prompt docked at the end.
@@ -749,6 +749,19 @@ document.querySelectorAll('#purposes .purpose').forEach(b => b.onclick = () => s
 
 /* ---- step 5 ---- */
 const forTeachers = t => String(t||'').replace(/\bThe AI\b/g,'A moderator working only from the written work').replace(/\bthe AI\b/g,'a moderator working only from the written work');
+const ASSOC_SKIP = /no (public|publicly)|not found|could not|couldn.t|member[s ]|members'|not public|no website|not summarised|no marking|teaching suggestions|free to member|is the national|teachers' association;|umbrella|advises the Ministry|support and advocacy|news posts|creative assessment/i;
+const assocUseful = x => !ASSOC_SKIP.test(x);
+function assocHtml(s, sub){
+  const all = (sub.associations || []);
+  const subj = all.map(a => Object.assign({}, a, { notes: (a.notes || []).filter(assocUseful) })).filter(a => a.notes.length);
+  const own = (s.associationNotes || []);
+  if(!all.length && !own.length) return '';
+  return `<section><h3>Subject association guidance · indicators only, NZQA wins</h3><ul>
+    ${own.map(n => `<li>${esc(n.text)} <span class="gsrc">${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.source)}</a>` : esc(n.source)}</span></li>`).join('')}
+    ${subj.flatMap(a => a.notes.map(n => `<li>${esc(n)} <span class="gsrc">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>` : esc(a.name)}</span></li>`)).join('')}
+    ${!own.length && !subj.length ? '<li>No publicly available marking or moderation guidance from the subject association was found for this standard.</li>' : ''}
+  </ul>${all.length ? `<p style="margin-top:.5rem">Association${all.length > 1 ? 's' : ''}: ${all.map(a => a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>` : esc(a.name)).join(' · ')}</p>` : ''}</section>`;
+}
 function infoHead(s, sub, label){
   return `<div class="info-head"><span class="k">${esc(D().meta.stage)} ${esc(sel.subject)} · ${esc(label)} · ${s.credits} credits</span>
     <h3>AS${esc(s.code)}${s.ref ? ' (' + esc(s.ref) + ')' : ''} · ${esc(s.title)}</h3>
@@ -770,13 +783,14 @@ function renderBriefExam(el = $('brief'), s = sel.std, sub = D().subjects[sel.su
     <section><h3>How NZQA marks it</h3>${li(s.markingModel)}</section>
     ${(s.papers||[]).length ? `<section><h3>Recent NZQA papers</h3>${s.papers.map(pp => `<div class="ex"><b>${esc(pp.year)}</b>${li(pp.questions)}${pp.cutScores ? `<p>Cut scores: ${esc(pp.cutScores)}</p>` : ''}<p>${(pp.links||[]).filter(x => x.url).map(lk).join(' · ')}</p></div>`).join('')}</section>` : ''}
     <section><h3>NZQA Assessment Reports</h3>${li(s.assessmentReport)}</section>
-    ${(s.exemplars||[]).length ? `<section><h3>NZQA annotated exemplars</h3><div style="display:grid;gap:.7rem">${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}</div>`).join('')}</div></section>` : ''}
+    ${(s.exemplars||[]).length ? `<section><h3>NZQA annotated exemplars</h3><div style="display:grid;gap:.7rem">${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}${e.version ? ' · ' + esc(e.version) : ''}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">View this exemplar</a></p>` : ''}</div>`).join('')}</div></section>` : ''}
     <section><h3>Derived grade rules that apply</h3>${li(sub.derivedGradeNotes)}</section>
     <section><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
       <p style="margin-bottom:.6rem">${teacher ? "In the exam the marking schedule's score codes decide the marks. These points come from the standard and show what separates the grades: <strong>Required</strong> items come from the standard's wording; <strong>Indicators</strong> are examples of quality from exemplars and Assessment Reports, never a checklist." : "The marking schedule's score codes decide each question. These gates, from the standard, are what the AI uses to sense-check the overall grade and explain boundaries."}</p>
       <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
       <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
       <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
+    ${assocHtml(s, sub)}
     <section><h3>Watch for in this exam</h3>${li(s.watch)}</section>
     ${s.aiLimits ? `<section><h3>${teacher ? 'What to check beyond the written script' : 'What the AI cannot judge from scans'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
     <section class="src"><h3>Sources</h3><ul>
@@ -798,12 +812,13 @@ function renderBrief(el = $('brief'), s = sel.std, sub = D().subjects[sel.subjec
     ${s.aiLimits ? `<section><h3>${teacher ? 'What to check beyond the written work' : 'What the AI cannot judge from documents'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
     ${s.nmr.length ? `<section><h3>National Moderator's Report · 2025 round</h3>${li(s.nmr)}</section>` : ''}
     ${s.exemplars.length ? `<section><h3>NZQA annotated exemplars · what sits at each grade</h3><div style="display:grid;gap:.7rem">
-      ${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}</div>`).join('')}</div></section>` : ''}
+      ${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}${e.version ? ' · ' + esc(e.version) : ''}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">View this exemplar</a></p>` : ''}</div>`).join('')}</div></section>` : ''}
     <section><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
       <p style="margin-bottom:.6rem">${teacher ? "<strong>Required</strong> items come from the standard's wording or an NZQA clarification: work cannot reach the grade without them. <strong>Indicators</strong> are examples of quality from explanatory notes, exemplars and moderator reports; they help place work but are never a checklist." : "Only <strong>Required</strong> items can cap a grade. <strong>Indicators</strong> are examples of quality that help place work, never a checklist."}</p>
       <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
       <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
       <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
+    ${assocHtml(s, sub)}
     <section><h3>Watch for in this standard</h3>${li(s.watch)}</section>
     <section class="src"><h3>Sources</h3><ul>
       <li><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=${s.code}" target="_blank" rel="noopener">AS${s.code} on NZQA</a></li>
@@ -942,6 +957,16 @@ function composePrompt(o){
   const bullets = a => a.map(x => '  - ' + x).join('\n');
   const gateLines = a => a.map(g => typeof g === 'string' ? '    - ' + g
     : `    - [${g.type === 'req' ? 'REQUIRED' : 'INDICATOR'} \u2014 ${g.src}] ${g.t}`).join('\n');
+  const assocArr = [...(sub.associations || []).flatMap(a => (a.notes || []).filter(n => typeof assocUseful === 'function' ? assocUseful(n) : true).map(n => `${n} (${a.name})`)), ...(s.associationNotes || []).map(n => `${n.text} (${n.source})`)];
+  const assocBlock = assocArr.length ? `
+Subject association guidance — [INDICATOR] only. It helps interpret the standard and shows how experienced teachers read it, but it never adds criteria; where it differs from NZQA, NZQA wins.
+${assocArr.map(x => '  - ' + x).join('\n')}
+` : '';
+  const CALC_BLOCK = `CALCULATIONS AND LEVEL (for work with numbers, formulae, models or data):
+  - Recalculate every numerical answer yourself before crediting it, and give a short check table under the student's evidence: | Part | Student's answer | Your answer | Match? |. Do not credit a final answer you have not checked.
+  - In "show that" questions the student must derive the value, or carry more significant figures than the value given; restating or rounding to the given value earns no credit for that step.
+  - Check that the ideas and methods credited are at the curriculum level the standard requires (${stage === 'Level 3' ? 'level 8' : stage === 'Level 2' ? 'level 7' : 'level 6'}). Content from lower levels can support an answer but cannot carry the grade on its own.
+  - Before saying something is missing or never done, search the whole submission for it.`;
   const RULE = '=====================================================================';
   const head = t => `${RULE}\n${t}\n${RULE}`;
   const idRule = {
@@ -973,7 +998,7 @@ You will read the class's answers, find the patterns, and fill in the teacher's 
 
 ${head('AUTHORITY — what you judge against, in this order')}
 1. The achievement standard (criteria and explanatory notes below). It is the only source of criteria.
-2. The ASSESSMENT SCHEDULE for the paper the students sat (${schedWhere}). It applies the standard to these exact questions: use its descriptors for each score code, quote them, and follow its cut scores. If the schedule appears to ask for more or less than the standard, FLAG it — do not resolve it yourself.
+2. The ASSESSMENT SCHEDULE for the paper the students sat (${schedWhere}). A school schedule may be adapted or paraphrased from NZQA's: treat its grid as the teacher's reading, and where it differs from the NZQA marking model below, mark to the school schedule but raise [SCHEDULE]. It applies the standard to these exact questions: use its descriptors for each score code, quote them, and follow its cut scores. If the schedule appears to ask for more or less than the standard, FLAG it — do not resolve it yourself.
 3. NZQA Assessment Reports and annotated exemplars (below). They show how markers drew the lines in real scripts.
 4. The teacher's department notes (below, if any).
 
@@ -1001,8 +1026,8 @@ NZQA Assessment Reports — what markers saw
 ${exL(s.assessmentReport)}
 ${(s.exemplars||[]).length ? `
 NZQA annotated exemplars — where the grade lines fall
-${s.exemplars.map(e => `  - ${e.grade.toUpperCase()}: ${e.text}${e.miss ? '\n    ' + e.miss : ''}`).join('\n')}
-` : ''}
+${s.exemplars.map(e => `  - ${e.grade.toUpperCase()}${e.version ? ' [' + e.version + ']' : ''}: ${e.text}${e.miss ? '\n    ' + e.miss : ''}`).join('\n')}
+` : ''}${assocBlock}
 Gates for AS${s.code}, checked bottom up
 The schedule's score codes decide each question. Use these gates, taken from the standard, to sense-check the overall grade and to explain boundaries. Each item is labelled:
   [REQUIRED] — from the standard's wording. Only REQUIRED items can cap a grade, and only when the answers CLEARLY do not meet them.
@@ -1067,7 +1092,7 @@ You will read the class's work, find the patterns, and fill in the teacher's Who
 ${head('AUTHORITY — what you judge against, in this order')}
 1. The achievement standard (criteria and explanatory notes below). It is the only source of criteria.
 2. NZQA's clarification for this standard (below). It explains the standard; it never adds criteria.
-3. The school's assessment schedule (${schedWhere}). Use its task-specific wording to apply the standard to this task, and quote it. If any line of the schedule appears to ask for more or less than the standard, FLAG the conflict for the teacher — do not resolve it yourself.
+3. The school's assessment schedule (${schedWhere}). Use its task-specific wording to apply the standard to this task, and quote it. Check every schedule row AND every grade-boundary line against the criteria and explanatory notes word for word, including counts ("more than one type", "for different groups") and rows the standard does not grade up. If any line asks for more or less than the standard, log it as [SCHEDULE] for the teacher; do not resolve it yourself.
 4. NZQA annotated exemplar commentary and the National Moderator's Report (below). These show where NZQA draws the grade lines in practice.
 5. The teacher's department notes (below, if any).
 
@@ -1092,8 +1117,8 @@ National Moderator's Report (insights from the 2025 moderation round)
 ${bullets(s.nmr)}
 ` : ''}
 ${s.exemplars.length ? `NZQA annotated exemplars — where the grade lines fall
-${s.exemplars.map(e => `  - ${e.grade.toUpperCase()}: ${e.text}${e.miss ? '\n    ' + e.miss : ''}`).join('\n')}` : 'NZQA annotated exemplars: none published for this version of the standard. Rely on the standard, the clarification and the schedule, and say when a grade line is hard to place without one.'}
-
+${s.exemplars.map(e => `  - ${e.grade.toUpperCase()}${e.version ? ' [' + e.version + ']' : ''}: ${e.text}${e.miss ? '\n    ' + e.miss : ''}`).join('\n')}` : 'NZQA annotated exemplars: none published for this version of the standard. Rely on the standard, the clarification and the schedule, and say when a grade line is hard to place without one.'}
+${assocBlock}
 Gates for AS${s.code}, checked bottom up
 Each item is labelled:
   [REQUIRED] — taken from the standard's wording or NZQA's clarification. Only REQUIRED items can cap a grade, and only when the evidence CLEARLY shows the item is not met.
@@ -1187,10 +1212,12 @@ ${head('HOW TO MARK EACH STUDENT')}
 1. Read the student's WHOLE answer booklet before scoring ${whole ? 'it' : 'any question'}. Credit relevant material wherever it appears, if the schedule allows that.
 2. ${whole ? 'This paper is marked HOLISTICALLY, as NZQA does: give ONE score code for the whole response, across all its parts. Find the highest code whose descriptor the response as a whole CLEARLY meets. The parts are not scored separately and added up; your notes on each part are diagnostic only.' : "Score each question separately with the schedule's score codes (as NZQA does). For each, find the highest code whose descriptor the answer CLEARLY meets."}
 3. Judge only what is written. Do not credit knowledge the student has not shown. An idea that is stated but not developed is evidence of the idea, not of the explanation or examination a higher code needs; quality counts, not length. Command words in the schedule (explain, analyse, evaluate, discuss, justify) describe the QUALITY of thinking: a descriptor is met only when the thinking reaches that quality, not when the activity merely appears (a sentence that "evaluates" by assertion is not evaluation at Merit or Excellence level). ${s.code === '92026' ? 'For the unfamiliar context, credit evidence drawn from the sources in the resource booklet; do not reward or penalise outside knowledge beyond what the schedule says.' : 'Where the student writes about a context they chose or studied, judge the accuracy and use of their own evidence; mark doubtful facts for the teacher to check.'}
-4. Where a response sits between two codes, or a key passage is hard to read, give both codes (e.g. "A4/M5"), count the LOWER code in the ${'${'}whole ? 'grade' : 'total'} until the teacher confirms the higher one, and log a [JUDGEMENT] or [READING] point. The burden of proof is on the higher code: award a code only when its descriptor is CLEARLY met, and do not resolve doubt upward.
+4. Where a response sits between two codes, or a key passage is hard to read, give both codes (e.g. "A4/M5"), count the LOWER code in the ${whole ? 'grade' : 'total'} until the teacher confirms the higher one, state in one line which code you think is more likely on best fit and why ("Lean: E7 because …"), so the teacher sees your judgement as well as the cautious record. The Lean must agree with your own decisive quotation and evidence notes: if you have described the thinking as asserted, general or limited, do not lean to the code that needs it developed. Never call a grade "secure" when the response is well short of the paper's word or length guidance and sits at a cut score; use Moderate, and log a [JUDGEMENT] or [READING] point. The burden of proof is on the higher code: award a code only when its descriptor is CLEARLY met, and do not resolve doubt upward.
+4b. Before recording any code at the bottom of a grade band (for example A3, or N2 against A3), state in one line why it is not the code below, counting the valid points or evidence the schedule requires and quoting one.
 5. ${whole ? 'Convert the code to a grade with the cut scores. If the two candidate codes fall either side of a cut (e.g. A4/M5), the grade is Borderline: name both grades.' : 'Add the question scores to a total and convert it with the cut scores. If the total is within ONE point of a cut score, mark the grade Borderline and name both grades.'}
 6. Sense-check: if the cut-score grade seems out of line with the standard's gates (for example a ${whole ? 'code' : 'total'} that reaches Merit with no part showing explanation), say so in Why, but report the schedule-based grade — that is how the exam is marked.
 7. Anchor every score in evidence: one DECISIVE short quotation ${whole ? 'for the code, plus one per part where it helps' : 'per question where possible'} (under 20 words), with page number. Never invent a quotation. If you cannot quote evidence for a claim, do not make the claim.
+${CALC_BLOCK}
 8. A derived grade must reflect the evidence in this script only. Do not adjust for effort, absence, later improvement, other assessments or what the student "would have" got.
 
 ${head('POINTS TO NOTE — what the teacher should check before recording a score')}
@@ -1206,7 +1233,7 @@ For each student, list anything the teacher should verify. Use these tags:
   [PAPER]        (once, at the top, not per student) The practice paper does not match the current exam specification.
   [YOUR GRADE]   ${has('provisional') ? 'Your score differs from the teacher’s. State both and the deciding evidence. Score the script yourself BEFORE you look at the teacher’s score so you are not anchored by it.' : 'Not used — no provisional scores supplied.'}
 
-Honesty rules: never state or imply a script was copied or prepared in advance; describe what you see. Mark a fact as an error only if you are confident; otherwise "check". If there is nothing to note for a student, write "Nothing flagged."
+Honesty rules: never state or imply a script was copied or prepared in advance; describe what you see. Never put words in quotation marks unless they appear in the attached files. Before raising a [SCHEDULE] point about wording, check it against the official NZQA descriptors above; flag only real differences from them. Mark a fact as an error only if you are confident; otherwise "check". Even where you cannot verify the student's own context fully, flag any figure or claim that conflicts with what you know, and any model or theory applied incorrectly, and do not credit an inaccurate claim towards a higher code. Rank [ACCURACY] points: likely errors first, then routine checks. If there is nothing to note for a student, write "Nothing flagged."
 
 ${head('OUTPUT')}
 Work through the students in batches of ${batch}. In each batch print ONLY that batch's new rows, then stop with: "Reply 'continue' for the next ${batch}." In the FINAL reply, give one consolidated table of every student.
@@ -1218,7 +1245,7 @@ Under the table give the key: ${tasks.map((t,i) => `${Q[i]} = ${t}`).join('; ')}
 ${whole ? `- Each part: 2 to 5 words on what that part shows (e.g. "describes, some evidence", "explains why, strong evidence", "not attempted"). These are diagnostic, NOT scores.
 - Code: the ONE score code for the whole response (e.g. M5), or two codes if borderline (e.g. "A4/M5"). Grade: from the cut scores (N, A, M or E).` : `- Each question: the score code from the schedule, with the ticks or evidence points behind it where the schedule uses them (e.g. "M6 (3m)" or "A4 (4a)"), or two codes if borderline (e.g. "M5/M6").
 - Total: the sum, as NZQA totals it. Grade: from the cut scores (N, A, M or E).`}
-- Confidence: High, or Borderline X/Y. Confidence is about how clear the evidence is, not a prediction of NZQA's result.
+- Confidence: High, Moderate, or Borderline X/Y. High = every score descriptor at the recorded code is met in more than one place and you would expect another expert to agree. Moderate = the recorded grade is your best-fit judgement, but at least one REQUIRED item rests on uneven or single-section evidence (always use Moderate if any component sits at Low of the recorded grade or below it). Borderline = the response sits between two codes, so the lower is recorded. Confidence is about how clear the evidence is, not a prediction of NZQA's result.
 - Why: ONE or TWO sentences naming what decided the ${whole ? 'code' : 'total'}, quoting the schedule's key word, e.g. ${whole ? '"Explains how the two differ with supporting evidence (M5), but does not discuss the wider context the schedule needs for E7."' : '"Q2 reaches M6 with three m points; Q3 stays A4 because the calculation has no unit, so the total sits two below the Merit cut."'}
 ${detail !== 'table' ? `
 PART 2 — EVIDENCE NOTES (one short block per student${detail === 'full' ? ', with a decisive quotation and page for every question' : ', 3 to 5 lines'})
@@ -1248,7 +1275,7 @@ These standards are graded holistically. A component grade is DIAGNOSTIC: it say
 1. Read the WHOLE submission — every file — before judging any part of it.
 2. Judge only what is on the page. Do not infer understanding the student has not written down. Do not credit content from the task sheet, source pack or teacher notes unless the student has used it themselves.
 3. Work from the bottom up. Confirm Achieved, then Merit, then Excellence. A grade is AWARDED only when every REQUIRED item at that level, and at every level below it, is CLEARLY MET by evidence you can quote. Stop at the first level that is not clearly met; that is the cap.
-4. For each REQUIRED item, decide which of three things the evidence shows: CLEARLY MET, CLEARLY NOT MET, or UNCLEAR (ambiguous, incomplete, or open to more than one reasonable reading). The burden of proof is on the HIGHER grade. If a REQUIRED item for a grade is UNCLEAR, award the grade BELOW it and mark the judgement Borderline (e.g. "Borderline M/E"), explain the competing readings, and log a [JUDGEMENT] point so the teacher can decide. Do not resolve doubt upward: an honest Borderline with the lower grade recorded is more useful to the teacher than a generous grade.
+4. For each REQUIRED item, decide which of three things the evidence shows: CLEARLY MET, CLEARLY NOT MET, or UNCLEAR (ambiguous, incomplete, or open to more than one reasonable reading). The burden of proof is on the HIGHER grade. If a REQUIRED item for a grade is UNCLEAR, award the grade BELOW it and mark the judgement Borderline (e.g. "Borderline M/E"), state which grade you think more likely on best fit ("Lean: E because …"), consistent with your own decisive quotation and notes, explain the competing readings, and log a [JUDGEMENT] point so the teacher can decide. Do not resolve doubt upward: an honest Borderline with the lower grade recorded is more useful to the teacher than a generous grade.
 5. Strength in one place never makes up for a REQUIRED item that is not clearly met. Use best-fit judgement for questions of degree at Achieved and Merit (how many instances, how consistent) and do not demand perfection on every source or paragraph. But the qualities that define Merit and Excellence (for example in-depth, comprehensive, perceptive, insightful, convincing, discerning, critical, sophisticated) must be visible in the work itself, not inferred from good ideas, confident tone, fluent writing or correct terminology alone.
 6a. In WRITTEN (prose) evidence, how the thinking is communicated is part of its quality. A strong Excellence answer is logically structured, each point builds the argument or explanation, and ideas are expressed clearly and precisely, so the reader can follow the reasoning without having to reconstruct it. Many standards name this directly (coherent, convincing, logically structured, clearly communicated, well organised). Clarity is NECESSARY but not SUFFICIENT: polished writing with ordinary thinking is not Excellence, and strong ideas that are disorganised, unclear or left for the reader to connect are not Excellence either. (For mathematical, statistical or practical evidence, judge communication as the standard and schedule describe it, e.g. clear working, correct notation and a stated conclusion.) Length is never a criterion in itself: see DEPTH AND LENGTH below.
 6. Anchor every judgement in evidence: one DECISIVE short quotation for the overall grade, plus short quotations for any other important claim (each under 20 words), with the file name and page or section. Never invent a quotation, page number or source detail. If you cannot quote evidence for a claim, do not make the claim.
@@ -1258,7 +1285,7 @@ These standards are graded holistically. A component grade is DIAGNOSTIC: it say
    b) say in one sentence why that passage goes BEYOND what Merit requires, using the difference stated in the standard, its explanatory notes and the NZQA Merit and Excellence exemplars. If the same quotation would also fit the Merit description, it is Merit evidence, not Excellence evidence;
    c) where the standard or notes require the quality across the work (comprehensive, consistent, sustained, throughout, integrated), show it in more than one place, not in a single strong paragraph.
    c2) for written evidence, confirm the argument or explanation is logically structured and clearly expressed, so the Excellence thinking is communicated rather than implied.
-   b2) state where the student's thinking sits on the QUALITY LADDER below. Excellence needs level 4, shown more than once.
+   b2) state where the student's thinking sits on the QUALITY LADDER below. Excellence needs level 4, shown more than once. Also quote the WEAKEST passage each Excellence item depends on and give its ladder level. "More than once" means in separate parts of the work, not several paragraphs of one section that follow the task's prompts. If you credit an exemplar indicator (for example a counter-example), quote it and confirm it is accurate and that the student used it for that purpose.
    If any step fails, the grade is Merit with Confidence "Borderline M/E" and a [JUDGEMENT] point. Apply the same test, briefly, before giving Merit over Achieved: quote what makes it in-depth (or the Merit word in this standard), not just correct.
 9. Compare with the NZQA exemplars above. Before confirming an Excellence, ask whether this work is at least as strong as the Excellence exemplar commentary describes; if it more closely matches the Merit exemplar, it is Merit.
 ${focus ? '8. Judge relevance against the focus question or moot exactly as worded above. Note where a student has assumed relevance rather than shown it.\n' : ''}
@@ -1271,6 +1298,8 @@ QUALITY, NOT PRESENCE — the most common reason work is over-graded
     4 SOPHISTICATED: the student weighs factors or evidence against each other, decides what matters MOST and why, deals with limitations, counter-arguments or the reliability of the evidence, and reaches a justified judgement that follows from what they have shown — sustained across the work, not in one place, and set out in a logical structure that is clearly expressed.
   As a guide: Achieved needs the command word done at level 2 or better; Merit needs level 3 across the work; Excellence needs level 4 across the work, as the standard's qualifier describes. Where a standard sets the command word itself at Achieved (for example "Evaluate" at Achieved and "evaluate perceptively" at Excellence), the qualifier is what decides Merit and Excellence: judge the quality the qualifier names.
   Common traps: evaluation that only lists strengths then weaknesses without weighing them; a conclusion that restates points instead of judging between them; "reliability" or "significance" asserted rather than reasoned; sophisticated vocabulary carrying ordinary thinking; and, the other way, insightful points scattered through disorganised writing where the reader has to build the argument for the student.
+
+${CALC_BLOCK}
 
 DEPTH AND LENGTH — judge development, never word count
   - Depth is what the student DOES with each idea (explains how or why, supports it with specific evidence, links it, weighs it), not how much they write. What counts as developed rises with the level (curriculum level ${{'Level 1':'6','Level 2':'7','Level 3':'8'}[stage] || 'set by this standard'}): take it from the standard, clarification and exemplars above, never from an expected length.
@@ -1288,7 +1317,7 @@ For each student, list anything the teacher should verify. Use these tags:
                    CONTRADICTED — a source you did check says something different (say what).
                  A URL you cannot open does not show that a source does not exist. Also note primary/secondary misclassification here.
   [WRITING]      Observable changes in the writing: a sudden shift in register or vocabulary between sections or between files, polish markedly different from the rest of the piece, American spelling in otherwise New Zealand English writing, generic analysis that is not tied to this student's own sources, data or context, formatting artefacts. DESCRIBE what you see and where — quote it.
-  [TASK]         The student answered a different question from the one set, ignored part of the task, or the task design itself may limit grades (raise cohort-wide task issues once, in the teacher section).
+  [TASK]         The student answered a different question from the one set, ignored part of the task, or the task design may LIMIT or INFLATE grades, for example a task that prints the evaluative questions or a writing frame word for word. Where a student's analysis or evaluation follows the task's prompts in order, say so, and judge whether each judgement adds the student's own reasoning beyond answering the prompt (raise cohort-wide task issues once, in the teacher section).
   [SUFFICIENCY]  Too little evidence to judge a gate, or a section or file that appears missing or cut off.
   [LENGTH]       Length may be swaying the grade. Compare the Step 0 word count with the class median, not with fixed numbers. Raise it when: (a) Merit or Excellence rests on a submission roughly half the median or less: name the REQUIRED item resting on the least developed passage; (b) a submission is roughly double the median or more and the decisive evidence is buried, or the quality is diluted by background, retelling or repetition: say where the strongest passage is; (c) the task's word or time guide is clearly exceeded or far from met. Say what the teacher should read to confirm the grade. Not a grade gate. Skip (a) and (b) when there are fewer than five students, or when words are not the main evidence (performance, practical, visual or mathematical work).
   [JUDGEMENT]    A REQUIRED item you found UNCLEAR for this student. Name the item, give the competing readings with a short quote for each, say which grade each reading leads to, and say exactly what the teacher would need to look at to decide. Every Borderline grade must have at least one [JUDGEMENT] point explaining it.
@@ -1296,9 +1325,12 @@ For each student, list anything the teacher should verify. Use these tags:
   [YOUR GRADE]   ${has('provisional') ? 'Your provisional grade differs from the teacher’s. State both and the deciding evidence. Form your own judgement BEFORE you look at the teacher’s grade so you are not anchored by it.' : 'Not used — no provisional grades supplied.'}
 
 Honesty rules for Points to note — these matter:
-  - Never state or imply that work was written by AI, plagiarised, or copied. You cannot know that, and AI-detection is unreliable. Describe the observable feature and leave the judgement about authenticity to the teacher, who knows the student and has their drafts.
+  - Never state or imply that work was written by AI, plagiarised, or copied. You cannot know that, and AI-detection is unreliable. Describe the observable feature and leave the judgement about authenticity to the teacher, who knows the student and has their drafts. Where specific detail clearly goes beyond the resources the task lists and the bibliography does not account for it, add a neutral [SOURCE] point suggesting the teacher check it against the drafts or checkpoints, without implying misconduct.
+  - Never put words in quotation marks unless they appear in the attached files, and do not describe how work was produced (typed, handwritten, digital) unless a file or the teacher says so.
   - Never say a source is "fabricated" or "fake". Use the three statuses above. Never label something CONFIRMED unless you actually checked it.
   - Mark a fact as an error only if you are confident. Otherwise use "check".
+  - Before you use any student claim as Merit or Excellence evidence, test it against your own subject knowledge. If it is oversimplified, contested, or contradicts another part of the work (for example a "counter-example" that does not hold, or figures that conflict with each other), log [ACCURACY] and do not count it towards the gate. The same applies to a model or theory applied incorrectly.
+  - Rank [ACCURACY] points: likely errors first, then routine checks, so the teacher knows which matter.
   - If there is nothing to note for a student, write "Nothing flagged." Do not manufacture concerns.
 
 ${head('OUTPUT')}
@@ -1312,11 +1344,11 @@ PART 1 — MODERATION TABLE (markdown table, exactly these columns; ${tasks.map(
 Under the table give the key: ${tasks.map((t,i) => `${L[i]} = ${t}`).join('; ')}.
 - Words: approximate readable words from Step 0, for reference only. It never decides the grade.
 - Overall: the gate-capped overall grade.
-- Confidence: High, or Borderline X/Y (name the two grades). Confidence describes how strong and clear the evidence is for this judgement — not a prediction that NZQA or another assessor would agree.
+- Confidence: High, Moderate, or Borderline X/Y. High = every REQUIRED item at the recorded grade is met in more than one place and you would expect another expert to agree. Moderate = the recorded grade is your best-fit judgement, but at least one REQUIRED item rests on uneven or single-section evidence (always use Moderate if any component sits at Low of the recorded grade or below it). Borderline = a REQUIRED item is UNCLEAR, so the lower grade is recorded. Confidence describes how strong and clear the evidence is for this judgement, not a prediction that NZQA or another assessor would agree.
 - Why: ONE or TWO sentences naming the gate that decided the grade and the QUALITY of the key thinking, e.g. "Evaluates with specific evidence on both sides (ladder 3), but never weighs them to a justified judgement, so caps at Merit [short quote]."
 
 EXCELLENCE CHECK (directly under the table, every batch): for every student given Excellence, one row:
-| Student | Excellence item | Decisive quotation (file, section) | Quality ladder level (and where else it is shown) | Why this goes beyond Merit |
+| Student | Excellence item | Decisive quotation (file, section) | Weakest passage it depends on (quote, ladder level) | Where else it is shown | Why this goes beyond Merit |
 If you cannot fill a row honestly, change that student to Merit (Borderline M/E) before you print the table.
 
 PART 2 — POINTS TO NOTE (markdown table)
@@ -1632,7 +1664,7 @@ $('copy').onclick = async () => {
 };
 document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('click', copyPrompt));
 
-$('build').textContent = 'Build 13 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
+$('build').textContent = 'Build 16 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
 document.body.dataset.kind = 'int';
 /* ---- data freshness: the standards, specifications and cut scores here were checked for the 2026 year ---- */
 (function(){

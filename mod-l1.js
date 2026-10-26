@@ -1,7 +1,7 @@
 /* ============================================================
    NCEA LEVEL 1 — MODERATION DATA (internal standards only)
    Loaded by whs-moderation-engine.html. Keep in the same folder.
-   Generated 2026-10-24 from NZQA sources (see each standard's
+   Generated 2026-10-25 from NZQA sources (see each standard's
    version and "verified" date). Gates: type "req" = REQUIRED (standard
    wording or NZQA clarification; may cap a grade); "ind" = INDICATOR
    (examples of quality; never a checklist). "excluded" lists internal
@@ -116,6 +116,31 @@ window.MOD_DATA['1'] = {
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/chemistry-and-biology/"
     }
    ],
+   "associations": [
+    {
+     "name": "New Zealand Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/resources/resources-by-nzase/",
+     "notes": [
+      "Publishes the Science NCEA Level 1 Subject Learning Outcomes companion (public PDF) and a Level 1 resources Google Drive (Feb 2025); content of the Drive was not reviewed.",
+      "Term 1 2025 PLD 'Unpacking moderation, writing and critiquing assessment tasks' slides are linked from nzase.org.nz; content not summarised publicly.",
+      "No public standard-specific marking advice for these standards was found; NZQA exemplars and clarifications remain the authority."
+     ]
+    },
+    {
+     "name": "Biology Educators of Aotearoa New Zealand (BEANZ)",
+     "url": "https://www.tda.org.nz/nex/biology-educators-of-aotearoa-new-zealand",
+     "notes": [
+      "Biology teachers' association; no public guidance specific to 92020 or 92022 was found."
+     ]
+    },
+    {
+     "name": "Secondary Chemistry Educators of New Zealand (SCENZ, part of NZIC)",
+     "url": "https://nzic.org.nz/scenz",
+     "notes": [
+      "Chemistry teachers' association; no public guidance specific to 92021 or 92023 was found; resources are member-only."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "92020",
@@ -151,17 +176,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "E. coli: describes reproduction and nutrition (only one life process was needed) and how temperature affects growth, using observations — slow growth at fridge and freezer temperatures, growth at 26°C, restricted growth at 40°C.",
-       "miss": "Not Merit because the temperature effects are described rather than presented as a linked change in the factor and its effect on the life process."
+       "text": "E. coli: described reproduction and nutrition (only one life process needed) and how temperatures affect growth, using observations (fridge/freezer slow, 26°C growth, 40°C restricted).",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry-and-Biology/Exemplars/Level-1/92020/92020-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Phytophthora agathidicida (kauri dieback): describes movement and a range of soil moisture levels affecting it; using secondary data, links a change in water availability in the ngahere to zoospore movement toward kauri roots.",
-       "miss": "Not Excellence because it covers only the environment affecting the organism, not how the organism's life process affects a factor of the environment."
+       "text": "Phytophthora agathidicida: described zoospore movement and soil moisture levels, using secondary data to link water availability in the ngahere to movement towards kauri roots.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry-and-Biology/Exemplars/Level-1/92020/92020-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Yeast: describes respiration and a range of temperatures affecting it; links a temperature change to the effect on respiration; examines how respiration affects the environment — oxygen use during respiration reduces oxygen levels — using observations."
+       "text": "Yeast: described respiration across temperatures, linked temperature change to respiration, and examined how respiration reduced oxygen in the interconnected environment using observations.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry-and-Biology/Exemplars/Level-1/92020/92020-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -241,6 +273,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -279,17 +312,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Antacids (one reaction type shown): describes reactants and products using equations from the resource sheet, states that matter is not created nor destroyed, and links the reaction to the context with a predictable pattern. NZQA notes an overall Achieved needs at least three different reaction types.",
-       "miss": "Not Merit because it does not explain the relationship between reactants and products and does not use observations from the context."
+       "text": "Antacids reaction (one of three types): described reactants and products using Resource Sheet equations, referred to conservation of mass and linked to a predictable pattern.",
+       "miss": "Did not explain the reactant–product relationship or use observations from the antacids context; similar evidence for two more reaction types needed overall.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry-and-Biology/Exemplars/Level-1/92021/ChemBio-92021-EXP-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Sparklers: explains how elements in the reactants rearrange into the products, supported by a balanced equation showing equal quantities of each element on both sides; uses observations and a predictable pattern to explain the link to the context.",
-       "miss": "Not Excellence because it explains the mass relationship but does not discuss an implication of conservation of mass in the context."
+       "text": "Sparklers reaction: explained rearrangement of elements with a balanced equation and used observations and a predictable pattern to link to the context.",
+       "miss": "Did not discuss an implication of conservation of mass for sparklers; similar evidence for two more reaction types needed overall.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry-and-Biology/Exemplars/Level-1/92021/ChemBio-92021-EXP-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Methane combustion in cooking: discusses an implication of conservation of mass — soot on the outside of a pot indicates less oxygen was available to react with methane — linked to predictable patterns, observations and both complete and incomplete combustion equations. NZQA notes overall Excellence also needs similar evidence for two other reaction types."
+       "text": "Natural gas cooking: discussed conservation of mass implications, explaining soot on the pot when less oxygen reacts with methane, with complete and incomplete combustion equations.",
+       "miss": "Similar evidence for two other reaction types needed for an overall Excellence.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry-and-Biology/Exemplars/Level-1/92021/ChemBio-92021-EXP-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -365,6 +405,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -396,6 +437,15 @@ window.MOD_DATA['1'] = {
     {
      "label": "Level 1 Commerce assessment matrix (NCEA.education)",
      "url": "https://ncea.education.govt.nz/social-sciences/commerce?view=assessment"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Commerce and Economics Teachers Association (NZCETA), the national association for Economics, Business Studies and Accounting teachers (no body named EBENZ was found)",
+     "url": "http://www.nzceta.co.nz/index.htm",
+     "notes": [
+      "No publicly accessible NCEA marking or moderation guidance from NZCETA was found; its website could not be opened in this session (checked October 2026)."
+     ]
     }
    ],
    "standards": [
@@ -439,17 +489,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "A school choosing how to use a donation (weights room, smartboards, laptops), compared with two financial tools; stakeholder perspectives explained; the weights room choice supported by financial data and linked to the school’s pūtake (physical activity supporting student well-being).",
-       "miss": "Not Merit because only one consequence for the school or its stakeholders was explained beyond gym membership income; NZQA states a second consequence (positive or negative) is required."
+       "text": "School donation (ZHS): weights room, smartboards and laptops compared with two financial tools; weights room chosen; stakeholder views on all three explained; decision linked to the school's pūtake (physical activity and wellbeing).",
+       "miss": "Only one consequence for a stakeholder (cheap gym access); Merit requires a second positive or negative consequence for the school or stakeholders.",
+       "version": "Not stated (current Version 4)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Commerce/92028/Com-92028-EXP-Ach.pdf"
       },
       {
        "grade": "Merit",
-       "text": "A $180,000 grant: repairing the pool versus building a new one, compared with a cost-benefit analysis; the new pool justified on long-term cost effectiveness and its fit with the school’s kaitiakitanga commitment; stakeholder perspectives and several consequences (lessons, pool access, events, maintenance) explained.",
-       "miss": "Not Excellence because the responses to negative consequences (a booking system, maintenance sponsorship) would apply equally to either option — Excellence needs responses specific to the consequences of the chosen decision."
+       "text": "$180,000 pool grant: repairing versus building new, compared by cost-benefit analysis; new pool justified on long-term cost effectiveness and kaitiakitanga; stakeholder perspectives and consequences explained (lesson planning, pool-time competition, events, maintenance).",
+       "miss": "Did not explain mitigation of negative consequences specific to the new pool; booking system and sponsorship ideas would apply to either option.",
+       "version": "Not stated (current Version 4)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Commerce/92028/Com-92028-EXP-Mer.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Two delivery vehicles compared on features, purchase price and a loan calculator; the LDV van argued to better meet the pūtake (waste reduction, financial viability, stakeholder well-being); perspectives of management, employees/volunteers and community analysed, acknowledging where interests were compromised; specific mitigations proposed for the van’s environmental impact and manual transmission."
+       "text": "Resale organisation's vehicle: LDV van chosen over a Volkswagen using a feature comparison and loan-calculator finance costs; linked to pūtake (waste reduction, viability, wellbeing); perspectives of management, volunteers and community analysed; consequences with mitigations.",
+       "miss": "",
+       "version": "Not stated (current Version 4)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Commerce/92028/Com-92028-EXP-Exc.pdf"
       }
      ],
      "conditions": [
@@ -557,6 +614,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -598,17 +656,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Lolly bags priced at $2.00 from a 48c cost plus a 300% markup, rounded from $1.92 for a cash-only market day; a table of cost, markup and selling price and a projected income statement with sales volumes from market research. A 10% tax was applied correctly and its effect on profit explained.",
-       "miss": "Not Merit because two pricing options were not both explained: a $2.50 price was mentioned but no reworked income statement (including the tax) was produced or used."
+       "text": "Market-day lolly bag priced at $2.00 from 48c cost and 300% markup (rounded from $1.92); cost/markup/price table, income statement with projected profit, sales volume from market research; 10% tax applied correctly with effect on profit explained.",
+       "miss": "Merit needed two pricing options explained (change or keep price); the $2.50 option had no taxed income statement or explanation.",
+       "version": "Not stated (current Version 4)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Commerce/92029/Com-92029-EXP-Ach.pdf"
       },
       {
        "grade": "Merit",
-       "text": "A minimum wage rise ($4,000 extra for two workers) explained as raising costs and cutting profit; four pricing options with reworked income statements, two explained using them; the decision to keep the $38 price.",
-       "miss": "Not Excellence because the justification for keeping $38 mainly compared it with the other options; more reasons backed by the reworked income statement figures were needed."
+       "text": "Garden service: minimum-wage rise ($4,000 for two workers) shown to raise costs and cut profit; four pricing options with reworked income statements; two explained; kept the $38 price.",
+       "miss": "Justification for keeping the price relied on comparing with other options; needed more reasons supported by figures from the reworked income statements.",
+       "version": "Not stated (current Version 4)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Commerce/92029/92029-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "A new mussel-opening machine: effects on productivity shown as a supply shift on a demand and supply model; a price cut from $10 to $9 justified with model points and revenue and profit calculations; consequences for the business, customers, competitors (possible price war), employees and government. NZQA notes the employee and government consequences drifted towards the owner’s expansion rather than the $9 price."
+       "text": "Food truck: new mussel-opening technology shown as a rightward supply shift on a demand and supply model; $10 versus $9 compared; $9 justified by clearing surplus and raising revenue and profit; consequences for owner, customers, competitors, employees, government.",
+       "miss": "",
+       "version": "Not stated (current Version 4)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Commerce/92029/92029-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -700,6 +765,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -725,6 +791,7 @@ window.MOD_DATA['1'] = {
      "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?query=Digital+Technologies&view=all&level=01"
     }
    ],
+   "associations": [],
    "standards": [],
    "excluded": [
     {
@@ -767,6 +834,16 @@ window.MOD_DATA['1'] = {
      "url": "https://ncea.education.govt.nz/arts/drama"
     }
    ],
+   "associations": [
+    {
+     "name": "Drama New Zealand (Whakaari Aotearoa)",
+     "url": "https://www.drama.org.nz/resources",
+     "notes": [
+      "Free 'NCEA Implementation Resources' (Networks of Expertise) include teaching-practice packs for the new Level 1 standards (e.g. 1.1 Explore the function of theatre Aotearoa) and annotation-literacy activities; they are teaching aids, not marking guidance.",
+      "Drama NZ sells practice written exams (Level 2: 91215/91219; Level 3: 91514/91518) through a members' shop, with general teacher instructions; content not publicly viewable, so not used here."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91940",
@@ -804,17 +881,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Played Mr McRae in an extract from Astroman (Albert Belz). Linked manaakitanga to a te ao Māori worldview and showed it through character, subtext and interaction with peers; used role, accent and costume. Described drama educating, entertaining and healing (racism, bullying, family; supporters need not be blood relatives).",
-       "miss": "Not Merit (inferred from the commentary and criteria): the work describes the drama and its themes but does not explicitly explain how the performance connects to each function."
+       "text": "Plays Mr McRae in an Astroman (Albert Belz) extract, showing manaakitanga through character, subtext, peer interaction; describes drama educating, entertaining, healing (racism, bullying, chosen family).",
+       "miss": "For Merit: explain the function of theatre Aotearoa — connections between the performance and the use of drama.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-1/91940/91940-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Played To'aga in an extract from Dawn Raids (Oscar Kightley). Linked manaakitanga to kindness, care and respect in process and performance. Explained how drama components (techniques for the character's age and physicality, chosen technologies) were used, and connected the performance to educating audiences about racism against Māori and Pacific peoples in the 1970s.",
-       "miss": "Not Excellence (inferred): the explanation stays with the historical context and does not examine how the performance relates to communities today."
+       "text": "Plays To'aga in a Dawn Raids (Oscar Kightley) extract: links manaakitanga to approach and performance, techniques for age and physicality, connects play to 1970s arrests and deportations of Pacific people.",
+       "miss": "For Excellence: examine the function of theatre Aotearoa, reflecting on the performance's relationship to communities today.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-1/91940/91940-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Performed the Adjutant in an extract from Shuriken (Vincent O'Sullivan). Showed manaakitanga through respect for and support of peers and reciprocity in sharing ideas. Examined how the play educates and transforms, using the playwright's purpose; reflected on contemporary communities (racism and prejudice in New Zealand today, current wars); analysed how slow motion and choral voice create 'frame distance' for the audience."
+       "text": "Adjutant in a Shuriken (Vincent O'Sullivan) extract on a NZ POW camp: manaakitanga as respect and reciprocity; playwright's purpose; links prejudice to NZ today and Ukraine; slow motion and chorus creating distance.",
+       "miss": "",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-1/91940/91940-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -909,6 +993,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "Participation in the performance, the drama components actually used and manaakitanga shown during rehearsal and performance cannot be judged from the written evidence alone — the teacher must check these against the recording, observation notes or recorded conferencing.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -942,6 +1027,15 @@ window.MOD_DATA['1'] = {
     {
      "label": "NZQA English clarifications",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/select-subject/english/clarifications/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Association for the Teaching of English (NZATE)",
+     "url": "https://www.nzate.co.nz/",
+     "notes": [
+      "No publicly accessible NZATE marking or moderation guidance for these standards was found in October 2026 (the site could not be opened from this session; searches surfaced no public NCEA marking documents). Use NZQA exemplars, clarifications and the NMR."
+     ]
     }
    ],
    "standards": [
@@ -982,17 +1076,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Context described as the early First World War; the text a poem intended to persuade men to enlist. Four features typical of persuasive early-WWI poetry (euphemism, repetition, rhetorical questions, metaphor), two examples each, with a description of how each is typical of WWI propaganda poetry.",
-       "miss": "Not Merit because the context needed more detail and the explanation needed to show specifically how the context influences the language used."
+       "text": "Early WWI recruiting poem: identifies context and persuasive purpose, four verbal language features with two examples each (e.g. 'Who'll grip and tackle the job unafraid?' read as a euphemism making war seem brave).",
+       "miss": "For Merit: give more detail of the context and more specific explanation of verbal language use common in that context.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91924/Eng-91924-EXP-Ach.pdf"
       },
       {
        "grade": "Merit",
-       "text": "A mental health podcast episode on self-talk aimed mainly at teenagers; accurate, specific detail on audience, purpose and text type. Six features common to social-issue podcasts (rhetorical questions, personal pronouns, comparative language, anecdote, emotive vocabulary, pejoratives), each explained for function and effect and linked to how the context influences the language.",
-       "miss": "Not Excellence because it did not draw conclusions about the interplay of context and language — e.g. why a defined teen audience on a mental health topic needs features that both engage and reassure in an age-appropriate way."
+       "text": "Mental-health podcast on self-talk aimed at teenagers: explains six features common to social-issue podcasts (e.g. rhetorical question prompting reflection, pejoratives showing seriousness), with function and effect of each in detail.",
+       "miss": "For Excellence: draw conclusions about the interplay between the context and verbal language use.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91924/Eng-91924-EXP-Mer.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "David Lange’s Oxford Union nuclear weapons debate speech: audience, purpose, text type, time and place explained. Three features (humour, triples, metaphor) with several examples each, each examined and linked to the debate’s purpose. Conclusions drawn about why context and language interact and the effect on the audience (e.g. why a metaphor suited an educated, international audience)."
+       "text": "Speech from a nuclear-weapons debate: explains audience, purpose, text type, time and place; three features (informal humour, metaphor, triples) with several examples, drawing conclusions about effect, e.g. triples creating fear about the future.",
+       "miss": "",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91924/Eng-91924-EXP-Exc.pdf"
       }
      ],
      "conditions": [
@@ -1088,6 +1189,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "If the evidence is a recorded oral presentation or video, the AI sees only the transcript or written parts it is given, so the teacher must judge anything delivered live or shown visually, and check quotations against the source text the student submitted.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1127,23 +1229,60 @@ window.MOD_DATA['1'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "Creative: memories of a grandmother’s house that stay at the level of recount; unclear phrasing, fragments and run-ons make ideas hard to follow. Non-fiction: a chronological trip recount with little reflection, repetitive sentence starters and punctuation errors.",
-       "miss": "Not Achieved because ideas were not developed beyond recount (no reflection or explanation of why details matter), stylistic choices were not shaped for an audience, and errors affected meaning or fluency."
+       "grade": "Not Achieved (creative)",
+       "text": "Narrative about Nan's house (family gatherings, cookie jar, mum growing up there); limited personal reflection; unclear phrasing and fragments.",
+       "miss": "For Achieved: develop ideas by adding reflection or explanation of significance; errors in written conventions impede meaning.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Not-Achieved-Creative.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "Creative: a sequenced dystopian survival narrative with genre-appropriate detail, dialogue, a countdown device and a twist; errors do not impede meaning. Non-fiction: an opinion piece on youth job opportunities with a clear central idea, several causes, a statistic and local example, rhetorical questions and logical structure.",
-       "miss": "Not Merit because ideas needed extending and connecting (how and why each factor matters; the significance of key moments) and stylistic choices needed to be more precise and sustained for effect — informal phrases such as ‘bad system’ lacked nuance."
+       "grade": "Not Achieved (non-fiction)",
+       "text": "Chronological trip recount (beach games, lagoon cruise, Te Rua Manga hike) with brief personal responses and repetitive sentence starters.",
+       "miss": "For Achieved: develop ideas with reflection, explanation or purposeful detail; several errors affect fluency though they do not impede meaning.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Not-Achieved-Non-fiction.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Creative: a narrative connecting the writer’s relationship with pounamu across childhood and adolescence, with symbolism linking experiences. Non-fiction: a persuasive piece on global child inequality organised around a sustained ‘two sides, one coin’ contrast, points explained in depth, mostly accurate conventions.",
-       "miss": "Not Excellence because ideas were not integrated with insight — deeper implications (identity, whānau, whakapapa; systemic or moral causes) and more sophisticated rhetorical strategies and a synthesised conclusion were needed."
+       "grade": "Achieved (creative)",
+       "text": "Dystopian narrative of waking in a hostile setting before a storm: countdown device, second character and combat scene, twist ending for a teen audience.",
+       "miss": "For Merit: extend and connect ideas convincingly; give specific detail about the significance of key moments.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Achieved-Creative.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Creative: a soldier’s psychological dislocation on returning home, built through juxtaposed sensory experience and consistent symbolism (domestic sounds as echoes of danger). Non-fiction: climate change and Pacific nations, going beyond fact to unfairness and global responsibility, with extended metaphor and a synthesising conclusion. Conventions controlled in both."
+       "grade": "Achieved (non-fiction)",
+       "text": "Opinion piece on lack of job opportunities in NZ: causes such as unrealistic experience requirements and unfair hiring, a rhetorical question and cited statistic, logical move to a conclusion.",
+       "miss": "For Merit: convincingly extend and connect ideas; select vocabulary and stylistic features for effect to strengthen the argument.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Achieved-Non-fiction.pdf"
+      },
+      {
+       "grade": "Merit (creative)",
+       "text": "Narrative of a connection to pounamu from childhood to adolescence: Arahura river, collecting stones with cousins, sharing a find, the stone's symbolic role before a performance.",
+       "miss": "For Excellence: integrate ideas by exploring the deeper significance of pounamu.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Merit-Creative.pdf"
+      },
+      {
+       "grade": "Merit (non-fiction)",
+       "text": "Persuasive piece contrasting children in West African countries and NZ ('two sides, one coin'): malnutrition, water access, education, government underfunding.",
+       "miss": "For Excellence: integrate insightful ideas into the argument and use stylistic choices effectively.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Merit-Non-fiction.pdf"
+      },
+      {
+       "grade": "Excellence (creative)",
+       "text": "Soldier's psychological struggle returning home: contrasts vivid peace with trauma, sensory imagery, everyday domestic sounds turned into echoes of danger.",
+       "miss": "",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Excellence-Creative.pdf"
+      },
+      {
+       "grade": "Excellence (non-fiction)",
+       "text": "Climate change and Pacific nations (Kiribati, Tuvalu, Marshall Islands): unfairness and moral responsibility, extended metaphor and repetition, reflective call to action.",
+       "miss": "",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Excellence-Non-fiction.pdf"
       }
      ],
      "conditions": [
@@ -1235,6 +1374,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "The AI sees only the finished writing, so the teacher must verify the supervised, independent writing process (planning, drafting and editing) and that no generative AI or content-generating tool was used.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -1266,6 +1406,15 @@ window.MOD_DATA['1'] = {
     {
      "label": "Geography remote assessment matrix and guidance (NZQA)",
      "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/3-Assessment-matrix-docs/Geography-Remote-Assessment-Matrix-and-Guidance.pdf"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Board of Geography Teachers (NZBoGT), a subcommittee of the New Zealand Geographical Society",
+     "url": "https://www.nzgs.co.nz/education-and-engagement",
+     "notes": [
+      "NZBoGT advises the Ministry of Education and NZQA on geography matters and supports professional learning. Its NCEA exam resources and curriculum advice are for NZGS members only, so none were used (checked October 2026)."
+     ]
     }
    ],
    "standards": [
@@ -1306,17 +1455,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "New Zealand earthquakes. Describes a linear pattern along the Australian–Pacific plate boundary (Hikurangi subduction zone, Alpine Fault), plus clustered (top of the North Island) and dispersed (eastern South Island) areas, using parameters and terminology. Factors (subduction and transform boundary movement) are explicitly linked to the linear pattern. Economic, environmental and social impacts are described with evidence from Christchurch 2011 and Kaikōura 2016.",
-       "miss": "Not Merit because factors and impacts were described rather than explained; Merit needs specific causal links between factors and the distribution, supported by evidence. NZQA also noted North Island evidence (e.g. Napier or Wellington) was needed to cover the whole selected area."
+       "text": "New Zealand earthquakes: linear, clustered and dispersed distribution described with terms and examples; subduction and transform boundary processes linked to the linear pattern; economic, environmental and social impacts described with Christchurch and Kaikōura evidence.",
+       "miss": "Merit needs factors/processes and impacts explained, with specific links between processes and the distribution, supported by evidence and terminology. North Island examples (Napier, Wellington) would better cover the selected area.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91932/91932-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Tourist attractions in Rotorua. Distribution described with cluster, linear, uneven, scattered, outlier and concentration within the area’s parameters. Factors (accessibility, natural features such as Mt Ngongotaha and geothermal sites, infrastructure, historic sites) are explicitly linked to the distribution and explained. Social, economic and environmental impacts explained, positive and negative, with case study evidence.",
-       "miss": "Not Excellence because factors were not examined (looked at in detail, e.g. relief at the Ngongotaha cluster with the gondola, mountain biking, Zorb), and although employment and income were named as most significant, the response did not explain why (e.g. long-term) or why social and environmental impacts mattered less."
+       "text": "Rotorua tourist attractions: distribution described (cluster, linear, scattered, outlier, concentration); explained through accessibility, Mt Ngongotaha and geothermal features, infrastructure and historic sites; positive and negative social, economic and environmental impacts explained with case-study evidence.",
+       "miss": "Not analysed: factors not examined in detail (e.g. relief at Ngongotaha with gondola, mountain biking, Zorb); employment named most significant without explaining why long-term or why other impacts matter less.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91932/91932-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "New Zealand earthquakes. Complex description: linear and cluster patterns with specific examples, noting variations in the width of the linear pattern and where clusters occur. Moves from explanation to examination, linking subduction to faulting to the width of the pattern, with the distribution referred to throughout. An extensive range of impacts is explained and judged for significance (social/economic, short/long term, ‘large impact’, ‘equally as devastating’), integrating Christchurch, Napier/Hawke’s Bay and Kaikōura case studies."
+       "text": "New Zealand earthquakes: linear and cluster distribution including variation in the width of the line; processes examined (subduction to faulting to width of pattern); wide range of impacts judged for significance by category, timeframe and severity; Christchurch, Napier/Hawke's Bay and Kaikōura evidence integrated.",
+       "miss": "",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91932/91932-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -1424,6 +1580,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "Maps and annotated diagrams are judged from images; the teacher should confirm map accuracy and that any student-drawn maps are the student’s own.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1461,17 +1618,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "A lake, defined with annotated maps; bar graphs, annotated photos and maps used to describe findings (e.g. poor water clarity could be dangerous for people and wildlife). The data was sufficient to explore the environment, and the student described how one day of data limits understanding.",
-       "miss": "Not Merit because findings were described rather than explained, and only a limitation was addressed — Merit needs both how the data strengthens AND limits understanding."
+       "text": "A lake defined with annotated maps; data processed into bar graphs and annotated photos; water-clarity findings described (poor quality, possible danger to people and wildlife); described how one day of data limits understanding.",
+       "miss": "Merit needs findings explained, not described, and an explanation of how data both strengthens AND limits understanding; only a limitation was given.",
+       "version": "Not stated; PDF filename indicates Version 2 (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91933/91933-Exemplar-v2.pdf"
       },
       {
        "grade": "Merit",
-       "text": "A school campus microclimate using processed raw climate data, graphs, annotated photos and an annotated map. Findings explained (highest temperature at site 3 explained by photos showing shelter from wind); microclimates identified and explained; strengths and limits of the data explained (no seasonal or long-term patterns).",
-       "miss": "Not Excellence because there was no valid, cohesive conclusion about the school’s microclimate, and long-term monitoring was named without explaining how it would improve understanding. NZQA also noted the 1,639-word response was longer than expected and needed more critical selection of evidence."
+       "text": "School-campus microclimate: raw climate data processed into a temperature graph with annotated photos and map; highest temperature at site 3 explained by shelter from wind; microclimates identified; limits explained (no seasonal or long-term patterns).",
+       "miss": "No valid, cohesive conclusion about the microclimate; did not explain how added data (long-term monitoring) would improve understanding. About 1,639 words, over expected length; needed more explicit data-to-environment links.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91933/91933-exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Wairau Creek using graphs, annotated photos and maps. High phosphate levels explained using photos and maps; interviews with locals explained as strengthening understanding through long-term information; nitrate readings explained as limiting because they do not show pollution type or area. Additional data (longer monitoring, better kits) discussed for how it would improve understanding, and findings support a valid conclusion that the creek is polluted."
+       "text": "Wairau Creek: graphs, annotated photos and maps; high phosphate explained using photos and maps; interviews with locals added long-term information; explained nitrate readings do not show pollution type or location; suggested longer monitoring and better kits; concluded the creek is polluted.",
+       "miss": "",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91933/91933-exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -1552,10 +1716,12 @@ window.MOD_DATA['1'] = {
       "Graphs or maps without titles, keys, units or scale, which weakens the findings they support.",
       "Over-long reports with uncritical inclusion of every dataset.",
       "Identical class datasets and near-identical findings across students — check that interpretation is the student’s own.",
-      "Conclusions that do not follow from the findings or go beyond what the data shows."
+      "Conclusions that do not follow from the findings or go beyond what the data shows.",
+      "NZQA's 91933 Achieved exemplar PDF is filed as 'v2' (an earlier version); check judgements drawn from it against the current Version 3 wording."
      ],
      "aiLimits": "The AI judges graphs, maps and annotated photos from images and cannot confirm the data was collected or the visuals generated by the student; the teacher should verify this.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -1591,6 +1757,15 @@ window.MOD_DATA['1'] = {
     {
      "label": "Health Studies exemplars (NZQA)",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health-studies/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Health Education Association (NZHEA)",
+     "url": "https://tda.org.nz/nex/new-zealand-health-education-association",
+     "notes": [
+      "No publicly accessible marking or moderation guidance found (October 2026); NZHEA support runs through its network of expertise. Use NZQA exemplars, clarifications and NMR."
+     ]
     }
    ],
    "standards": [
@@ -1631,17 +1806,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Preparing and sharing a whānau meal (Food and Nutrition), applied to the student's own wellbeing with Te Whare Tapa Whā. Effects and interconnections are described and linked to the experience's wellbeing purposes; all parts of the model frame the descriptions, supported by context-specific examples.",
-       "miss": "Not Merit because it describes effects without explaining WHY, e.g. why sourcing ingredients from the home garden mattered and what that meant for physical and social wellbeing."
+       "text": "Used Te whare tapa whā to describe effects of a Food and Nutrition experience (preparing and sharing a family meal) on own wellbeing; effects and interconnections described and linked to wellbeing purposes with context-specific examples; all parts of the model used.",
+       "miss": "For Merit the student could explain, with examples, why hauora is impacted by the experience.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health-Studies/92008/92008-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "The same Food and Nutrition experience; effects and interconnections are explained (why, not just what) and linked to the wellbeing purposes, with all parts of Te Whare Tapa Whā framing the explanations and context-specific examples.",
-       "miss": "Not Excellence because the explanations are not extended into conclusions about how wellbeing might be affected in the long term, with reference to the model and the wellbeing focus."
+       "text": "Explained the effects of the same family-meal experience on own wellbeing using Te whare tapa whā; effects and interconnections explained and linked to wellbeing purposes, with context-specific examples and all parts of the model.",
+       "miss": "For Excellence, further evidence explaining how wellbeing might be affected in the long term, drawing on the model and the activity's intended wellbeing focus.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health-Studies/92008/92008-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Explains effects linked to the experience's wellbeing reasons and draws conclusions about short- and long-term effects across all parts of Te Whare Tapa Whā, with evidence of how personal and interpersonal skills gained will support wellbeing over time."
+       "text": "Explained effects of the family-meal experience and drew conclusions about short- and long-term effects, linked to the wellbeing reasons for the experience; examples show how personal and interpersonal skills gained support wellbeing over time.",
+       "miss": "",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health-Studies/92008/HSt-92008-EXP-Exc.pdf"
       }
      ],
      "conditions": [
@@ -1727,10 +1909,12 @@ window.MOD_DATA['1'] = {
       "Generic statements that could fit any activity ('this makes me feel happy') with no context-specific example.",
       "Interconnections asserted ('all the walls are connected') rather than shown through the activity.",
       "Unrealistic long-term claims at Excellence, or long-term effects that are just the short-term effects restated.",
-      "Personal disclosures about mental health, relationships or whānau — handle per the privacy note."
+      "Personal disclosures about mental health, relationships or whānau — handle per the privacy note.",
+      "NZQA's exemplar page does not say which version the exemplars were marked against; the current standard is Version 4 (December 2024), so check exemplar judgements against current wording."
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1769,17 +1953,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "A 17-year-old asked by her boyfriend to send nude pictures (Relationships and Sexuality). Factors and possible consequences are described across several influences; a decision (not sending) is proposed with reference to hauora.",
-       "miss": "Not Merit because it does not explain why the factors and consequences are significant or how they interrelate, e.g. how personal knowledge combined with fear of leaked images (emotional and social effects) together lead to the decision."
+       "text": "Teen deciding whether to send a nude image (RSE context): described factors and possible consequences and proposed not sending it, referring to aspects of hauora.",
+       "miss": "Merit requires explanation of why the factors and consequences are significant to the proposed decision.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health-Studies/92009/92009-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Kalani, a boarder who thinks hostel food has become less healthy, weighs raising it with management against upsetting friends who like the meals. Factors and consequences are discussed, their significance explained with reference to hauora, and their interrelationship explained to inform the decision. NZQA notes the dietary focus needed deeper Food and Nutrition concepts.",
-       "miss": "Not Excellence because it does not draw conclusions about the significance of the decision, e.g. long-term or broader impacts on Kalani's emotional wellbeing and resilience when acting on her values risks relationships."
+       "text": "Discussed factors and consequences and explained their significance (e.g. importance of friendships) for hauora; explained how factors interrelate to inform the decision. Relational scenario with a dietary focus.",
+       "miss": "Needed further evaluation and conclusions about the significance of the decision-making, e.g. long-term or broader impacts on emotional wellbeing and resilience.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health-Studies/92009/92009-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "The nude-image scenario: factors and consequences discussed through a socio-ecological perspective, their significance explained, multiple influences interrelated, subject-specific RSE knowledge shown, and a conclusion drawn in relation to hauora. NZQA notes it could be strengthened by societal factors such as the legal implications of sending nude images."
+       "text": "Nude-image decision: discussed factors and consequences with a socio-ecological perspective and subject knowledge, explained how multiple influences and outcomes interrelate, and concluded (not sending) in relation to hauora.",
+       "miss": "",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health-Studies/92009/92009-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -1861,10 +2052,12 @@ window.MOD_DATA['1'] = {
       "Justifications resting on indirect factors (cost, time, knowledge) instead of hauora.",
       "A situation that slips out of its Key Area of Learning or lacks subject-specific knowledge (e.g. a food dilemma with no nutrition concepts).",
       "A 'conclusion' that just restates the decision rather than judging the significance of the decision-making.",
-      "Scenario content about sexting, alcohol or relationships that reads as personal disclosure — handle per the privacy note."
+      "Scenario content about sexting, alcohol or relationships that reads as personal disclosure — handle per the privacy note.",
+      "NZQA's exemplar page does not say which version the exemplars were marked against; the current standard is Version 3 (December 2023), so check exemplar judgements against current wording."
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -1906,6 +2099,16 @@ window.MOD_DATA['1'] = {
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/history/as-92025/"
     }
    ],
+   "associations": [
+    {
+     "name": "NZ History Teachers' Association (NZHTA)",
+     "url": "https://tda.org.nz/nex/new-zealand-history-teachers-association",
+     "notes": [
+      "Checked October 2026: NZHTA is a support and advocacy body (member email-outs, surveys, the Aotearoa NZ histories campaign). No public marking, moderation or exemplar guidance was found; its own website could not be reached for checking.",
+      "No public joint NZQA–NZHTA moderation guidance was found. For History, use NZQA's own clarifications, National Moderator's Reports and annotated exemplars."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "92024",
@@ -1945,17 +2148,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Five different primary source types (interview, letter, newspaper articles, artefact, photograph) for the focus question ‘What was the experience of war like for New Zealanders?’. Each source has an annotation explaining how it addresses the question with specific reference to its evidence, and at least one valid strength or limitation (reliability, representation, gaps in evidence). The varied comments show a consistent grasp of what historians consider when judging a source’s value.",
-       "miss": "Not Merit because main ideas were identified for only three sources and needed a more explicit link to the focus question for the rest; some bullet-point annotations were too thin to count as valid strengths (e.g. listing love, homesickness and tiredness is content, not a strength); limitations needed explaining — e.g. for a veteran’s interview, the time elapsed, the conditions of war, and the influence of others’ accounts on memory."
+       "text": "Five primary source types (interview, letter, newspaper articles, artefact, photograph) on New Zealanders' experience of war. Each annotated for relevance to the focus question with specific evidence, plus at least one valid strength or limitation.",
+       "miss": "Main ideas clearly identified for only three sources; others needed main ideas and an explicit link to the question. Some annotations listed content, not a strength; limitations needed explaining (e.g. a veteran's interview).",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-1/92024/92024-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "A variety of appropriate sources on violent responses to the US civil rights movement (two photographs, a newspaper article, an FBI document, a speech transcript). Relevance to the focus question clearly explained; main ideas identified in each source template and in a final evaluation (violent responses, passive resistance, extremism of some segregationists including law enforcement). Strengths and limitations within the collection are explained, not just identified, for several sources.",
-       "miss": "Not Excellence because connections between sources referring to the main ideas were only basic (a final slide of shared ideas), and limitations of the collection as a whole were not addressed — e.g. gaps in the evidence, whether the full timeframe is captured, whether all forms of violence (such as forceful arrests) are represented. Some strength comments still only described the source or its type. The comment on strong corroboration increasing reliability was a valid whole-collection strength."
+       "text": "Two photographs, a newspaper article, an FBI document and a speech transcript on violent responses to the US civil rights movement. Main ideas identified (violence, passive resistance, segregationist extremism); strengths and limitations explained for four sources.",
+       "miss": "Connections between the sources' shared ideas were only basic, and limitations of the collection as a whole (gaps, timeframe covered, forms of violence such as forceful arrests) were not addressed.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-1/92024/92024-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Primary sources on the different experiences of New Zealanders in the RNZAF in World War Two, each clearly linked to the focus question. Main ideas identified (pride in service, survival and escape, bravery, homesickness, danger and risk). Connections are made explicitly in a template after the sources, noting where ideas repeat and where they differ (e.g. two sources both address links with home; two contrast public and private narratives). Several strengths and limitations explained. A final paragraph reflects on the collection as a whole: the sources together show a range of experiences and capture personal, private aspects; limitations include representation and missing perspectives needed for a more balanced account."
+       "text": "Sources on New Zealanders' RNZAF experiences in World War Two. Main ideas identified (pride, survival, bravery, homesickness, danger); explicit connections showing where ideas repeat and differ; varied strengths and limitations; closing reflection on the collection's range, representation and missing perspectives.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-1/92024/92024-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2069,6 +2279,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "Where annotations are oral or recorded, sources were gathered in a group, or an interview was conducted jointly, the teacher must confirm each student’s individual engagement and that the sources are genuine primary sources not studied in class.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2108,17 +2319,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Whina Cooper, using impact. Describes her significance at curriculum level 6: work with the Māori Women’s Welfare League, leadership of the 1975 Māori Land March, inspiration for later Māori activists. Relevant evidence includes names of people, places, organisations and iwi, statistics (signatures on the memorial of rights) and dates.",
-       "miss": "Not Merit because general claims needed more examples and depth (e.g. what information she gave women, case studies of people affected, how far she gained support from parliamentarians), and the impact needed to be linked explicitly to her significance — moving from description to explanation."
+       "text": "Whina Cooper, through impact: Māori Women's Welfare League work, leadership of the 1975 Māori Land March, inspiration for later activists. Evidence includes names, iwi, statistics and dates; significance is described.",
+       "miss": "Needed more examples and depth (information she gave women, case studies, support from parliamentarians) and an explicit link between her impact and her significance, to move from description to explanation.",
+       "version": "Not stated by NZQA (files sit in NZQA's pilot-exemplar folder, so they may predate Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Pilot-exemplars-and-sample-assessments/Internal-pilot-exemplars/History/92025/92025-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Arrival of the Tainui waka, using collective maumaharatanga and tuakiri. Explains rather than describes: the meaning of Tāmaki Makaurau place names and the Portage Waka Ama event; how the waka shapes Tainui descendants’ identity (rohe boundaries of hapū, the waka in pepeha). Evidence includes names, places, events, 2018 statistics on Tainui descendants, photographs, maps, pepeha and dates. Links to significance are clear and frequent.",
-       "miss": "Not Excellence because the aspects were not applied to show depth — e.g. exploring how iwi contested rohe boundaries over time, or how naming narratives such as Ōtāhuhu form part of a wider collective memory of shared pūrākau."
+       "text": "Arrival of the Tainui waka, through tuakiri and collective maumaharatanga: Tāmaki Makaurau place names, the Portage Waka Ama event, hapū boundaries, the waka in pepeha. Well supported and repeatedly linked to significance.",
+       "miss": "Excellence needed the aspects applied to show depth, e.g. how iwi boundaries have been contested over time, or how Ōtāhuhu narratives form part of shared pūrākau in collective memory.",
+       "version": "Not stated by NZQA (files sit in NZQA's pilot-exemplar folder, so they may predate Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Pilot-exemplars-and-sample-assessments/Internal-pilot-exemplars/History/92025/92025-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Te Whiti o Rongomai, using collective maumaharatanga and impact. The strongest section examines how the Crown/government and the media have remembered him differently over time, showing a supported understanding that significance changes. Also considers his wider impact as a non-violent activist for Parihaka, New Zealanders and internationally. Aspects, context and evidence are integrated; evidence is specific and effective (pithy quotes, detailed examples, dates of events and policies, names of legislation, people and places)."
+       "text": "Te Whiti o Rongomai, through collective maumaharatanga and impact: how Crown/government and media remembrance of him changed over time, and his wider impact as a non-violent activist nationally and internationally. Specific evidence: quotes, dates, legislation.",
+       "miss": "",
+       "version": "Not stated by NZQA (files sit in NZQA's pilot-exemplar folder, so they may predate Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Pilot-exemplars-and-sample-assessments/Internal-pilot-exemplars/History/92025/92025-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2211,10 +2429,12 @@ window.MOD_DATA['1'] = {
       "Whakapapa, tuakiri or maumaharatanga named but used loosely or inaccurately; check te reo Māori terms are used with their full meaning.",
       "An aspect poorly matched to the context, which makes Merit/Excellence hard to reach — a task-guidance issue to raise with the teacher.",
       "Evidence that is general (‘many people’, ‘a long time ago’) rather than specific names, dates, statistics or short quotes; statistics and quotes that need checking.",
-      "Group submissions where individual contribution to every aspect is not evident."
+      "Group submissions where individual contribution to every aspect is not evident.",
+      "NZQA's 92025 exemplars sit in its pilot-exemplar folder and state no version; they may predate Version 3, so check any grade line against the current standard wording."
      ],
      "aiLimits": "If evidence was presented orally or in a group, the teacher must confirm from the recording, conferencing or individual reflections that each student individually met the standard.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -2246,6 +2466,30 @@ window.MOD_DATA['1'] = {
     {
      "label": "AS 91945 annotated exemplars",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/mathematics-and-statistics/as-91945/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ Association of Mathematics Teachers (NZAMT)",
+     "url": "https://www.nzamt.org.nz/",
+     "notes": [
+      "NZAMT runs Networks of Expertise (NEX) support for teachers implementing the reviewed NCEA standards (tda.org.nz). No publicly accessible NZAMT marking or moderation guidance was found; the NZAMT site could not be reached in this pass."
+     ]
+    },
+    {
+     "name": "Auckland Mathematical Association (AMA, NZAMT regional association)",
+     "url": "https://www.aucklandmaths.org.nz/",
+     "notes": [
+      "Public news posts relay NCEA change updates, Level 1 internal assessment resources from the Ministry and NZQA contract roles (markers, moderators); no standard-specific marking advice found."
+     ]
+    },
+    {
+     "name": "CensusAtSchool NZ / NZ Statistical Association Education Committee",
+     "url": "https://new.censusatschool.org.nz/nzsa/",
+     "notes": [
+      "Hosts NZSA Education Committee papers on NCEA statistics assessment (2013–2018), including 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014) and 'Issues in Level 2 NCEA AS 91264' (2015). Discussion papers, not NZQA-endorsed.",
+      "Michelle Dalrymple's sampling-variation resource (updated 2024) sets out the inference progression 91944 → 91264 → 91582 with teaching 'watch-fors'; the linked progressions document was not read."
+     ]
     }
    ],
    "standards": [
@@ -2287,17 +2531,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Explains the data source, including the population of interest, the variables and how the data was collected. Presents sample data with comparative dot plots and box-and-whisker graphs, and describes three comparative features (centre using the median, spread using the IQR, and shape) in context, each identifiable in the visualisations.",
-       "miss": "Not Merit because the enquiry was not completed with a correct call justified elsewhere in the process — e.g. an informal inference using data and measures from the visualisation."
+       "text": "Explained the data source (population, variables, how data was collected), presented comparative dot plots and box-and-whisker graphs, and described centre (median), spread (IQR) and shape in context.",
+       "miss": "Needed to make a correct call and provide more evidence of justification in the response.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Maths-and-Stats/Exams-and-exemplars/Level-1/91944/91944-exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Connects the stages of the enquiry: states a purpose, poses a question and makes an appropriate informal sample-to-population call. Centre, spread and shape are justified in context using a visualisation and measure, and the conclusion supports the call with data and measures from the visualisation.",
-       "miss": "Not Excellence because, although there is some reflection and contextual knowledge, statistical knowledge needed stronger integration — e.g. linking uncertainty about measurement variation discussed in the plan to clusters or unusual values in the visualisation."
+       "text": "Completed the enquiry: purpose and question identified, informal sample-to-population inference made, centre, spread and shape justified with a visualisation and measure, and the call justified again in the conclusion.",
+       "miss": "Needed more statistical insight, e.g. more strongly linking uncertainty in measurement to clusters or unusual values.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Maths-and-Stats/Exams-and-exemplars/Level-1/91944/91944-exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Shows statistical insight by reflecting on how to reduce measurement variation in both the plan and conclusion (weather conditions, how measurements are taken, clothing worn), and repeatedly links uncertainty about measurement variation to the centre, spread and shape features analysed."
+       "text": "Plan and conclusion reflect on minimising measurement variation (weather, how measurements were taken, clothing worn); statistical and contextual knowledge applied to features and conclusion, including how measurement uncertainty affected centre, spread and shape.",
+       "miss": "",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Maths-and-Stats/Exams-and-exemplars/Level-1/91944/91944-exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2407,6 +2658,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "Any handwritten work, hand-drawn graphs or annotations read from photos may be misread — the teacher checks the transcription; the teacher also verifies any data the student says they collected was genuinely collected.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2447,13 +2699,17 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Four appropriate methods across two or more areas in a garden-bed context: algebra to find rectangular dimensions maximising area; composite volume of the bed allowing for a water tower; converting garden mix from cubic metres to litres; linear proportion to find GST-exclusive prices. Working shown and what each answer represents is explained.",
-       "miss": "Not Merit because only ONE logical connection was made (composite volume linked to litres of soil); Merit needs a further connection linking one process to another, each part completed correctly."
+       "text": "Garden-bed context: four methods across two or more areas (algebra to optimise a rectangular area, composite volume allowing for a water tower, m³ to litres, linear proportion for GST-exclusive prices), working shown; one logical connection (composite volume to litres of soil).",
+       "miss": "Needed a further logical connection linking one process to another as part of a problem or problems.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Maths-and-Stats/Exams-and-exemplars/Level-1/91945/91945-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Two logical connections linking methods from two or more areas: quadratic tables and graphs linked to an optimal solution, and composite-shape volume linked to the conversion from cubic metres to litres. Conventions followed, rounding appropriate, answers related to context with suitable mathematical statements.",
-       "miss": "Not Excellence because no problem was extended — e.g. considering the limitations and assumptions of a solution and their mathematical impact, or making generalisations or predictions such as recommending the best model. No Excellence exemplar is published."
+       "text": "Two correct logical connections from two or more areas: quadratic tables and graphs linked to an optimal solution, and composite-shape volume linked to m³-to-litres conversion; conventions followed, appropriate rounding, solutions linked to context with mathematical statements.",
+       "miss": "Needed to extend at least one problem within the chosen methods, e.g. considering limitations and assumptions, or making generalisations or recommendations.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Maths-and-Stats/Exams-and-exemplars/Level-1/91945/91945-Exemplar-Merit.pdf"
       }
      ],
      "conditions": [
@@ -2551,6 +2807,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "Handwritten working read from photos may be misread (signs, indices, decimal points, units, diagram labels) — the teacher must check the transcription against the original before relying on any judgement about correctness, units or communication.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -2576,6 +2833,7 @@ window.MOD_DATA['1'] = {
      "url": "https://www.nzqa.govt.nz/ncea/assessment/search.do?query=Music&view=all&level=01"
     }
    ],
+   "associations": [],
    "standards": [],
    "excluded": [
     {
@@ -2616,6 +2874,17 @@ window.MOD_DATA['1'] = {
     {
      "label": "NZQA Issues in moderation 2025 (PE), hosted by PENZ",
      "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+    }
+   ],
+   "associations": [
+    {
+     "name": "Physical Education New Zealand (PENZ)",
+     "url": "https://www.penz.org.nz/resources/ncea-assessment-in-pe",
+     "notes": [
+      "PENZ 'Understanding NCEA Assessment in PE': critique last year's task against the standard and conditions before reuse; read clarifications before writing tasks; verify judgements with a specialist and confirm authenticity.",
+      "Level 2 and 3 Conditions of Assessment are on TKI, not the NCEA site, so check both; re-contextualise performance and outdoor tasks each year.",
+      "PENZ-hosted 'Issues in moderation' (2025, author not stated) lists common gaps across PE standards: lack of depth, little questioning and challenging of assumptions, few specific personal examples."
+     ]
     }
    ],
    "standards": [
@@ -2664,17 +2933,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Kī o Rahi: the student described applying tuākana-tēina by sharing their own experience with teammates (e.g. telling teammates to cover a possible miss) and effective communication by explaining the zone defence simply to a struggling teammate. Reasons and personal examples were described.",
-       "miss": "Not Merit because it did not explain how and why tuākana-tēina and effective communication were applied to promote kotahitanga, using the student's own examples."
+       "text": "Kī o Rahi: described why Tuākana-Tēina was applied (team missing the tupu) and sharing experience with teammates; described effective communication explaining zone defence; both linked to kotahitanga.",
+       "miss": "For Merit, explain how and why Tuākana-Tēina and effective communication were applied to promote kotahitanga, with examples from own experience.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-1/92017/92017-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Outdoor education expedition and Rippa Rugby: manaakitanga applied by reassuring a struggling teammate while paddling, helping the group catch up; effective communication applied by explaining rules to an unsure teammate and calling the team to move down and fill gaps on defence. How and why the strategies were applied was explained.",
-       "miss": "Not Excellence because it did not draw conclusions about how effective manaakitanga and effective communication were in promoting kotahitanga, using examples from both contexts."
+       "text": "Explained why manaakitanga was applied on an outdoor expedition (encouraging a struggling paddling partner) and effective communication in Rippa Rugby (explaining rules, calling defensive gaps); both linked to kotahitanga.",
+       "miss": "For Excellence, draw conclusions about the effectiveness of how manaakitanga and effective communication were applied, relating both back to the contexts.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-1/92017/92017-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Outdoor education movement activities (Bubble and Squeak, Search and Rescue, the Dangling Trio, a blindfolded climb): the student evaluated how co-operation and effective communication promoted kotahitanga, drawing conclusions about their effectiveness supported by examples from their own experience."
+       "text": "Evaluated how cooperation (e.g. holding a raft steady in cold water) and effective communication (Dangling Trio, blindfolded climb) promoted kotahitanga, supported with examples from own experience.",
+       "miss": "",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-1/92017/92017-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -2765,10 +3041,23 @@ window.MOD_DATA['1'] = {
       "Groups of fewer than three — a requirement from Version 4 (December 2025) for 2026 assessment.",
       "Over-assessment: too many strategies or contexts producing long but shallow evidence; two well-developed strategies are usually enough.",
       "Templates with leading questions that do the thinking for the student — a task-design issue to raise with the teacher, not the student.",
-      "Excellence answers that drift into future intentions: the February 2026 clarification puts the focus on effectiveness at the time (the earlier NZQA Issues in moderation 2025 note mentioned what the learner would do differently, so older task sheets may still ask for this)."
+      "Excellence answers that drift into future intentions: the February 2026 clarification puts the focus on effectiveness at the time (the earlier NZQA Issues in moderation 2025 note mentioned what the learner would do differently, so older task sheets may still ask for this).",
+      "NZQA's exemplar page does not say which version the exemplars were marked against; the current standard is Version 4 (December 2025), so check exemplar judgements against current wording."
      ],
      "aiLimits": "The group movement itself is not visible in a written or recorded response: the teacher must confirm the student took part in the named movement context in a group of three or more and that the personal examples match what was observed.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Discuss kotahitanga and related principles throughout, with personal 'I' examples rather than 'we/the team'; avoid assessing too many strategies or contexts and over-guiding the task.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      },
+      {
+       "text": "For Excellence, discuss the effectiveness of the application and what would be done differently.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     }
    ],
@@ -2808,6 +3097,25 @@ window.MOD_DATA['1'] = {
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/physics-earth-and-space-science/"
     }
    ],
+   "associations": [
+    {
+     "name": "NZ Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/",
+     "notes": []
+    },
+    {
+     "name": "NZ Institute of Physics (NZIP) — NZ Physics Teachers' Resource Bank",
+     "url": "https://resource-bank.nzip.org.nz/?p=1392",
+     "notes": [
+      "Public teaching resource bank organised by standard (e.g. 91168, 91170, 91171, 91523): teaching suggestions, demonstrations and videos only; no marking, moderation or grade-boundary advice was found on it (Oct 2026). Indicator only."
+     ]
+    },
+    {
+     "name": "Earth and Space Science New Zealand (ESSENZ, NZASE affiliate)",
+     "url": "https://www.earthspacescience.org.nz/",
+     "notes": []
+    }
+   ],
    "standards": [
     {
      "code": "92044",
@@ -2842,17 +3150,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Deforestation: describes the change and uses the idea of habitat to describe its effect on the biosphere; describes how sedimentation reduced water quality and harbour depth, affecting the hydrosphere and biosphere.",
-       "miss": "Not Merit because effects are described rather than explained — e.g. how loss of forest habitat affected a species (using a food chain or data), or the biological, chemical or physical reasons water quality changed."
+       "text": "Deforestation: described what it is, used habitat to explain biosphere effects, and described how sedimentation reduces water quality and harbour depth.",
+       "miss": "For Merit: explain how forest habitat loss affected a species (food chain or data) and explain water-quality change biologically, chemically or physically.",
+       "version": "pilot exemplar (pilot-era version of the standard, not stated; current is Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Pilot-exemplars-and-sample-assessments/Internal-pilot-exemplars/Physics-Earth-and-Space-Science/92044/92044-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Deforestation: explains how soil without trees and roots can lead to both flooding and drought, covering the geosphere and hydrosphere, with several data points showing the scale of the change across Aotearoa.",
-       "miss": "Not Excellence (inferred from NZQA's Excellence guidance) because it does not discuss scientific implications that link effects in one sphere to effects in other spheres."
+       "text": "Tree and soil loss: explained how treeless soil causes flooding and drought (geosphere, hydrosphere), with several data points showing the scale of change across Aotearoa.",
+       "miss": "For Excellence: analyse how effects in one sphere link to effects in other spheres.",
+       "version": "pilot exemplar (pilot-era version of the standard, not stated; current is Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Pilot-exemplars-and-sample-assessments/Internal-pilot-exemplars/Physics-Earth-and-Space-Science/92044/92044-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Burning fossil fuels: defines key concepts; explains CO₂'s role in the greenhouse effect and how ocean warming raises sea level; discusses how the atmospheric change affects the hydrosphere, linking effects across spheres."
+       "text": "Fossil fuel emissions: defined key concepts, explained CO2 in the greenhouse effect and how ocean warming raises sea level, and discussed how atmospheric change affects the hydrosphere.",
+       "miss": "",
+       "version": "pilot exemplar (pilot-era version of the standard, not stated; current is Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Pilot-exemplars-and-sample-assessments/Internal-pilot-exemplars/Physics-Earth-and-Space-Science/92044/92044-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2918,10 +3233,12 @@ window.MOD_DATA['1'] = {
       "Excellence awarded for a list of effects in several spheres with no causal link between them.",
       "Generic or unsourced data; research sources not recorded; statistics that cannot be traced (mark as 'check').",
       "Group research notes reproduced near-identically across students.",
-      "Over-detailed teacher feedback on drafts that would make the work unsuitable for submission."
+      "Over-detailed teacher feedback on drafts that would make the work unsuitable for submission.",
+      "NZQA's 92044 exemplars are pilot-era exemplars, not marked against Version 3 as stated; use them for grade lines, checking against current wording."
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2960,17 +3277,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Falling object: group data recorded in a results table and graph; a specific data point is cited in describing the graph; describes that velocity and drag start small and grow, linking the two.",
-       "miss": "Not Merit because it does not show how speed was calculated and does not clearly explain drag building until it equals weight, producing terminal velocity."
+       "text": "Falling objects: group data in a table and graph, quoted a data point, described velocity and drag starting small and increasing, referring to their relationship.",
+       "miss": "For Merit: show how speed was calculated and explain more clearly how drag increases until it equals weight, giving terminal velocity.",
+       "version": "pilot exemplar (pilot-era version of the standard, not stated; current is Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics-Earth-and-Space-Science/Exams-and-exemplars/92045/92045-Pilot-exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Balloons: reads the time axis correctly and concludes the larger balloon took longest, explained by a cause-and-effect chain (larger profile, more drag); identifies an apparent fault in the bar graph's x-axis and explains it using the balloon width values.",
-       "miss": "Not Excellence because the discussion of how balloon size affects time lacks a clear flow of ideas and the final paragraphs contain contradictory statements, so integrated understanding is not shown."
+       "text": "Balloons of different sizes: read the time axis correctly, explained the unexpected result by a cause-effect chain (larger profile, more drag), identified a fault in the bar graph's x-axis.",
+       "miss": "For Excellence: a clearer flow of ideas on how balloon size affects time; the final three paragraphs contradicted each other.",
+       "version": "pilot exemplar (pilot-era version of the standard, not stated; current is Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics-Earth-and-Space-Science/Exams-and-exemplars/92045/92045-Pilot-exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Falling objects/skydiving: calculates the gradient of the graph; explains that reaching terminal velocity takes the same time at each height so overall speed increases with height; clearly relates findings to skydiving. Processed evidence is integrated with discussion of concepts and relationships."
+       "text": "Muffin case fall: calculated the graph gradient, related findings clearly to sky diving, and discussed how time to terminal velocity is the same regardless of height.",
+       "miss": "",
+       "version": "pilot exemplar (pilot-era version of the standard, not stated; current is Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics-Earth-and-Space-Science/Exams-and-exemplars/92045/92045-Pilot-exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -3058,10 +3382,12 @@ window.MOD_DATA['1'] = {
       "Merit awarded without processed evidence (calculations, graphs) the student produced.",
       "Contradictory statements in the discussion at Excellence.",
       "Group data with identical write-ups or shared analysis across students.",
-      "Results that look too clean or match textbook values exactly — confirm with the teacher's record of the practical."
+      "Results that look too clean or match textbook values exactly — confirm with the teacher's record of the practical.",
+      "NZQA's 92045 exemplars are pilot-era exemplars, not marked against Version 3 as stated; use them for grade lines, checking against current wording."
      ],
      "aiLimits": "The teacher must verify that the investigation was actually carried out and that the numerical data are the student's own (or their group's, collected in the practical) — this cannot be confirmed from the written report.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -3093,6 +3419,18 @@ window.MOD_DATA['1'] = {
     {
      "label": "Science internal exemplars",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/science/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/resources/resources-by-nzase/",
+     "notes": [
+      "Publishes the Science NCEA Level 1 Subject Learning Outcomes companion (public PDF) and a Level 1 resources Google Drive (Feb 2025); content of the Drive was not reviewed.",
+      "Term 1 2025 PLD 'Unpacking moderation, writing and critiquing assessment tasks' slides are linked from nzase.org.nz; content not summarised publicly.",
+      "NZASE produced derived-grade (practice) exams for 2026 Level 1 Science 91922 and 91923 (free to member schools, $50 otherwise, by email request). Not NZQA material: check format against the 2026 specification.",
+      "NZASE research resource 'Creative assessment for NCEA Science' (2020) describes students presenting evidence as video, podcast, storyboard or games; format must still meet the standard's evidence requirements."
+     ]
     }
    ],
    "standards": [
@@ -3130,17 +3468,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "1080 and predator control: describes science ideas (predator-driven population decline, biodegradability of 1080, stoat predation of ground- and low-nesting birds); outlines DOC and SPCA views on 1080 safety and animal welfare; identifies limiting reproductive ability as a non-lethal science-informed response; some evidence of tiakitanga. All required elements are present.",
-       "miss": "Not Merit because ideas and perspectives are described or outlined, not explained — e.g. why 1080 is toxic and how it breaks down, why introduced predators have such strong effects in New Zealand, why the SPCA treats all suffering equally, why DOC prioritises threatened natives, how non-lethal methods work. Tiakitanga evidence is limited."
+       "text": "1080 and predator control: described predator-driven decline, 1080 biodegradability and stoat predation, outlined DOC and SPCA perspectives, identified fertility control as a response; some tiakitanga.",
+       "miss": "Ideas described, not explained, e.g. why 1080 is toxic, how it breaks down, why introduced predators hit NZ hard, why DOC and SPCA hold their positions.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Science/Exemplars/91920/91920-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Transport emissions: explains how human activity disrupts the carbon cycle and why rising temperatures are a problem; explains the concerns of the Ministry of Transport and car importers (mineral access, small market, penalties for missing EV targets); explains how and why responses such as zero-emission vehicles, public transport, cycling and walking reduce emissions; shows tiakitanga in the climate context.",
-       "miss": "Not Excellence because the transport changes are explained but not analysed — the importance of the science perspective on emissions alongside the Ministry/importer perspective in the response is not discussed."
+       "text": "Transport emissions: explained carbon-cycle disruption and warming, Ministry of Transport and importers' EV concerns, and how zero-emission vehicles, public transport and active travel cut emissions; tiakitanga shown.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Science/Exemplars/91920/Sci-91920-EXP-Mer.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Mangawhero River: discusses why scientific monitoring of clarity, sediment, nutrients and eutrophication matters and links it to riparian planting and reducing waste and stormwater; discusses why the Ngāti Rangi perspective matters (te ao Māori values, indicators such as tuna) and links it to the same responses; clear understanding of tiakitanga. Both perspectives are linked to the responses and their importance shown."
+       "text": "Mangawhero River: analysed a response, discussing scientific monitoring (clarity, sediment, nutrients) and Ngāti Rangi's te ao Māori perspective (tuna), linking both to riparian planting and stormwater reduction.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Science/Exemplars/91920/Sci-91920-EXP-Exc.pdf"
       }
      ],
      "conditions": [
@@ -3242,6 +3587,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -3279,17 +3625,24 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Talbot Forest: three approaches — site observation (notes and sketches of biotic and abiotic features), identification and close examination of plant species, and a simplified classroom germination model. The purpose of each in answering its sub-question is described with supporting evidence.",
-       "miss": "Not Merit because it does not give an evidence-based reason why each approach was or was not appropriate; e.g. using first-hand site measurements (14°C vs 19°C; light 15 to 973 lux) to show how the approach helped answer the question."
+       "text": "Talbot Forest: site observation with notes and sketches, identification tools for plant species, and a classroom seed germination comparison; purpose of each described.",
+       "miss": "Did not give an evidence-based reason why each approach was or was not appropriate for the question.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Science/Exemplars/91921/Sci-91921-EXP-Ach.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Manawatū River water quality: compares nitrogen and phosphorus data across sites to look for links with land use; uses conductivity readings as evidence of ions; groups samples by ions to identify substances and concentrations. Explains why each approach was suitable for its question, with evidence.",
-       "miss": "Not Excellence because each approach is justified on its own; it does not show how data from the different approaches connect, corroborate or conflict to build an integrated understanding of river water quality."
+       "text": "Manawatū River: explained why comparing nitrogen and phosphorus data across locations suited linking land use to nutrients, and used conductivity readings grouped by ion for ion types and concentrations.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Science/Exemplars/91921/Sci-91921-EXP-Mer.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Ocean acidification: data trends, direct observations and predictive simulations each answer a 'little question'; combined, they give a connected answer to the overarching question. Analyses how the range of approaches contributes to an integrated understanding of the context."
+       "text": "Ocean acidification: analysed how data trends, direct observations and predictive simulations each answered a 'little question' and combined to give connected understanding of the overarching question.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Science/Exemplars/91921/91921-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -3376,6 +3729,7 @@ window.MOD_DATA['1'] = {
      ],
      "aiLimits": "The teacher must verify that the student actually carried out each investigative approach and that the data presented are the student's own (or the group's, with the student's contribution identified) — this cannot be confirmed from the written evidence.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -3388,6 +3742,7 @@ window.MOD_DATA['1'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "standards": [],
    "excluded": [
     {

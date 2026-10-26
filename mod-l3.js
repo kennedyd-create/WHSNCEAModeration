@@ -1,7 +1,7 @@
 /* ============================================================
    NCEA LEVEL 3 — MODERATION DATA (internal standards only)
    Loaded by whs-moderation-engine.html. Keep in the same folder.
-   Generated 2026-10-24 from NZQA sources (see each standard's
+   Generated 2026-10-25 from NZQA sources (see each standard's
    version and "verified" date). Gates: type "req" = REQUIRED (standard
    wording or NZQA clarification; may cap a grade); "ind" = INDICATOR
    (examples of quality; never a checklist). "excluded" lists internal
@@ -120,6 +120,16 @@ window.MOD_DATA['3'] = {
      "url": "https://ncea.tki.org.nz/Resources-for-internally-assessed-achievement-standards/Social-sciences/History/Level-3-History"
     }
    ],
+   "associations": [
+    {
+     "name": "NZ History Teachers' Association (NZHTA)",
+     "url": "https://tda.org.nz/nex/new-zealand-history-teachers-association",
+     "notes": [
+      "Checked October 2026: NZHTA is a support and advocacy body (member email-outs, surveys, the Aotearoa NZ histories campaign). No public marking, moderation or exemplar guidance was found; its own website could not be reached for checking.",
+      "No public joint NZQA–NZHTA moderation guidance was found. For History, use NZQA's own clarifications, National Moderator's Reports and annotated exemplars."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91434",
@@ -158,17 +168,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Short, somewhat general statement of importance; focus question formed after preliminary reading with specific possible sources. Six sources, two primary; primary evidence embedded in secondary sources was engaged with and counted. Annotations assess relevance, perspective, bias, limitations and corroboration. The evaluation explains strengths and weaknesses with basic links to reliability and validity.",
-       "miss": "Not Merit because only some comments began to reach critical depth; more instances that go beyond explanatory or evaluative comment were needed."
+       "text": "Significance of the Cambodian Genocide to New Zealand; focus question on how far Pol Pot's actions affected Cambodian society. Six sources (two primary, plus primary evidence inside secondary sources), annotated as a historian; research process evaluated.",
+       "miss": "Reliability annotations mostly explain or evaluate; Merit needed more analytical and critical assessment of reliability.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91434/91434-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Detailed, insightful statement of importance; specific, manageable focus question. Six sources, one primary, but secondary sources containing rich primary accounts were engaged with. Several annotations are critical and analytical (e.g. the impact of and reasons for an author’s bias). Evaluation considers strengths and weaknesses with some reference to validity.",
-       "miss": "Not Excellence because most reliability comments stopped at author credentials, and the evaluation was not consistently analytical or explicitly linked to the validity of findings. Reliability at Excellence goes beyond bias and authorship: gaps in the evidence, corroboration between sources, how representative the sources are, the agenda behind their production."
+       "text": "Detailed statement of significance; specific, manageable focus question. Six sources (one primary, with primary accounts inside many secondary sources) chosen for depth and diversity. Some analytical annotations (e.g. author bias); evaluation covers strengths, weaknesses, some validity.",
+       "miss": "Evaluation needed to be consistently analytical and explicitly linked to the validity of findings; reliability needed to go beyond bias and authorship to gaps, corroboration, representativeness and agenda.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91434/91434-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Ten sources, four primary and two academic chapters; persevered with difficult sources. Annotations frequently critical and analytical (perspective, bias, agenda, expertise, gaps, comparative usefulness, corroboration). Evaluation analyses strengths and weaknesses and their direct impact on validity: how primary and secondary sources worked together, how the methodology may have narrowed findings, how personal bias shaped source selection. NZQA notes the annotations were longer than required — length is not what earned the grade."
+       "text": "Russia's October 1917 revolution: one focus question, ten sources (four primary, two academic chapters). Annotations frequently critical and analytical, often assessing reliability; persevered with difficult texts; critically evaluated how the process affected the validity of findings.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91434/91434-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -251,6 +268,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -292,17 +310,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Several key historical ideas presenting an argument (acculturation rather than fatal impact). Frequent instances of analysis. Most paragraphs supported by a relevant extract of primary or secondary evidence. Significance inferred throughout and explicitly addressed in places.",
-       "miss": "Not Merit because further examples and depth were needed — e.g. a second piece of source evidence for a key idea, and the weighing of \"to what extent\" developed further."
+       "text": "Argues Acculturation rather than Fatal Impact better explains early Māori–Pākehā interaction (sealers, whalers, missionaries, cultural continuity and change, Te Tiriti). Frequent analysis; most paragraphs supported by appropriate evidence.",
+       "miss": "Merit needed in-depth evidence and development: more on Māori adopting Western medicine, technology and beliefs, a second missionary source, and fuller weighing of acculturation against fatal impact.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/exams-and-exemplars/Level-3/91435/91435-EXP-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Two key historical ideas carrying an argument (the Native Land Court remains significant today). Frequent analysis, including of the authority and validity of the source authors. Every paragraph supported by extracts or summaries of primary or secondary evidence. Significance explicit throughout because of how the moot was phrased.",
-       "miss": "Not Excellence because conclusions were not drawn \"as a historian\": deeper engagement with the historiography (the merits of authors’ arguments and possible counter-arguments) or with wider context (other factors, their comparative weight) was needed."
+       "text": "Argues the 1865 Native Land Court remains significant today, mainly through economic implications and institutionalised racism. Analyses the ideas in its sources and the authority of their authors; in-depth evidence in every paragraph.",
+       "miss": "Conclusions not drawn as a historian: needed deeper historiography and wider context (urbanisation, raupatu, the Kemp purchase, Public Works Act) and weighing the Court's impact against these.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/exams-and-exemplars/Level-3/91435/91435-EXP-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "A reasoned, supported argument (the extent of Enlightenment influence on the Declaration of Independence). Key ideas at the start of each paragraph; primary and secondary evidence integrated to set up the debate, then used to support the student’s own position. Frequent well-considered judgements (\"This suggests that\", \"It is more accurate to assert\"). Conclusions follow from the argument, are balanced, and go beyond the obvious. Significance to New Zealand established meaningfully (e.g. He Whakaputanga, Te Tiriti)."
+       "text": "How far Enlightenment ideas shaped the Declaration of Independence: integrates primary and secondary sources, well-considered judgements, insightful conclusions (including the NZ Bill of Rights); significance to New Zealand via He Whakaputanga, rangatira responses and Te Tiriti's Fourth Article.",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/exams-and-exemplars/Level-3/91435/91435-EXP-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -391,6 +416,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -434,17 +460,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Three perspectives (Pankhurst, Viscount Helmsley, historian Fern Riddell) on whether the Suffragettes helped or hindered women’s suffrage. Explanations supported by historical evidence at level 8 depth; some basic analysis of the influences shaping each perspective.",
-       "miss": "Not Merit because the validity of the perspectives was not evaluated — no appraisal or opinion as an historian. More depth of explanation and evidence was also needed."
+       "text": "Whether the Suffragettes helped or hindered UK women's suffrage and the 1918 Act: three perspectives (Emmeline Pankhurst, Viscount Helmsley, historian Fern Riddell); level 8 depth of evidence; basic analysis of what shaped each view.",
+       "miss": "Did not evaluate the validity of the perspectives as a historian, and lacked the in-depth explanation and range of evidence Merit requires.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91437/91437-EXP-ach.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Whether the US was justified in using atomic bombs: revisionist and post-revisionist perspectives fully unpacked, with varied, specific evidence including strong use of primary sources. Clear appraisals of validity: the accuracy, bias and reliability of the sources each side relies on, and whether evidence used by revisionists was available to Truman.",
-       "miss": "Not Excellence because the student stayed \"on the fence\" and did not conclude which perspective is best supported by the historical evidence."
+       "text": "Whether the US was justified in using atomic bombs: revisionist and post-revisionist perspectives unpacked; primary sources used consistently; accuracy, bias and reliability assessed, including whether Truman could have had the evidence revisionists cite.",
+       "miss": "Stayed \"on the fence\": did not conclude which perspective is best supported by the historical evidence.",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91437/91437-EXP-merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "The execution of Mary Queen of Scots: contemporary and later perspectives explained in wider context. Consistently evaluative (historians’ critiques of cipher-letter reliability, blame-shifting, procedural irregularities, Mary’s agency). After weighing them, judges one perspective more flawed than another and reaches a final judgement that follows logically from the discussion."
+       "text": "Whether Mary Queen of Scots' execution was justified: contemporary and later perspectives explained; cipher-letter reliability, historiography, procedural irregularities and Elizabeth's blame-shifting evaluated; concludes it was \"politically understandable but neither legally nor morally correct\".",
+       "miss": "",
+       "version": "Not stated by NZQA",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91437/91437-EXP-exc.pdf"
       }
      ],
      "conditions": [],
@@ -516,6 +549,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "in particular, whether the contested element supports a validity judgement",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -547,6 +581,15 @@ window.MOD_DATA['3'] = {
     {
      "label": "Art History Level 3 Conditions of Assessment 2026 (TKI, .docx)",
      "url": "https://ncea.tki.org.nz/content/download/8312/32223/file/Art history Level 3 Conditions of Assessment 2026.docx"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Art History Teachers Association (NZAHTA)",
+     "url": "https://ppta.org.nz/publication-library/document/2404",
+     "notes": [
+      "No public website or publicly accessible marking or moderation guidance found (Oct 2026). Listed in PPTA's subject association directory; held a teachers' conference in July 2025, but no published content on these standards was located."
+     ]
     }
    ],
    "standards": [
@@ -590,18 +633,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (imaginary interviews with Renaissance artists, gold leaf and gilding): begins to explain how gilding affects style and meaning. High Achieved (Pollock): explains how Pollock's media and processes shaped his style and how those techniques affected ideas and meanings.",
-       "miss": "Not Merit because explanations of how media and processes affect style and meaning lacked detail."
+       "grade": "High Not Achieved",
+       "text": "De Chirico painting (Surrealism/Dada study): began explaining how oil paint affects mood and meaning and linked the painting to metaphysical and surrealist art.",
+       "miss": "To reach Achieved: explain the impact of media and processes on both style and meaning.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91485/91485-EXP-student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (cast-glass car mascot): detailed explanation of glass casting's effect on style and meaning, though the process explanation was simpler. High Merit (Art Nouveau structure): identifies the designer's style and explains in detail how media shaped the Art Nouveau style and how the style shaped meaning.",
-       "miss": "Not Excellence because more contextual evidence was needed to support an EVALUATION of the impact of media and processes on style and meaning."
+       "grade": "Low Achieved",
+       "text": "Renaissance gold leaf and gilding, as imaginary interviews with artists: began to explain how gilding affects style and meaning.",
+       "miss": "For a more secure Achieved: focus on media and processes and write clearer explanations of their impact on style and meaning.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91485/91485-EXP-student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (Picasso's sculpture, modernism): evaluates how media and processes shaped the abstract style and ideas, supported by contextual evidence. NZQA suggests more detail on the impact on abstract style and conceptual meaning for a more secure grade."
+       "grade": "High Achieved",
+       "text": "Jackson Pollock: explained how his media and processes shape his painting style and affect the ideas and meanings of his art.",
+       "miss": "To reach Merit: include more detail in explanations of the impact of media and processes.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91485/91485-EXP-student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Glass car mascot (modernist design): detailed account of glass casting but only a simple account of how the process affects the figure.",
+       "miss": "For a more secure Merit: include more detail in explanations of the impact of both media and processes.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91485/91485-EXP-student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Art Nouveau structure: identified the designer's style, explained in detail how media affect it and how style affects meaning and messages.",
+       "miss": "To reach Excellence: use more contextual evidence to support an evaluation of the impact of media and processes.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91485/91485-EXP-student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Picasso sculpture (modernist study): evaluated how media and processes affect the abstract style and ideas, supported by contextual evidence.",
+       "miss": "For a more secure Excellence: expand the evaluative discussion with more detail about the impact of media and processes.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91485/91485-EXP-student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -665,6 +736,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -704,18 +776,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (modernist challenges to representational traditions): outlines key points of the argument leading to a clear conclusion, with selection and interpretation of research and some discussion of points about movements. High Achieved (ownership of antiquities, bust of Nefertiti): sets up an argument with several viewpoints and interprets research about the bust's discovery.",
-       "miss": "Not Merit because some information did not advance the argument, viewpoints were discussed only in a limited way, and information was not selected to justify the argument."
+       "grade": "High Not Achieved",
+       "text": "Technology and science in modern art: outlined an argument with a brief conclusion and selected and interpreted research, but mentioned viewpoints without discussing them.",
+       "miss": "To reach Achieved: develop a stronger argument by discussing points of view about the topic.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91486/91486-EXP-student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (trade and Early Renaissance art): argument clearly stated in the introduction, with selected research used to justify views. High Merit (authorship of the Assisi frescoes): selects and interprets research to justify interpretations, discusses differing viewpoints, reaches supported conclusions, and begins to evaluate research.",
-       "miss": "Not Excellence because research was not synthesised into an insightful argument; the Low Merit response only touched on other viewpoints."
+       "grade": "Low Achieved",
+       "text": "Modernist challenges to representational traditions: outlined the argument and reached a clear conclusion, but only began discussing different points of view.",
+       "miss": "For a more secure Achieved: develop a stronger argument that clearly identifies and discusses points of view.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91486/91486-EXP-student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (who rightfully owns antiquities and art works): discusses several viewpoints before concluding; interpretation of research built into an evaluative argument with some insight on legal, moral and ethical issues. NZQA suggests bringing all research into one coherent evaluative argument with more detail on morality and ethics."
+       "grade": "High Achieved",
+       "text": "Ownership of antiquities: set up several points of view, discussed several works and reached a satisfactory conclusion; some information (e.g. Nefertiti bust) did not develop the argument.",
+       "miss": "To reach Merit: express ideas clearly and select information that develops and justifies the argument.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91486/91486-EXP-student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Trade and art in Early Renaissance Italy: selected research justifies a clear argument, though focused mainly on trade with only brief mention of other views on patronage.",
+       "miss": "For a more secure Merit: strengthen the argument by exploring other points of view about the development of art.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91486/91486-EXP-student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Authorship of the Upper Church frescoes, Assisi: interpreted and justified research, discussed points of view and began evaluating some information.",
+       "miss": "To reach Excellence: synthesise researched information into an insightful argument.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91486/91486-EXP-student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Ownership of antiquities and art works: several points of view discussed, reaching an evaluative conclusion referencing legal, moral and ethical issues.",
+       "miss": "For a more secure Excellence: synthesise all research into a coherent evaluative argument and give more detail on points of view.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91486/91486-EXP-student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -784,6 +884,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -822,18 +923,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (values placed on art in Nazi Germany): explains different values with supporting evidence. High Achieved (Russian Jack, a local public sculpture): clearly explains several values with well-referenced evidence and begins to analyse them.",
-       "miss": "Not Merit because the analysis was not extensive enough — e.g. more evidence about popular and tourist values was needed."
+       "grade": "High Not Achieved",
+       "text": "Botticelli, Birth of Venus: generalised explanations of values, mostly lacking evidence; some evidence for monetary value, still generalised.",
+       "miss": "To reach Achieved: fully explain the different values placed on the work, with more substantial evidence.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91487/91487-EXP-student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (Damien Hirst, For the Love of God): analyses the spiritual values placed on the work with evidence, though with superfluous discussion of meaning. High Merit (Nazi Germany): expansive analysis of the values Hitler's regime placed on art, with in-depth discussion of Die Brücke and Kirchner as evidence.",
-       "miss": "Not Excellence because the significance of the different values was not expanded with integrated evidence to show insight."
+       "grade": "Low Achieved",
+       "text": "Art in Nazi Germany: explained different values using supporting evidence.",
+       "miss": "For a more secure Achieved: demonstrate a more complete understanding, with more detail in explanations.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91487/91487-EXP-student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (different versions of Duchamp's Fountain): integrates evidence into an insightful analysis of the values placed on the versions. NZQA suggests sustaining the analysis and developing celebrity and consumer values raised in the final paragraph."
+       "grade": "High Achieved",
+       "text": "Public sculpture Russian Jack (local area): clearly explained several values with well-referenced evidence and began to analyse them.",
+       "miss": "To reach Merit: a more extensive analysis of the different values, with more evidence on popular and tourist values.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91487/91487-EXP-student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Damien Hirst: analysed the spiritual values of For the Love of God with supporting evidence.",
+       "miss": "For a more secure Merit: avoid superfluous discussion of meaning and analyse the other values identified.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91487/91487-EXP-student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Values placed on art in Nazi Germany (Hitler and the regime), with in-depth discussion of Die Brücke and Kirchner as evidence.",
+       "miss": "To reach Excellence: show insight by expanding the analysis of the significance of these values, with supporting evidence.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91487/91487-EXP-student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Modern and contemporary art, including different versions of Duchamp's Fountain: analysed values with integrated supporting evidence.",
+       "miss": "For a more secure Excellence: sustain and develop the analysis, e.g. of celebrity status and consumer values.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91487/91487-EXP-student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -891,6 +1020,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -931,18 +1061,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (Postcolonial theory and contemporary art): explains key principles and supports a discussion of how they relate to art with artwork evidence, though some points describe art rather than theory. High Achieved (Nazi theory and art): explains some key principles and discusses how they relate to art, with artwork evidence.",
-       "miss": "Not Merit because the relationships were explained and discussed but not ANALYSED with evidence from works and other sources."
+       "grade": "High Not Achieved",
+       "text": "Nazi theory and art: defined Nazism by its ideology, linked it to Hitler's interest in art with evidence, described aspects of the Aryan figure.",
+       "miss": "Focused on the Nazi movement rather than the key principles of Nazi theory and their relationship to art.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91488/91488-EXP-student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (Nazi theory and art): analysis of relationships in the introduction and discussion, supported by artwork evidence — but drew on unacknowledged sources about Hitler's views. High Merit (Postcolonial theory): analyses relationships with strong depth, using evidence from a work and other sources.",
-       "miss": "Not Excellence because the relationships were analysed rather than EVALUATED."
+       "grade": "Low Achieved",
+       "text": "Postcolonial theory and contemporary art: explained key principles and used evidence from selected works to discuss links with postcolonial ideas.",
+       "miss": "Some points focus on aspects of art rather than theoretical principles.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91488/91488-EXP-student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (Postcolonial theory and contemporary art): evaluates how postcolonial principles relate to the works, reaching perceptive conclusions and integrating evidence from works and other sources. NZQA suggests limiting iconographic description to keep focus on the theory–work relationship."
+       "grade": "High Achieved",
+       "text": "Nazi theory and art: explained some key principles of Nazi ideology and discussed links to art with evidence from art works.",
+       "miss": "To reach Merit: analyse the relationships between the key principles of Nazi theory and the art works.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91488/91488-EXP-student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Nazi theory and art: analysed links in the introduction and discussion of works, with art-work evidence; some points on Hitler's ideas came from unacknowledged sources.",
+       "miss": "For a more secure Merit: a more sustained analysis with more supporting evidence from other sources.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91488/91488-EXP-student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Postcolonial theory and contemporary art: analysed relationships between the theory and selected works, with evidence from an art work and other sources.",
+       "miss": "To reach Excellence: evaluate the relationship(s) between the key principles and the art works.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91488/91488-EXP-student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Postcolonial theory and contemporary art: evaluated links between principles and works, reached perceptive conclusions and integrated evidence from works and other sources.",
+       "miss": "For a more secure Excellence: restrict discussion of the iconography of art works and keep the focus on the theory-art relationship.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91488/91488-EXP-student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -1006,6 +1164,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1044,18 +1203,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (texts on Warhol's Brillo Boxes, including Danto and Benjamin): begins to analyse by explaining authors' ideas with evidence and identifying interpretations about art. High Achieved (Bollinger on Warhol): explains the author's ideas (Warhol's interest in mechanical processes) and identifies Bollinger's interpretations, both with evidence.",
-       "miss": "Not Merit because the author's ideas and views were not LINKED to the interpretations about art."
+       "grade": "High Not Achieved",
+       "text": "Pop Art texts: described the authors' ideas and identified interpretations, including evidence that was not used to support the points.",
+       "miss": "To reach Achieved: explain, rather than describe, the ideas and views expressed by the authors.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91489/91489-EXP-student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (interview with Kate Rothko Prizel): in-depth analysis linking the author's ideas to interpretations with textual evidence. High Merit (Anthony White on Pollock's Blue Poles): links White's ideas to his interpretation of the work's impact on art and culture, analysing his views in depth.",
-       "miss": "Not Excellence because the conclusion did not evaluate the significance of the ideas and views in the texts."
+       "grade": "Low Achieved",
+       "text": "Warhol's Brillo Boxes (Danto, Benjamin): began analysing by explaining the authors' ideas with evidence and identifying supported interpretations.",
+       "miss": "For a more secure Achieved: strengthen the analysis by clearly explaining the authors' ideas and views.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91489/91489-EXP-student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (texts on Rita Angus's Rutu): evaluates the significance of the ideas and views in the texts and the interpretations of Angus's art, and draws conclusions. NZQA suggests broadening the evaluation across more of the authors' ideas."
+       "grade": "High Achieved",
+       "text": "Bollinger on Warhol: explained Warhol's fascination with mechanical processes with evidence and identified Bollinger's interpretations.",
+       "miss": "To reach Merit: make links between the ideas and views expressed by the authors.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91489/91489-EXP-student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Mark Rothko (interview with Kate Rothko Prizel): in-depth analysis linking ideas and interpretations with textual evidence.",
+       "miss": "For a more secure Merit: more detail or explanation of the links between the authors' ideas and views.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91489/91489-EXP-student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Anthony White on Pollock's Blue Poles: linked White's ideas to his interpretation of the work's impact on art and culture, with textual evidence.",
+       "miss": "To reach Excellence: develop the conclusion to evaluate the significance of the ideas and views.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91489/91489-EXP-student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Texts on Rita Angus's Rutu: evaluated the significance of the ideas, views and interpretations and drew conclusions about their significance.",
+       "miss": "For a more secure Excellence: broaden the evaluative discussion to a wider range of the authors' ideas and views.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Art-History/Past-exams-and-exemplars/Level-3/91489/91489-EXP-student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -1114,6 +1301,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -1145,6 +1333,24 @@ window.MOD_DATA['3'] = {
     {
      "label": "NZQA review summary November 2024 (91604, 91607 Category B)",
      "url": "https://www.nzqa.govt.nz/nqfdocs/summaries/2024/nov24/revsumnov24-04.html"
+    }
+   ],
+   "associations": [
+    {
+     "name": "Biology Educators of Aotearoa New Zealand (BEANZ)",
+     "url": "https://www.tda.org.nz/nex/biology-educators-of-aotearoa-new-zealand",
+     "notes": [
+      "BEANZ Assessment Project publishes Level 3 Biology practice examination papers each year plus assessment support materials (not public; beanz.org.nz could not be reached). Practice papers are not NZQA material: check against NZQA schedules.",
+      "BEANZ helped produce QAAM-approved takahē materials for AS 91158 (marking scheme, schedule, rubric, student exemplars) with ZEALANDIA and DOC, via the Science Learning Hub."
+     ]
+    },
+    {
+     "name": "New Zealand Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/",
+     "notes": [
+      "Umbrella science teachers' association. No public, standard-specific marking or moderation advice for Biology or Chemistry Levels 2–3 was found on nzase.org.nz (Oct 2026).",
+      "Term 1 2025 PLD: 'Unpacking moderation, writing and critiquing assessment tasks' (Linda Haycock); presentation held in a linked Google Drive folder, content not reviewed."
+     ]
     }
    ],
    "standards": [
@@ -1183,24 +1389,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved (High)",
-       "text": "Hypothesis linked to a scientific concept, a valid pattern-seeking method, accurately processed data, a conclusion relevant to the purpose, and ideas described and explained from own findings and other sources.",
-       "miss": "Not Merit because the conclusion needed to be a VALID conclusion based on the processed data in relation to the purpose, and the biological ideas from own findings and other sources needed more in-depth explanation."
+       "grade": "High Not Achieved",
+       "text": "Hypothesis linked to a concept, pattern-seeking method, relevant data processed, an attempt at interpretation, a conclusion briefly considered and some other-source findings identified.",
+       "miss": "Needed more detailed interpretation of processed data, description of other-source findings, and a conclusion from the data relevant to the purpose.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91601/91601-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit (High)",
-       "text": "Valid method, reliable data processed to show a pattern, a valid conclusion related to the hypothesis, biological ideas explained from own findings and other sources, and an attempt to justify some choices by evaluating method validity.",
-       "miss": "Not Excellence because the conclusion did not discuss the biological ideas alongside others' findings, principles, theories or models, and choices needed fuller justification by evaluating method validity or data reliability."
+       "grade": "Low Achieved",
+       "text": "Hypothesis linked to a concept, pattern-seeking method with relevant processed data, attempted interpretation, a stated conclusion and some relevant other-source findings.",
+       "miss": "For a more secure Achieved: more detail interpreting processed data and reporting findings, and description of other-source findings.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91601/91601-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence (Low)",
-       "text": "Biological ideas explained and discussed using own findings and others' findings; some choices justified by evaluating the validity of the method.",
-       "miss": "Only a low Excellence because more reasons were needed for the steps taken to reduce bias and sources of error."
+       "grade": "High Achieved",
+       "text": "Hypothesis linked to a concept, valid pattern-seeking method, accurately processed data, conclusion from the data, biological ideas described and explained from findings and sources.",
+       "miss": "Needed a valid conclusion from processed data related to the purpose and deeper explanation of biological ideas.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91601/91601-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Not Achieved (High)",
-       "text": "Hypothesis linked to a concept, pattern-seeking method, relevant data processed, an attempt at interpretation, a brief conclusion and some findings from another source.",
-       "miss": "Not Achieved because interpretation and reporting needed more detailed evidence, the other-source findings needed describing more fully, and the conclusion needed to be based on interpretation of the processed data and relevant to the purpose."
+       "grade": "Low Merit",
+       "text": "Valid method and reliable data showing a pattern, valid conclusion related to the hypothesis, some biological ideas described and explained from findings and sources.",
+       "miss": "For a more secure Merit: further elaboration of biological ideas and other sources' findings in more depth.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91601/91601-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Valid method, reliable processed data showing a pattern, valid conclusion, biological ideas explained from findings and sources, and an attempt to justify choices by evaluating validity.",
+       "miss": "Needed a conclusion discussing biological ideas with others' findings, principles or models, and more thorough justification of choices.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91601/91601-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Biological ideas explained and discussed from own and others' findings; some choices justified by evaluating method validity.",
+       "miss": "For a more secure Excellence: more reasons for the steps taken to reduce bias and sources of error.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91601/91601-Exemplar-Low-Excellence-v2.pdf"
       }
      ],
      "conditions": [
@@ -1307,6 +1535,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The teacher must verify that the practical was actually carried out, that the student planned and recorded their own primary data (written verification if planning was collaborative), and that the data are the student's own; the AI can only judge the written report.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1349,24 +1578,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved (High)",
-       "text": "Folic acid fortification of bread: relevant biological concepts, processes and implications described; one social implication briefly considered; one opposing and one supporting viewpoint; a personal position and a personal action.",
-       "miss": "Not Merit because the biology needed more explanation, social implications needed fuller treatment, and biological knowledge with supporting evidence needed to be used to explain WHY the position and action were chosen."
+       "grade": "High Not Achieved",
+       "text": "Folic acid fortification of bread: attempted description of biology and implications, one social implication, opposing and supporting views, a personal position but no proposed action.",
+       "miss": "Needed more detailed biological concepts and processes, further implications, and a proposed personal and/or societal action.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91602/91602-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit (High)",
-       "text": "Biological concepts and implications explained; position and societal action explained with supporting evidence; began to justify by considering the likely effectiveness of the action.",
-       "miss": "Not Excellence because the effectiveness justification needed more detail — or the student could have compared the significance of biological and social implications, or commented on the validity and bias of sources."
+       "grade": "Low Achieved",
+       "text": "Described some relevant biology and implications, briefly one social implication, opposing and supporting views, a position and a proposed societal action.",
+       "miss": "For a more secure Achieved: develop the biological concepts and processes more thoroughly to support the position and action.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91602/91602-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence (Low)",
-       "text": "Biological concepts and implications explained; position and societal action explained with evidence; justification attempted by comparing the significance of biological and social implications.",
-       "miss": "Only a low Excellence because the social implications needed fuller explanation and the justification needed more detail on why consumer choice and the uncertainty of the biological implications are significant."
+       "grade": "High Achieved",
+       "text": "Described relevant biology and implications, briefly one social implication, opposing and supporting views, and stated a personal position and action.",
+       "miss": "Needed biological concepts explained, social implications explained more thoroughly, and biology plus evidence used to explain why the position and action were chosen.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91602/91602-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Not Achieved (High)",
-       "text": "Attempted description of biology and implications, one social implication, opposing and supporting viewpoints, and a personal position.",
-       "miss": "Not Achieved because no action was proposed at a personal and/or societal level, and the biology needed more detail to support the position."
+       "grade": "Low Merit",
+       "text": "Explained some relevant biology and implications, one social implication, opposing and supporting views, and explained a position and societal action with some evidence.",
+       "miss": "For a more secure Merit: explain social implications more thoroughly and use biology to explain the position and action with more supporting evidence.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91602/91602-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Explained biology and implications, one social implication, both viewpoints, and a position and action with evidence; began justifying via likely effectiveness of the action.",
+       "miss": "Needed more on likely effectiveness, or evidence comparing biological and social implications, or comment on source validity and bias.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91602/91602-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Explained biology and implications, one social implication, both viewpoints, a position and action with evidence, and attempted justification comparing biological and social implications.",
+       "miss": "For a more secure Excellence: explain social implications more thoroughly and justify with more detail on consumer choice and uncertainty of biological implications.",
+       "version": "Not stated by NZQA (standard is Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/91602/91602-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -1456,6 +1707,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1496,24 +1748,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved (High)",
-       "text": "Osmoregulation (Chinook salmon): purpose, components and mechanism described and partly explained; some biological ideas used to describe and partly explain how a disruption leads to responses restoring osmotic balance.",
-       "miss": "Not Merit because deeper explanation was needed of how and why the stable internal environment is maintained and how a disruption triggers responses within the control system."
+       "grade": "High Not Achieved",
+       "text": "Osmoregulation in Chinook salmon: described purpose and components; mechanism and the disruption only briefly considered.",
+       "miss": "Needed a more thorough description of purpose, components and mechanism, and of how a disruption leads to responses that re-establish stability.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
       },
       {
-       "grade": "Merit (High)",
-       "text": "Purpose, components and mechanism explained; how a disruption triggers responses that re-establish stability explained; an attempted link to adaptive advantage.",
-       "miss": "Not Excellence because the adaptive significance was only attempted; a fuller discussion of it, an analysis of breakdown, or the biochemical/biophysical processes was needed."
+       "grade": "Low Achieved",
+       "text": "Described purpose and components of salmon osmoregulation and used some biological ideas to describe the mechanism and a disruption.",
+       "miss": "For a more secure Achieved: more detailed description of the feedback mechanism and of how internal or external influences disrupt the control system.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
       },
       {
-       "grade": "Excellence (Low)",
-       "text": "Purpose, components and mechanism explained; disruption and restoring responses explained; osmotic balance briefly linked to adaptive advantage.",
-       "miss": "Only a low Excellence because the adaptive-advantage discussion and the breakdown analysis could be developed further."
+       "grade": "High Achieved",
+       "text": "Described and partly explained purpose, components and mechanism; partly explained how a disruption triggers responses that re-establish osmotic balance.",
+       "miss": "Needed deeper explanation of how and why the salmon regulates osmotic balance and how the disruption leads to responses in the control system.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
       },
       {
-       "grade": "Not Achieved (High)",
-       "text": "Purpose and components of osmoregulation described; mechanism and a disruption only briefly considered.",
-       "miss": "Not Achieved because a more thorough description of the purpose, components, mechanism and the responses to a specific disruption was needed."
+       "grade": "Low Merit",
+       "text": "Described and explained purpose, components and mechanism and, with some biological ideas, how a disruption triggers restoring responses.",
+       "miss": "For a more secure Merit: more in-depth explanation of the mechanism and how the disruption leads to responses in the control system.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Explained purpose, components, mechanism and how a specific disruption triggers restoring responses; attempted to link osmoregulation to adaptive advantage.",
+       "miss": "Needed adaptive advantage discussed in more detail, analysis of how influences cause breakdown, or the biochemical/biophysical basis of the mechanism.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Explained purpose, components, mechanism and restoring responses to a disruption, and discussed some ideas on the adaptive advantage of osmotic balance.",
+       "miss": "For a more secure Excellence: discuss adaptive advantage in more depth, or analyse in more detail how influences cause osmoregulation to break down.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
       }
      ],
      "conditions": [
@@ -1592,10 +1866,12 @@ window.MOD_DATA['3'] = {
       "Thermoregulation answers naming responses (sweating, shivering) without the components involved (thermoreceptors, hypothalamus, sympathetic pathways).",
       "Enzyme 'purpose' arguments at level 7 depth (no named enzyme or pathway).",
       "Biological inaccuracies: confusing ADH and aldosterone, insulin and glucagon targets, or positive and negative feedback.",
-      "Diagrams copied from sources without annotation linked to the student's explanation."
+      "Diagrams copied from sources without annotation linked to the student's explanation.",
+      "NZQA's annotated exemplars predate Version 3 (December 2024); check their judgements against the current criteria and EN wording."
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1630,24 +1906,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved (High)",
-       "text": "Corn: selective breeding described and cloning described and partly explained; some implications of selective breeding described, and implications of cloning for biodiversity and health/survival of individuals explained.",
-       "miss": "Not Merit because the student needed to explain how selective breeding manipulates genetic transfer, explain the cloning/Bt corn process more thoroughly, and explain the implications of selective breeding (e.g. Bt corn reducing insect populations with flow-on effects on birds)."
+       "grade": "High Not Achieved",
+       "text": "Corn case study: used some biological ideas to describe selective breeding and cloning and briefly considered implications for biodiversity and survival.",
+       "miss": "Needed more detailed description of both manipulations and implications, including processes and outcome on evolution of the corn population.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91607/"
       },
       {
-       "grade": "Merit (High)",
-       "text": "Both manipulations described and explained; some implications for biodiversity and ecosystems explained; an attempt to link ideas.",
-       "miss": "Not Excellence because more linking was needed, e.g. comparing and contrasting the two manipulations or justifying one over the other."
+       "grade": "Low Achieved",
+       "text": "Briefly described selective breeding and cloning of corn and some implications for biodiversity and the health and survival of populations and individuals.",
+       "miss": "For a more secure Achieved: more specific detail on processes and implications, e.g. each outcome on the evolution of the corn population.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91607/"
       },
       {
-       "grade": "Excellence (Low)",
-       "text": "Selective breeding and cloning of corn described and explained, implications for genetic biodiversity and ecosystems explained, and the two manipulations compared and contrasted.",
-       "miss": "Only a low Excellence because implications needed fuller explanation (e.g. inbreeding depression, monoculture) and more linking detail (e.g. justifying whole-plant cloning over selective breeding)."
+       "grade": "High Achieved",
+       "text": "Described selective breeding, described and partly explained Bt corn cloning, described some selective-breeding implications and explained cloning implications for biodiversity and survival.",
+       "miss": "Needed explanation of how selective breeding manipulates genetic transfer, fuller Bt corn explanation, and selective-breeding implications (e.g. fewer insects affecting birds).",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91607/"
       },
       {
-       "grade": "Not Achieved (High)",
-       "text": "Some biological ideas used to describe both manipulations; implications for biodiversity and health/survival briefly considered.",
-       "miss": "Not Achieved because a more detailed description of both processes and their outcome on the evolution of the population, at curriculum level 8, was needed."
+       "grade": "Low Merit",
+       "text": "Described and partly explained both manipulations, explained implications for biodiversity and ecosystems, and attempted to link the two.",
+       "miss": "For a more secure Merit: deeper explanation of both manipulations and implications, e.g. Bt corn pollen killing non-target insects on nearby plants.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91607/"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Described and explained selective breeding and cloning of corn and their implications for biodiversity and ecosystems; attempted to link the two manipulations.",
+       "miss": "Needed further linking, such as comparing and contrasting the manipulations or justifying whole-plant cloning over selective breeding.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91607/"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Explained both manipulations and some implications for genetic biodiversity and ecosystems, and compared and contrasted them.",
+       "miss": "For a more secure Excellence: explain implications more thoroughly (inbreeding depression, monoculture) and link ideas, e.g. justifying cloning over selective breeding.",
+       "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91607/"
       }
      ],
      "conditions": [
@@ -1719,10 +2017,12 @@ window.MOD_DATA['3'] = {
       "Only one manipulation developed, or two that are really the same technique.",
       "Molecular inaccuracies: restriction enzyme and ligase roles, plasmid vectors, CRISPR mechanism, cloning versus transgenesis confused.",
       "Implications asserted ('reduces biodiversity') without the population-genetics reasoning.",
-      "Generic material copied from websites, especially on GM crops, with no link to the chosen organism."
+      "Generic material copied from websites, especially on GM crops, with no link to the chosen organism.",
+      "NZQA's annotated exemplars predate Version 3 (December 2024); check their judgements against the current criteria and EN wording."
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -1746,6 +2046,15 @@ window.MOD_DATA['3'] = {
     {
      "label": "NZQA Business Studies internal exemplars",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/business-studies/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Commerce and Economics Teachers Association (NZCETA), the national association for Economics, Business Studies and Accounting teachers (no body named EBENZ was found)",
+     "url": "http://www.nzceta.co.nz/index.htm",
+     "notes": [
+      "No publicly accessible NCEA marking or moderation guidance from NZCETA was found; its website could not be opened in this session (checked October 2026)."
+     ]
     }
    ],
    "standards": [
@@ -1792,23 +2101,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "Sanitarium Cluster Crisps: marketing aims set, existing market audited, research analysed to focus the strategy, but the promotion/marketing plan was incomplete.",
-       "miss": "Not Achieved because the objectives and audit were not used to create an action plan with a marketing budget and a contingency plan."
+       "grade": "High Not Achieved",
+       "text": "Sanitarium Cluster Crisps: marketing aims and an audit of the existing market; market research analysed to focus strategy; promotion plan attempted.",
+       "miss": "Needed objectives and audit used to devise an action plan with a marketing budget and contingency plan.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91382/91382-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "Ring binders for left-handed people (new product), high Achieved: primary and secondary research for target market and price; PEST, Ansoff, Boston and Porter’s Five Forces in the audit; SMART goals referencing company goals; sales forecast, budget and a limited contingency plan.",
-       "miss": "Not Merit because the strategy that would achieve the SMART goals was not fully explained, the financial detail did not show the niche product’s viability, and the contingency plan did not address price adjustments if sales targets were missed."
+       "grade": "Low Achieved",
+       "text": "Twist Easy two-in-one toothbrush: secondary research, audit of competition, Ansoff placement, sales forecast, action plan and actions if sales fall short.",
+       "miss": "Needed primary research to support the teen oral-hygiene claim, cost and price explained, budget linked to forecasts and strategies, and a contingency tied to objectives.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91382/91382-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Sweet Treats, high Merit: aims supporting corporate objectives; research setting target market and price; audit identifying competitors and USP; a detailed strategy, projected sales, budget, in-depth action plan, contingencies for product, price and each strategy, and monitoring.",
-       "miss": "Not Excellence because more business knowledge was needed in the audit and market analysis (e.g. SWOT, a marketing mix analysis, a matrix or PEST analysis)."
+       "grade": "High Achieved",
+       "text": "Left-handed ring binders (new product): primary and secondary research, PEST, Ansoff, Boston and Porter's Five Forces audit, SMART goals, sales forecast, budget, limited contingency plan.",
+       "miss": "Strategy for achieving the SMART goals (incl. economic sustainability) not fully explained; financial viability at competitor prices and price-adjustment contingency needed.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91382/91382-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Bottle Buddy, low Excellence: research-based customer profile; SMART aims supporting corporate objectives; competitor audit; Ansoff-informed strategy; two distribution strategies each with forecast and budget; contingency strategy; action plan with monitoring. For more secure Excellence, more detailed action and contingency plans addressing audit threats (e.g. approaching sports clubs as well as gyms; specified price adjustments)."
+       "grade": "Low Merit",
+       "text": "Sanitarium (So Good): aims supporting corporate objectives; audit testing existing marketing against new aims; research, SWOT, in-depth marketing mix, sales forecasts, contingency, action plan and monitoring.",
+       "miss": "For a more secure Merit, more marketing business knowledge (Boston or Ansoff matrices) to evaluate So Good's market situation.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91382/91382-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Sweet Treats: aims supporting corporate objectives; research on target market and price; audit identifying competitors and USP; detailed strategy, projected sales, budget, in-depth action plan, contingencies.",
+       "miss": "Needed additional business knowledge in the audit and market analysis (SWOT, marketing-mix analysis, a matrix tool or PEST).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91382/91382-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Bottle Buddy for active people: primary research, SMART aims linked to corporate objectives, competitor audit, Ansoff, two distribution strategies with contingency, sales forecast, budget per option, action plan with monitoring.",
+       "miss": "For a more secure Excellence, action and contingency plans needed more detail on audit threats (sports clubs as well as gyms) and monitoring with price adjustments.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91382/91382-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -1889,6 +2221,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -1932,23 +2265,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "Making cleaners redundant and outsourcing to a contractor: impacts on the school explained, three feasible solutions and relevant HR cycle knowledge.",
-       "miss": "Not Achieved because there was no evidence of at least one other New Zealand business that had experienced the issue."
+       "grade": "High Not Achieved",
+       "text": "School cleaners made redundant and cleaning outsourced: impacts stated and explained; three feasible solutions; HR-cycle business knowledge.",
+       "miss": "Needed evidence of at least one other NZ business with global reach that experienced problems from redundancy in favour of outsourcing.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91383/91383-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved: pressure on businesses to pay the living wage, with evidence from employees and a minimum wage earner; the issue explained from several stakeholder perspectives; two solutions described but only one that a business could initiate; business knowledge stated (living wage linked to training).",
-       "miss": "Not Merit because two business-initiated solutions were needed — a government subsidy is outside an employer’s scope."
+       "grade": "Low Achieved",
+       "text": "Shortage of digital-skills workers: impacts stated; outsourcing and hiring foreign workers recommended; some business knowledge stated.",
+       "miss": "Only one solution could be implemented by business; business knowledge needed accuracy and HR-cycle context (recruitment, retention); employment law compliance noted.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91383/91383-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: social media distraction and productivity in NZ businesses, from a range of secondary sources and some primary research; a range of solutions and relevant business knowledge.",
-       "miss": "Not Excellence because business knowledge needed strengthening, e.g. maintaining a positive employment relationship and the risks of management failing to enforce consequences."
+       "grade": "High Achieved",
+       "text": "Living-wage pressure in a small café: evidence from two employees and a minimum-wage earner; two solutions described; living wage linked to training.",
+       "miss": "Only one solution was business-initiated (a government subsidy is outside an employer's scope); café unlikely to have global reach; focus on the business community.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91383/91383-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: alcohol consumption outside work hours affecting at least two NZ businesses; range of sources; impact on productivity evaluated; two solutions comprehensively explained for a hardware chain and the best recommended; business knowledge integrated. For more secure Excellence, more HR cycle knowledge (change management, Health and Safety at Work Act 2015, Privacy Act)."
+       "grade": "Low Merit",
+       "text": "Seasonal worker recruitment in two NZ agribusinesses: issue explained from the businesses' perspective; range of solutions; some business knowledge explained.",
+       "miss": "Business knowledge behind solutions not explicit enough (workforce planning, staffing-needs analysis, on-the-job training, Health and Safety at Work Act duties).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91383/91383-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Social-media distraction and productivity in NZ businesses: secondary and some primary research; range of solutions with relevant business knowledge.",
+       "miss": "Specific global businesses not identified; business knowledge needed strengthening on maintaining a positive employment relationship (e.g. risks of not enforcing consequences).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91383/91383-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Alcohol use outside work hours affecting two NZ businesses with global reach: range of sources; impact on productivity evaluated; two solutions for a hardware chain explained, one recommended; business knowledge integrated.",
+       "miss": "For a more secure Excellence, link solutions to change management and refer to the Health and Safety at Work Act 2015 and Privacy Act.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91383/91383-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -2027,6 +2383,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2072,23 +2429,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "The group’s plan and execution were comprehensive and earned Excellence for the business plan, but this student’s individual work did not evaluate the activity.",
-       "miss": "Not Achieved because the student did not explain why outcomes occurred or evaluate performance against the economic, social, environmental and cultural/ethical goals — a strong group plan does not carry an individual grade."
+       "grade": "High Not Achieved",
+       "text": "Group's comprehensive plan integrating innovation, sustainability and business knowledge, with specialist advice, gained Excellence; the student's individual evaluation did not.",
+       "miss": "Must explain why outcomes occurred and evaluate performance against economic, social, environmental and cultural/ethical goals.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91384/91384-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved: lemon curd from donated lemons with an information sheet; some sustainability goals; an experienced curd maker consulted; activity carried out as planned.",
-       "miss": "Not Merit because the plan needed more detail and more of the quadruple bottom line (e.g. reusing jars, food hygiene as ethical sustainability), and intentions needed to be SMART goals."
+       "grade": "Low Achieved",
+       "text": "Body scrub from recycled coffee grounds: plan with sustainability outcomes, business knowledge and some SMART goals; Dragons' Den panel consulted (relevance and follow-through unclear).",
+       "miss": "For a more secure Achieved: all intentions as SMART goals, carried out as planned, target-market research and cost investigation so packaging was realistic.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91384/91384-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: innovation and sustainability goals explained in detail with business knowledge; relevant specialist consulted; evaluation identified the weaknesses that prevented goals being met.",
-       "miss": "Not Excellence because planning was not comprehensive — production costs not researched accurately, goals not linked to all relevant plan areas, and a $10 price inconsistent with research showing $15–$20 acceptable, contributing to the missed economic goal."
+       "grade": "High Achieved",
+       "text": "Lemon curd from donated lemons with an information sheet: experienced curd maker consulted; activity carried out per operations plan.",
+       "miss": "Plan needed more detail covering more of the quadruple bottom line (reused jars, food hygiene) and intentions reframed as SMART goals.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91384/91384-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: comprehensive plan with innovation and sustainability integrated with business knowledge; responded to specialist advisers; evaluated against the quadruple bottom line, identifying flaws. For more secure Excellence: more accurate costings, a SMART cultural goal, and recognising that a ‘raise awareness’ goal cannot be measured accurately."
+       "grade": "Low Merit",
+       "text": "Organic, location-specific bagged manure confirmed organic by a specialist; product range diversified when demand fell.",
+       "miss": "For a more secure Merit: explore process innovation, wider products and packaging, and state actual performance against goals (profit, units sold).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91384/91384-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Plan explained innovation and sustainability goals in detail with business knowledge and specialist consultation; evaluation against the quadruple bottom line identified weaknesses.",
+       "miss": "Planning not comprehensive (production-cost research), goals not linked to all plan areas; $10 price below accepted $15–$20 range left economic goal unmet.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91384/91384-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Comprehensive plan integrating innovation and sustainability with business knowledge; responded to specialist advisers; evaluated against the quadruple bottom line, identifying flaws that stopped goals being met.",
+       "miss": "For a more secure Excellence: more thorough cost research and a SMART cultural goal (raising awareness of cultural heritage could not be measured).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91384/91384-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -2183,6 +2563,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The business activity itself must actually be carried out — the teacher must verify that the product went to market over the period claimed, that the consultation took place, and that sales and financial records are genuine; documents alone cannot confirm this.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2221,23 +2602,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "Zespri kiwifruit to India: NZTE consulted domestically; expansion of current capacity justified, barriers discussed, some business knowledge.",
-       "miss": "Not Achieved because it only considered selling more in an existing market; the investigation needed a new offshore market (or a new region where potential is unrealised)."
+       "grade": "High Not Achieved",
+       "text": "Zespri kiwifruit to India: NZTE consulted domestically; expansion of current export capacity justified; barriers discussed; some business knowledge.",
+       "miss": "Did not investigate a new offshore market or new Indian province; only selling more in the existing market.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91385/91385-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "AFFCO to China, high Achieved: NZTE and the chair of a competitor meat exporter consulted domestically; exporting potential explained; business knowledge stated.",
-       "miss": "Not Merit because there was no international consultation (e.g. the Chinese trade commission) to explain potential more fully, such as meat quotas and a focus on high-priced cuts."
+       "grade": "Low Achieved",
+       "text": "Brancott Wines to China: domestic specialists consulted; whether a viable market exists explained; risks and opportunities with some business knowledge.",
+       "miss": "Too little business knowledge; explain the exporting process and develop cultural intelligence beyond brief mentions.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91385/91385-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Akaroa Salmon to China, high Merit: NZTE and a competitor consulted domestically and the NZ embassy in Beijing internationally; the case for China fully explained and compared with a competitor; risks, opportunities and export readiness explained.",
-       "miss": "Not Excellence because the specialist consultations were not used effectively — e.g. existing Hong Kong exports with similar regulations could have been linked to likely success in China."
+       "grade": "High Achieved",
+       "text": "AFFCO meat to China: NZTE and a competitor exporter's chair consulted domestically; exporting potential explained with business knowledge.",
+       "miss": "No international consultation (e.g. Chinese trade commission) to explain potential more fully, e.g. high-value meats within quotas.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91385/91385-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Puma Darts to Russia, low Excellence: Mainfreight and NZTE consulted domestically and NZ’s Honorary Consul in Vladivostok internationally; risks and opportunities evaluated across competition, cultural intelligence, legislation, IP, transport and distribution; business knowledge integrated; concluded exporting would not be wise. For more secure Excellence, specific information from the international consultation used to support that conclusion."
+       "grade": "Low Merit",
+       "text": "Anytown College recruiting up to 15 Chinese students: Education NZ and Chinese embassy (domestic) and an education network in Shanghai consulted; readiness to export fully explained.",
+       "miss": "Business knowledge not explicit enough (agent relationships as cultural intelligence; agent registration and visas as compliance).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91385/91385-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Akaroa Salmon to China: NZTE, a competitor and the NZ embassy in Beijing consulted; compared with a competitor; risks, opportunities and export readiness explained; potential concluded.",
+       "miss": "Specialist consultations not used effectively to evaluate success; could link existing Hong Kong exports with similar regulations.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91385/91385-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Puma Darts to Russia: Mainfreight and NZTE consulted domestically, Honorary Consul in Vladivostok internationally; competition, cultural intelligence, legislation, IP and logistics evaluated; concluded not to export.",
+       "miss": "Could have used more specific information from the international consultation to support the conclusion.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Business-Studies/91385/91385-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -2312,6 +2716,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -2343,6 +2748,22 @@ window.MOD_DATA['3'] = {
     {
      "label": "Level 3 Conditions of Assessment, 2012 copy (CensusAtSchool)",
      "url": "https://new.censusatschool.org.nz/wp-content/uploads/2012/08/3.10-Conditions-of-assessment.pdf"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ Association of Mathematics Teachers (NZAMT)",
+     "url": "https://www.nzamt.org.nz/",
+     "notes": [
+      "NZAMT runs Networks of Expertise (NEX) support for teachers implementing the reviewed NCEA standards (tda.org.nz). No publicly accessible NZAMT marking or moderation guidance was found; the NZAMT site could not be reached in this pass."
+     ]
+    },
+    {
+     "name": "Auckland Mathematical Association (AMA, NZAMT regional association)",
+     "url": "https://www.aucklandmaths.org.nz/",
+     "notes": [
+      "Public news posts relay NCEA change updates, Level 1 internal assessment resources from the Ministry and NZQA contract roles (markers, moderators); no standard-specific marking advice found."
+     ]
     }
    ],
    "standards": [
@@ -2385,33 +2806,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Orbits'. Used properties of a parabola to find the equation of the comet's path.",
-       "miss": "Not Achieved because only one conic was correctly modelled; using ellipse properties to find a correct equation for one orbit was needed."
+       "text": "TKI 'Orbits': used parabola properties to find the equation of the comet's path.",
+       "miss": "Needed to select and use properties of an ellipse to find the correct equation of one ellipse.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91573/91573-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "Correct parabolic equation for the comet; began the ellipse equations for Earth and Mars but later work was incorrect.",
-       "miss": "For a secure Achieved, a correct ellipse equation for Mars and/or Earth was needed."
+       "text": "Found the comet's path equation correctly; started ellipse equations for Earth and Mars, but later use was incorrect.",
+       "miss": "For a more secure Achieved: use ellipse properties to find a correct equation.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91573/91573-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Used properties of an ellipse and a parabola to form equations for Earth's orbit and the comet's path.",
-       "miss": "Not Merit because the equations were not then used with the asteroid's path to find where it crosses Earth's orbit and/or the comet's path."
+       "text": "Used ellipse and parabola properties to form equations for Earth's orbit and the comet's path, with appropriate representations.",
+       "miss": "To reach Merit: consider the asteroid's path and use the equations formed to find the distances.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91573/91573-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Modelled the comet and Earth orbits and used the comet model to find the asteroid's distance from the sun at that crossing.",
-       "miss": "For a secure Merit, the Earth model also needed to be used correctly to find the crossing distance."
+       "text": "Modelled the comet's and Earth's orbits; used the comet model to find the asteroid's distance where it crosses the comet's orbit.",
+       "miss": "For a more secure Merit: use the Earth-orbit model to find the correct distance.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91573/91573-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Modelled the comet and Earth orbits and used both to find the asteroid's distances from the sun at those crossings.",
-       "miss": "Not Excellence because a model for Mars's orbit was not formed and used."
+       "text": "Modelled the comet's and Earth's orbits and used both to find the asteroid's distance from the sun at each crossing.",
+       "miss": "To reach Excellence: form and use a model for the orbit of Mars.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91573/91573-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Devised a strategy to find the asteroid's distance from the sun where it crosses the orbits of Earth, Mars and the comet, using correct mathematical statements.",
-       "miss": "For a secure Excellence, findings should be reported in writing and interpreted in context (e.g. what y = 149.5 × 10⁶ km means for the crossing of Earth's orbit)."
+       "text": "Devised a strategy to find the asteroid's distance from the sun where it crosses the orbits of Earth, Mars and the comet, with correct mathematical statements.",
+       "miss": "For a more secure Excellence: present findings in a written report and interpret distances more clearly in context.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91573/91573-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2520,6 +2953,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Handwritten working photographed or scanned may be misread (signs, indices, subscripts, fractions, diagram labels), so the teacher should check any flagged line against the original script before confirming a grade.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2564,33 +2998,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Ted's tomatoes'. Formed some of the inequalities and found a feasible region, but not the correct one.",
-       "miss": "The labour-hours inequality was needed to find the correct feasible region."
+       "text": "TKI 'Ted's tomatoes': formed some of the linear inequalities and used them to find a feasible region.",
+       "miss": "Needed to form the inequality for hours of labour and use it to find the correct feasible region.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91574/91574-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "Formed the linear inequalities and found the feasible region.",
-       "miss": "For a secure Achieved, state what each variable represents and make some progress towards the optimal solution."
+       "text": "Formed the linear inequalities and found the feasible region; no further progress.",
+       "miss": "For a more secure Achieved: state what each variable represents and progress towards the optimal solution.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91574/91574-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Formed the inequalities, found the feasible region and calculated the income at each vertex.",
-       "miss": "Not Merit because the vertex maximising income was not identified and used to recommend hectares of each crop."
+       "text": "Formed the inequalities, found the feasible region and calculated income at each vertex.",
+       "miss": "To reach Merit: identify the vertex that maximises the income function to support a recommendation on hectares.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91574/91574-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "A different (rods and pillars) task: found the feasible region and the numbers of each product maximising profit, related to the context.",
-       "miss": "For a secure Merit, investigate how the increased drilling and grinding hours change the feasible region and maximum profit."
+       "text": "Different task (rods and pillars, drilling and grinding hours): located the feasible region, found the profit-maximising numbers and related findings to context.",
+       "miss": "For a more secure Merit: investigate the effect of the increased hours on the feasible region and maximum profit.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91574/91574-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Found the feasible region and optimal hectares, supplied a possible future income function, found two solutions and selected one as optimal, related to the context.",
-       "miss": "Not Excellence because it was not recognised that the future solutions lie along the boundary line between two vertices (AB) and related to the context."
+       "text": "'Ted's tomatoes': feasible region found, income-maximising hectares identified; with a provided future income function, found two solutions and chose one as optimal, related to context.",
+       "miss": "To reach Excellence: recognise there are multiple solutions in future years (along line AB) and link this to the context.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91574/91574-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Optimised current income, identified relevant concepts by forming a possible future income equation, identified and explained multiple solutions, used correct mathematical statements (one transfer error in the maximum income).",
-       "miss": "For a secure Excellence, generalise further, e.g. a general model for future income."
+       "text": "Found income-maximising hectares, wrote an equation for a possible future income and explained multiple solutions; transfer error stating the maximum income.",
+       "miss": "For a more secure Excellence: generalise further for the future situation, e.g. a general model for future income.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91574/91574-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2704,6 +3150,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Handwritten working photographed or scanned may be misread (signs, indices, subscripts, fractions, diagram labels), so the teacher should check any flagged line against the original script before confirming a grade. Hand-drawn graphs of the feasible region should be checked against the student's inequalities.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2745,33 +3192,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Exact Values'. Used reciprocal functions to find some exact values for special-triangle angles; a correct double-angle result for sin90° did not count because 90° is a known angle.",
-       "miss": "Needed, e.g., the exact value of sin135°."
+       "text": "'Exact Values': used reciprocal trig functions for exact values of some special-triangle angles; used the double angle formula for sin 90°, a known angle.",
+       "miss": "Needed to determine the exact value of sin 135°.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91575/91575-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "TKI task 'Maths End Ferris Wheels'. Correct Kiddy-wheel equation, solved to find when Jade is above 5 m.",
-       "miss": "For a secure Achieved, complete the Flying-high wheel equation and find Manu's interval."
+       "text": "'Maths End Ferris Wheels': correct Kiddy-wheel equation; solved a trig equation for when Jade is above 5 m.",
+       "miss": "For a more secure Achieved: complete the Flying-high wheel equation and find an interval for Manu.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91575/91575-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Used properties of trigonometric functions to form correct equations for both wheels and solved them for correct intervals.",
-       "miss": "Not Merit because the solutions were not linked back to the problem (when Jade can see Manu)."
+       "text": "'Ferris Wheels': correct equations for both wheels from trig function properties; solved trig equations for the correct intervals for both.",
+       "miss": "To reach Merit: link the solutions back to the problem to find an interval when Jade can see Manu.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91575/91575-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "'Exact Values': connected concepts by finding reciprocal trigonometric values from compound angle formulae.",
-       "miss": "For a secure Merit, investigate other angles using the unit circle or graphs."
+       "text": "'Exact Values': connected concepts to find reciprocal trig values for angles from the compound angle formulae.",
+       "miss": "For a more secure Merit: use the unit circle or graphs to investigate other angles.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91575/91575-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "'Exact Values': reciprocal values from compound and double angle formulae; some errors (tan120°, cot120°, reciprocal statements); general solutions found but not clearly explained.",
-       "miss": "Not Excellence: errors needed correcting and generalisations extended to exact values beyond special-triangle angles."
+       "text": "'Exact Values': reciprocal values from compound and double angle formulae (tan 120°, cot 120° wrong); general-solution angles found but not clearly explained.",
+       "miss": "To reach Excellence: correct the errors and extend generalisations to exact values beyond the special-triangle angles.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91575/91575-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "'Ferris Wheels': devised a strategy modelling both wheels and solved the problem with correct mathematical statements, although the Flying-high model was incorrect.",
-       "miss": "For a secure Excellence, correct the Flying-high equation and explain why one solution interval is not sensible and discard it."
+       "text": "'Ferris Wheels': strategy with a correct Kiddy-wheel model and an incorrect Flying-high model that does not simplify the problem; both used, correct statements throughout.",
+       "miss": "For a more secure Excellence: find the correct equation for the Flying-high wheel.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91575/91575-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -2875,6 +3334,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Handwritten working photographed or scanned may be misread (signs, indices, subscripts, fractions, diagram labels), so the teacher should check any flagged line against the original script before confirming a grade.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -2913,33 +3373,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'The new shopping mall'. Selected and used a network diagram only.",
-       "miss": "At least one more EN4 method was needed, e.g. stating the activities on the critical path."
+       "text": "TKI 'The new shopping mall': selected and used a network diagram only.",
+       "miss": "Needed at least one more method from Explanatory Note 4, e.g. stating which activities form the critical path.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91576/91576-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "Network diagram and critical events, with knowledge of concepts and terms and appropriate representations.",
-       "miss": "For a secure Achieved, give the critical path length in context and discuss scheduling and/or float times."
+       "text": "Network diagram and critical events identified; concepts and terms known; appropriate representations.",
+       "miss": "For a more secure Achieved: give the critical path length in context and discuss scheduling and/or float times.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91576/91576-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Network diagram, critical events, scheduling with a Gantt chart.",
-       "miss": "Not Merit: needed to explain why the manager should visit in weeks 6–10 and discuss what happens if task D is delayed more than two weeks."
+       "text": "Network diagram, critical events, and scheduling with a Gantt chart; concepts, terms and representations appropriate.",
+       "miss": "To reach Merit: explain why the manager's visit is recommended and what happens if task D is delayed over two weeks.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91576/91576-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Correct network and critical path, scheduling, forward and backward scan, supervisors allocated, manager's visit time set.",
-       "miss": "For a secure Merit, consider start times for D that do not delay the project, and justify the impact if D takes longer than three weeks."
+       "text": "Correct network, critical path and scheduling; backward and forward scan, supervisors allocated, manager's visit time found.",
+       "miss": "For a more secure Merit: consider varying start times for task D and justify the impact if D exceeds three weeks.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91576/91576-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "As Low Merit plus Gantt chart, varying start times for D discussed, float times for other tasks begun, linked to context.",
-       "miss": "Not Excellence: delays to tasks other than D needed investigating."
+       "text": "As Low Merit plus discussion of varying start times for task D; began discussing float times for other tasks.",
+       "miss": "To reach Excellence: develop the investigation of delays to tasks other than task D.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91576/91576-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Correct network and critical path, scheduling, float times, effect of other significant delays on minimum completion time, correct mathematical statements throughout.",
-       "miss": "For a secure Excellence, clearly communicate when the manager can see three tasks under way, referring to the possible scheduling of D."
+       "text": "Correct network, critical path and schedule; float times discussed and the effect of other significant delays on minimum completion time; correct statements throughout.",
+       "miss": "For a more secure Excellence: clearly communicate when the manager can visit, referring to possible scheduling of activity D.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91576/91576-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -3038,6 +3510,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Handwritten working photographed or scanned may be misread (signs, indices, subscripts, fractions, diagram labels), so the teacher should check any flagged line against the original script before confirming a grade. Hand-drawn network diagrams should be checked against the precedence table on the original.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -3065,6 +3538,24 @@ window.MOD_DATA['3'] = {
     {
      "label": "Chemistry Level 3 Conditions of Assessment 2026 (TKI, could not be fetched)",
      "url": "https://ncea.tki.org.nz/content/download/8323/32256/file/Chemistry Level 3 Conditions of Assessment 2026.docx"
+    }
+   ],
+   "associations": [
+    {
+     "name": "Secondary Chemistry Educators of New Zealand (SCENZ, part of NZIC)",
+     "url": "https://nzic.org.nz/scenz",
+     "notes": [
+      "National chemistry teachers' association under the NZ Institute of Chemistry; represents teachers to NZQA and the Ministry. Its Level 2/3 practice exams and assessment resources are member-only (school NZIC membership).",
+      "No public SCENZ/NZIC marking or moderation guidance for specific Chemistry standards was found (Oct 2026); contractors listed for NCEA assessment and moderation support are not public guidance."
+     ]
+    },
+    {
+     "name": "New Zealand Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/",
+     "notes": [
+      "Umbrella science teachers' association. No public, standard-specific marking or moderation advice for Biology or Chemistry Levels 2–3 was found on nzase.org.nz (Oct 2026).",
+      "Term 1 2025 PLD: 'Unpacking moderation, writing and critiquing assessment tasks' (Linda Haycock); presentation held in a linked Google Drive folder, content not reviewed."
+     ]
     }
    ],
    "standards": [
@@ -3109,23 +3600,53 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved: stated the purpose, processed the data and reached a conclusion based on the processed data. Low Achieved explored a trend, collected enough data and concluded from processed data that contained some errors; purpose and conclusion needed to be clearer.",
-       "miss": "Not Merit because fewer than five values of the independent variable were investigated, the processed data was not linked to the purpose, and there was no explanation of how the procedure contributed to quality data."
+       "grade": "High Not Achieved",
+       "text": "Investigated a possible trend, stated a purpose and concluded from some of the processed data.",
+       "miss": "Needed a summary of processed data in the report and a conclusion based on more than one value of the independent variable.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: accurate processing, a conclusion linking data to purpose, and an explanation of how the procedure contributed to quality data. Low Merit met the same points but needed the mathematical steps for the thiosulfate concentration shown, plus appropriate significant figures and units.",
-       "miss": "Not Excellence because significant figures were not appropriate and the evaluation was not comprehensive."
+       "grade": "Low Achieved",
+       "text": "Explored a possible trend, collected enough data, processed it with some errors, and concluded from it.",
+       "miss": "For a more secure Achieved: state the purpose and conclusion more clearly.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Trial Excellence: linked the key reactions to the investigation steps, justified how the processed data supports the conclusion, connected the conclusion to real-life applications and chemical ideas, and evaluated reliability and sources of error. Low Excellence processed data accurately with sig figs and units, evaluated reliability and error, and attempted the justification, but needed to link conclusions to chemical principles or real-life applications."
+       "grade": "High Achieved",
+       "text": "Stated the purpose, processed the data and concluded from the processed data.",
+       "miss": "Needed at least 5 values of the independent variable, a conclusion linking processed data to purpose, and explanation of how the procedure gave quality data.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-High-Achieved.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: investigated a possible trend and stated a purpose but concluded from only some of the processed data.",
-       "miss": "Not Achieved because the report lacked a summary of processed data and the conclusion rested on a single value of the independent variable."
+       "grade": "Low Merit",
+       "text": "Processed data accurately, concluded linking data to purpose, and explained how the procedure contributed to quality data.",
+       "miss": "For a more secure Merit: show steps for the S2O3 2- concentration, appropriate significant figures and units, and a more comprehensive evaluation.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Processed data accurately, linked conclusion to purpose and explained how the procedure contributed to quality data.",
+       "miss": "Needed appropriate significant figures and a more comprehensive evaluation.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Accurate processing with appropriate s.f. and units, evaluated reliability and error sources, and attempted to justify how data support the conclusions.",
+       "miss": "For a more secure Excellence: link the conclusion(s) to chemical principles or real-life applications.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-Low-Excellence.pdf"
+      },
+      {
+       "grade": "Trial Excellence",
+       "text": "Linked key reactions to steps, justified how processed data support the conclusion, connected it to real-life applications and chemistry ideas, and evaluated reliability, procedure and errors.",
+       "miss": "",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91387/91387-Trial-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -3216,6 +3737,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The teacher must verify that the student carried out the practical and that the data and logbook are the student's own, and must check the accuracy of the quantitative result against the teacher's expected value — the AI can only check the processing.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -3255,23 +3777,53 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved: identified discrete aspects of the data and used some of it to propose a possible structure. Low Achieved identified discrete aspects from all three techniques but needed to match functional groups to the IR peaks.",
-       "miss": "Not Merit because it did not explain how two different types of data lead to the structure."
+       "grade": "High Not Achieved",
+       "text": "Identified some discrete aspects of two spectroscopic techniques.",
+       "miss": "Needed main IR peaks identified, mass spectrum used for the molecular formula, and C-13 NMR used for the number of carbon environments.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: explained how all three data types were used to identify the molecule. Low Merit identified a possible structure using some data from two techniques but needed to explain how the data supports the identification.",
-       "miss": "Not Excellence because more of the identified data needed to be integrated to justify the identification."
+       "grade": "Low Achieved",
+       "text": "Identified discrete aspects from all three types of spectroscopic data.",
+       "miss": "For a more secure Achieved: identify the functional group relating to the IR peaks.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Trial Excellence: linked key IR, 13C NMR and mass spectrum peaks to the structure, used all three spectra to rule out alternatives and to justify the correct one. Low Excellence integrated all three data types but needed to explain how other candidates were excluded using the data."
+       "grade": "High Achieved",
+       "text": "Identified discrete aspects of the data and used some to suggest a possible structure.",
+       "miss": "Needed explanation of how two types of spectroscopic data lead to the structure.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-High-Achieved.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: identified some discrete aspects from two techniques.",
-       "miss": "Not Achieved because it did not identify the main IR peaks, the molecular formula from the mass spectrum, and the number of unique carbon environments from NMR."
+       "grade": "Low Merit",
+       "text": "Identified a possible structure using some data from two types of spectroscopy.",
+       "miss": "For a more secure Merit: explain how the identified data supports the identification.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Explained how the three types of spectroscopic data identified the molecule.",
+       "miss": "Needed more of the identified data integrated to justify the identification.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Integrated IR, C-13 NMR and mass spectrometry to justify the identification of the unknown molecule.",
+       "miss": "For a more secure Excellence: explain how other candidate molecules were excluded using the supplied data.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-Low-Excellence.pdf"
+      },
+      {
+       "grade": "Trial Excellence",
+       "text": "Explained links between key peaks in IR, C-13 NMR and mass spectra and the structure, integrating all three to rule out alternatives and justify the correct one.",
+       "miss": "",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91388/91388-Trial-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -3325,6 +3877,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -3357,23 +3910,53 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (cyanide in gold extraction): used equations and vocabulary to describe how cyanide is used and gave an account of natural and chemical processes for treating the by-products. Low Achieved gave a brief description of one treatment process with some vocabulary; it needed more equations and vocabulary.",
-       "miss": "Not Merit because links between the chemical processes were not explained, nor how the processes meet a need or resolve an issue."
+       "grade": "High Not Achieved",
+       "text": "Cyanide gold extraction: very basic descriptions of extraction and of treating cyanide by-products.",
+       "miss": "Needed correct vocabulary and equations and more detailed description of the extraction processes.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91389/91389-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: explained how cyanide is used, its environmental effects, and the chemical processes for treating by-products, with vocabulary, symbols and equations. Low Merit explained the use and effects but only briefly explained the natural treatment processes.",
-       "miss": "Not Excellence because the student did not elaborate on the environmental effects or compare the methods used to treat the by-products."
+       "grade": "Low Achieved",
+       "text": "Some vocabulary describing cyanide use in gold extraction and a brief description of one by-product treatment.",
+       "miss": "For a more secure Achieved: more vocabulary and equations, and elaboration of natural treatment processes.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91389/91389-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Trial Excellence (ocean acidification): linked rising CO2 to pH change and effects on the ocean, and linked buffer principles to the ocean's past ability to stabilise acidity and how that capacity is now weakening, with consistent vocabulary, symbols and equations. Low Excellence (cyanide) analysed gold extraction with equations, discussed environmental effects, compared treatment processes and elaborated on one used in New Zealand; it needed a more detailed compare-and-contrast."
+       "grade": "High Achieved",
+       "text": "Described cyanide use in gold extraction and gave an account of natural and chemical by-product treatment.",
+       "miss": "Needed links between the chemical processes explained and elaboration of how they meet societal needs or resolve an issue.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/chemistry/as-91389/"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: very basic descriptions of the extraction and treatment processes.",
-       "miss": "Not Achieved because correct vocabulary and equations were missing and the chemical processes were not described in enough detail."
+       "grade": "Low Merit",
+       "text": "Explained cyanide use and environmental effects; briefly explained natural by-product treatment.",
+       "miss": "For a more secure Merit: elaborate the chemical processes treating by-products to resolve an issue.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91389/91389-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Explained cyanide in gold extraction, its environmental effects and the chemical processes treating by-products.",
+       "miss": "Needed elaboration of environmental effects and a comparison of treatment methods to resolve an issue.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91389/91389-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Used equations to analyse cyanide extraction, discussed environmental effects, compared by-product treatments and elaborated one NZ process.",
+       "miss": "For a more secure Excellence: compare and contrast the treatment processes in detail.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91389/91389-Low-Excellence.pdf"
+      },
+      {
+       "grade": "Trial Excellence",
+       "text": "Ocean acidification: linked rising CO2 to falling ocean pH and marine life, and buffer principles to past and present ocean buffering, with consistent vocabulary and equations.",
+       "miss": "",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91389/91389-Trial-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -3432,6 +4015,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -3469,23 +4053,53 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved: identified what was oxidised and reduced in both cells with electron or oxidation number reasoning, referred to the energy needed for the electrolytic cell and to reduction potentials for the electrochemical cell. Low Achieved did the same but needed clearer links from oxidation number change or electron transfer to each process.",
-       "miss": "Not Merit because correct half equations for all reactions were missing."
+       "grade": "High Not Achieved",
+       "text": "Identified what was oxidised and reduced in both cells with some reference to electron or oxidation number changes.",
+       "miss": "Needed all oxidation and reduction changes described correctly and reference to the electrolytic cell's energy requirement.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: reasons for oxidation and reduction, balanced half equations for both cells, a correct cell potential calculation for the electrochemical cell, spontaneity explained, species related to observations. Low Merit needed all species related to observations and the correct unit in the calculation.",
-       "miss": "Not Excellence because both fully balanced equations were not correct and spontaneity was not elaborated using E° values."
+       "grade": "Low Achieved",
+       "text": "Identified oxidation and reduction in both cells with electron/ON descriptions and some reference to energy requirement and reduction potentials.",
+       "miss": "For a more secure Achieved: link ON increase/decrease or electron loss/gain to the oxidation and reduction processes.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Trial Excellence: half and full equations, cell potentials calculated for both cells, reduction potentials used to compare oxidant and reductant strength, spontaneity of both cells justified. Low Excellence had correct balanced equations and calculations and compared both cells; it needed further elaboration of spontaneity, e.g. linking reductant strength to E° values."
+       "grade": "High Achieved",
+       "text": "Identified oxidation and reduction in both cells via electron loss/gain or ON, referring to the electrolytic energy requirement and reduction potentials.",
+       "miss": "Needed correct half equations for all reactions.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-High-Achieved.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: identified what was oxidised and reduced in both cells with some reference to electron or oxidation number change.",
-       "miss": "Not Achieved because not all redox changes were described correctly and the energy requirement of the electrolytic cell was not referenced."
+       "grade": "Low Merit",
+       "text": "Identified oxidation and reduction with reasons, balanced half equations for both cells, calculated cell potential, related some species to observations.",
+       "miss": "For a more secure Merit: relate all species to observations and include the correct unit in the calculation.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Identified oxidation and reduction with reasons, balanced half equations, correct E°cell calculation, explained spontaneity and related species to observations.",
+       "miss": "Needed both full equations correctly balanced and spontaneity elaborated using E° values.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Fully balanced equations, correct calculations, justified spontaneity of both reactions and compared electrochemical and electrolytic cells.",
+       "miss": "For a more secure Excellence: elaborate spontaneity by interpreting E° values, e.g. linking reductant strength to E°.",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-Low-Excellence-.pdf"
+      },
+      {
+       "grade": "Trial Excellence",
+       "text": "Explained oxidation and reduction with half and full equations, calculated both cell potentials, compared oxidant and reductant strength from E° and justified spontaneity in both cells.",
+       "miss": "",
+       "version": "Not stated by NZQA (standard is Version 2); the 'Trial Excellence' script's basis is not explained",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Chemistry/Exemplars/Level-3/91393/91393-Trial-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -3550,6 +4164,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -3577,6 +4192,15 @@ window.MOD_DATA['3'] = {
     {
      "label": "Classical Studies Level 3 Conditions of Assessment 2026 (TKI — not retrievable)",
      "url": "https://ncea.tki.org.nz/content/download/8330/32277/file/Classical Studies Level 3 Conditions of Assessment 2026.docx"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Association of Classical Teachers (NZACT)",
+     "url": "http://www.nzact.org.nz/",
+     "notes": [
+      "No publicly accessible marking or moderation guidance found (Oct 2026): the NZACT site could not be reached or found in search indexes, and no NZACT documents on these standards were located online."
+     ]
     }
    ],
    "standards": [
@@ -3615,23 +4239,88 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved (two sets): general statements about buildings such as Hadrian’s Baths at Leptis Magna and the Colosseum without sufficient primary evidence or understanding of the political ideology; or large excerpts from the Res Gestae selected but not explained or used.",
-       "miss": "Not Achieved because the primary evidence was not analysed to show understanding of the ideology and points were not developed or related to the wider Roman context."
+       "grade": "High Not Achieved (set A)",
+       "text": "Roman art and architecture (Hadrian's Baths at Leptis Magna, the Colosseum): general statements related to the wider context, with limited understanding of political ideology.",
+       "miss": "Insufficient primary source evidence to support the points made.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397A/91397A-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "Low Achieved: some understanding of Augustus’ ideology (new and modified titles and powers, the Senate, need for a legitimate successor) with sporadic primary evidence; many points stated rather than analysed. High Achieved: sound analysis of Roman art as propaganda and senatorial patronage, or of Augustus’ constitutional and military aspects, with primary evidence throughout and links to the wider Roman context.",
-       "miss": "Not Merit because a wider range of aspects was needed (e.g. propaganda, religion as a political tool, mythology, different emperors, change over time) and points needed exploring in more detail for an informed analysis."
+       "grade": "High Not Achieved (set B)",
+       "text": "Augustan principate: selected large excerpts of the Res Gestae without explaining or analysing them; some valid points mentioned briefly but not developed.",
+       "miss": "Cannot demonstrate understanding of Augustan political ideology, so insufficient evidence for Achieved.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/Level-3-exemplars/AS91397B/91397B-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit: informed analysis of Augustan ideology (pre-existing powers, first constitutional settlement, the army; or imperial prosperity, emperors’ qualities, portrayal of conquered peoples) with specifically relevant, well-integrated primary evidence, sometimes strengthened by secondary sources. High Merit: several aspects (constitutional reform, propaganda in art and literature, military reform; or Augustan vs Trajanic art) with some undeveloped insight.",
-       "miss": "Not Excellence because reasons for similarities and differences (e.g. between emperors’ ideologies) were not developed, themes and patterns were not firmly established, cultural expectations and codes of behaviour were not identified, and source limitations were not assessed."
+       "grade": "Low Achieved (set A)",
+       "text": "Roman political ideology in art and architecture: some understanding, with primary evidence supporting points; some points stated without context.",
+       "miss": "Analysis needs further development; the relationship to the wider context is weak.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/Level-3-exemplars/AS91397A/91397A-EXP-Student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: perceptive understanding of Augustus’ political ideology (Senate relationship, limits on military honours, propaganda) using literary and artistic evidence, with insight into Roman cultural expectations and Republican codes of behaviour during Octavian’s rise; or of Rome’s political ideology in art (expansion, Romanisation, emperors’ place in Roman mythology). For a more secure Excellence: use primary sources that do not favour Augustus for balance, and show discernment about the limitations of the sources."
+       "grade": "Low Achieved (set B)",
+       "text": "Augustus' ideology: constitutional changes, modified titles and powers, the Senate and the need for a successor, without going beyond these aspects.",
+       "miss": "Primary source evidence is sporadic, and many points are only stated rather than analysed in detail.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397B/91397B-EXP-Student5-001.pdf"
+      },
+      {
+       "grade": "High Achieved (set A)",
+       "text": "Roman ideology in art: propaganda to the masses, the Senate as patron, the army and stability, with primary evidence and links to the wider Roman context.",
+       "miss": "To reach Merit: cover a range of aspects (e.g. the role of mythology in art) and explore points in more detail.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397A/91397A-EXP-Student4-001.pdf"
+      },
+      {
+       "grade": "High Achieved (set B)",
+       "text": "Augustus' ideology in a dialogue: constitutional and military aspects analysed with primary sources throughout and related to the wider Roman context.",
+       "miss": "To reach Merit: cover a range of aspects (propaganda, religion, change over Augustus' lifetime) and explore points in more detail.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397B/91397B-EXP-Student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit (set A)",
+       "text": "Augustan ideology in art: imperial wealth and prosperity, emperors' personal qualities and the portrayal of conquered peoples, using primary and secondary sources.",
+       "miss": "For a more secure Merit: more depth and development for some of the many points made.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397A/91397A-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "Low Merit (set B)",
+       "text": "Augustan principate: well-explained, integrated quotations analysing pre-existing powers, the first constitutional settlement and use of the army.",
+       "miss": "For a more secure Merit: explore points in more depth.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397B/91397B-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "High Merit (set A)",
+       "text": "Roman political ideology in art: depictions of the emperor, mythology, Augustan versus Trajanic ideology, with relevant primary evidence throughout and some insight.",
+       "miss": "Insights lack sufficient development to meet the criteria for Excellence.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397A/91397A-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "High Merit (set B)",
+       "text": "Augustan principate: constitutional reform, propaganda in art and literature, military reform and relations with other power figures, with relevant primary sources throughout.",
+       "miss": "Some insight shown, but it lacks sufficient development for Excellence.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/Level-3-exemplars/AS91397B/91397B-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence (set A)",
+       "text": "Roman political ideology through art (expansion, Romanisation, art linked to governing): relevant primary sources and insight into cultural expectations of emperors and their place in Roman mythology.",
+       "miss": "For a more secure Excellence: analyse reasons for similarities and differences between emperors, establish themes and patterns more firmly, show discernment about source limitations.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397A/91397A-EXP-Student1-001.pdf"
+      },
+      {
+       "grade": "Low Excellence (set B)",
+       "text": "Augustan principate: literary and artistic evidence on military and political aspects (Senate relations, limits on military honours), how the ideology spread, and a father-son dialogue comparing views.",
+       "miss": "For a more secure Excellence: consider primary evidence that does not favour Augustus for balance, and show discernment about source limitations.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91397B/91397B-EXP-Student1-001.pdf"
       }
      ],
      "conditions": [
@@ -3720,6 +4409,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -3765,23 +4455,88 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: general statements about Greek, Roman and Renaissance (or Elizabethan) art/theatre not linked to the chosen myth or to each other; emphasises differences rather than similarities that would establish influence; little or no primary evidence.",
-       "miss": "Not Achieved because influence across time was not analysed and points were not supported with primary evidence; one or two valid points are not enough."
+       "grade": "High Not Achieved (set A)",
+       "text": "Trojan War cycle in art: general statements about artistic intent not linked to the myth; Renaissance points without a classical connection; limited primary evidence.",
+       "miss": "Insufficient evidence to award Achieved overall.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398A/91398A-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "Low Achieved: some understanding of the Trojan War cycle in Greek, Roman and Renaissance art, or of Greek theatre’s influence on Roman and Elizabethan theatre — valid but superficial points, inconsistent primary evidence, factual errors in places. High Achieved: valid similarities and differences across three periods, partly explained by religious practice and cultural expectations, with a hypothesis beginning to form; or many points on audiences and physical theatre that read more like a list.",
-       "miss": "Not Merit because a fuller hypothesis to explain the lasting influence was needed, the wider cultural context needed deeper analysis, and points needed exploring in depth (errors, e.g. about Plautine theatre, also prevented in-depth understanding)."
+       "grade": "High Not Achieved (set B)",
+       "text": "Greek theatre's influence on Roman and Elizabethan theatre: generalised statements emphasising differences over similarities, with no primary source evidence.",
+       "miss": "Generalised statements are not sufficiently analysed, and no primary source evidence supports understanding.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398B/91398B-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit: informed analysis with some reasons for differences and a basic hypothesis (e.g. women’s role in theatre; treatment of Creusa), using specific examples (Aristophanes’ Peace, theatres of Dionysus and Pompey, the Globe). High Merit: informed analysis linking three points in time with a developed hypothesis (Persian Wars east–west rivalry, Roman imperialism, Renaissance humanism; or audience composition and playwrights’ concessions), confident use of direct and indirect quotation.",
-       "miss": "Not Excellence because themes and patterns across periods were not established, reasons for similarities and differences were not given regularly, and cultural expectations lacked insight. The Low Merit asserted Greek-to-Roman influence through chronological proximity without developing it and was unbalanced across periods."
+       "grade": "Low Achieved (set A)",
+       "text": "Trojan War cycle across Greek, Roman and Renaissance art: cultural values and artistic techniques, showing some understanding of the influence.",
+       "miss": "Valid points lack detail; only just sufficient for Achieved.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398A/91398A-EXP-Student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: insightful analysis of the Trojan War myth in Classical Athenian, Roman and Renaissance art with patterns identified (religious thought shaping art) and hypotheses about reasons for change (post-Persian War Athenian warfare, Roman deities lacking Greek mythology, Renaissance proto-humanism); or of Greek theatre’s influence at two later points, linking humour to purpose, audience expectations and society, with a hypothesis that audiences shaped plays. For a more secure Excellence: discernment about source limitations and more on reasons for similarities and differences and on cultural expectations."
+       "grade": "Low Achieved (set B)",
+       "text": "Greek theatre's influence on Roman and Elizabethan theatre: valid points on audiences, play types, social and political context and humour; inconsistent primary sources.",
+       "miss": "Points are superficially covered, and factual errors affect the demonstration of understanding.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398B/91398B-EXP-Student5-001.pdf"
+      },
+      {
+       "grade": "High Achieved (set A)",
+       "text": "Trojan War cycle across three periods: valid points on similarities and differences and the start of a hypothesis tied to universal ideas of hope and human cruelty.",
+       "miss": "The hypothesis lacks depth; it needed developing with more in-depth understanding for Merit.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398A/91398A-EXP-Student4-001.pdf"
+      },
+      {
+       "grade": "High Achieved (set B)",
+       "text": "Greek theatre's influence on later theatre: analysed audiences and the physical theatre using primary sources.",
+       "miss": "Lacks depth; many points glossed over; factual errors about Plautine theatre; reads more like a list than an in-depth analysis.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398B/91398B-EXP-Student4-001.pdf"
+      },
+      {
+       "grade": "Low Merit (set A)",
+       "text": "Trojan War cycle: in-depth understanding of the influence, brief analysis of Creusa's treatment and informed discussion of Renaissance art.",
+       "miss": "Holistically unbalanced; does not adequately analyse the reasons for the influence from Greek to Roman cultures.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398A/91398A-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "Low Merit (set B)",
+       "text": "Greek theatre across time (Aristophanes' Peace, theatres of Dionysus and Pompey, the Globe): attendance, audience composition and the physical theatre, with an attempted hypothesis on women in theatre.",
+       "miss": "The hypothesis on women's role lacks detail; deeper analysis of the influence was needed.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398B/91398B-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "High Merit (set A)",
+       "text": "Trojan War cycle: in-depth understanding linking three points in time and developing a hypothesis for the influence.",
+       "miss": "Greater insight needed to meet the criteria for Excellence.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398A/91398A-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "High Merit (set B)",
+       "text": "Physical humour from Greek to Elizabethan theatre, with quotes from Aristophanes' Wasps, Frogs and Knights and a hypothesis about audiences and playwrights' concessions.",
+       "miss": "Did not adequately explore reasons for differences in Roman and Elizabethan theatre; needed reasons for similarities and deeper insight.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398B/91398B-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence (set A)",
+       "text": "Trojan War cycle (e.g. rape of Cassandra, Aeneas fleeing Troy): insightful analysis establishing patterns such as religious thought shaping art, identifying cultural expectations and building hypotheses.",
+       "miss": "For a more secure Excellence: show discernment when addressing limitations of sources of evidence.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398A/91398A-EXP-Student1-001.pdf"
+      },
+      {
+       "grade": "Low Excellence (set B)",
+       "text": "Greek theatre's influence at two later points in time: perceptive links between performance features such as humour and audience expectations and society, with a hypothesis about audience influence on plays.",
+       "miss": "For a more secure Excellence: expand on cultural expectations and show discernment about the limits of sources.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Classical-Studies/AS91398B/91398B-EXP-Student1-001.pdf"
       }
      ],
      "conditions": [
@@ -3870,6 +4625,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -3897,6 +4653,13 @@ window.MOD_DATA['3'] = {
     {
      "label": "AS91900 annotated exemplars",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/digital-technologies/as-91900-annotated-exemplars/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "Digital Technologies Teachers Aotearoa (DTTA)",
+     "url": "https://dtta.org.nz/",
+     "notes": []
     }
    ],
    "standards": [
@@ -3946,17 +4709,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "NZQA's commentary (illustrative, no student work published) describes a broad focus linked to digital technologies with specific questions that leave room for a range of outcomes; research into an area such as 3D printing, how existing and emerging technologies support learning, end-user needs and existing systems; concise analysis used to refine the focus; and a proposal detailed enough to guide development.",
-       "miss": "Not Merit (inferred from the criteria): no comparison of perspectives, no discussion of future opportunities and their impacts, no evidence of managed milestones, and no evaluation of the proposal's strengths and weaknesses."
+       "text": "Commentary only (no student work): chose a focus with specific questions, researched and analysed background, refined focus, proposed an outcome with risks and mitigations, reported findings against questions.",
+       "miss": "For Merit: compare perspectives, discuss future opportunities and impacts, manage milestones effectively, evaluate strengths and weaknesses of the proposal.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Digital-Technologies/Exams-and-exemplars/Level-3/91900/91900-EXP.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Commentary examples: comparing research on learning with traditional methods versus digital tools; future opportunity of translating the resource into other languages, including te reo Māori; an ongoing, planned record of goals and reflection in an online tool such as Trello; deeper strengths and weaknesses of the proposal (e.g. tutorials date quickly, so the design allows content updates).",
-       "miss": "Not Excellence (inferred): sources not critiqued for bias or inaccuracy, issues with the outcome not examined with specific improvements or follow-up, and findings not critiqued for accuracy, relevance, reliability or significance."
+       "text": "Commentary only: compared perspectives (traditional vs digital learning), discussed future opportunities such as translation and their impacts, documented milestone reflection, evaluated deeper strengths and weaknesses.",
+       "miss": "For Excellence: critique sources for bias and inaccuracy, consider issues and suggest improvements, critique accuracy, relevance, reliability or significance of findings.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Digital-Technologies/Exams-and-exemplars/Level-3/91900/91900-EXP.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Commentary examples: noting that a commercial app developer's material may favour its own software, so claims should be backed by not-for-profit research; considering issues such as accurate, maintainable translation (software translation with human checking) and whether storage would scale; comparing sources with differing opinions and assessing the reliability of evidence from different viewpoints."
+       "text": "Commentary only: critiqued sources for relevance and bias, identified issues with the outcome and suggested improvements (software plus human translation checking), compared differing sources, assessed reliability.",
+       "miss": "",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Digital-Technologies/Exams-and-exemplars/Level-3/91900/91900-EXP.pdf"
       }
      ],
      "conditions": [
@@ -4071,6 +4841,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Milestone management and inquiry progression are process evidence — the teacher should confirm the log or project board was kept as the inquiry happened (dates, version history) and that any end-user consultation or surveys genuinely took place.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -4141,6 +4912,16 @@ window.MOD_DATA['3'] = {
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/drama/"
     }
    ],
+   "associations": [
+    {
+     "name": "Drama New Zealand (Whakaari Aotearoa)",
+     "url": "https://www.drama.org.nz/resources",
+     "notes": [
+      "Free 'NCEA Implementation Resources' (Networks of Expertise) include teaching-practice packs for the new Level 1 standards (e.g. 1.1 Explore the function of theatre Aotearoa) and annotation-literacy activities; they are teaching aids, not marking guidance.",
+      "Drama NZ sells practice written exams (Level 2: 91215/91219; Level 3: 91514/91518) through a members' shop, with general teacher instructions; content not publicly viewable, so not used here."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91516",
@@ -4176,19 +4957,88 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "(Set A, Craig applied to a design for Death of a Salesman; High Achieved) Bare set leaving mood to the actors rather than photographic realism; lighting choices synthesised with the set and their effects explained; window frame linked to Craig's The Vikings of Helgeland. (Set B, Artaud applied to The Glass Menagerie; High Achieved) Animalistic qualities given to characters at a specific moment, a ritualistic approach with large movements and sounds, repetition and gibberish applied to a moment in the text.",
-       "miss": "Not Merit because choices and effects were not linked to the intentions behind the practitioner's work — e.g. justifying why Craig wanted to avoid photorealism and how this would affect the audience (Set A); linking 'animalistic' specifically to Artaud's 'inner beasts' and developing ideas within Artaud's wider theory (Set B)."
+       "grade": "High Not Achieved (3.5A)",
+       "text": "Craig applied superficially to Death of a Salesman design: minimal props, stairs, central alley between tall buildings dwarfing Willy; lighting not linked to Craig.",
+       "miss": "For Achieved: link ideas to Craig's symbolic, anti-realist aims; show how furniture blocks and lighting changes relate to Craig's theories and Miller's intent.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-A/91516A-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "(Set A, High Merit) Independently moving hydraulic platforms, aisle mirrors for past/present transitions, a final spotlight on the funeral flowers and symbolic costume, each linked to Craig's ideas (moveable units, theatre as machine, abstract staging). (Set B, High Merit) In role as director applying Brecht to The Caucasian Chalk Circle: functions of characters explained in terms of Brecht's intention; alienation through multiple roles and on-stage costume changes; fourth-wall break, mask and exaggerated action justified.",
-       "miss": "Not Excellence because ideas needed more detail and a clearer, more certain link to Craig's thinking (Set A); and because more opportunities in the text (narrators, music and singers) needed to be applied, and Brecht's idea that audiences should see characters and situations as changeable and contradictory considered (Set B). Low Merit work was also told to use specific practitioner terms (e.g. 'alienation effect') and develop every point to the same depth."
+       "grade": "High Not Achieved (3.5B)",
+       "text": "No student work at this grade; NZQA describes a seminar slideshow mainly on Brecht's life, epic theatre and a Caucasian Chalk Circle synopsis, applying ideas only rudimentarily.",
+       "miss": "For Achieved: apply epic devices (fourth wall, contrast, music, multiple roles, exaggerated movement) to the scene; develop the Monk's function linked to Brecht's intention.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/drama/as-91516-b/"
       },
       {
-       "grade": "Excellence",
-       "text": "(Set A, Low Excellence) Craig's ideas applied to the whole design: multi-use white blocks, a raised wall-less platform suggesting time and place, a cyclorama dwarfing the actor to show the overwhelming city, lighting and a symbolic representation of Linda for mood. (Set B, Low Excellence) Artaud applied to My Heart is Bathed in Blood with imagined actors: 'inner beasts' applied to a character, the scene played realistically then physicalised to show the beast unleashed, with movement justified by the character's inner state and the play's overall meaning.",
-       "miss": "To secure Excellence: make the design more symbolic and less literal (rooms still clearly delineated) (Set A); apply Artaud's ideas about audience placement, such as theatre in the round, to reinforce social confinement (Set B)."
+       "grade": "Low Achieved (3.5A)",
+       "text": "Some understanding of Craig but focus mainly on Miller; full set with large central structures, a 'staircase to nowhere', lighting choices.",
+       "miss": "For High Achieved: apply ideas more clearly to Craig's work and intentions; address all design aspects, including costume and lighting.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-A/91516A-Exemplar-Low-Achieved.pdf"
+      },
+      {
+       "grade": "Low Achieved (3.5B)",
+       "text": "Brechtian theory applied fundamentally to a Caucasian Chalk Circle scene: music, multiple roles, changing actors, enlarged physicality, contrast, fourth wall, lighting (video evidence).",
+       "miss": "For a more secure Achieved: examine in more detail how each application communicates Brecht's intention for the play.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/drama/as-91516-b/"
+      },
+      {
+       "grade": "High Achieved (3.5A)",
+       "text": "Craig via a bare set leaving mood to actors, lighting matched to the set, link to his Vikings of Helgeland (1903) window frame and dreamscape.",
+       "miss": "For Merit: connect choices and effects to the intentions behind Craig's style, e.g. why he avoided photorealism and its audience effect.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-A/91516A-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "High Achieved (3.5B)",
+       "text": "Artaud applied to The Glass Menagerie: animalistic Amanda and Tom, Amanda's dialogue as a whip; ritual, repetition, gibberish and movement workshop.",
+       "miss": "For Merit: refer specifically to 'inner beasts', develop the whip idea within Artaud's theory, link setting to relationships, fully physicalise ritual and gesture.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-B/91516B-Exemplar-High-Achieve.pdf"
+      },
+      {
+       "grade": "Low Merit (3.5A)",
+       "text": "Informed understanding of Craig: justified rigid, unstable house and imposing building; props generalised; edge lighting and nostalgic shadows approach perceptiveness.",
+       "miss": "For High Merit: link clearly how Craig influenced the ideas and why he would use them (e.g. symbolism); tie props to Craig's purpose.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-A/91516A-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "Low Merit (3.5B)",
+       "text": "Brecht in Caucasian Chalk Circle: the Singer as storyteller addressing the audience, Drunken Peasant and Monk as thematic signposts, offstage actors as audience.",
+       "miss": "For a more secure Merit: justify other choices as deeply as the Singer; use Brecht's terminology such as 'alienation effect'.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-B/91516B-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit (3.5A)",
+       "text": "Craig's symbolism and moveable units: hydraulic platforms, aisle mirrors, a single spotlight on funeral flowers, symbolic costumes, with justification.",
+       "miss": "For Excellence: unpack ideas in more detail and link them to Craig's thinking with insight; justification needs certainty.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-A/91516A-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "High Merit (3.5B)",
+       "text": "Brecht as director: universal functions of Jussop, Grusha, the Monk; alienation through multiple roles, onstage costume changes, fourth wall, masks, exaggerated action.",
+       "miss": "For Excellence: use more textual opportunities (narrators, music, singers); address Brecht's idea of characters and situations as changeable and contradictory.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-B/91516B-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence (3.5A)",
+       "text": "Craig applied to a Miller set: white block props, wall-less raised platform, architectural cyclorama, back lighting through windows; justified and perceptive.",
+       "miss": "For a more secure Excellence: make design points more symbolic and less literal (rooms still literally delineated).",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Drama/Exams-and-exemplars/Level-3/91516-A/91516A-Exemplar-Low-Excellence.pdf"
+      },
+      {
+       "grade": "Low Excellence (3.5B)",
+       "text": "Artaud applied to My Heart is Bathed in Blood: 'inner beasts'; plays Senga's scene realistically then physicalised to unleash the beast (video).",
+       "miss": "For a more secure Excellence: apply Artaud's ideas on audience placement (e.g. in the round) to reinforce the theme of social confinement.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/drama/as-91516-b/"
       }
      ],
      "conditions": [
@@ -4272,6 +5122,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Where the application is shown in a practical demonstration, workshop or seminar, the AI can judge only the transcript, script or design documents — the teacher must confirm from the recording or observation what was actually applied and said.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -4322,6 +5173,18 @@ window.MOD_DATA['3'] = {
      "url": "https://ncea.tki.org.nz/content/download/8324/32259/file/Earth and space science Level 3 Conditions of Assessment 2026.docx"
     }
    ],
+   "associations": [
+    {
+     "name": "NZ Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/",
+     "notes": []
+    },
+    {
+     "name": "Earth and Space Science New Zealand (ESSENZ, NZASE affiliate)",
+     "url": "https://www.earthspacescience.org.nz/",
+     "notes": []
+    }
+   ],
    "standards": [
     {
      "code": "91410",
@@ -4362,23 +5225,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "All NZQA exemplars investigate the effect of carbon dioxide on water acidification (cockle shells in acidified sea water). High Not Achieved was a valid independent investigation with a conclusion linked to the data and an explanation of how the method allowed reliable data.",
-       "miss": "Not Achieved because the link between the investigation and relevant Earth and Space Science knowledge (how results relate to known data and past events) was not explained."
+       "grade": "High Not Achieved",
+       "text": "CO2 and water acidification: valid independent investigation, conclusion linked to data, explained how the method gave valid, reliable data.",
+       "miss": "Needed the link to relevant ESS knowledge, e.g. how results relate to known data and past events.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91410/91410-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved collected and processed raw data, linked the conclusion to the data, and explained how the ESS links to the investigation and how the method allowed reliable data. (Low Achieved needed a fuller ESS link, e.g. the significance of lowering carbonate ion concentration in sea water.)",
-       "miss": "Not Merit because the reasons for actions in the method were not explained in depth (e.g. why dry ice was dropped into the sea water)."
+       "grade": "Low Achieved",
+       "text": "Raw data collected, linked conclusion, explained validity and reliability and the link to ESS.",
+       "miss": "For a secure Achieved: fully explain the ESS link, e.g. significance of lowering carbonate ion levels in sea water.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91410/91410-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit used a valid method, drew a valid conclusion linked to the data, and explained in depth both the ESS links and how the method produced valid and reliable data. (Low Merit needed to explain in depth how knowledge of the past informs the future, e.g. the Permian.)",
-       "miss": "Not Excellence because the effects of changing carbon dioxide levels were not comprehensively explained in relation to the geological past."
+       "grade": "High Achieved",
+       "text": "Independent investigation, processed data, linked conclusion; explained how method gave reliable data and how the science links.",
+       "miss": "Needed in-depth reasons for actions taken, e.g. why dry ice was dropped into the sea water.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91410/91410-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence justified the method, explained how it produced valid and reliable data, and evaluated the investigation against relevant ESS knowledge. NZQA said a more secure Excellence needed timings justified (e.g. why the shells were left in solution for two days)."
+       "grade": "Low Merit",
+       "text": "In-depth investigation, valid linked conclusion, in-depth explanations of the science and method.",
+       "miss": "For a secure Merit: explain in depth how knowledge of the past informs the future, e.g. relevance of Permian events today.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91410/91410-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "In-depth independent investigation, valid conclusion linked to data, in-depth explanation of method validity and reliability and the science.",
+       "miss": "Needed comprehensive explanation of changing CO2 effects in relation to the geological past.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91410/91410-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Comprehensive investigation: justified method, explained how it gave valid and reliable data, evaluated against relevant ESS.",
+       "miss": "For a secure Excellence: comprehensively explain timings, e.g. why cockle shells stayed in solution for 2 days.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91410/91410-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -4482,6 +5368,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The teacher must verify that the student initiated and personally carried out the practical, contributed to the investigation decisions if working in a group, and that the raw data are genuinely theirs, collected with the stated method, including any trialling or refinement claimed.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -4523,23 +5410,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "All NZQA exemplars address global warming caused by increasing atmospheric carbon. High Not Achieved explained the issue and its effects and described a personal response.",
-       "miss": "Not Achieved because no societal response was described."
+       "grade": "High Not Achieved",
+       "text": "Global warming from atmospheric carbon: explained the issue, impacts and a personal response, but no societal response.",
+       "miss": "Needed a societal response, e.g. explaining how past CO2 increases raised planetary temperature.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91411/91411-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved selected and processed a valid range of scientific information, explained the issue and its impacts on individuals and society, and described both a personal and a societal response. (Low Achieved needed a more detailed societal response, e.g. informed by past rapid CO2 rises, warming and extinctions.)",
-       "miss": "Not Merit because the personal and societal responses were described rather than explained (e.g. how society could address rising CO2 through a body such as the United Nations)."
+       "grade": "Low Achieved",
+       "text": "Explained issue and impacts, described personal and societal responses, selected and processed a valid range of information.",
+       "miss": "For a secure Achieved: describe the societal response in more detail, e.g. past rapid CO2 rises followed by warming and extinctions.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91411/91411-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit explained the issue and its impacts in detail and explained both a personal and a societal response. (Low Merit needed a fuller societal response and, rather than debating whether warming occurs, geological evidence of past warming linked to the future.)",
-       "miss": "Not Excellence because the issue was not evaluated — e.g. the significance of the graph in the report was not drawn out and linked to what is happening today."
+       "grade": "High Achieved",
+       "text": "Explained issue and impacts, described personal and societal responses, valid range of scientific information processed.",
+       "miss": "Needed to explain the responses, e.g. how society could address rising CO2 through a body such as the United Nations.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91411/91411-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence evaluated the issue and its effects on individuals and society, justified a personal response and evaluated a societal response. NZQA said a more secure Excellence would evaluate further why society needs to act quickly, e.g. carbon 'scrubbers' with long-term storage."
+       "grade": "Low Merit",
+       "text": "Explained issue and impacts in depth; explained personal and societal responses.",
+       "miss": "For a secure Merit: explain the societal response further using geological evidence of past warming, not debating whether warming occurs.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91411/91411-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "In-depth explanation of the issue and impacts; explained personal and societal responses.",
+       "miss": "Needed to evaluate the issue, describe the significance of the report's graph and link it to today.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91411/91411-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Comprehensively evaluated the issue and impacts, justified a personal response and evaluated a societal response.",
+       "miss": "For a secure Excellence: evaluate further how society must act quickly, e.g. scrubbers capturing and storing CO2 long term.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91411/91411-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -4642,6 +5552,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -4680,23 +5591,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "All NZQA exemplars date the Park Volcanics Group, south-east Southland (agreed age about 199.6 Ma). High Not Achieved explained the event, identified the rocks, explained two dating techniques and how 14C is used.",
-       "miss": "Not Achieved because the techniques were not RELEVANT to a ~200 Ma event: isotopes with long half-lives (more than 1 million years) were needed."
+       "grade": "High Not Achieved",
+       "text": "Park Volcanics, Southland: explained the event, identified rocks, explained two techniques and how 14C dating works.",
+       "miss": "Needed two relevant techniques and why long half-life isotopes (over 1 million years) are needed for an age of about 200 Ma.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91412/91412-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved explained the event and linked it to a back-arc system; one technique was investigated and two others mentioned. (Low Achieved explained one technique and mentioned one other.)",
-       "miss": "Not Merit because it did not explain how 40K-40Ar and Rb-Sr give the final age, or that several techniques are needed for a more accurate age."
+       "grade": "Low Achieved",
+       "text": "Explained the event and linked it to the volcanic rocks; explained one dating technique and mentioned one other relevant technique.",
+       "miss": "For a secure Achieved: explain how 40K-40Ar and Rb-Sr give the 199.6 Ma final age.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91412/91412-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit investigated techniques in depth and selected and justified the key ones. (Low Merit explained one technique in depth and two others.)",
-       "miss": "Not Excellence because it did not explain how cross-correlating 40Ar-39Ar and 40K-40Ar narrows the agreed age, why argon accumulating after final crystallisation makes these most accurate, or the significance of the small 40Ar-39Ar error range."
+       "grade": "High Achieved",
+       "text": "Explained the event and linked it to a back-arc system; investigated one technique and mentioned two others.",
+       "miss": "Needed to explain how 40K-40Ar and Rb-Sr give the 199.6 Ma age and that multiple techniques are needed for accuracy.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91412/91412-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence justified the techniques chosen and cross-correlated a final age from three techniques. NZQA said a more secure Excellence would fully explain Rb-Sr (87Rb to 87Sr, half-life 48.8 billion years, accurate where no metamorphism has occurred) and why it was chosen for cross-correlation."
+       "grade": "Low Merit",
+       "text": "Investigated one technique in depth and explained two others.",
+       "miss": "For a secure Merit: explain in depth how Rb-Sr and 40K-40Ar refine the age, and why cross-correlation is needed even though 40Ar-39Ar is reliable.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91412/91412-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Investigated techniques in depth; selected and justified the key ones.",
+       "miss": "Needed in-depth explanation of how cross-correlating 40Ar-39Ar and 40K-40Ar narrowed the age to 199.6 Ma and the significance of the small error range.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91412/91412-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Comprehensive investigation of dating techniques, justified selection, cross-correlated three techniques to reach a final age.",
+       "miss": "For a secure Excellence: fully explain how Rb-Sr dating works: decay method, half-life and why it was chosen.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91412/91412-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -4772,6 +5706,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -4809,23 +5744,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "All NZQA exemplars investigate red dwarf stars. High Not Achieved only described what red dwarfs are.",
-       "miss": "Not Achieved because the processes occurring within the star were not explained, so the aspect itself was not explained."
+       "grade": "High Not Achieved",
+       "text": "Red dwarf stars: described what red dwarfs are rather than explaining them.",
+       "miss": "Needed to explain the processes within the star to fully explain the astronomical aspect.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91415/91415-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved explained red dwarfs and the key science of hydrogen fusing to helium. (Low Achieved explained what red dwarfs are and needed to explain how they operate.)",
-       "miss": "Not Merit because it did not explain how the hydrogen-helium process generates heat and how that heat reaches the surface by convection."
+       "grade": "Low Achieved",
+       "text": "Explained what red dwarfs are.",
+       "miss": "For a secure Achieved: explain how they operate, e.g. fusing hydrogen into helium and the heat warming the star.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91415/91415-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit explained what red dwarfs are and the science behind their formation. (Low Merit explained some of the science and needed to explain how convection maintains a stable environment for a very long time.)",
-       "miss": "Not Excellence because it did not comprehensively explain how red dwarfs convert hydrogen to helium and maintain a constant atmosphere through convective mixing."
+       "grade": "High Achieved",
+       "text": "Explained red dwarfs and the key science of hydrogen burning to helium.",
+       "miss": "Needed further science, including how heat is generated and carried to the surface by convection.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91415/91415-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence explained how red dwarfs occur and the science behind them, and showed how internal processes lead to stellar stability and possible life on surrounding planets. NZQA said a more secure Excellence needed a comprehensive explanation of convective mixing of hydrogen and helium and why excess heat is not locked in the core as in bigger stars."
+       "grade": "Low Merit",
+       "text": "In-depth investigation explaining how red dwarfs occur and some of the science behind them.",
+       "miss": "For a secure Merit: explain in depth how convection maintains a stable environment and why this lasts so long without destroying the star.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91415/91415-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "In-depth investigation explaining what red dwarfs are and the science of their formation.",
+       "miss": "Needed comprehensive explanation of hydrogen-to-helium conversion and constant atmosphere through convective mixing.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91415/91415-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Comprehensive: how red dwarfs form, the science behind them, and how internal processes support stability and possible life on orbiting planets.",
+       "miss": "For a secure Excellence: explain how convection mixes hydrogen and helium to keep the star stable, and why heat is not locked in the core as in larger stars.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Earth-and-Space-Science/91415/91415-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -4891,6 +5849,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -4914,6 +5873,15 @@ window.MOD_DATA['3'] = {
     {
      "label": "NZQA Economics internal exemplars",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/economics/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Commerce and Economics Teachers Association (NZCETA), the national association for Economics, Business Studies and Accounting teachers (no body named EBENZ was found)",
+     "url": "http://www.nzceta.co.nz/index.htm",
+     "notes": [
+      "No publicly accessible NCEA marking or moderation guidance from NZCETA was found; its website could not be opened in this session (checked October 2026)."
+     ]
     }
    ],
    "standards": [
@@ -4948,23 +5916,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "Elasticity of demand for cow’s milk: data processed, PED, XED and YED theory presented, PED coefficients calculated and interpreted, elasticity partially explained from survey information.",
-       "miss": "Not Achieved because no demand curve was created from the processed data to illustrate PED, and XED and YED coefficients were not calculated and interpreted."
+       "grade": "High Not Achieved",
+       "text": "Cow's milk: data processed, PED, XED and YED theory presented; PED coefficients calculated and interpreted; elasticity of demand partly explained using survey information.",
+       "miss": "No demand curve created from the processed data to illustrate PED, and XED and YED coefficients not calculated and interpreted.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91401/91401-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved: PED, XED and YED coefficients for cow’s milk calculated and interpreted; a demand curve created from the data illustrating PED.",
-       "miss": "Not Merit because the total revenue model and data were not used for depth (e.g. total revenue rising from $529.50 to $596.25 as price rises from $3.00 to $4.50, then falling — inelastic then elastic)."
+       "grade": "Low Achieved",
+       "text": "Milk after the dairy-boom price rise: PES theory used to explain supply elasticity; PPC model used to illustrate it; momentary, short-run and long-run supply elasticity explained.",
+       "miss": "Could calculate and interpret PES coefficients from the information to add economic evidence.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91401/91401-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: utility and demand schedules for Up & Go processed and presented; marginal utility explained in detail and linked to price and the Law of Demand with a model; the equimarginal principle applied; processed data used for implications for a producer.",
-       "miss": "Not Excellence because the processed data and model were not used to justify the implications of marginal utility and demand for the consumer."
+       "grade": "High Achieved",
+       "text": "Cow's milk: data and theory presented; PED, XED and YED calculated and interpreted; demand curve constructed from the data to illustrate PED.",
+       "miss": "Merit needed the total revenue model and data used to show in-depth understanding, e.g. how PED changes at $4.50.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91401/91401-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: diminishing marginal returns linked to supply with data and an accurate model plotted from it, supply derived from MC; changes shown on models and used to explain how higher dairy costs affect a chocolate producer; information used to justify the cost implications. For more secure Excellence, a fuller explanation of MC shifting to MC1 and supply becoming MC1 above the shutdown point."
+       "grade": "Low Merit",
+       "text": "Telecommunications: duopoly, oligopoly and monopolistic competition defined and explained; kinked demand curve explained with a model and telecom pricing information; preference for non-price competition explained.",
+       "miss": "For a more secure Merit, more telecom-industry information to explain non-price competition in detail (e.g. free Wi-Fi hotspots).",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91401/91401-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Up & Go: utility and demand schedules processed; marginal utility linked to price and the Law of Demand with a model; equimarginal principle shown for consumer H; data used to justify implications of utility for a producer.",
+       "miss": "Excellence needed the processed data and a model used to justify the implications of marginal utility and demand for consumer H.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91401/91401-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Chocolate producer: diminishing marginal returns linked to supply with data and an accurately plotted model; supply curve derived from MC; models and information explain effect of higher dairy costs.",
+       "miss": "For a more secure Excellence, further explain the links between MC and the new supply curve.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91401/91401-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -5033,6 +6024,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Economic models and diagrams are often hand-drawn or embedded as images; AI judgement of their accuracy (labels, curve shapes, shifts, plotted points, shaded areas) is less reliable than for text, so the teacher should check every model directly.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": "as-90401"
     },
     {
@@ -5067,23 +6059,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "Alcohol: market failure and a sales tax’s efficiency and equity explained with SMC/SMB; a ban illustrated with efficiency only begun and equity briefly described.",
-       "miss": "Not Achieved because the second intervention (the ban) needed its equity implications explained in more depth and the model used to explain efficiency (e.g. quantity falling to zero turning surplus into deadweight loss)."
+       "grade": "High Not Achieved",
+       "text": "Alcohol: sales tax explained for efficiency and equity with the SMC/SMB model; ban illustrated with efficiency implications started and equity briefly described.",
+       "miss": "Needed the ban's equity implications explained with model language and the SMC/SMB model used to support the efficiency explanation.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91402/91402-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved: alcohol market failure explained in detail; a ban explained for efficiency and equity using SMC/SMB; a sales tax’s efficiency explained with model changes and its equity begun.",
-       "miss": "Not Merit because the tax’s equity implications for society needed more depth in SMC/SMB language, and the reason the fall in spillover costs outweighs the lost surplus needed explaining with the model."
+       "grade": "Low Achieved",
+       "text": "Fisheries: why the market may fail explained; indirect tax explained for efficiency and equity with SMC/SMB; producer regulations explained for efficiency, equity started.",
+       "miss": "Needed regulations' equity implications for society and government explained with model language, and the model used to show how regulation reduces deadweight loss.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91402/91402-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: a subsidy on healthy food combined with an education programme to address the externalities of unhealthy food, explained as better than either alone for efficiency and equity.",
-       "miss": "Not Excellence because the earlier models were not integrated into the recommendation — the shifts in marginal benefit and quantity, movement towards allocative efficiency and reduced deadweight loss were needed to justify it."
+       "grade": "High Achieved",
+       "text": "Alcohol: market failure explained; ban explained for efficiency and equity with SMC/SMB; sales tax explained for efficiency, equity implications started.",
+       "miss": "Merit needed the tax's equity implications for society explained with model language, and why reduced spillover costs outweigh lost surplus.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91402/91402-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: incremental tobacco tax increases recommended over a ban, with effects on consumers and producers, efficiency and equity compared, and an integrated SMC/SMB model in the justified recommendation. For more secure Excellence, SMC/SMB language for the ban’s inefficiency (deadweight loss where quantity falls to zero rather than where MSC = MSB)."
+       "grade": "Low Merit",
+       "text": "Alcohol: why the market may fail explained in detail; sales tax and minimum price explained for efficiency and equity using the SMC/SMB model.",
+       "miss": "For a more secure Merit, more detail in efficiency and equity explanations, e.g. how the minimum price creates an efficiency gain relative to social deadweight loss.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91402/91402-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Unhealthy food: subsidy on healthy foods (milk, fruit) combined with an education programme against soda and crisps; explained how combined policies address market failure better than either alone, for efficiency and equity.",
+       "miss": "Excellence needed model language integrated into efficiency and equity detail, and how combined interventions move the market towards allocative efficiency and remove social deadweight loss.",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91402/91402-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Tobacco: incremental tax increases recommended over a ban; price effects for consumers and producers explained with SMC/SMB; both policies compared on efficiency and equity; recommendation justified.",
+       "miss": "For a more secure Excellence, integrate SMC/SMB language into the ban's inefficiency (deadweight loss when quantity falls to zero).",
+       "version": "Not stated (current Version 3)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Economics/Exams-and-exemplars/Level-3/91402/91402-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -5157,6 +6172,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Economic models and diagrams are often hand-drawn or embedded as images; AI judgement of their accuracy (curve placement, shifts, deadweight-loss and surplus areas, labels) is less reliable than for text, so the teacher should check every model directly.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -5188,6 +6204,15 @@ window.MOD_DATA['3'] = {
     {
      "label": "NZQA English annotated exemplars",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/english"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Association for the Teaching of English (NZATE)",
+     "url": "https://www.nzate.co.nz/",
+     "notes": [
+      "No publicly accessible NZATE marking or moderation guidance for these standards was found in October 2026 (the site could not be opened from this session; searches surfaced no public NCEA marking documents). Use NZQA exemplars, clarifications and the NMR."
+     ]
     }
    ],
    "standards": [
@@ -5226,24 +6251,88 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "High Not Achieved",
-       "text": "3.4A: an opinion column on stereotyping, with a central idea developed through anecdote and a challenge to the reader, but not yet fully coherent. 3.4B: a grief-and-regret story using flashback transitions and a twist that begin to create coherence.",
-       "miss": "Not Achieved because the writing needed editing for consistent meaning and sustained interest, with language features used consistently and accurately."
+       "grade": "High Not Achieved (3.4A)",
+       "text": "Opinion column on stereotyping and rejecting people using anecdotes, rhetorical questions and anti-climax.",
+       "miss": "For Achieved: edit for consistent meaning and sustained interest; use language and structures accurately.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475A/91475A-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "High Achieved",
-       "text": "3.4A: a newspaper-style column on the ‘Superwoman’ dilemma, issue defined, research linked, both sides balanced; allusion, emotive language and repetition sustain interest. 3.4B: a comic story of a narrator joining a community parade, with a recurring motif and ironic resolution.",
-       "miss": "Not Merit because ideas needed exploring more fully and integrating with more discerning language and structure (e.g. connecting the father–daughter relationship to the parade details)."
+       "grade": "High Not Achieved (3.4B)",
+       "text": "Short story of a man's grief and regret after a fatal drink-driving crash, using detail, imagery, flashback, repetition and a twist ending.",
+       "miss": "For Achieved: develop fluency, using language features to create consistent meaning and effect and sustain interest.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475B/91475B-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "High Merit",
-       "text": "3.4A: a dramatic monologue on the collapse of teenage romance via an underworld descent, with discriminating language and cultural references. 3.4B: a story about a clever but disengaged teenager, with a performance motif and language that begins to command attention.",
-       "miss": "Not Excellence because structure and language needed integrating more insightfully (e.g. exploring why the narrator is disengaged; more insightful language for effect)."
+       "grade": "Low Achieved (3.4A)",
+       "text": "Short story of a woman controlled by her husband, with a shift in narrative perspective and sustained third-person pronoun.",
+       "miss": "For a more secure Achieved: develop fluency and coherence in the chosen viewpoint, with accurate language and structures for consistent meaning.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475A/91475A-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Low Excellence",
-       "text": "3.4A: a short story on tension in teenage friendship, with a melodrama metaphor sustained and reprised at the close and an ironic twist — a striking whole. 3.4B: a narrative on risk in an outdoor education setting, with foreshadowing and plot complications.",
-       "miss": "For a secure Excellence: keep syntax and diction consistently fluent and striking, and develop interpersonal ideas in a more original way rather than relying on plot."
+       "grade": "Low Achieved (3.4B)",
+       "text": "Short story of a strained mother–daughter relationship and its resolution, using personal voice, descriptive detail, diction and syntax.",
+       "miss": "For a more secure Achieved: describe the tension in the shop and link it to the mother's change in attitude; make language selection more consistent.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475B/91475B-Exemplar-Low-Achieved.pdf"
+      },
+      {
+       "grade": "High Achieved (3.4A)",
+       "text": "Newspaper-style column on the 'Superwoman' dilemma for modern women: defines the issue, cites research, balances both sides in the conclusion.",
+       "miss": "For Merit: explore ideas so they become generally convincing, integrated with a discerning selection of language and structure.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475A/91475A-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "High Achieved (3.4B)",
+       "text": "Short story of a narrator overcoming self-consciousness and bonding with her father at an unexpected parade; humour, irony and a chicken motif.",
+       "miss": "For Merit: integrate the father–daughter relationship with parade details so the story becomes generally convincing.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475B/91475B-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit (3.4A)",
+       "text": "Macbeth retold from Lady Banquo's perspective in third-person limited narration, moving from isolation to vengeful resolve.",
+       "miss": "For a more secure Merit: explore grief and vengeance beyond retelling the play; select language more discriminatingly.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475A/91475A-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "Low Merit (3.4B)",
+       "text": "Column on how the classic Kiwi bach has changed: past versus present holidays, physical changes, links to freedom and memory.",
+       "miss": "For a more secure Merit: integrate ideas and features more discriminatingly; explore 'know our past to build our future' in depth.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475B/91475B-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit (3.4A)",
+       "text": "Dramatic monologue on disillusioned teenage romantic dreams, using a descent to the underworld and classical references.",
+       "miss": "For Excellence: insightfully identify the promises Hades made that undid the narrator; make more insightful language choices in places.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475A/91475A-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "High Merit (3.4B)",
+       "text": "Short story of an intelligent, disengaged teenager using a performance motif, narrative description, internal monologue and dialogue.",
+       "miss": "For Excellence: integrate structure and language more insightfully with ideas, exploring the reasons for the narrator's disengagement.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475B/91475B-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence (3.4A)",
+       "text": "Short story on tension in teenage friendships: melodrama metaphors open, recur and close the story, with an ironic twist.",
+       "miss": "For a more secure Excellence: keep syntax and diction consistently fluent and striking.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475A/91475A-Exemplar-Low-Excellence.pdf"
+      },
+      {
+       "grade": "Low Excellence (3.4B)",
+       "text": "Narrative on relationships and perceived risk in outdoor education: dialogue, description, reflection, repetition, first person and foreshadowing create a striking, coherent text.",
+       "miss": "For a more secure Excellence: balance the plot-driven structure by developing ideas about relationships more originally.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91475B/91475B-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -5332,6 +6421,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI sees only the pieces it is given, so the teacher must verify the drafting process, the conditions the writing was produced under, and the absence of generative AI or over-specific feedback from the draft trail.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -5370,23 +6460,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "Morality during times of change across four Asimov stories; mostly summary with loose references to the connection, drifting toward environmental control.",
-       "miss": "Not Achieved because the connection needed establishing clearly across all texts, the conclusion linking to the introduction, and a shift from summary to evaluative critical response with judgements."
+       "text": "Robot Visions, The Machine that Won the War, Someday, Nightfall on morality in times of change: summary with some interpretation, loose reference to the connection, focus drifts in Nightfall.",
+       "miss": "For Achieved: establish the connection across all four texts, link conclusion to introduction, move from description to evaluation and judgement.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91478/91478-Exemplar-High-Not-Achieved.pdf"
+      },
+      {
+       "grade": "Low Achieved",
+       "text": "Four WWI poems on the destructiveness of war: clarifies the connection and judges young men's immaturity and obedience; Arms and the Boy evaluation just sufficient.",
+       "miss": "For a more secure Achieved: clarify some statements so meaning and the link to the connection are clear.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91478/91478-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Youth, innocence and ageing across four Fitzgerald texts; evaluative interpretations, with a critical response beginning to be convincing.",
-       "miss": "Not Merit because the Benjamin Button discussion needed connecting more closely to the identified connection, and statements about Babylon Revisited clarifying."
+       "text": "Fitzgerald stories (The Lost Decade, Babylon Revisited, Benjamin Button, Winter Dreams) on youth, innocence and ageing: an evaluative judgement on Charlie; begins a convincing response across two texts.",
+       "miss": "For Merit: link Benjamin Button more closely to the connection so it is convincing; express some Babylon Revisited statements more clearly.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91478/91478-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Crash, Day Trip, Coffee, Allah and I am Māori on overcoming stereotypes: convincing interpretations of stereotyping by appearance, race and religion; some discerning comment on reactions.",
+       "miss": "For a more secure Merit: evaluate more discerningly why individuals use stereotypes, and the tension between resisting them and upbringing's effect on education and work.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91478/91478-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Societal problems (control, gender, equality, greed) across four Sherlock Holmes stories; discerning interpretations and a convincing critical response.",
-       "miss": "Not Excellence because the second section’s interpretations and judgements needed developing to be sophisticated and insightful."
+       "text": "Four Sherlock Holmes stories on societal problems of their time (control, gender, equality, greed), with several convincing judgements about gender.",
+       "miss": "For Excellence: make interpretations and judgements in section two sophisticated and insightful.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91478/91478-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "The destructiveness of war across The Things They Carried, On the Rainy River, The Dentist and Enemies and Friends; sophisticated, insightful interpretations of moral corruption and a judgement on the author’s subversion of genre.",
-       "miss": "For a secure Excellence: link interpretations more clearly to specific textual examples."
+       "text": "The Things They Carried, On the Rainy River, The Dentist, Enemies and Friends: war corrupts participants; judges how an author subverts genre; cross-references reinforce the connection.",
+       "miss": "For a more secure Excellence: link interpretations more clearly to specific textual examples.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91478/91478-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -5471,6 +6583,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Where any of the four texts is a film or oral text, the AI cannot watch or hear it, so the teacher must check that the details the student cites from it are accurate.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -5509,23 +6622,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "A hypothesis on Katherine Mansfield’s use of a character to portray the human condition, using critics Hull and Meyer; viewpoints identified and supported with textual evidence but not developed into a coherent critique.",
-       "miss": "Not Achieved because the student needed to articulate their own informed judgements about the critics’ views and evaluate how useful the critical texts were to the hypothesis."
+       "text": "Mansfield's use of a character to portray the human condition, with critics R Hull and I Meyer: identifies relevant critical viewpoints supported by text evidence.",
+       "miss": "For Achieved: state own informed judgements on the critics' views and evaluate the critical texts' usefulness to the hypothesis, forming a coherent reading.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91479/91479-Exemplar-High-Not-Achieved.pdf"
+      },
+      {
+       "grade": "Low Achieved",
+       "text": "Othello with Bradley, Coleridge, West on Iago's evil: synthesises, evaluates and compares three viewpoints; concludes why Iago is deliberately evil.",
+       "miss": "For a more secure Achieved: argue own position more strongly against the critics; structure the discussion chronologically for coherence.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91479/91479-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Two critical perspectives on A Clockwork Orange (Leary, Tanguay) introduced and summarised; a personal view stated, one critic supported, evaluation of the contrasting view beginning to be convincing.",
-       "miss": "Not Merit because points needed developing and relating to a critical viewpoint so the understanding became discerning."
+       "text": "A Clockwork Orange with Leary and Tanguay on nature versus nurture: introduces two critical perspectives, agrees with one, begins evaluating the other.",
+       "miss": "For Merit: develop and relate points to a critical viewpoint so understanding becomes discerning.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91479/91479-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Othello with Adams, Bartels, Garner, Tiffany on Othello's responsibility for Desdemona's murder: selects and synthesises critical points and states own view.",
+       "miss": "For a more secure Merit: select critical viewpoints more discerningly so commentary convincingly develops own understanding.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91479/91479-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "The Hunger Games film read through feminist theory (incl. écriture féminine) using Evans and Markaryk; comments on language and identity beginning to show insight, convincing links to contemporary and future contexts.",
-       "miss": "Not Excellence because the connection between the theory and the text needed fuller discussion for the understanding to become perceptive."
+       "text": "The Hunger Games film through feminist theory (incl. écriture féminine; Evans, Makaryk) on Katniss's depiction, linked to contemporary and future political contexts.",
+       "miss": "For Excellence: discuss more fully how the theory connects to the text so understanding becomes perceptive.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91479/91479-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "A hypothesis on Iago’s motivation in Othello synthesising Bradley, Rabkin, Brown and Wood; the handling of Wood shows insight and the student’s judgement of their own conclusions is becoming perceptive.",
-       "miss": "For a secure Excellence: use insightful or original understandings more consistently."
+       "text": "Othello with Bradley, Rabkin, Brown, Wood on Iago's motivation: summarises viewpoints and questions the validity of own conclusions.",
+       "miss": "For a more secure Excellence: show insightful and/or original understanding more consistently.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91479/91479-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -5605,6 +6740,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -5640,23 +6776,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "King Kong and The Return of the King: specific cinematography details and a beginning interpretation of camera angles; a general account of sound.",
-       "miss": "Not Achieved because cinematography needed developing into evaluation and interpretation of meaning, and sound analysis needed specific details from each text."
+       "text": "Peter Jackson's camera angles: general reference plus specific Return of the King and King Kong details; begins to interpret multiple angles; sound discussed only generally.",
+       "miss": "For Achieved: develop cinematography explanation into evaluation of how meaning is created; support sound interpretation with specific details from each text.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91480/91480-Exemplar-High-Not-Achieved.pdf"
+      },
+      {
+       "grade": "Low Achieved",
+       "text": "Nolan's lighting in The Dark Knight and Inception: evaluative interpretations, links lighting across films, evaluates his music.",
+       "miss": "For a more secure Achieved: support interpretations with specific film examples; interpret and evaluate more how aspects create meaning.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91480/91480-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Kubrick’s steadicam in The Shining and 2001: A Space Odyssey linked to audience effect, with detailed evaluative comments that are convincing at times.",
-       "miss": "Not Merit because interpretations needed to be discerning and informed, with more consistent judgements."
+       "text": "Kubrick's steadicam in The Shining and 2001 linked to audience effect, with detailed evaluative comment on shots; some evaluations convincing.",
+       "miss": "For Merit: focus on discerning, informed interpretations and more consistent judgements.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91480/91480-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Sound effects and music in Titanic and Avatar: Titanic evidence sometimes general; Avatar discussion specific with informed judgements.",
+       "miss": "For a more secure Merit: move from description to interpretation and judgement so the response is consistently convincing.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91480/91480-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Dialogue in Gangs of New York and Goodfellas: a convincing critical response with specific detail and some insight.",
-       "miss": "Not Excellence because judgements and interpretations needed developing to show sophistication and originality."
+       "text": "Dialogue in Gangs of New York and Goodfellas extracts: specific detail integrated with informed interpretation; some insight.",
+       "miss": "For Excellence: develop judgements and interpretations to show sophistication and originality.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91480/91480-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Camera work in The Dark Knight and Inception: insightful readings linked to the wider films; only just sophisticated enough, with the final paragraph beginning to show original interpretation.",
-       "miss": "For a secure Excellence: more examples of original interpretation."
+       "text": "Camera work in The Dark Knight and Inception extracts linked to relationships, the wider film and audience; begins original interpretation of factors behind Nolan's choices.",
+       "miss": "For a more secure Excellence: provide more examples of original interpretation.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-3/91480/91480-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -5735,6 +6893,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI cannot watch or listen to the film or oral text, so it cannot verify claims about specific shots, sounds or moments; the teacher must check that the evidence described is accurate.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -5779,6 +6938,15 @@ window.MOD_DATA['3'] = {
      "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/3-Assessment-matrix-docs/Geography-Remote-Assessment-Matrix-and-Guidance.pdf"
     }
    ],
+   "associations": [
+    {
+     "name": "New Zealand Board of Geography Teachers (NZBoGT), a subcommittee of the New Zealand Geographical Society",
+     "url": "https://www.nzgs.co.nz/education-and-engagement",
+     "notes": [
+      "NZBoGT advises the Ministry of Education and NZQA on geography matters and supports professional learning. Its NCEA exam resources and curriculum advice are for NZGS members only, so none were used (checked October 2026)."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91428",
@@ -5814,17 +6982,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "National Agricultural Field Days. Nature clearly outlined with an annotated map for the spatial dimension, plus visitor numbers and sales revenue for purpose and significance. Planning and decision making explained as a process (venue, alcohol, sustainability, traffic, security, sponsorship). Impacts explained simply with some event-specific evidence.",
-       "miss": "Not Merit because planning needed more evidence and reasons for its sequence (e.g. a timeline flow chart; which roads were managed and how traffic planning accounted for the state highway and Hamilton Airport), and impacts needed detailed rather than simple explanation."
+       "text": "National Agricultural Field Days: nature outlined with annotated map, purpose and significance (visitor numbers, revenue); planning explained through venue, alcohol, sustainability, traffic, security, sponsorship; impacts explained simply with some event evidence.",
+       "miss": "Planning needed evidence of its sequence (timeline flow chart, managed roads, traffic planning around state highway and Hamilton Airport); impacts needed detailed explanation.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91428/91428-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Soundsplash, Raglan. The outline covers people–environment interaction and spatial features (beach, reserve location, accessibility). Planning structured before/during/after with specific costs, timeframes, building consents and shuttle schedules and routes. Environmental and economic impacts explained in detail (sustainability, zero waste, pressure from about 10,000 extra visitors), classed positive/negative and short/long term.",
-       "miss": "Not Excellence because neither the planning and decision making nor the impacts were evaluated; NZQA points to strategies such as social cost-benefit analysis, sieve analysis or environmental impact assessment."
+       "text": "Soundsplash festival: people–environment interaction and spatial features (beach, reserve, accessibility); planning structured before/during/after with costs, consents, shuttle routes; environmental and economic impacts (zero waste, ~10,000 visitors) explained as positive/negative and short/long term.",
+       "miss": "Explains rather than evaluates; Excellence needs planning and impacts evaluated with insight, e.g. social cost-benefit analysis, sieve analysis or environmental impact assessment.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91428/91428-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Rhythm and Vines. Event-specific evidence with frequent reference to natural and cultural environments and key geographic ideas (pollution, resources, accessibility, sustainability). Planning explained logically and evaluated with a SWOT analysis concluding that review processes make it effective and the event sustainable. Impacts examined short and long term, local and regional, with mitigation; insight shown by judging negative environmental impacts most significant despite large economic benefits."
+       "text": "Rhythm and Vines: detailed geographic outline (natural and cultural environments, sustainability); SWOT evaluation of planning judging it effective via its review process; impacts evaluated across timeframes and scales with mitigation; judged negative environmental impacts most significant despite $12 million local injection.",
+       "miss": "",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91428/91428-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -5917,6 +7092,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -5955,19 +7131,39 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "(Version 2 evidence; High Achieved, beach profiles and wave data.) An effective aim unpacked into data, methods, processing and presentation; correct conventions across a map, annotated photos, table and comparative profile diagram; wave data used to examine profile differences; process and location concepts incorporated; conclusion addresses the aim.",
-       "miss": "Not Merit because more of the collected data was needed in the analysis and conclusion, relationships between the processes shaping the profiles were not discussed, concept relevance was not developed within a detailed analysis, and the spatial element was not shown (annotate the profiles or place them on the map)."
+       "grade": "Low Achieved",
+       "text": "Accommodation patterns: research planned; maps and graphs (Google Maps location data); simple analysis of spatial patterns including accessibility; conclusion related to the aim.",
+       "miss": "For a more secure Achieved: more descriptive evidence and terminology, clearer links to data (e.g. percentages), and how strengths and weaknesses of the process affected validity.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91430/91430-exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "(Version 2 evidence; High Merit, coastal sediment transport.) Detailed analysis with statistics, technical detail, correct terminology and locations; process runs through the findings; the evaluation explains how photos supported field sketches and how weather affected processes and techniques.",
-       "miss": "Not Excellence because anomalies were not emphasised and the analysis was not critical (e.g. of saltation rates), concepts were not incorporated in a critical analysis, and alternative methods (e.g. revisiting the site in different conditions) were not discussed."
+       "grade": "High Achieved",
+       "text": "Beach profiles: detailed plan and effective aim; map, annotated photos, table and comparative profile diagram; wave-frequency data linked to profiles; conclusion addressed the aim.",
+       "miss": "Merit needed more collected data used in analysis and conclusion, relationships between processes discussed, geographic concepts in detail; annotate profiles or place them on the map.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91430/91430-exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "(Version 2 evidence; Low Excellence, socio-cultural costs and benefits of tourism.) Findings critically analysed with statistics, terminology and relevant secondary data; several parts of the process critically evaluated with strengths and weaknesses linked to validity; alternative methods for collecting and presenting data discussed with how they would improve accuracy and depth.",
-       "miss": "Not a more secure Excellence because more of the collected data could have been applied and presentation could have been more effective. NZQA notes Version 3 would also require development of concepts such as perception, perspectives and sustainable development."
+       "grade": "Low Merit",
+       "text": "Longshore drift across several sites: site layouts, location map, combined graphs; conclusion per site and for combined data; main components of the research process evaluated.",
+       "miss": "For a more secure Merit, conclusion needed direct links to the data, and a more direct explanation of how specific techniques affected validity.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91430/91430-exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Sediment transport (longshore drift, saltation) across a coastal site analysed with statistics and terminology; photos supported field sketches and saltation data; effect of weather conditions evaluated.",
+       "miss": "Excellence needed analysis emphasising anomalies and more critical, relevance of geographic concepts incorporated, and alternative methods discussed (e.g. revisiting under different conditions).",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91430/91430-exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Socio-cultural costs and benefits of tourism: findings analysed with terminology and statistics; secondary data incorporated; planning critically evaluated; alternative collection and presentation methods discussed.",
+       "miss": "For a more secure Excellence, apply more of the collected and presented data to deepen analysis, and present data more effectively.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91430/91430-exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -6067,6 +7263,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI cannot confirm the fieldwork took place, that the primary data and visuals are the student’s own, or how much consultation occurred, and judges maps and graphs from images; the teacher must verify these.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -6102,17 +7299,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Bottom trawling in New Zealand, with Greenpeace and Sealord. Nature explained; each group’s values and perceptions linked to its response (Greenpeace’s urgency from seabed damage; Sealord balancing economic and environmental concerns through a scientific long-term response). ‘Managing fisheries to ensure sustainability’ justified against banning bottom trawling, weighing economic impacts.",
-       "miss": "Not Merit because the explanation of responses needed more specific detail and the justification needed to consider more than one alternative."
+       "text": "Bottom trawling in New Zealand: issue explained; values and perceptions of Greenpeace and Sealord identified; sustainable fisheries management proposed and justified against a ban by comparing economic impacts.",
+       "miss": "Needed more specific detail explaining the groups' responses; a detailed justification would consider more than one alternative.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91431/91431-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Japan’s declining population, with the Japanese Government and a sociologist. Issue explained in depth; responses explicitly linked to values and perceptions (economic stability vs an integrated social-cultural-economic approach); solution justified against alternatives using evidence of the issue’s complexity (declining birth rate, ageing, labour needs, cultural implications of immigration).",
-       "miss": "Not Excellence because evidence needed development (traditional social values, strain on health and welfare, statistics, political actions), the justification lacked full insight and clarity with alternatives integrated into the proposal, and the solution needed both immediate actions and a long-term approach."
+       "text": "Japan's declining population: responses of the Government and a sociologist examined and linked to their values; immigration-based solution proposed and justified against alternatives, linking low birthrate to ageing.",
+       "miss": "Evidence needed development (traditional social values, strain on health and welfare, statistics, political detail); Excellence needs full insightful justification integrating alternatives and combining immediate and long-term actions.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91431/91431-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Flooding in South Dunedin, with Dave Cull and Eleanor Doig. Both people’s values and perceptions fully explained as drivers of their responses, showing understanding of the nature, causes and impacts of the issue and informing the student’s own decision. Argues for a planned voluntary managed retreat combined with long-term flood mitigation, informed by council and community needs and the geography involved."
+       "text": "South Dunedin flooding: how the values and perceptions of Dave Cull and Eleanor Doig shaped their responses fully explained; argued for planned voluntary managed retreat with long-term flood mitigation informed by council and community needs.",
+       "miss": "",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91431/91431-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -6210,6 +7414,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -6247,19 +7452,39 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "(Version 2 evidence; High Achieved, access to safe water.) A global pattern described with terminology, showing its complexity and global dimension; natural and cultural factors explained with explicit reference to the pattern; arid and monsoon climates and development levels show a relatively complex causal understanding.",
-       "miss": "Not Merit because statistical data (e.g. human poverty index, improved water source figures), developed global case-study evidence, and research on how temperatures worsen water loss were needed. A Low Achieved tourism response needed a second factor developed with specific global evidence."
+       "grade": "Low Achieved",
+       "text": "Global tourism: pattern of concentration and dispersal described; transport development explained as contributing to both, with global evidence.",
+       "miss": "For a more secure Achieved, explain a second factor (historic or economic) with specific global evidence and develop the chronological shift from concentrated to dispersed.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91432/91432-exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "(Version 2 evidence; High Merit, access to safe water.) Natural and cultural factors explained in depth with terminology; a planning diagram shows how factors interact; climate zones linked directly to the pattern with detailed case studies of deficit and surplus areas.",
-       "miss": "Not Excellence because the interactions on the planning model were not fully explained, infrastructure and technology were underdeveloped so the poverty relationship was unclear, and areas with similar climates that do NOT have limited access were not considered."
+       "grade": "High Achieved",
+       "text": "Access to safe water: concentrated pattern described with terminology; natural and cultural factors explained (arid and monsoon climates, levels of development).",
+       "miss": "Merit needed statistics (human poverty index, improved water source data) or more global case-study evidence, and research on how temperature worsens water loss.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91432/91432-exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "(Version 2 evidence; Low Excellence, tourism.) Insight and clarity of argument through well-chosen case studies and concepts; social and economic significance for people explained in detail and evaluated, supported by case studies, statistics and the multiplier model.",
-       "miss": "Not a more secure Excellence because positive and negative significance could have been weighed further; NZQA notes Version 3 would invite environmental, political and cultural significance too."
+       "grade": "Low Merit",
+       "text": "Global tourism: shift from European concentration to dispersed pattern with annotated maps and planning diagram; transport and colonialism explained; foreign exchange and employment significance cited.",
+       "miss": "For a more secure Merit, extend significance-for-people evidence into detailed explanation (employment linked to social investment); under Version 3, environmental and political significance could be considered.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91432/91432-exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Access to safe water: natural and cultural factors behind the pattern explained in depth with a planning diagram, links to climate zones, and case studies of deficit and surplus areas.",
+       "miss": "Excellence needed fuller explanation of how factors on the planning model interact, the role of infrastructure and technology, and similar-climate areas without limited access.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91432/91432-exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Global tourism: social and economic significance for people explained in detail and evaluated using case studies, statistics and the multiplier model.",
+       "miss": "To secure Excellence, weigh positive and negative significance for people; under Version 3, environmental, political and cultural significance could also be examined.",
+       "version": "Version 2",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91432/91432-exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -6353,6 +7578,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -6391,17 +7617,24 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "Achieved",
-       "text": "Siting a new police station in Hamilton: buffer zones, time/distance zones and hotspots for existing stations and two potential sites. Most conventions followed and transformations appropriate; manipulations simply explained (‘Each of the stations have a 2km buffer that shows the area of service’); solution supported by layout evidence.",
-       "miss": "Not Merit because explanations were simple rather than detailed, data on residential zones and proposed growth areas that would support the solution was not collected, and a key (e.g. crime numbers in the hotspot shading) was missing."
+       "text": "New Hamilton police station: 2 km buffers, time-distance zones around existing and two potential stations, crime hotspot layer; manipulations briefly explained; site proposed for coverage without overlapping existing stations.",
+       "miss": "Needed spatial data on residential and growth areas to support the argument, a key and crime numbers in hotspot shading, and more detailed explanation of manipulations.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91433/91433-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
-       "text": "Informing Hutt Valley residents about tsunami and flood risk. Sufficient data collected and manipulated; technically accurate maps; manipulations explained in detail (transparency, symbol changes, coordinate system); solution justified against alternatives listed in the introduction.",
-       "miss": "Not Excellence because manipulations were not evaluated (how each strengthened or weakened the data for problem solving), and the justification could go further (support for communities, civil defence and planning bodies; how the solution fixes the alternatives’ weaknesses). Key placed on rather than beside the map."
+       "text": "Informing Hutt Valley residents of tsunami and flood risk: technically accurate maps including a remade risk-zone map; manipulations (transparency, symbols, coordinate system) explained in detail; solution justified against alternatives.",
+       "miss": "Manipulations needed evaluating (how each strengthened or weakened the data); justification more in-depth (community and civil defence support, fixing alternatives' weaknesses); key beside map.",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91433/91433-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Siting a new police station in Hamilton. Clear problem with parameters used to make the spatial data effective; buffers, drive-time areas, hotspots and pinpoints explained and then evaluated; two sites assessed on four key parameters with a final decision that explains why alternative B was rejected, showing holistic understanding of the problem and the city’s needs."
+       "text": "New Hamilton police station: buffers, proximity-tool drive-time area and pinpointed crime hotspots; each manipulation evaluated (what and why); two sites assessed against four parameters, one chosen and the other's rejection explained.",
+       "miss": "",
+       "version": "Not stated (current Version 2)",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-3/AS-91433/91433-Exemplar-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -6501,6 +7734,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI judges maps and layouts from images and cannot confirm the student performed the GIS manipulations or that buffers, drive-times and measurements are spatially accurate; the teacher should verify outputs against the student’s project or software files.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -6538,6 +7772,15 @@ window.MOD_DATA['3'] = {
      "url": "https://healtheducation.org.nz/wp-content/uploads/2024/10/NZHEA-Newsletter_October_2024-1.pdf"
     }
    ],
+   "associations": [
+    {
+     "name": "New Zealand Health Education Association (NZHEA)",
+     "url": "https://tda.org.nz/nex/new-zealand-health-education-association",
+     "notes": [
+      "No publicly accessible marking or moderation guidance found (October 2026); NZHEA support runs through its network of expertise. Use NZQA exemplars, clarifications and NMR."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91461",
@@ -6572,23 +7815,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved (teenage pregnancy and parenting): the social determinant described with one source; brief implications with no evidence; a limited strategy.",
-       "miss": "Not Achieved because it does not explain how the factor contributes to the issue, and all explanations needed developing with evidence."
+       "grade": "High Not Achieved",
+       "text": "Teenage pregnancy/parenting: three determinants, social one described briefly without explaining how it contributes (one source); brief personal impacts with no evidence; strategy linked to the social determinant, limited description.",
+       "miss": "To reach Achieved, develop all explanations and provide further supporting evidence.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91461/"
       },
       {
-       "grade": "Achieved",
-       "text": "High Achieved (teenage pregnancy and parenting): the cultural determinant briefly explained with one source; positive and negative societal impacts with one source; strategy described in limited detail.",
-       "miss": "Not Merit because explanations were not developed and evidence was not wide or detailed enough."
+       "grade": "Low Achieved",
+       "text": "Alcohol misuse by 16–24-year-olds: three determinants, economic one explained with one source; positive and negative personal impacts (one source); strategy linked to the economic determinant.",
+       "miss": "Needed fuller explanation of how the economic determinant influences the issue, more detail on implications, and how the strategy addresses the issue.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91461/"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit (teenage pregnancy and parenthood): the social determinant explained with one source; short- and long-term impacts with personal effects prominent; a social and economic strategy benefiting teenage mothers.",
-       "miss": "Not Excellence because it needed more detail, more evidence and explicit links to the underlying concepts."
+       "grade": "High Achieved",
+       "text": "Teenage pregnancy/parenting: three determinants, cultural one explained briefly with one source; positive and negative societal impacts (one source); strategy linked to the cultural determinant with limited description.",
+       "miss": "To reach Merit, further develop all explanations for an in-depth analysis with a wider range of detailed evidence.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91461/"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (alcohol misuse among 16-24 year olds): the political factor explained, short-term impacts traced to long-term ones, a strategy linked to NZ drug policy. A more secure Excellence would connect strategies to a health promotion model (e.g. Te Pae Māhutonga, Ottawa Charter) and develop attitudes and values."
+       "grade": "Low Merit",
+       "text": "Alcohol misuse: three determinants, cultural one explained with one source; short-term negative interpersonal impacts (two sources); detailed strategy linked to the cultural determinant.",
+       "miss": "Not clearly established how the strategy links to the cultural determinant; more on binge-drinking culture and long-term or positive relationship impacts.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91461/"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Teenage pregnancy/parenthood: three determinants, social one explained with one source; short- and long-term, positive and negative personal impacts; detailed strategy linked to social and economic determinants.",
+       "miss": "To reach Excellence, develop explanations with further detail, more evidence and explicit links to underlying concepts.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91461/"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Alcohol misuse: three determinants including the political one, with evidence; societal, interpersonal and personal implications; strategy linked to NZ drug policy.",
+       "miss": "",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91461/"
       }
      ],
      "conditions": [],
@@ -6694,6 +7960,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -6722,18 +7989,39 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (birthing pain: epidural vs hypnobirthing and TENS): hypnobirthing's philosophy linked to CAM with two sources; advantages and disadvantages linked to attitudes and values.",
-       "miss": "Not Merit because procedures were brief (no session length, frequency or duration) and the comparison was brief and unconvincing, weighing effectiveness only; a detailed comparison with conclusions supported by reasoned arguments was needed."
+       "grade": "Low Achieved",
+       "text": "Depression: SSRIs (WSM) v acupuncture and St John's Wort (CAM/TM); acupuncture with two sources but brief, non-specific philosophy and procedures; advantages/disadvantages with some hauora reference.",
+       "miss": "The comparison restated earlier ideas rather than comparing practices; needed more detail on philosophies, procedures and pros/cons linked to depression.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91463/"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit (depression: SSRIs vs acupuncture and St John's Wort): procedures and advantages/disadvantages explained, two sources for St John's Wort, all practices compared.",
-       "miss": "Not Excellence because St John's Wort's philosophy needed more detail and linking to CAM/TM, the comparison needed refining, and links to the underlying concepts were few."
+       "grade": "High Achieved",
+       "text": "Birthing pain: epidural (WSM) v hypnobirthing and TENS (CAM); hypnobirthing with two sources, linked to CAM; advantages and disadvantages explained with reference to attitudes and values.",
+       "miss": "Needed a more convincing, detailed comparison: justification rested only on effectiveness; procedures lacked session length, frequency and duration.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91463/"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (birthing pain): links the underlying concepts (hauora, attitudes and values) to each practice's philosophy and draws a concise, justified conclusion. A more secure Excellence would develop explanations further and make links to the concepts more explicit."
+       "grade": "Low Merit",
+       "text": "Obesity: gastric band and green prescription (WSM) v hypnosis (CAM); hypnosis with two sources and philosophy linked to CAM; gastric band pros/cons with one source; clear summary comparison, brief justification.",
+       "miss": "For a more secure Merit, further develop the comparison of health practices.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91463/"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Depression: SSRIs v acupuncture and St John's Wort; St John's Wort with two sources, pros/cons and some hauora reference; comparison covers all three but few links to underlying concepts.",
+       "miss": "Develop some explanations more fully; St John's Wort philosophy needed more detail and a CAM/TM link; refine the overall comparison.",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91463/"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Birthing pain: epidural (WSM) v hypnobirthing and TENS (CAM); epidural with one source linked to WSM; advantages/disadvantages with some explicit links to hauora and attitudes and values; concise, justified conclusion.",
+       "miss": "",
+       "version": "not stated; predates Version 3 (December 2024)",
+       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/health/as-91463/"
       }
      ],
      "conditions": [],
@@ -6823,6 +8111,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -6866,18 +8155,39 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (medicinal cannabis): a critical account with two supporting and two opposing groups; opposing perspective briefly explained with some evidence; societal implications mainly short-term with one piece of evidence.",
-       "miss": "Not Merit because the account was not balanced (both opposing groups needed development) and there was no explicit reference to underlying health concepts."
+       "grade": "Low Achieved",
+       "text": "Euthanasia: two supporting and two opposing groups, brief explanation of the opposing view; copied bullet lists from group websites; NZ practice at three levels, interpersonal short-term impacts and hauora but no evidence.",
+       "miss": "For a more secure Achieved, further develop the explanations and make more extensive use of evidence; integrate website material in own words.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health/91464/91464-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit (euthanasia): a balanced view of the groups; opposing perspective clearly explained with evidence; societal implications evidence-based with short- and long-term impacts.",
-       "miss": "Not Excellence because it lacked insight into the reasons for differing perspectives and their ethical foundations (e.g. virtues, rights, utilitarianism, autonomy), links to concepts were not consistent, and some Hospice NZ material was copied rather than written in the student's own words."
+       "grade": "High Achieved",
+       "text": "Medicinal cannabis: two supporting and two opposing groups, brief opposing explanation; NZ practice at all three levels; societal discussion mainly short-term, one piece of evidence, no explicit links to underlying concepts.",
+       "miss": "To reach Merit, give a balanced view of differing and opposing perspectives, develop both opposing groups, and refer to underlying health concepts.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health/91464/91464-Exemplar-High-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (euthanasia): examination of perspectives shows insight; supporting perspective clearly explained with evidence; ethical principles referenced but not fully developed; implications evidence-based across short and long term with some critical thinking about who is disadvantaged. A more secure Excellence would develop links from each group to its ethical principles and to the underlying concepts."
+       "grade": "Low Merit",
+       "text": "Medicinal cannabis: two groups each side; supporting perspective briefly explained with some evidence; NZ practice at personal (exemplified), interpersonal and societal levels with some reference to hauora and attitudes and values.",
+       "miss": "For a more secure Merit, develop links to underlying concepts throughout and use more extensive evidence.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health/91464/91464-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Euthanasia: balanced view of two supporting and two opposing groups; opposing perspective evidenced; NZ practice at three levels with evidence-based societal short- and long-term impacts. Included copied Hospice NZ website text.",
+       "miss": "Needed insight into reasons for differing perspectives and more explicit, consistent links to underlying concepts; copied text should be in own words.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health/91464/91464-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Euthanasia: two supporting and two opposing groups with evidence for the supporting view; NZ practice (stated as illegal) explained at personal, interpersonal and societal levels with some critical thinking.",
+       "miss": "",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Health/91464/91464-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -6978,6 +8288,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -7005,6 +8316,15 @@ window.MOD_DATA['3'] = {
     {
      "label": "Level 3 Media Studies Conditions of Assessment 2026 (TKI, .docx)",
      "url": "https://ncea.tki.org.nz/content/download/8335/32292/file/Media studies Level 3 Conditions of Assessment 2026.docx"
+    }
+   ],
+   "associations": [
+    {
+     "name": "National Association of Media Educators (NAME)",
+     "url": "http://www.waikato.ac.nz/film/NAME/",
+     "notes": [
+      "NAME is the national body for media teachers and runs an annual conference; no publicly accessible marking or moderation guidance for these standards was found in October 2026. Use NZQA exemplars, clarifications and the NMR."
+     ]
     }
    ],
    "standards": [
@@ -7041,18 +8361,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (gendered reading of Burton's Alice in Wonderland): explains a hypothesis that the film reverses Hollywood stereotypes, with Alice as narrative-driving hero and the dominant Red Queen, with some specific evidence. High Achieved (road-movie genre reading of Little Miss Sunshine): thoroughly explains how the journey metaphor clarifies meaning and how characters' journeys resolve, beginning on the car as symbol.",
-       "miss": "Not Merit because the student explained rather than analysed — e.g. how the film supports and subverts road-movie conventions and what that does to meaning."
+       "grade": "High Not Achieved",
+       "text": "Alice in Wonderland via Burton as director: lists his features (outsiders, retold classics, visuals, recurring crew), Alice as outsider; includes synopsis and film language.",
+       "miss": "For Achieved: explain Burton's contribution to the film's meaning rather than describing him, and how Alice's outsider role drives her journey.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91491/91491-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (cultural reading of Little Miss Sunshine): analyses how each main character subverts American Dream stereotypes and contrasts the family with the pageant, with film evidence. High Merit (auteur reading of Alice in Wonderland): thorough analysis of Burton's outsider theme and visual style and how they shape understanding of Alice, supported by film detail.",
-       "miss": "Not Excellence because the significance of the reading was not evaluated in relation to society — e.g. the norms of the period and why they matter to a modern audience."
+       "grade": "Low Achieved",
+       "text": "Alice in Wonderland, gendered reading: Hollywood gender stereotypes reversed (Alice as hero, dominant Red Queen), linked to other Hollywood films.",
+       "miss": "For a more secure Achieved: explain meaning in more depth, building on Alice's hero traits and audience response to the changed stereotypes.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91491/91491-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (gendered reading of Alice in Wonderland): evaluates the reading through women's roles in a patriarchal society, Alice's empowerment and male–female power relations, beginning to question how society defines gender. NZQA suggests the film's relevance to contemporary audiences could be developed further."
+       "grade": "High Achieved",
+       "text": "Little Miss Sunshine, road-movie genre reading: journey as metaphor, characters' journeys fulfilled by the pageant trip, the car symbolising the family's issues.",
+       "miss": "For Merit: move from explaining to analysing how the film supports and subverts road-movie conventions; develop the car metaphor.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91491/91491-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Little Miss Sunshine, cultural reading: debunks American Dream myths; each character subverts its stereotypes; family contrasted with pageant participants, with film evidence.",
+       "miss": "For a more secure Merit: develop the analysis and link examples more closely to the American Dream.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91491/91491-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Alice in Wonderland, auteur reading: Burton's outsider theme, two worlds shaping Alice's identity, visual style shaping audience understanding, with film detail.",
+       "miss": "For Excellence: evaluate significance by linking the reading to society, e.g. norms of the time and why they matter to a current audience.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91491/91491-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Alice in Wonderland, gendered reading: women in a patriarchal society, Alice's empowerment in Underland, male–female power; begins to question how society defines gender.",
+       "miss": "For a more secure Excellence: evaluate significance further via relevance to contemporary audiences and gender-role expectations.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91491/91491-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -7127,6 +8475,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -7160,18 +8509,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (kiwi ingenuity): describes and defines the representation with examples from four texts, pulled together in an overall discussion, and explains why it was created (factual clips reflecting practice; advertisements using the stereotype to sell). High Achieved (the 'good kiwi bloke'): explains why it was created through farming history and the black singlet (Fred Dagg, Wal Footrot) and begins discussing its impact (Speights advertising, aspirational nature).",
-       "miss": "Not Merit because the impact on national identity was not analysed in depth and more supporting evidence was needed (e.g. how Fred Dagg satirised national identity)."
+       "grade": "High Not Achieved",
+       "text": "Describes 'good Kiwi bloke' traits with three texts; explains through advertising stereotypes and NZ's farming background.",
+       "miss": "For Achieved: explain how and why the representation is created, building on how stereotypes sell products and draw on historical culture.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91492/91492-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit ('good kiwi bloke'): begins analysing impact — influence of early representations on later texts, effect on how men see themselves, positive messages. High Merit: thoroughly analyses the impact on shaping NZ society — early texts influencing later ones, masculinity expectations, how media representations of sports stars influence males.",
-       "miss": "Not Excellence because the analysis was not evaluative — e.g. the validity of the representation for New Zealand today was not assessed."
+       "grade": "Low Achieved",
+       "text": "Kiwi ingenuity through four texts with a concluding discussion: why it is represented (reasons vary), factual clips showing it, ads using the stereotype.",
+       "miss": "For a more secure Achieved: develop why Kiwi ingenuity is represented, use historical sources, discuss the representation rather than individual texts.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91492/91492-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence ('good kiwi bloke'): explains how and why the representation was created across a variety of texts, then evaluates its impact in advertising, the masculinity expectations it creates and its effects on sports stars, and how stereotyping perpetuates stereotypes. NZQA suggests exploring the negative effects of a mono-cultural representation for a more secure grade."
+       "grade": "High Achieved",
+       "text": "'Good Kiwi bloke': origins in farming history and the black singlet (Fred Dagg, Wal Footrot); begins discussing influence on Speight's ads and aspiration.",
+       "miss": "For Merit: develop the Kiwi man as part of national identity, add evidence, explore how Fred Dagg satirised it.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91492/91492-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "'Good Kiwi bloke' across texts: begins analysing how early representations shaped later ones, an effect on men's self-image, positive messages.",
+       "miss": "For a more secure Merit: build the analysis, exploring early representations and the messages and values created more deeply.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91492/91492-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "'Good Kiwi bloke' across several texts: thorough analysis of early-to-later influence, masculinity expectations, how portrayals of sports stars influence males.",
+       "miss": "For Excellence: evaluate impact by testing the representation's validity for NZ today.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91492/91492-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "'Good Kiwi bloke': how and why created across a range of texts; use in advertising, masculinity expectations, impact on sports stars, stereotyping reinforcing stereotypes.",
+       "miss": "For a more secure Excellence: develop the impact evaluation, including negative effects of a mono-cultural representation of the Kiwi male.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91492/91492-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -7245,6 +8622,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -7279,18 +8657,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "Low Achieved (rise of streaming, decline of cable): identifies the development with a timeline and comparison, and begins to explain how and why it happened (social change, budgets, advertising, convenience, cost, Covid-19), though reasons are mostly listed. High Achieved (digital music consumption and free on-demand music): historical overview of digitisation, why the technology evolved (portability, file size), analogue vs digital storage, and the shift to a 'freemium' model.",
-       "miss": "Not Merit because the impact and wider implications of the development were only briefly explained, not analysed through reasoned explanation."
+       "grade": "High Not Achieved",
+       "text": "Spark Sport's introduction of online sport streaming in NZ: industry background, streaming technology, audience expectations, some challenges and benefits.",
+       "miss": "For Achieved: choose a more clearly significant development (e.g. streaming's effect on free-to-air TV, foreign ownership) or evaluate Spark Sport's viability.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91496/91496-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "Low Merit (franchises as Hollywood's standard business model): reasoned argument for why it happened (creativity to profit) with several supported reasons and several impacts analysed through case studies. High Merit (Americanisation of NZ news): in-depth analysis of how and why it happened and its impact, with a reasoned hypothesis sustained throughout.",
-       "miss": "Not Excellence because the impact was analysed but not evaluated — e.g. the importance of public trust in news, or New Zealanders' attitudes to news outlets."
+       "grade": "Low Achieved",
+       "text": "Streaming displacing cable TV: timeline, comparison figures, graphic; reasons (social change, budgets, advertising, convenience); growth linked to Covid-19.",
+       "miss": "For a more secure Achieved: focus on significance by expanding how and why streaming platforms developed.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91496/91496-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (shift from traditional to new media changing the censor's role): clear hypothesis, historical context of censorship, YouTube as case study, analysis of difficulties controlling online content, and evaluation of wider implications (from centralised regulation to platform responsibility) with evaluative conclusions. NZQA notes the how/why paragraph was underdeveloped and ownership, platform-vs-publisher and user responsibility could be developed."
+       "grade": "High Achieved",
+       "text": "Digital technology changed music consumption: digitisation, portability, file sharing, analogue vs digital storage, streaming, 'freemium'.",
+       "miss": "For Merit: give a reasoned explanation analysing the impact and wider implications of the analogue-to-digital shift.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91496/91496-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Franchises as Hollywood's standard business model: reasons (profit, risk, brand, costs) and impacts; del Toro and Harry Potter case studies.",
+       "miss": "For a more secure Merit: develop case studies into a fuller discussion of commercial vs creative filmmaking and wider effects on industry and audiences.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91496/91496-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Americanisation of NZ news harms NZ culture: context, reasons, research on effects, impact, role of public trust.",
+       "miss": "For Excellence: evaluate the significance of New Zealanders' attitudes to news outlets, including US polarisation and growing political divides in local news.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91496/91496-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Shift from traditional to new media changed the censor's role: history of censorship, YouTube case study, streaming, responsibility moving from regulators to platforms.",
+       "miss": "For a more secure Excellence: develop ownership and metering of content, platform vs publisher, and users' responsibilities.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-3/91496/91496-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -7369,6 +8775,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -7410,6 +8817,15 @@ window.MOD_DATA['3'] = {
      "url": "https://ncea.tki.org.nz/content/download/8315/32232/file/Music Level 3 Conditions of Assessment 2026.docx"
     }
    ],
+   "associations": [
+    {
+     "name": "Music Education New Zealand Aotearoa (MENZA)",
+     "url": "https://www.tda.org.nz/nex/music-education-new-zealand-aotearoa",
+     "notes": [
+      "MENZA is the national professional body for music educators (listed as a Networks of Expertise partner); no publicly accessible marking or moderation guidance for these standards was found in October 2026. Use NZQA exemplars, clarifications and the NMR."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91422",
@@ -7437,19 +8853,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "(High Achieved — Jack Bewley, Te Tangi a Wairaka, for brass band and taonga pūoro) Analysed the structure and listed programmatic features; explained how traditional waiata and taonga pūoro represent Māori culture in the narrative and the composer's intent to depict the naming of Whakatāne. (Low Achieved — Sondheim, Sweeney Todd) Explained ostinato creating suspense and signalling the lead character, with several musical extracts and some discussion of instrumentation and timbre.",
-       "miss": "Not Merit because the student needed to critically analyse how the reference to the waiata 'Hoea Hoea Ra' contributes to the work's style and meaning, rather than listing programmatic features."
+       "grade": "High Not Achieved",
+       "text": "Three-slide PowerPoint on Vivaldi's 'Spring' (mvt 1): episodic form, overview of instrumentation, harmony, texture, dynamics; devices listed not explained.",
+       "miss": "For Achieved: explain ritornello–episode contrast and how devices create programmatic word-painting, showing understanding of Baroque style.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91422/91422-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "(High Merit — Gershwin, Rhapsody in Blue) Essay on melody: the blues scale and its link to 1920s jazz; sequence, chromaticism and call and response across the five themes; the themes interpreted as aspects of American culture; Gershwin's inspiration evaluated as shaping meaning. (Low Merit — Beethoven, Piano Concerto No. 3, first movement) Generally critical analysis of texture, one compositional device, and Beethoven's style bridging Classical and Romantic.",
-       "miss": "Not Excellence because the student needed to evaluate more deeply how melody distinguishes the roles of piano and orchestra, e.g. how the themes develop in the solo cadenzas. Low Merit was told to develop the effect of texture on listeners and link it more clearly to early-Romantic style."
+       "grade": "Low Achieved",
+       "text": "Sondheim's Sweeney Todd: ostinato as device creating suspense and denoting the lead, several extracts, instrumentation and timbre.",
+       "miss": "For a secure Achieved: analyse key and pulse shifts across ostinato passages; add a short conclusion on how they show the musical's style.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91422/91422-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "(Low Excellence — John Williams, Jaws suite) Essay on instrumentation and timbre: how the shark leitmotif is developed through contrasting orchestral timbres, how low registers create depth and foreboding, how the tuba's high register unsettles the listener, plus variation and textural variety.",
-       "miss": "To secure Excellence: more specific musical examples to support the analysis."
+       "grade": "High Achieved",
+       "text": "Jack Bewley's Te Tangi a Wairaka (brass band and taonga pūoro): structure, listed programmatic features, waiata and taonga pūoro representing Māori culture, composer's intent.",
+       "miss": "For Merit: critically analyse how the 'Hoea Hoea Ra' reference contributes to style and meaning (migration imagery).",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91422/91422-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "Beethoven Piano Concerto No. 3 (mvt 1): generally critical analysis of texture, one compositional device, style bridging Classical and Romantic.",
+       "miss": "For a more secure Merit: elaborate on the claim that the texture's effect is 'unique' to show how texture contributes to early-Romantic style.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91422/91422-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Gershwin's Rhapsody in Blue: melody and blues scale evoking 1920s jazz, devices (sequence, chromaticism, call and response) across five themes as American culture; inspiration evaluated.",
+       "miss": "For Excellence: evaluate more deeply how melody highlights piano and orchestra roles, e.g. theme development in solo cadenza passages.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91422/91422-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "John Williams' Jaws Suite: evaluates leitmotif development through contrasting timbres, low registers creating foreboding, high tuba, variation, textural variety.",
+       "miss": "For a more secure Excellence: give more specific musical examples to support the perceptive analysis.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91422/91422-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -7522,6 +8965,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -7559,19 +9003,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "(High Achieved — 'What is progressive music?') Analysed the elements of progressive rock (time signatures, thematic subject matter, relationships between songs on an album); conclusion on why the genre has survived four decades; valid conclusions. (Low Achieved — Play It Strange) Well-structured presentation built mainly on an interview with the CEO, Mike Chunn, with generally valid conclusions.",
-       "miss": "Not Merit because the research question needed further refinement and all sources were web-based; primary sources such as surveys and interviews were needed. Low Achieved needed a wider range of processed sources (e.g. a survey of participants, analysis of past winners)."
+       "grade": "High Not Achieved",
+       "text": "'Women in the music industry – is it harder than for men?': website data, surveys, interviews, personal perspectives, some conclusions.",
+       "miss": "For Achieved: analyse findings in more depth for valid conclusions (e.g. the Blues/Country survey result); survey a wider demographic.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91425/91425-Exemplar-High-Not-Achieved.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "(High Merit — Indie music) In-depth description and explanation of sub-genres; linked the rise of Indie's popularity to its later decline in the early 2000s; conclusion summarised findings with some perception about technology's effect on the genre. (Low Merit — The Beatles) Effective processing of evidence with musical examples linked to musical and philosophical influences; valid conclusion on their impact and the concept album.",
-       "miss": "Not Excellence because an Indie song needed analysing for further insight and a range of sources needed fuller exploration. Low Merit needed more detail, such as further musical examples from the repertoire."
+       "grade": "Low Achieved",
+       "text": "Presentation built on an interview with Mike Chunn (Play It Strange CEO): well-placed quotes and personal observations; answers the question.",
+       "miss": "For a more secure Achieved: process a wider range of evidence for fully valid conclusions, e.g. survey participants, analyse past winners' careers.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91425/91425-Exemplar-Low-Achieved.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "(Low Excellence — community music in New Zealand: has it been 'lost'?) Traced the evolution of community music in New Zealand and concluded whether it has been lost, identifying technological change as drawing people away from making their own music; valid and perceptive conclusions with personal perspectives.",
-       "miss": "To secure Excellence: interview members of a local community music group and summarise the findings so the range of sources is fully robust."
+       "grade": "High Achieved",
+       "text": "'What is progressive music?': analyses prog-rock time signatures, thematic content, album-wide song relationships; concludes why the genre has lasted four decades.",
+       "miss": "For Merit: refine the research question; use more sources beyond the web, including primary sources such as surveys and interviews.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91425/91425-Exemplar-High-Achieved.pdf"
+      },
+      {
+       "grade": "Low Merit",
+       "text": "The Beatles: influences of their era, significance, musical examples linking songs to influences, concept albums.",
+       "miss": "For a more secure Merit: add detail such as further musical examples from the band's repertoire.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91425/91425-Exemplar-Low-Merit.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Indie music: how it became a genre, own conclusion on what Indie is, sub-genres, early-2000s decline, technology's effect.",
+       "miss": "For Excellence: analyse an Indie song for deeper insight and explore the range of sources more fully.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91425/91425-Exemplar-High-Merit.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Community music in NZ: how it evolved and whether it is 'lost'; argues technology drew people from making their own music; valid, perceptive conclusions with personal perspective.",
+       "miss": "For a more secure Excellence: interview members of a local community music group so the source range is fully robust.",
+       "version": "not stated on the exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Music/Exams-and-exemplars/Level-3/AS-91425/91425-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -7650,6 +9121,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "If the presentation is delivered orally, and where the evidence relies on surveys, interviews or observation the student conducted, the teacher must confirm what was delivered and that the primary research genuinely took place.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -7726,6 +9198,17 @@ window.MOD_DATA['3'] = {
      "url": "https://www.penz.org.nz/file/level-3-key-issues-seen-in-moderation-2023?open=true"
     }
    ],
+   "associations": [
+    {
+     "name": "Physical Education New Zealand (PENZ)",
+     "url": "https://www.penz.org.nz/resources/ncea-assessment-in-pe",
+     "notes": [
+      "PENZ 'Understanding NCEA Assessment in PE': critique last year's task against the standard and conditions before reuse; read clarifications before writing tasks; verify judgements with a specialist and confirm authenticity.",
+      "Level 2 and 3 Conditions of Assessment are on TKI, not the NCEA site, so check both; re-contextualise performance and outdoor tasks each year.",
+      "PENZ-hosted 'Issues in moderation' (2025, author not stated) lists common gaps across PE standards: lack of depth, little questioning and challenging of assumptions, few specific personal examples."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91498",
@@ -7767,32 +9250,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Examined personal experiences and considered influences on and reasons for participation; devised strategies linked to previous experiences.",
-       "miss": "Not Achieved because there were no clear judgements about the relationship between the experiences and their potential impact on lifelong well-being."
+       "miss": "Not Achieved because there were no clear judgements about the relationship between the experiences and their potential impact on lifelong well-being.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91498/91498-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Examined experiences, considered influences and reasons for participation, made judgements about how experiences relate to lifelong well-being, and devised strategies linked to previous experiences with clear links to well-being.",
-       "miss": "Only a low Achieved because more judgements about the relationship to lifelong well-being were needed."
+       "miss": "Only a low Achieved because more judgements about the relationship to lifelong well-being were needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91498/91498-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Examined experiences and influences/reasons for participation, made some coherent judgements about the relationship to lifelong well-being, and devised strategies.",
-       "miss": "Not Merit because the experiences needed more comprehensive examination and the judgements needed to be more consistently coherent."
+       "miss": "Not Merit because the experiences needed more comprehensive examination and the judgements needed to be more consistently coherent.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91498/91498-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Comprehensively examined one personal experience (cricket) and made coherent judgements about how experiences across their life relate to lifelong well-being.",
-       "miss": "Only a low Merit because other personal experiences also needed comprehensive examination, with more coherent judgements."
+       "miss": "Only a low Merit because other personal experiences also needed comprehensive examination, with more coherent judgements.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91498/91498-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Comprehensively examined personal experiences with a coherent judgement linking them to well-being; attempted to question and challenge an assumption about a swimming experience.",
-       "miss": "Not Excellence because assumptions about the relationship of the experiences to lifelong well-being were not fully questioned and challenged, and judgements did not build insightfully on that challenge."
+       "miss": "Not Excellence because assumptions about the relationship of the experiences to lifelong well-being were not fully questioned and challenged, and judgements did not build insightfully on that challenge.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91498/91498-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Thoroughly examined a personal experience (cricket); questioned and challenged an assumption (gender) and made coherent, insightful judgements building on that challenge about the relationship of experiences to lifelong well-being.",
-       "miss": "Only a low Excellence: more coherent and insightful judgements building on the questions and challenges would secure it."
+       "miss": "Only a low Excellence: more coherent and insightful judgements building on the questions and challenges would secure it.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91498/91498-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -7887,6 +9382,13 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Questioning and challenging assumptions should relate to the learner's own physical activity experiences; strategies must link to those experiences.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -7925,32 +9427,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Briefly explained the parts of the skill using some biomechanical principles and gave some feed-forward aimed at improving the skill.",
-       "miss": "Not Achieved because a more detailed explanation of the parts of the skill using biomechanical principles was needed."
+       "miss": "Not Achieved because a more detailed explanation of the parts of the skill using biomechanical principles was needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91499/91499-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Briefly explained the parts of the skill using a range of biomechanical principles and used the analysis to give feedback and/or feed-forward.",
-       "miss": "Only a low Achieved: the explanation needed more detail and accuracy, and the feedback/feed-forward more detail (e.g. why the principles matter for improving this performance)."
+       "miss": "Only a low Achieved: the explanation needed more detail and accuracy, and the feedback/feed-forward more detail (e.g. why the principles matter for improving this performance).",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91499/91499-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Explained the parts of a golf swing using biomechanical principles, gave feedback and/or feed-forward to improve it, and attempted to discuss how the principles interrelate.",
-       "miss": "Not Merit because the interrelationship of the principles needed a more detailed discussion."
+       "miss": "Not Merit because the interrelationship of the principles needed a more detailed discussion.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91499/91499-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Explained the parts using biomechanical principles, briefly discussed how they interrelate, and used this for feedback and/or feed-forward.",
-       "miss": "Only a low Merit: a more detailed discussion of how the principles interrelate to improve performance was needed."
+       "miss": "Only a low Merit: a more detailed discussion of how the principles interrelate to improve performance was needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91499/91499-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Discussed how principles interrelate to improve performance, used it for feedback/feed-forward, and drew some conclusions about which parts have the greatest impact and why.",
-       "miss": "Not Excellence because conclusions about other high-impact parts, and about the factors affecting the performer’s ability to improve, were missing."
+       "miss": "Not Excellence because conclusions about other high-impact parts, and about the factors affecting the performer’s ability to improve, were missing.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91499/91499-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Drew conclusions, linked to the principles used, about which parts of the skill most affect performance, and attempted conclusions about factors influencing the performer’s ability to improve.",
-       "miss": "Only a low Excellence: the conclusions about factors influencing ability to improve needed more detail."
+       "miss": "Only a low Excellence: the conclusions about factors influencing ability to improve needed more detail.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91499/91499-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8041,10 +9555,18 @@ window.MOD_DATA['3'] = {
       "A separate anatomy section instead of anatomy integrated into the principle explanations (clarification; moderation key issues 2023).",
       "Principles listed side by side rather than discussed as inter-relating.",
       "Feedback or feed-forward that is coaching advice not grounded in the principles explained.",
-      "Excellence conclusions that summarise rather than rank which parts matter most, or factors that are not linked to this performer."
+      "Excellence conclusions that summarise rather than rank which parts matter most, or factors that are not linked to this performer.",
+      "NZQA's exemplar page does not say which version the exemplars were marked against; the current standard is Version 3 (December 2024), so check exemplar judgements against current wording."
      ],
      "aiLimits": "The AI cannot watch the video or images of the performance; the teacher must confirm that the component parts, errors and feedback described actually match the footage of the named performer.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Feedback/feed-forward must use biomechanical principles to improve performance of self or one individual; embed anatomy in explanations; Merit needs in-depth interrelation, Excellence a conclusion on the most influential part.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -8089,32 +9611,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Briefly examined the programme using principles of training (not methods), sports psychology and socio-cultural factors.",
-       "miss": "Not Achieved because the examination was too brief and judgements were not clear or supported by specific examples from the programme."
+       "miss": "Not Achieved because the examination was too brief and judgements were not clear or supported by specific examples from the programme.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91500/91500-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Examined the programme using biophysical principles, sports psychology and socio-cultural factors and made some judgements about effectiveness.",
-       "miss": "Only a low Achieved: more detailed examination and more judgements supported by specific programme examples were needed."
+       "miss": "Only a low Achieved: more detailed examination and more judgements supported by specific programme examples were needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91500/91500-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Examined the programme using two methods/principles of training, sports psychology and socio-cultural factors, with a coherent judgement about effectiveness.",
-       "miss": "Not Merit because the programme needed examining in more detail, with more coherent judgements supported by specific examples."
+       "miss": "Not Merit because the programme needed examining in more detail, with more coherent judgements supported by specific examples.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91500/91500-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Examined the programme in detail using more than one principle or method of training and sports psychology; some coherent judgements; socio-cultural factors used for judgements.",
-       "miss": "Only a low Merit: more detail across methods, principles and socio-cultural factors, with more coherent judgements."
+       "miss": "Only a low Merit: more detail across methods, principles and socio-cultural factors, with more coherent judgements.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91500/91500-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Detailed examination using methods and principles of training, sports psychology and socio-cultural factors; coherent judgements, some questioning and challenging assumptions.",
-       "miss": "Not Excellence because judgements were not consistently insightful through challenging assumptions, and were not used to identify and justify modifications."
+       "miss": "Not Excellence because judgements were not consistently insightful through challenging assumptions, and were not used to identify and justify modifications.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91500/91500-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Coherent, insightful judgements by questioning and challenging assumptions about the programme’s effectiveness, used to identify and justify modifications.",
-       "miss": "Only a low Excellence: more coherent and insightful judgements (e.g. through the biophysical principles) would secure it."
+       "miss": "Only a low Excellence: more coherent and insightful judgements (e.g. through the biophysical principles) would secure it.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91500/91500-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8199,6 +9733,13 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI cannot confirm that the programme was actually carried out or that the logs, data and results are genuine; the teacher must verify these against their knowledge of the student’s programme.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Link socio-cultural factors to the actual programme and judge its effectiveness, supported by specific examples from the training programme or logbook.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -8238,32 +9779,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Attempted to examine the Maadi Cup and drew some conclusions about its impact on New Zealand society.",
-       "miss": "Not Achieved because the event needed explaining in more detail, supported by research, with more detailed conclusions about impact."
+       "miss": "Not Achieved because the event needed explaining in more detail, supported by research, with more detailed conclusions about impact.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91502/91502-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Briefly examined the Maadi Cup with some research and began drawing conclusions about potential impact on different groups (host town, participants’ health, local youth resentment).",
-       "miss": "Only a low Achieved: more detailed explanation and conclusions about impact on New Zealand society were needed."
+       "miss": "Only a low Achieved: more detailed explanation and conclusions about impact on New Zealand society were needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91502/91502-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Researched and examined the AIMS Games and drew conclusions about its impact, discussing values or reasons from perspectives such as competitor, school, City of Tauranga and parent.",
-       "miss": "Not Merit because the event needed detailed explanation through the values or reasons framing different perspectives, with coherent conclusions."
+       "miss": "Not Merit because the event needed detailed explanation through the values or reasons framing different perspectives, with coherent conclusions.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91502/91502-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Examined the AIMS Games in detail through the values or reasons framing different perspectives (HPE curriculum, a policy document, the tournament director) and drew conclusions about impact.",
-       "miss": "Only a low Merit: the conclusions about impact on New Zealand society needed to be more coherent."
+       "miss": "Only a low Merit: the conclusions about impact on New Zealand society needed to be more coherent.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91502/91502-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Explained a triathlon event in detail through the perspectives of the sponsor, former athletes and children; coherent conclusions with some insight; began to question assumptions.",
-       "miss": "Not Excellence because assumptions were not questioned and challenged in enough detail and conclusions lacked consistent insight."
+       "miss": "Not Excellence because assumptions were not questioned and challenged in enough detail and conclusions lacked consistent insight.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91502/91502-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Began to question and challenge assumptions about a triathlon event and drew coherent, insightful conclusions about its impact on New Zealand society.",
-       "miss": "Only a low Excellence: assumptions needed questioning and challenging in more detail."
+       "miss": "Only a low Excellence: assumptions needed questioning and challenging in more detail.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91502/91502-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8348,6 +9901,13 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Choose a physical activity event, trend or issue, not a health outcome (obesity and Covid-19 cited as unsuitable).",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -8387,32 +9947,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Reviewed one step of the process (gathering and analysing) and its implementation.",
-       "miss": "Not Achieved because more steps needed reviewing, with clear judgements about impact on participation and supporting examples."
+       "miss": "Not Achieved because more steps needed reviewing, with clear judgements about impact on participation and supporting examples.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91503/91503-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Reviewed several steps and their implementation; made one judgement, with an example, about the impact of the developing insight and knowledge step on participation.",
-       "miss": "Only a low Achieved: clearer judgements about impact on participation, each with examples, were needed."
+       "miss": "Only a low Achieved: clearer judgements about impact on participation, each with examples, were needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91503/91503-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Reviewed the planning step with judgements and examples, and reviewed the developing knowledge and insight step in detail with a coherent judgement.",
-       "miss": "Not Merit because other steps needed detailed review with more coherent judgements."
+       "miss": "Not Merit because other steps needed detailed review with more coherent judgements.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91503/91503-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Reviewed one step (developing knowledge and insight) and its implementation in detail with some coherent judgements about impact.",
-       "miss": "Only a low Merit: other steps needed reviewing in more detail with more coherent judgements."
+       "miss": "Only a low Merit: other steps needed reviewing in more detail with more coherent judgements.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91503/91503-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Reviewed the identifying-the-issue and understanding steps in detail; coherent judgements about those steps and the whole process; attempted to question assumptions.",
-       "miss": "Not Excellence because assumptions were not questioned and challenged in depth, and judgements were not used to identify and justify improvements."
+       "miss": "Not Excellence because assumptions were not questioned and challenged in depth, and judgements were not used to identify and justify improvements.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91503/91503-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Questioned and challenged assumptions about the process, giving coherent, insightful judgements about impact on participation, and identified and justified improvements.",
-       "miss": "Only a low Excellence: assumptions about other steps needed challenging, with judgements clearly linked to the justified improvements."
+       "miss": "Only a low Excellence: assumptions about other steps needed challenging, with judgements clearly linked to the justified improvements.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91503/91503-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8496,6 +10068,13 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI cannot confirm that the health promotion process was actually carried out over time with the target group, or that the participation evidence is genuine; the teacher must verify implementation.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Apply the health promotion process over a period of time, not a one-off event; review each step, including a clearly defined issue, and judge impact on participation.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -8536,32 +10115,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Skiing: briefly examined an environment-related safety issue, considered some factors, and devised strategies.",
-       "miss": "Not Achieved because issues needed examining in more detail with more influencing factors considered."
+       "miss": "Not Achieved because issues needed examining in more detail with more influencing factors considered.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91504/91504-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Skiing: examined a people-related issue, considered a factor (food), and devised strategies to address it.",
-       "miss": "Only a low Achieved: other issues (e.g. equipment) needed more detail, with factors such as clothing and weather."
+       "miss": "Only a low Achieved: other issues (e.g. equipment) needed more detail, with factors such as clothing and weather.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91504/91504-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Skiing: examined safety issues, considered a factor (clothing), devised strategies, and briefly examined impacts of factors (food, knowledge) on the people issue.",
-       "miss": "Not Merit because wider implications and impacts of factors, and their interrelationships, needed more detail."
+       "miss": "Not Merit because wider implications and impacts of factors, and their interrelationships, needed more detail.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91504/91504-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Skiing: examined wider implications of factors (school policy, cell-phones) and briefly examined interrelationships between people-related factors for the equipment issue.",
-       "miss": "Only a low Merit: the interrelationship between factors needed more depth."
+       "miss": "Only a low Merit: the interrelationship between factors needed more depth.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91504/91504-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Skiing: examined wider implications of a factor (not following RAMS procedure), interrelationship of factors (skier ability), comprehensively examined issues and attempted relative importance.",
-       "miss": "Not Excellence because more issues needed evaluating by relative importance, and assumptions and practices in outdoor education were not questioned and challenged."
+       "miss": "Not Excellence because more issues needed evaluating by relative importance, and assumptions and practices in outdoor education were not questioned and challenged.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91504/91504-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Skiing: comprehensively examined issues (school policy), evaluated issues by relative importance, and began questioning assumptions and practices (philosophy of outdoor education).",
-       "miss": "Only a low Excellence: assumptions and practices needed questioning and challenging in more detail."
+       "miss": "Only a low Excellence: assumptions and practices needed questioning and challenging in more detail.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91504/91504-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8647,10 +10238,18 @@ window.MOD_DATA['3'] = {
       "Low-challenge activities (cooking on a fire, swimming in a school pool) that limit level 8 depth (moderation key issues 2023).",
       "Strategies not matched to each issue, or written as what happened rather than planned in advance.",
       "Factors listed without how and why they influence the issue, or without their inter-relationships.",
-      "Legislation, EOTC guideline or policy details that need checking for accuracy."
+      "Legislation, EOTC guideline or policy details that need checking for accuracy.",
+      "NZQA's exemplar page does not say which version the exemplars were marked against; the current standard is Version 3 (December 2024), so check exemplar judgements against current wording."
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Identify a safety management issue (something that already exists), not a risk (something that may happen); step up from Level 2 topics and link each strategy to a specific issue.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -8690,32 +10289,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "Briefly explained transactional leadership and its application in football, with one conclusion about relevance.",
-       "miss": "Not Achieved because the principles needed fuller research and explanation, with more conclusions about relevance and suitability."
+       "miss": "Not Achieved because the principles needed fuller research and explanation, with more conclusions about relevance and suitability.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91505/91505-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Researched and explained transactional leadership and its application, briefly concluding it is relevant in kayaking.",
-       "miss": "Only a low Achieved: conclusions about relevance and suitability needed more detail."
+       "miss": "Only a low Achieved: conclusions about relevance and suitability needed more detail.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91505/91505-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Researched and explained situational leadership and its application; began to draw coherent conclusions about relevance in rock climbing.",
-       "miss": "Not Merit because situational leadership needed more detailed explanation, with more coherent conclusions supported by research or application."
+       "miss": "Not Merit because situational leadership needed more detailed explanation, with more coherent conclusions supported by research or application.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91505/91505-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Explained empowerment in detail including its application, with some coherent conclusions about coaching and empowerment in swimming.",
-       "miss": "Only a low Merit: other contemporary principles needed detailed explanation, with more coherent conclusions."
+       "miss": "Only a low Merit: other contemporary principles needed detailed explanation, with more coherent conclusions.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91505/91505-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Explained affiliative leadership in detail with coherent, somewhat insightful conclusions about relevance in football; began to question an assumption.",
-       "miss": "Not Excellence because assumptions needed deeper questioning and challenge, and conclusions more insight about relevance and suitability."
+       "miss": "Not Excellence because assumptions needed deeper questioning and challenge, and conclusions more insight about relevance and suitability.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91505/91505-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Questioned and challenged an assumption about commanding leadership and drew coherent, insightful conclusions about distributed leadership in basketball.",
-       "miss": "Only a low Excellence: assumptions about distributed leadership also needed challenging, with insightful conclusions clearly linked to that questioning."
+       "miss": "Only a low Excellence: assumptions about distributed leadership also needed challenging, with insightful conclusions clearly linked to that questioning.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91505/91505-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8804,6 +10415,13 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Focus on contemporary leadership principles (e.g. distributed, collaborative), not leadership styles; apply in more than one context and conclude on relevance and suitability.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -8847,32 +10465,44 @@ window.MOD_DATA['3'] = {
       {
        "grade": "High Not Achieved",
        "text": "5.2 km run: gave some examples of how continuous training and progressive overload are meant to be used; trialled and started to adjust.",
-       "miss": "Not Achieved because how and why the underpinning knowledge works, and how and why adjustments were made, needed explaining with detailed examples."
+       "miss": "Not Achieved because how and why the underpinning knowledge works, and how and why adjustments were made, needed explaining with detailed examples.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91789/91789-Exemplars-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Scuba: briefly explained the knowledge behind practising skills and a buddy system; trialled and attempted adjustments.",
-       "miss": "Only a low Achieved: the knowledge and the adjustments needed more detailed how-and-why explanation with specific examples."
+       "miss": "Only a low Achieved: the knowledge and the adjustments needed more detailed how-and-why explanation with specific examples.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91789/91789-Exemplars-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Duathlon: explained the knowledge behind goal setting and, with some coherent reasoning, continuous training; trialled and adjusted both.",
-       "miss": "Not Merit because the knowledge needed more consistently coherent reasoning."
+       "miss": "Not Merit because the knowledge needed more consistently coherent reasoning.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91789/91789-Exemplars-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Triathlon: explained knowledge behind continuous training and intensity, and overload with some coherent reasoning; trialled and adjusted.",
-       "miss": "Only a low Merit: coherent reasoning was needed across overload, intensity and continuous training."
+       "miss": "Only a low Merit: coherent reasoning was needed across overload, intensity and continuous training.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91789/91789-Exemplars-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Hikoi: explained the knowledge behind a place-responsive approach and a nutrition strategy with coherent reasoning; began questioning assumptions; trialled and adjusted both.",
-       "miss": "Not Excellence because insightful reasoning by questioning and challenging assumptions was needed for both strategies."
+       "miss": "Not Excellence because insightful reasoning by questioning and challenging assumptions was needed for both strategies.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91789/91789-Exemplars-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Aquathon: explained the knowledge behind goal setting with some coherent, insightful reasoning that questioned assumptions; trialled and adjusted.",
-       "miss": "NZQA commentary notes only one strategy was exemplified, while the standard requires more than one; more coherent, insightful reasoning was needed."
+       "miss": "NZQA commentary notes only one strategy was exemplified, while the standard requires more than one; more coherent, insightful reasoning was needed.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-3/91789/91789-Exemplars-Low-Excellence.pdf"
       }
      ],
      "conditions": [],
@@ -8951,6 +10581,13 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The AI cannot confirm that the strategies were actually trialled and adjusted during the activity; the teacher must verify that trial evidence (logs, data, observation) is genuine and matches what happened.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Clearly identify the outcome and devise strategies before trialling, with training-plan evidence; the intent is to trial and adjust strategies, not evaluate the final outcome.",
+       "source": "PENZ-hosted 'Issues in moderation' (2025)",
+       "url": "https://www.penz.org.nz/file/issues-in-moderation?open=true"
+      }
+     ],
      "exemplarPath": ""
     }
    ],
@@ -8984,6 +10621,20 @@ window.MOD_DATA['3'] = {
     {
      "label": "Physics annotated exemplars (NZQA)",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/physics/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/",
+     "notes": []
+    },
+    {
+     "name": "NZ Institute of Physics (NZIP) — NZ Physics Teachers' Resource Bank",
+     "url": "https://resource-bank.nzip.org.nz/?p=1392",
+     "notes": [
+      "Public teaching resource bank organised by standard (e.g. 91168, 91170, 91171, 91523): teaching suggestions, demonstrations and videos only; no marking, moderation or grade-boundary advice was found on it (Oct 2026). Indicator only."
+     ]
     }
    ],
    "standards": [
@@ -9024,23 +10675,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (simple harmonic motion of a child in a baby bouncer): relevant data, uncertainties in mass and time, error bars and an error line, a conclusion stating the equation and comparing k with theory. Low Achieved determined the mass uncertainty but only started the graphical analysis; it needed a better time uncertainty (e.g. half the range) and more detail on how the gradient gave the equation.",
-       "miss": "Not Merit because the comparison between theory and the data relationship was not quantitative with uncertainties."
+       "grade": "High Not Achieved",
+       "text": "Baby bouncer (SHM): collected relevant data, drew mass error bars and stated the equation of the relationship.",
+       "miss": "Needed a conclusion comparing the theory with the equation or the physics quantity from the graph.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91521/91521-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: described controlling the starting point of the bounce, repeated measurements, uncertainties in mass and period, error bars and error line, and a quantitative comparison of gradient with theory including uncertainties. Low Merit did similar but needed more detail on controlling other variables such as the spring constant or pull distance.",
-       "miss": "Not Excellence because limitations of applying SHM to the bouncing child (e.g. sideways movement) were not discussed."
+       "grade": "Low Achieved",
+       "text": "Collected relevant data, determined mass uncertainty, began graphical analysis to find the equation, and attempted a comparison with theory.",
+       "miss": "For a secure Achieved: determine the time uncertainty more accurately (e.g. half the range) and describe the graph analysis in more detail.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91521/91521-EXP-Student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: discussed how well SHM applies to a bouncing child and discussed unexpected outcomes, their causes and effect on validity. A secure Excellence would also explain how other variables (external forces, spring constant) were controlled and how changing them could significantly affect the results."
+       "grade": "High Achieved",
+       "text": "Determined uncertainties in mass and time, plotted error bars and an error line, stated the equation and compared k from the graph with theory.",
+       "miss": "Needed a quantitative comparison between theory and the relationship that includes uncertainties.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91521/91521-EXP-Student4-001.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: relevant data, mass error bars and an equation of the relationship.",
-       "miss": "Not Achieved because there was no conclusion comparing the theory with the equation or quantity from the graph."
+       "grade": "Low Merit",
+       "text": "Repeated and multiple measurements, uncertainties in mass and period, best-fit line with error bars and error line, attempted quantitative comparison via gradient.",
+       "miss": "For a secure Merit: describe in more detail how other variables (spring constant, stretch distance) were controlled.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91521/91521-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Controlled bounce start point, repeated measurements, uncertainties in mass and period, error bars and error line; quantitative theory-gradient comparison with uncertainties.",
+       "miss": "Needed to discuss limits on the theory's applicability, e.g. the baby's sideways movement.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91521/91521-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Discussed how well SHM applies to the bouncing child and explained unexpected outcomes and their effect on the conclusion's validity.",
+       "miss": "For a secure Excellence: discuss more clearly how other variables (external forces, spring constant) were controlled and how changing them would affect results.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91521/91521-EXP-Student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -9131,6 +10805,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The teacher must verify that the student took part in the practical and that the raw data and uncertainties come from their own measurements; the AI can judge only the analysis and discussion.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -9168,23 +10843,46 @@ window.MOD_DATA['3'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (rollercoasters): described how energy conservation links to starting height and how gravitational force, centripetal force and weightlessness are linked. Low Achieved (speed cameras): described the Doppler effect in policing and sport, with undeveloped attempts to link frequency change to speed.",
-       "miss": "Not Merit because neither link was completely explained — energy conservation to starting height, or gravity, centripetal force and weightlessness."
+       "grade": "High Not Achieved",
+       "text": "Tsunamis: attempted to link changing wave parameters near shore, described reflection and standing waves with an attempt to connect them to the context.",
+       "miss": "Needed to explain growing amplitude near shore via energy conservation, and how reflection, refraction, diffraction and resonance cause interference.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91522/91522-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit (LASER): explained why the Bohr model accounts for stimulated emission and how excited atoms and photons amplify the effect. Low Merit (saxophone): explained how standing waves produce notes and how harmonics relate to timbre; could use the wave equation to predict effective tube length.",
-       "miss": "Not Excellence because the key physics ideas of a working LASER were not linked into a coherent picture."
+       "grade": "Low Achieved",
+       "text": "Speed cameras: described Doppler use by police and sport, attempted links to calculating speed and to moving objects' effect on reflected waves.",
+       "miss": "For a secure Achieved: explain how the frequency change gives speed, and describe the Doppler effect and reflected waves more clearly.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91522/91522-EXP-Student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (rollercoaster rider): linked energy conservation over the journey, centripetal force in a clothoid loop, minimum speed for weightlessness and forces on passengers at different points. For a secure Excellence, the centripetal force and acceleration explanation needed to be tied to the real rollercoaster's motion through the loop."
+       "grade": "High Achieved",
+       "text": "Rollercoasters: described energy conservation and starting height, and how gravitational and centripetal force relate to weightlessness.",
+       "miss": "Needed to fully explain either the energy-height link or the force links.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91522/91522-EXP-Student4-001.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved (tsunamis): attempted links between changing wave parameters and shore approach, and described reflection and standing waves.",
-       "miss": "Not Achieved because changing amplitude was not related to energy conservation and interference was not clearly described."
+       "grade": "Low Merit",
+       "text": "Saxophone: explained how standing waves produce notes and how harmonics and timbre are involved.",
+       "miss": "For a secure Merit: use the wave equation to predict the tube length needed for a particular harmonic series.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91522/91522-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "LASER: explained how the Bohr model accounts for stimulated emission and how excited atoms and emitted photons amplify the effect.",
+       "miss": "Needed a more coherent picture of the key physics ideas behind a working laser.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91522/91522-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Rollercoaster rider: linked energy conservation over the journey, centripetal force in a clothoid loop, minimum speed for weightlessness and forces on passengers in the loop.",
+       "miss": "For a secure Excellence: tie centripetal force and acceleration more explicitly to the real coaster's motion through the loop.",
+       "version": "not stated (TKI task 'Physics in the real world')",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91522/91522-EXP-Student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -9238,6 +10936,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -9270,23 +10969,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (nuclear fusion): described simple facets of fusion, began to explain how Coulombic repulsion is overcome, and used E = mc² to describe how a small mass gives a lot of energy. Low Achieved described simple facets of fusion, Coulombic repulsion and mass-energy equivalence.",
-       "miss": "Not Merit because fusion was not explained clearly with equations, diagrams or calculations (e.g. comparing fusion with other fuels)."
+       "grade": "High Not Achieved",
+       "text": "Nuclear fusion: attempted to describe simple facets of fusion.",
+       "miss": "Needed to describe fusion in more detail, or describe mass-energy equivalence using Einstein's equation.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91525/91525-EXP-student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit: explained how Coulombic repulsion is overcome and, using E = mc², how a larger mass deficit (linked to binding energy) releases more energy. Low Merit explained that high temperature overcomes Coulombic repulsion and explained mass-energy equivalence.",
-       "miss": "Not Excellence because actual values were not used to connect mass deficit, binding energy and energy released."
+       "grade": "Low Achieved",
+       "text": "Described simple facets of fusion, coulombic repulsion and mass-energy equivalence.",
+       "miss": "For a secure Achieved: describe coulombic repulsion in more detail, or explain how a small mass difference gives a large energy release.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91525/91525-EXP-student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence: connected mass deficit and binding energy to energy release with E = mc² and explained that a larger mass deficit releases more energy. For a secure Excellence, also explain why high temperatures are needed for fusion and why fusion releases more energy per gram than fission."
+       "grade": "High Achieved",
+       "text": "Described facets of fusion, began explaining how coulombic repulsion is overcome, described large energy from small fuel mass using E=mc².",
+       "miss": "Needed clearer explanation of fusion with equations or diagrams, explanation of mass-energy equivalence, or a calculated comparison with other fuels.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91525/91525-EXP-student4-001.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: attempted to describe simple facets of fusion.",
-       "miss": "Not Achieved because fusion or mass-energy equivalence was not described in enough detail."
+       "grade": "Low Merit",
+       "text": "Explained how high temperatures overcome coulombic repulsion and explained mass-energy equivalence with E=mc².",
+       "miss": "For a secure Merit: explain fusion in more detail, e.g. compare its energy with other fuels or explain how binding energy affects energy release.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91525/91525-EXP-student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Explained how coulombic repulsion is overcome in fusion and how a larger mass deficit explains greater energy release.",
+       "miss": "Needed actual values showing how mass deficit, binding energy and energy released are connected.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91525/91525-EXP-student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Linked mass deficit and binding energy to energy release via E=mc², explaining why higher mass deficit releases more energy.",
+       "miss": "For a secure Excellence: explain why high temperatures are needed, or how fusion yields more energy per gram than fission.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91525/91525-EXP-student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -9335,6 +11057,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -9369,23 +11092,46 @@ window.MOD_DATA['3'] = {
      "nmr": [],
      "exemplars": [
       {
-       "grade": "Achieved",
-       "text": "High Achieved (Large Hadron Collider): described proton acceleration, the Standard Model and the missing Higgs boson, with a limited personal position and actions using physics. Low Achieved (nuclear power): attempted to describe a reactor at Level 7, biological damage from gamma radiation and the importance of half-life, with a limited position in a New Zealand setting.",
-       "miss": "Not Merit because the physics was not fully explained (e.g. how the LHC accelerates protons) and the position rested on cost rather than physics (safety of high-energy particles)."
+       "grade": "High Not Achieved",
+       "text": "Nuclear power and waste: little explanation of key physics, pitched below the expected level; a limited position and actions without relevant physics.",
+       "miss": "Needed to describe power generation and waste using mass deficit and binding energy, and base the position on relevant physics.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91527/91527-EXP-Student6-001.pdf"
       },
       {
-       "grade": "Merit",
-       "text": "High Merit (climate): explained Earth's energy balance, calculated Earth's temperature with no and with 100% greenhouse gases, explained why greenhouse gases matter, and justified controlling albedo. Low Merit (nuclear power): explained generation (at Level 7), linked it to waste storage and radiation effects, and justified the response with physics.",
-       "miss": "Not Excellence because the physics was not related clearly enough to the issue through a recommended course of action to the target audience (the Climate Change Minister)."
+       "grade": "Low Achieved",
+       "text": "Nuclear reactors: attempted reactor description (below expected level), gamma damage, half-life and waste; limited NZ-set position based on benefits and dangers.",
+       "miss": "For a secure Achieved: describe what nuclear waste is and how produced, explain mass deficit in fission energy, link biological damage to radioactive properties.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91527/91527-EXP-Student5-001.pdf"
       },
       {
-       "grade": "Excellence",
-       "text": "Low Excellence (nuclear power): linked binding energy per nucleon to fission and energy production, linked long half-lives to medical effects and spent-fuel storage, and justified a position by weighing nuclear against fossil fuels. For a secure Excellence: analyse further (minimum fuel needed and its relation to waste) and prioritise information by evaluating sources for validity and bias and how groups such as power companies and consumers use science."
+       "grade": "High Achieved",
+       "text": "Large Hadron Collider: described proton acceleration, the Standard Model and missing Higgs boson; limited position and actions using physics.",
+       "miss": "Needed to explain acceleration via electromagnetic induction and base the position on safety of high-energy particles rather than cost.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91527/91527-EXP-Student4-001.pdf"
       },
       {
-       "grade": "Not Achieved",
-       "text": "High Not Achieved: little explanation of the key physics, descriptions at Level 6, a limited position with no physics.",
-       "miss": "Not Achieved because the physics (mass deficit, binding energy, waste) was not described and the position was not based on physics."
+       "grade": "Low Merit",
+       "text": "Nuclear power: explained generation (below expected level), linked to waste storage, described biological effects; justified a personal response using physics.",
+       "miss": "For a secure Merit: explain nuclear waste and its production, meltdown, mass deficit in fission energy, and energy per gram vs renewables.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91527/91527-EXP-Student3-001.pdf"
+      },
+      {
+       "grade": "High Merit",
+       "text": "Climate change: explained energy balance, calculated Earth's temperature with and without greenhouse gases, and justified controlling the albedo effect.",
+       "miss": "Needed to recommend a specific course of action to the target audience (the NZ Climate Change Minister).",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91527/91527-EXP-Student2-001.pdf"
+      },
+      {
+       "grade": "Low Excellence",
+       "text": "Nuclear power: linked binding energy per nucleon to fission, long half-lives to medical hazards and storage; strong position comparing nuclear and fossil fuels.",
+       "miss": "For a secure Excellence: analyse minimum fuel for generation and its link to waste, and prioritise sources by validity and bias.",
+       "version": "not stated",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physics/91527/91527-EXP-Student1-001.pdf"
       }
      ],
      "conditions": [],
@@ -9455,6 +11201,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -9492,6 +11239,15 @@ window.MOD_DATA['3'] = {
      "url": "https://ncea.tki.org.nz/Resources-for-internally-assessed-achievement-standards/Social-sciences/Psychology/Level-3-Psychology"
     }
    ],
+   "associations": [
+    {
+     "name": "New Zealand Association of Psychology Teachers (NZAPT)",
+     "url": "https://tda.org.nz/nex/new-zealand-association-of-psychology-teachers",
+     "notes": [
+      "No publicly accessible marking or moderation guidance found (October 2026); NZAPT resources appear to be member or network based. Use NZQA exemplars, clarifications and NMR."
+     ]
+    }
+   ],
    "standards": [
     {
      "code": "91872",
@@ -9523,16 +11279,23 @@ window.MOD_DATA['3'] = {
       {
        "grade": "Achieved",
        "text": "Biological and sociocultural explanations of aggression: methodological and theoretical differences compared, with a basic account of interaction — an MAOA gene predisposition (neurotransmitters, emotional regulation) raises vulnerability and a violent social environment reinforces the behaviour.",
-       "miss": "Not Merit because the interaction needed to be explained more explicitly: the sociocultural environment described in more detail (e.g. whether twins were raised together, family microenvironments), the specific environments that interact with the MAOA gene identified, and these linked clearly to sociocultural theory or research."
+       "miss": "Not Merit because the interaction needed to be explained more explicitly: the sociocultural environment described in more detail (e.g. whether twins were raised together, family microenvironments), the specific environments that interact with the MAOA gene identified, and these linked clearly to sociocultural theory or research.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Psychology/91872/91872-EXP-Ach.pdf"
       },
       {
        "grade": "Merit",
        "text": "Critiques the interaction using published theories — the General Aggression Model (Anderson) and the Catalyst Model (Ferguson) — recognising that the GAM was built to overcome single-factor explanations, explaining how environmental strain acts on an existing biological predisposition, weighing the relative contributions, and identifying ethical concerns such as MAOA screening.",
-       "miss": "Not Excellence because it needed to critique the evidence and theory with explicit reference to the behavioural approach and/or evaluate the strengths of an interactionist explanation, connect the ethical issues to socially sensitive research, and explicitly discuss the effects on society."
+       "miss": "Not Excellence because it needed to critique the evidence and theory with explicit reference to the behavioural approach and/or evaluate the strengths of an interactionist explanation, connect the ethical issues to socially sensitive research, and explicitly discuss the effects on society.",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Psychology/91872/91872-EXP-Mer.pdf"
       },
       {
        "grade": "Excellence",
-       "text": "Argues that interaction between the approaches is limited because they rest on contrasting objective and subjective perspectives; uses Meehl's diathesis-stress model to show how genetic vulnerability and environmental stressors interact in schizophrenia; concludes the approaches work together in practice but stay conceptually distinct; extends to society through treatment and relapse reduction (Falloon; Pederson) where combining biological and psychodynamic/family therapy improves recovery. NZQA notes the detailed critique of the DEGREE of interaction and clear evaluation of societal impact."
+       "text": "Argues that interaction between the approaches is limited because they rest on contrasting objective and subjective perspectives; uses Meehl's diathesis-stress model to show how genetic vulnerability and environmental stressors interact in schizophrenia; concludes the approaches work together in practice but stay conceptually distinct; extends to society through treatment and relapse reduction (Falloon; Pederson) where combining biological and psychodynamic/family therapy improves recovery. NZQA notes the detailed critique of the DEGREE of interaction and clear evaluation of societal impact.",
+       "miss": "",
+       "version": "not stated on NZQA exemplar page",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Psychology/91872/91872-EXP-Exc.pdf"
       }
      ],
      "conditions": [
@@ -9614,6 +11377,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -9731,6 +11495,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -9886,6 +11651,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The teacher must verify that the research received ethical approval before data collection and that the data were collected by the student; neither can be confirmed from the written report.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     },
     {
@@ -9994,6 +11760,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -10025,6 +11792,30 @@ window.MOD_DATA['3'] = {
     {
      "label": "Level 3 Conditions of Assessment, 2012 copy (CensusAtSchool)",
      "url": "https://new.censusatschool.org.nz/wp-content/uploads/2012/08/3.10-Conditions-of-assessment.pdf"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ Association of Mathematics Teachers (NZAMT)",
+     "url": "https://www.nzamt.org.nz/",
+     "notes": [
+      "NZAMT runs Networks of Expertise (NEX) support for teachers implementing the reviewed NCEA standards (tda.org.nz). No publicly accessible NZAMT marking or moderation guidance was found; the NZAMT site could not be reached in this pass."
+     ]
+    },
+    {
+     "name": "Auckland Mathematical Association (AMA, NZAMT regional association)",
+     "url": "https://www.aucklandmaths.org.nz/",
+     "notes": [
+      "Public news posts relay NCEA change updates, Level 1 internal assessment resources from the Ministry and NZQA contract roles (markers, moderators); no standard-specific marking advice found."
+     ]
+    },
+    {
+     "name": "CensusAtSchool NZ / NZ Statistical Association Education Committee",
+     "url": "https://new.censusatschool.org.nz/nzsa/",
+     "notes": [
+      "Hosts NZSA Education Committee papers on NCEA statistics assessment (2013–2018), including 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014) and 'Issues in Level 2 NCEA AS 91264' (2015). Discussion papers, not NZQA-endorsed.",
+      "Michelle Dalrymple's sampling-variation resource (updated 2024) sets out the inference progression 91944 → 91264 → 91582 with teaching 'watch-fors'; the linked progressions document was not read."
+     ]
     }
    ],
    "standards": [
@@ -10067,33 +11858,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Food for thought'. Selected a variable, used appropriate displays, found a model and described the trend in context.",
-       "miss": "Needed the seasonal pattern, dates when relating the trend to context, and research before choosing the variable."
+       "text": "TKI 'Food for thought': appropriate variable, display and model; trend described in context.",
+       "miss": "Needed the seasonal pattern identified, trend dates clearly related to context, and context researched before selecting the variable.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91580/91580-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "TKI task 'Polar ice'. All stages of the cycle completed.",
-       "miss": "For a secure Achieved, better grasp of the context (e.g. describing the sea-ice decrease as an average effect) and evidence of research before choosing the variable."
+       "text": "TKI 'Polar ice': appropriate variable and displays, trend and seasonal variation related to context, model found, forecast made, conclusion given.",
+       "miss": "For a more secure Achieved: better understanding of context (decrease as an 'average' effect) and research before selecting the variable.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91580/91580-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "'Food for thought'. Each stage completed: research, variable, displays, features, model, forecast, conclusion.",
-       "miss": "Not Merit: more evidence linking findings to context and displays, especially on forecast accuracy; the forecast needed to refer to money spent, not number of sales."
+       "text": "'Food for thought': some research, software displays and model, trend and seasonal pattern described, decreasing ramp 2008–2009 identified, forecast and conclusion.",
+       "miss": "To reach Merit: link findings to context (e.g. forecast accuracy) and relate the forecast to money spent, not number of sales.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91580/91580-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Some relevant research, changes in the smoothed data identified, seasonal pattern accurately described, forecast in context.",
-       "miss": "For a secure Merit, develop comment on forecast accuracy (including effect of recent changes) and link the conclusion to the purpose."
+       "text": "'Food for thought': research related to purpose; smoothed-data change linked to the graph; seasonal pattern described in context; forecast in context, rounded, accuracy commented on.",
+       "miss": "For a more secure Merit: develop the comment on forecast accuracy and link the conclusion back to the purpose.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91580/91580-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "'Polar ice'. Analysis linked to context with data evidence for trend, seasonality, model fit and forecast reliability; conclusion tied to purpose.",
-       "miss": "Not Excellence: a more detailed conclusion and clearer use of research evidence were needed."
+       "text": "'Polar ice': research-based purpose; evidence supports statements on trend, seasonal variation, model appropriateness and forecast reliability; conclusion linked to context and purpose.",
+       "miss": "To reach Excellence: more detailed summary in the conclusion and clearer integration of statistical and contextual knowledge from research.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91580/91580-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "'Food for thought'. Clear purpose from research; integrated contextual knowledge (population, takeaway sales); evaluated the model and seasonal effects; compared actual and predicted values.",
-       "miss": "For a secure Excellence, explain unusual residuals with more contextual links and interpret the prediction intervals."
+       "text": "'Food for thought': research set a clear purpose; population and takeaway sales considered as variables; model appropriateness and seasonal-effect reliability discussed; actual vs predicted values and prediction intervals compared.",
+       "miss": "For a more secure Excellence: develop comments about the model; interpreting the prediction intervals would show deeper understanding.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91580/91580-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -10181,6 +11984,18 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Software output (graphs, models, bootstrap or re-randomisation results) cannot be re-run from the document, so the teacher should check that statistics and displays quoted match the data set and the student's own software output; handwritten parts photographed may be misread.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Background research should give students an overview of the context, not expertise; informal referencing (source list, footnotes, copies) is acceptable if it lets the assessor check the research.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      },
+      {
+       "text": "Authenticity suggestions: declarations, interviewing random students, in-class milestones and benchmark tasks. A same-year resit needs a new data set, so two assessments are needed per standard offered a resit.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -10225,33 +12040,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Sport science'. Five components: research-informed question, displays, features, model, prediction.",
-       "miss": "Needed to describe strength via scatter about the regression line in context, and a conclusion."
+       "text": "TKI 'Sport science': appropriate question, displays, features, model and prediction; no conclusion.",
+       "miss": "Needed to describe the strength of the relationship and provide a conclusion.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "All seven components shown, with limited depth.",
-       "miss": "For a secure Achieved, the question needed to be informed by research on a possible relationship and features related more to context."
+       "text": "Question, displays, features, model, relationship described in context, prediction and conclusion.",
+       "miss": "For a more secure Achieved: the posed question needs to be informed by contextual research.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "All seven components: research-informed question, displays, features, model, relationship described in context, prediction, conclusion.",
-       "miss": "Not Merit: more contextual references to support statements and evidence that research informed the conclusion."
+       "text": "'Sport science': research-informed question, displays, features, model, relationship in context, prediction and conclusion.",
+       "miss": "To reach Merit: provide more contextual references.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Research-informed question; nature and strength in context; features with some display evidence; appropriate model, prediction and some discussion of its accuracy.",
-       "miss": "For a secure Merit, discuss other features (e.g. unusual values), more evidence from displays and data, and a stronger conclusion."
+       "text": "Research-informed question; nature and strength described in context; features partly supported by displays; model used for predictions with some discussion of accuracy.",
+       "miss": "For a more secure Merit: discuss other features of the displays.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Feature descriptions justified with data and display evidence; residuals used to comment on linear model appropriateness; prediction accuracy justified; conclusion linked to context.",
-       "miss": "Not Excellence: needed to integrate contextual and statistical knowledge, e.g. whether strength, direction and other features matched their research."
+       "text": "Features justified with data and displays; residuals used to judge the linear model; prediction accuracy justified; conclusion linked to context.",
+       "miss": "To reach Excellence: support aspects of the investigation with comments (commentary truncated on NZQA page).",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Research integrated with statistics when discussing features and model adequacy; another variable considered by re-categorising sports (ball / non-ball).",
-       "miss": "For a secure Excellence, reflect more deeply, e.g. link visual inspection of the scatter graphs to model adequacy, or findings to further research."
+       "text": "Research and statistical knowledge integrated in discussing features and model adequacy; sports re-categorised as ball and no-ball; prediction and conclusion.",
+       "miss": "For a more secure Excellence: reflect on the process more deeply.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -10344,6 +12171,23 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Software output (graphs, models, bootstrap or re-randomisation results) cannot be re-run from the document, so the teacher should check that statistics and displays quoted match the data set and the student's own software output; handwritten parts photographed may be misread.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Background research should give students an overview of the context, not expertise; informal referencing (source list, footnotes, copies) is acceptable if it lets the assessor check the research.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      },
+      {
+       "text": "Authenticity suggestions: declarations, interviewing random students, in-class milestones and benchmark tasks. A same-year resit needs a new data set, so two assessments are needed per standard offered a resit.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      },
+      {
+       "text": "Datasets and contexts can be rotated between 91581 and 91582 from year to year to reduce task sharing.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -10383,33 +12227,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Elite athletes'. Research, comparison question, displays and statistics, sample distributions and sampling variability discussed.",
-       "miss": "No appropriate formal inference: needed a bootstrap interval estimate for the difference in population medians and a conclusion stating the direction of the difference."
+       "text": "TKI 'Elite athletes': researched context, comparison question, displays and statistics, sample distributions and sampling variability discussed; no appropriate formal inference.",
+       "miss": "Needed an appropriate formal inference: a bootstrap interval for the difference in population medians and a conclusion stating the direction of difference.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91582/91582-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "TKI task 'New Zealand crash statistics'. All Achieved components met.",
-       "miss": "For a secure Achieved, the conclusion should refer to the actual population and the research–context link in the question should be clearer."
+       "text": "TKI 'New Zealand crash statistics': all components including sampling variability, an appropriate formal inference and a conclusion.",
+       "miss": "For a more secure Achieved: ensure the conclusion refers to the actual population.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91582/91582-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "All components, some comments linked to statistics and visuals, appropriate inference and conclusion.",
-       "miss": "Not Merit: analysis, inference and conclusion needed clearer links to context and the actual population; variability of estimates; reasons for variable choice."
+       "text": "Researched comparison question; displays and statistics; some comments linked to statistics and displays; formal inference, conclusion and sampling-variability comment.",
+       "miss": "To reach Merit: link comments in analysis, inference and conclusion; discuss variability of estimates; explain variable choice.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91582/91582-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Fares/survival context: researched, comparison question, evidence in distribution discussion, supported inference; links to context/population only partly evident.",
-       "miss": "For a secure Merit, link the question more clearly to research and strengthen context/population links."
+       "text": "Supported statements about distributions, partly linked to context; supported formal inference; conclusions linked to the question; variability of estimates discussed.",
+       "miss": "For a more secure Merit: link the investigative question more clearly to research.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91582/91582-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Distribution comments supported by evidence and linked to context/population; supported inference; sampling variability including variability of estimates.",
-       "miss": "Not Excellence: deeper integration (is the distribution discussion consistent with the research?) and other explanations for survival beyond fare."
+       "text": "Fare prices and survival context: statements supported with evidence and linked to context and population; supported formal inference; variability of estimates discussed.",
+       "miss": "To reach Excellence: integrate statistical and contextual knowledge in greater depth.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91582/91582-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Integrated statistical and contextual knowledge; discussed centres, spread, shape and middle 50%; reflected on the process.",
-       "miss": "For a secure Excellence, integrate research more fully into the inference and conclusion, and consider other explanations (e.g. another variable such as number of bedrooms)."
+       "text": "Fare prices and survival: statistical and contextual knowledge integrated when discussing spread, shape and middle 50%; reflected on the process.",
+       "miss": "For a more secure Excellence: more depth in the inference/conclusion discussion.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91582/91582-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -10498,6 +12354,23 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Software output (graphs, models, bootstrap or re-randomisation results) cannot be re-run from the document, so the teacher should check that statistics and displays quoted match the data set and the student's own software output; handwritten parts photographed may be misread.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Background research should give students an overview of the context, not expertise; informal referencing (source list, footnotes, copies) is acceptable if it lets the assessor check the research.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      },
+      {
+       "text": "Authenticity suggestions: declarations, interviewing random students, in-class milestones and benchmark tasks. A same-year resit needs a new data set, so two assessments are needed per standard offered a resit.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      },
+      {
+       "text": "The same context can serve 2.9 (91264) and 3.10 (91582) in one year with data adapted per level, but marking 'would have to be done carefully' to keep levels distinct.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -10535,33 +12408,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "Task 'Estimation'. All stages completed, including displays and summary statistics.",
-       "miss": "The inference was not fully correct; also needed clearer account of how the experiment was conducted and evidence of research when posing the question."
+       "text": "'Estimation': covered each design component and used displays and summary statistics, but the inference was incorrect and the plan unclear.",
+       "miss": "Needed to make a correct inference.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91583/91583-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "Task 'Tricky questions'. Each stage completed with findings in a conclusion.",
-       "miss": "For a secure Achieved, more evidence of research behind the question, more detail in the plan (e.g. how surveys were distributed) and a clearer answer to the question."
+       "text": "'Tricky questions': all design components (units, variables, allocation, data collection, other variation) and an appropriate formal inference with conclusion.",
+       "miss": "For a more secure Achieved: show more research evidence when posing the investigative question.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91583/91583-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Every stage: question with some research, units, treatment and response variables, allocation, data collection, other sources of variation, formal inference supported by results.",
-       "miss": "Not Merit: plan needed more detail (treatment variable, random allocation method), design and findings linked to context, strength of evidence interpreted, and who the results apply to."
+       "text": "'Tricky questions': question with some research; design covered units, variables, allocation, data collection and other variation; supported formal inference.",
+       "miss": "To reach Merit: link their prediction of what will happen (commentary truncated on NZQA page).",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91583/91583-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Question and design linked to context; design considerations and variation management explained; inference supported by evidence.",
-       "miss": "For a secure Merit, justify planning decisions more, describe variation management in more detail, identify uncontrolled variables, and strengthen links to research."
+       "text": "Question and design linked to context; design and variation management explained; formal inference supported by experimental evidence.",
+       "miss": "For a more secure Merit: strengthen justification of decisions made in planning the experiment.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91583/91583-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Task 'Estimation'. Question and design linked to context, key considerations and variation explained, justified inference, conclusion linked to context.",
-       "miss": "Not Excellence: research needed in both introduction and conclusion, and deeper examination of other variables."
+       "text": "'Estimation': question and design linked to context; design and variation considerations explained; justified formal inference linked to context.",
+       "miss": "To reach Excellence: integrate the information found in their research.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91583/91583-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "'Tricky questions' (anchoring). Research shaped question and design; explained how sources of variation were handled; causal inference; other variables considered; reflected on the process.",
-       "miss": "For a secure Excellence, reflect on how the anchor compared with the true value and relate results to the cited studies."
+       "text": "'Tricky questions': research integrated into question and design; sources of variation discussed; causal formal inference; other variables considered; reflected on increasing the anchor's value.",
+       "miss": "For a more secure Excellence: reflect on the process more fully.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91583/91583-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -10650,6 +12535,18 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "The conduct of the experiment cannot be judged from the report, so the teacher must verify it was carried out as described and that the data are the student's own; software output (graphs, models, bootstrap or re-randomisation results) cannot be re-run from the document, so the teacher should check that statistics and displays quoted match the data set and the student's own software output; handwritten parts photographed may be misread.",
      "cohortNote": "",
+     "associationNotes": [
+      {
+       "text": "Background research should give students an overview of the context, not expertise; informal referencing (source list, footnotes, copies) is acceptable if it lets the assessor check the research.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      },
+      {
+       "text": "Authenticity suggestions: declarations, interviewing random students, in-class milestones and benchmark tasks. A same-year resit needs a new data set, so two assessments are needed per standard offered a resit.",
+       "source": "CensusAtSchool NZ / NZSA Education Committee, 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014, updated 2026)",
+       "url": "https://new.censusatschool.org.nz/resource/issues-in-level-3-ncea-statistics-internal-assessment/"
+      }
+     ],
      "exemplarPath": ""
     },
     {
@@ -10694,33 +12591,45 @@ window.MOD_DATA['3'] = {
      "exemplars": [
       {
        "grade": "High Not Achieved",
-       "text": "TKI task 'Roger's rabbits'. Formed an equation for each vitamin.",
-       "miss": "The system needed to be solved correctly."
+       "text": "TKI 'Roger's rabbits': formed the equation for each vitamin.",
+       "miss": "Needed to correctly solve the system of equations.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91587/91587-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
-       "text": "Formed an equation for each vitamin and solved the system.",
-       "miss": "For a secure Achieved, state what each variable represents and interpret the solution in context."
+       "text": "Formed the equations for each vitamin and solved the system.",
+       "miss": "For a more secure Achieved: state what each variable represents and interpret the solution in context.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91587/91587-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
-       "text": "Formed and solved the system and made an appropriate recommendation about the amount of each food.",
-       "miss": "Not Merit: needed to consider how the amounts change if the Vitamin A in Zany changes to 6 μg."
+       "text": "Formed and solved a system of simultaneous equations and made an appropriate recommendation on the amount of each food.",
+       "miss": "To reach Merit: consider how the amounts change if the micrograms of vitamin A in Zany change.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91587/91587-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
-       "text": "Found the amounts of each food and identified that the 6 μg change gives multiple solutions.",
-       "miss": "For a secure Merit, interpret the multiple solutions in context and give a possible solution that fits."
+       "text": "Found the amount of each food; identified that 6 μg of vitamin A in Zany gives multiple solutions.",
+       "miss": "For a more secure Merit: interpret the multiple solutions in context and give a possible solution for the new situation.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91587/91587-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
-       "text": "Showed algebraically the system is consistent and that the change gives no unique solution; gave a possible solution and recommendation.",
-       "miss": "Not Excellence: the general solution for the 6 μg case was not found."
+       "text": "Showed algebraically the system is consistent and increasing vitamin A in Zany gives no unique solution; found a possible 6 μg solution and recommended to Roger.",
+       "miss": "To reach Excellence: generalise the amount of each food required if Zany contains 6 μg of vitamin A.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91587/91587-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Found a general solution for the 6 μg case, an appropriate range for Zany, two possible solutions, and considered other amounts.",
-       "miss": "For a secure Excellence, communicate accurately how 6 μg relates to the general solution and develop discussion of the dependency of the equations."
+       "text": "Found a general solution for 6 μg; identified a range of Zany amounts with two possible solutions; considered amounts other than 5 and 6 μg.",
+       "miss": "For a more secure Excellence: accurately communicate how 6 μg in Zany relates to the general solution.",
+       "version": "",
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91587/91587-Exemplar-Low-Excellence.pdf"
       }
      ],
      "conditions": [
@@ -10829,6 +12738,7 @@ window.MOD_DATA['3'] = {
      ],
      "aiLimits": "Handwritten working photographed or scanned may be misread (signs, indices, subscripts, fractions, diagram labels), so the teacher should check any flagged line against the original script before confirming a grade.",
      "cohortNote": "",
+     "associationNotes": [],
      "exemplarPath": ""
     }
    ],
@@ -10841,6 +12751,7 @@ window.MOD_DATA['3'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "standards": [],
    "excluded": [
     {
@@ -10857,6 +12768,7 @@ window.MOD_DATA['3'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "standards": [],
    "excluded": [
     {

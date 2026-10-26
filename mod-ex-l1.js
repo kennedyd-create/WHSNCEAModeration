@@ -135,6 +135,31 @@ window.MOD_EX['1'] = {
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
     }
    ],
+   "associations": [
+    {
+     "name": "New Zealand Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/resources/resources-by-nzase/",
+     "notes": [
+      "Publishes the Science NCEA Level 1 Subject Learning Outcomes companion (public PDF) and a Level 1 resources Google Drive (Feb 2025); content of the Drive was not reviewed.",
+      "Term 1 2025 PLD 'Unpacking moderation, writing and critiquing assessment tasks' slides are linked from nzase.org.nz; content not summarised publicly.",
+      "No public standard-specific marking advice for these standards was found; NZQA exemplars and clarifications remain the authority."
+     ]
+    },
+    {
+     "name": "Biology Educators of Aotearoa New Zealand (BEANZ)",
+     "url": "https://www.tda.org.nz/nex/biology-educators-of-aotearoa-new-zealand",
+     "notes": [
+      "Biology teachers' association; no public guidance specific to 92020 or 92022 was found."
+     ]
+    },
+    {
+     "name": "Secondary Chemistry Educators of New Zealand (SCENZ, part of NZIC)",
+     "url": "https://nzic.org.nz/scenz",
+     "notes": [
+      "Chemistry teachers' association; no public guidance specific to 92021 or 92023 was found; resources are member-only."
+     ]
+    }
+   ],
    "derivedGradeNotes": [
     "2026 Rules, Schedule 2 cl. 3(2): derived grades are available only where NZQA marks the work, which covers external examinations. 92022 and 92023 are both end-of-year online digital examinations in 2026 (2026 Assessment Specifications).",
     "2026 Rules, Schedule 2 cl. 3(3): the exclusions are NZ Scholarship, standards NZQA has published as ineligible, the dedicated co-requisite literacy and numeracy standards (32403, 32405, 32406, 32412, 32413, 32415), and school-marked portfolio work verified by NZQA. There is no Level 1 exclusion.",
@@ -233,7 +258,50 @@ window.MOD_EX['1'] = {
       "2025, advice (implied): apply knowledge to the stimulus rather than copying it, attempt all three questions, use precise vocabulary and CF-relevant examples, and do not assume genotypes the pedigree cannot confirm.",
       "2024 (report format): strong Part A with weak Part B application capped many candidates at Achievement or Merit. Not Achieved included inaccurate Punnett squares, wrong HIV genotype or phenotype statements, and paraphrasing the Part B text. Excellence linked the unfamiliar context to biological concepts and discussed health or medical implications of the CCR5 allele and how it was traced."
      ],
-     "exemplars": [],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 4: A4; 2023 RAS)",
+       "text": "Kākāpō/cystic fibrosis paper: explained phenotype versus genotype, argued variation helps populations survive disease, described sexual reproduction and mutation; part (b) said genetic data could guide kākāpō breeding, noting Richard Henry's different genes.",
+       "miss": "",
+       "version": "2023 paper labelled 'RAS' (Level 1 pilot), whole-paper score 0–8; marked against the earlier version of 92022, not Version 4",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92022-exp-2023-achievement.pdf"
+      },
+      {
+       "grade": "Achieved (total 10: A4, A3, A3; 2025)",
+       "text": "Q1 described phenotype vs genotype and heritable vs non-heritable variation from the stimulus and defined chromosomes, genes, alleles, DNA. Q2 described confirming pedigree genotypes and a purpose of tracking cystic fibrosis in individual 4. Q3 described meiosis and sexual reproduction maintaining the recessive allele.",
+       "miss": "",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92022-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (total 6: M6; 2023 RAS)",
+       "text": "Defined sexual reproduction, mutation, genotype and phenotype and explained how each contributes to variation (eye-colour genotypes), and how variation aids adaptation (COVID-19 example); explained using relatedness data to pair less related kākāpō and reduce inbreeding.",
+       "miss": "",
+       "version": "2023 RAS paper, whole-paper score; earlier version of 92022, not Version 4",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92022-exp-2023-merit.pdf"
+      },
+      {
+       "grade": "Merit (total 17: M6, M6, M5; 2025)",
+       "text": "Q1 explained phenotype/genotype and heritable/non-heritable variation and how chromosomes, genes, alleles and DNA relate. Q2 explained in depth confirming pedigree genotypes and tracking cystic fibrosis in individual 4. Q3 explained how meiosis and sexual reproduction let the recessive allele persist.",
+       "miss": "",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92022-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (total 8: E8; 2023 RAS)",
+       "text": "Explained how a mutation is inherited using sickle cell anaemia and Punnett squares, evaluated the usefulness of the genetic information, and evaluated kākāpō genetic tracking by linking its conservation purpose to findings about genetic differences between birds.",
+       "miss": "",
+       "version": "2023 RAS paper, whole-paper score; earlier version of 92022, not Version 4",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92022-exp-2023-excellence.pdf"
+      },
+      {
+       "grade": "Excellence (total 22: E8, E7, E7; 2025)",
+       "text": "Q1 clearly distinguished the variation types and related chromosomes, genes, alleles and DNA. Q2 gave a comprehensive account of confirming pedigree genotypes and tracked cystic fibrosis across generations. Q3 thoroughly explained meiosis, sexual reproduction and non-random mating maintaining the recessive allele.",
+       "miss": "",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92022-exp-2025-excellence.pdf"
+      }
+     ],
      "conditions": [
       "End-of-year external exam, online digital (2026). Three questions, paragraph answers; contexts may be unfamiliar and resource material is supplied in the exam.",
       "Pedigree charts and Punnett squares are part of the evidence. In a paper practice exam these are handwritten or drawn and must be read carefully.",
@@ -306,10 +374,12 @@ window.MOD_EX['1'] = {
       "Confusing non-random mating with inbreeding, and mutation in a somatic cell with one in a gamete.",
       "Restating the stimulus instead of applying genetics to it.",
       "Examples off-context (not about the characteristic in the paper). Achievement in Question One allowed this in 2025, but Merit and Excellence need the context.",
-      "Add the three question codes; do not judge the paper as a whole. The 2025 Achievement cut is 8, not 7."
+      "Add the three question codes; do not judge the paper as a whole. The 2025 Achievement cut is 8, not 7.",
+      "The 2023 exemplars come from the RAS pilot paper (single 0–8 score, earlier version of 92022); use the 2025 scripts for current per-question marking."
      ],
      "aiLimits": "Pedigree charts, Punnett squares, diagrams, calculations and handwritten working are read from scans or screenshots, and the AI may misread symbols such as F and f, shading on pedigrees, or grid entries. The teacher must check every genotype, Punnett square and pedigree reading against the student's script and the practice paper's own figures.",
-     "researchNotes": "Criteria and EN1–EN5 from as92022 (Version 4, published December 2024; status date September 2024). 2026 and 2025 specifications read via fetch. No 2026 paper or schedule exists yet. The 2025 per-question code descriptors and cut scores (0–7, 8–12, 13–18, 19–24) were quoted from the schedule. 2024 was an over-time report (2024 specification lists it as Version 3), so there is no 2024 exam paper. No annotated exemplars were found for 92022. The exam date and time allowance were not confirmed. Literacy co-requisite status was not checked.",
+     "researchNotes": "Criteria and EN1–EN5 from as92022 (Version 4, published December 2024; status date September 2024). 2026 and 2025 specifications read via fetch. No 2026 paper or schedule exists yet. The 2025 per-question code descriptors and cut scores (0–7, 8–12, 13–18, 19–24) were quoted from the schedule. 2024 was an over-time report (2024 specification lists it as Version 3), so there is no 2024 exam paper. No annotated exemplars were found for 92022. The exam date and time allowance were not confirmed. Literacy co-requisite status was not checked. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2023, 2025); no public standard-specific association material found (subject-level notes only).",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -410,7 +480,50 @@ window.MOD_EX['1'] = {
       "2024, Excellence: identified the material type accurately and justified the use by linking properties to BOTH structure and bonding.",
       "2024, Not Achieved and commentary: did not describe properties related to the use, missed questions, misidentified the material type, or described particle arrangement or forces wrongly. All three questions rested on covalent bonding, which candidates understood less well; the report warns that exams sample the whole standard."
      ],
-     "exemplars": [],
+     "exemplars": [
+      {
+       "grade": "Achieved (total 10: A3, A4, A3; 2024)",
+       "text": "Q1 named conductivity and melting point for the circuit and delocalised electrons, without identifying the material's structure and bonding. Q2 linked CO2's poor conductivity to no delocalised electrons. Q3 named malleability and insolubility of muka for the kupenga.",
+       "miss": "Q1: the commentary notes the type of material and its structure and bonding were not identified.",
+       "version": "Version 3; 2024 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92023-exp-2024-achievement.pdf"
+      },
+      {
+       "grade": "Achieved (total 12: A4, A4, A4; 2025)",
+       "text": "Kayak and paddle context: Q1 defined a polymer, strong covalent bonds, branched chains giving low density, and identified a covalent network. Q2 identified a metallic solid and explained alloy malleability. Q3 identified molecular and ionic substances, salt solubility and density of seawater.",
+       "miss": "",
+       "version": "Version 3; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92023-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (total 15: M6, M5, A4; 2024)",
+       "text": "Q1 linked graphite's conductivity to delocalised electrons and softness to weak forces between layers. Q2 linked CO2's poor conductivity to covalent molecules with no delocalised electrons or ions. Q3 only identified muka's malleability and insolubility and why the net must stay strong.",
+       "miss": "",
+       "version": "Version 3; 2024 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92023-exp-2024-merit.pdf"
+      },
+      {
+       "grade": "Merit (total 14: A4, M5, M5; 2025)",
+       "text": "Q1 identified the covalent bond and described the covalent network. Q2 linked non-directional metallic bonding to sliding atoms and explained the alloy's lower malleability from different-sized atoms. Q3 explained ionic structure and shattering from like-charged ions repelling under force.",
+       "miss": "",
+       "version": "Version 3; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92023-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (total 24: E8, E8, E8; 2024)",
+       "text": "Q1 explained graphite's network, conductivity and sliding layers for drawing a circuit. Q2 explained CO2's poor conductivity and its density displacing oxygen to stop combustion. Q3 explained muka's polymer structure, insolubility and malleability for weaving a kupenga.",
+       "miss": "",
+       "version": "Version 3; 2024 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92023-exp-2024-excellence.pdf"
+      },
+      {
+       "grade": "Excellence (total 23: E8, E8, E7; 2025)",
+       "text": "Q1 linked branched chains to low density and the covalent network to withstanding weight. Q2 explained the shapeable paddle from non-directional bonding and compared the alloy with aluminium and steel. Q3 compared ion–ion and ion–water attractions to explain salt dissolving.",
+       "miss": "",
+       "version": "Version 3; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92023-exp-2025-excellence.pdf"
+      }
+     ],
      "conditions": [
       "End-of-year external exam, online digital (2026). Three questions, paragraph answers, contexts may be unfamiliar.",
       "A resource booklet with a periodic table and (2026) an example list of physical properties is supplied. A practice exam should supply the same.",
@@ -476,7 +589,8 @@ window.MOD_EX['1'] = {
       "A practice resource booklet without the 2026 example list of physical properties does not fully match the 2026 conditions."
      ],
      "aiLimits": "Particle diagrams, structural formulae, data-table readings, any calculations and handwritten working are read from scans or screenshots and may be misread (e.g. charges on ions or chain branching). The teacher must check diagrams, ticked material types and any density comparisons against the script and the practice paper's own figures and tables.",
-     "researchNotes": "Criteria and EN1–EN3 verbatim from as92023 (Version 3); EN4 summarised. 2026 and 2025 specifications read via fetch. The 2025 per-question codes and cut scores (0–6, 7–12, 13–18, 19–24) are quoted from the schedule; the fetch tool reported the layout was hard to parse, so the mapping of evidence-point counts to codes follows the 92022 schedule pattern. The 2025 Assessment Report for 92023 is in the combined Level 1 Chemistry and Biology report (linked under 92022's report URL). The 2024 schedule and report were summarised; the 2024 exam paper itself was not read. No annotated exemplars were found. The exam date and time allowance were not confirmed.",
+     "researchNotes": "Criteria and EN1–EN3 verbatim from as92023 (Version 3); EN4 summarised. 2026 and 2025 specifications read via fetch. The 2025 per-question codes and cut scores (0–6, 7–12, 13–18, 19–24) are quoted from the schedule; the fetch tool reported the layout was hard to parse, so the mapping of evidence-point counts to codes follows the 92022 schedule pattern. The 2025 Assessment Report for 92023 is in the combined Level 1 Chemistry and Biology report (linked under 92022's report URL). The 2024 schedule and report were summarised; the 2024 exam paper itself was not read. No annotated exemplars were found. The exam date and time allowance were not confirmed. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only).",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -546,6 +660,15 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA national secondary examinations timetable 2026",
      "url": "https://www2.nzqa.govt.nz/ncea/exam-timetable-and-key-assessment-dates/exam-timetable/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Commerce and Economics Teachers Association (NZCETA), the national association for Economics, Business Studies and Accounting teachers (no body named EBENZ was found)",
+     "url": "http://www.nzceta.co.nz/index.htm",
+     "notes": [
+      "No publicly accessible NCEA marking or moderation guidance from NZCETA was found; its website could not be opened in this session (checked October 2026)."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -666,26 +789,49 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achieved (A4, 2024)",
+       "text": "Delectable Donuts social-media campaign: described how the participants rely on and benefit from each other, and the direct effect of the campaign on Delectable Donuts.",
+       "miss": "Merit needed the flow-on effect for the bank, and how BOTH participants in the relationship would be affected rather than one.",
+       "version": "2024 exam; set before Version 3 (published December 2024)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92030-exp-2024-achievement.pdf"
+      },
+      {
        "grade": "Achieved (A4, 2025)",
        "text": "Described how the participants rely on each other in each relationship, including how each benefits, and described the direct effect of the marine farm closures on Leota Transportation.",
-       "miss": "For Merit it needed a correct flow-on effect for the Government (e.g. less company tax received) and to explain how BOTH participants in the relationship would be affected by it, not just one."
+       "miss": "For Merit it needed a correct flow-on effect for the Government (e.g. less company tax received) and to explain how BOTH participants in the relationship would be affected by it, not just one.",
+       "version": "2025 exam; Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92030-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M5, 2025)",
        "text": "Described the interdependent relationships and benefits, and explained a flow-on effect for the whānau and how the whānau–bank relationship would affect both parties.",
-       "miss": "Explained impacts on individual participants rather than on the relationship as a whole (e.g. in (e), households having more income to spend or save at the bank); restated consequences instead of justifying the decision with its underlying reason; gave two opposing direct effects on Leota instead of one."
+       "miss": "Explained impacts on individual participants rather than on the relationship as a whole (e.g. in (e), households having more income to spend or save at the bank); restated consequences instead of justifying the decision with its underlying reason; gave two opposing direct effects on Leota instead of one.",
+       "version": "2025 exam; Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92030-exp-2025-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2024)",
        "text": "Described the relationships and benefits, the direct effect of the campaign on Delectable Donuts, a flow-on effect for the bank, and a flow-on effect for the other bakery and its supplier relationship.",
-       "miss": "Needed to explain the impact of decisions on the interdependent relationship as a whole, not only on individual participants (e.g. in (e)(ii), the Delectable Donuts–supplier relationship). The marker also noted the bank becoming less strict or lowering interest rates was unlikely."
+       "miss": "Needed to explain the impact of decisions on the interdependent relationship as a whole, not only on individual participants (e.g. in (e)(ii), the Delectable Donuts–supplier relationship). The marker also noted the bank becoming less strict or lowering interest rates was unlikely.",
+       "version": "2024 exam; set before Version 3 (published December 2024)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92030-exp-2024-merit.pdf"
+      },
+      {
+       "grade": "Excellence (E8, 2024)",
+       "text": "Delectable Donuts: relationships and benefits, direct effect on the business, flow-on effects for the bank and for another bakery's supplier relationship; positive and negative consequences of decisions and impacts on each relationship consistently explained.",
+       "miss": "",
+       "version": "2024 exam; set before Version 3 (published December 2024)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92030-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Covered every level: relationships and benefits, the direct effect on Leota, flow-on effects for the whānau and Government with their relationship impacts, consequences of the decisions for the Government, Care and Courage, Kāwhiu and the bank, and a justification of the Government's decision.",
-       "miss": "One point about the whānau was unclear: it should have said the worker could have fewer hours, not a lower wage rate."
+       "miss": "One point about the whānau was unclear: it should have said the worker could have fewer hours, not a lower wage rate.",
+       "version": "2025 exam; Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92030-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year external exam in ONLINE DIGITAL format (2025 and 2026). A practice exam for derived grades should be typed under supervision.",
       "The case study is unseen and printed within the paper. No materials may be brought in; approved calculators are permitted (2026 specification).",
@@ -775,10 +921,11 @@ window.MOD_EX['1'] = {
       "Wrong roles for banks or the Government (banks collecting tax; the Government supplying electricity or earning export revenue).",
       "Direct and flow-on effects blurred, or two opposing direct effects given.",
       "Excellence parts that list consequences for individual entities without the relationship impact or a reasoned justification of the decision.",
-      "Award one holistic code; scripts that stop after (d) cannot show Excellence evidence."
+      "Award one holistic code; scripts that stop after (d) cannot show Excellence evidence.",
+      "NZQA's 2024 exemplars predate Version 3 (December 2024); prefer the 2025 exemplars and check 2024 judgements against Version 3 wording."
      ],
      "aiLimits": "Typed answers are usually clear, but screenshots or handwritten practice scripts may be misread, and the AI cannot see the school's case study unless it is supplied. The teacher must confirm the case study details, the entity pairs asked about, and the event, so the direction of each flow can be checked.",
-     "researchNotes": "Standard text from the NZQA as92030 PDF (2024 folder, Version 3); ENs close to verbatim. The 2025 folder copy did not load. 2026 and 2025 specifications read via fetch. No 2026 paper or schedule exists yet. The schedule code wording was quoted from the 2024 and 2025 schedules (identical). No resource booklet is listed: the case study is in the paper. 2024 Achieved and Excellence exemplar commentary could not be read because the web-fetch hourly limit was reached; 2025 A4, M5, E8 and 2024 M6 were used. A 2026 Profiles of Expected Performance PDF (92030-pep-2026.pdf) is listed but was not read. The 2023 paper and materials exist but were not used. No time allowance was found.",
+     "researchNotes": "Standard text from the NZQA as92030 PDF (2024 folder, Version 3); ENs close to verbatim. The 2025 folder copy did not load. 2026 and 2025 specifications read via fetch. No 2026 paper or schedule exists yet. The schedule code wording was quoted from the 2024 and 2025 schedules (identical). No resource booklet is listed: the case study is in the paper. 2024 Achieved and Excellence exemplar commentary could not be read because the web-fetch hourly limit was reached; 2025 A4, M5, E8 and 2024 M6 were used. A 2026 Profiles of Expected Performance PDF (92030-pep-2026.pdf) is listed but was not read. The 2023 paper and materials exist but were not used. No time allowance was found. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025); no public subject-association guidance was found for this standard.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -894,19 +1041,26 @@ window.MOD_EX['1'] = {
       {
        "grade": "Achieved (A4, 2025)",
        "text": "Explained how the factor affected financial viability (a decrease in demand leading to lower sales and net profit), described the effect on pūtake, and gave two actions to improve viability.",
-       "miss": "Only 'some reference' to a model; it needed to name and use the model explicitly (e.g. the income statement) and to explain the actions more fully."
+       "miss": "Only 'some reference' to a model; it needed to name and use the model explicitly (e.g. the income statement) and to explain the actions more fully.",
+       "version": "2025 exam; Version 4 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92031-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M6, 2025)",
        "text": "Explained the factor's effect and clearly stated that viability decreased, referred explicitly to the income statement, described the effect on pūtake, and gave one well-explained action with good consequences.",
-       "miss": "The second action was not valid: lowering product quality while already losing customers would not improve financial viability. A second valid action was needed."
+       "miss": "The second action was not valid: lowering product quality while already losing customers would not improve financial viability. A second valid action was needed.",
+       "version": "2025 exam; Version 4 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92031-exp-2025-merit.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Explained the factor's effect, showing viability decreased, with explicit reference to the income statement; described the effect on pūtake; two actions well explained, with each action's consequences explicitly referencing a model or concept.",
-       "miss": ""
+       "miss": "",
+       "version": "2025 exam; Version 4 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92031-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year external exam in ONLINE DIGITAL format (2025 and 2026). A practice exam for derived grades should be typed under supervision.",
       "No materials may be brought in; approved calculators are permitted (2026 specification). The 2024 two-page prepared document is NOT allowed, so practice exams must not allow notes.",
@@ -1009,7 +1163,7 @@ window.MOD_EX['1'] = {
       "Practice tasks run as the 2024 report (notes allowed, written over time) do not match the 2026 exam conditions."
      ],
      "aiLimits": "Typed answers are usually clear, but screenshots or handwritten scripts may be misread, and the AI cannot see the school's case study or the student's own organisation. The teacher must confirm the factor chosen, the case study figures, and that any own-organisation detail is accurate and was recalled under exam conditions.",
-     "researchNotes": "Standard text from the NZQA as92031 PDF (2024 folder, Version 4); EN1 and EN2, EN3 and EN5 are close to verbatim, and EN4 (concepts and models) is paraphrased because the fetch tool would not quote it in full. The 2025 folder copy and the 2025 specification for 92031 did not load; the 2025 92030 specification (covering both standards, published October 2024) confirmed the online digital medium. 2026 specification read via fetch. No 2026 paper exists yet. Only 2025 exemplars exist (2024 was a report); their commentary does not name the factor or whether the case study was used. The 2025 sample assessment and sample schedule are listed but were not read. The 2023 question booklet and materials exist but were not used. No time allowance was found.",
+     "researchNotes": "Standard text from the NZQA as92031 PDF (2024 folder, Version 4); EN1 and EN2, EN3 and EN5 are close to verbatim, and EN4 (concepts and models) is paraphrased because the fetch tool would not quote it in full. The 2025 folder copy and the 2025 specification for 92031 did not load; the 2025 92030 specification (covering both standards, published October 2024) confirmed the online digital medium. 2026 specification read via fetch. No 2026 paper exists yet. Only 2025 exemplars exist (2024 was a report); their commentary does not name the factor or whether the case study was used. The 2025 sample assessment and sample schedule are listed but were not read. The 2023 question booklet and materials exist but were not used. No time allowance was found. Enrichment Oct 2026: 3 NZQA exemplars now held (2025); no public subject-association guidance was found for this standard.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -1055,6 +1209,13 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
      "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "Digital Technologies Teachers Aotearoa (DTTA)",
+     "url": "https://dtta.org.nz/",
+     "notes": []
     }
    ],
    "derivedGradeNotes": [
@@ -1171,19 +1332,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achievement (A3, 2024)",
+       "text": "Described usability heuristics and referred to them correctly throughout the paper.",
+       "miss": "Kept identifying and describing heuristics without explaining how they are used; needed detailed explanations and examples.",
+       "version": "Version 2 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92006-exp-2024-achievement.pdf"
+      },
+      {
        "grade": "Achievement (A4, 2025)",
        "text": "Clearly knew the usability principles, gave a good mātāpono Māori example in A(c), and correctly identified and described four principles in Part B (some descriptions weak).",
-       "miss": "Marker: Part C needed a clear explanation of how aesthetic and minimalist design was implemented; Part D did not explain how principles would be implemented; Part E described principles without comparing the two interfaces and discussed only one improvement."
+       "miss": "Marker: Part C needed a clear explanation of how aesthetic and minimalist design was implemented; Part D did not explain how principles would be implemented; Part E described principles without comparing the two interfaces and discussed only one improvement.",
+       "version": "Version 2 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92006-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (M6, 2024)",
+       "text": "Good knowledge of usability heuristics; in sections C and D evaluated usability and explained in detail how principles were used and implemented.",
+       "miss": "Section E needed more detail and a wider range of comparisons, and several improvements explained rather than one.",
+       "version": "Version 2 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92006-exp-2024-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2025)",
        "text": "Confident knowledge of principles, described in some detail in Parts A and B. Part C explained how principles affected the user, and Part D was specific about applying principles to a designed interface. Improvements were fine.",
-       "miss": "Marker: Part E discussed only one interface. To reach Excellence, candidates must compare the interfaces and their use of usability principles."
+       "miss": "Marker: Part E discussed only one interface. To reach Excellence, candidates must compare the interfaces and their use of usability principles.",
+       "version": "Version 2 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92006-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (E8, 2024)",
+       "text": "Detailed, confident response: explained and evaluated heuristic use with reference to user impact, compared interfaces and justified which was better, suggested sensible improvements.",
+       "miss": "",
+       "version": "Version 2 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92006-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Strong understanding with no errors. Parts A and B went beyond what was required; Parts C and D explained how principles were applied and why they mattered to the user, with specific design applications. Part E compared like-for-like actions (e.g. error prevention) across both websites and judged which applied the principles better; each improvement was tied to the principle it improved.",
-       "miss": ""
+       "miss": "",
+       "version": "Version 2 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92006-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -1273,7 +1461,8 @@ window.MOD_EX['1'] = {
       "Scripts far over the 1200-word guidance. Credit quality, not length."
      ],
      "aiLimits": "The AI cannot watch the Part E videos or see the Part B screenshots unless they are supplied, and it cannot check the student's studied interface. The teacher must confirm what the videos and screenshots show, that the studied interface's features are described accurately, and that the exam was sat on a computer under supervision without notes.",
-     "researchNotes": "Standard text from the NZQA as92006 PDF (2024 folder; Version 2), EN1 and EN2 obtained in quoted fragments. 2026 and 2025 specifications read via fetch. The 2025 and 2024 answer booklets, schedules and reports were read via fetch (summarised, not quoted in full). The schedules' grid layout did not extract cleanly, so some pairings of descriptors to codes are approximate; check the original grid. 2025 exemplar commentary was quoted in fragments; the interfaces the exemplar candidates studied are not named. 2024 exemplars, the 2024 sample assessment and the 2023 materials were not read. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed.",
+     "researchNotes": "Standard text from the NZQA as92006 PDF (2024 folder; Version 2), EN1 and EN2 obtained in quoted fragments. 2026 and 2025 specifications read via fetch. The 2025 and 2024 answer booklets, schedules and reports were read via fetch (summarised, not quoted in full). The schedules' grid layout did not extract cleanly, so some pairings of descriptors to codes are approximate; check the original grid. 2025 exemplar commentary was quoted in fragments; the interfaces the exemplar candidates studied are not named. 2024 exemplars, the 2024 sample assessment and the 2023 materials were not read. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found.",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -1416,19 +1605,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achievement (2024; total 4)",
+       "text": "One-page design: detailed pencil-and-paper sketch, users and requirements identified, thoughtful manaakitanga for vision-impaired users, three annotated screenshots showing a clear design process.",
+       "miss": "Design not developed beyond sketches; requirements lacked detail and organisation; feedback not specific; changes from feedback and their positive effect not described.",
+       "version": "expired earlier version (stated on exemplar); current is Version 5",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92007-exp-2024-achievement.pdf"
+      },
+      {
        "grade": "Achievement (A3, 2025 portfolio)",
        "text": "Recipe website. Described a need or opportunity, users and requirements; hand-drawn layout sketches as design ideas and mock-ups as the completed final design; written justification linked aspects of the final design back to what the website needs to do; discussed manaakitanga and kaitiakitanga (cultural connection, use of local ingredients).",
-       "miss": "Marker: 'To attain Merit, feedback and refinement would need to have been clearly shown.' Feedback was mentioned but the candidate did not show what changed between the ideas and the final design, and design decisions were mostly descriptive, not explained in terms of how they improved design quality."
+       "miss": "Marker: 'To attain Merit, feedback and refinement would need to have been clearly shown.' Feedback was mentioned but the candidate did not show what changed between the ideas and the final design, and design decisions were mostly descriptive, not explained in terms of how they improved design quality.",
+       "version": "2025 portfolio; version not stated (Version 5 has status date 27 November 2025)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92007-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (2024; total 5)",
+       "text": "Website: simple wireframe, detailed design and digital mock-up; users and requirements clear; several manaakitanga examples; both feedback examples explained with changes and why they improved the design.",
+       "miss": "Name the business in the need; more specific welcoming features; more design decisions beyond feedback changes; explain precisely how features make it fit for purpose.",
+       "version": "earlier version (2024 portfolio); current is Version 5",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92007-exp-2024-merit.pdf"
       },
       {
        "grade": "Merit (M5, 2025 portfolio)",
        "text": "Rhythm game. Clear need or opportunity, users and requirements, design ideas and a completed final design; manaakitanga discussed with a relevant, design-linked example. Used feedback to refine the design 'with two specific, supported examples' (e.g. relocating health indicators to support peripheral attention), explaining the feedback, the change and the benefit, and how decisions improved clarity, flow, UI feedback and player experience.",
-       "miss": "Marker: Excellence needed tighter justification of fitness for purpose, 'explicitly linking key design decisions back to the stated requirements and user needs' and explaining how each decision contributes to meeting them."
+       "miss": "Marker: Excellence needed tighter justification of fitness for purpose, 'explicitly linking key design decisions back to the stated requirements and user needs' and explaining how each decision contributes to meeting them.",
+       "version": "2025 portfolio; version not stated (Version 5 has status date 27 November 2025)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92007-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (2024; total 7)",
+       "text": "Clear need, detailed users and requirements, several manaakitanga examples, very detailed design decisions showing improvement, and an evaluation linking design to need and requirements.",
+       "miss": "First round of feedback was light, without explaining how the resulting change improved the design.",
+       "version": "expired earlier version (stated on exemplar); current is Version 5",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92007-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (E8, 2025 portfolio)",
        "text": "Daily check-in web app supporting teenagers' mental health. Clear need grounded in teen users' realities and why existing options fall short; personas; requirements (simplicity, emotional safety, privacy, inclusivity, crisis support) held consistently; 'purposeful refinement' comparing palettes, fonts, layouts and structure justified by user feedback; flowchart and page-by-page mock-ups showing a working experience, not a single screen; decisions explicitly linked to fitness for purpose; ethics (privacy, consent, anonymity, helpline visibility) treated as design decisions; Māori values embedded as practices guiding how users are cared for and protected.",
-       "miss": ""
+       "miss": "",
+       "version": "2025 portfolio; version not stated (Version 5 has status date 27 November 2025)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92007-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -1519,10 +1735,12 @@ window.MOD_EX['1'] = {
       "Fitness for purpose that repeats the improvements instead of linking decisions to each requirement (the M5 exemplar's gap).",
       "Manaakitanga or kaitiakitanga missing, treated as the outcome's subject matter, or the two confused. It is a condition of the standard.",
       "Outcomes too simple for Level 6, or designs from AI-generated or internet images with no candidate-led ideation.",
-      "Practice tasks in the 2025 portfolio format, or with fewer parts than the 2026 sample, do not match the 2026 exam format."
+      "Practice tasks in the 2025 portfolio format, or with fewer parts than the 2026 sample, do not match the 2026 exam format.",
+      "NZQA's 2024 exemplars state they are based on an expired version of the standard; check any feature they credit against Version 5 before relying on it."
      ],
      "aiLimits": "The AI reads only the typed exam answers. It cannot see the student's completed design (sketches, mock-ups, storyboards, flowcharts, wireframes, ER diagrams) unless it is supplied, and scanned design images or hand-drawn diagrams may be read inaccurately or not at all. It cannot judge whether the design is the student's own or whether the described feedback really happened. The teacher must check that the answers match the school-held design, that the design is the student's work, and that the exam was sat on a computer under supervision without notes.",
-     "researchNotes": "Standard as92007 Version 5 (2025 folder, published 9 December 2025) read via fetch; criteria and EN1/EN2/EN4 obtained as exact quoted fragments, EN3's example lists paraphrased. The 2026 sample examination was read (summarised, question wording partly quoted). No 2026 sample schedule was found: the specification promised one for mid-February 2026 but the NZQA standard page lists none, and the 2026 PEP is a chart that did not extract. The marking model therefore rests on the 2025 portfolio schedule (grid extracted imperfectly; descriptor-to-code pairings are best-fit) and must be treated as provisional for the 2026 exam. 2025 exemplars (A3, M5, E8) read via fetch. 2024 schedule and exemplars not read; 2024 cut scores not confirmed. Literacy co-requisite status not confirmed. Exam date and time allowance not confirmed.",
+     "researchNotes": "Standard as92007 Version 5 (2025 folder, published 9 December 2025) read via fetch; criteria and EN1/EN2/EN4 obtained as exact quoted fragments, EN3's example lists paraphrased. The 2026 sample examination was read (summarised, question wording partly quoted). No 2026 sample schedule was found: the specification promised one for mid-February 2026 but the NZQA standard page lists none, and the 2026 PEP is a chart that did not extract. The marking model therefore rests on the 2025 portfolio schedule (grid extracted imperfectly; descriptor-to-code pairings are best-fit) and must be treated as provisional for the 2026 exam. 2025 exemplars (A3, M5, E8) read via fetch. 2024 schedule and exemplars not read; 2024 cut scores not confirmed. Literacy co-requisite status not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found.",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -1537,6 +1755,7 @@ window.MOD_EX['1'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "derivedGradeNotes": [],
    "excluded": [
     {
@@ -1604,6 +1823,15 @@ window.MOD_EX['1'] = {
     {
      "label": "Summary of 2026 Assessment Rules changes (EmaiLink March 2026)",
      "url": "https://www2.nzqa.govt.nz/assets/About-us/Publications/EmaiLink/March-2026/Summary-of-2026-Assessment-Rules-changes.pdf"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Association for the Teaching of English (NZATE)",
+     "url": "https://www.nzate.co.nz/",
+     "notes": [
+      "No publicly accessible NZATE marking or moderation guidance for these standards was found in October 2026 (the site could not be opened from this session; searches surfaced no public NCEA marking documents). Use NZQA exemplars, clarifications and the NMR."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -1700,19 +1928,26 @@ window.MOD_EX['1'] = {
       {
        "grade": "Achieved (A3, 2025)",
        "text": "Showed some understanding of character and conflict, arguing that the antagonist (Killmonger) is misunderstood rather than purely evil, with a personal response supported by a quote.",
-       "miss": "The claim that he is 'not a villain' was stated but not justified, and the evidence was generalised; it needed more specific evidence showing how meaning is created."
+       "miss": "The claim that he is 'not a villain' was stated but not justified, and the evidence was generalised; it needed more specific evidence showing how meaning is created.",
+       "version": "2025 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91925-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M5, 2025)",
        "text": "Hidden Figures (film): consistent focus on Katherine Johnson, an explained empathetic emotional response supported by evidence such as the bathroom incident, and links to racism, gender discrimination and the Jim Crow era.",
-       "miss": "Needed 'less repetition and more perception of how meaning is created' (marker commentary, for a more secure Merit)."
+       "miss": "Needed 'less repetition and more perception of how meaning is created' (marker commentary, for a more secure Merit).",
+       "version": "2025 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91925-exp-2025-merit.pdf"
       },
       {
        "grade": "Excellence (E7, 2025)",
        "text": "The Seahorse and the Reef: perceptive understanding of the text and its wider significance, for example interpreting the father's apology to the ocean as an expression of collective guilt and responsibility.",
-       "miss": "The commentary does not state the step to E8 (securely fulfilling the Excellence intent)."
+       "miss": "The commentary does not state the step to E8 (securely fulfilling the Excellence intent).",
+       "version": "2025 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91925-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year external exam, online digital format (2026). Planning spaces are not marked. Responses in English.",
       "The question is chosen in the exam from several options, so a prepared essay cannot simply be reproduced. A practice exam for derived grades should present unseen question options, under supervision, without notes or a pre-written essay.",
@@ -1799,7 +2034,7 @@ window.MOD_EX['1'] = {
       "Do not reward length: 600–750 words is a recommendation, and quality decides the code."
      ],
      "aiLimits": "The AI cannot see the studied text (novel, film, play or poems), so the teacher must confirm the accuracy of quotes, scenes and techniques the student cites, and that the text was genuinely studied. Typed answers are reliable to read; scans of handwriting may be misread. The teacher must also confirm the response was written under supervision without a prepared essay.",
-     "researchNotes": "Standard text from the NZQA as91925 PDF (2024 folder; Version 4, approved September 2024). ENs are close to verbatim from fetched text. 2026 specifications read via fetch (subject PDF October 2025 and standard PDF March 2026); the 2025 standard-level 91925 specification failed to load, and the 2025 comparison comes from the 2025 91927 specification, which covers both standards. The 2025 schedule's N2 descriptor was inferred from the PDF layout. No 2024 paper, schedule or report is listed for 91925 on the NZQA page (only the standard), so 2024 data is a gap. The 2025 sample assessment and its schedule exist but were not read. Exemplar commentary is brief, and the text for the A3 exemplar is not named by NZQA (the character suggests the film Black Panther, not confirmed). Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed.",
+     "researchNotes": "Standard text from the NZQA as91925 PDF (2024 folder; Version 4, approved September 2024). ENs are close to verbatim from fetched text. 2026 specifications read via fetch (subject PDF October 2025 and standard PDF March 2026); the 2025 standard-level 91925 specification failed to load, and the 2025 comparison comes from the 2025 91927 specification, which covers both standards. The 2025 schedule's N2 descriptor was inferred from the PDF layout. No 2024 paper, schedule or report is listed for 91925 on the NZQA page (only the standard), so 2024 data is a gap. The 2025 sample assessment and its schedule exist but were not read. Exemplar commentary is brief, and the text for the A3 exemplar is not named by NZQA (the character suggests the film Black Panther, not confirmed). Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 3 NZQA external exemplars now held (2025), all with source links; 2025 is the only year with published exemplars for this standard. no public subject-association guidance specific to this standard was found.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -1911,21 +2146,49 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achieved (total 11, 2024: Q1 A4, Q2 A4, Q3 A3)",
+       "text": "Q1 identified two clear aspects and their effect on the reader; Q2 linked a range of aspects to a personal response; Q3 explained two aspects' effect in detail.",
+       "miss": "Q1–Q2: discuss features together, in more detail, not independently; Q3 addressed the question only by implication, lacking specificity.",
+       "version": "2024 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91927-exp-2024-achievement.pdf"
+      },
+      {
        "grade": "Achieved (total 9, 2025: Q1 A4, Q2 N2, Q3 A3)",
        "text": "Q1 gave several language features all connected to the question. Q3 identified details, explained them and linked them to the purpose of the text and the question.",
-       "miss": "Q1 discussed each example in isolation, and its introduction and conclusion did not connect the ideas. Q2 was vague, lacked specific detail and misread the tone of the poem, so the analysis missed the text's purpose."
+       "miss": "Q1 discussed each example in isolation, and its introduction and conclusion did not connect the ideas. Q2 was vague, lacked specific detail and misread the tone of the poem, so the analysis missed the text's purpose.",
+       "version": "2025 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91927-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (total 15, 2024: Q1 M6, Q2 M5, Q3 A4)",
+       "text": "Q1 stated author's intention and analysed specific features in convincing detail linked to shared ideas; Q2 introduction answered the question with features tied to it; Q3 explained ideas clearly.",
+       "miss": "Q1 needed clearer focus on wider context or purpose for E7; Q2 more detail on how language created the idea; Q3 discussed aspects separately, not connected.",
+       "version": "2024 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91927-exp-2024-merit.pdf"
       },
       {
        "grade": "Merit (total 17, 2025: Q1 M6, Q2 M5, Q3 M6)",
        "text": "Clear, detailed analysis of language well linked to the ideas of the text, with a brief explanation of purpose; good, clear examples linked to the question.",
-       "miss": "Q1's conclusion was 'a surface reading of the text which lacks the perception required for E7'. Q2's wider context was not supported by the examples. Q3's conclusion mainly paraphrased the main ideas rather than developing a wider context."
+       "miss": "Q1's conclusion was 'a surface reading of the text which lacks the perception required for E7'. Q2's wider context was not supported by the examples. Q3's conclusion mainly paraphrased the main ideas rather than developing a wider context.",
+       "version": "2025 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91927-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (total 22, 2024: Q1 E8, Q2 E7, Q3 E7)",
+       "text": "Short focused introductions naming author's purpose; aspects explained thoroughly and discussed together, with perceptive comment on language effects and wider contexts linked to purpose.",
+       "miss": "Q2: link wider context more clearly to the question; Q3: develop analysis of specific language more thoroughly.",
+       "version": "2024 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91927-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (total 21, 2025: E7, E7, E7)",
        "text": "Well-chosen evidence analysed thoroughly and linked to ideas set up at the start; analysis focused on tone and metaphor in the poem; quotes well selected and linked to both the purpose of the text and the specific question.",
-       "miss": "The commentary does not detail the step to E8 in each question."
+       "miss": "The commentary does not detail the step to E8 in each question.",
+       "version": "2025 exam",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91927-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year external exam, online digital format (2026), with a printed copy of the three texts for every candidate. Planning spaces are not marked.",
       "All three texts are UNSEEN. A practice exam for derived grades must use texts students have not studied, including at least one poem and at least one text reflecting a Māori context, with one question per text, under supervision.",
@@ -1998,10 +2261,11 @@ window.MOD_EX['1'] = {
       "Purpose or wider context bolted onto the conclusion. For Excellence it must run through the analysis.",
       "Misreading the tone of the poem; the poem was the hardest text in 2024 and caused an N2 in the 2025 Achievement exemplar.",
       "Practice texts that students have already studied, or a set missing a poem or a Māori-context text, do not match the 2026 conditions.",
-      "Score each question separately and total them; do not let one strong answer lift the others."
+      "Score each question separately and total them; do not let one strong answer lift the others.",
+      "The 2024 exemplars were marked before Version 5 was published (December 2024); check their grade judgements against the current version's criteria and ENs."
      ],
      "aiLimits": "The AI can only judge accuracy and interpretation if the teacher supplies the three texts exactly as students received them. Typed answers are reliable to read, but the teacher must confirm the texts were unseen, that the practice was supervised, and that any reading of te reo Māori or tikanga in the Māori-context text is sound.",
-     "researchNotes": "Standard text from the NZQA as91927 PDF (2024 folder; Version 5, approved September 2024). ENs are close to verbatim. 2026 specifications read via fetch; the subject PDF (October 2025) labels 91927 as Version 4 while the standard-level PDF (March 2026) says Version 5. Which 2025 text was the Māori-context text was not confirmed from the extracted resource booklet (Text A's Hauraki setting is the only clear Māori link in the extract); 2024 Text C 'Our team is a waka' used te reo Māori. 2024 text types were given only as a set (poem, short story, non-fiction). Authors for 2024 texts were not recorded. The 2023 paper, schedule, report and exemplars exist but were not used, and 2024 exemplars exist but were not read. Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed.",
+     "researchNotes": "Standard text from the NZQA as91927 PDF (2024 folder; Version 5, approved September 2024). ENs are close to verbatim. 2026 specifications read via fetch; the subject PDF (October 2025) labels 91927 as Version 4 while the standard-level PDF (March 2026) says Version 5. Which 2025 text was the Māori-context text was not confirmed from the extracted resource booklet (Text A's Hauraki setting is the only clear Māori link in the extract); 2024 Text C 'Our team is a waka' used te reo Māori. 2024 text types were given only as a set (poem, short story, non-fiction). Authors for 2024 texts were not recorded. The 2023 paper, schedule, report and exemplars exist but were not used, and 2024 exemplars exist but were not read. Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 6 NZQA external exemplars now held (2024, 2025), all with source links; no public subject-association guidance specific to this standard was found.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -2075,6 +2339,15 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA national secondary examinations timetable 2026",
      "url": "https://www2.nzqa.govt.nz/ncea/exam-timetable-and-key-assessment-dates/exam-timetable/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Board of Geography Teachers (NZBoGT), a subcommittee of the New Zealand Geographical Society",
+     "url": "https://www.nzgs.co.nz/education-and-engagement",
+     "notes": [
+      "NZBoGT advises the Ministry of Education and NZQA on geography matters and supports professional learning. Its NCEA exam resources and curriculum advice are for NZGS members only, so none were used (checked October 2026)."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -2204,19 +2477,26 @@ window.MOD_EX['1'] = {
       {
        "grade": "Achieved (A3, 2025)",
        "text": "Section One labelled two appropriate features (a spit and a meandering river) and sequenced the coastal process well enough to score. Some geographic terminology was used.",
-       "miss": "The fluvial answer did not explain how meanders form, so it counted as neutral. In Section Two, volcanism was only loosely linked to fertile soils and dairy farming (ash eruptions would have supported it), infrastructure was brief and the fluvial link only inferred. The marker said it needed to focus on the question rather than presenting learnt case study content, and to give more case study evidence."
+       "miss": "The fluvial answer did not explain how meanders form, so it counted as neutral. In Section Two, volcanism was only loosely linked to fertile soils and dairy farming (ash eruptions would have supported it), infrastructure was brief and the fluvial link only inferred. The marker said it needed to focus on the question rather than presenting learnt case study content, and to give more case study evidence.",
+       "version": "2025 exam; Version 3 (current is Version 4, December 2025)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91934-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M5, 2025)",
        "text": "Section One labelled a range of phenomena and clearly sequenced longshore drift and a fluvial process, each linked to a labelled feature. Section Two explained how plate tectonics and glacial processes shaped the location of transport routes, and the implications of a future earthquake for transport and isolation.",
-       "miss": "Discussed only one cultural feature (roading); impacts on others such as the economy were needed. Case study evidence was used but not integrated: specific road names and place names would have supported Section Two."
+       "miss": "Discussed only one cultural feature (roading); impacts on others such as the economy were needed. Case study evidence was used but not integrated: specific road names and place names would have supported Section Two.",
+       "version": "2025 exam; Version 3 (current is Version 4, December 2025)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91934-exp-2025-merit.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Section One: a range of labelled phenomena, with longshore drift and fluvial processes clearly sequenced and linked to two features. Section Two (a volcanic case study, different from the Section One environment, which was accepted): examined two wider impacts of volcanism (soils and farming, settlement location) and how a future eruption could affect the health of people and farm animals, with detailed, contextualised evidence and terminology throughout.",
-       "miss": ""
+       "miss": "",
+       "version": "2025 exam; Version 3 (current is Version 4, December 2025)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91934-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year external exam on PRINTED PAPER (2026 specification). Labelling and annotation are done on the printed map and photographs, so a practice paper must supply printed resources students can annotate.",
       "Section One environments are unfamiliar. A practice exam for derived grades should use environments the students have not studied, with a choice of three.",
@@ -2327,10 +2607,11 @@ window.MOD_EX['1'] = {
       "Applying the learnt case study's processes to an unfamiliar environment that does not have them (volcanism at Aoraki/Mt Cook).",
       "Human impacts on the environment (pollution, deforestation) written instead of impacts of natural processes on people.",
       "Practice tasks copied from the 2024 submitted report (student-chosen resources, written over time) do not match the 2026 printed-paper exam conditions.",
-      "Award one holistic code across both sections; a strong Section One does not lift a missing or thin Section Two above N2 or A3."
+      "Award one holistic code across both sections; a strong Section One does not lift a missing or thin Section Two above N2 or A3.",
+      "NZQA's 2025 exemplars were marked on Version 3; Version 4 (December 2025) applies in 2026, so check any judgement drawn from them against Version 4 wording."
      ],
      "aiLimits": "Map and photograph labels, arrows and annotated diagrams are hard to read from scans, and the AI cannot see the practice paper's maps unless they are supplied. The teacher must confirm the labels sit on the right features, check annotated diagrams, and verify case study facts (place names, dates, figures) the AI cannot check.",
-     "researchNotes": "Standard text from the NZQA as91934 PDFs (2024 folder Version 3; 2025 folder Version 4, published 9 December 2025). EN1 wording is identical in both versions; the only difference found was the EN4 example (flash flood replaced by floodplain). 2026 and 2025 specifications read via fetch; neither states a time allowance. The 2025 schedule grid was read from a jumbled extraction, so the code descriptors are summarised, not quoted, and the A3/A4 and M5/M6 split is my best reading. No 2024 exam exists (submitted report), so there is no 2024 paper link. Assessment Reports 2024 and 2025 each cover both 91934 and 91935. No 2024 exemplars are listed for 91934. The 2025 exemplar commentary does not name which Section One resource each candidate used. The 2023 schedule and report exist but were not used. Literacy approval for 91934 not confirmed (NCEA Education page under maintenance).",
+     "researchNotes": "Standard text from the NZQA as91934 PDFs (2024 folder Version 3; 2025 folder Version 4, published 9 December 2025). EN1 wording is identical in both versions; the only difference found was the EN4 example (flash flood replaced by floodplain). 2026 and 2025 specifications read via fetch; neither states a time allowance. The 2025 schedule grid was read from a jumbled extraction, so the code descriptors are summarised, not quoted, and the A3/A4 and M5/M6 split is my best reading. No 2024 exam exists (submitted report), so there is no 2024 paper link. Assessment Reports 2024 and 2025 each cover both 91934 and 91935. No 2024 exemplars are listed for 91934. The 2025 exemplar commentary does not name which Section One resource each candidate used. The 2023 schedule and report exist but were not used. Literacy approval for 91934 not confirmed (NCEA Education page under maintenance). Enrichment Oct 2026: 3 NZQA exemplars now held (2025); no public subject-association guidance was found for this standard.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -2450,36 +2731,49 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved (A4, 2024)",
-       "text": "Strong elements: part (a) reached some Merit criteria.",
-       "miss": "(b) described people's preferences rather than explaining their perspectives or viewpoints, and confused viewpoint with perspective. (c)(i) did not fully explain the choice or consider alternatives. (c)(ii) did not show the holistic nature of decision-making."
-      },
-      {
        "grade": "Achieved (A3, 2025)",
        "text": "(a) showed some understanding of the challenge with some case study detail; (b) correctly described the individuals' and groups' choices; (c)(i) made a clear selection with some reasons. A solid Achievement paper.",
-       "miss": "(a) needed reasons explained, not alluded to; (b) needed more detail and a specific perspective; (c)(i) needed more relevant evidence; (c)(ii) focused on an option instead of a perspective (N); no Fijian concept was applied (N)."
+       "miss": "(a) needed reasons explained, not alluded to; (b) needed more detail and a specific perspective; (c)(i) needed more relevant evidence; (c)(ii) focused on an option instead of a perspective (N); no Fijian concept was applied (N).",
+       "version": "2025 exam; Version 4 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91935-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Achieved (A4, 2024)",
+       "text": "Strong elements: part (a) reached some Merit criteria.",
+       "miss": "(b) described people's preferences rather than explaining their perspectives or viewpoints, and confused viewpoint with perspective. (c)(i) did not fully explain the choice or consider alternatives. (c)(ii) did not show the holistic nature of decision-making.",
+       "version": "2024 exam; set before Version 4 (published December 2024)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91935-exp-2024-achievement.pdf"
       },
       {
        "grade": "Merit (M5, 2025)",
        "text": "(a) explained erosion, saltwater contamination and cost with a range of detail; (b) correct perspectives for all four groups (e.g. Lani Bola's cultural perspective from her spiritual connection to the land); (c)(i) clear selection with clear reasons.",
-       "miss": "(c)(i) referred to only one other option; (c)(ii) dwelt on the negatives of the option and needed to state that the Prime Minister's perspective was narrow; the cultural and spiritual connection was copied from the resources rather than applied as a Fijian concept. Needed a better grasp of how a range of perspectives informs decision-making."
+       "miss": "(c)(i) referred to only one other option; (c)(ii) dwelt on the negatives of the option and needed to state that the Prime Minister's perspective was narrow; the cultural and spiritual connection was copied from the resources rather than applied as a Fijian concept. Needed a better grasp of how a range of perspectives informs decision-making.",
+       "version": "2025 exam; Version 4 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91935-exp-2025-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2024)",
        "text": "(a), (b) and (c)(i) were completed at Merit level.",
-       "miss": "(c)(ii) considered only one perspective, so it did not show the holistic nature of decision-making."
+       "miss": "(c)(ii) considered only one perspective, so it did not show the holistic nature of decision-making.",
+       "version": "2024 exam; set before Version 4 (published December 2024)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91935-exp-2024-merit.pdf"
       },
       {
        "grade": "Excellence (E7, 2024)",
        "text": "Showed the holistic nature of decision-making, with several perspectives taken into account and evaluated effectively in (c)(ii).",
-       "miss": "Part (a) lacked detail."
+       "miss": "Part (a) lacked detail.",
+       "version": "2024 exam; set before Version 4 (published December 2024)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91935-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (E7, 2025)",
        "text": "(a) and (b) at Merit; (c)(ii) argued that the Prime Minister's (political) perspective was too narrow because it ignored social, cultural and indigenous perspectives, so it was not holistic; Fijian concepts from the booklet were integrated into (c)(ii).",
-       "miss": "More detail in (c)(i), with fuller comparison against the other options, would have lifted it to E8."
+       "miss": "More detail in (c)(i), with fuller comparison against the other options, would have lifted it to E8.",
+       "version": "2025 exam; Version 4 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91935-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year external exam on PRINTED PAPER only (A2025/5; 2026 specification).",
       "Pre-release resources come out in Term 4, Week 1; additional unseen resources are given in the exam, and the exam booklet contains both. A practice exam must copy this: a pre-release given in advance, then new resources in the exam, with a combined booklet.",
@@ -2579,10 +2873,11 @@ window.MOD_EX['1'] = {
       "(c)(ii) answered with an OPTION instead of a viewpoint or perspective; check whether the question asked for most or least important.",
       "Long copied quotes from the resources standing in for explanation; Pacific concepts copied rather than applied.",
       "Practice papers that give no pre-release, or that use NZQA's own 2026 pre-release after students have studied it as 'unseen', do not match the exam conditions.",
-      "Award one holistic code; check all parts were attempted (incomplete papers were common among Not Achieved in 2025)."
+      "Award one holistic code; check all parts were attempted (incomplete papers were common among Not Achieved in 2025).",
+      "NZQA's 2024 exemplars predate Version 4 (December 2024); prefer the 2025 exemplars and check 2024 judgements against Version 4 wording."
      ],
      "aiLimits": "Scanned handwriting may be misread, and the AI cannot see the school's pre-release or exam resources unless they are supplied. The teacher must confirm the options, the named people and their quotes, and that evidence the student cites actually appears in the resources.",
-     "researchNotes": "Standard text from the NZQA as91935 PDF (2024 folder, Version 4); the 2025 folder copy failed to load. ENs are close to verbatim. 2026 and 2025 specifications read via fetch; neither gives a time allowance or permitted materials. The 2025 and 2024 schedules were summarised, not quoted; neither has a per-part grid or sample-answer appendix. The 2025 resource booklet did not print viewpoint/perspective definitions (2024 did), though the 2025 report says the booklet explained the difference; this conflict is unresolved. A 2026 Profiles of Expected Performance PDF is listed (91935-pep-2026.pdf) but was not read. 2024 Achieved and 2024/2025 exemplar commentary is brief and does not always name the option chosen. 2023 papers and exemplars exist but were not used. Web fetch limit reached at the end of research; nothing essential was outstanding.",
+     "researchNotes": "Standard text from the NZQA as91935 PDF (2024 folder, Version 4); the 2025 folder copy failed to load. ENs are close to verbatim. 2026 and 2025 specifications read via fetch; neither gives a time allowance or permitted materials. The 2025 and 2024 schedules were summarised, not quoted; neither has a per-part grid or sample-answer appendix. The 2025 resource booklet did not print viewpoint/perspective definitions (2024 did), though the 2025 report says the booklet explained the difference; this conflict is unresolved. A 2026 Profiles of Expected Performance PDF is listed (91935-pep-2026.pdf) but was not read. 2024 Achieved and 2024/2025 exemplar commentary is brief and does not always name the option chosen. 2023 papers and exemplars exist but were not used. Web fetch limit reached at the end of research; nothing essential was outstanding. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025); no public subject-association guidance was found for this standard.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -2640,6 +2935,15 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA EmaiLink August 2026 (practice exams for derived grades must match external format and conditions)",
      "url": "https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/emaillink/2026-august/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Health Education Association (NZHEA)",
+     "url": "https://tda.org.nz/nex/new-zealand-health-education-association",
+     "notes": [
+      "No publicly accessible marking or moderation guidance found (October 2026); NZHEA support runs through its network of expertise. Use NZQA exemplars, clarifications and NMR."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -2764,26 +3068,49 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achievement (A3, 2024)",
+       "text": "Identified several factors affecting the family in the scenario, explained how each influenced their hauora, and supported points with examples.",
+       "miss": "Merit requires an explanation of how the factors interrelate, with clear connections shown consistently throughout the paper.",
+       "version": "Version 3 (2024 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92010-exp-2024-achievement.pdf"
+      },
+      {
        "grade": "Achievement (A4, 2025)",
        "text": "Identified and described a variety of factors that influence Sara's hauora, with scenario examples. Gave short- and long-term impacts of two factors in (b) and linked factors to the unintended consequence in (c).",
-       "miss": "Marker: Merit needs an explanation of how factors interrelate. In (b) the factors were not interrelated; in (c) the effect on Sara and her family's wellbeing was not expanded; in (d) only one factor was described and the second was implied, and factors were not connected to students' hauora."
-      },
-      {
-       "grade": "Merit (M6, 2025)",
-       "text": "Clear, concise identification and description of factors. The interrelationship was clear and related to short- and long-term hauora. An unintended consequence was identified with a short explanation, and the significance of factors was explained for future participation.",
-       "miss": "Marker: a more thorough evaluation of the factors and their implications for Sara and her family was needed. Each of (b), (c) and (d) needed further evaluation for Excellence."
-      },
-      {
-       "grade": "Excellence (E7, 2025)",
-       "text": "Drew conclusions on how factors work together to influence Sara's hauora, with insight in (b). In (d) evaluated two significant factors for their impact on hauora and future participation, with suggestions for future trips.",
-       "miss": "Marker: in (c) the factors leading to the unintended consequence were explained but needed further evaluation for E8."
+       "miss": "Marker: Merit needs an explanation of how factors interrelate. In (b) the factors were not interrelated; in (c) the effect on Sara and her family's wellbeing was not expanded; in (d) only one factor was described and the second was implied, and factors were not connected to students' hauora.",
+       "version": "Version 3 (2025 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92010-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M5, 2024)",
        "text": "Clearly identified relevant factors affecting the family's hauora and explained some connections between them.",
-       "miss": "Marker: Excellence needed an evaluation of which factor had the most significant influence, and a more thorough look at long-term effects on the family's hauora."
+       "miss": "Marker: Excellence needed an evaluation of which factor had the most significant influence, and a more thorough look at long-term effects on the family's hauora.",
+       "version": "Version 3 (2024 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92010-exp-2024-merit.pdf"
+      },
+      {
+       "grade": "Merit (M6, 2025)",
+       "text": "Clear, concise identification and description of factors. The interrelationship was clear and related to short- and long-term hauora. An unintended consequence was identified with a short explanation, and the significance of factors was explained for future participation.",
+       "miss": "Marker: a more thorough evaluation of the factors and their implications for Sara and her family was needed. Each of (b), (c) and (d) needed further evaluation for Excellence.",
+       "version": "Version 3 (2025 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92010-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (E7, 2024)",
+       "text": "Identified influences in the scenario affecting the family's hauora, discussed how they interact, and evaluated their possible long-term effects.",
+       "miss": "More justification was needed to strengthen the analysis.",
+       "version": "Version 3 (2024 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92010-exp-2024-excellence.pdf"
+      },
+      {
+       "grade": "Excellence (E7, 2025)",
+       "text": "Drew conclusions on how factors work together to influence Sara's hauora, with insight in (b). In (d) evaluated two significant factors for their impact on hauora and future participation, with suggestions for future trips.",
+       "miss": "Marker: in (c) the factors leading to the unintended consequence were explained but needed further evaluation for E8.",
+       "version": "Version 3 (2025 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92010-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year online digital examination (2026). The resource booklet is unseen, so a practice exam used for derived grades should use a scenario students have not seen or studied.",
       "The answer must use the scenario and/or resources provided (2026 specification). Own knowledge may be added but cannot replace the scenario.",
@@ -2875,7 +3202,7 @@ window.MOD_EX['1'] = {
       "Personal disclosures in a scenario answer. They are not evidence, and any safety concern goes to the teacher first."
      ],
      "aiLimits": "Screenshots of digital answers or scans may be misread, and the AI cannot see the teacher's scenario or resource booklet unless it is supplied. The teacher must confirm which scenario was used, that it was unseen, and that the practice exam was sat under supervision without notes.",
-     "researchNotes": "Standard text from the NZQA as92010 PDF (2024 folder; Version 3). EN1 and EN4 were obtained in quoted fragments; EN2 and EN3 are close paraphrase. 2026, 2025 and 2024 specifications read via fetch. The 2025 and 2024 papers, schedules, reports and the 2025 resource booklet were read via fetch (summarised by the fetch tool, not quoted in full). The 2024 resource booklet was not read. 2025 exemplar commentary was quoted in fragments. The 2023 materials (first year of the new standard) exist but were not used. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. NZQA lists a 2026 'Profiles of Expected Performance' PDF (92010-pep-2026.pdf) that was not read. Literacy co-requisite status was not confirmed (ncea.education.govt.nz under maintenance). Derived-grade rule notes cl. 3 and cl. 4 follow the 2026 Rules as recorded in the History file for this pilot; A2024/5 was re-checked and does not name Health Studies.",
+     "researchNotes": "Standard text from the NZQA as92010 PDF (2024 folder; Version 3). EN1 and EN4 were obtained in quoted fragments; EN2 and EN3 are close paraphrase. 2026, 2025 and 2024 specifications read via fetch. The 2025 and 2024 papers, schedules, reports and the 2025 resource booklet were read via fetch (summarised by the fetch tool, not quoted in full). The 2024 resource booklet was not read. 2025 exemplar commentary was quoted in fragments. The 2023 materials (first year of the new standard) exist but were not used. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. NZQA lists a 2026 'Profiles of Expected Performance' PDF (92010-pep-2026.pdf) that was not read. Literacy co-requisite status was not confirmed (ncea.education.govt.nz under maintenance). Derived-grade rule notes cl. 3 and cl. 4 follow the 2026 Rules as recorded in the History file for this pilot; A2024/5 was re-checked and does not name Health Studies. Enrichment Oct 2026: 6 NZQA exemplars now held (all with URLs); no public association material was found.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -2985,21 +3312,49 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achievement (A4, 2023)",
+       "text": "Charlie and Nik (belonging, gender and sexual identity): proposed journaling or walking, talking with friend Manu, and joining Inside Out, with basic explanations of strategies and impact on hauora.",
+       "miss": "For Merit: explain how the strategies could work together and elaborate on how manaakitanga could be developed by them.",
+       "version": "2023 submitted report, before Version 3 (December 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92011-exp-2023-achievement.pdf"
+      },
+      {
        "grade": "Achievement (A4, 2025)",
        "text": "Identified and described strategies throughout the response and recommended a strategy for each conflicting pressure.",
-       "miss": "The commentary does not state the gap. By the schedule, Merit needs an explanation of how the strategies work together, with reference to an underlying concept."
+       "miss": "",
+       "version": "Version 3 (2025 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92011-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (M5, 2023)",
+       "text": "Quinn and Mia (rising food prices): three good strategies (learning gardening, rebuilding gardens with neighbour Jenny, community open pantry); much detail on steps for one; wellbeing explained in detail; attempted to explain how strategies work together.",
+       "miss": "",
+       "version": "2023 submitted report, before Version 3 (December 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92011-exp-2023-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2025)",
        "text": "Identified and described strategies throughout, recommended a strategy for each conflicting pressure, and discussed how strategies work together to enhance hauora with reference to a relevant underlying concept, using examples.",
-       "miss": "The commentary does not state the gap. By the E8 commentary, Excellence needs an evaluation of the effectiveness of each strategy and conclusions about the combination."
+       "miss": "",
+       "version": "Version 3 (2025 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92011-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (E7, 2023)",
+       "text": "Rising supermarket prices: restoring a garden, learning gardening from Jenny, a community pātaka kai; showed insight and critical thought about how characters could work together, with hauora and nutrition knowledge woven through.",
+       "miss": "",
+       "version": "2023 submitted report, before Version 3 (December 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92011-exp-2023-excellence.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Recommended a strategy for each conflicting pressure and evaluated the effectiveness of each in enhancing Jamie's hauora. Evaluated the strategies that work together and drew conclusions about their effectiveness, with examples.",
-       "miss": ""
+       "miss": "",
+       "version": "Version 3 (2025 exam)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92011-exp-2025-excellence.pdf"
       }
      ],
+     "associationNotes": [],
      "conditions": [
       "End-of-year online digital examination (2026). The scenario and resources are unseen, so a practice exam used for derived grades should use a scenario students have not studied.",
       "The answer must use the scenario and/or resources and draw on at least one underlying concept (2026 specification).",
@@ -3089,10 +3444,11 @@ window.MOD_EX['1'] = {
       "No underlying concept referred to. It is part of the Achievement definition in EN1, not just Merit or Excellence.",
       "'Effective' asserted without reasons. Excellence needs conclusions about effectiveness (positives, negatives, short and long term).",
       "Practice papers modelled on the 2024 pre-released report do not match the 2026 exam conditions.",
-      "Students drawing on their own experiences. Not needed for any grade; raise any safety concern with the teacher before marking."
+      "Students drawing on their own experiences. Not needed for any grade; raise any safety concern with the teacher before marking.",
+      "The 2023 exemplars were marked before Version 3 (December 2023), when 92011 was a submitted report; use them for quality of strategies, not format."
      ],
      "aiLimits": "Screenshots of digital answers or scans may be misread, and the AI cannot see the teacher's scenario or resource booklet unless it is supplied. The teacher must confirm the scenario used, that it was unseen, which underlying concepts were expected, and that the exam was sat under supervision without notes.",
-     "researchNotes": "Standard text from the NZQA as92011 PDF (2024 folder; Version 3), with EN1 to EN3 obtained in quoted fragments. 2026, 2025 and 2024 specifications read via fetch. The 2025 paper, resource booklet, schedule and report and the 2024 schedule and report were read via fetch (summarised, not quoted in full). The 2024 assessment was a submitted report, so there is no 2024 paper; the 2024 exam-paper URL failed. The 2025 sample assessment and its schedule, and the 2023 materials, were not read. 2025 exemplar commentary is brief; the 'miss' fields are my reading of the schedule, not NZQA commentary. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed.",
+     "researchNotes": "Standard text from the NZQA as92011 PDF (2024 folder; Version 3), with EN1 to EN3 obtained in quoted fragments. 2026, 2025 and 2024 specifications read via fetch. The 2025 paper, resource booklet, schedule and report and the 2024 schedule and report were read via fetch (summarised, not quoted in full). The 2024 assessment was a submitted report, so there is no 2024 paper; the 2024 exam-paper URL failed. The 2025 sample assessment and its schedule, and the 2023 materials, were not read. 2025 exemplar commentary is brief; the 'miss' fields are my reading of the schedule, not NZQA commentary. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (all with URLs); no public association material was found.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -3158,6 +3514,16 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA cut scores",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ History Teachers' Association (NZHTA)",
+     "url": "https://tda.org.nz/nex/new-zealand-history-teachers-association",
+     "notes": [
+      "Checked October 2026: NZHTA is a support and advocacy body (member email-outs, surveys, the Aotearoa NZ histories campaign). No public marking, moderation or exemplar guidance was found; its own website could not be reached for checking.",
+      "No public joint NZQA–NZHTA moderation guidance was found. For History, use NZQA's own clarifications, National Moderator's Reports and annotated exemplars."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -3286,32 +3652,44 @@ window.MOD_EX['1'] = {
       {
        "grade": "Achieved (A3, 2024)",
        "text": "Gave some clear evidence connecting the context and concept. Studied context: the 1981 Springbok Tour protests.",
-       "miss": "Needed more evidence drawn from MULTIPLE booklet sources in (a) and (b). In (c), with cause as the concept, it needed what LED to the protests rather than what happened during the tour."
+       "miss": "Needed more evidence drawn from MULTIPLE booklet sources in (a) and (b). In (c), with cause as the concept, it needed what LED to the protests rather than what happened during the tour.",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92026-exp-2024-achievement.pdf"
       },
       {
        "grade": "Achieved (A4, 2025)",
        "text": "Referenced the supplied sources and the concepts successfully in (a) and (b).",
-       "miss": "In (c), gave a narrative and timeline of the Bastion Point protests (1977–78) without connecting explicitly to tūrangawaewae. The marker noted that effect would have fitted the evidence better."
+       "miss": "In (c), gave a narrative and timeline of the Bastion Point protests (1977–78) without connecting explicitly to tūrangawaewae. The marker noted that effect would have fitted the evidence better.",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92026-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M5, 2025)",
        "text": "Used a range of evidence to explain how the sources demonstrated the concepts, rather than restating the sources. In (c), the 1975 Māori Land March was well defined enough to link successfully to effect.",
-       "miss": "The commentary does not state what was missing for Excellence. By the schedule, the next step is examining the concepts across both contexts with well-considered evidence that develops the explanation."
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92026-exp-2025-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2024)",
        "text": "Used multiple sources and multiple pieces of evidence to explain the concept in (a) and (b). In (c), gave clear examples of different types of mana and explained how mana was enhanced or diminished.",
-       "miss": "The commentary does not state the gap. By the schedule, it needed to examine the concepts and their relevance across the contexts, not only explain them within each."
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92026-exp-2024-merit.pdf"
       },
       {
        "grade": "Excellence (E7, 2024)",
        "text": "Good planning was visible in the structure and clear paragraphs. Used a good range of evidence from the resources in (b) and from the student's own learning in (c).",
-       "miss": "E8 needs a range of relevant, well-considered evidence that fully develops the explanation. The commentary does not detail the gap."
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92026-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (E7, 2025)",
        "text": "Well-structured responses. In (a) and (b), linked the sources clearly to the concepts with specific evidence. In (c), Bastion Point was well defined enough to link clearly to effect with specific, varied evidence.",
-       "miss": "The commentary does not detail the step to E8 (well-considered evidence throughout)."
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92026-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -3420,7 +3798,8 @@ window.MOD_EX['1'] = {
       "Do not reward length, memorised definitions or copied source text. Score the explanation of how the evidence shows the concept, as one holistic code across all parts."
      ],
      "aiLimits": "Scans of handwritten scripts and screenshots of digital answers may be misread, and the AI cannot see the teacher's resource booklet unless it is supplied. The teacher must confirm the booklet content, which concepts were specified, and the accuracy of any studied-context evidence (names, dates, statistics) the AI cannot check.",
-     "researchNotes": "Standard text from the NZQA as92026 PDF (2024 folder; Version 3). Explanatory notes are close to verbatim, obtained in quoted fragments. 2026 specification read via fetch of 92026-spc-2026 and HIST-L1-spc-2026 (published October 2025). NO 2026 exam paper or schedule exists yet (the exam is in November 2026), and no 2026 sample paper in the new 1+2 layout was found. The exam date and time allowance were not confirmed: the 2026 timetable PDF did not extract clearly (possibly Wed 18 November), and the papers state no time. The schedules do not state 'holistic' in words, but they give a single 0–8 code set for the whole paper. Assessment Report content is summarised from NZQA's PDFs. Exemplar commentary is brief, and the 'miss' fields marked 'not stated' are my reading of the schedule, not NZQA commentary. The 2023 paper, schedule and report (pilot year) are on the NZQA page but were not used. Literacy co-requisite approval for 92026 was not confirmed, because the ncea.education.govt.nz page for 1.3 was under maintenance and the NZQA literacy list is a spreadsheet that could not be read.",
+     "researchNotes": "Standard text from the NZQA as92026 PDF (2024 folder; Version 3). Explanatory notes are close to verbatim, obtained in quoted fragments. 2026 specification read via fetch of 92026-spc-2026 and HIST-L1-spc-2026 (published October 2025). NO 2026 exam paper or schedule exists yet (the exam is in November 2026), and no 2026 sample paper in the new 1+2 layout was found. The exam date and time allowance were not confirmed: the 2026 timetable PDF did not extract clearly (possibly Wed 18 November), and the papers state no time. The schedules do not state 'holistic' in words, but they give a single 0–8 code set for the whole paper. Assessment Report content is summarised from NZQA's PDFs. Exemplar commentary is brief, and the 'miss' fields marked 'not stated' are my reading of the schedule, not NZQA commentary. The 2023 paper, schedule and report (pilot year) are on the NZQA page but were not used. Literacy co-requisite approval for 92026 was not confirmed, because the ncea.education.govt.nz page for 1.3 was under maintenance and the NZQA literacy list is a spreadsheet that could not be read. Enrichment Oct 2026: 6 NZQA exemplars now held. No public NZHTA or joint NZQA–NZHTA guidance was found for this standard.",
+     "associationNotes": [],
      "scoring": "whole",
      "clarifications": {
       "date": "n/a",
@@ -3532,17 +3911,44 @@ window.MOD_EX['1'] = {
       {
        "grade": "Achieved (A3, 2025)",
        "text": "An appropriate, named context (the 1981 Springbok Tour). Gave a straightforward description of the perspectives and actions of two individuals (Muldoon and Minto).",
-       "miss": "The commentary does not state the gap. By the schedule, A4 needs a detailed description, and Merit needs an explanation of how the perspectives inform the actions and how and why they differ."
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92027-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Achieved (A4, 2023)",
+       "text": "Context: the 2007 Urewera (Tūhoe) police raids. Effectively described local people's perspectives and their responses to the police actions.",
+       "miss": "Police actions were not explained in enough detail, and the wider historical context was not addressed.",
+       "version": "2023 exam: marked before Version 3 (December 2023) took effect",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92027-exp-2023-achievement.pdf"
+      },
+      {
+       "grade": "Merit (M5, 2023)",
+       "text": "Context: the 1981 Springbok Tour. Identified pro-tour and anti-tour perspectives with associated actions and reasons, and explained how they differed.",
+       "miss": "Some mention of wider context, but not enough depth, and it was not effectively integrated with the responses and actions.",
+       "version": "2023 exam: marked before Version 3 (December 2023) took effect",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92027-exp-2023-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2025)",
        "text": "Context: the invasion of Waikato. Explained the perspectives and actions of the British Government and Waikato Māori, and explained the points of difference clearly.",
-       "miss": "The commentary does not state the gap. By the schedule, Excellence needs a discussion that refers to the wider historical context."
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92027-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (E8, 2023)",
+       "text": "Context: the atomic bombing of Hiroshima (6 August 1945). Comprehensive analysis of American and Japanese perspectives and how they differed, considering the wider geopolitical context.",
+       "miss": "",
+       "version": "2023 exam: marked before Version 3 (December 2023) took effect",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/92027-exp-2023-excellence.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Context: the 1963 Birmingham Campaign. A comprehensive discussion of perspectives and actions, clearly laid out and organised, with the wider historical context EMBEDDED in each part.",
-       "miss": ""
+       "miss": "",
+       "version": "Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92027-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -3623,10 +4029,12 @@ window.MOD_EX['1'] = {
       "Wider historical context used only as an opening paragraph. For Excellence it must inform the discussion of perspectives.",
       "Over-broad contexts ('the Civil Rights movement', 'the Japanese bombings'), which lead to generic evidence. Check the named context is specific.",
       "Practice tasks built on the 2024 report format (take-home, scaffolded, word-limited) do not match the 2026 exam conditions for derived grades.",
-      "Self-chosen contexts make factual errors hard to spot. Check the names, dates and quotations the student gives."
+      "Self-chosen contexts make factual errors hard to spot. Check the names, dates and quotations the student gives.",
+      "The 2023 92027 exemplars were marked before Version 3 (December 2023) took effect; use the 2025 exemplars and the current schedule as the main reference."
      ],
      "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. Because the context is the student's own and there is no resource booklet, the AI cannot verify every fact, so the teacher must check the accuracy of names, dates and quotations, and confirm the work was produced under exam conditions.",
-     "researchNotes": "Standard text from the NZQA as92027 PDF (2024 folder; Version 3). ENs obtained in quoted fragments. The key-intent points come from the NCEA Education page for 1.4, which also states literacy approval for the 2024–2027 transition. 2026 specification read via fetch (published October 2025). There is no 2026 paper or schedule yet. NZQA lists a 2026 'Profiles of Expected Performance' PDF (92027-pep-2026.pdf), but only a fragment (a 0–60 PEP band chart) was readable, so its meaning for 2026 marking is unknown and it was not used. The exam date and time allowance were not confirmed. The 2025 schedule was summarised, not quoted. The 2025 assessment report covers both 92026 and 92027 in one document. No 2024 exemplars were found (the 2024 assessment was a school-managed report), and the 2023 materials (a pilot question booklet) were not used.",
+     "researchNotes": "Standard text from the NZQA as92027 PDF (2024 folder; Version 3). ENs obtained in quoted fragments. The key-intent points come from the NCEA Education page for 1.4, which also states literacy approval for the 2024–2027 transition. 2026 specification read via fetch (published October 2025). There is no 2026 paper or schedule yet. NZQA lists a 2026 'Profiles of Expected Performance' PDF (92027-pep-2026.pdf), but only a fragment (a 0–60 PEP band chart) was readable, so its meaning for 2026 marking is unknown and it was not used. The exam date and time allowance were not confirmed. The 2025 schedule was summarised, not quoted. The 2025 assessment report covers both 92026 and 92027 in one document. No 2024 exemplars were found (the 2024 assessment was a school-managed report), and the 2023 materials (a pilot question booklet) were not used. Enrichment Oct 2026: 6 NZQA exemplars now held. NZQA lists no 2024 exemplars, so 2023 (pre-Version 3) items were added. No public NZHTA or joint NZQA–NZHTA guidance was found for this standard.",
+     "associationNotes": [],
      "scoring": "whole",
      "clarifications": {
       "date": "n/a",
@@ -3697,6 +4105,30 @@ window.MOD_EX['1'] = {
     {
      "label": "Summary of 2026 Assessment Rules changes (EmaiLink March 2026)",
      "url": "https://www2.nzqa.govt.nz/assets/About-us/Publications/EmaiLink/March-2026/Summary-of-2026-Assessment-Rules-changes.pdf"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ Association of Mathematics Teachers (NZAMT)",
+     "url": "https://www.nzamt.org.nz/",
+     "notes": [
+      "NZAMT runs Networks of Expertise (NEX) support for teachers implementing the reviewed NCEA standards (tda.org.nz). No publicly accessible NZAMT marking or moderation guidance was found; the NZAMT site could not be reached in this pass."
+     ]
+    },
+    {
+     "name": "Auckland Mathematical Association (AMA, NZAMT regional association)",
+     "url": "https://www.aucklandmaths.org.nz/",
+     "notes": [
+      "Public news posts relay NCEA change updates, Level 1 internal assessment resources from the Ministry and NZQA contract roles (markers, moderators); no standard-specific marking advice found."
+     ]
+    },
+    {
+     "name": "CensusAtSchool NZ / NZ Statistical Association Education Committee",
+     "url": "https://new.censusatschool.org.nz/nzsa/",
+     "notes": [
+      "Hosts NZSA Education Committee papers on NCEA statistics assessment (2013–2018), including 'Issues in Level 3 NCEA Statistics Internal Assessment' (2014) and 'Issues in Level 2 NCEA AS 91264' (2015). Discussion papers, not NZQA-endorsed.",
+      "Michelle Dalrymple's sampling-variation resource (updated 2024) sets out the inference progression 91944 → 91264 → 91582 with teaching 'watch-fors'; the linked progressions document was not read."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -3816,19 +4248,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved (total 10, 2025: Q1 A4, Q2 A3, Q3 A3)",
-       "text": "Q1 showed some knowledge of the key features of the displays and made a correct calculation from the resource. Q2 correctly interpreted the relationship between two variables with a supporting calculation. Q3 extrapolated from the resource to make a correct calculation.",
-       "miss": "Q1 did not refer to the context. The commentary does not state further gaps. By the schedule, Merit evidence needs two features described in context, or a correct conclusion with valid justification."
+       "grade": "Achievement, total 4 (2023)",
+       "text": "Two scripts. One understood the resources and answered every prompt (graph trends, electricity plan choice); the other gave reasonable interpretations with one calculated comparison.",
+       "miss": "Needed more supporting evidence to justify statements, and to combine information from several sources.",
+       "version": "2023 pilot (RAS) exam, single-score format; marked before Version 3 (December 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/91946-exp-2023-achievement.pdf"
       },
       {
-       "grade": "Merit (total 17, 2025: Q1 M6, Q2 M5, Q3 M6)",
-       "text": "Described and interpreted key features of the displays in context with suitable numerical evidence, and in Q3 used specific attributes of the displays to make justified recommendations.",
-       "miss": "The commentary does not state the gap. By the schedule, Excellence needs two features with a correct, validly justified conclusion and evaluation of reliability, variation and limitations."
+       "grade": "Achievement, total 10 (2025: Q1 A4, Q2 A3, Q3 A3)",
+       "text": "Q1 some knowledge of display features and a correct calculation from the resource; Q2 interpreted the relationship between two variables with a supporting calculation; Q3 extrapolated from the resource for a correct calculation.",
+       "miss": "Q1 did not refer to the context.",
+       "version": "2025 exam, Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91946-exp-2025-achievement.pdf"
       },
       {
-       "grade": "Excellence (total 24, 2025: E8, E8, E8)",
-       "text": "Context used throughout; good use of numerical evidence and display features to justify responses; clear communication and 'real world' thinking; good knowledge of sample size, variability and uncertainty throughout.",
-       "miss": ""
+       "grade": "Merit, total 6 (2023)",
+       "text": "Two scripts. Compared household and business price trends with figures from the resources and recommended a provider; discussed the 2030 renewable target using capacity data.",
+       "miss": "Script 1: needed to consider how to choose a provider, not which, and use resource evidence in Section B(iii). Script 2: no gap stated.",
+       "version": "2023 pilot (RAS) exam, single-score format; marked before Version 3 (December 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/91946-exp-2023-merit.pdf"
+      },
+      {
+       "grade": "Merit, total 17 (2025: Q1 M6, Q2 M5, Q3 M6)",
+       "text": "Described and interpreted key display features in context with suitable numerical evidence; in Q3 used specific attributes of the displays to make justified recommendations.",
+       "miss": "",
+       "version": "2025 exam, Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91946-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence, total 7 (2023)",
+       "text": "Section A(iv): considered what matters to a family in deciding how to choose an electricity provider, using resource evidence and limitations and assumptions; Section B(iii) drew on resources and 'real world views'.",
+       "miss": "",
+       "version": "2023 pilot (RAS) exam, single-score format; marked before Version 3 (December 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/91946-exp-2023-excellence.pdf"
+      },
+      {
+       "grade": "Excellence, total 24 (2025: E8, E8, E8)",
+       "text": "Context used throughout; numerical evidence and display features justify responses; clear communication and 'real world' thinking; good knowledge of sample size, variability and uncertainty.",
+       "miss": "",
+       "version": "2025 exam, Version 3",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91946-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -3909,10 +4368,12 @@ window.MOD_EX['1'] = {
       "Time series and scatter plots read poorly: trend, seasonal pattern and unusual features confused, or predictions with no comment on confidence.",
       "'Personal worldview' parts left blank or answered with opinion detached from the data.",
       "Basic percentage and fraction calculation errors, and arithmetic with no working shown.",
-      "Count u, r and t per question correctly before converting to the code: one strong part does not lift a whole question."
+      "Count u, r and t per question correctly before converting to the code: one strong part does not lift a whole question.",
+      "2023 exemplars come from the pilot (RAS) exam, marked before Version 3 with a single-score, prompt-based format; use them for quality of evidence only, not for question structure or score conversion."
      ],
      "aiLimits": "Handwritten scripts on printed paper must be scanned, and the AI may misread numbers, fractions or working, and cannot see the teacher's resource booklet unless it is supplied. The teacher must supply the displays and data used, confirm what each part asked, and check any calculation the AI flags as wrong against the scan.",
-     "researchNotes": "Standard text from the NZQA as91946 PDF (2024 folder; Version 3). ENs are close paraphrases from fetched text, not guaranteed verbatim. 2026 and 2025 specifications read via fetch; no format change found for 2026. The 2025 schedule's legend lists codes and u/r/t counts without explicit pairing; the pairing given is read from the column order. NZQA also lists a 2026 'Profiles of Expected Performance' PDF (91946-pep-2026.pdf), but only a 0–60 PEP band chart was readable, so it was not used. The derived-grade availability list is undated. Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 question booklet, schedule and report exist but were not used. Exemplar 'miss' fields marked as schedule-based are my reading, not NZQA commentary.",
+     "researchNotes": "Standard text from the NZQA as91946 PDF (2024 folder; Version 3). ENs are close paraphrases from fetched text, not guaranteed verbatim. 2026 and 2025 specifications read via fetch; no format change found for 2026. The 2025 schedule's legend lists codes and u/r/t counts without explicit pairing; the pairing given is read from the column order. NZQA also lists a 2026 'Profiles of Expected Performance' PDF (91946-pep-2026.pdf), but only a 0–60 PEP band chart was readable, so it was not used. The derived-grade availability list is undated. Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 question booklet, schedule and report exist but were not used. Exemplar 'miss' fields marked as schedule-based are my reading, not NZQA commentary. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 pilot and 2025; NZQA lists none for 2024; replaces earlier schedule-based \"miss\" readings with NZQA commentary only), with URLs; no standard-specific public association material found (subject-level associations only).",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -4026,19 +4487,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
-       "grade": "Achieved (total 9, 2025: Q1 A3, Q2 A4, Q3 N2)",
-       "text": "Found the surface area (2110) and used Pythagoras for BE in Q1; used the angle sum and algebra for x = 20, trigonometry for SF and a consistent volume in Q2; found the equation of line L in Q3.",
-       "miss": "The commentary does not state the gaps. By the schedule, Merit evidence needs complete multi-step answers with working, such as the perimeter of BDE or Q found algebraically."
+       "grade": "Achievement, total 7 (2023: Q1 M5, Q2 N0, Q3 N2)",
+       "text": "Q1 several correct parts including (c)(i) with appropriate working; Q2 all parts incorrect; Q3 (a)(i) correct only.",
+       "miss": "Q3(c): did not set up the correct equation or a consistent factorisation (must show = 20).",
+       "version": "2023 pilot (RAS) exam; version not stated (Version 2 approved March 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/91947-exp-2023-achievement.pdf"
       },
       {
-       "grade": "Merit (total 15, 2025: M5, M5, M5)",
-       "text": "Solved the simultaneous equations for Q (Q1), found angle SFG (Q2), and found the parabola's equation including the value of a (Q3).",
-       "miss": "Q1: finding the perimeter of triangle BDE would have given M6. Q2: factorising and solving the quadratic was needed. The commentary gives no gap for Q3."
+       "grade": "Achievement, total 9 (2025: Q1 A3, Q2 A4, Q3 N2)",
+       "text": "Q1 surface area (2110) and Pythagoras for BE; Q2 angle sum and algebra for x = 20, trigonometry for SF, consistent volume; Q3 equation of line L.",
+       "miss": "",
+       "version": "2025 exam, Version 2",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91947-exp-2025-achievement.pdf"
       },
       {
-       "grade": "Excellence (total 24, 2025: E8, E8, E8)",
-       "text": "Found the exponential equation and two features of its curve; converted the earth's weight to tonnes and found the number of trips; found height RS and used it in an area formula to generate and solve a quadratic.",
-       "miss": ""
+       "grade": "Merit, total 15 (2023: M5, M5, M5)",
+       "text": "Q1 found angle ABP with working; Q2 justified v = 67.5° and a correct equation in x and y; Q3 both values of x.",
+       "miss": "",
+       "version": "2023 pilot (RAS) exam; version not stated (Version 2 approved March 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/91947-exp-2023-merit.pdf"
+      },
+      {
+       "grade": "Merit, total 15 (2025: M5, M5, M5)",
+       "text": "Solved simultaneous equations for Q (Q1), found angle SFG (Q2), and found the parabola's equation including a (Q3).",
+       "miss": "Q1: perimeter of triangle BDE would have given M6. Q2: factorising and solving the quadratic was needed.",
+       "version": "2025 exam, Version 2",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91947-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence, total 24 (2023: E8, E8, E8)",
+       "text": "Chains of logical reasoning with generalisations: unoccupied volume using radius as a variable; ship speed; surface area of an n-sided polygon; graph intersections; trapezium area solved, rejecting x = –5.",
+       "miss": "",
+       "version": "2023 pilot (RAS) exam; version not stated (Version 2 approved March 2023)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2023/91947-exp-2023-excellence.pdf"
+      },
+      {
+       "grade": "Excellence, total 24 (2025: E8, E8, E8)",
+       "text": "Found an exponential equation and two features of its curve; converted the earth's weight to tonnes and found the number of trips; found height RS and used it to form and solve a quadratic.",
+       "miss": "",
+       "version": "2025 exam, Version 2",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91947-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -4113,10 +4601,12 @@ window.MOD_EX['1'] = {
       "Equation of a straight line with the wrong sign of the gradient; parabola or exponential equations not justified.",
       "Rounding too early in multi-step problems, then the final answer marked wrong rather than checked for consistency.",
       "Practice papers that reuse the exact 2024 or 2025 questions students have already seen. Derived-grade evidence must be valid and authentic; modified papers are fine, rehearsed ones are not.",
-      "Score each question by counting u, r and t, not by averaging part grades or rewarding effort."
+      "Score each question by counting u, r and t, not by averaging part grades or rewarding effort.",
+      "2023 exemplars come from the pilot (RAS) exam; question styles and the grade-score pattern may differ from current papers, so prefer the 2025 exemplars for score lines."
      ],
      "aiLimits": "Printed-paper scripts must be scanned, and the AI may misread handwritten algebra, signs, indices, fractions and diagrams. It can check arithmetic and algebra, but the teacher must confirm the question wording and diagrams (supply the paper), check any flagged error against the scan, and confirm no graphing-calculator-only answers were credited.",
-     "researchNotes": "Standard text from the NZQA as91947 PDF (2024 folder; Version 2). 2026 specification read via fetch; no format change found for 2026. The 2025 and 2024 schedules were read as extracted text, which was partly garbled; the per-part u/r/t descriptions are a close reading, and the code-to-count pairing is read from the legend's column order. The 2025 report's wording on Correct Answer Only was summarised as 'u at best' (2024 report says 'grade U at best'). Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 paper, schedule and report exist but were not used. 2024 exemplars are not listed on the NZQA page.",
+     "researchNotes": "Standard text from the NZQA as91947 PDF (2024 folder; Version 2). 2026 specification read via fetch; no format change found for 2026. The 2025 and 2024 schedules were read as extracted text, which was partly garbled; the per-part u/r/t descriptions are a close reading, and the code-to-count pairing is read from the legend's column order. The 2025 report's wording on Correct Answer Only was summarised as 'u at best' (2024 report says 'grade U at best'). Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 paper, schedule and report exist but were not used. 2024 exemplars are not listed on the NZQA page. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 pilot and 2025; NZQA lists none for 2024; replaces earlier schedule-based \"miss\" readings with NZQA commentary only), with URLs; no standard-specific public association material found (subject-level associations only).",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -4131,6 +4621,7 @@ window.MOD_EX['1'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "derivedGradeNotes": [],
    "excluded": [
     {
@@ -4147,6 +4638,7 @@ window.MOD_EX['1'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "derivedGradeNotes": [],
    "excluded": [
     {
@@ -4215,6 +4707,25 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA cut scores",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "NZ Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/",
+     "notes": []
+    },
+    {
+     "name": "NZ Institute of Physics (NZIP) — NZ Physics Teachers' Resource Bank",
+     "url": "https://resource-bank.nzip.org.nz/?p=1392",
+     "notes": [
+      "Public teaching resource bank organised by standard (e.g. 91168, 91170, 91171, 91523): teaching suggestions, demonstrations and videos only; no marking, moderation or grade-boundary advice was found on it (Oct 2026). Indicator only."
+     ]
+    },
+    {
+     "name": "Earth and Space Science New Zealand (ESSENZ, NZASE affiliate)",
+     "url": "https://www.earthspacescience.org.nz/",
+     "notes": []
     }
    ],
    "derivedGradeNotes": [
@@ -4318,14 +4829,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achievement (2024; total 10: 4, 3, 3)",
+       "text": "Described why shadow length and direction change through the day, how the Sun's path changes through the year, equinox vs solstice, and Sun-Moon-Earth positions for solar and lunar eclipses.",
+       "miss": "Described without explaining: no explanation of shadow change or latitude effect, none of the listed seasonal points, and eclipse positions not linked to Moon phases.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92046-exp-2024-achievement.pdf"
+      },
+      {
+       "grade": "Achievement (2025; total 10: 4, 3, 3)",
+       "text": "Described why summer is hotter than winter, how the Sun's height changes with season, day and night, the Moon's orbit and visibility; defined equinoxes and solstices and compared Sun angle at the Equator and Dunedin.",
+       "miss": "Did not explain why the Southern Hemisphere has four seasons, the Moon concepts described, or why shadow lengths differ between the two locations.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92046-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (2024; total 15: 5, 5, 5)",
+       "text": "Explained shadow change through the day, seasonal Sun path and equinox vs solstice; explained Moon's orbital tilt and eclipse frequency, linking phase and positions for a solar eclipse.",
+       "miss": "Did not explain how latitude changes shadow length or causes the Christchurch-Scott Base day-length difference, or why solar and lunar eclipses differ in duration.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92046-exp-2024-merit.pdf"
+      },
+      {
        "grade": "Merit (15/24: M5, M5, M5, 2025)",
        "text": "Q1 explained differences in solar radiation and daylength; Q2 explained changes in the Moon's appearance and apparent size; Q3 explained shadows at one location and Sun-angle differences between two locations.",
-       "miss": "Did not explain why the Southern Hemisphere has four seasons or the differences in the Sun's height (Q1); did not explain phases from the positions of the Sun, Earth and Moon (Q2); did not explain the changing sunrise and sunset locations or how tilt affects the Sun's height through the year (Q3)."
+       "miss": "Did not explain why the Southern Hemisphere has four seasons or the differences in the Sun's height (Q1); did not explain phases from the positions of the Sun, Earth and Moon (Q2); did not explain the changing sunrise and sunset locations or how tilt affects the Sun's height through the year (Q3).",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92046-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (2024; total 21: 7, 7, 7)",
+       "text": "Linked Invercargill's longer shadows to higher latitude; linked Christchurch-Scott Base day length to tilt and latitude; explained why lunar eclipses last longer than solar.",
+       "miss": "Did not discuss day-length change through the year or seasonal differences between locations; orbital tilt and no monthly eclipses not fully explained.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92046-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (22/24: E8, E7, E7, 2025)",
        "text": "Q1 discussed why Wellington's average monthly temperature changes through the year. Q2 explained how Moon phases look different in the two hemispheres. Q3 explained why daylength differs between Auckland and Invercargill.",
-       "miss": "For E8 in Q2 it needed to discuss why super full moons are infrequent; for E8 in Q3, the difference in shadow length between two locations based on latitude."
+       "miss": "For E8 in Q2 it needed to discuss why super full moons are infrequent; for E8 in Q3, the difference in shadow length between two locations based on latitude.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92046-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -4397,7 +4940,8 @@ window.MOD_EX['1'] = {
       "Add the three question codes. The Achievement cut is 8 for this standard."
      ],
      "aiLimits": "Diagrams (orbits, Moon phases, Sun paths, shadows), labels, any calculations and handwritten working are read from scans and can be misread, especially shading of Moon phases, arrow directions and small labels. The teacher must check every diagram and label against the script and confirm data readings against the practice paper's own graphs and tables.",
-     "researchNotes": "Criteria and EN1 verbatim from as92046 (Version 3); EN2 and EN3 summarised. 2026 and 2025 specifications read via fetch; no format change found. No 2026 paper or schedule exists yet. The per-question code line and cut scores are quoted from the 2024 and 2025 schedules, but the fetch tool reported that column alignment of the 2025 Merit and Excellence evidence bullets was unclear, so the A/M/E examples above are indicative. The 2024 format is taken from the 2024 Assessment Report ('school-managed submission'); the 2024 specification could not be fetched and the 2024 paper was not read. The exam date and time allowance were not confirmed. Literacy co-requisite status was not checked.",
+     "researchNotes": "Criteria and EN1 verbatim from as92046 (Version 3); EN2 and EN3 summarised. 2026 and 2025 specifications read via fetch; no format change found. No 2026 paper or schedule exists yet. The per-question code line and cut scores are quoted from the 2024 and 2025 schedules, but the fetch tool reported that column alignment of the 2025 Merit and Excellence evidence bullets was unclear, so the A/M/E examples above are indicative. The 2024 format is taken from the 2024 Assessment Report ('school-managed submission'); the 2024 specification could not be fetched and the 2024 paper was not read. The exam date and time allowance were not confirmed. Literacy co-requisite status was not checked. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found.",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -4498,14 +5042,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "Achievement (2024; total 8: 4, 2, 2)",
+       "text": "Identified Ep to Ek transfer, calculated Ep and impact speed; defined latent heat and calculated energy required; drew the ammeter correctly and suggested the variable resistor's effect on current.",
+       "miss": "Did not say whether air resistance makes the ball faster or slower; work, power and power definition wrong; nothing beyond Q2 definition; resistance miscalculated.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92047-exp-2024-achievement.pdf"
+      },
+      {
+       "grade": "Achievement (2025; total 12: 5, 4, 3)",
+       "text": "Correct energy loss, motor energy and Ep gained, elastic Ep to Ek; correct heater current from power, rising air linked to density; defined specific heat capacity and calculated 72 000 J with correct ΔT.",
+       "miss": "Motor energy loss and remaining Ep not explained; current not halved; P = VI, E = Pt not used; convection diagram unlabelled; c equation rearranged wrongly; no valid improvement.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92047-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "Merit (2024; total 14: 6, 5, 3)",
+       "text": "Explained elastic Ep to Ek with the calculation and correct velocity; correct heat to melt 0.750 kg of ice; correct power working in Q3.",
+       "miss": "Heat source not explained; power definition and assumption missing; graph not explained with specific and latent heat; radiation wrong; meters unlabelled; wrong reason for submerging wire; no unit.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92047-exp-2024-merit.pdf"
+      },
+      {
        "grade": "Merit (16/24: 6, 5, 5, 2025)",
        "text": "Q1 described energy loss and calculated motor energy and Ep gained; Q2 calculated the current at 50% with the correct unit and credited density change in convection; Q3 defined specific heat capacity and showed 72 000 J.",
-       "miss": "Did not explain why the two Q1 values differ, that Ep transfers to Ep + Ek + thermal energy, or that air particles hitting the pot produce the thermal energy; assumptions about maximum speed were wrong. Q2 did not explain temperature versus heat, give the E = Pt link, or label a convection diagram. Q3 had the wrong unit for c, no follow-on from the equipment reason, and no heat-transfer link for the improvement."
+       "miss": "Did not explain why the two Q1 values differ, that Ep transfers to Ep + Ek + thermal energy, or that air particles hitting the pot produce the thermal energy; assumptions about maximum speed were wrong. Q2 did not explain temperature versus heat, give the E = Pt link, or label a convection diagram. Q3 had the wrong unit for c, no follow-on from the equipment reason, and no heat-transfer link for the improvement.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92047-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "Excellence (2024; total 21: 7, 7, 7)",
+       "text": "Energy loss and impact speed; power defined with an assumption and correct work and power; latent heat defined (temperature constant) and calculated; Thermos energy and power; why the wire is under water; power with unit.",
+       "miss": "Air particles colliding with the ball not mentioned; latent vs specific heat not compared; coating and stopper not adequately explained; voltmeter unlabelled; voltages not discussed.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/92047-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (21/24: E7, E7, E7, 2025)",
        "text": "Correct calculations of motor energy and Ep gained, current at 50%, 72 000 J and c, with a reasoned explanation of why the experimental value differs.",
-       "miss": "For E8: Q1 needed Ep → Ep + Ek + thermal energy and the air-particle source of the thermal energy; Q2 needed temperature and heat explained and which variables in E = Pt change and which stay constant; Q3 had the wrong unit for c."
+       "miss": "For E8: Q1 needed Ep → Ep + Ek + thermal energy and the air-particle source of the thermal energy; Q2 needed temperature and heat explained and which variables in E = Pt change and which stay constant; Q3 had the wrong unit for c.",
+       "version": "Version 3 (current)",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/92047-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -4582,7 +5158,8 @@ window.MOD_EX['1'] = {
       "Add the three question codes and use the right year's cut scores (2024 Merit 13–17 and Excellence 18+; 2025 Merit 13–18 and Excellence 19+)."
      ],
      "aiLimits": "Calculations, handwritten working, units, graph readings and diagrams (convection currents, experimental set-ups, circuits) are read from scans and can be misread, especially superscripts, units and small numbers. The teacher must check every calculation, unit and graph reading against the script and the practice paper's given values, and confirm diagram labels.",
-     "researchNotes": "Criteria and EN1–EN4 verbatim from as92047 (Version 3); EN2 and EN3 lightly condensed. 2026 and 2025 specifications read via fetch; no format change found. No 2026 paper or schedule exists yet. Per-question code lines and cut scores quoted from the 2024 and 2025 schedules; the fetch tool noted the 2025 schedule columns were not cleanly separated, so tier placement of some evidence bullets is indicative. The 2025 schedule worked Q1 with g = 10 N kg⁻¹ and accepted 9.8. The one-hour duration comes from the Assessment Reports, not the specification. The 2024 paper itself was not read (summarised from the schedule). The exam date was not confirmed. Literacy co-requisite status was not checked.",
+     "researchNotes": "Criteria and EN1–EN4 verbatim from as92047 (Version 3); EN2 and EN3 lightly condensed. 2026 and 2025 specifications read via fetch; no format change found. No 2026 paper or schedule exists yet. Per-question code lines and cut scores quoted from the 2024 and 2025 schedules; the fetch tool noted the 2025 schedule columns were not cleanly separated, so tier placement of some evidence bullets is indicative. The 2025 schedule worked Q1 with g = 10 N kg⁻¹ and accepted 9.8. The one-hour duration comes from the Assessment Reports, not the specification. The 2024 paper itself was not read (summarised from the schedule). The exam date was not confirmed. Literacy co-requisite status was not checked. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found.",
+     "associationNotes": [],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -4652,6 +5229,18 @@ window.MOD_EX['1'] = {
     {
      "label": "NZQA cut scores",
      "url": "https://www2.nzqa.govt.nz/ncea/subjects/cut-scores/"
+    }
+   ],
+   "associations": [
+    {
+     "name": "New Zealand Association of Science Educators (NZASE)",
+     "url": "https://nzase.org.nz/resources/resources-by-nzase/",
+     "notes": [
+      "Publishes the Science NCEA Level 1 Subject Learning Outcomes companion (public PDF) and a Level 1 resources Google Drive (Feb 2025); content of the Drive was not reviewed.",
+      "Term 1 2025 PLD 'Unpacking moderation, writing and critiquing assessment tasks' slides are linked from nzase.org.nz; content not summarised publicly.",
+      "NZASE produced derived-grade (practice) exams for 2026 Level 1 Science 91922 and 91923 (free to member schools, $50 otherwise, by email request). Not NZQA material: check format against the 2026 specification.",
+      "NZASE research resource 'Creative assessment for NCEA Science' (2020) describes students presenting evidence as video, podcast, storyboard or games; format must still meet the standard's evidence requirements."
+     ]
     }
    ],
    "derivedGradeNotes": [
@@ -4776,19 +5365,46 @@ window.MOD_EX['1'] = {
      ],
      "exemplars": [
       {
+       "grade": "A4 (2024)",
+       "text": "Identified examples of varied perspectives contributing to the science idea (verifying answers) and highlighted how patterns and technology contributed; identified features of science.",
+       "miss": "The commentary notes the student identified features but did not explain how they contribute to the science idea.",
+       "version": "Version 4; 2024 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91922-exp-2024-achievement.pdf"
+      },
+      {
        "grade": "Achieved (A4, 2025)",
        "text": "Seaweed-fed cattle (inferred from the commentary). Described the features with booklet examples such as new evidence on seaweed and gut microbes.",
-       "miss": "Part Three only attempted to explain how the two features support each other; the marker said it would have benefited from naming which technologies supported the development of the idea."
+       "miss": "Part Three only attempted to explain how the two features support each other; the marker said it would have benefited from naming which technologies supported the development of the idea.",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91922-exp-2025-achievement.pdf"
+      },
+      {
+       "grade": "M5 (2024)",
+       "text": "Explained the significance of varied perspectives with examples from the resource, and how identifying a pattern gave Dr Currie a focus for her research, with an example.",
+       "miss": "The commentary notes the descriptions of the contribution of both relevant science ideas were less robust.",
+       "version": "Version 4; 2024 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91922-exp-2024-merit.pdf"
       },
       {
        "grade": "Merit (M6, 2025)",
        "text": "Spacesuits (inferred). Part One explained how social and cultural factors contribute, e.g. collaboration enabling knowledge sharing that speeds development. Part Two linked new evidence to existing designs.",
-       "miss": "Part Two only partly explained the benefits of technology, and Part Three only attempted to show how the features support each other, without clearly distinguishing needs from opportunities."
+       "miss": "Part Two only partly explained the benefits of technology, and Part Three only attempted to show how the features support each other, without clearly distinguishing needs from opportunities.",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91922-exp-2025-merit.pdf"
+      },
+      {
+       "grade": "E7 (2024)",
+       "text": "Explained the significance of both features and discussed how they interacted in developing the idea; explained development and use of technology and of specific language, symbols and conventions, with examples, without linking the latter to technology.",
+       "miss": "The commentary notes the candidate did not recognise the significance of interpreting patterns or interactions in the science idea.",
+       "version": "Version 4; 2024 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2024/91922-exp-2024-excellence.pdf"
       },
       {
        "grade": "Excellence (E8, 2025)",
        "text": "Seaweed-fed cattle. Explained social and cultural factors, linked the discovery that seaweed is more effective than bromoform to existing ideas, and in Part Three discussed the need to reduce methane driving the development of technology.",
-       "miss": ""
+       "miss": "",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91922-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -4876,7 +5492,14 @@ window.MOD_EX['1'] = {
       "Do not reward length. One holistic code covers all parts."
      ],
      "aiLimits": "Handwritten answers, any diagrams and handwritten working are read from scans or screenshots and may be misread, and the AI cannot see the teacher's resource booklet unless it is supplied. The teacher must confirm the booklet content, which features each part specified, and that the examples the student cites are actually in the booklet.",
-     "researchNotes": "Criteria and EN1/EN3 are verbatim from as91922 (Version 4); EN2 is summarised. 2026 and 2025 specifications read via fetch; the 2026 features list is quoted from the 2026 specification and differs from 2025. No 2026 paper, sample or schedule exists yet. The 2025 schedule score descriptors were paraphrased by the fetch tool, so the N1–E8 wording is close but not verbatim; the 2024 descriptors were quoted. The exam date and time allowance were not confirmed. The 2026 specification says the exam is online digital but the stimulus is a separate paper booklet; it does not explain how the two fit together. Exemplar contexts for the A4 and M6 scripts were inferred from the commentary. Literacy co-requisite status was not confirmed.",
+     "researchNotes": "Criteria and EN1/EN3 are verbatim from as91922 (Version 4); EN2 is summarised. 2026 and 2025 specifications read via fetch; the 2026 features list is quoted from the 2026 specification and differs from 2025. No 2026 paper, sample or schedule exists yet. The 2025 schedule score descriptors were paraphrased by the fetch tool, so the N1–E8 wording is close but not verbatim; the 2024 descriptors were quoted. The exam date and time allowance were not confirmed. The 2026 specification says the exam is online digital but the stimulus is a separate paper booklet; it does not explain how the two fit together. Exemplar contexts for the A4 and M6 scripts were inferred from the commentary. Literacy co-requisite status was not confirmed. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); standard-specific association material found (see associationNotes).",
+     "associationNotes": [
+      {
+       "text": "NZASE has produced a 2026 derived-grade exam for 91922 (and S1.3 practice assessment resources in 2024); obtained by request, not public. Check it mirrors the 2026 NZQA format.",
+       "source": "NZASE, 'Derived Exams | 2026 & 2025' and 'S1.3 NZASE | Practice assessment resources'",
+       "url": "https://nzase.org.nz/category/resources/derived-exams/"
+      }
+     ],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -4980,17 +5603,23 @@ window.MOD_EX['1'] = {
       {
        "grade": "Achieved (A4, 2025)",
        "text": "Identified the source and described the purpose of the communicated information, described science language and identified conventions around statistics, visual representations, peer review and bias.",
-       "miss": "To gain Merit, it needed to explain how the science language or conventions had supported or not supported the claim."
+       "miss": "To gain Merit, it needed to explain how the science language or conventions had supported or not supported the claim.",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91923-exp-2025-achievement.pdf"
       },
       {
        "grade": "Merit (M6, 2025)",
        "text": "Explained how peer review and author credibility affect the validity of the claims.",
-       "miss": "Needed to EXAMINE how the science language or conventions affected the support for the claim."
+       "miss": "Needed to EXAMINE how the science language or conventions affected the support for the claim.",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91923-exp-2025-merit.pdf"
       },
       {
        "grade": "Excellence (E7, 2025)",
        "text": "Personality tests context. Examined how conflict of interest and peer review affected support for the claims, linked these to bias, and described or explained other conventions (currency, graphs, sample size, author credibility).",
-       "miss": "To gain E8, it needed to examine these conventions in more depth."
+       "miss": "To gain E8, it needed to examine these conventions in more depth.",
+       "version": "Version 4; 2025 examination",
+       "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91923-exp-2025-excellence.pdf"
       }
      ],
      "conditions": [
@@ -5069,7 +5698,14 @@ window.MOD_EX['1'] = {
       "Practice tasks in the 2024 report format do not match 2026 conditions."
      ],
      "aiLimits": "Handwritten answers, any diagrams and handwritten working are read from scans or screenshots and may be misread. The AI cannot see the resource booklet unless it is supplied, so the teacher must check that the sources, claims, quotations and conventions the student cites are actually in the resources.",
-     "researchNotes": "Criteria and EN1–EN4 verbatim from as91923 (Version 4). 2026 specification read via fetch (October 2025); no 2026 paper or schedule exists yet. The 2025 score descriptors are quoted from the schedule. The 2024 assessment was an over-time submitted report (2024 specification), so no 2024 exam paper exists; its resource booklet was not read. The 2024 schedule was summarised, not quoted. The M6 and A4 exemplar contexts are not stated in the extracts. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed because the NCEA Education page for 1.4 was under maintenance.",
+     "researchNotes": "Criteria and EN1–EN4 verbatim from as91923 (Version 4). 2026 specification read via fetch (October 2025); no 2026 paper or schedule exists yet. The 2025 score descriptors are quoted from the schedule. The 2024 assessment was an over-time submitted report (2024 specification), so no 2024 exam paper exists; its resource booklet was not read. The 2024 schedule was summarised, not quoted. The M6 and A4 exemplar contexts are not stated in the extracts. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed because the NCEA Education page for 1.4 was under maintenance. Enrichment Oct 2026: 3 NZQA annotated exemplars now held (2025); standard-specific association material found (see associationNotes).",
+     "associationNotes": [
+      {
+       "text": "NZASE has produced a 2026 derived-grade exam for 91923; obtained by request, not public. Check it mirrors the 2026 NZQA format before using it as evidence.",
+       "source": "NZASE, 'Derived Exams | 2026 & 2025'",
+       "url": "https://nzase.org.nz/category/resources/derived-exams/"
+      }
+     ],
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -5084,6 +5720,7 @@ window.MOD_EX['1'] = {
    "parallelHint": "",
    "privacyNote": "",
    "sources": [],
+   "associations": [],
    "derivedGradeNotes": [],
    "excluded": [
     {
