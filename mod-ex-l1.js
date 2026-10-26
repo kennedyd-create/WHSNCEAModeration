@@ -1408,7 +1408,7 @@ window.MOD_EX['1'] = {
        {
         "type": "ind",
         "src": "EN2; 2025 Assessment Report",
-        "t": "Uses a range of principles (four or more distinct heuristics), and includes mātāpono Māori and accessibility beyond language alone."
+        "t": "Uses a range of principles and includes mātāpono Māori and accessibility beyond language alone. (The 2025 report notes some candidates could not give the four different heuristics Part A asked for; that is a paper-specific prompt, not a threshold — the 2025 A3 code needs two principles matched with descriptions.)"
        }
       ],
       "merit": [
@@ -1461,7 +1461,7 @@ window.MOD_EX['1'] = {
       "Scripts far over the 1200-word guidance. Credit quality, not length."
      ],
      "aiLimits": "The AI cannot watch the Part E videos or see the Part B screenshots unless they are supplied, and it cannot check the student's studied interface. The teacher must confirm what the videos and screenshots show, that the studied interface's features are described accurately, and that the exam was sat on a computer under supervision without notes.",
-     "researchNotes": "Standard text from the NZQA as92006 PDF (2024 folder; Version 2), EN1 and EN2 obtained in quoted fragments. 2026 and 2025 specifications read via fetch. The 2025 and 2024 answer booklets, schedules and reports were read via fetch (summarised, not quoted in full). The schedules' grid layout did not extract cleanly, so some pairings of descriptors to codes are approximate; check the original grid. 2025 exemplar commentary was quoted in fragments; the interfaces the exemplar candidates studied are not named. 2024 exemplars, the 2024 sample assessment and the 2023 materials were not read. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found.",
+     "researchNotes": "Standard text from the NZQA as92006 PDF (2024 folder; Version 2), EN1 and EN2 obtained in quoted fragments. 2026 and 2025 specifications read via fetch. The 2025 and 2024 answer booklets, schedules and reports were read via fetch (summarised, not quoted in full). The schedules' grid layout did not extract cleanly, so some pairings of descriptors to codes are approximate; check the original grid. 2025 exemplar commentary was quoted in fragments; the interfaces the exemplar candidates studied are not named. 2024 exemplars, the 2024 sample assessment and the 2023 materials were not read. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found. Gate review Oct 2026: indicator no longer reads as needing four or more heuristics for Achievement; the 2025 A3 code needs two matched and described.",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -1665,7 +1665,7 @@ window.MOD_EX['1'] = {
        {
         "type": "req",
         "src": "EN1",
-        "t": "Describes a need or opportunity, the potential user(s), and their requirements (the 2026 sample asks for three requirements; a requirement says what the design must achieve)."
+        "t": "Describes a need or opportunity, the potential user(s), and their requirements (a requirement says what the design must achieve). The 2025 schedule credited Achievement with at least one specific requirement (two or more is Merit-level detail); the 2026 sample paper asks for three, so a practice paper may ask for three, but fewer is a quality gap, not missing evidence."
        },
        {
         "type": "req",
@@ -1739,7 +1739,7 @@ window.MOD_EX['1'] = {
       "NZQA's 2024 exemplars state they are based on an expired version of the standard; check any feature they credit against Version 5 before relying on it."
      ],
      "aiLimits": "The AI reads only the typed exam answers. It cannot see the student's completed design (sketches, mock-ups, storyboards, flowcharts, wireframes, ER diagrams) unless it is supplied, and scanned design images or hand-drawn diagrams may be read inaccurately or not at all. It cannot judge whether the design is the student's own or whether the described feedback really happened. The teacher must check that the answers match the school-held design, that the design is the student's work, and that the exam was sat on a computer under supervision without notes.",
-     "researchNotes": "Standard as92007 Version 5 (2025 folder, published 9 December 2025) read via fetch; criteria and EN1/EN2/EN4 obtained as exact quoted fragments, EN3's example lists paraphrased. The 2026 sample examination was read (summarised, question wording partly quoted). No 2026 sample schedule was found: the specification promised one for mid-February 2026 but the NZQA standard page lists none, and the 2026 PEP is a chart that did not extract. The marking model therefore rests on the 2025 portfolio schedule (grid extracted imperfectly; descriptor-to-code pairings are best-fit) and must be treated as provisional for the 2026 exam. 2025 exemplars (A3, M5, E8) read via fetch. 2024 schedule and exemplars not read; 2024 cut scores not confirmed. Literacy co-requisite status not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found.",
+     "researchNotes": "Standard as92007 Version 5 (2025 folder, published 9 December 2025) read via fetch; criteria and EN1/EN2/EN4 obtained as exact quoted fragments, EN3's example lists paraphrased. The 2026 sample examination was read (summarised, question wording partly quoted). No 2026 sample schedule was found: the specification promised one for mid-February 2026 but the NZQA standard page lists none, and the 2026 PEP is a chart that did not extract. The marking model therefore rests on the 2025 portfolio schedule (grid extracted imperfectly; descriptor-to-code pairings are best-fit) and must be treated as provisional for the 2026 exam. 2025 exemplars (A3, M5, E8) read via fetch. 2024 schedule and exemplars not read; 2024 cut scores not confirmed. Literacy co-requisite status not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025 answer scripts, A/M/E per year, each with commentary summary and PDF link); no standard-specific public association material found. Gate review Oct 2026: Achieved req no longer implies three requirements are needed; the 2025 schedule credited Achievement with at least one specific requirement.",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -2027,14 +2027,14 @@ window.MOD_EX['1'] = {
      "watch": [
       "Pre-learned essays reproduced regardless of the question. The 2025 report names this as a Not Achieved pattern; check the response answers the chosen question.",
       "Plot summary or a run of scenes in place of explained aspects.",
-      "Personal response or link to 'your world' tacked on at the end. For Excellence it must run through the response.",
+      "Personal response or link to 'your world' tacked on at the end. The 2025 report says Excellence responses ran it through the whole response, so a tacked-on ending is weak evidence; but Excellence is decided by EN1 (the relationship to purpose or wider context), not by where the link appears.",
       "Writing about several characters, ideas or conflicts when the question asks for one, or about a character's challenge when the question asks about the candidate's own.",
       "Texts too simple for Level 6, or an unfamiliar text used as the 'studied' text.",
       "A practice task done at home, with notes, or with a known question does not match the 2026 exam conditions for derived grades.",
       "Do not reward length: 600–750 words is a recommendation, and quality decides the code."
      ],
      "aiLimits": "The AI cannot see the studied text (novel, film, play or poems), so the teacher must confirm the accuracy of quotes, scenes and techniques the student cites, and that the text was genuinely studied. Typed answers are reliable to read; scans of handwriting may be misread. The teacher must also confirm the response was written under supervision without a prepared essay.",
-     "researchNotes": "Standard text from the NZQA as91925 PDF (2024 folder; Version 4, approved September 2024). ENs are close to verbatim from fetched text. 2026 specifications read via fetch (subject PDF October 2025 and standard PDF March 2026); the 2025 standard-level 91925 specification failed to load, and the 2025 comparison comes from the 2025 91927 specification, which covers both standards. The 2025 schedule's N2 descriptor was inferred from the PDF layout. No 2024 paper, schedule or report is listed for 91925 on the NZQA page (only the standard), so 2024 data is a gap. The 2025 sample assessment and its schedule exist but were not read. Exemplar commentary is brief, and the text for the A3 exemplar is not named by NZQA (the character suggests the film Black Panther, not confirmed). Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 3 NZQA external exemplars now held (2025), all with source links; 2025 is the only year with published exemplars for this standard. no public subject-association guidance specific to this standard was found. Audit Oct 2026: recorded the circular A2026/2 amendment (https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/assessment-matters/a2026-2/) and re-checked the current specification (https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2026-Assessment-specifications/ENGL-L1-spc-2026.pdf); the nature of the amendment is not stated in either.",
+     "researchNotes": "Standard text from the NZQA as91925 PDF (2024 folder; Version 4, approved September 2024). ENs are close to verbatim from fetched text. 2026 specifications read via fetch (subject PDF October 2025 and standard PDF March 2026); the 2025 standard-level 91925 specification failed to load, and the 2025 comparison comes from the 2025 91927 specification, which covers both standards. The 2025 schedule's N2 descriptor was inferred from the PDF layout. No 2024 paper, schedule or report is listed for 91925 on the NZQA page (only the standard), so 2024 data is a gap. The 2025 sample assessment and its schedule exist but were not read. Exemplar commentary is brief, and the text for the A3 exemplar is not named by NZQA (the character suggests the film Black Panther, not confirmed). Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 3 NZQA external exemplars now held (2025), all with source links; 2025 is the only year with published exemplars for this standard. no public subject-association guidance specific to this standard was found. Audit Oct 2026: recorded the circular A2026/2 amendment (https://www2.nzqa.govt.nz/about-us/publications/newsletters-circulars/assessment-matters/a2026-2/) and re-checked the current specification (https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/2026-Assessment-specifications/ENGL-L1-spc-2026.pdf); the nature of the amendment is not stated in either. Gate review Oct 2026: A watch item that turned a 2025 report observation into an Excellence 'must' was reworded.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -2258,14 +2258,14 @@ window.MOD_EX['1'] = {
       "Answering the bullet prompts one by one instead of the question. This was the most common Not Achieved pattern in 2024 and 2025.",
       "Long quotes (two or more sentences) and the first, most obvious feature; higher responses use short, targeted quotes.",
       "'This creates a tone' or 'these work together' asserted without explaining how and why.",
-      "Purpose or wider context bolted onto the conclusion. For Excellence it must run through the analysis.",
+      "Purpose or wider context bolted onto the conclusion. The Excellence answers in the 2024 and 2025 reports wove it through the analysis; a bolted-on conclusion rarely shows the discussion EN1 asks for, but this is a quality judgement, not an automatic bar.",
       "Misreading the tone of the poem; the poem was the hardest text in 2024 and caused an N2 in the 2025 Achievement exemplar.",
       "Practice texts that students have already studied, or a set missing a poem or a Māori-context text, do not match the 2026 conditions.",
       "Score each question separately and total them; do not let one strong answer lift the others.",
       "The 2024 exemplars were marked before Version 5 was published (December 2024); check their grade judgements against the current version's criteria and ENs."
      ],
      "aiLimits": "The AI can only judge accuracy and interpretation if the teacher supplies the three texts exactly as students received them. Typed answers are reliable to read, but the teacher must confirm the texts were unseen, that the practice was supervised, and that any reading of te reo Māori or tikanga in the Māori-context text is sound.",
-     "researchNotes": "Standard text from the NZQA as91927 PDF (2024 folder; Version 5, approved September 2024). ENs are close to verbatim. 2026 specifications read via fetch; the subject PDF (October 2025) labels 91927 as Version 4 while the standard-level PDF (March 2026) says Version 5. Which 2025 text was the Māori-context text was not confirmed from the extracted resource booklet (Text A's Hauraki setting is the only clear Māori link in the extract); 2024 Text C 'Our team is a waka' used te reo Māori. 2024 text types were given only as a set (poem, short story, non-fiction). Authors for 2024 texts were not recorded. The 2023 paper, schedule, report and exemplars exist but were not used, and 2024 exemplars exist but were not read. Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 6 NZQA external exemplars now held (2024, 2025), all with source links; no public subject-association guidance specific to this standard was found.",
+     "researchNotes": "Standard text from the NZQA as91927 PDF (2024 folder; Version 5, approved September 2024). ENs are close to verbatim. 2026 specifications read via fetch; the subject PDF (October 2025) labels 91927 as Version 4 while the standard-level PDF (March 2026) says Version 5. Which 2025 text was the Māori-context text was not confirmed from the extracted resource booklet (Text A's Hauraki setting is the only clear Māori link in the extract); 2024 Text C 'Our team is a waka' used te reo Māori. 2024 text types were given only as a set (poem, short story, non-fiction). Authors for 2024 texts were not recorded. The 2023 paper, schedule, report and exemplars exist but were not used, and 2024 exemplars exist but were not read. Literacy co-requisite approval not confirmed. Exam date and time allowance not confirmed. Enrichment Oct 2026: 6 NZQA external exemplars now held (2024, 2025), all with source links; no public subject-association guidance specific to this standard was found. Gate review Oct 2026: A watch item that turned a report observation into an Excellence 'must' was reworded.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -2850,14 +2850,14 @@ window.MOD_EX['1'] = {
         "t": "EVALUATES THE EXTENT to which viewpoints and perspectives inform the decision, showing a holistic understanding (e.g. judging which perspective mattered most or least and why)."
        },
        {
-        "type": "ind",
-        "src": "Schedule E7/E8",
-        "t": "Integrates a range of relevant evidence, geographic terminology and culturally diverse concepts (e.g. vanua, kaitiakitanga) to develop the explanation."
+        "type": "req",
+        "src": "EN1; schedule E7/E8",
+        "t": "Evidence and geographic terminology are used to DEVELOP the explanation (EN1); at E7/E8 the schedule also expects a range of relevant evidence and culturally diverse concepts (e.g. vanua, kaitiakitanga) integrated, not copied from the booklet."
        },
        {
         "type": "ind",
         "src": "2025 Assessment Report; E7 exemplars",
-        "t": "The chosen option is compared with ALL the other options; every group's viewpoint and/or perspective is acknowledged; (c)(ii) argues that a single-perspective view is narrow or not holistic."
+        "t": "Strong (c)(i) answers compare the chosen option with the other options (a fuller comparison against all of them is what NZQA said would lift the 2025 E7 script to E8 — E7 was awarded with a thinner comparison); the groups' viewpoints and/or perspectives are acknowledged; (c)(ii) argues that a single-perspective view is narrow or not holistic."
        },
        {
         "type": "ind",
@@ -2877,7 +2877,7 @@ window.MOD_EX['1'] = {
       "NZQA's 2024 exemplars predate Version 4 (December 2024); prefer the 2025 exemplars and check 2024 judgements against Version 4 wording."
      ],
      "aiLimits": "Scanned handwriting may be misread, and the AI cannot see the school's pre-release or exam resources unless they are supplied. The teacher must confirm the options, the named people and their quotes, and that evidence the student cites actually appears in the resources.",
-     "researchNotes": "Standard text from the NZQA as91935 PDF (2024 folder, Version 4); the 2025 folder copy failed to load. ENs are close to verbatim. 2026 and 2025 specifications read via fetch; neither gives a time allowance or permitted materials. The 2025 and 2024 schedules were summarised, not quoted; neither has a per-part grid or sample-answer appendix. The 2025 resource booklet did not print viewpoint/perspective definitions (2024 did), though the 2025 report says the booklet explained the difference; this conflict is unresolved. A 2026 Profiles of Expected Performance PDF is listed (91935-pep-2026.pdf) but was not read. 2024 Achieved and 2024/2025 exemplar commentary is brief and does not always name the option chosen. 2023 papers and exemplars exist but were not used. Web fetch limit reached at the end of research; nothing essential was outstanding. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025); no public subject-association guidance was found for this standard.",
+     "researchNotes": "Standard text from the NZQA as91935 PDF (2024 folder, Version 4); the 2025 folder copy failed to load. ENs are close to verbatim. 2026 and 2025 specifications read via fetch; neither gives a time allowance or permitted materials. The 2025 and 2024 schedules were summarised, not quoted; neither has a per-part grid or sample-answer appendix. The 2025 resource booklet did not print viewpoint/perspective definitions (2024 did), though the 2025 report says the booklet explained the difference; this conflict is unresolved. A 2026 Profiles of Expected Performance PDF is listed (91935-pep-2026.pdf) but was not read. 2024 Achieved and 2024/2025 exemplar commentary is brief and does not always name the option chosen. 2023 papers and exemplars exist but were not used. Web fetch limit reached at the end of research; nothing essential was outstanding. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025); no public subject-association guidance was found for this standard. Gate review Oct 2026: excellence item 1 retyped req (EN1 evidence/terminology for Excellence was missing as a req) and item 2 reworded so comparing with ALL options reads as the E7-to-E8 step, matching the 2025 E7 exemplar.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -3188,7 +3188,7 @@ window.MOD_EX['1'] = {
        {
         "type": "ind",
         "src": "2025 Assessment Report; E7 exemplar",
-        "t": "Goes beyond the scenario, with consistent evaluation in EVERY part, including the unintended-consequences part (E7 was capped by thinner evaluation in (c))."
+        "t": "Goes beyond the scenario, with evaluation carried through the parts, including the unintended-consequences part. Consistent evaluation in every part is the E8 step: the 2025 E7 script had thinner evaluation in (c) and still gained E7 (schedule: E7 generally meets, with some inconsistency)."
        }
       ]
      },
@@ -3202,7 +3202,7 @@ window.MOD_EX['1'] = {
       "Personal disclosures in a scenario answer. They are not evidence, and any safety concern goes to the teacher first."
      ],
      "aiLimits": "Screenshots of digital answers or scans may be misread, and the AI cannot see the teacher's scenario or resource booklet unless it is supplied. The teacher must confirm which scenario was used, that it was unseen, and that the practice exam was sat under supervision without notes.",
-     "researchNotes": "Standard text from the NZQA as92010 PDF (2024 folder; Version 3). EN1 and EN4 were obtained in quoted fragments; EN2 and EN3 are close paraphrase. 2026, 2025 and 2024 specifications read via fetch. The 2025 and 2024 papers, schedules, reports and the 2025 resource booklet were read via fetch (summarised by the fetch tool, not quoted in full). The 2024 resource booklet was not read. 2025 exemplar commentary was quoted in fragments. The 2023 materials (first year of the new standard) exist but were not used. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. NZQA lists a 2026 'Profiles of Expected Performance' PDF (92010-pep-2026.pdf) that was not read. Literacy co-requisite status was not confirmed (ncea.education.govt.nz under maintenance). Derived-grade rule notes cl. 3 and cl. 4 follow the 2026 Rules as recorded in the History file for this pilot; A2024/5 was re-checked and does not name Health Studies. Enrichment Oct 2026: 6 NZQA exemplars now held (all with URLs); no public association material was found.",
+     "researchNotes": "Standard text from the NZQA as92010 PDF (2024 folder; Version 3). EN1 and EN4 were obtained in quoted fragments; EN2 and EN3 are close paraphrase. 2026, 2025 and 2024 specifications read via fetch. The 2025 and 2024 papers, schedules, reports and the 2025 resource booklet were read via fetch (summarised by the fetch tool, not quoted in full). The 2024 resource booklet was not read. 2025 exemplar commentary was quoted in fragments. The 2023 materials (first year of the new standard) exist but were not used. NO 2026 paper exists yet. The exam date and time allowance were not confirmed. NZQA lists a 2026 'Profiles of Expected Performance' PDF (92010-pep-2026.pdf) that was not read. Literacy co-requisite status was not confirmed (ncea.education.govt.nz under maintenance). Derived-grade rule notes cl. 3 and cl. 4 follow the 2026 Rules as recorded in the History file for this pilot; A2024/5 was re-checked and does not name Health Studies. Enrichment Oct 2026: 6 NZQA exemplars now held (all with URLs); no public association material was found. Gate review Oct 2026: excellence indicator reworded so evaluation in EVERY part is shown as the E8 step, not an E7 threshold, matching the 2025 E7 exemplar and schedule.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -3718,9 +3718,9 @@ window.MOD_EX['1'] = {
         "t": "Includes relevant historical evidence (specific names, dates, statistics, figures, short quotes) in the description. No evidence = N1; limited or inaccurate evidence = N2."
        },
        {
-        "type": "ind",
-        "src": "Schedule N2",
-        "t": "More than one concept is described in context. Describing only one concept caps the response at N2. In the 2026 format this means each specified concept, not just one of them."
+        "type": "req",
+        "src": "Schedule N2 (2024/2025)",
+        "t": "More than one concept is described in context: describing only ONE concept caps the response at N2 (schedule N2 descriptor). In the 2026 format (one booklet concept, two studied-context concepts), a response that covers more than one concept but leaves one application thin or missing is not capped by this line; weigh the gap holistically across the whole response."
        },
        {
         "type": "ind",
@@ -3798,7 +3798,7 @@ window.MOD_EX['1'] = {
       "Do not reward length, memorised definitions or copied source text. Score the explanation of how the evidence shows the concept, as one holistic code across all parts."
      ],
      "aiLimits": "Scans of handwritten scripts and screenshots of digital answers may be misread, and the AI cannot see the teacher's resource booklet unless it is supplied. The teacher must confirm the booklet content, which concepts were specified, and the accuracy of any studied-context evidence (names, dates, statistics) the AI cannot check.",
-     "researchNotes": "Standard text from the NZQA as92026 PDF (2024 folder; Version 3). Explanatory notes are close to verbatim, obtained in quoted fragments. 2026 specification read via fetch of 92026-spc-2026 and HIST-L1-spc-2026 (published October 2025). NO 2026 exam paper or schedule exists yet (the exam is in November 2026), and no 2026 sample paper in the new 1+2 layout was found. The exam date and time allowance were not confirmed: the 2026 timetable PDF did not extract clearly (possibly Wed 18 November), and the papers state no time. The schedules do not state 'holistic' in words, but they give a single 0–8 code set for the whole paper. Assessment Report content is summarised from NZQA's PDFs. Exemplar commentary is brief, and the 'miss' fields marked 'not stated' are my reading of the schedule, not NZQA commentary. The 2023 paper, schedule and report (pilot year) are on the NZQA page but were not used. Literacy co-requisite approval for 92026 was not confirmed, because the ncea.education.govt.nz page for 1.3 was under maintenance and the NZQA literacy list is a spreadsheet that could not be read. Enrichment Oct 2026: 6 NZQA exemplars now held. No public NZHTA or joint NZQA–NZHTA guidance was found for this standard.",
+     "researchNotes": "Standard text from the NZQA as92026 PDF (2024 folder; Version 3). Explanatory notes are close to verbatim, obtained in quoted fragments. 2026 specification read via fetch of 92026-spc-2026 and HIST-L1-spc-2026 (published October 2025). NO 2026 exam paper or schedule exists yet (the exam is in November 2026), and no 2026 sample paper in the new 1+2 layout was found. The exam date and time allowance were not confirmed: the 2026 timetable PDF did not extract clearly (possibly Wed 18 November), and the papers state no time. The schedules do not state 'holistic' in words, but they give a single 0–8 code set for the whole paper. Assessment Report content is summarised from NZQA's PDFs. Exemplar commentary is brief, and the 'miss' fields marked 'not stated' are my reading of the schedule, not NZQA commentary. The 2023 paper, schedule and report (pilot year) are on the NZQA page but were not used. Literacy co-requisite approval for 92026 was not confirmed, because the ncea.education.govt.nz page for 1.3 was under maintenance and the NZQA literacy list is a spreadsheet that could not be read. Enrichment Oct 2026: 6 NZQA exemplars now held. No public NZHTA or joint NZQA–NZHTA guidance was found for this standard. Gate review Oct 2026: the N2 'only one concept' cap was re-typed as req and no longer extended to 'each specified concept', which the schedule descriptor does not say.",
      "associationNotes": [],
      "scoring": "whole",
      "clarifications": {
@@ -4318,7 +4318,7 @@ window.MOD_EX['1'] = {
        {
         "type": "ind",
         "src": "2025 schedule; 2025 Assessment Report",
-        "t": "At least one feature of a display described in context, or an accurate percentage or fraction calculation, in each question. Evidence must come from all three questions to reach 7."
+        "t": "Typical u evidence: one feature of a display described in context, or an accurate percentage or fraction calculation. Reaching the Achievement cut (7 in 2025) usually needs u evidence in at least two questions (e.g. A4 + A3), but codes are simply totalled, so it does not need evidence in all three."
        },
        {
         "type": "ind",
@@ -4372,7 +4372,7 @@ window.MOD_EX['1'] = {
       "2023 exemplars come from the pilot (RAS) exam, marked before Version 3 with a single-score, prompt-based format; use them for quality of evidence only, not for question structure or score conversion."
      ],
      "aiLimits": "Handwritten scripts on printed paper must be scanned, and the AI may misread numbers, fractions or working, and cannot see the teacher's resource booklet unless it is supplied. The teacher must supply the displays and data used, confirm what each part asked, and check any calculation the AI flags as wrong against the scan.",
-     "researchNotes": "Standard text from the NZQA as91946 PDF (2024 folder; Version 3). ENs are close paraphrases from fetched text, not guaranteed verbatim. 2026 and 2025 specifications read via fetch; no format change found for 2026. The 2025 schedule's legend lists codes and u/r/t counts without explicit pairing; the pairing given is read from the column order. NZQA also lists a 2026 'Profiles of Expected Performance' PDF (91946-pep-2026.pdf), but only a 0–60 PEP band chart was readable, so it was not used. The derived-grade availability list is undated. Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 question booklet, schedule and report exist but were not used. Exemplar 'miss' fields marked as schedule-based are my reading, not NZQA commentary. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 pilot and 2025; NZQA lists none for 2024; replaces earlier schedule-based \"miss\" readings with NZQA commentary only), with URLs; no standard-specific public association material found (subject-level associations only).",
+     "researchNotes": "Standard text from the NZQA as91946 PDF (2024 folder; Version 3). ENs are close paraphrases from fetched text, not guaranteed verbatim. 2026 and 2025 specifications read via fetch; no format change found for 2026. The 2025 schedule's legend lists codes and u/r/t counts without explicit pairing; the pairing given is read from the column order. NZQA also lists a 2026 'Profiles of Expected Performance' PDF (91946-pep-2026.pdf), but only a 0–60 PEP band chart was readable, so it was not used. The derived-grade availability list is undated. Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 question booklet, schedule and report exist but were not used. Exemplar 'miss' fields marked as schedule-based are my reading, not NZQA commentary. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 pilot and 2025; NZQA lists none for 2024; replaces earlier schedule-based \"miss\" readings with NZQA commentary only), with URLs; no standard-specific public association material found (subject-level associations only). Gate review Oct 2026: removed the claim that evidence must come from all three questions to reach 7 (A4 + A3 + N0 = 7 under the 2025 code legend and cut scores).",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -4561,7 +4561,7 @@ window.MOD_EX['1'] = {
        {
         "type": "ind",
         "src": "Code legend",
-        "t": "A3 in a question needs two u; reaching 7 overall usually means u evidence in all three questions."
+        "t": "A3 in a question needs two u. Codes are totalled, so 7 can be reached from two questions (the 2023 Achievement exemplar scored M5, N0, N2 = 7); evidence in all three questions is not required."
        }
       ],
       "merit": [
@@ -4605,7 +4605,7 @@ window.MOD_EX['1'] = {
       "2023 exemplars come from the pilot (RAS) exam; question styles and the grade-score pattern may differ from current papers, so prefer the 2025 exemplars for score lines."
      ],
      "aiLimits": "Printed-paper scripts must be scanned, and the AI may misread handwritten algebra, signs, indices, fractions and diagrams. It can check arithmetic and algebra, but the teacher must confirm the question wording and diagrams (supply the paper), check any flagged error against the scan, and confirm no graphing-calculator-only answers were credited.",
-     "researchNotes": "Standard text from the NZQA as91947 PDF (2024 folder; Version 2). 2026 specification read via fetch; no format change found for 2026. The 2025 and 2024 schedules were read as extracted text, which was partly garbled; the per-part u/r/t descriptions are a close reading, and the code-to-count pairing is read from the legend's column order. The 2025 report's wording on Correct Answer Only was summarised as 'u at best' (2024 report says 'grade U at best'). Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 paper, schedule and report exist but were not used. 2024 exemplars are not listed on the NZQA page. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 pilot and 2025; NZQA lists none for 2024; replaces earlier schedule-based \"miss\" readings with NZQA commentary only), with URLs; no standard-specific public association material found (subject-level associations only).",
+     "researchNotes": "Standard text from the NZQA as91947 PDF (2024 folder; Version 2). 2026 specification read via fetch; no format change found for 2026. The 2025 and 2024 schedules were read as extracted text, which was partly garbled; the per-part u/r/t descriptions are a close reading, and the code-to-count pairing is read from the legend's column order. The 2025 report's wording on Correct Answer Only was summarised as 'u at best' (2024 report says 'grade U at best'). Exam date and time allowance not confirmed (timetable fetch hit a rate limit). The 2023 paper, schedule and report exist but were not used. 2024 exemplars are not listed on the NZQA page. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 pilot and 2025; NZQA lists none for 2024; replaces earlier schedule-based \"miss\" readings with NZQA commentary only), with URLs; no standard-specific public association material found (subject-level associations only). Gate review Oct 2026: corrected the indicator that 7 usually needs u evidence in all three questions, which the 2023 Achievement exemplar (M5, N0, N2) contradicts.",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -5684,7 +5684,7 @@ window.MOD_EX['1'] = {
        {
         "type": "ind",
         "src": "2024 and 2025 Assessment Reports; E7 exemplar",
-        "t": "Weighs a RANGE of conventions within each claim (conflict of interest, peer review, currency, graphs, sample size, author credibility) and compares across the two claims, suggesting what would strengthen them. E8 needs this in depth."
+        "t": "The E7 exemplar (2025) EXAMINED two conventions (conflict of interest, peer review), linked them to bias, and only described or explained others (currency, graphs, sample size, author credibility); examining more of these conventions in depth is what NZQA said E8 needed. Weighing several conventions for each claim and comparing the claims strengthens the evaluation but is not needed for E7."
        }
       ]
      },
@@ -5698,7 +5698,7 @@ window.MOD_EX['1'] = {
       "Practice tasks in the 2024 report format do not match 2026 conditions."
      ],
      "aiLimits": "Handwritten answers, any diagrams and handwritten working are read from scans or screenshots and may be misread. The AI cannot see the resource booklet unless it is supplied, so the teacher must check that the sources, claims, quotations and conventions the student cites are actually in the resources.",
-     "researchNotes": "Criteria and EN1–EN4 verbatim from as91923 (Version 4). 2026 specification read via fetch (October 2025); no 2026 paper or schedule exists yet. The 2025 score descriptors are quoted from the schedule. The 2024 assessment was an over-time submitted report (2024 specification), so no 2024 exam paper exists; its resource booklet was not read. The 2024 schedule was summarised, not quoted. The M6 and A4 exemplar contexts are not stated in the extracts. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed because the NCEA Education page for 1.4 was under maintenance. Enrichment Oct 2026: 3 NZQA annotated exemplars now held (2025); standard-specific association material found (see associationNotes).",
+     "researchNotes": "Criteria and EN1–EN4 verbatim from as91923 (Version 4). 2026 specification read via fetch (October 2025); no 2026 paper or schedule exists yet. The 2025 score descriptors are quoted from the schedule. The 2024 assessment was an over-time submitted report (2024 specification), so no 2024 exam paper exists; its resource booklet was not read. The 2024 schedule was summarised, not quoted. The M6 and A4 exemplar contexts are not stated in the extracts. The exam date and time allowance were not confirmed. Literacy co-requisite status was not confirmed because the NCEA Education page for 1.4 was under maintenance. Enrichment Oct 2026: 3 NZQA annotated exemplars now held (2025); standard-specific association material found (see associationNotes). Gate review Oct 2026: E1 reworded to match the E7 exemplar (two conventions examined), keeping the range-of-conventions comparison as an E8/secure indicator.",
      "associationNotes": [
       {
        "text": "NZASE has produced a 2026 derived-grade exam for 91923; obtained by request, not public. Check it mirrors the 2026 NZQA format before using it as evidence.",

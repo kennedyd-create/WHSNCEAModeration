@@ -266,8 +266,8 @@ window.MOD_DATA['3'] = {
       "Annotations repeated near-verbatim across sources, or generic comment about source type (\"newspapers can be biased\").",
       "An evaluation that only says what went well, or reads as a generic reflection unconnected to this student’s actual sources.",
       "Sufficiency: count the annotated sources against the task's minimum before judging quality. An evaluation that describes sources or cross-referencing not present in the portfolio does not make up for them.",
-      "Evaluative comments inside annotations count toward the evaluation only when they are specific to that source. Generic sentence-starter comments repeated across sources (e.g. \"can be trusted because it is official\") are not detailed or perceptive, and do not lift a basic stand-alone evaluation.",
-      "Annotations that only critique a source's provenance, without selecting evidence from it that answers the focusing question, do not show evidence organised to answer the question (EN6).",
+      "Generic sentence-starter comments repeated across sources (e.g. \"can be trusted because it is official\") are not analytical or critical, and are weak evidence of the several analytical annotations Merit needs.",
+      "Annotations that only critique a source's provenance, without selecting evidence from it that answers the focusing question, do not show relevant evidence selected and organised (EN3).",
       "Unlike 91229, the 91434 clarification (March 2025) does not say evaluative comments in the annotations count toward the evaluation. Judge the Excellence evaluation on the evaluation itself; annotation insight can support a close call but cannot replace analysis of validity that the evaluation only asserts. Say which way you read it rather than leaving it open."
      ],
      "aiLimits": "",
@@ -1859,7 +1859,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Merit exemplar",
-        "t": "An adaptive-significance link that is only attempted or brief does not secure Excellence."
+        "t": "NZQA exemplars split here: High Merit only ATTEMPTED to link osmoregulation to adaptive advantage; Low Excellence DISCUSSED some ideas on the adaptive advantage of osmotic balance. A discussion of some adaptive-significance ideas linked to the system can reach Low Excellence; more depth (or a detailed breakdown analysis) secures it."
        }
       ]
      },
@@ -2011,7 +2011,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA exemplars",
-        "t": "Comparing and contrasting the two manipulations, or justifying one over the other, is the commonest route; implications such as inbreeding depression or monoculture need full explanation."
+        "t": "Comparing and contrasting the two manipulations, or justifying one over the other, is the commonest route (NZQA exemplars). Low Excellence compared and contrasted the manipulations while explaining only some implications; fuller explanation of implications such as inbreeding depression or monoculture makes Excellence more secure but is not needed for Low Excellence."
        }
       ]
      },
@@ -3725,8 +3725,8 @@ window.MOD_DATA['3'] = {
        },
        {
         "type": "req",
-        "src": "Clarification",
-        "t": "Comprehensive evaluation that links the conclusion to chemical principles and/or real-life applications, AND evaluates reliability (procedure, sources of error) or justifies how the processed data supports the conclusion."
+        "src": "EN2 + clarification",
+        "t": "A comprehensive evaluation drawn from (EN2 'a selection from'): reliability of the data (procedure, sources of error), justification of how the processed data supports the conclusion, and linking the conclusion to chemical principles and/or real-life applications. The clarification expects the link plus one of the others, but NZQA's Low Excellence exemplar reached Excellence with reliability, error sources and an attempted justification and no such link, so a missing link weakens rather than caps Excellence."
        }
       ]
      },
@@ -4137,7 +4137,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "Spontaneity of both cells explained with reduction potentials or E°cell calculations (correct sign and unit)."
+        "t": "Spontaneity of the cells addressed with reduction potentials or an E°cell calculation. NZQA's Low Merit exemplar reached Merit with an E°cell calculation missing its unit (V) and without the fuller spontaneity explanation seen at High Merit, so a missing unit or thin explanation weakens rather than caps Merit."
        }
       ],
       "excellence": [
@@ -4756,7 +4756,12 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "EN2 + 2025 Moderator's Report",
-        "t": "A REFINED inquiry focus is established from the research and analysis, and the proposed outcome arises from it — not decided in advance."
+        "t": "A REFINED inquiry focus is established from the research and analysis, and the digital technologies outcome is proposed from it."
+       },
+       {
+        "type": "ind",
+        "src": "2025 Moderator's Report",
+        "t": "At Level 3 the focus is refined BEFORE the outcome is proposed: the outcome should emerge from the inquiry rather than being decided in advance (a key difference from Level 2)."
        },
        {
         "type": "req",
@@ -5111,7 +5116,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Merit exemplars",
-        "t": "Taking up all the opportunities the text offers for the theory, and connecting choices to the play's underlying meaning for the audience, separates Excellence from High Merit."
+        "t": "Taking up more of the opportunities the text offers for the theory (the High Merit exemplar missed narrators, music and singers), and connecting choices to the play's underlying meaning for the audience, separates Excellence from High Merit; the Low Excellence exemplars still left some opportunities unused."
        }
       ]
      },
@@ -5357,7 +5362,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA Merit and Excellence exemplars",
-        "t": "Excellence connected the results to the wider Earth system (e.g. changing CO2 in the geological past and what it implies for the future) and justified every method choice, including timings."
+        "t": "Excellence connected the results to the wider Earth system (e.g. changing CO2 in the geological past and what it implies for the future) and justified method choices; NZQA's Low Excellence exemplar was still Excellence without fully explaining its timings, which would have made it more secure."
        }
       ]
      },
@@ -6561,7 +6566,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Achieved exemplar",
-        "t": "Every text’s discussion needs to stay tied to the connection; loosely connected sections hold a response at Achieved."
+        "t": "In the NZQA High Achieved exemplar, one text (Benjamin Button) was linked only loosely to the connection, which kept the response from being convincing; keeping each text's discussion tied to the connection supports Merit."
        }
       ],
       "excellence": [
@@ -6573,7 +6578,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Merit / Low Excellence exemplars",
-        "t": "Sophistication must be sustained across the whole response, and insight must still be anchored in specific textual examples."
+        "t": "In the NZQA High Merit exemplar, one section without sophisticated, insightful judgements held the response at Merit; the Low Excellence exemplar reached Excellence even though some interpretations could have been linked more clearly to specific textual examples."
        }
       ]
      },
@@ -6730,7 +6735,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Merit / Low Excellence exemplars",
-        "t": "Insight is consistent, and the theory or criticism is worked closely into the reading of the primary text rather than sitting beside it."
+        "t": "Insight comes from working the theory or criticism closely into the reading of the primary text rather than setting it beside it. The NZQA Low Excellence exemplar reached Excellence without showing insight consistently; consistency makes Excellence more secure."
        }
       ]
      },
@@ -6883,7 +6888,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA Low Excellence exemplar",
-        "t": "Original interpretation needs to recur across the response, not appear only in the final paragraph."
+        "t": "The NZQA Low Excellence exemplar reached Excellence while only beginning original interpretation (of the factors behind the director's choices); more examples of original interpretation across the response make Excellence more secure."
        }
       ]
      },
@@ -8213,7 +8218,12 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "Explains the differing and opposing perspectives AND the reasons for them, with at least two groups for each opposing view (stakeholder groups, not individuals)."
+        "t": "Explains the differing and opposing perspectives AND the reasons for them, with at least two groups for each opposing view."
+       },
+       {
+        "type": "ind",
+        "src": "Clarification + 2025 NMR",
+        "t": "Groups are ideally major stakeholder groups rather than individuals' opinions (NMR: 'ideally')."
        },
        {
         "type": "req",
@@ -8425,7 +8435,12 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "Clarification",
-        "t": "Two readings that are genuinely distinct, each grounded in the text and supported by textual evidence (not the same evidence reused)."
+        "t": "Two readings that are genuinely distinct, each grounded in the text and supported by textual evidence."
+       },
+       {
+        "type": "ind",
+        "src": "Clarification ('should not')",
+        "t": "Students should not use the same evidence for both readings; heavy reuse weakens the second reading but is not by itself a cap."
        },
        {
         "type": "req",
@@ -9110,7 +9125,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Merit and Low Excellence exemplars",
-        "t": "Analysis of representative music, a fully robust range of sources (including primary research) and personal perspectives in the conclusions characterise Excellence."
+        "t": "Analysis of representative music, a wide range of sources (including primary research) and personal perspectives in the conclusions characterise Excellence; the Low Excellence exemplar reached Excellence before its source range was 'fully robust' (interviews with a local community music group would have made it more secure)."
        }
       ]
      },
@@ -11151,7 +11166,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "The key physics ideas relating to the issue are explained at Level 8."
+        "t": "The key physics ideas relating to the issue are explained. Level 8 depth is expected, but NZQA's Low Achieved and Low Merit exemplars were awarded with physics 'albeit at National Curriculum Level 7'; only Level 6 physics with little explanation (High Not Achieved) fell short."
        },
        {
         "type": "req",
@@ -11197,7 +11212,7 @@ window.MOD_DATA['3'] = {
      "watch": [
       "A persuasive or opinion essay with little physics — physics explanation is the key to this standard.",
       "Position based on cost, politics or values with no physics reasoning.",
-      "Physics pitched at Level 6 or 7 (NZQA exemplars penalised this).",
+      "Physics pitched below Level 8: NZQA's exemplars flag Level 7 physics as a weakness but still awarded Low Achieved and Low Merit; Level 6 physics with little explanation was Not Achieved.",
       "Same physics as the student's 3.2 context (EN5).",
       "Source commentary that is generic ('the website may be biased') rather than specific.",
       "Actions proposed that do not follow from the physics argued.",
@@ -12290,7 +12305,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "EN2/EN3",
-        "t": "Evidence of EVERY component: comparison question, displays and summary statistics, sample distributions discussed, sampling variability (including variability of estimates), formal inference, conclusion."
+        "t": "Evidence of EVERY component: comparison question, displays and summary statistics, sample distributions discussed, sampling variability discussed, formal inference, conclusion. At Achieved the sampling-variability component is met by showing awareness that another sample would likely give different displays and statistics (clarification); NZQA's High Achieved exemplar was Achieved without a developed discussion of the variability of estimates, which it names as a Merit step."
        },
        {
         "type": "req",

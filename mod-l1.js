@@ -1162,7 +1162,7 @@ window.MOD_DATA['1'] = {
        {
         "type": "ind",
         "src": "NZQA Merit exemplar",
-        "t": "Each feature’s function and effect explained in detail and linked back to the context."
+        "t": "In the NZQA Merit exemplar, the function and effect of the features were explained in detail and linked back to the context — an example of quality, not a feature-by-feature checklist."
        }
       ],
       "excellence": [
@@ -1370,7 +1370,7 @@ window.MOD_DATA['1'] = {
       "A task with no identified audience and purpose, which makes ‘appropriate to audience and purpose’ hard to judge — a task-design issue.",
       "Pieces much shorter than the recommended 350 words of prose, or short poems that cannot show developed ideas.",
       "Recount or plot sequence mistaken for developed ideas.",
-      "Error patterns that impede meaning (run-ons, tense drift, speech punctuation) in an otherwise strong piece — these cap Achieved."
+      "Error patterns that impede meaning (run-ons, tense drift, speech punctuation) in an otherwise strong piece — intrusive patterns that impede meaning prevent Achieved (EN1), and errors beyond minor ones prevent Merit (EN1)."
      ],
      "aiLimits": "The AI sees only the finished writing, so the teacher must verify the supervised, independent writing process (planning, drafting and editing) and that no generative AI or content-generating tool was used.",
      "cohortNote": "",
@@ -2648,7 +2648,7 @@ window.MOD_DATA['1'] = {
      },
      "watch": [
       "Features described from summary statistics rather than from the visualisation, or a scatter plot described by its trendline (2025 NMR).",
-      "Investigative question that does not match the investigation type, or a population that is not stated — note the assessor may correct or supply the question; that is allowed by the Conditions.",
+      "Investigative question that does not match the investigation type — note the assessor may correct or supply the question, and the Conditions say the assessor identifies the population for collected or sourced data; neither counts against the student.",
       "Visualisations with missing or misleading scales, labels or construction, or graph types that do not suit the investigation type (dot plots/histograms are supporting evidence only alongside box plots for comparisons).",
       "No recognition of uncertainty in the conclusion — the NMR expects it particularly at higher grades.",
       "Data set too small or with too little range (below the unpacking's minimum guides).",

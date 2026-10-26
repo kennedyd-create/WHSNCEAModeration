@@ -7,12 +7,12 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap">
 <!--DATA-->
-<script src="mod-l1.js?v=8"></script>
-<script src="mod-l2.js?v=10"></script>
-<script src="mod-l3.js?v=9"></script>
-<script src="mod-ex-l1.js?v=4"></script>
-<script src="mod-ex-l2.js?v=5"></script>
-<script src="mod-ex-l3.js?v=6"></script>
+<script src="mod-l1.js?v=9"></script>
+<script src="mod-l2.js?v=11"></script>
+<script src="mod-l3.js?v=10"></script>
+<script src="mod-ex-l1.js?v=5"></script>
+<script src="mod-ex-l2.js?v=6"></script>
+<script src="mod-ex-l3.js?v=7"></script>
 <!--/DATA-->
 <style>
 /* Layout: a single working column of numbered steps, the prompt docked at the end.
@@ -1266,11 +1266,12 @@ ${whole ? `- Each part: 2 to 5 words on what that part shows (e.g. "describes, s
 - Confidence: High, Moderate, or Borderline X/Y. High = every score descriptor at the recorded code is met in more than one place and you would expect another expert to agree. Moderate = the recorded grade is your best-fit judgement, but at least one REQUIRED item rests on uneven or single-section evidence (use Moderate if the WEAKEST required item at the recorded grade is met only at its Low edge; a diagnostic component sitting below the overall grade does not by itself lower confidence when the standard is holistic and that component carries no required item at the recorded grade). Borderline X/Y = the two plausible codes fall in DIFFERENT grades and the evidence for the higher is genuinely close; the best-fit code is recorded and the other named. Uncertainty WITHIN a grade (M5 or M6) is Moderate, not Borderline.${whole ? '' : ' Confidence is about the GRADE: give the lowest and highest plausible totals (e.g. "range 20 to 23"); if every plausible total gives the same grade, confidence in the grade can be High even when single questions are uncertain.'} Confidence is about how clear the evidence is, not a prediction of NZQA's result.
 - Decided by: at most 12 words naming what decided the ${whole ? 'code' : 'total'}, using the schedule's key word (e.g. ${whole ? '"Explains with evidence (M5); no wider context for E7"' : '"Q3 stays A4: no unit; total two below the Merit cut"'}).
 
-PART 2 — STUDENT CARDS (one card per student, same order as the table; ${detail === 'full' ? 'at most 220 words each' : detail === 'table' ? 'only the Grade line and the Check line' : 'at most 120 words each'}). Use exactly this layout, short bullets, no paragraphs:
+PART 2 — STUDENT CARDS (one card per student, same order as the table; ${detail === 'full' ? 'at most 220 words each' : detail === 'table' ? 'only the Grade line, the Check line and any Borderline line' : 'at most 120 words each'}). Use exactly this layout, short bullets, no paragraphs:
 
 ### [Student] — ${whole ? '[Code]' : '[Total]'} · [Grade] · [Confidence]
 - **Earns ${whole ? 'this code' : 'these codes'}:** "short quote" (page${whole ? '' : ', question'}): what it shows.
 - **Not yet the next code:** "short quote" (page${whole ? '' : ', question'}): what is missing.
+- **Borderline** (ONLY if Confidence is Borderline; at most 50 words, not counted in the card limit): "[lower code]/[higher code]. For [higher]: "short quote" (page${whole ? '' : ', question'}): why it could reach it. For [lower]: "short quote" (page${whole ? '' : ', question'}): why it may not. Decider: what the teacher should look at." Give both cases fairly, then keep your best-fit ${whole ? 'code' : 'total'} in the heading.
 - **Check:** up to three tagged points, most important first (e.g. "[READING] p3 'mitosis'?"), or "Nothing flagged."
 - **Next step:** one line on the move that would most lift the ${whole ? 'code' : 'total'}.
 ${detail === 'full' ? (whole ? 'Then one line per part: "part: quote, what it shows".\n' : 'Then one line per question: "Q: code, quote, what it shows".\n') : ''}Further tagged points beyond three go in the teacher section at the end, grouped by student.
@@ -1378,11 +1379,12 @@ Under the table give the key: ${tasks.map((t,i) => `${L[i]} = ${t}`).join('; ')}
 - Confidence: High, Moderate, or Borderline X/Y. High = every REQUIRED item at the recorded grade is met in more than one place and you would expect another expert to agree. Moderate = the recorded grade is your best-fit judgement, but at least one REQUIRED item rests on uneven or single-section evidence (use Moderate if the WEAKEST required item at the recorded grade is met only at its Low edge; a diagnostic component sitting below the overall grade does not by itself lower confidence when the standard is holistic and that component carries no required item at the recorded grade). Borderline X/Y = the two plausible grades differ and the evidence is genuinely close either way; the best-fit grade is recorded (it may be the higher or the lower) and the other named. Uncertainty within a grade is Moderate. Confidence describes how strong and clear the evidence is for this judgement, not a prediction that NZQA or another assessor would agree.
 - Decided by: at most 12 words naming the gate that decided the grade (e.g. "Evaluation coherent but not perceptive: caps at Merit").
 
-PART 2 — STUDENT CARDS (one card per student, in the same order as the table; ${detail === 'full' ? 'at most 220 words each' : detail === 'table' ? 'only the Grade line, the Check line and, for any Excellence, the Excellence check' : 'at most 130 words each'}, excluding the Excellence check). Use exactly this layout, with short bullets, no paragraphs:
+PART 2 — STUDENT CARDS (one card per student, in the same order as the table; ${detail === 'full' ? 'at most 220 words each' : detail === 'table' ? 'only the Grade line, the Check line, any Borderline line and, for any Excellence, the Excellence check' : 'at most 130 words each'}, excluding the Excellence check). Use exactly this layout, with short bullets, no paragraphs:
 
 ### [Student] — [Overall] · [Confidence]
 - **Meets [recorded grade]:** "short quote" (file, section): what it shows, in a few words.
 - **Not yet [next grade]:** "short quote" (file, section): what is missing, naming the gate.
+- **Borderline** (ONLY if Confidence is Borderline; at most 50 words, not counted in the card limit): "[lower]/[higher]. For [higher]: "short quote" (file, section): why it could reach it. For [lower]: "short quote" (file, section): why it may not. Decider: the one thing the teacher should look at to settle it." Give both cases fairly, then keep your best-fit grade in the heading.
 - **Schedule line:** the few schedule words the judgement rests on.
 - **Check:** up to three tagged points, most important first (e.g. "[ACCURACY] 30% should be 50%, Source 2"), or "Nothing flagged."
 - **Next step:** one line on what would move the work up a grade.
@@ -1401,7 +1403,7 @@ FINAL SELF-CHECK (print it, in the final reply, as a short table: | Check | Pass
   2. Every student with a task minimum not met is recorded as N (with the alternative), never a provisional higher grade.
   3. For every student whose parts were done under different conditions, you compared the supervised and unsupervised work, and raised [WRITING] where the gap is marked.
   4. Any record the task requires (for example an AI prompt trail, a plan, a log) has been checked for each student, and its absence noted.
-  5. "High" confidence is used only where no REQUIRED item at the recorded grade sits near its edge; Borderline students are labelled Borderline.
+  5. "High" confidence is used only where no REQUIRED item at the recorded grade sits near its edge; Borderline students are labelled Borderline and their card has a Borderline line giving the case for BOTH grades.
   6. The [SCHEDULE] review compared the task sheet and schedule with the standard's current version number and wording.
 ${has('provisional') ? '  7. You formed each grade before reading the teacher’s provisional grade.\n' : ''}
 End with this line exactly:
@@ -1714,8 +1716,8 @@ document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('clic
   if(show) show.addEventListener('click',()=>{ seen={}; try{ localStorage.removeItem(KEY); }catch(e){} apply(); window.scrollTo({top:0,behavior:'smooth'}); });
   apply();
 })();
-const PROMPT_VERSION = 'Build 18 (26 Oct 2026)';
-$('build').textContent = 'Build 18 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
+const PROMPT_VERSION = 'Build 18.2 (26 Oct 2026)';
+$('build').textContent = 'Build 18.2 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
 document.body.dataset.kind = 'int';
 /* ---- data freshness: the standards, specifications and cut scores here were checked for the 2026 year ---- */
 (function(){

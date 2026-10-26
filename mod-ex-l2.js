@@ -577,7 +577,7 @@ window.MOD_EX['2'] = {
        {
         "type": "ind",
         "src": "2025 Assessment Report",
-        "t": "At least two clearly identified symbols or motifs in EACH work, with the meaning explained rather than the image described."
+        "t": "Achievement answers typically identified two or more symbols or motifs clearly in each work and explained their meaning rather than describing the image. The schedule's A3 asks only for 'some specific symbols or motifs', so treat the count as a guide, not a cap."
        }
       ],
       "merit": [
@@ -621,7 +621,7 @@ window.MOD_EX['2'] = {
       "2023 exemplars predate the 2025 two-area, 12-plate paper: use them for grade lines, not for question or plate structure."
      ],
      "aiLimits": "The AI cannot see own-choice works and may not see the plates, so the teacher must confirm that the symbols and motifs described are actually in the works and that titles, dates and contextual facts are accurate. Scans of handwriting may be misread.",
-     "researchNotes": "Criteria and ENs come from the NZQA as91181 PDF (2019 folder, Version 3), quoted in fragments. The 2025 schedule's E7/E8 split is uncertain because of the extraction layout. The 2024 paper, 2024 schedule and 2025 Achievement exemplar were not read. The 2024 questions come from the report only. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 and 2025; NZQA publishes Achievement, Merit and Excellence only); no publicly accessible association material was found for this standard. NZQA lists no 2024 exemplars for this standard, so 2023 is the second year used.",
+     "researchNotes": "Criteria and ENs come from the NZQA as91181 PDF (2019 folder, Version 3), quoted in fragments. The 2025 schedule's E7/E8 split is uncertain because of the extraction layout. The 2024 paper, 2024 schedule and 2025 Achievement exemplar were not read. The 2024 questions come from the report only. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2023 and 2025; NZQA publishes Achievement, Merit and Excellence only); no publicly accessible association material was found for this standard. NZQA lists no 2024 exemplars for this standard, so 2023 is the second year used. Gate review Oct 2026: the 'at least two symbols in EACH work' indicator was reworded as typical practice, since the A3 descriptor asks only for some specific symbols or motifs.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -1624,7 +1624,7 @@ window.MOD_EX['2'] = {
        {
         "type": "ind",
         "src": "2025 Assessment Report",
-        "t": "Explains code redundancy for silent mutations, and that a substitution changes at most one amino acid and does not change the polypeptide length or stop codon."
+        "t": "For the silent and missense substitutions in the 2025 paper: explains code redundancy for the silent mutation, and that the missense substitution changes one amino acid without changing polypeptide length. Do not apply this to every substitution: a nonsense substitution creates a stop codon and shortens the polypeptide, which is correct biology."
        },
        {
         "type": "ind",
@@ -1653,14 +1653,14 @@ window.MOD_EX['2'] = {
      "watch": [
       "Using the wrong cut scores. 91159 bands are N 0–7, A 8–13, M 14–18, E 19–24, not the 7/13 of 91156 and 91157.",
       "The protein synthesis question had higher Merit thresholds (M5 = 3 Merit points) in both 2024 and 2025. Check the practice schedule states this.",
-      "Answers that say a substitution 'changes the whole protein' or the length. Merit needs only one amino acid changed and the length unchanged (or no change, for silent).",
+      "Answers that say a missense substitution 'changes the whole protein' or its length. For the 2025-style silent and missense items, Merit needed one amino acid changed and the length unchanged (or no change, for silent); a nonsense substitution that adds a stop codon does shorten the polypeptide and is not an error.",
       "Restating the pathway diagram in words without explaining it. Both reports name this as a common cap.",
       "Calling magnesium, lead or iron a mutagen. They act on the enzyme and do not change the DNA (2024 schedule).",
       "Sequence table errors (T vs U, anticodon vs codon, reading the codon table wrongly). Check each row against the schedule.",
       "Not giving two reasons why DNA is not translated directly when asked (2025)."
      ],
      "aiLimits": "Handwritten base sequences, codon tables, 5' and 3' labels and transcription diagrams are easily misread in scans. The teacher must check every completed sequence table and diagram against the schedule. The AI cannot see the pathway diagram or photos unless supplied.",
-     "researchNotes": "Standard text from the NZQA as91159 PDF (2019 folder; Version 2). EN2 and EN3 obtained in quoted fragments; EN4–EN9 are paraphrased by the fetch tool. 2026 and 2025 specifications compared. The higher Merit threshold for Q2 in both years and the 0–7 / 8–13 / 14–18 / 19–24 cut scores come from the schedules via a summarising fetch tool, and should be checked against the PDFs. The 2024 exam paper and 2024 exemplars were not opened. No 2026 paper yet. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only).",
+     "researchNotes": "Standard text from the NZQA as91159 PDF (2019 folder; Version 2). EN2 and EN3 obtained in quoted fragments; EN4–EN9 are paraphrased by the fetch tool. 2026 and 2025 specifications compared. The higher Merit threshold for Q2 in both years and the 0–7 / 8–13 / 14–18 / 19–24 cut scores come from the schedules via a summarising fetch tool, and should be checked against the PDFs. The 2024 exam paper and 2024 exemplars were not opened. No 2026 paper yet. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only). Gate review Oct 2026: M1 and one watch line limited to the 2025 silent/missense items so correct answers about nonsense substitutions are not penalised.",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -2727,7 +2727,7 @@ window.MOD_EX['2'] = {
        {
         "type": "req",
         "src": "EN3",
-        "t": "Uses chemistry vocabulary, symbols and conventions CONSISTENTLY. In calculations this means the correct unit, the sign of ΔrH and 3 s.f. (2026 specification)."
+        "t": "Uses chemistry vocabulary, symbols and conventions CONSISTENTLY (in calculations: correct unit, the sign of ΔrH and 3 s.f. — 2026 specification). Per the schedules a minor slip such as a missing unit or sign drops a question from E8 to E7 rather than removing Excellence: the 2025 Excellence exemplar (21) had such slips."
        },
        {
         "type": "ind",
@@ -2745,13 +2745,13 @@ window.MOD_EX['2'] = {
       "Score each question N0–E8 from its ticks, then total. Do not give the paper an overall impression grade.",
       "'Particles' instead of atoms, ions or molecules, and 'NaCl is a polar molecule'. These were the most common Not Achieved errors in 2025.",
       "Conductivity explained only by 'free electrons' for ionic or molten substances. The idea is mobile CHARGED particles.",
-      "ΔrH without sign or unit, or not to 3 s.f. This cost E8 in every question of the 2025 Excellence exemplar.",
+      "ΔrH without sign or unit, or not to 3 s.f. Such slips held questions of the 2025 Excellence exemplar at E7 (it still totalled 21, Excellence), so treat them as costing E8, not Excellence.",
       "Dissolving diagrams with the wrong orientation of water dipoles or the wrong ion charges.",
       "Shape answers that name the shape but not the number of electron regions, the parent geometry or the role of lone pairs.",
       "Practice papers that reuse a published NZQA paper unchanged. Students may have seen the schedule."
      ],
      "aiLimits": "Calculations, Lewis and structural diagrams, dissolving diagrams, energy diagrams and handwritten working are read from scans and may be misread (subscripts, charges, signs, decimal points, lone pairs, arrows). The teacher must check every calculation step, diagram and tick before accepting a score code, and confirm the paper was sat with only the resource booklet and a calculator.",
-     "researchNotes": "Standard text from the NZQA as91164 2019 PDF (Version 2). The ENs were obtained in fragments and paraphrase, and EN3 wording is close to but not guaranteed verbatim. The ref '2.4' comes from NZQA's Chemistry 2.4 numbering and was not printed in the fetched text. 2026 specification read via fetch (Chemistry L2 combined document, October 2025). Schedules were read through text extraction, which was partly garbled. The 2025 Q2 E7/E8 footer is ambiguous ('2e minor error / 2e'), so confirm it against the PDF. Assessment Report content is summarised from the combined Level 2 Chemistry report (2024 and 2025). 2024 exemplars exist on NZQA but were not read. No time allowance per standard is published. The literacy co-requisite status was not checked. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only).",
+     "researchNotes": "Standard text from the NZQA as91164 2019 PDF (Version 2). The ENs were obtained in fragments and paraphrase, and EN3 wording is close to but not guaranteed verbatim. The ref '2.4' comes from NZQA's Chemistry 2.4 numbering and was not printed in the fetched text. 2026 specification read via fetch (Chemistry L2 combined document, October 2025). Schedules were read through text extraction, which was partly garbled. The 2025 Q2 E7/E8 footer is ambiguous ('2e minor error / 2e'), so confirm it against the PDF. Assessment Report content is summarised from the combined Level 2 Chemistry report (2024 and 2025). 2024 exemplars exist on NZQA but were not read. No time allowance per standard is published. The literacy co-requisite status was not checked. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only). Gate review Oct 2026: Excellence conventions gate and the ΔrH watch item reworded so a unit or sign slip costs E8, not Excellence, per the schedule and the 2025 Excellence exemplar.",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -3194,7 +3194,7 @@ window.MOD_EX['2'] = {
        {
         "type": "req",
         "src": "EN3",
-        "t": "Consistent conventions: correct equations and arrows, correct Kc expressions (no H2O(l) or solids), units and 3 s.f."
+        "t": "Consistent conventions: correct equations and arrows, correct Kc expressions (no H2O(l) or solids), units and 3 s.f. The 2025 schedule allows a minor error in one part for E8 in Q2 and Q3, and the 2025 Excellence exemplar reached E8 in Q1 despite H2O in a Kc expression, so one slip does not by itself remove Excellence."
        },
        {
         "type": "ind",
@@ -3213,7 +3213,7 @@ window.MOD_EX['2'] = {
       "Blank parts. These were common in 2025, and later parts are often still accessible."
      ],
      "aiLimits": "Calculations, equations (arrows, charges, states), Kc expressions, graph sketches and handwritten working are read from scans and may be misread (powers of ten, subscripts, ⇌ versus →). The teacher must check every calculation step, equation and tick before accepting a score code.",
-     "researchNotes": "Standard text from the NZQA as91166 2019 PDF (Version 2, 4 credits). The ENs were obtained in fragments and paraphrase. The ref '2.6' follows the NZQA Chemistry 2.x numbering and was not printed in the fetched text. The 2025 Q1 E7/E8 entry and the 2024 tick-to-code key were garbled in extraction. The 2025 cut scores (A from 9) are confirmed by the NZQA 2025 Cut Scores PDF. 2024 exemplars were not read. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only).",
+     "researchNotes": "Standard text from the NZQA as91166 2019 PDF (Version 2, 4 credits). The ENs were obtained in fragments and paraphrase. The ref '2.6' follows the NZQA Chemistry 2.x numbering and was not printed in the fetched text. The 2025 Q1 E7/E8 entry and the 2024 tick-to-code key were garbled in extraction. The 2025 cut scores (A from 9) are confirmed by the NZQA 2025 Cut Scores PDF. 2024 exemplars were not read. Enrichment Oct 2026: 6 NZQA annotated exemplars now held (2024, 2025); no public standard-specific association material found (subject-level notes only). Gate review Oct 2026: Excellence conventions gate reworded so one convention slip does not remove Excellence, per the 2025 schedule's minor-error allowance and Excellence exemplar.",
      "associationNotes": [],
      "clarifications": {
       "date": "n/a",
@@ -5679,7 +5679,7 @@ window.MOD_EX['2'] = {
        {
         "type": "ind",
         "src": "2024 and 2025 Assessment Reports",
-        "t": "Insight is consistent across the whole essay. Context and wider links are woven into the argument, not bolted on."
+        "t": "Insight sustained across the whole essay is typical of E8; E7 fulfils the Excellence intent even though some parts may be imbalanced or limited (2025 schedule). Context and wider links are woven into the argument, not bolted on."
        },
        {
         "type": "ind",
@@ -5698,7 +5698,7 @@ window.MOD_EX['2'] = {
       "Quotation accuracy: the student writes from memory, and misquoted evidence weakens 'specific, relevant detail'."
      ],
      "aiLimits": "The AI cannot see the studied text, so the teacher must confirm that quotations, character names and plot details are accurate, and that the text is at Curriculum Level 7. Scans of handwriting and screenshots of digital answers may be misread. Judgements of 'insight' and 'originality' depend on knowing what was taught in class, so the teacher should check whether ideas are the student's own or taught readings.",
-     "researchNotes": "Criteria and EN content come from the NZQA as91098 PDF (2019 folder, Version 3), retrieved as close paraphrase with short quotes: the fetch tool would not reproduce long verbatim text. The 2026 specification is a combined document for 91098/91099/91100. 2025 schedule descriptors were read from a PDF whose layout extracted poorly, so the N2 wording is approximate. The 2024 schedule was not read directly (the hourly fetch limit was reached). The 2025 Achievement exemplar and the 2024 Merit and Excellence exemplars exist but were not read. No time allowance was found in the papers or specification. The derived-grade rules in clauses 3 and 4 of the 2026 Rules are taken from the summary the project already verified for EX-L1-History.json. In this session I directly fetched only NZQA's derived grades overview page and its 'When derived grades do not apply' page. Enrichment Oct 2026: 6 NZQA external exemplars now held (2024, 2025), all with source links; no public subject-association guidance specific to this standard was found.",
+     "researchNotes": "Criteria and EN content come from the NZQA as91098 PDF (2019 folder, Version 3), retrieved as close paraphrase with short quotes: the fetch tool would not reproduce long verbatim text. The 2026 specification is a combined document for 91098/91099/91100. 2025 schedule descriptors were read from a PDF whose layout extracted poorly, so the N2 wording is approximate. The 2024 schedule was not read directly (the hourly fetch limit was reached). The 2025 Achievement exemplar and the 2024 Merit and Excellence exemplars exist but were not read. No time allowance was found in the papers or specification. The derived-grade rules in clauses 3 and 4 of the 2026 Rules are taken from the summary the project already verified for EX-L1-History.json. In this session I directly fetched only NZQA's derived grades overview page and its 'When derived grades do not apply' page. Enrichment Oct 2026: 6 NZQA external exemplars now held (2024, 2025), all with source links; no public subject-association guidance specific to this standard was found. Gate review Oct 2026: The Excellence indicator no longer asks for consistent insight across the whole essay, which is the E8 level, not the E7 threshold.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -6666,9 +6666,9 @@ window.MOD_EX['2'] = {
       ],
       "merit": [
        {
-        "type": "ind",
-        "src": "Schedule M5 (2024 and 2025)",
-        "t": "Covers BOTH elements the paper asks for (2025: two strategies; 2024: a factor AND a strategy), explained IN DETAIL."
+        "type": "req",
+        "src": "EN2; schedule M5 (2024 and 2025)",
+        "t": "Explains the aspects IN DETAIL (EN2), covering BOTH elements the paper asks for (schedule M5: 2025 two strategies; 2024 a factor AND a strategy)."
        },
        {
         "type": "req",
@@ -6719,7 +6719,7 @@ window.MOD_EX['2'] = {
       "Do not reward length or a pre-learned essay that answers a different aspect from the one asked."
      ],
      "aiLimits": "Handwriting and hand-drawn maps may be misread. The AI cannot verify the student's statistics, named organisations or strategies; the teacher must check case study accuracy and confirm which aspects the practice paper asked for.",
-     "researchNotes": "Standard text from the NZQA as91242 PDF (2019 folder; Version 3, published 23 November 2017), paraphrased closely. 2025 schedule code wording was extracted from a scrambled PDF and partly inferred. The 2024 schedule's OR/AND split between factor and strategy rows is inferred from the layout. No 2025 exemplars listed. A 2026 PEP PDF (91242-pep-2026.pdf) is listed but was not read. Exam date and time allowance not confirmed. Derived-grade rules reuse sources verified for this site's Level 1 History file. Enrichment Oct 2026: 3 NZQA exemplars now held (2024); no public subject-association guidance was found for this standard.",
+     "researchNotes": "Standard text from the NZQA as91242 PDF (2019 folder; Version 3, published 23 November 2017), paraphrased closely. 2025 schedule code wording was extracted from a scrambled PDF and partly inferred. The 2024 schedule's OR/AND split between factor and strategy rows is inferred from the layout. No 2025 exemplars listed. A 2026 PEP PDF (91242-pep-2026.pdf) is listed but was not read. Exam date and time allowance not confirmed. Derived-grade rules reuse sources verified for this site's Level 1 History file. Enrichment Oct 2026: 3 NZQA exemplars now held (2024); no public subject-association guidance was found for this standard. Gate review Oct 2026: merit item 0 retyped req: explaining in detail is the EN2 Merit definition and both elements are the schedule M5 descriptor.",
      "clarifications": {
       "date": "n/a",
       "points": []

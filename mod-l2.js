@@ -988,7 +988,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA Low Merit exemplar",
-        "t": "The reasoned approach and consistent use of evidence must be sustained throughout."
+        "t": "Sustaining the reasoned approach and consistent use of evidence throughout makes Merit more secure; the Low Merit exemplar was awarded Merit without fully maintaining it."
        }
       ],
       "excellence": [
@@ -1812,7 +1812,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA Low Merit exemplar",
-        "t": "Adaptations and the interrelationship are explained, not simply stated; the provided data can be used to show predation or competition."
+        "t": "NZQA exemplars split here: Low Merit gave reasons for the adaptations and the interrelationship only briefly (stated or given rather than explained in detail); High Merit explained both in some detail using the data. A brief but correct reason linking an adaptation to the factor and to an interrelationship reaches Low Merit; detailed explanation using the provided data secures Merit."
        }
       ],
       "excellence": [
@@ -2518,7 +2518,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "EN2",
-        "t": "The concentrations of BOTH the standard solution and the substance present are determined accurately."
+        "t": "The concentrations of both the standard solution and the substance present are determined (EN2: accurately). NZQA's Low Merit exemplar reached Merit while its working for one of these concentrations still needed correcting, so a single working slip weakens Merit rather than capping it."
        },
        {
         "type": "req",
@@ -2679,7 +2679,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "EN2",
-        "t": "The identification is EXPLAINED by linking the primary data to the procedure (all relevant observations, not some)."
+        "t": "The identification is EXPLAINED by linking the primary data to the procedure. NZQA's Low Merit exemplar reached Merit without yet linking every observation (e.g. the no-change H2SO4 test for Mg2+); linking all primary data to identify both species makes Merit more secure."
        },
        {
         "type": "req",
@@ -2954,8 +2954,8 @@ window.MOD_DATA['2'] = {
       "merit": [
        {
         "type": "req",
-        "src": "EN3 + clarification",
-        "t": "Balanced half equations are written and linked to the observations, with reasons using the NUMBER of electrons transferred or the specific oxidation number change."
+        "src": "EN2 + clarification",
+        "t": "Balanced half equations are written and linked to the observations, with reasons for oxidation and reduction. The clarification asks for reasons using the NUMBER of electrons transferred or the oxidation number change; NZQA's Low Merit exemplar reached Merit stating only 'electrons gained' and 'oxidation number decreases' (no numbers), so missing numbers weaken rather than cap Merit."
        },
        {
         "type": "req",
@@ -3775,7 +3775,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA High Not Achieved exemplars",
-        "t": "Generalised awareness of features and concerns without examples found in the texts, or factual inaccuracies, did not reach Achieved."
+        "t": "Generalised awareness of features and concerns, without examples found in the texts, did not reach Achieved (NZQA High Not Achieved exemplars; set B also needed its facts made accurate)."
        }
       ],
       "merit": [
@@ -7234,7 +7234,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "Clarification",
-        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'Find the equation of the line AB') is not evidence of selecting a method."
+        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (an instruction naming the method or the graph to draw) is not evidence of selecting a method; students must make their own decisions about how to solve the problem."
        },
        {
         "type": "req",
@@ -7392,7 +7392,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "Clarification",
-        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'Find the equation of the line AB') is not evidence of selecting a method."
+        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. naming the type of sequence or the formula to apply) is not evidence of selecting a method; students must make their own decisions about how to solve the problem."
        },
        {
         "type": "req",
@@ -7548,7 +7548,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "Clarification",
-        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'Find the equation of the line AB') is not evidence of selecting a method."
+        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'use the cosine rule to find…') is not evidence of selecting a method; students must make their own decisions about how to solve the problem."
        },
        {
         "type": "req",
@@ -7705,7 +7705,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "Clarification",
-        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'Find the equation of the line AB') is not evidence of selecting a method."
+        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'Use a minimum spanning tree to find …') is not evidence of selecting a method."
        },
        {
         "type": "req",
@@ -7906,7 +7906,7 @@ window.MOD_DATA['2'] = {
       ]
      },
      "watch": [
-      "No genuine desk review, or a single desk review when questions changed afterwards (the clarification expects more than one).",
+      "No genuine desk review. Where questions changed after the desk review, check them again — the clarification says the process will likely involve more than one desk review, but it does not set a minimum number.",
       "A 'pilot' with no recorded data, or one not drawn from the target population.",
       "Final questionnaire identical to the draft, or changes not traceable to pilot/desk review findings.",
       "Questions with no clear variable or measure, or a narrow range of question types.",
@@ -8601,7 +8601,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "Clarification",
-        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use (e.g. 'Find the equation of the line AB') is not evidence of selecting a method."
+        "t": "A method counts as evidence only if it is relevant to solving the problem and at curriculum level 7. A method the task told the student to use, or a given system to solve, is not evidence of selecting a method; students must make their own decisions about how to solve the problem."
        },
        {
         "type": "req",
@@ -8943,8 +8943,13 @@ window.MOD_DATA['2'] = {
        },
        {
         "type": "req",
-        "src": "Clarification",
-        "t": "Effects are supported with detailed examples from at least three media texts plus other sources, not only the student's own observations."
+        "src": "EN2 (Version 4)",
+        "t": "The representation and its effect are described ACROSS media texts (more than one text), with supporting examples."
+       },
+       {
+        "type": "ind",
+        "src": "Clarification (December 2017, predates Version 4)",
+        "t": "Students SHOULD use detailed, supported examples from at least three media texts and from other sources, not only their own observations. Fewer texts, or no other sources, should be flagged and weighed against the depth shown, not treated as an automatic cap."
        },
        {
         "type": "ind",
@@ -8988,7 +8993,7 @@ window.MOD_DATA['2'] = {
       ]
      },
      "watch": [
-      "Fewer than three media texts, or evidence drawn only from the student's own observations with no other sources.",
+      "Fewer than three media texts, or evidence drawn only from the student's own observations with no other sources (the 2017 clarification's 'should' guidance; flag it and weigh it, as Version 4 EN2 says only 'across media texts').",
       "Text-by-text close readings with no overall statement about the representation.",
       "Statistics or research findings about 'reality' that are unattributed or cannot be traced — mark as 'check'.",
       "Several unrelated representations rather than one clear, significant representation.",
@@ -9093,9 +9098,9 @@ window.MOD_DATA['2'] = {
         "t": "More than one point of view is discussed."
        },
        {
-        "type": "req",
-        "src": "Clarification",
-        "t": "Goes beyond description to examine the media and societal context and how/why the issue is mediated, supported by evidence from a variety of sources."
+        "type": "ind",
+        "src": "Clarification (December 2016)",
+        "t": "The clarification describes the standard's overall focus as going beyond description to the media and societal context and how/why the issue is framed, with discussion supported by evidence from a variety of sources. At Achieved, a description that covers the issue's features, context, more than one point of view and its effect meets EN2; reasoned how/why explanation is the Merit step."
        },
        {
         "type": "ind",
@@ -9112,7 +9117,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA Low/High Merit exemplars",
-        "t": "Commenting on the significance of the perspectives and why they matter to society secures Merit."
+        "t": "Commenting on the significance of the perspectives and why they matter to society makes Merit more secure (the Low Merit exemplar was awarded Merit while still needing this)."
        }
       ],
       "excellence": [
@@ -9300,7 +9305,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA Low Achieved exemplar",
-        "t": "The evaluation of significance must be more than a passing comment: how the aspect developed and why it matters in a New Zealand context."
+        "t": "The NZQA Low Achieved exemplar only touched on the choirs' significance in New Zealand and was judged a low (not yet secure) Achieved; a fuller evaluation of how the aspect developed and why it matters in a New Zealand context makes Achieved secure."
        }
       ],
       "merit": [
@@ -9992,7 +9997,7 @@ window.MOD_DATA['2'] = {
       {
        "grade": "Low Excellence",
        "text": "Rugby World Cup: explained economic, societal and political factors; weighed pros, cons, advantages and disadvantages; research and personal examples; challenged assumptions about benefits for society and others.",
-       "miss": "",
+       "miss": "For a more secure Excellence, NZQA says the critical examination of the significance of hosting the event for self needed greater detail (self was the weakest area).",
        "version": "not stated on NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91331/91331-Exemplar-Low-Excellence.pdf"
       }
@@ -10060,7 +10065,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA Low Excellence exemplar",
-        "t": "Critical examination needs to extend to self, not only others and society."
+        "t": "Low Excellence was awarded with the critical examination strongest for others and society and thinner for self; NZQA says greater detail in the critical examination for self would make Excellence more secure. Self must be covered (Achieved), but an uneven critical examination of self does not by itself rule out Low Excellence."
        }
       ]
      },
@@ -10391,7 +10396,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA exemplars",
-        "t": "Evaluating one strategy while only explaining the others stayed Merit or low Excellence."
+        "t": "NZQA exemplars split here: High Merit evaluated one strategy (inexperience) but gave the second (mechanical failure) no evaluation; Low Excellence evaluated one strategy (did it work, future improvement) and briefly explained a modification for the second (hypothermia). Evaluating every strategy in detail is what makes Excellence secure, not what Low Excellence requires."
        }
       ]
      },
@@ -10883,7 +10888,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "A graph showing the relationship: correctly labelled, points accurately plotted, appropriate line of best fit."
+        "t": "A graph showing the relationship: correctly labelled, points plotted, appropriate line of best fit. NZQA's Low Achieved exemplar reached Achieved with some points misplotted, rough rounding and a loosely fitting line, so minor plotting slips weaken rather than cap Achieved."
        },
        {
         "type": "req",
@@ -10900,7 +10905,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "Control of variable(s) that could SIGNIFICANTLY affect the results, described as kept constant."
+        "t": "Control of variable(s) that could SIGNIFICANTLY affect the results. NZQA's Low Merit exemplar reached Merit with an attempted description of control; stating clearly that the variables were kept constant makes Merit more secure."
        },
        {
         "type": "req",
@@ -10910,7 +10915,7 @@ window.MOD_DATA['2'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "A conclusion giving the mathematical relationship (equation) from the data, in terms of the variables investigated, with the gradient from points on the line."
+        "t": "A conclusion giving the mathematical relationship (equation) from the data, in terms of the variables investigated; any gradient should come from the line, not from data points off it (clarification). NZQA's Low Merit exemplar reached Merit with an attempted equation and no gradient working shown, so missing working weakens rather than caps Merit."
        }
       ],
       "excellence": [
@@ -11552,7 +11557,7 @@ window.MOD_DATA['2'] = {
       ]
      },
      "watch": [
-      "Ethics written as a generic DRIPCD checklist rather than how this procedure met specific Code principles — now an Achieved requirement under Version 2.",
+      "Ethics written as a generic DRIPCD checklist rather than how this procedure met specific Code principles. Complying with the Code is an Achieved requirement under Version 2; a generic checklist is weak evidence of compliance (2025 NMR guidance), not a fail on its own — an actual breach is.",
       "Deception, covert observation or social-influence designs that breach Principle 3.1.5; these should be caught at the proposal stage.",
       "Results that look too neat, data that do not match the stated sample, or raw data that cannot be produced — check data were actually collected by the student.",
       "Group data collection with near-identical write-ups; each student must provide their own evidence.",
