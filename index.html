@@ -228,6 +228,55 @@ body:not([data-kind="info"]) .k-info, body[data-kind="info"] .ai-only{display:no
 .info-head .k{font-size:.625rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
 .info-head p{font-size:.8125rem;margin:0;color:var(--ink-soft)}
 #sinfo .acts{margin:0 0 .8rem}
+/* ---- Standards information tab: readable cards (Build 18.3) ---- */
+#info{--c-std:#1d4ed8;--c-std-w:#eaf0ff;--c-ev:#0f766e;--c-ev-w:#e3f6f3;--c-gate:#6d28d9;--c-gate-w:#f1ebff;
+  --c-warn:#b45309;--c-warn-w:#fff3df;--c-ref:#475569;--c-ref-w:#eef2f6;
+  --g-a:#1d4ed8;--g-a-w:#eef3ff;--g-m:#7c3aed;--g-m-w:#f4efff;--g-e:#c2410c;--g-e-w:#fff1e8;--g-n:#64748b;--g-n-w:#f1f4f8;
+  background:transparent;border:0;border-radius:0;overflow:visible;display:grid;gap:1rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+:root[data-theme="dark"] #info{--c-std:#8fb2ff;--c-std-w:#16264a;--c-ev:#5fd3c4;--c-ev-w:#0f2e2c;--c-gate:#c4a6ff;--c-gate-w:#271b45;
+  --c-warn:#ffbe6b;--c-warn-w:#33240c;--c-ref:#b6c2d4;--c-ref-w:#1c2638;
+  --g-a:#8fb2ff;--g-a-w:#16264a;--g-m:#c4a6ff;--g-m-w:#271b45;--g-e:#ff9f6b;--g-e-w:#36200f;--g-n:#a3b0c2;--g-n-w:#1c2638}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) #info{--c-std:#8fb2ff;--c-std-w:#16264a;--c-ev:#5fd3c4;--c-ev-w:#0f2e2c;--c-gate:#c4a6ff;--c-gate-w:#271b45;
+  --c-warn:#ffbe6b;--c-warn-w:#33240c;--c-ref:#b6c2d4;--c-ref-w:#1c2638;
+  --g-a:#8fb2ff;--g-a-w:#16264a;--g-m:#c4a6ff;--g-m-w:#271b45;--g-e:#ff9f6b;--g-e-w:#36200f;--g-n:#a3b0c2;--g-n-w:#1c2638}}
+#info .info-head{border:1px solid var(--line-strong);border-left:6px solid var(--gold);border-radius:.8rem;padding:1.1rem 1.3rem}
+#info .info-head .k{font-size:.75rem}
+#info .info-head h3{font-size:1.4rem;line-height:1.3;margin:.3rem 0 .5rem}
+#info .info-head p{font-size:.9375rem;line-height:1.6}
+#info section{--sc:var(--c-std);--sw:var(--c-std-w);padding:0 1.25rem 1.1rem;border:1px solid var(--line-strong);border-left:6px solid var(--sc);border-radius:.8rem;background:var(--surface)}
+#info section:nth-child(even){background:var(--surface)}
+#info section.s-ev{--sc:var(--c-ev);--sw:var(--c-ev-w)}
+#info section.s-gate{--sc:var(--c-gate);--sw:var(--c-gate-w)}
+#info section.s-warn{--sc:var(--c-warn);--sw:var(--c-warn-w)}
+#info section.s-ref{--sc:var(--c-ref);--sw:var(--c-ref-w)}
+#info section > h3{font-size:1.125rem;font-weight:800;letter-spacing:0;text-transform:none;line-height:1.35;color:var(--sc);
+  background:var(--sw);margin:0 -1.25rem 1rem;padding:.75rem 1.25rem;border-radius:0 .7rem 0 0;border-bottom:2px solid color-mix(in srgb,var(--sc) 35%,transparent)}
+#info p, #info li{font-size:.9375rem;line-height:1.6;color:var(--ink)}
+#info section > ul{gap:0;padding-left:1.2rem}
+#info section > ul > li{padding:.5rem 0;border-bottom:1px solid var(--line)}
+#info section > ul > li:first-child{padding-top:0}
+#info section > ul > li:last-child{border-bottom:0;padding-bottom:0}
+#info section > ul > li::marker{color:var(--sc)}
+#info .lk{color:var(--sc);font-weight:800}
+#info .gsrc{font-size:.75rem}
+#info .bands{gap:.8rem}
+#info .band{--gc:var(--g-a);--gw:var(--g-a-w);border:2px solid var(--gc);border-top-width:7px;border-radius:.7rem;background:var(--gw);padding:.8rem .95rem}
+#info .band.b-merit{--gc:var(--g-m);--gw:var(--g-m-w)}
+#info .band.b-excellence{--gc:var(--g-e);--gw:var(--g-e-w)}
+#info .band b{font-size:.875rem;letter-spacing:.06em;color:var(--gc);margin-bottom:.35rem}
+#info .ex{--gc:var(--g-a);--gw:var(--g-a-w);border:1px solid color-mix(in srgb,var(--gc) 40%,transparent);border-left:6px solid var(--gc);border-radius:.6rem;background:var(--gw);padding:.75rem .95rem}
+#info .ex.gm{--gc:var(--g-m);--gw:var(--g-m-w)} #info .ex.ge{--gc:var(--g-e);--gw:var(--g-e-w)} #info .ex.gn{--gc:var(--g-n);--gw:var(--g-n-w)}
+#info .ex b{display:block;font-size:.9375rem;color:var(--gc);margin-bottom:.3rem}
+#info .ex .miss{color:var(--ink-soft);margin-top:.45rem;padding-top:.45rem;border-top:1px dashed color-mix(in srgb,var(--gc) 45%,transparent)}
+#info .gate-h{--gc:var(--g-a);display:inline-block;font-size:.875rem;font-weight:800;color:#fff;background:var(--gc);padding:.3rem .85rem;border-radius:999px;margin:1rem 0 .55rem}
+#info .gate-h.gm{--gc:var(--g-m)} #info .gate-h.ge{--gc:var(--g-e)}
+:root[data-theme="dark"] #info .gate-h{color:#0b1220}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) #info .gate-h{color:#0b1220}}
+#info .gate-h + ul{margin-bottom:.2rem}
+#info .gtag{font-size:.625rem;padding:.15rem .5rem}
+#info .src a{font-size:.9375rem}
+@media print{ #info{gap:.6rem} #info section{break-inside:avoid} }
+
 @media print{
   body[data-kind="info"] header, body[data-kind="info"] footer, body[data-kind="info"] main > section:not(#sinfo), body[data-kind="info"] .notice, body[data-kind="info"] #sinfo .acts, body[data-kind="info"] #sinfo .step-h{display:none !important}
   body[data-kind="info"] #sinfo{border:0;background:none;padding:0}
@@ -324,7 +373,7 @@ footer p{max-width:60ch;margin:.4rem auto}
   <!-- standards information (teachers) -->
   <section class="panel dead k-info" id="sinfo">
     <h2 class="step-h"><span class="step-n">3</span>Standard information</h2>
-    <div class="acts"><button class="btn btn-ai" id="info-print" type="button">Print or save as PDF</button></div>
+    <div class="acts"><button class="btn btn-copy" id="info-copy" type="button">Copy this information</button><button class="btn btn-ai" id="info-print" type="button">Print or save as PDF</button></div>
     <div class="brief" id="info"></div>
   </section>
 
@@ -770,12 +819,16 @@ function assocHtml(s, sub){
   const subj = all.map(a => Object.assign({}, a, { notes: (a.notes || []).filter(assocUseful) })).filter(a => a.notes.length);
   const own = (s.associationNotes || []);
   if(!all.length && !own.length) return '';
-  return `<section><h3>Subject association guidance · indicators only, NZQA wins</h3><ul>
+  return `<section class="s-ref"><h3>Subject association guidance · indicators only, NZQA wins</h3><ul>
     ${own.map(n => `<li>${esc(n.text)} <span class="gsrc">${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.source)}</a>` : esc(n.source)}</span></li>`).join('')}
     ${subj.flatMap(a => a.notes.map(n => `<li>${esc(n)} <span class="gsrc">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>` : esc(a.name)}</span></li>`)).join('')}
     ${!own.length && !subj.length ? '<li>No publicly available marking or moderation guidance from the subject association was found for this standard.</li>' : ''}
   </ul>${all.length ? `<p style="margin-top:.5rem">Association${all.length > 1 ? 's' : ''}: ${all.map(a => a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>` : esc(a.name)).join(' · ')}</p>` : ''}</section>`;
 }
+function liTxt(x){ const t = String(x); let i = t.indexOf(' — '), w = 3;
+  const c = t.indexOf(': '); if((i < 0 || (c > 0 && c < i)) && c > 0 && /^(EN|AS)?\s?[0-9]/.test(t)){ i = c; w = 2; }
+  return (i > 0 && i < 40 && t.slice(0, i).trim().split(/\s+/).length <= 4 && /[0-9]|^[A-Z]{2,}/.test(t)) ? `<b class="lk">${esc(t.slice(0, i))}</b> ${esc(t.slice(i + w))}` : esc(t); }
+function gCls(g){ const c = String(g).trim().toLowerCase()[0]; return c === 'e' ? 'ge' : c === 'm' ? 'gm' : c === 'n' ? 'gn' : 'ga'; }
 function infoHead(s, sub, label){
   return `<div class="info-head"><span class="k">${esc(D().meta.stage)} ${esc(sel.subject)} · ${esc(label)} · ${s.credits} credits</span>
     <h3>AS${esc(s.code)}${s.ref ? ' (' + esc(s.ref) + ')' : ''} · ${esc(s.title)}</h3>
@@ -786,55 +839,55 @@ function renderInfo(){
   if(s._k === 'ex') renderBriefExam($('info'), s, m._ex, true); else renderBrief($('info'), s, m._int, true);
 }
 function renderBriefExam(el = $('brief'), s = sel.std, sub = D().subjects[sel.subject], teacher = false){
-  const li = a => (a && a.length) ? '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>' : '<p>None found when sources were checked.</p>';
+  const li = a => (a && a.length) ? '<ul>' + a.map(x => `<li>${liTxt(x)}</li>`).join('') + '</ul>' : '<p>None found when sources were checked.</p>';
   const gl = a => '<ul>' + a.map(g => `<li><span class="gtag ${g.type}">${g.type === 'req' ? 'Required' : 'Indicator'}</span> <span class="gsrc">${esc(g.src)}</span> ${esc(g.t)}</li>`).join('') + '</ul>';
   const lk = x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`;
   el.innerHTML = (teacher ? infoHead(s, sub, 'External · examination') : '') + `
-    <section><h3>Achievement criteria · ${esc(s.version)}</h3>
-      <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
-    <section><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
-    <section><h3>The exam</h3>${li(s.examFormat)}</section>
-    <section><h3>How NZQA marks it</h3>${li(s.markingModel)}</section>
-    ${(s.papers||[]).length ? `<section><h3>Recent NZQA papers</h3>${s.papers.map(pp => `<div class="ex"><b>${esc(pp.year)}</b>${li(pp.questions)}${pp.cutScores ? `<p>Cut scores: ${esc(pp.cutScores)}</p>` : ''}<p>${(pp.links||[]).filter(x => x.url).map(lk).join(' · ')}</p></div>`).join('')}</section>` : ''}
-    <section><h3>NZQA Assessment Reports</h3>${li(s.assessmentReport)}</section>
-    ${(s.exemplars||[]).length ? `<section><h3>NZQA annotated exemplars</h3><div style="display:grid;gap:.7rem">${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}${e.version ? ' · ' + esc(e.version) : ''}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">View this exemplar</a></p>` : ''}</div>`).join('')}</div></section>` : ''}
-    <section><h3>Derived grade rules that apply</h3>${li(sub.derivedGradeNotes)}</section>
-    <section><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
+    <section class="s-std"><h3>Achievement criteria · ${esc(s.version)}</h3>
+      <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band b-${k}"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
+    <section class="s-std"><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
+    <section class="s-ev"><h3>The exam</h3>${li(s.examFormat)}</section>
+    <section class="s-ev"><h3>How NZQA marks it</h3>${li(s.markingModel)}</section>
+    ${(s.papers||[]).length ? `<section class="s-ev"><h3>Recent NZQA papers</h3>${s.papers.map(pp => `<div class="ex"><b>${esc(pp.year)}</b>${li(pp.questions)}${pp.cutScores ? `<p>Cut scores: ${esc(pp.cutScores)}</p>` : ''}<p>${(pp.links||[]).filter(x => x.url).map(lk).join(' · ')}</p></div>`).join('')}</section>` : ''}
+    <section class="s-ev"><h3>NZQA Assessment Reports</h3>${li(s.assessmentReport)}</section>
+    ${(s.exemplars||[]).length ? `<section class="s-ev"><h3>NZQA annotated exemplars</h3><div style="display:grid;gap:.7rem">${s.exemplars.map(e => `<div class="ex ${gCls(e.grade)}"><b>${esc(e.grade)}${e.version ? ' · ' + esc(e.version) : ''}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">View this exemplar</a></p>` : ''}</div>`).join('')}</div></section>` : ''}
+    <section class="s-std"><h3>Derived grade rules that apply</h3>${li(sub.derivedGradeNotes)}</section>
+    <section class="s-gate"><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
       <p style="margin-bottom:.6rem">${teacher ? "In the exam the marking schedule's score codes decide the marks. These points come from the standard and show what separates the grades: <strong>Required</strong> items come from the standard's wording; <strong>Indicators</strong> are examples of quality from exemplars and Assessment Reports, never a checklist." : "The marking schedule's score codes decide each question. These gates, from the standard, are what the AI uses to sense-check the overall grade and explain boundaries."}</p>
-      <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
-      <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
-      <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
+      <p class="gate-h ga">Achieved</p>${gl(s.gates.achieved)}
+      <p class="gate-h gm">Merit adds</p>${gl(s.gates.merit)}
+      <p class="gate-h ge">Excellence adds</p>${gl(s.gates.excellence)}</section>
     ${assocHtml(s, sub)}
-    <section><h3>Watch for in this exam</h3>${li(s.watch)}</section>
-    ${s.aiLimits ? `<section><h3>${teacher ? 'What to check beyond the written script' : 'What the AI cannot judge from scans'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
-    <section class="src"><h3>Sources</h3><ul>
+    <section class="s-warn"><h3>Watch for in this exam</h3>${li(s.watch)}</section>
+    ${s.aiLimits ? `<section class="s-warn"><h3>${teacher ? 'What to check beyond the written script' : 'What the AI cannot judge from scans'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
+    <section class="src s-ref"><h3>Sources</h3><ul>
       <li><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=${s.code}" target="_blank" rel="noopener">AS${s.code} on NZQA</a></li>
       ${sub.sources.map(x => `<li>${lk(x)}</li>`).join('')}
     </ul></section>`;
 }
 function renderBrief(el = $('brief'), s = sel.std, sub = D().subjects[sel.subject], teacher = false){
   if(!teacher && kind === 'exam') return renderBriefExam();
-  const li = a => '<ul>' + a.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>';
+  const li = a => '<ul>' + a.map(x => `<li>${liTxt(x)}</li>`).join('') + '</ul>';
   const gl = a => '<ul>' + a.map(g => typeof g === 'string' ? `<li>${esc(g)}</li>`
     : `<li><span class="gtag ${g.type}">${g.type === 'req' ? 'Required' : 'Indicator'}</span> <span class="gsrc">${esc(g.src)}</span> ${esc(g.t)}</li>`).join('') + '</ul>';
   el.innerHTML = (teacher ? infoHead(s, sub, 'Internal assessment') : '') + `
-    <section><h3>Achievement criteria · ${esc(s.version)}</h3>
-      <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
-    <section><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
-    ${s.clarifications.points.length ? `<section><h3>NZQA clarification · ${esc(s.clarifications.date)}</h3>${li(s.clarifications.points)}</section>` : `<section><h3>NZQA clarification</h3><p>None published for this standard when sources were checked.</p></section>`}
-    ${(s.conditions||[]).length ? `<section><h3>Conditions of assessment that affect marking or feedback</h3>${li(s.conditions)}</section>` : ''}
-    ${s.aiLimits ? `<section><h3>${teacher ? 'What to check beyond the written work' : 'What the AI cannot judge from documents'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
-    ${s.nmr.length ? `<section><h3>National Moderator's Report · 2025 round</h3>${li(s.nmr)}</section>` : ''}
-    ${s.exemplars.length ? `<section><h3>NZQA annotated exemplars · what sits at each grade</h3><div style="display:grid;gap:.7rem">
-      ${s.exemplars.map(e => `<div class="ex"><b>${esc(e.grade)}${e.version ? ' · ' + esc(e.version) : ''}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">View this exemplar</a></p>` : ''}</div>`).join('')}</div></section>` : ''}
-    <section><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
+    <section class="s-std"><h3>Achievement criteria · ${esc(s.version)}</h3>
+      <div class="bands">${['achieved','merit','excellence'].map(k => `<div class="band b-${k}"><b>${k}</b><p>${esc(s.criteria[k])}</p></div>`).join('')}</div></section>
+    <section class="s-std"><h3>Explanatory notes that define the grades</h3>${li(s.notes)}</section>
+    ${s.clarifications.points.length ? `<section class="s-std"><h3>NZQA clarification · ${esc(s.clarifications.date)}</h3>${li(s.clarifications.points)}</section>` : `<section class="s-std"><h3>NZQA clarification</h3><p>None published for this standard when sources were checked.</p></section>`}
+    ${(s.conditions||[]).length ? `<section class="s-std"><h3>Conditions of assessment that affect marking or feedback</h3>${li(s.conditions)}</section>` : ''}
+    ${s.aiLimits ? `<section class="s-warn"><h3>${teacher ? 'What to check beyond the written work' : 'What the AI cannot judge from documents'}</h3><p>${esc(teacher ? forTeachers(s.aiLimits) : s.aiLimits)}</p></section>` : ''}
+    ${s.nmr.length ? `<section class="s-ev"><h3>National Moderator's Report · 2025 round</h3>${li(s.nmr)}</section>` : ''}
+    ${s.exemplars.length ? `<section class="s-ev"><h3>NZQA annotated exemplars · what sits at each grade</h3><div style="display:grid;gap:.7rem">
+      ${s.exemplars.map(e => `<div class="ex ${gCls(e.grade)}"><b>${esc(e.grade)}${e.version ? ' · ' + esc(e.version) : ''}</b><p>${esc(e.text)}</p>${e.miss?`<p class="miss">${esc(e.miss)}</p>`:''}${e.url ? `<p><a href="${esc(e.url)}" target="_blank" rel="noopener">View this exemplar</a></p>` : ''}</div>`).join('')}</div></section>` : ''}
+    <section class="s-gate"><h3>${teacher ? 'What each grade needs, built up from Achieved' : 'Gates the AI checks, bottom up'}</h3>
       <p style="margin-bottom:.6rem">${teacher ? "<strong>Required</strong> items come from the standard's wording or an NZQA clarification: work cannot reach the grade without them. <strong>Indicators</strong> are examples of quality from explanatory notes, exemplars and moderator reports; they help place work but are never a checklist." : "Only <strong>Required</strong> items can cap a grade. <strong>Indicators</strong> are examples of quality that help place work, never a checklist."}</p>
-      <p style="margin-bottom:.4rem"><strong>Achieved</strong></p>${gl(s.gates.achieved)}
-      <p style="margin:.6rem 0 .4rem"><strong>Merit adds</strong></p>${gl(s.gates.merit)}
-      <p style="margin:.6rem 0 .4rem"><strong>Excellence adds</strong></p>${gl(s.gates.excellence)}</section>
+      <p class="gate-h ga">Achieved</p>${gl(s.gates.achieved)}
+      <p class="gate-h gm">Merit adds</p>${gl(s.gates.merit)}
+      <p class="gate-h ge">Excellence adds</p>${gl(s.gates.excellence)}</section>
     ${assocHtml(s, sub)}
-    <section><h3>Watch for in this standard</h3>${li(s.watch)}</section>
-    <section class="src"><h3>Sources</h3><ul>
+    <section class="s-warn"><h3>Watch for in this standard</h3>${li(s.watch)}</section>
+    <section class="src s-ref"><h3>Sources</h3><ul>
       <li><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=${s.code}" target="_blank" rel="noopener">AS${s.code} on NZQA</a></li>
       <li><a href="https://www2.nzqa.govt.nz/ncea/subjects/select-subject/${sub.slug||'history'}/clarifications/as-${s.code}/" target="_blank" rel="noopener">AS${s.code} clarification</a></li>
       <li><a href="https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/${sub.slug||'history'}/${s.exemplarPath||'as-'+s.code}/" target="_blank" rel="noopener">AS${s.code} annotated exemplars</a></li>
@@ -1638,6 +1691,21 @@ function build(){
 window.composePrompt = composePrompt;
 
 $('info-print').onclick = () => window.print();
+$('info-copy').onclick = async () => {
+  const el = $('info'), b = $('info-copy'); if(!el.textContent.trim()) return;
+  const text = el.innerText.replace(/\n{3,}/g, '\n\n').trim();
+  const html = '<div>' + el.innerHTML + '</div>';
+  let ok = false;
+  try{
+    if(window.ClipboardItem && navigator.clipboard && navigator.clipboard.write){
+      await navigator.clipboard.write([new ClipboardItem({'text/html': new Blob([html], {type:'text/html'}), 'text/plain': new Blob([text], {type:'text/plain'})})]); ok = true;
+    }
+  }catch(e){}
+  if(!ok){ try{ await navigator.clipboard.writeText(text); ok = true; }catch(e){} }
+  if(!ok){ try{ const r = document.createRange(); r.selectNodeContents(el); const sl = getSelection(); sl.removeAllRanges(); sl.addRange(r); ok = document.execCommand('copy'); sl.removeAllRanges(); }catch(e){} }
+  b.textContent = ok ? 'Copied ✓' : 'Select and copy manually'; b.classList.toggle('ok', ok);
+  setTimeout(() => { b.textContent = 'Copy this information'; b.classList.remove('ok'); }, 1800);
+};
 /* ---- save Gemini's HTML sheet ---- */
 function cleanHtml(){
   let h = $('html-in').value.trim().replace(/^```(?:html)?\s*/i,'').replace(/\s*```\s*$/,'');
@@ -1716,8 +1784,8 @@ document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('clic
   if(show) show.addEventListener('click',()=>{ seen={}; try{ localStorage.removeItem(KEY); }catch(e){} apply(); window.scrollTo({top:0,behavior:'smooth'}); });
   apply();
 })();
-const PROMPT_VERSION = 'Build 18.2 (26 Oct 2026)';
-$('build').textContent = 'Build 18.2 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
+const PROMPT_VERSION = 'Build 18.3 (27 Oct 2026)';
+$('build').textContent = 'Build 18.3 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
 document.body.dataset.kind = 'int';
 /* ---- data freshness: the standards, specifications and cut scores here were checked for the 2026 year ---- */
 (function(){
