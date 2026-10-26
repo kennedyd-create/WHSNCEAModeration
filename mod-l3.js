@@ -135,8 +135,8 @@ window.MOD_DATA['3'] = {
      "code": "91434",
      "ref": "3.1",
      "credits": 5,
-     "version": "Version 3 (published December 2024)",
-     "verified": "2026-10-25",
+     "version": "Version 4 (published 9 December 2025; status date 27 November 2025; planned review 31 December 2029)",
+     "verified": "2026-10-26",
      "title": "Research an historical event or place of significance to New Zealanders, using primary and secondary sources",
      "criteria": {
       "achieved": "Research an historical event or place of significance to New Zealanders, using primary and secondary sources.",
@@ -144,9 +144,9 @@ window.MOD_DATA['3'] = {
       "excellence": "Comprehensively research an historical event or place of significance to New Zealanders, using primary and secondary sources."
      },
      "notes": [
-      "EN2 — Research (Achieved) involves: following a research process; evaluating the research process, for example explaining the successes and difficulties encountered, explaining how the line of inquiry may have changed as evidence was accumulated, identifying the issues to consider for future inquiries.",
+      "EN2 — Research (Achieved) involves: following a research process; evaluating the research process, for example explaining the successes and difficulties encountered in conducting the research, explaining how the line of inquiry may have changed as evidence was accumulated, identifying the issues to consider for future inquiries.",
       "EN2 — Research in depth (Merit) involves: making analytical and critical annotations that include assessment of the reliability of selected evidence.",
-      "EN2 — Comprehensively research (Excellence) involves: showing initiative in the gathering and selecting of relevant evidence, which may include persevering with difficult sources and/or using evidence from sources which are not readily available; AND evaluating the research process, for example by analysing the strength(s) and weakness(es) of the process, analysing how these are likely to impact on the validity of the findings, considering alternative research steps and/or lines of inquiry and/or methods, and their implications.",
+      "EN2 — Comprehensively research (Excellence) involves: showing initiative in the gathering and selecting of relevant evidence, which may include persevering with difficult sources and/or using evidence from sources which are not readily available; AND critically evaluating the research process, for example by analysing the strength(s) and weakness(es) of the process, analysing how these strength(s) and weakness(es) are likely to impact on the validity of the findings, considering alternative research steps and/or line(s) of inquiry and/or methods, and their implications. (Version 4 changed \"evaluating\" to \"critically evaluating\" here.)",
       "EN3 — Following a research process typically involves: a research proposal that explains the importance of the topic; focusing question(s) that result from preliminary research; identifying specific possible sources through preliminary readings; selecting sufficient relevant evidence from BOTH primary and secondary sources to enable comprehensive analysis; making annotations; organising the evidence; recording source details.",
       "EN4 — Annotations may include: relevance and comparative usefulness in terms of the focusing question(s); different perspectives; cross-referencing specific information or ideas between sources; assessing the reliability of the evidence and/or source; identifying omissions or inaccuracies.",
       "EN7 — Sufficient source details to allow a later bibliography (author, title, publisher, place, date, full URL, access date). A full reference list/bibliography is NOT required.",
@@ -154,7 +154,7 @@ window.MOD_DATA['3'] = {
       "EN12 — Where a person is prominent, a biography is not sufficient; the focus must be their role in or contribution to an event or place."
      ],
      "clarifications": {
-      "date": "March 2025 (updated for the December 2024 standard)",
+      "date": "March 2025 (written for Version 3, December 2024; predates Version 4, December 2025)",
       "points": [
        "Annotations can be relatively brief and still reach the higher grades if they are directly linked to specific, identified evidence and show historian thinking. For Merit and Excellence they must be analytical and critical.",
        "Level 3 annotations must show a deeper and more critical assessment of the source than Level 2, with more consistent specificity. SEVERAL instances of higher-level annotation are required at Merit and/or Excellence — one good annotation is not enough.",
@@ -170,21 +170,21 @@ window.MOD_DATA['3'] = {
        "grade": "Achieved",
        "text": "Significance of the Cambodian Genocide to New Zealand; focus question on how far Pol Pot's actions affected Cambodian society. Six sources (two primary, plus primary evidence inside secondary sources), annotated as a historian; research process evaluated.",
        "miss": "Reliability annotations mostly explain or evaluate; Merit needed more analytical and critical assessment of reliability.",
-       "version": "Not stated by NZQA",
+       "version": "Predates Version 4 (December 2025); not stated by NZQA",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91434/91434-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
        "text": "Detailed statement of significance; specific, manageable focus question. Six sources (one primary, with primary accounts inside many secondary sources) chosen for depth and diversity. Some analytical annotations (e.g. author bias); evaluation covers strengths, weaknesses, some validity.",
        "miss": "Evaluation needed to be consistently analytical and explicitly linked to the validity of findings; reliability needed to go beyond bias and authorship to gaps, corroboration, representativeness and agenda.",
-       "version": "Not stated by NZQA",
+       "version": "Predates Version 4 (December 2025); not stated by NZQA",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91434/91434-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
        "text": "Russia's October 1917 revolution: one focus question, ten sources (four primary, two academic chapters). Annotations frequently critical and analytical, often assessing reliability; persevered with difficult texts; critically evaluated how the process affected the validity of findings.",
        "miss": "",
-       "version": "Not stated by NZQA",
+       "version": "Predates Version 4 (December 2025); not stated by NZQA",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/History/Exemplars/Level-3/91434/91434-Exemplar-Excellence.pdf"
       }
      ],
@@ -249,7 +249,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "req",
         "src": "EN2 + clarification",
-        "t": "The evaluation is analytical and shows awareness of how the strengths and weaknesses affect the VALIDITY of the findings."
+        "t": "The research process is CRITICALLY evaluated (Version 4 EN2 wording): the evaluation is analytical and shows awareness of how the strengths and weaknesses affect the VALIDITY of the findings."
        },
        {
         "type": "ind",
@@ -264,7 +264,11 @@ window.MOD_DATA['3'] = {
       "A focus question written after the evidence was collected, or so broad/narrow that the evidence cannot answer it.",
       "Biography instead of a person’s role in an event (EN12).",
       "Annotations repeated near-verbatim across sources, or generic comment about source type (\"newspapers can be biased\").",
-      "An evaluation that only says what went well, or reads as a generic reflection unconnected to this student’s actual sources."
+      "An evaluation that only says what went well, or reads as a generic reflection unconnected to this student’s actual sources.",
+      "Sufficiency: count the annotated sources against the task's minimum before judging quality. An evaluation that describes sources or cross-referencing not present in the portfolio does not make up for them.",
+      "Evaluative comments inside annotations count toward the evaluation only when they are specific to that source. Generic sentence-starter comments repeated across sources (e.g. \"can be trusted because it is official\") are not detailed or perceptive, and do not lift a basic stand-alone evaluation.",
+      "Annotations that only critique a source's provenance, without selecting evidence from it that answers the focusing question, do not show evidence organised to answer the question (EN6).",
+      "Unlike 91229, the 91434 clarification (March 2025) does not say evaluative comments in the annotations count toward the evaluation. Judge the Excellence evaluation on the evaluation itself; annotation insight can support a close call but cannot replace analysis of validity that the evaluation only asserts. Say which way you read it rather than leaving it open."
      ],
      "aiLimits": "",
      "cohortNote": "",
@@ -1752,42 +1756,42 @@ window.MOD_DATA['3'] = {
        "text": "Osmoregulation in Chinook salmon: described purpose and components; mechanism and the disruption only briefly considered.",
        "miss": "Needed a more thorough description of purpose, components and mechanism, and of how a disruption leads to responses that re-establish stability.",
        "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
-       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/Level-3/91604/91604-Exemplar-.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Described purpose and components of salmon osmoregulation and used some biological ideas to describe the mechanism and a disruption.",
        "miss": "For a more secure Achieved: more detailed description of the feedback mechanism and of how internal or external influences disrupt the control system.",
        "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
-       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/Level-3/91604/91604-Exemplar-.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Described and partly explained purpose, components and mechanism; partly explained how a disruption triggers responses that re-establish osmotic balance.",
        "miss": "Needed deeper explanation of how and why the salmon regulates osmotic balance and how the disruption leads to responses in the control system.",
        "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
-       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/Level-3/91604/91604-Exemplar-.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Described and explained purpose, components and mechanism and, with some biological ideas, how a disruption triggers restoring responses.",
        "miss": "For a more secure Merit: more in-depth explanation of the mechanism and how the disruption leads to responses in the control system.",
        "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
-       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/Level-3/91604/91604-Exemplar-.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Explained purpose, components, mechanism and how a specific disruption triggers restoring responses; attempted to link osmoregulation to adaptive advantage.",
        "miss": "Needed adaptive advantage discussed in more detail, analysis of how influences cause breakdown, or the biochemical/biophysical basis of the mechanism.",
        "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
-       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/Level-3/91604/91604-Exemplar-.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Explained purpose, components, mechanism and restoring responses to a disruption, and discussed some ideas on the adaptive advantage of osmotic balance.",
        "miss": "For a more secure Excellence: discuss adaptive advantage in more depth, or analyse in more detail how influences cause osmoregulation to break down.",
        "version": "Earlier version: predates Version 3 (December 2024); not stated on the NZQA page",
-       "url": "https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/biology/as-91604/"
+       "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Biology/Level-3/91604/91604-Exemplar-.pdf"
       }
      ],
      "conditions": [
@@ -9523,7 +9527,7 @@ window.MOD_DATA['3'] = {
        {
         "type": "ind",
         "src": "NZQA High Achieved and Low Merit exemplars",
-        "t": "An attempted or brief interrelationship discussion sits at the Achieved/Merit boundary."
+        "t": "An ATTEMPTED interrelationship discussion (links named or stated in general terms) sits at High Achieved. A BRIEF discussion is Low Merit when it shows how one principle changes another in this performer's own footage and is used in the feedback or feed-forward. Restated or generic links stay at Achieved."
        }
       ],
       "excellence": [

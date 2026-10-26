@@ -3540,7 +3540,7 @@ window.MOD_EX['2'] = {
      ],
      "examFormat": [
       "2026 change: none identified in the 2026 specification (published October 2025), which lists all three standards as Version 2 and the exam as online digital. The 2025 specification was not read, so whether 2025 also offered a printed paper option (as Level 2 History did) is unconfirmed.",
-      "Answer ONE of four questions with reference to one or more classical art works or buildings of the candidate's choice, in paragraphs. Questions draw on the EN5 features (form and function, style, techniques, artistic and/or historical context, influence on other cultures) and may combine them.",
+      "Select ONE question from a range of questions (2026 specification; the 2024–2025 papers offered four), answered with reference to one or more classical art works or buildings of the candidate's choice, in paragraphs. Questions draw on the EN5 features (form and function, style, techniques, artistic and/or historical context, influence on other cultures) and may combine them.",
       "The student writes the question number and the art work(s) or building(s) used.",
       "Aim for a concise answer of no more than 4–5 pages (750–800 words); quality matters more than length. No images are supplied: the student describes the works from memory.",
       "No time allowance is printed on the paper."
@@ -3748,7 +3748,7 @@ window.MOD_EX['2'] = {
       "Score holistically: one code for the whole answer."
      ],
      "aiLimits": "The AI cannot see the art works or buildings and the student's descriptions come from memory; the teacher must check that described features (pose, materials, dates, location, decoration) match the actual works, and confirm which question was answered.",
-     "researchNotes": "Standard text from the NZQA as91201 PDF (2019 folder, Version 2, published 20 November 2014); ENs quoted in fragments. Exemplar PDFs exist for 2023, 2024 and 2025 but could not be read because the web-fetch quota ran out, so exemplars is empty. The reports do not name specific works. Exam time allowance not confirmed. Update: 2025 exemplars were added in a later pass. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2024 and 2025; NZQA publishes Achievement, Merit and Excellence only); no publicly accessible association material was found for this standard.",
+     "researchNotes": "Standard text from the NZQA as91201 PDF (2019 folder, Version 2, published 20 November 2014); ENs quoted in fragments. Exemplar PDFs exist for 2023, 2024 and 2025 but could not be read because the web-fetch quota ran out, so exemplars is empty. The reports do not name specific works. Exam time allowance not confirmed. Update: 2025 exemplars were added in a later pass. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2024 and 2025; NZQA publishes Achievement, Merit and Excellence only); no publicly accessible association material was found for this standard. Audit Oct 2026: examFormat now quotes the 2026 specification (\"select ONE question from a range of questions\"), which states no number; four is a feature of the 2024–2025 papers (source: nqfdocs specifications/2026/91200-spc-2026.pdf).",
      "clarifications": {
       "date": "n/a",
       "points": []

@@ -1620,7 +1620,7 @@ window.MOD_DATA['1'] = {
        "grade": "Achieved",
        "text": "A lake defined with annotated maps; data processed into bar graphs and annotated photos; water-clarity findings described (poor quality, possible danger to people and wildlife); described how one day of data limits understanding.",
        "miss": "Merit needs findings explained, not described, and an explanation of how data both strengthens AND limits understanding; only a limitation was given.",
-       "version": "Not stated; PDF filename indicates Version 2 (current Version 3)",
+       "version": "Not stated by NZQA (current Version 3)",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Geography/Exams-and-exemplars/Level-1/AS-91933/91933-Exemplar-v2.pdf"
       },
       {
@@ -2935,21 +2935,21 @@ window.MOD_DATA['1'] = {
        "grade": "Achieved",
        "text": "Kī o Rahi: described why Tuākana-Tēina was applied (team missing the tupu) and sharing experience with teammates; described effective communication explaining zone defence; both linked to kotahitanga.",
        "miss": "For Merit, explain how and why Tuākana-Tēina and effective communication were applied to promote kotahitanga, with examples from own experience.",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 4 (9 December 2025); not stated on NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-1/92017/92017-Exemplar-Achieved.pdf"
       },
       {
        "grade": "Merit",
        "text": "Explained why manaakitanga was applied on an outdoor expedition (encouraging a struggling paddling partner) and effective communication in Rippa Rugby (explaining rules, calling defensive gaps); both linked to kotahitanga.",
        "miss": "For Excellence, draw conclusions about the effectiveness of how manaakitanga and effective communication were applied, relating both back to the contexts.",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 4 (9 December 2025); not stated on NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-1/92017/92017-Exemplar-Merit.pdf"
       },
       {
        "grade": "Excellence",
        "text": "Evaluated how cooperation (e.g. holding a raft steady in cold water) and effective communication (Dangling Trio, blindfolded climb) promoted kotahitanga, supported with examples from own experience.",
        "miss": "",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 4 (9 December 2025); not stated on NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-1/92017/92017-Exemplar-Excellence.pdf"
       }
      ],
@@ -3523,7 +3523,7 @@ window.MOD_DATA['1'] = {
        {
         "type": "ind",
         "src": "NMR 2024/2025",
-        "t": "The group is specific and named (iwi/hapū, local council, company or business). The National Moderator's Report gives a too-broad group with varied views as the most common reason work does not meet the REQUIRED 'shared by a group' item: test whether the view described is genuinely shared by the group, using evidence anywhere in the work."
+        "t": "The group is specific and named (iwi/hapū, local council, company or business, or a clearly identified local group). A too-broad group with varied views ('Māori', 'teenagers') is the Moderator's Report's most common reason this item is weak. At Achieved, a local group counts when the work shows a view its members share (from any part of the work, including a second named source); a student noting that members differ in detail does not by itself fail the item. Record N only when no shared view is shown anywhere."
        },
        {
         "type": "req",

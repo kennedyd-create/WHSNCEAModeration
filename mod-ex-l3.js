@@ -6954,7 +6954,7 @@ window.MOD_EX['3'] = {
        "grade": "Achieved (11: A4, A4, A3, 2025)",
        "text": "Identified China and Australia and the fall in export receipts, calculated the multiplier correctly, and explained the AD increase to PL2.",
        "miss": "No definition or formula for the current account and no reference to the goal; AS wrongly shifted right and recessionary gaps not marked; no derived demand; multiplier concept not explained; depreciation confused with an OCR cut; no reference to the resources, spare capacity or Graphs Two and Three in Q3.",
-       "version": "2025 exam; Version 2 (current)",
+       "version": "2025 exam; Version 2 (current); URL not confirmed (Oct 2026 audit)",
        "url": "https://www.nzqa.govt.nz/nqfdocs/ncea-resource/exemplars/2025/91403-exp-2025-achievement.pdf"
       },
       {
@@ -7066,7 +7066,7 @@ window.MOD_EX['3'] = {
       "Cut scores for 91403 differ from 91399/91400 (2025: A from 7, M from 13, E from 19). Add the three codes and apply them."
      ],
      "aiLimits": "Economic models and graphs (AD/AS shifts, circular flow arrows, business-cycle positions) are drawn by hand and must be checked by the teacher. Curve positions, labels and gap markings may be lost or misread in a scan, and handwritten calculations may be misread. The AI also cannot check the student's use of resource figures unless the practice paper's resources are supplied.",
-     "researchNotes": "Standard text from the NZQA as91403 PDF (2019 folder; Version 2, 17 November 2016). The criteria are near verbatim, and the ENs were obtained paraphrased. The 2024 schedule's code-descriptor alignment came out garbled in the fetch, so the standard L3 Economics wording from the 2025 schedule is given. The 2024 cut scores (N 0–7, A 8–12) come from that fetch and could not be cross-checked, because the NZQA cut-scores PDF covers 2025 only. The 2024 exemplars are listed but were not read. The resource passages in the 2025 paper were not fully extracted. The exam date and time allowance were not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025); no public subject-association guidance was found for this standard.",
+     "researchNotes": "Standard text from the NZQA as91403 PDF (2019 folder; Version 2, 17 November 2016). The criteria are near verbatim, and the ENs were obtained paraphrased. The 2024 schedule's code-descriptor alignment came out garbled in the fetch, so the standard L3 Economics wording from the 2025 schedule is given. The 2024 cut scores (N 0–7, A 8–12) come from that fetch and could not be cross-checked, because the NZQA cut-scores PDF covers 2025 only. The 2024 exemplars are listed but were not read. The resource passages in the 2025 paper were not fully extracted. The exam date and time allowance were not confirmed. Enrichment Oct 2026: 6 NZQA exemplars now held (2024, 2025); no public subject-association guidance was found for this standard. Audit Oct 2026: the 2025 Achieved exemplar URL (91403-exp-2025-achievement.pdf) could not be opened or found indexed, so it is flagged unverified; if it 404s in a browser, replace it with the 2024 Achieved exemplar already held.",
      "clarifications": {
       "date": "n/a",
       "points": []

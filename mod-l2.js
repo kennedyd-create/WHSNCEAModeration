@@ -267,7 +267,10 @@ window.MOD_DATA['2'] = {
       "Biography instead of a person’s role in an event (EN10).",
       "Annotations repeated near-verbatim across sources.",
       "Evaluative comments buried in the annotations — the clarification says these count toward the evaluation, so look for them before judging the evaluation thin.",
-      "Teacher guidance on the focusing question is allowed; guidance on the annotations or evaluation would be an authenticity question for the teacher."
+      "Teacher guidance on the focusing question is allowed; guidance on the annotations or evaluation would be an authenticity question for the teacher.",
+      "Sufficiency: count the annotated sources against the task's minimum before judging quality. An evaluation that describes sources or cross-referencing not present in the portfolio does not make up for them.",
+      "Evaluative comments inside annotations count toward the evaluation only when they are specific to that source. Generic sentence-starter comments repeated across sources (e.g. \"can be trusted because it is official\") are not detailed or perceptive, and do not lift a basic stand-alone evaluation.",
+      "Annotations that only critique a source's provenance, without selecting evidence from it that answers the focusing question, do not show evidence organised to answer the question (EN6)."
      ],
      "aiLimits": "",
      "cohortNote": "",
@@ -8883,42 +8886,42 @@ window.MOD_DATA['2'] = {
        "grade": "High Not Achieved",
        "text": "Makeup advertisements: women must be perfect; begins describing costume, body language and language in three magazine ads, attempting each text's effect.",
        "miss": "For Achieved: focus on one significant representation across texts, identify the features creating it explicitly, describe its effect in more detail.",
-       "version": "not stated on the exemplar page",
+       "version": "Predates Version 4 (December 2024); not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-2/91250/91250-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Sitcom families as more than blood relations: specific dialogue and action from three texts; some effects described.",
        "miss": "For a more secure Achieved: describe a clearer representation linked across all three texts, choose more relevant features and examples, clarify overall effect.",
-       "version": "not stated on the exemplar page",
+       "version": "Predates Version 4 (December 2024); not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-2/91250/91250-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Fashion magazines represent women as beautiful, youthful, desirable via models, celebrity covers and headlines; pressure on women; begins comparing images with reality.",
        "miss": "For Merit: develop reasoned explanations for the representation's effect, e.g. why magazines create it.",
-       "version": "not stated on the exemplar page",
+       "version": "Predates Version 4 (December 2024); not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-2/91250/91250-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Parent–child tension across three family texts: dialogue and action analysed; conflict normalised; academic research on accuracy; humour's shaping noted.",
        "miss": "For a more secure Merit: discuss accuracy in more depth, explain how humour influences the representation, add supporting data.",
-       "version": "not stated on the exemplar page",
+       "version": "Predates Version 4 (December 2024); not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-2/91250/91250-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Benefit makeup ads represent women as beautiful and active (costume, body language, slogans); message that women must look perfect; begins exploring the 'superhero' contradiction.",
        "miss": "For Excellence: develop discussion of the consequences of the representations, supported with evidence.",
-       "version": "not stated on the exemplar page",
+       "version": "Predates Version 4 (December 2024); not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-2/91250/91250-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Families built around working mothers, stay-at-home mothers and fathers in Mom, The Simpsons, Modern Family: gender-role assumptions, comparison with research, why stereotypes persist.",
        "miss": "For a more secure Excellence: examine how the representation perpetuates the traditional American dream and the commercial reasons behind it.",
-       "version": "not stated on the exemplar page",
+       "version": "Predates Version 4 (December 2024); not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Media-Studies/Exams-and-exemplars/Level-2/91250/91250-Exemplar-Low-Excellence.pdf"
       }
      ],
@@ -10248,8 +10251,8 @@ window.MOD_DATA['2'] = {
      "code": "91333",
      "ref": "2.7",
      "credits": 3,
-     "version": "Version 2 (published 20 November 2014)",
-     "verified": "2026-10-25",
+     "version": "Version 3 (published December 2024; status date September 2024; planned review December 2028)",
+     "verified": "2026-10-26",
      "title": "Analyse the application of risk management strategies to a challenging outdoor activity",
      "criteria": {
       "achieved": "Analyse the application of risk management strategies to a challenging outdoor activity.",
@@ -10261,10 +10264,11 @@ window.MOD_DATA['2'] = {
       "EN2 — Analyse, in-depth (Merit) involves explaining how and why the applied risk management strategies are relevant to the identified risk(s).",
       "EN2 — Analyse comprehensively (Excellence) involves evaluating how the applied risk management strategies are relevant to the identified risk(s).",
       "EN3 — Selected strategies must be significant and appropriate to the context; the analysis covers before, during and after the activity.",
-      "EN4 — Strategies support planning tools such as RAMS, safety action plans and safe operating procedures, and help create physically, emotionally and culturally safe environments and care for the environment.",
-      "EN5 — Strategies may be developed by students, teachers or tutors.",
-      "EN6 — A challenging outdoor activity requires students to show personal competence in a risky situation, e.g. canoeing, caving, rock climbing, sailing, tramping.",
-      "EN7 — Risk is the potential to lose or gain something of value; includes real, perceived and residual risk."
+      "EN4 — Risk management strategies are developed that contribute to the application of planning tools such as: risk assessment forms or risk assessment and supervision forms; safe operating procedures (SOPs), school or commercial safety management systems, and safety management plans; ensuring physically, emotionally, and culturally safe environments, and care of the environment; Good Practice Guidelines (EONZ).",
+      "EN5 — Strategies may be developed by the student and/or teacher or tutor; students, teachers and tutors should use their school’s Safety Management System and tools (or tools such as the EONZ EOTC SMP template and tool kit forms).",
+      "EN6 — A challenging outdoor activity is one where a student must demonstrate personal competence in a managed, perceived risk situation; this may include but is not limited to canoeing, caving, high ropes, kayaking, skiing, mountain biking, orienteering, rafting, rock climbing, sailing, snorkelling, surfing and tramping.",
+      "EN7 — Risk is the potential to lose or gain something of value; includes real, perceived and residual risk.",
+      "EN8 — Guidelines for current good practice in the outdoors: EOTC Guidelines – Bringing the Curriculum Alive (2018)."
      ],
      "clarifications": {
       "date": "February 2025",
@@ -10285,42 +10289,42 @@ window.MOD_DATA['2'] = {
        "grade": "High Not Achieved",
        "text": "Briefly explained how and why watching for hazards was applied; explained why an equipment-failure strategy might be useful.",
        "miss": "Needed to clearly identify the equipment-failure strategies and explain in more detail how and why they are applied.",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 3 (December 2024); not stated on the NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91333/91333-Exemplar-High-Not-Achieved.pdf"
       },
       {
        "grade": "Low Achieved",
        "text": "Explained how and why listening to instructions and paying attention was applied; explained why equipment is checked and briefly how.",
        "miss": "For a more secure Achieved, explain in more detail how the checking-equipment strategy is applied.",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 3 (December 2024); not stated on the NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91333/91333-Exemplar-Low-Achieved.pdf"
       },
       {
        "grade": "High Achieved",
        "text": "Explained the supervision and dehydration strategies (how and why applied) and how a strategy relates to the identified risk.",
        "miss": "To reach Merit: explain how the supervision and peer-pressure strategies are relevant to the identified risks of physical safety and injury.",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 3 (December 2024); not stated on the NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91333/91333-Exemplar-High-Achieved.pdf"
       },
       {
        "grade": "Low Merit",
        "text": "Explained and justified strategies for the risk of not following instructions and for equipment failure; explained how the instruction strategy relates to the risk.",
        "miss": "Explain in more detail how other strategies (e.g. equipment) are relevant to the identified risks such as falling and injury.",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 3 (December 2024); not stated on the NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91333/91333-Exemplar-Low-Merit.pdf"
       },
       {
        "grade": "High Merit",
        "text": "Mountain biking: explained and justified strategies for mechanical failure and inexperience-related injury, related them to the risks, and evaluated the inexperience strategy.",
        "miss": "To reach Excellence: a more detailed evaluation of the mechanical-failure strategy (e.g. who should have checked the bike and why).",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 3 (December 2024); not stated on the NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91333/91333-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
        "text": "Explained how and why dehydration and hypothermia strategies relate to the risks; evaluated the dehydration strategy (did it work, future change); briefly explained a hypothermia modification.",
        "miss": "",
-       "version": "not stated on NZQA exemplar page",
+       "version": "Predates Version 3 (December 2024); not stated on the NZQA exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Physical-Education/Exams-and-exemplars/Level-2/91333/91333-Exemplar-Low-Excellence.pdf"
       }
      ],
