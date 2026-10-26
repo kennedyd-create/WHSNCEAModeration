@@ -1,7 +1,7 @@
 /* ============================================================
    NCEA LEVEL 1 — MODERATION DATA (internal standards only)
    Loaded by whs-moderation-engine.html. Keep in the same folder.
-   Generated 2026-10-25 from NZQA sources (see each standard's
+   Generated 2026-10-26 from NZQA sources (see each standard's
    version and "verified" date). Gates: type "req" = REQUIRED (standard
    wording or NZQA clarification; may cap a grade); "ind" = INDICATOR
    (examples of quality; never a checklist). "excluded" lists internal
@@ -1230,15 +1230,15 @@ window.MOD_DATA['1'] = {
      "exemplars": [
       {
        "grade": "Not Achieved (creative)",
-       "text": "Narrative about Nan's house (family gatherings, cookie jar, mum growing up there); limited personal reflection; unclear phrasing and fragments.",
-       "miss": "For Achieved: develop ideas by adding reflection or explanation of significance; errors in written conventions impede meaning.",
+       "text": "Began to develop ideas by describing an emotional connection to Nan's house: family gatherings, the cookie jar, some personal reflection on the house's place in family history, and some imagery ('like a crystal stair').",
+       "miss": "Ideas stayed close to description, without reflection or explanation of significance; setting, objects and imagery were undeveloped; errors in written conventions (unclear phrasing, fragments, run-ons) impeded meaning.",
        "version": "not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Not-Achieved-Creative.pdf"
       },
       {
        "grade": "Not Achieved (non-fiction)",
-       "text": "Chronological trip recount (beach games, lagoon cruise, Te Rua Manga hike) with brief personal responses and repetitive sentence starters.",
-       "miss": "For Achieved: develop ideas with reflection, explanation or purposeful detail; several errors affect fluency though they do not impede meaning.",
+       "text": "Began to develop ideas by sequencing a trip in chronological order (beach games, lagoon cruise, Te Rua Manga hike) with factual detail and brief personal responses (enjoyment, boredom, interest).",
+       "miss": "Remained a recount without reflection, explanation or purposeful detail showing significance; language not shaped for an audience; formulaic sentence starters. Convention errors affected fluency but did not impede meaning.",
        "version": "not stated on the exemplar page",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/English/Exams-and-exemplars/Level-1/91926/91926-Exemplar-Not-Achieved-Non-fiction.pdf"
       },
@@ -3523,7 +3523,7 @@ window.MOD_DATA['1'] = {
        {
         "type": "ind",
         "src": "NMR 2024/2025",
-        "t": "The group is specific and named (iwi/hapū, local council, company or business); very broad groups ('Māori', 'teenagers') are weak evidence of a shared perspective."
+        "t": "The group is specific and named (iwi/hapū, local council, company or business). The National Moderator's Report gives a too-broad group with varied views as the most common reason work does not meet the REQUIRED 'shared by a group' item: test whether the view described is genuinely shared by the group, using evidence anywhere in the work."
        },
        {
         "type": "req",

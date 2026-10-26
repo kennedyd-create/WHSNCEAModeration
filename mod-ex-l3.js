@@ -1,4 +1,4 @@
-/* NCEA PRACTICE EXAM (derived grade evidence) DATA, Level 3. Generated 2026-10-25 from NZQA sources. */
+/* NCEA PRACTICE EXAM (derived grade evidence) DATA, Level 3. Generated 2026-10-26 from NZQA sources. */
 (function () {
 window.MOD_EX = window.MOD_EX || {};
 window.MOD_EX['3'] = {
@@ -1750,6 +1750,7 @@ window.MOD_EX['3'] = {
       "The paper is marked as ONE task: the schedule gives one score code for the whole script (exemplars show 'Task One: E7', total 07). The parts are not scored separately and added. Markers are told to read each answer as a whole before awarding a grade.",
       "Cut scores (2024 and 2025 schedules): Not Achieved 0–2, Achievement 3–4, Merit 5–6, Excellence 7–8.",
       "Score codes (2024 and 2025): N0 no response or no relevant evidence; N1 very little Achievement evidence; N2 some Achievement evidence, partial explanations; A3 most Achievement evidence; A4 nearly all Achievement evidence; M5 some Merit evidence; M6 most Merit evidence; E7 Excellence evidence, one part may be weaker; E8 all points covered.",
+      "'One part may be weaker' (E7, 2024 and 2025 schedules): the schedule does not define 'part', but its sample evidence is laid out by lettered part, and NZQA's 2025 assessment report describes the paper as 'one task with four parts' and refers to 'Part (b)'. So a part is a lettered part (a)–(d), not a sub-part (i)–(iii): E7 allows one lettered part to be weaker than Excellence; E8 needs 'All Excellence points covered'.",
       "Achievement evidence: explain the interaction of internal factors (state the answer, then give reasons why it occurs), stating relevant business knowledge and examples, and a Māori business concept where relevant.",
       "Merit evidence: fully explain the interaction with awareness of its impact on business or stakeholder goals (effects, advantages, disadvantages, consequences), supported by evidence.",
       "Excellence evidence: evaluate the interaction, integrating business knowledge and examples. Justify the significance or likelihood of success, referring to alternatives or new information not already covered.",
@@ -1938,10 +1939,11 @@ window.MOD_EX['3'] = {
       "Concept errors: treating innovation as buying machinery, confusing quality control with quality assurance or TQM, misusing market share.",
       "Positive/negative points that stop at the first step ('this costs money') without following it to profit, sales or a business goal. That is Achievement, not Merit.",
       "Marking each part separately and adding the scores up. NZQA gives one holistic 0–8 score for the whole task; E7 allows one weaker part.",
-      "Practice papers that reuse the 2024 or 2025 NZQA context unchanged; students may have seen the published schedule."
+      "Practice papers that reuse the 2024 or 2025 NZQA context unchanged; students may have seen the published schedule.",
+      "School marking rules stricter than the NZQA schedule (e.g. every sub-part must reach Excellence, or any weak sub-part caps the script at Merit) should not lower a code. Mark against the schedule: E7 allows one weaker lettered part (a)–(d)."
      ],
      "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI cannot see the teacher's practice paper or context unless it is supplied, and it cannot verify facts about the student's studied business (registration, global operations, initiatives such as an innovation lab). The teacher must confirm those facts and that the paper was sat under supervision.",
-     "researchNotes": "Standard text from as91379 (2019 folder, Version 2, published 17 November 2016); EN2, EN3 and EN5 are verbatim in fragments, EN4 is paraphrased. 2026 and 2025 specifications read via fetch; the 2026 one gives no time allowance, and its statement of 'online digital examination' is the only format difference found from 2025. Schedules and reports were summarised through WebFetch (direct PDF download was blocked), so descriptor wording is close but not guaranteed verbatim. The schedules do not say 'holistic' in words, but they give one 0–8 code set for the single task and the exemplars show one task score. No 2026 paper exists yet. The 2024 report and 2025 report each cover all three Level 3 Business Studies standards in one document. 2025 exemplars were not listed on the NZQA page for 91379. 2026 UE literacy status was not checked against a current list. Enrichment Oct 2026: 3 NZQA exemplars now held (2024); no public subject-association guidance was found for this standard.",
+     "researchNotes": "Standard text from as91379 (2019 folder, Version 2, published 17 November 2016); EN2, EN3 and EN5 are verbatim in fragments, EN4 is paraphrased. 2026 and 2025 specifications read via fetch; the 2026 one gives no time allowance, and its statement of 'online digital examination' is the only format difference found from 2025. Schedules and reports were summarised through WebFetch (direct PDF download was blocked), so descriptor wording is close but not guaranteed verbatim. The schedules do not say 'holistic' in words, but they give one 0–8 code set for the single task and the exemplars show one task score. No 2026 paper exists yet. The 2024 report and 2025 report each cover all three Level 3 Business Studies standards in one document. 2025 exemplars were not listed on the NZQA page for 91379. 2026 UE literacy status was not checked against a current list. Enrichment Oct 2026: 3 NZQA exemplars now held (2024); no public subject-association guidance was found for this standard. Sim fixes Oct 2026: 2025 schedule and report re-read; added the meaning of 'one part may be weaker' (a part = lettered part (a)–(d), inferred from the schedule's layout and the report's 'one task with four parts' / 'Part (b)', as the schedule gives no explicit definition) and a watch line that stricter school rules should not lower a code.",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -4354,7 +4356,9 @@ window.MOD_EX['3'] = {
       "Pre-prepared essays forced onto the chosen question.",
       "Context in a standalone paragraph rather than integrated into the argument (held candidates at Merit in 2024).",
       "Very long answers. The 2025 report notes that 2,000+ word responses lost focus, and the guidance is about 800–900 words.",
-      "Secondary scholarship quoted for its own sake. The standard requires primary-source evidence."
+      "Secondary scholarship quoted for its own sake. The standard requires primary-source evidence.",
+      "Aeneid: the 2025 report says weaker answers relied on Books 1, 2 and 4. Evidence from Book 5 onwards (for example Dido in the Underworld in Book 6) is the later-book evidence that stronger answers used: credit it as such, not as typical of Achieved answers.",
+      "2026: the exam is online (digital) only, and the themes are leadership, identity, relationships and ideology (2026 assessment specification). Power was a 2025 theme."
      ],
      "aiLimits": "Scans of handwriting and screenshots of digital answers may be misread. The AI may not reliably verify quotations, line or book references, or episode details from memory, especially for less common texts. The teacher must confirm the accuracy of textual evidence, and that the response was written under supervision to an unseen question.",
      "researchNotes": "The standard text comes from the NZQA as91394 PDF (2019 folder, Version 2). EN2 was quoted in fragments (the Excellence clause extracted as 'complexity of the ideas'; it may continue 'and values'). EN3 and EN4 are summarised. The 2026, 2025 and 2024 specifications were read. The 2025 schedule was read as a grid, but the E8 context cell did not extract. The 2024 schedule, its cut scores and the 2024 exemplars were NOT read because the hourly web-fetch limit was reached. The 2024 and 2025 reports each cover all three Level 3 Classical Studies standards. The 2025 exemplar commentaries do not name the question, and the Merit one is identified as the Aeneid from its content. The time allowance was not confirmed. Derived-grade rule details are from the same 2026 Rules, QA page and EmaiLink documents used for the Level 1 History file, not re-fetched here. UE literacy status was not checked. Enrichment Oct 2026: 6 NZQA exemplar scripts now held (2024 and 2025; NZQA publishes Achievement, Merit and Excellence only); no publicly accessible association material was found for this standard.",
@@ -7178,9 +7182,9 @@ window.MOD_EX['3'] = {
       "N0: no response or no relevant evidence. N1: attempts to discuss the statement. N2: states a relevant idea, shows awareness of the use of the specified aspect(s) and includes details from the text(s), but does not reach Achievement.",
       "A3: fulfils the intent of the Achievement criteria, although some parts may be partial or weak. A4: securely fulfils the intent of the Achievement criteria.",
       "M5: fulfils the intent of the Merit criteria, although some parts may be imbalanced or limited. M6: securely fulfils the Merit criteria. E7 and E8 follow the same pattern for Excellence.",
-      "Achievement judgement: a structured response following essay conventions (some clumsiness allowed); a relevant critical argument giving an evaluative response to the chosen statement; a range of relevant points showing understanding of the specified aspect(s); specific and relevant details from the text(s); potentially linking to matters beyond the text(s).",
-      "Merit judgement: a convincing critical argument showing familiarity and engagement with the text(s); points showing convincing understanding of the specified aspect(s); beginning to weave specific and relevant details into the response; linking to other aspects of the text or other contexts.",
-      "Excellence judgement: a cohesive and articulate essay; a sophisticated and insightful or original critical argument or interpretation showing appreciation of the text(s); perceptive understanding of the specified aspect(s); weaving judiciously chosen details that support and expand the argument; linking to human experience, society and the wider world."
+      "Achievement judgement: a structured response following essay conventions (some clumsiness allowed); a relevant critical argument giving an evaluative response to the chosen statement; a range of relevant points showing understanding of the specified aspect(s); specific and relevant details from the text(s); potentially linking the argument or points made to matters beyond the text(s).",
+      "Merit judgement: a convincing critical argument showing familiarity and engagement with the text(s); points showing convincing understanding of the specified aspect(s); beginning to weave specific and relevant details into the response; linking the argument or points made to other aspects of the text or other contexts, such as human experience, society, and the wider world (schedule wording; the extracted 2025 layout places this bullet in the Merit column, the 2024 extraction in the Excellence column).",
+      "Excellence judgement: a cohesive and articulate essay; a sophisticated and insightful or original critical argument or interpretation showing appreciation of the text(s); perceptive understanding of the specified aspect(s); weaving judiciously chosen details that support and expand the argument; linking the argument or points made to other aspects of the text or other contexts, such as human experience, society, and the wider world (see the Merit note on column placement)."
      ],
      "papers": [
       {
@@ -7304,7 +7308,7 @@ window.MOD_EX['3'] = {
      "components": [
       "Introduction and thesis responding to the whole statement",
       "Body argument: specified aspect(s) analysed with woven evidence",
-      "Links beyond the text (human experience, society, context)",
+      "Linking the argument or points made to other aspects of the text or other contexts, such as human experience, society, and the wider world (2025 schedule wording; at Achievement: 'potentially linking the argument or points made to matters beyond the text(s)')",
       "Conclusion that evaluates the statement"
      ],
      "focusTip": "Give the statement the student chose (word for word) and the text(s) and writer, so the marker can check the essay answers that statement and the evidence is accurate.",
@@ -7355,7 +7359,7 @@ window.MOD_EX['3'] = {
        {
         "type": "ind",
         "src": "Schedule M; 2024 Assessment Report",
-        "t": "Links to other aspects of the text or other contexts beyond a simple text-to-world comparison, and shows understanding of the writer's purpose."
+        "t": "Linking the argument or points made to other aspects of the text or other contexts (schedule wording), beyond a simple text-to-world comparison, and shows understanding of the writer's purpose."
        },
        {
         "type": "ind",
@@ -7377,7 +7381,7 @@ window.MOD_EX['3'] = {
        {
         "type": "ind",
         "src": "Schedule E; 2024 and 2025 Assessment Reports",
-        "t": "Links the text to human experience, society and the wider world, and shows how readers are positioned and how the text works across its whole."
+        "t": "Linking the argument or points made to other contexts such as human experience, society, and the wider world (schedule wording), and shows how readers are positioned and how the text works across its whole."
        },
        {
         "type": "ind",
@@ -7396,7 +7400,7 @@ window.MOD_EX['3'] = {
       "The practice paper must use unseen statements. Reusing a statement the class has rehearsed does not meet derived-grade conditions."
      ],
      "aiLimits": "The AI cannot check the studied text, so the teacher must verify that quotations, character names and plot details are accurate and that the text is a studied Level 8 text. Scans of handwriting may be misread. The teacher must confirm the essay was written under supervision without notes.",
-     "researchNotes": "Standard text from the NZQA as91472 PDF (2019 folder, which reads Version 1, published 4 December 2012, review date 31 December 2020). The ENs were obtained partly paraphrased. 2026 and 2025 specifications read via fetch. 2025 and 2024 schedules read; the N1/N2 split was ambiguous in the extracted layout. No 2026 paper or schedule exists yet. No 2024 exemplars are published (2025 and 2023 exist). The 2025 exemplar commentary does not name the statement chosen. The exam time allowance and the date were not confirmed. Literacy-list status was not verified. The derived-grade rule summaries are carried over from the project's Level 1 History research, not re-read for this file. Enrichment Oct 2026: 6 NZQA external exemplars now held (2023, 2025), all with source links; no public subject-association guidance specific to this standard was found.",
+     "researchNotes": "Standard text from the NZQA as91472 PDF (2019 folder, which reads Version 1, published 4 December 2012, review date 31 December 2020). The ENs were obtained partly paraphrased. 2026 and 2025 specifications read via fetch. 2025 and 2024 schedules read; the N1/N2 split was ambiguous in the extracted layout. No 2026 paper or schedule exists yet. No 2024 exemplars are published (2025 and 2023 exist). The 2025 exemplar commentary does not name the statement chosen. The exam time allowance and the date were not confirmed. Literacy-list status was not verified. The derived-grade rule summaries are carried over from the project's Level 1 History research, not re-read for this file. Enrichment Oct 2026: 6 NZQA external exemplars now held (2023, 2025), all with source links; no public subject-association guidance specific to this standard was found. Sim fixes Oct 2026: the linking criterion is relabelled to the 2025 schedule's own wording ('linking the argument or points made to other aspects of the text or other contexts, such as human experience, society, and the wider world'); the schedule has no lettered columns or 'criterion C', and the phrase 'links within the text or to wider contexts' does not appear in it, so that phrase was not used.",
      "clarifications": {
       "date": "n/a",
       "points": []

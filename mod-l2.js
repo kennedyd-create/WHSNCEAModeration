@@ -1,7 +1,7 @@
 /* ============================================================
    NCEA LEVEL 2 — MODERATION DATA (internal standards only)
    Loaded by whs-moderation-engine.html. Keep in the same folder.
-   Generated 2026-10-25 from NZQA sources (see each standard's
+   Generated 2026-10-26 from NZQA sources (see each standard's
    version and "verified" date). Gates: type "req" = REQUIRED (standard
    wording or NZQA clarification; may cap a grade); "ind" = INDICATOR
    (examples of quality; never a checklist). "excluded" lists internal
@@ -1665,7 +1665,12 @@ window.MOD_DATA['2'] = {
        {
         "type": "ind",
         "src": "NZQA Low Excellence exemplar",
-        "t": "The comparison is developed for every group, not detailed for one and thin for the others."
+        "t": "Low Excellence was still awarded although the comparison of diversity of adaptation to the demand for oxygen across fish, humans and insects was not thorough, and the limitations and advantages of the insect gas exchange system were only partly considered (NZQA: 'some ideas'). Both EN2 points must be present, but they need not be equally developed for every group at Low Excellence; a thorough, balanced comparison is what makes Excellence secure."
+       },
+       {
+        "type": "ind",
+        "src": "NZQA EN and Low Excellence exemplar",
+        "t": "\"Limitations and advantages\" means the costs and benefits of the adaptation itself (e.g. energy or time spent, what the feature cannot do), tied to a feature. A list of outside threats (predators, habitat loss) is not a limitation of the adaptation. Weighing limitations against advantages makes Excellence secure (E-Mid/E-High) but is not needed for E-Low, where NZQA accepted \"some ideas\" considered for each group."
        }
       ]
      },
@@ -6456,7 +6461,8 @@ window.MOD_DATA['2'] = {
       "EN2 — Evaluate in depth (Merit) involves: explaining, in detail, risk and protective factors that are clearly linked to the change situations; AND recommending personal, interpersonal and societal strategies specific to the change situations.",
       "EN2 — Evaluate comprehensively (Excellence) involves providing an explanation that demonstrates critical understandings of the risk and protective factors influencing people's ability to manage change situations, and strategies for maintaining the protective factors and minimising the risk factors. Critical understandings will be shown, for example, through a relevant combination of: a conceptually sound understanding of resilience in relation to the change situation; insight beyond the immediate evidence (e.g. drawing on similar situations); understanding how a major life change results in many inter-related changes; linking risk and protective factors to the relevant determinants of health; explaining interrelationships between the personal, interpersonal and societal factors or the strategies for building resilience.",
       "EN3 — Risk and protective factors, and strategies for managing change, are related to the concept of resilience.",
-      "EN4 — The context is a significant change situation related to the key learning area of mental health; a significant change results in numerous changes to be considered in the evaluation. Situations may include illness or disability, family separation or relationship break-up, changing house/school/country, significant loss and grief, drug use and misuse, significant failure, or repeated or ongoing pressured, risky or stressful life situations. Focusing on suicide or eating disorders is not appropriate."
+      "EN4 — The context is a significant change situation related to the key learning area of mental health; a significant change results in numerous changes to be considered in the evaluation. Situations may include illness or disability, family separation or relationship break-up, changing house/school/country, significant loss and grief, drug use and misuse, significant failure, or repeated or ongoing pressured, risky or stressful life situations. Focusing on suicide or eating disorders is not appropriate.",
+      "Clarification (December 2017) and NMR (2025 round) — Levels: at Achieved, EN2 requires STRATEGIES at all three levels ('a combination of personal, interpersonal and societal strategies'). It does not require risk and protective FACTORS at all three levels: NZQA defines factors as 'personal, interpersonal and societal influences' that 'exist prior to the change situation being experienced', and says the scenario 'should allow opportunity' to draw them out at all three levels."
      ],
      "clarifications": {
       "date": "December 2017",
@@ -6549,6 +6555,16 @@ window.MOD_DATA['2'] = {
         "type": "req",
         "src": "Clarification",
         "t": "Each strategy describes the actions involved and justifies how it helps the person cope and build resilience."
+       },
+       {
+        "type": "ind",
+        "src": "Clarification (December 2017); NMR 2025 round",
+        "t": "Factors at personal, interpersonal and societal levels are expected (the scenario 'should allow' all three), but neither EN2 nor the clarification makes all three levels of FACTOR a requirement at Achieved. Do not cap the grade only because one level of factor is thin or missing; the three-level requirement applies to strategies (EN2 gate above)."
+       },
+       {
+        "type": "ind",
+        "src": "Clarification (December 2017); NMR 2025 round",
+        "t": "'Before the change' test: the response makes clear the person's situation before the change, so each risk or protective factor can be seen to exist prior to the change (NMR: these influences 'must exist prior to the change situation being experienced'). A factor that only arises after the change is not a risk or protective factor."
        },
        {
         "type": "req",

@@ -1,7 +1,7 @@
 /* ============================================================
    NCEA LEVEL 3 — MODERATION DATA (internal standards only)
    Loaded by whs-moderation-engine.html. Keep in the same folder.
-   Generated 2026-10-25 from NZQA sources (see each standard's
+   Generated 2026-10-26 from NZQA sources (see each standard's
    version and "verified" date). Gates: type "req" = REQUIRED (standard
    wording or NZQA clarification; may cap a grade); "ind" = INDICATOR
    (examples of quality; never a checklist). "excluded" lists internal
@@ -12068,15 +12068,15 @@ window.MOD_DATA['3'] = {
       },
       {
        "grade": "High Merit",
-       "text": "Features justified with data and displays; residuals used to judge the linear model; prediction accuracy justified; conclusion linked to context.",
-       "miss": "To reach Excellence: support aspects of the investigation with comments (commentary truncated on NZQA page).",
+       "text": "Research-informed question; nature and strength described in context; features justified with evidence from the data and displays; residuals used to support comments on the linear model; prediction accuracy justified; conclusion linked the enquiry cycle to the context.",
+       "miss": "To reach Excellence: support aspects with comments integrating contextual and statistical knowledge, e.g. whether the strength, direction and other features of the data are consistent with the student's own research.",
        "version": "",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-High-Merit.pdf"
       },
       {
        "grade": "Low Excellence",
-       "text": "Research and statistical knowledge integrated in discussing features and model adequacy; sports re-categorised as ball and no-ball; prediction and conclusion.",
-       "miss": "For a more secure Excellence: reflect on the process more deeply.",
+       "text": "Research-informed question; nature and strength in context; research and statistical knowledge integrated in discussing features and evaluating model adequacy; sports re-categorised as ball and no-ball (another relevant variable); prediction and conclusion.",
+       "miss": "For a more secure Excellence: relate a visual inspection of the scatter graphs to the adequacy of the models, and/or link the findings to further research.",
        "version": "",
        "url": "https://www2.nzqa.govt.nz/assets/NCEA/Subject-pages/Mathematics-/Exams-and-exemplars/Level-3/91581/91581-Exemplar-Low-Excellence.pdf"
       }

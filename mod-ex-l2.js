@@ -1,4 +1,4 @@
-/* NCEA PRACTICE EXAM (derived grade evidence) DATA, Level 2. Generated 2026-10-25 from NZQA sources. */
+/* NCEA PRACTICE EXAM (derived grade evidence) DATA, Level 2. Generated 2026-10-26 from NZQA sources. */
 (function () {
 window.MOD_EX = window.MOD_EX || {};
 window.MOD_EX['2'] = {
@@ -6296,7 +6296,7 @@ window.MOD_EX['2'] = {
       "EN4: Aspects are selected from: the characteristics of the environment; how its elements and processes interact; how it is formed and changes over time; how people interact with it; how people's perceptions of it change over time."
      ],
      "examFormat": [
-      "2026 change: the 2026 specification says 'There will be ONE question with multiple parts'. The 2025 specification said only 'There will be ONE question', and the 2025 paper had a single question with no parts. A 2025-style single-part practice paper does not match the 2026 format. The 2024 paper (parts (a) and (b)) is the closest past model, but the 2026 aspects are not announced.",
+      "2026 change (confirmed): the 2026 Assessment Specifications for Level 2 Geography (published October 2025) say 'There will be ONE question with multiple parts. Candidates will be required to complete written responses, which may be supported by sketch maps and / or diagrams.' The 2025 specification said only 'There will be ONE question', and the 2025 paper was one question with no lettered parts. The 2026 specification does not name the parts or the aspects (EN4) to be assessed, so a 2025-style single-part practice paper does not match the 2026 format; the 2024 paper (parts (a) formation and change over time, (b) change in one person or group's perception) is the closest past model.",
       "Printed paper, end-of-year examination (2026 specification). Written responses, which may be supported by sketch maps and/or diagrams. Diagrams and maps use coloured pencils, with annotations in pen. Bring coloured pencils, a ruler and a calculator.",
       "No resource booklet. The student names a large natural environment studied during the year (in New Zealand or overseas, at national, regional or continental scale) and refers to it throughout, integrating case study evidence, geographic terminology and concepts.",
       "The cover defines key concepts (2025: process, environment, location, perspectives, change, interaction; 2024: environments, location, perspectives, change, interaction). Students may use them.",
@@ -6412,9 +6412,11 @@ window.MOD_EX['2'] = {
       "Literacy status: not checked for this standard (Level 2 standards do not count toward the NCEA co-requisite, and University Entrance literacy lists were not checked)."
      ],
      "components": [
-      "The named large natural environment and its case study evidence",
-      "2025 paper (single question): one natural characteristic and how elements/processes interact to create it",
-      "2026: ONE question with multiple parts; the aspects (EN4) to be specified on the paper (2024 used formation and change, then perception change)"
+      "Named environment (2025 paper): the large natural environment studied, at a national, regional or continental scale, named in the box and referred to throughout",
+      "Chosen characteristic (2025 paper): ONE natural characteristic (element) of that environment, e.g. landforms (relief), climate, soils or vegetation, named in the 'Characteristic' box",
+      "Explanation (2025 paper): how the elements or processes of the environment interact to create that characteristic, with integrated case study evidence",
+      "Diagrams and/or maps (optional on the 2025 paper): sketch maps or diagrams supporting the explanation, in coloured pencil with annotations in pen",
+      "Geographic terminology and key concepts (e.g. process, interaction, change) used appropriately throughout the answer"
      ],
      "focusTip": "Name the student's large natural environment and the aspects the practice paper asked for. The 2026 paper is one question with multiple parts, unlike the single-part 2025 paper, so record which EN4 aspects each part covered.",
      "gates": {
@@ -6495,7 +6497,7 @@ window.MOD_EX['2'] = {
       "Out-of-date or inaccurate case study facts, which the 2024 report says capped higher grades."
      ],
      "aiLimits": "Scans of handwriting and hand-drawn diagrams or sketch maps may be misread, and the AI cannot judge colour, annotation placement or drawing accuracy reliably. Because the case study is the student's own, the AI cannot verify every place name, figure or process; the teacher must check case study accuracy and confirm the practice paper's parts and conditions.",
-     "researchNotes": "Standard text from the NZQA as91240 PDF (2019 folder; Version 2, published 20 November 2014), paraphrased closely. 2025 and 2026 specifications compared by direct quotation of the format line. The 2025 and 2024 schedules extracted out of order, so the code-by-code wording is my best reading, not a verbatim copy, and the E7/E8 split in 2025 is uncertain. A 2026 Profiles of Expected Performance PDF (91240-pep-2026.pdf) is listed, but only a fragment (a 0–60 'PEP band' chart) was readable; its meaning was not established and it was not used. No 2026 paper exists yet. The 2026 timetable (text extraction) lists Level 2 Geography on Tuesday 10 November 2026, morning session; the time allowance is not stated. Derived-grade rule citations reuse sources verified for this site's Level 1 History file on the same date; I did not re-read the 2026 Rules PDF myself. No 2025 exemplars were listed. Enrichment Oct 2026: 3 NZQA exemplars now held (2024); no public subject-association guidance was found for this standard.",
+     "researchNotes": "Standard text from the NZQA as91240 PDF (2019 folder; Version 2, published 20 November 2014), paraphrased closely. 2025 and 2026 specifications compared by direct quotation of the format line. The 2025 and 2024 schedules extracted out of order, so the code-by-code wording is my best reading, not a verbatim copy, and the E7/E8 split in 2025 is uncertain. A 2026 Profiles of Expected Performance PDF (91240-pep-2026.pdf) is listed, but only a fragment (a 0–60 'PEP band' chart) was readable; its meaning was not established and it was not used. No 2026 paper exists yet. The 2026 timetable (text extraction) lists Level 2 Geography on Tuesday 10 November 2026, morning session; the time allowance is not stated. Derived-grade rule citations reuse sources verified for this site's Level 1 History file on the same date; I did not re-read the 2026 Rules PDF myself. No 2025 exemplars were listed. Enrichment Oct 2026: 3 NZQA exemplars now held (2024); no public subject-association guidance was found for this standard. Sim fixes Oct 2026: components rewritten as the parts of a response to the 2025 paper (re-read: one question, no lettered parts) and the 2026 format re-confirmed from the 2026 specification PDF (printed paper; ONE question with multiple parts; parts not named).",
      "clarifications": {
       "date": "n/a",
       "points": []
@@ -6635,8 +6637,8 @@ window.MOD_EX['2'] = {
      ],
      "components": [
       "Case study locations at different stages of development (named, at least two)",
-      "2025 paper: strategy one and how it has or could reduce differences",
-      "2025 paper: strategy two and how it has or could reduce differences"
+      "Strategy one and how it has or could reduce differences",
+      "Strategy two and how it has or could reduce differences"
      ],
      "focusTip": "Name the case study places the student used and the aspects the paper asked for (e.g. two strategies, or one factor and one strategy), so the second reader can check both places and both elements are covered.",
      "gates": {
