@@ -1065,7 +1065,7 @@ You will read the class's answers, find the patterns, and fill in the teacher's 
 
 ${head('AUTHORITY — what you judge against, in this order')}
 1. The achievement standard (criteria and explanatory notes below). It is the only source of criteria.
-2. The ASSESSMENT SCHEDULE for the paper the students sat (${schedWhere}). A school schedule may be adapted or paraphrased from NZQA's: treat its grid as the teacher's reading of these exact questions: use its descriptors for what counts as evidence in each answer, quote them, and follow its cut scores. Where it is STRICTER or more lenient than the NZQA marking model, descriptors or exemplars below (for example a rule that every evaluation part must reach a level before E8, or a wording that narrows the standard), score to the NZQA reading and raise [SCHEDULE]: quote the school rule, say which NZQA wording or exemplar it differs from, and give the code the school rule would produce if it changes a score. A school rule never lowers a code on its own. Test any school marker rule against the NZQA exemplars before relying on it. Recheck the schedule's own model answers, accepted ranges and worked figures against the resources: a range that rules out a valid method, or a model answer that is wrong, is a [SCHEDULE] point.
+2. The ASSESSMENT SCHEDULE for the paper the students sat (${schedWhere}). A school schedule may be adapted or paraphrased from NZQA's: treat its grid as the teacher's reading of these exact questions: use its descriptors for what counts as evidence in each answer, quote them, and follow its cut scores. Where it is STRICTER or more lenient than the NZQA marking model, descriptors or exemplars below (for example a rule that every evaluation part must reach a level before E8, or a wording that narrows the standard), score to the NZQA reading and raise [SCHEDULE]: quote the school rule, say which NZQA wording or exemplar it differs from, and give the code the school rule would produce if it changes a score. A school rule never lowers a code on its own. The same applies part by part: where the school schedule credits a part at a higher level than the matching part of the most recent NZQA paper listed below (for example t for a middle part that NZQA rated u or r), score that part to the NZQA level, raise [SCHEDULE], and give the total the school schedule would produce ("School-schedule total: 22"). If the two totals fall in different grades, confidence cannot be High. Only do this where the NZQA listing for that question is complete enough to reach the top code: if the listed NZQA question has no part at the level its top codes need (for example no Excellence-level part in a question scored to E8), treat that listing as incomplete, score the question to the school schedule, and raise [SCHEDULE] saying the NZQA part levels could not be confirmed. Test any school marker rule against the NZQA exemplars before relying on it. Recheck the schedule's own model answers, accepted ranges and worked figures against the resources: a range that rules out a valid method, or a model answer that is wrong, is a [SCHEDULE] point.
 3. NZQA Assessment Reports and annotated exemplars (below). They show how markers drew the lines in real scripts.
 4. The teacher's department notes (below, if any).
 
@@ -1311,6 +1311,13 @@ ${head('OUTPUT')}
 Work through the students in batches of ${batch}. In each batch print ONLY that batch's new rows, then stop with: "Reply 'continue' for the next ${batch}." In the FINAL reply, give one consolidated table of every student.
 Revisions: if, while marking a later student, you would now score an earlier student differently, add a line "Revision: [student] ${whole ? '' : 'Q[n] '}from X to Y because …" and use the revised score in the consolidated table.
 
+⚠ GRADES TO CHECK (print this block FIRST, above the table, in every batch reply, and again at the top of the final reply covering every student). These are the grades a teacher should not record without a second look. List a student here if ANY of these is true:
+  (a) Confidence is Borderline X/Y;
+  (b) ${whole ? 'the code sits on the edge of its grade (e.g. A4 or M5) and the code on the other side of the cut is a realistic alternative' : 'the lowest or highest plausible total falls in a different grade, or the total is within one mark of a cut score'};
+  (c) the grade would change under the school schedule's credit rather than NZQA's;
+  (d) a [READING] or [ACCURACY] point could change the grade.
+One line per student: "⚠ [Student] — recorded ${whole ? '[code]' : '[total]'} [grade] · could be [other grade] · why, in at most 15 words · Decider: the one ${whole ? 'passage' : 'question part'} to look at." Order by risk: Borderline first, then the rest. If no student qualifies, write "⚠ GRADES TO CHECK: none — no grade sits close to a cut score." Never leave this block out, and never soften it: a teacher may record scores from the table alone, so this is where a near-boundary grade must be impossible to miss.
+
 PART 1 — MARKING TABLE (markdown table, exactly these columns)
 | Student | ${Q.join(' | ')} | ${whole ? 'Code' : 'Total'} | Grade | Confidence | Decided by |
 Under the table give the key: ${tasks.map((t,i) => `${Q[i]} = ${t}`).join('; ')}.
@@ -1322,7 +1329,7 @@ ${whole ? `- Each part: 2 to 5 words on what that part shows (e.g. "describes, s
 
 PART 2 — STUDENT CARDS (one card per student, same order as the table; ${detail === 'full' ? 'at most 220 words each' : detail === 'table' ? 'only the Grade line, the Check line and any Borderline line' : 'at most 120 words each'}). Use exactly this layout, short bullets, no paragraphs:
 
-### [Student] — ${whole ? '[Code]' : '[Total]'} · [Grade] · [Confidence]
+### [Student] — ${whole ? '[Code]' : '[Total]'} · [Grade] · [Confidence]   (start the heading with "⚠ " for every student listed under GRADES TO CHECK)
 - **Earns ${whole ? 'this code' : 'these codes'}:** "short quote" (page${whole ? '' : ', question'}): what it shows.
 - **Not yet the next code:** "short quote" (page${whole ? '' : ', question'}): what is missing.
 - **Borderline** (ONLY if Confidence is Borderline; at most 50 words, not counted in the card limit): "[lower code]/[higher code]. For [higher]: "short quote" (page${whole ? '' : ', question'}): why it could reach it. For [lower]: "short quote" (page${whole ? '' : ', question'}): why it may not. Decider: what the teacher should look at." Give both cases fairly, then keep your best-fit ${whole ? 'code' : 'total'} in the heading.
@@ -1332,7 +1339,7 @@ ${detail === 'full' ? (whole ? 'Then one line per part: "part: quote, what it sh
 
 PART 3 — FOR THE TEACHER (final reply only)
 - Grade distribution and the ${whole ? 'step on the schedule (e.g. describe → explain) that' : 'question that'} held back the most students.
-- Suggested VERIFICATION SAMPLE for the second assessor: every Borderline script, every script with a [READING] point that changes a score, and one secure script at each grade. Say why for each.
+- Suggested VERIFICATION SAMPLE for the second assessor: every script in GRADES TO CHECK, every Borderline script, every script with a [READING] point that changes a score, and one secure script at each grade. Say why for each.
 ${has('provisional') ? '- Agreement with the teacher’s scores: how many agree on the grade, and a list of every disagreement.\n' : ''}- Anything in the paper or schedule that may have made a question harder or easier than the real exam (worth knowing before these grades are used as derived grade evidence).
 
 End with this line exactly:
@@ -1424,6 +1431,13 @@ Grade notation: ${gradeWords}
 Work through the students in batches of ${batch}. In each batch print ONLY that batch's new rows, then stop with: "Reply 'continue' for the next ${batch}." In the FINAL reply, give one consolidated table of every student.
 Revisions: if, while grading a later student, you would now judge an earlier student differently, do not silently change it. Add a line "Revision: [student] from X to Y because …" and use the revised grade in the consolidated table.
 
+⚠ GRADES TO CHECK (print this block FIRST, above the table, in every batch reply, and again at the top of the final reply covering every student). These are the grades a teacher should not record without a second look. List a student here if ANY of these is true:
+  (a) Confidence is Borderline X/Y;
+  (b) Confidence is Moderate and the neighbouring grade is a realistic alternative (in sub-band notation, any Low or High grade, including N-High);
+  (c) the grade would change under the school schedule's reading or a school condition (e.g. "school minimum: N");
+  (d) a [READING], [ACCURACY], [SOURCE] or [WRITING] point could change the grade.
+One line per student: "⚠ [Student] — recorded [grade] · could be [other grade] · why, in at most 15 words · Decider: the one thing to look at." Order by risk: Borderline first, then the rest. If no student qualifies, write "⚠ GRADES TO CHECK: none — no grade sits close to a boundary." Never leave this block out, and never soften it: a teacher may record grades from the table alone, so this is where a near-boundary grade must be impossible to miss.
+
 PART 1 — CLASS TABLE (markdown table, exactly these columns; ${tasks.map((t,i) => L[i]).join(', ')} are diagnostic component judgements)
 | Student | Words | Sufficiency | ${tasks.map((t,i) => L[i]).join(' | ')} | Overall | Confidence | Decided by |
 Under the table give the key: ${tasks.map((t,i) => `${L[i]} = ${t}`).join('; ')}.
@@ -1435,7 +1449,7 @@ Under the table give the key: ${tasks.map((t,i) => `${L[i]} = ${t}`).join('; ')}
 
 PART 2 — STUDENT CARDS (one card per student, in the same order as the table; ${detail === 'full' ? 'at most 220 words each' : detail === 'table' ? 'only the Grade line, the Check line, any Borderline line and, for any Excellence, the Excellence check' : 'at most 130 words each'}, excluding the Excellence check). Use exactly this layout, with short bullets, no paragraphs:
 
-### [Student] — [Overall] · [Confidence]
+### [Student] — [Overall] · [Confidence]   (start the heading with "⚠ " for every student listed under GRADES TO CHECK)
 - **Meets [recorded grade]:** "short quote" (file, section): what it shows, in a few words.
 - **Not yet [next grade]:** "short quote" (file, section): what is missing, naming the gate.
 - **Borderline** (ONLY if Confidence is Borderline; at most 50 words, not counted in the card limit): "[lower]/[higher]. For [higher]: "short quote" (file, section): why it could reach it. For [lower]: "short quote" (file, section): why it may not. Decider: the one thing the teacher should look at to settle it." Give both cases fairly, then keep your best-fit grade in the heading.
@@ -1447,7 +1461,7 @@ ${detail === 'full' ? 'After the Excellence check (or after Next step), add one 
 
 PART 3 — FOR THE TEACHER (only in the final reply, after the last batch)
 - Grade distribution (count of N/A/M/E). If Excellence is as common as Merit or more common, say so and re-test each Excellence against the NZQA Excellence exemplar before finalising; report any you changed as Revisions.
-- Suggested for check-marking or a second marker: every Excellence, every Borderline and [JUDGEMENT] point, every student with an [ACCURACY], [SOURCE], [WRITING] or [LENGTH] point, and one secure script at each grade as a reference. Say why for each.
+- Suggested for check-marking or a second marker: every student in GRADES TO CHECK, every Excellence, every Borderline and [JUDGEMENT] point, every student with an [ACCURACY], [SOURCE], [WRITING] or [LENGTH] point, and one secure script at each grade as a reference. Say why for each.
 - Judgement calls for the whole cohort: where the same REQUIRED item was unclear for several students, or depends on the task design (for example whether a context is genuinely contested, or what counts as initiative), raise it ONCE here rather than per student, so the department can agree a reading.
 - Cohort patterns: where many students were capped by the same gate, name it once, with what that suggests about teaching or task design${s.cohortNote ? ` (${s.cohortNote})` : ''}.
 - Any [SCHEDULE] issues.
@@ -1459,6 +1473,7 @@ FINAL SELF-CHECK (print it, in the final reply, as a short table: | Check | Pass
   4. Any record the task requires (for example an AI prompt trail, a plan, a log) has been checked for each student, and its absence noted.
   5. "High" confidence is used only where no REQUIRED item at the recorded grade sits near its edge; Borderline students are labelled Borderline and their card has a Borderline line giving the case for BOTH grades.
   6. The [SCHEDULE] review compared the task sheet and schedule with the standard's current version number and wording.
+  6b. GRADES TO CHECK is printed at the top and lists every student who meets (a) to (d); each listed student's card heading starts with "⚠ ".
 ${has('provisional') ? '  7. You formed each grade before reading the teacher’s provisional grade.\n' : ''}
 End with this line exactly:
 "These are provisional judgements to support, not replace, the teacher's professional judgement. Verify them against the assessment schedule and the student work before any grade is recorded or reported. This is not internal moderation: grades still need the school's internal moderation by another teacher qualified and experienced in this standard."`;
@@ -1496,7 +1511,7 @@ Work in batches of ${batch} students. After each batch stop with "Reply 'continu
 
 PART 1 — FEEDBACK TABLE (markdown table)
 | Student | Comment for the student | Teacher note (not for the student) |
-- Teacher note: where the script sits (the only place a score may appear), the question the comment targets, and anything to check ([READING] problems, facts to check).
+- Teacher note: where the script sits (the only place a score may appear), the question the comment targets, and anything to check ([READING] problems, facts to check). If the script sits close to a cut score (the next grade up or down is a realistic reading), START the teacher note with "⚠ Near the X/Y boundary:" and the deciding question part.
 
 PART 2 — FOR THE TEACHER (final reply only)
 - Patterns better handled in whole-class teaching before the exam.
@@ -1550,7 +1565,7 @@ Work in batches of ${batch} students. After each batch stop with "Reply 'continu
 PART 1 — FEEDBACK TABLE (markdown table)
 | Student | Comment for the student | Teacher note (not for the student) |
 - Comment for the student: ready to paste, within the rules and the comment style.
-- Teacher note: where the work currently sits and the gate the next step targets (this column is for the teacher only and is the ONLY place a grade may appear), anything you deliberately left out because it would have given too much away, and anything the teacher should check (unconfirmable sources, factual errors you could not mention, observable writing changes between files — describe, never accuse).
+- Teacher note: where the work currently sits and the gate the next step targets (this column is for the teacher only and is the ONLY place a grade may appear; if the work sits close to a grade boundary, so the neighbouring grade is a realistic reading, START the note with "⚠ Near the X/Y boundary:" and the deciding item), anything you deliberately left out because it would have given too much away, and anything the teacher should check (unconfirmable sources, factual errors you could not mention, observable writing changes between files — describe, never accuse).
 
 PART 2 — FOR THE TEACHER (final reply only)
 - Patterns across the class that would be better handled as whole-class feedback than individually.
@@ -1785,8 +1800,8 @@ document.querySelectorAll('[data-launch]').forEach(a => a.addEventListener('clic
   if(show) show.addEventListener('click',()=>{ seen={}; try{ localStorage.removeItem(KEY); }catch(e){} apply(); window.scrollTo({top:0,behavior:'smooth'}); });
   apply();
 })();
-const PROMPT_VERSION = 'Build 18.7 (7 Nov 2026)';
-$('build').textContent = 'Build 18.7 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
+const PROMPT_VERSION = 'Build 19 (15 Nov 2026)';
+$('build').textContent = 'Build 19 · Levels 1–3 · moderation, practice exams and standards information · NZQA sources checked October 2026';
 document.body.dataset.kind = 'int';
 /* ---- data freshness: the standards, specifications and cut scores here were checked for the 2026 year ---- */
 (function(){
